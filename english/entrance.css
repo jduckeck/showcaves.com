@@ -1,0 +1,11 @@
+
+body {
+    color: #000000;
+    background-color: #EDEDED;
+}
+
+A:hover {
+    color: #CABE02;
+    background-color: transparent;
+}
+

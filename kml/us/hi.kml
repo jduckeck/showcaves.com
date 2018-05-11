@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name></name>
+        <Placemark>
+            <name>Kula Kai Caverns</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/KulaKai.html"                >Kula Kai Caverns</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-155.7994757155716</longitude>
+                <latitude>19.06758726529487</latitude>
+                <altitude>0</altitude>
+                <heading>-0.004892131400999028</heading>
+                <tilt>0</tilt>
+                <range>989.3331495283694</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-155.7994757155716,19.06758726529487,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kazumura Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Kazumura.html"               >Kazumura Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-155.1014870106171</longitude>
+                <latitude>19.62495901685357</latitude>
+                <altitude>0</altitude>
+                <heading>-0.01909261181496643</heading>
+                <tilt>8.311548476284203</tilt>
+                <range>32618.68358053481</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-155.101757,19.625,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hana Lava Tube - Ka&apos;eleku Cavern</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Hana.html"               >Ka'eleku Caverns - Hana Lava Tube</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-156.0327320425285</longitude>
+                <latitude>20.79289232493857</latitude>
+                <altitude>0</altitude>
+                <heading>-0.007469582714307036</heading>
+                <tilt>2.167603419450467e-011</tilt>
+                <range>8791.486878610211</range>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-156.0321130303371,20.79183170445538,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Thurston Lava Tube</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Thurston.html"           >Thurston Lava Tube</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-155.238824221813</longitude>
+                <latitude>19.41388936954251</latitude>
+                <altitude>0</altitude>
+                <heading>-12.57501052581834</heading>
+                <tilt>0</tilt>
+                <range>367.8443251163768</range>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-155.238824221813,19.41388936954251,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fern Grotto</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Fern.html"               >Fern Grotto</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-159.3569653851161</longitude>
+                <latitude>22.03926817952537</latitude>
+                <altitude>0</altitude>
+                <heading>-14.05000201497228</heading>
+                <tilt>0</tilt>
+                <range>1433.908892340447</range>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-159.3593071310942,22.03877342407332,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Waikanaloa Caves - Waikapala&apos;e Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Waikanaloa.html"             >Waikanaloa Caves</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-159.5812747620914</longitude>
+                <latitude>22.2197049228583</latitude>
+                <altitude>0</altitude>
+                <heading>161.9169352920565</heading>
+                <tilt>44.14759118335578</tilt>
+                <range>550.6823249879273</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-159.5809956096869,22.21995463554583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Waikanaloa Caves - Dry Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Waikanaloa.html"             >Waikanaloa Caves</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-159.5811625662125</longitude>
+                <latitude>22.22073428540542</latitude>
+                <altitude>0</altitude>
+                <heading>11.93863769525146</heading>
+                <tilt>2.729440520837289e-011</tilt>
+                <range>2641.750418350926</range>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-159.5826972222222,22.22024444444444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Waikanaloa Caves - Wet Cave</name>
+            <open>1</open>
+            <LookAt>
+                <longitude>-159.5807453744283</longitude>
+                <latitude>22.22045051458658</latitude>
+                <altitude>0</altitude>
+                <heading>11.93879546605605</heading>
+                <tilt>0</tilt>
+                <range>63.04738720281389</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-159.58077210867,22.22044405586514,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kaumana Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Kaumana.html"                >Kaumana Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-155.1836397657258</longitude>
+                <latitude>19.67756469037563</latitude>
+                <altitude>0</altitude>
+                <heading>-0.03144824942771817</heading>
+                <tilt>2.16418618925359e-012</tilt>
+                <range>39286.81935170114</range>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-155.1854627407679,19.67695966087117,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wai&apos;anapanapa Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Waianapanapa.html"           >Wai'anapanapa Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-155.9977419538811</longitude>
+                <latitude>20.78101012840876</latitude>
+                <altitude>0</altitude>
+                <heading>-0.003717129172569375</heading>
+                <tilt>4.919602959404837e-012</tilt>
+                <range>3595.589457241702</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-156.0001130522973,20.78562459981119,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Makauwahi Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Makauwahi.html"          >Makauwahi Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-159.4188319011604</longitude>
+                <latitude>21.88810864177016</latitude>
+                <altitude>0</altitude>
+                <heading>0.02642588907934155</heading>
+                <tilt>0</tilt>
+                <range>1027.466322172654</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-159.4189602530639,21.88835253760815,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Deschutes National Forest</name>
+    	<Placemark>
+    		<name>South Ice Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/SouthIce.html"               >South Ice Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>-121.1008868788919</longitude>
+    			<latitude>43.57803168073932</latitude>
+    			<altitude>0</altitude>
+    			<range>1296.404605726031</range>
+    			<tilt>0</tilt>
+    			<heading>0.1460623139413127</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    	    <styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>-121.0996108964487,43.57876341272028,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Boyd Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Boyd.html"                   >Boyd Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>-121.1989664650481</longitude>
+    			<latitude>43.94051310934657</latitude>
+    			<altitude>0</altitude>
+    			<range>1213.613311586575</range>
+    			<tilt>0</tilt>
+    			<heading>0.08238328586528675</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    	    <styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>-121.198269488072,43.94222371524476,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Lava River Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/LavaRiver.html"              >Lava River Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>-121.3695289794733</longitude>
+    			<latitude>43.89538302415129</latitude>
+    			<altitude>0</altitude>
+    			<range>535.3989529582321</range>
+    			<tilt>0</tilt>
+    			<heading>-0.08659307016308887</heading>
+    		</LookAt>
+    	    <styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>-121.3695289794733,43.89538302415129,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Wind Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Boyd.html"                   >Boyd Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>-121.1439272567173</longitude>
+    			<latitude>43.92042249199957</latitude>
+    			<altitude>0</altitude>
+    			<range>593.369679513571</range>
+    			<tilt>0</tilt>
+    			<heading>0.007792477470883202</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    	    <styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>-121.1436867781266,43.92021038959209,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Arnold Ice Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/ArnoldIce.html"              >Arnold Ice Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>-121.1594484103717</longitude>
+    			<latitude>43.90564497168571</latitude>
+    			<altitude>0</altitude>
+    			<range>327.9895806973287</range>
+    			<tilt>0</tilt>
+    			<heading>0.1058170273824877</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    	    <styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>-121.1592299717844,43.90582300060043,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

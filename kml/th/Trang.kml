@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Tham Morakot</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../th/caves/Morakot.html"                 >Tham Morakot</a>]]></description>
+		<LookAt>
+			<longitude>99.28379293185047</longitude>
+			<latitude>7.368981342177805</latitude>
+			<altitude>0</altitude>
+			<range>780.91308102498</range>
+			<tilt>0</tilt>
+			<heading>-0.01076605129149636</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>99.28382439822327,7.368821215000298,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Khao Kop</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/KhaoKop.html"             >Tham Khao Kop</a>]]></description>
+		<LookAt>
+			<longitude>99.57492038234136</longitude>
+			<latitude>7.7902204905733</latitude>
+			<altitude>0</altitude>
+			<range>944.9186185325624</range>
+			<tilt>0</tilt>
+			<heading>0.0001283701639524997</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>99.5745274454423,7.788478585528527,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Pennsylvania</name>
+        <Placemark>
+            <name>Woodward Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../../english/usa/showcaves/Woodward.html"           >Woodward Cave</a>]]></description>
+            <LookAt>
+                <longitude>-77.38763214096298</longitude>
+                <latitude>40.8877923657711</latitude>
+                <altitude>0</altitude>
+                <range>57948.7069300782</range>
+                <tilt>7.012424476596847e-013</tilt>
+                <heading>0.0324632293210216</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-77.38707923407402,40.88891003939432,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Penn&apos;s Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Penn  " href="../../../english/usa/showcaves/Penn.html"           >Penn&apos;s Cave</a>]]></description>
+            <LookAt>
+                <longitude>-77.61154474583196</longitude>
+                <latitude>40.8817519664554</latitude>
+                <altitude>0</altitude>
+                <range>20284.02035385043</range>
+                <tilt>1.967599482197991e-012</tilt>
+                <heading>8.814892155355687e-010</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-77.61181857198855,40.88192794025201,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lost River Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="LostRiver  " href="../../../english/usa/showcaves/LostRiver.html"           >Lost River Caverns</a>]]></description>
+            <LookAt>
+                <longitude>-75.33268543575416</longitude>
+                <latitude>40.58026840998142</latitude>
+                <altitude>0</altitude>
+                <range>5241.205798801481</range>
+                <tilt>3.793713617706461e-012</tilt>
+                <heading>-8.741230211508996e-006</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-75.33135060065523,40.58079557480991,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lincoln Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Lincoln  " href="../../../english/usa/showcaves/Lincoln.html"           >Lincoln Caverns</a>]]></description>
+            <LookAt>
+                <longitude>-78.07082054353791</longitude>
+                <latitude>40.50727276180181</latitude>
+                <altitude>0</altitude>
+                <range>13406.02993052292</range>
+                <tilt>0</tilt>
+                <heading>-0.7472302795508362</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-78.07082054353791,40.50727276180182,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indian Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Indian  " href="../../../english/usa/showcaves/Indian.html"           >Indian Cavern</a>]]></description>
+            <LookAt>
+                <longitude>-78.08841542652064</longitude>
+                <latitude>40.64470920518979</latitude>
+                <altitude>0</altitude>
+                <range>11804.6513751579</range>
+                <tilt>2.107386688591012e-012</tilt>
+                <heading>-0.01447159754226651</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-78.08981787032577,40.64484193807272,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Indian Echo Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="IndianEcho  " href="../../../english/usa/showcaves/IndianEcho.html"           >Indian Echo Caverns</a>]]></description>
+            <LookAt>
+                <longitude>-76.70951317266703</longitude>
+                <latitude>40.25509082050465</latitude>
+                <altitude>0</altitude>
+                <range>7122.208212621773</range>
+                <tilt>1.488263298318431e-017</tilt>
+                <heading>-0.0003504957378072964</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-76.70941602247497,40.25510277777778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laurel Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Laurel  " href="../../../english/usa/showcaves/Laurel.html"           >Laurel Caverns</a>]]></description>
+            <LookAt>
+                <longitude>-79.72330058296529</longitude>
+                <latitude>39.81252812200018</latitude>
+                <altitude>0</altitude>
+                <range>37602.68743788466</range>
+                <tilt>0</tilt>
+                <heading>-0.04302603059988677</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-79.71066806863217,39.79907285029852,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crystal Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Crystal  " href="../../../english/usa/showcaves/Crystal.html"           >Crystal Cave</a>]]></description>
+            <LookAt>
+                <longitude>-75.84347104653244</longitude>
+                <latitude>40.52727583552244</latitude>
+                <altitude>0</altitude>
+                <range>5880.812162595964</range>
+                <tilt>0</tilt>
+                <heading>-0.0007364339899250834</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-75.84268333333333,40.52726666666667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Coral Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Coral  " href="../../../english/usa/showcaves/Coral.html"           >Coral Caverns</a>]]></description>
+            <LookAt>
+                <longitude>-78.58780879722494</longitude>
+                <latitude>40.00687018641131</latitude>
+                <altitude>0</altitude>
+                <range>5981.847503586795</range>
+                <tilt>1.274657268641565e-011</tilt>
+                <heading>0.003613814172857661</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-78.58764722222222,40.00770277777778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Franklin Court Underground Museum</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a sort="FranklinCourt  " href="../../../english/usa/misc/FranklinCourt.html"           >Franklin Court Underground Museum</a>]]></description>
+            <LookAt>
+                <longitude>-75.14671208972955</longitude>
+                <latitude>39.94942134268404</latitude>
+                <altitude>0</altitude>
+                <range>405.8812834603502</range>
+                <tilt>0</tilt>
+                <heading>9.886282648794866</heading>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-75.14685218548384,39.94953279026643,0</coordinates>
+            </Point>
+        </Placemark>
+    	<Placemark>
+    		<name>Trough Creek Ice Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a sort="TroughCreek  " href="../../../english/usa/misc/TroughCreek.html"           >Trough Creek Ice Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-78.12171246465653</longitude>
+    			<latitude>40.33202745954465</latitude>
+    			<altitude>0</altitude>
+    			<range>9855.448778617967</range>
+    			<tilt>1.843079183864272e-012</tilt>
+    			<heading>0.0330054332585565</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>-78.12283340710636,40.33079666395189,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Seldom Seen Tourist Coal Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="SeldomSeen  " href="../../../english/usa/mines/SeldomSeen.html"           >Seldom Seen Tourist Coal Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-78.67623777899773</longitude>
+    			<latitude>40.65793447574476</latitude>
+    			<altitude>0</altitude>
+    			<range>16860.73104094976</range>
+    			<tilt>1.051680588628501e-024</tilt>
+    			<heading>-0.01847882283317063</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-78.67722741520402,40.65648541953406,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Tour-Ed Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="TourEd  " href="../../../english/usa/mines/Tour-Ed.html"           >Tour-Ed Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-79.76074316859986</longitude>
+    			<latitude>40.61728846334776</latitude>
+    			<altitude>0</altitude>
+    			<range>4358.903946109778</range>
+    			<tilt>-1.097417264952195e-015</tilt>
+    			<heading>-0.002709181590424597</heading>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-79.76044990834159,40.61734288912864,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Pioneer Tunnel Coal Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Pioneer  " href="../../../english/usa/mines/Pioneer.html"           >Pioneer Tunnel Coal Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-76.35227807727658</longitude>
+    			<latitude>40.77879434258414</latitude>
+    			<altitude>0</altitude>
+    			<range>10066.70897434143</range>
+    			<tilt>2.118727502005384e-023</tilt>
+    			<heading>-0.02178023884185264</heading>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-76.35251745605494,40.77837472341753,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>The No. 9 Mine &amp; Museum</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="No9  " href="../../../english/usa/mines/No9.html"           >The No. 9 Mine &amp; Museum</a>]]></description>
+    		<LookAt>
+    			<longitude>-75.89869</longitude>
+    			<latitude>40.828553</latitude>
+    			<altitude>0</altitude>
+    			<range>9386.300479440461</range>
+    			<tilt>-4.183259754666928e-012</tilt>
+    			<heading>-6.390726575722662e-015</heading>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-75.89721339682808,40.82837180709623,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Lackawanna Coal Mine Tour</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Lackawanna  " href="../../../english/usa/mines/Lackawanna.html"           >Lackawanna Coal Mine Tour</a>]]></description>
+    		<LookAt>
+    			<longitude>-75.66448436660495</longitude>
+    			<latitude>41.40854629095386</latitude>
+    			<altitude>0</altitude>
+    			<range>20784.86858359961</range>
+    			<tilt>-9.678565217736704e-013</tilt>
+    			<heading>0.012620659086443</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-75.66240928436085,41.40750187400009,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Coudersport Ice Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Coudersport  " href="../../../english/usa/mines/Coudersport.html"           >Coudersport Ice Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-77.95869183358707</longitude>
+    			<latitude>41.7550940759624</latitude>
+    			<altitude>0</altitude>
+    			<range>11050.11496621588</range>
+    			<tilt>1.748400152185406e-012</tilt>
+    			<heading>0.0006742730442667989</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-77.95838826151656,41.75404320093557,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Centralia Burning Coal Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Centralia  " href="../../../english/usa/mines/Centralia.html"           >Centralia Burning Coal Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-76.34413684402995</longitude>
+    			<latitude>40.80025393575183</latitude>
+    			<altitude>0</altitude>
+    			<range>6034.32229462652</range>
+    			<tilt>-6.225658034673884e-012</tilt>
+    			<heading>-0.001637711221426612</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-76.34337134730173,40.80021102381075,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Mines &amp; Meadows ATV Riding Resort</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/MinesMeadows.html"            >Mines &amp; Meadows ATV Riding Resort</a>]]></description>
+    		<open>1</open>
+    		<address>1307 Old Route 18, Wampum, PA 16157, Vereinigte Staaten</address>
+    		<LookAt>
+    			<longitude>-80.331889</longitude>
+    			<latitude>40.864283</latitude>
+    			<altitude>0</altitude>
+    			<range>1000</range>
+    			<tilt>0</tilt>
+    			<heading>0</heading>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>-80.331889,40.864283,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Tham Tab Tao</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../th/caves/TabTao.html"                  >Tham Tab Tao</a>]]></description>
+		<LookAt>
+			<longitude>99.11778527065347</longitude>
+			<latitude>19.66205837960125</latitude>
+			<altitude>0</altitude>
+			<range>870.2758157010479</range>
+			<tilt>0</tilt>
+			<heading>0.05971085891985228</heading>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>99.11778527065349,19.66205837960125,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Chiang Dao</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/ChiangDao.html"           >Tham Chiang Dao</a>]]></description>
+		<LookAt>
+			<longitude>98.92813626003195</longitude>
+			<latitude>19.3940013186823</latitude>
+			<altitude>0</altitude>
+			<range>2252.712640050301</range>
+			<tilt>1.498590386595221e-011</tilt>
+			<heading>-0.0140907874099873</heading>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>98.92813611111112,19.394,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Borichinda</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/Borichinda.html"          >Tham Borichinda</a>]]></description>
+		<LookAt>
+			<longitude>98.6688999998719</longitude>
+			<latitude>18.49279599968333</latitude>
+			<altitude>0</altitude>
+			<range>1000.000057489243</range>
+			<tilt>0</tilt>
+			<heading>-4.06184662676354e-011</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>98.66898463410108,18.49292141215877,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

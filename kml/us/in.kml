@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>Indiana</name>
+        <Placemark>
+            <name>Squire Boone Caverns</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/SquireBoone.html"        >Squire Boone Caverns/Village</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.13414749217019</longitude>
+                <latitude>38.06588931226668</latitude>
+                <altitude>0</altitude>
+                <range>689.3724771545038</range>
+                <tilt>0</tilt>
+                <heading>0.03116890700861068</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.13406240828365,38.06510157313041,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Marengo Cave National Landmark</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Marengo.html"            >Marengo Cave NL</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.339468000029</longitude>
+                <latitude>38.37556899944351</latitude>
+                <altitude>0</altitude>
+                <range>1000.000032068664</range>
+                <tilt>0</tilt>
+                <heading>-1.801108359179271e-011</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.339468000029,38.37556899944351,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Wyandotte Caves</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Wyandotte.html"          >Wyandotte Caves &amp; Woods</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.29386300009062</longitude>
+                <latitude>38.22879299996324</latitude>
+                <altitude>0</altitude>
+                <range>1000.695655660992</range>
+                <tilt>0</tilt>
+                <heading>-5.608590125292765e-011</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.29386300009062,38.22879299996324,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Twin Cave - Spring Mill State Park</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/SpringMill.html"         >Spring Mill State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.41598457270807</longitude>
+                <latitude>38.73154157931789</latitude>
+                <altitude>0</altitude>
+                <range>1062.564825529225</range>
+                <tilt>0</tilt>
+                <heading>-0.004463183250374915</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.41520408503168,38.73036644071454,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bluespring Caverns</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Bluespring.html"         >Bluespring Caverns</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.54621363438496</longitude>
+                <latitude>38.79789809710986</latitude>
+                <altitude>0</altitude>
+                <range>1004.727256302547</range>
+                <tilt>0</tilt>
+                <heading>-0.000501578703851224</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.54665772926403,38.79778444493527,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cave River Park</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CaveRiverPark.html"          >Cave River Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.25416844991673</longitude>
+                <latitude>38.69056450579172</latitude>
+                <altitude>0</altitude>
+                <range>884.382529289617</range>
+                <tilt>0</tilt>
+                <heading>0.005295421983667894</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-86.25393662462034,38.6910097942867,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Elliott Underground Quarry</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Elliott.html"                >Elliott Underground Quarry</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.48379598795395</longitude>
+                <latitude>38.86224625813808</latitude>
+                <altitude>0</altitude>
+                <range>1001.129623648185</range>
+                <tilt>0</tilt>
+                <heading>-2.125723721356141e-010</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-86.48379598795395,38.86224625813808,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

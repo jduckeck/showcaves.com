@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Nevada</name>
+    	<Placemark>
+    		<name>Lehman Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Lehman  " href="../../../english/usa/showcaves/Lehman.html"           >Lehman Caves</a>]]></description>
+    		<LookAt>
+    			<longitude>-114.2199920351603</longitude>
+    			<latitude>39.00587449257784</latitude>
+    			<altitude>0</altitude>
+    			<range>38091.55613967667</range>
+    			<tilt>-1.522093501199858e-012</tilt>
+    			<heading>-0.01716653337765025</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-114.2197340391786,39.0056090157462,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Ponderosa Saloon Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Ponderosa  " href="../../../english/usa/mines/Ponderosa.html"           >Ponderosa Saloon Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-119.6548263425532</longitude>
+    			<latitude>39.29781812373495</latitude>
+    			<altitude>0</altitude>
+    			<range>5789.208135479267</range>
+    			<tilt>2.635397049966124e-012</tilt>
+    			<heading>0.01165946298346179</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-119.6547417150969,39.29791655919532,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Chollar Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Chollar  " href="../../../english/usa/mines/Chollar.html"           >Chollar Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-119.6507366580239</longitude>
+    			<latitude>39.30307934838027</latitude>
+    			<altitude>0</altitude>
+    			<range>905.3753465069609</range>
+    			<tilt>-2.903438454852831e-011</tilt>
+    			<heading>0.00520400102281676</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-119.6506262010732,39.30301401038263,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Tonopah Historic Mining Park</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Tonopah  " href="../../../english/usa/mines/Tonopah.html"           >Tonopah Historic Mining Park</a>]]></description>
+    		<LookAt>
+    			<longitude>-117.2278384880946</longitude>
+    			<latitude>38.06906636744466</latitude>
+    			<altitude>0</altitude>
+    			<range>897.1294995391356</range>
+    			<tilt>6.481188896622669e-011</tilt>
+    			<heading>-0.001396233915039396</heading>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-117.2256138888889,38.06960592129302,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>El Dorado Canyon Mine Tours</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="EldoradoCanyon" href="../../../english/usa/mines/EldoradoCanyon.html"           >El Dorado Canyon Mine Tours</a>]]></description>
+    		<LookAt>
+    			<longitude>-114.8085752266427</longitude>
+    			<latitude>35.70993167771686</latitude>
+    			<altitude>0</altitude>
+    			<range>5144.713379797013</range>
+    			<tilt>0</tilt>
+    			<heading>0.0104025749669486</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-114.8033299780665,35.70990676715492,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

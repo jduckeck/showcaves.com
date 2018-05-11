@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+<!--
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/Chersonesos.html"       >Chersonesos Cave Chruch</a>]]></description>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/Kiev.html"              >Kiev Pechersk Lavra</a>]]></description>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Kristalnaja.html"         >Kristalnaja Pestera</a>]]></description>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Verteba.html"             >Verteba Pestera</a>]]></description>
+-->
+	<Placemark>
+		<name>Odessa Catacombs</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/OdessaCatacombs.html"   >Odessa Catacombs</a>]]></description>
+		<LookAt>
+			<longitude>30.62716259534939</longitude>
+			<latitude>46.53775782629032</latitude>
+			<altitude>0</altitude>
+			<range>369.1629292745941</range>
+			<tilt>0</tilt>
+			<heading>-0.01455221513581022</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>30.62768223728538,46.53779660988571,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mangup Kale</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/MangupKale.html"        >Mangup-Kale</a>]]></description>
+		<LookAt>
+			<longitude>33.8047878206947</longitude>
+			<latitude>44.59951144834992</latitude>
+			<altitude>0</altitude>
+			<range>6223.393761808872</range>
+			<tilt>1.874207401977722e-011</tilt>
+			<heading>-0.6570459267729732</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>33.80710755817076,44.59503655705228,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Chufut Kale</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/ChufutKale.html"        >Chufut-Kale</a>]]></description>
+		<LookAt>
+			<longitude>33.92190482162174</longitude>
+			<latitude>44.74139292887158</latitude>
+			<altitude>0</altitude>
+			<range>1864.961682942105</range>
+			<tilt>8.867393952808896e-012</tilt>
+			<heading>-0.5751555553938667</heading>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>33.92190482162174,44.74139292887158,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Uspensky Cave Monastery</name>
+		<LookAt>
+			<longitude>33.91048221969015</longitude>
+			<latitude>44.74433319039451</latitude>
+			<altitude>0</altitude>
+			<range>1942.960996168669</range>
+			<tilt>4.377493221570986e-011</tilt>
+			<heading>-0.5831971528491863</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>33.91049771576111,44.74456486546869,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tepe-Kermen</name>
+		<LookAt>
+			<longitude>33.91925442566306</longitude>
+			<latitude>44.70783603042996</latitude>
+			<altitude>0</altitude>
+			<range>2774.511648721727</range>
+			<tilt>1.779421337664796e-011</tilt>
+			<heading>-0.5765945913546551</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>33.91877607956656,44.70623746970165,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Red Cave</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Krasnaja.html"            >Krasnaja Pestera</a>]]></description>
+		<LookAt>
+			<longitude>34.33745285530606</longitude>
+			<latitude>44.86549377176974</latitude>
+			<altitude>0</altitude>
+			<range>7684.476298437537</range>
+			<tilt>8.710047465532465e-012</tilt>
+			<heading>-0.2648503348551105</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>34.35003228165888,44.867541638508,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Emine Bair Khasar Cave</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/EmineBairKhasar.html"     >Emine Bair Khasar Cave</a>]]></description>
+		<LookAt>
+			<longitude>34.28927468504062</longitude>
+			<latitude>44.80141425660312</latitude>
+			<altitude>0</altitude>
+			<range>365.0193167603211</range>
+			<tilt>0</tilt>
+			<heading>-0.2432816472492342</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>34.28900054621089,44.8016557622348,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mramornaja Pestera - Marble Cave</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Mramornaja.html"          >Mramornaja</a>]]></description>
+		<LookAt>
+			<longitude>34.27881136133723</longitude>
+			<latitude>44.79716081311327</latitude>
+			<altitude>0</altitude>
+			<range>472.8976330344103</range>
+			<tilt>0</tilt>
+			<heading>-0.2506543569686814</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>34.27912798759852,44.79720289974659,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

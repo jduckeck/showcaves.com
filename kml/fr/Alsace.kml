@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Alsace.kml</name>
+	<StyleMap id="msn_mine2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc147">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc1411</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc47</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_misc166">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine123">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc430">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine62">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc192">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine2210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine123</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine57</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_misc820">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine262">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs11">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc151">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc166</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc164</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cross-hairs_highlight6">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc164">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cross-hairs_highlight8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc47">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc1510">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine2">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc1411">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine57">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine172">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine62</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cross-hairs010">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine622</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine262</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc202">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc430</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc1510</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine622">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cross-hairs11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc133">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc192</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc820</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cross-hairs7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Alsace</name>
+		<Placemark>
+			<name>Alsace</name>
+			<LookAt>
+				<longitude>7.441623960073157</longitude>
+				<latitude>48.31817997421808</latitude>
+				<altitude>0</altitude>
+				<heading>-2.981943354102186e-008</heading>
+				<tilt>0</tilt>
+				<range>235989.1818089243</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.441623960073156,48.31817997421808,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Écomusée d&apos;Alsace</name>
+			<LookAt>
+				<longitude>7.291089489677551</longitude>
+				<latitude>47.85371030426137</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009577141521175944</heading>
+				<tilt>0</tilt>
+				<range>1401.796834450411</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_mine2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.285200459280558,47.85230730819264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Casemat Esch</name>
+			<LookAt>
+				<longitude>7.990309827759995</longitude>
+				<latitude>48.89288087403958</latitude>
+				<altitude>0</altitude>
+				<heading>0.007479736775511794</heading>
+				<tilt>0</tilt>
+				<range>291.1041625475446</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc202</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>7.990309827759994,48.89288087403958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maisons troglodytes du Graufthal</name>
+			<LookAt>
+				<longitude>7.280012515457432</longitude>
+				<latitude>48.81974049677792</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001326434841770627</heading>
+				<tilt>0</tilt>
+				<range>914.1265927085001</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc147</styleUrl>
+			<Point>
+				<coordinates>7.279850653216231,48.81974976191484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Musée de l&apos;Abri de Hatten</name>
+			<LookAt>
+				<longitude>7.967794551880185</longitude>
+				<latitude>48.89918978220848</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00948936187984274</heading>
+				<tilt>0</tilt>
+				<range>462.3610015511623</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc151</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>7.967794551880186,48.89918978220848,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Musée de la Mine à Joseph-Else</name>
+			<LookAt>
+				<longitude>7.247509363055209</longitude>
+				<latitude>47.79317327144159</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01499532677530009</heading>
+				<tilt>0</tilt>
+				<range>945.5898690857816</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_mine34</styleUrl>
+			<Point>
+				<coordinates>7.247509363055209,47.79317327144159,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saint Louis Eisenthür</name>
+			<LookAt>
+				<longitude>7.183137000115388</longitude>
+				<latitude>48.24522400045598</latitude>
+				<altitude>0</altitude>
+				<heading>8.606501454173238e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000360231088</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_mine2210</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>7.183137000115387,48.24522400045599,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grotte Saint Vit</name>
+			<LookAt>
+				<longitude>7.3223121480437</longitude>
+				<latitude>48.72901735272598</latitude>
+				<altitude>0</altitude>
+				<heading>-0.03009203318911254</heading>
+				<tilt>0</tilt>
+				<range>649.4048086712434</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc133</styleUrl>
+			<Point>
+				<coordinates>7.322820307070197,48.72920343071806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La mine St Nicolas à Steinbach</name>
+			<LookAt>
+				<longitude>7.137371842352962</longitude>
+				<latitude>47.82648105025102</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01040146627744037</heading>
+				<tilt>0</tilt>
+				<range>4362.650493668449</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_mine172</styleUrl>
+			<Point>
+				<coordinates>7.138290347023903,47.8259867980965,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tellure</name>
+			<LookAt>
+				<longitude>7.136481258850438</longitude>
+				<latitude>48.21293337393895</latitude>
+				<altitude>0</altitude>
+				<heading>-0.06790644760783712</heading>
+				<tilt>0</tilt>
+				<range>1124.7745796675</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>7.136895817747728,48.21343875270325,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

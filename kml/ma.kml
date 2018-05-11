@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>Morocco</name>
+        <Placemark>
+            <name>Gouffre Friouato</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Friouato.html"          >Gouffre Friouato</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-4.075321830755868</longitude>
+                <latitude>34.10130572438369</latitude>
+                <altitude>0</altitude>
+                <range>7124.479794430857</range>
+                <tilt>0</tilt>
+                <heading>-0.02891609053373649</heading>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-4.075321830755868,34.10130572438369,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes d&apos;Hercules - The Caves of Hercules</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Hercules.html"          >Grottes d'Hercules</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-5.939155893476982</longitude>
+                <latitude>35.75976249514557</latitude>
+                <altitude>0</altitude>
+                <range>468.3642026038475</range>
+                <tilt>12.43202212134103</tilt>
+                <heading>-1.948303950832268e-014</heading>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-5.939265792143203,35.7602547207968,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bhalil Cave Dwellings</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Bhalil.html"                 >Bhalil Cave Dwellings</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-4.873231553399918</longitude>
+                <latitude>33.84864983646171</latitude>
+                <altitude>0</altitude>
+                <range>6630.704408537801</range>
+                <tilt>0</tilt>
+                <heading>0.0504915671812189</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-4.872110492374787,33.85027582415479,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

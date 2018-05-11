@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Caverna de la Olada</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Olada.html"                 >Caverna de la Olada</a>]]></description>
+		<LookAt>
+			<longitude>-75.12588546284266</longitude>
+			<latitude>-10.93340395146486</latitude>
+			<altitude>0</altitude>
+			<range>16307.76024648642</range>
+			<tilt>0</tilt>
+			<heading>-0.0002341569154242908</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-75.12452144784737,-10.93164102211002,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cueva de la Lechuzas</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Lechazas.html"              >Cueva de la Lechazas</a>]]></description>
+		<LookAt>
+			<longitude>-76.03088234400634</longitude>
+			<latitude>-9.340307527953026</latitude>
+			<altitude>0</altitude>
+			<range>15188.0623401891</range>
+			<tilt>0</tilt>
+			<heading>0.007071348312566024</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-76.02992658018401,-9.341579241135088,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Agua Sulfurosa</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../misc/springs/Sulfurosa.html"           >Agua Sulfurosa</a>]]></description>
+		<LookAt>
+			<longitude>-76.02888229917623</longitude>
+			<latitude>-9.323876754782189</latitude>
+			<altitude>0</altitude>
+			<range>997.3666138363382</range>
+			<tilt>0</tilt>
+			<heading>0.006746116541586431</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#spring</styleUrl>
+		<Point>
+			<coordinates>-76.02729932390412,-9.323901968119806,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gruta de Huagapo</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Huagapo.html"               >Gruta de Huagapo</a>]]></description>
+		<LookAt>
+			<longitude>-75.78556969936993</longitude>
+			<latitude>-11.26928703243384</latitude>
+			<altitude>0</altitude>
+			<range>4289.093475144491</range>
+			<tilt>0</tilt>
+			<heading>-0.009089647607047226</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-75.78605193849089,-11.26905065559868,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Museu Vulcanoespeleológico &quot;Machado Fagundes&quot;</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
+		<LookAt>
+			<longitude>-27.22138499935452</longitude>
+			<latitude>38.65539187486889</latitude>
+			<altitude>0</altitude>
+			<range>6522.822193915474</range>
+			<tilt>0</tilt>
+			<heading>0.003146854864196348</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#karst</styleUrl>
+		<Point>
+			<coordinates>-27.22146572534349,38.65562022766677,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gruta das Agulhas</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
+		<LookAt>
+			<longitude>-27.10607324952918</longitude>
+			<latitude>38.64432330079247</latitude>
+			<altitude>0</altitude>
+			<range>674.607103569173</range>
+			<tilt>0</tilt>
+			<heading>0.006616085710766492</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-27.10586497084748,38.64427482435715,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Algar do Carvão</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
+		<LookAt>
+			<longitude>-27.21493700000301</longitude>
+			<latitude>38.72743800016256</latitude>
+			<altitude>0</altitude>
+			<range>1000.00011487818</range>
+			<tilt>0</tilt>
+			<heading>-1.879707816744939e-012</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>-27.21493700000301,38.72743800016256,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gruta do Natal</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
+		<LookAt>
+			<longitude>-27.26797348265302</longitude>
+			<latitude>38.73839620154617</latitude>
+			<altitude>0</altitude>
+			<range>737.1734655498849</range>
+			<tilt>0</tilt>
+			<heading>0.0009712636749286414</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>-27.2678818709477,38.73849398236777,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

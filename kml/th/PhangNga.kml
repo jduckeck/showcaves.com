@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Phang-nga Province, Thailand</name>
+    	<Placemark>
+    		<name>Wat Tham Tapan</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/Tapan.html"                    >Wat Tham Tapan</a>]]></description>
+    		<LookAt>
+    			<longitude>98.52782431245448</longitude>
+    			<latitude>8.454335887889965</latitude>
+    			<altitude>0</altitude>
+    			<range>2943.596958545086</range>
+    			<tilt>0</tilt>
+    			<heading>0.001627415305833397</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>98.52772896739072,8.45464932133976,0</coordinates>
+    		</Point>
+    	</Placemark>
+    <!--
+    	<Placemark>
+    		<name>Tham Phung Chang</name>
+    		<LookAt>
+    			<longitude>98.51454535235155</longitude>
+    			<latitude>8.44157021938485</latitude>
+    			<altitude>0</altitude>
+    			<range>5193.776658527955</range>
+    			<tilt>0</tilt>
+    			<heading>0.01121670921928724</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>98.51512509168479,8.442117395875405,0</coordinates>
+    		</Point>
+    	</Placemark>
+    -->
+    	<Placemark>
+    		<name>James Bond Rock</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../th/karst/JamesBond.html"               >James Bond Rock</a>]]></description>
+    		<LookAt>
+    			<longitude>98.50068461591013</longitude>
+    			<latitude>8.274831805787356</latitude>
+    			<altitude>0</altitude>
+    			<range>394.3841876425211</range>
+    			<tilt>0</tilt>
+    			<heading>0.0229728002244295</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#karst</styleUrl>
+    		<Point>
+    			<coordinates>98.50046511850644,8.27535963896533,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Wat Tham Suwan Kuha</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/SuwanKuha.html"                >Tham Suwan Kuha</a>]]></description>
+    		<LookAt>
+    			<longitude>98.47126844297195</longitude>
+    			<latitude>8.428600032308184</latitude>
+    			<altitude>0</altitude>
+    			<range>1127.290214258124</range>
+    			<tilt>0</tilt>
+    			<heading>0.01134519887918086</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>98.47195444220921,8.428390652770188,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

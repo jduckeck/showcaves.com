@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Abu Simbel</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/AbuSimbel.html"              >Abu Simbel</a>]]></description>
+		<LookAt>
+			<longitude>31.5988054283665</longitude>
+			<latitude>22.3608613784506</latitude>
+			<altitude>0</altitude>
+			<range>554.3206376553989</range>
+			<tilt>0</tilt>
+			<heading>0.0001161896975230482</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>31.59875784484527,22.36088175185325,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Blue Hole</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../misc/karst/Blue.html"                  >Blue Hole</a>]]></description>
+		<styleUrl>#karst</styleUrl>
+		<Point>
+			<coordinates>34.53708333333333,28.57222222222222,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Djara Cave</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Djara.html"                 >Djara Cave</a>]]></description>
+		<LookAt>
+			<longitude>29.63161519294216</longitude>
+			<latitude>27.40303064120777</latitude>
+			<altitude>0</altitude>
+			<range>7333.260103861649</range>
+			<tilt>0</tilt>
+			<heading>-0.6744663166509265</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>29.6376589298492,27.40429768824333,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kom es-Shouqafa</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/KomEsShouqafa.html"          >Kom es-Shouqafa</a>]]></description>
+		<LookAt>
+			<longitude>29.90458502379721</longitude>
+			<latitude>31.18686898405222</latitude>
+			<altitude>0</altitude>
+			<range>56.01921793256113</range>
+			<tilt>0</tilt>
+			<heading>0.001458647497603838</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>29.90461228960082,31.18689720348554,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Jabal al Muqaţţam - Muqattam Mountain Cave Cathedral</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Muqattam.html"               >Muqattam Mountain Cave Cathedral</a>]]></description>
+		<LookAt>
+			<longitude>31.2833333000371</longitude>
+			<latitude>30.03333330021594</latitude>
+			<altitude>0</altitude>
+			<range>1000.000149632766</range>
+			<tilt>0</tilt>
+			<heading>1.855694628899889e-011</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>31.2833333000371,30.03333330021594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Cave of Swimmers</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Swimmers.html"              >Cave of Swimmers</a>]]></description>
+		<LookAt>
+			<longitude>25.23003875655536</longitude>
+			<latitude>23.59429837493191</latitude>
+			<altitude>0</altitude>
+			<range>5423.46611655537</range>
+			<tilt>0</tilt>
+			<heading>-0.005611124554029456</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>25.23359582796536,23.5939998473661,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name></name>
+<!--
+		<styleUrl>#cave</styleUrl>
+		<styleUrl>#showcave</styleUrl>
+		<styleUrl>#subterranea</styleUrl>
+		<styleUrl>#mine</styleUrl>
+		<styleUrl>#karst</styleUrl>
+		<styleUrl>#spring</styleUrl>
+		<styleUrl>#gorge</styleUrl>
+        <description><![CDATA[]]></description>
+-->
+    	<Placemark>
+    		<name>Golubinsky Proval</name>
+    		<description><![CDATA[<img vspace="0" hspace="0" src="C:/Dokumente und Einstellungen/user/graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../ru/caves/Golubino.html"                >Golubinsky Proval</a>]]></description>
+    		<LookAt>
+    			<longitude>43.26466742696696</longitude>
+    			<latitude>64.5568361306233</latitude>
+    			<altitude>0</altitude>
+    			<range>2255.189367671387</range>
+    			<tilt>0</tilt>
+    			<heading>5.164314391732116</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>43.26159284320235,64.55543913533484,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

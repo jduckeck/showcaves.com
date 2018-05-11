@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<Placemark>
+    		<name>Emerald Village &amp; North Carolina Mining Museum</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Emerald  " href="../../../english/usa/mines/Emerald.html"           >Emerald Village &amp; North Carolina Mining Museum</a>]]></description>
+    		<LookAt>
+    			<longitude>-82.1312223011501</longitude>
+    			<latitude>35.8489045808676</latitude>
+    			<altitude>0</altitude>
+    			<range>13892.36673707671</range>
+    			<tilt>-1.374954062685398e-012</tilt>
+    			<heading>-0.01365999621582795</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-82.1305188394177,35.84783431620832,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Reed Gold Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Reed  " href="../../../english/usa/mines/Reed.html"           >Reed Gold Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>-80.46697992032438</longitude>
+    			<latitude>35.28564166706922</latitude>
+    			<altitude>0</altitude>
+    			<range>512.3790443493816</range>
+    			<tilt>-2.978937894703798e-011</tilt>
+    			<heading>-0.0008784395743927616</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-80.46650353899362,35.28521652168276,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>The Grove Park Inn Resort &amp; Spa</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="../../../english/usa/misc/Portland.html"           >The Grove Park Inn Resort &amp; Spa</a>]]></description>
+    		<LookAt>
+    			<longitude>-82.5426080645024</longitude>
+    			<latitude>35.62033438893288</latitude>
+    			<altitude>0</altitude>
+    			<range>550.7996298758307</range>
+    			<tilt>0</tilt>
+    			<heading>0.006133212876317939</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>-82.54274511493914,35.62041239172301,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Boone's Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a sort="Boone  " href="../../../english/usa/caves/Boone.html"           >Boone's Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>-80.07114838826374</longitude>
+    			<latitude>35.37766004599936</latitude>
+    			<altitude>0</altitude>
+    			<range>3910.999777030409</range>
+    			<tilt>6.735023196780942e-013</tilt>
+    			<heading>0.04379563603476452</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>-80.06231559102825,35.381432507357,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Linville Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../../english/usa/showcaves/Linville.html"           >Linville Caverns</a>]]></description>
+    		<LookAt>
+    			<longitude>-81.93977243392571</longitude>
+    			<latitude>35.91399589297798</latitude>
+    			<altitude>0</altitude>
+    			<range>12501.49784864841</range>
+    			<tilt>-3.087900828931343e-012</tilt>
+    			<heading>0.06725624360246686</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-81.93776897098648,35.91632492990263,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

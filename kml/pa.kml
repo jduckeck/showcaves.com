@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Las Cuevas de Chilibre</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Chilibrillo.html"           >Chilibrillo Cave</a>]]></description>
+		<LookAt>
+			<longitude>-79.61692127119012</longitude>
+			<latitude>9.176480612052279</latitude>
+			<altitude>0</altitude>
+			<range>640.9732547843569</range>
+			<tilt>0</tilt>
+			<heading>0.0003869620273374957</heading>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-79.61692127119012,9.176480612052279,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>El Majé Caves</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/ElMaje.html"                >El Maj&eacute; Caves</a>]]></description>
+		<LookAt>
+			<longitude>-78.84189242021033</longitude>
+			<latitude>9.160245543820798</latitude>
+			<altitude>0</altitude>
+			<range>26128.22105996928</range>
+			<tilt>0</tilt>
+			<heading>0.3868660947606414</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-78.81370083861567,9.169356796667371,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>La Fuente</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../misc/springs/LaFuente.html"            >La Fuente</a>]]></description>
+		<LookAt>
+			<longitude>-82.71612360875962</longitude>
+			<latitude>8.843759323616414</latitude>
+			<altitude>0</altitude>
+			<range>20453.21678536841</range>
+			<tilt>0</tilt>
+			<heading>0.0004086103287644672</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#spring</styleUrl>
+		<Point>
+			<coordinates>-82.71487572869008,8.833174729281749,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>La Gruta</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/LaGruta.html"               >La Gruta</a>]]></description>
+		<LookAt>
+			<longitude>-82.26912771282157</longitude>
+			<latitude>9.398259337767504</latitude>
+			<altitude>0</altitude>
+			<range>3769.946065819031</range>
+			<tilt>0</tilt>
+			<heading>0.08636806831744226</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-82.2709352543437,9.396235578285575,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Nivida Cave</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Nivida.html"                >Cave Nivida</a>]]></description>
+		<LookAt>
+			<longitude>-82.20415144525038</longitude>
+			<latitude>9.345681565913395</latitude>
+			<altitude>0</altitude>
+			<range>10582.64649671002</range>
+			<tilt>0</tilt>
+			<heading>0.001036906099662082</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-82.20597911280439,9.345840719419298,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Gruta del Drago</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Drago.html"                 >Gruta del Drago</a>]]></description>
+		<LookAt>
+			<longitude>-82.32682864781168</longitude>
+			<latitude>9.40905623811671</latitude>
+			<altitude>0</altitude>
+			<range>1152.826482370342</range>
+			<tilt>0</tilt>
+			<heading>0.07693364573897123</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-82.32674565120583,9.409801372861445,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>El Puente Natural</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/ElPuenteNatural.html"       >El Puente Natural</a>]]></description>
+		<LookAt>
+			<longitude>-79.55554916700331</longitude>
+			<latitude>9.196720905379625</latitude>
+			<altitude>0</altitude>
+			<range>1592.245819100374</range>
+			<tilt>0</tilt>
+			<heading>0.7858517271261161</heading>
+		</LookAt>
+		<styleUrl>#cave</styleUrl>
+		<Point>
+			<coordinates>-79.55554916700331,9.196720905379625,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

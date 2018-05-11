@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>Belgium</name>
+        <Placemark>
+            <name>Grotte Scladina</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../be/caves/Scladina.html"                >Grotte Scladina</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.025788281569425</longitude>
+                <latitude>50.48375314284525</latitude>
+                <altitude>0</altitude>
+                <range>1004.265607168112</range>
+                <tilt>0</tilt>
+                <heading>-0.000793993790450668</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>5.025294395418629,50.48428890286003,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte de Spy</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../be/caves/Spy.html"                     >La Grotte de Spy</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.673995138023523</longitude>
+                <latitude>50.48010178632944</latitude>
+                <altitude>0</altitude>
+                <range>4876.311422935392</range>
+                <tilt>0</tilt>
+                <heading>-0.03391597693278709</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>4.674064611822977,50.48024250495013,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ardoisalle 1947</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Ardoisalle.html"              >Ardoisalle 1947</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.966418602292288</longitude>
+                <latitude>49.83708081856989</latitude>
+                <altitude>0</altitude>
+                <range>399.5635838255425</range>
+                <tilt>0</tilt>
+                <heading>-0.0004057097667251008</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>4.967106595195396,49.83727189979742,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bertrix Slate Mine</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Bertrix.html"                 >Bertrix Slate Mine</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.272433711900899</longitude>
+                <latitude>49.81266275220781</latitude>
+                <altitude>0</altitude>
+                <range>869.2312599562368</range>
+                <tilt>0</tilt>
+                <heading>-0.0008919770374503331</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>5.272433711900899,49.81266275220781,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vlaams Mijnmuseum</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Vlaams.html"                  >Vlaams Mijnmuseum</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.221054000127221</longitude>
+                <latitude>51.07077000037694</latitude>
+                <altitude>0</altitude>
+                <range>1000.000111254524</range>
+                <tilt>0</tilt>
+                <heading>9.901305264997033e-011</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>5.221054000127221,51.07077000037694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les minières de silex néolithique de Spiennes à Mons</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Spiennes.html"                >Les mini&egrave;res de silex n&eacute;olithique de Spiennes</a>]]>
+            </description>
+            <LookAt>
+                <longitude>3.982132322465153</longitude>
+                <latitude>50.42006872002352</latitude>
+                <altitude>0</altitude>
+                <range>251.6873586996151</range>
+                <tilt>0</tilt>
+                <heading>0.0004291696449586168</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>3.981847731539727,50.42008415324694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Parc National de Furfooz</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../be/caves/Furfooz.html"                 >Parc National de Furfooz</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.955243000601328</longitude>
+                <latitude>50.21272697502062</latitude>
+                <altitude>0</altitude>
+                <range>1506.026333135772</range>
+                <tilt>0</tilt>
+                <heading>0.001439178996045996</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>4.956246648281473,50.21405782482228,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Musée de la Mine La Louvière</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Louviere.html"                >Mus&eacute;e de la Mine La Louvi&egrave;re</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.149278087278228</longitude>
+                <latitude>50.47051460675558</latitude>
+                <altitude>0</altitude>
+                <range>256.4407164511937</range>
+                <tilt>0</tilt>
+                <heading>-0.0003093684440878858</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>4.150179103112171,50.47037486313734,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte et Abime de Comblain-au-Pont</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Comblain.html"            >Grotte et Abime de Comblain-au-Pont</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.566380453911668</longitude>
+                <latitude>50.47672012855693</latitude>
+                <altitude>0</altitude>
+                <range>343.3469806341867</range>
+                <tilt>0</tilt>
+                <heading>-0.01125853051938752</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.566566667167503,50.47670246488078,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte de Floreffe</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Floreffe.html"            >Grottes de Floreffe</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.757027724464014</longitude>
+                <latitude>50.42747632316128</latitude>
+                <altitude>0</altitude>
+                <range>644.3361722399496</range>
+                <tilt>0</tilt>
+                <heading>-0.0003985400479874061</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.757519110174055,50.42659981485862,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes de Lorette-Rochefort</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Rochefort.html"           >Grottes de Rochefort</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.226683808120092</longitude>
+                <latitude>50.1552871586555</latitude>
+                <altitude>0</altitude>
+                <range>208.6223303993385</range>
+                <tilt>0</tilt>
+                <heading>0.001882613540735649</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.226582131799249,50.15526153026547,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes de Han-sur-Lesse</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Han.html"                 >Grottes de Han-sur-Lesse</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.188678089812595</longitude>
+                <latitude>50.12304140774833</latitude>
+                <altitude>0</altitude>
+                <range>1079.933430564546</range>
+                <tilt>0</tilt>
+                <heading>0.0005775888790604297</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.1874089103112,50.12534250556168,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes de Han-sur-Lesse - Cave Entrance</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Han.html"                 >Grottes de Han-sur-Lesse</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.188678089812595</longitude>
+                <latitude>50.12304140774833</latitude>
+                <altitude>0</altitude>
+                <range>1079.933430564546</range>
+                <tilt>0</tilt>
+                <heading>0.0005775888790604297</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.192346739162923,50.12124606242367,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte de Lustin</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Lustin.html"              >Grottes de Lustin</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.878029246628421</longitude>
+                <latitude>50.37833026714726</latitude>
+                <altitude>0</altitude>
+                <range>205.4989198934222</range>
+                <tilt>0</tilt>
+                <heading>-7.102333296586435e-005</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.878011484850133,50.37844559452179,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte la Merveilleuse</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Merveilleuse.html"        >Grotte La Merveilleuse</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.904349226056906</longitude>
+                <latitude>50.2548361945817</latitude>
+                <altitude>0</altitude>
+                <range>339.354692616184</range>
+                <tilt>0</tilt>
+                <heading>-1.148142073352152e-009</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.904349226056906,50.25483619458169,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte de Mont-Fat</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/MontFat.html"             >Grotte de Mont-Fat</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.914836101172176</longitude>
+                <latitude>50.25930569259582</latitude>
+                <altitude>0</altitude>
+                <range>360.7222312408867</range>
+                <tilt>0</tilt>
+                <heading>1.674752475502093e-008</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.914954317434315,50.25933149949489,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes de Neptune</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Neptune.html"             >Grottes de Neptune</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.520018965210297</longitude>
+                <latitude>50.06473460502267</latitude>
+                <altitude>0</altitude>
+                <range>1095.204090479795</range>
+                <tilt>5.921911465681128e-012</tilt>
+                <heading>-0.01034299724740138</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.519930933599866,50.06348639226027,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>La Grotte Ramioul</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Ramioul.html"             >Grottes de Ramioul</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.426650804752557</longitude>
+                <latitude>50.57900861305563</latitude>
+                <altitude>0</altitude>
+                <range>190.757514985151</range>
+                <tilt>1.896486601981917e-010</tilt>
+                <heading>-0.0002161411979047293</heading>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.426650804752557,50.57900861305563,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes Pont d&apos;Arcole</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/PontDArcole.html"         >Grottes Pont d'Arcole</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.812018052023565</longitude>
+                <latitude>50.22240318865858</latitude>
+                <altitude>0</altitude>
+                <range>1447.212790260712</range>
+                <tilt>0</tilt>
+                <heading>-0.0009100650106285753</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.811456583661302,50.22179558008924,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Remouchamps.html"         >Grottes de Remouchamps</a>]]>
+            </description>
+            <name>Grottes de Remouchamps</name>
+            <LookAt>
+                <longitude>5.711685692096826</longitude>
+                <latitude>50.47995751793342</latitude>
+                <altitude>0</altitude>
+                <range>215.8314379424111</range>
+                <tilt>0</tilt>
+                <heading>7.274168830319719e-005</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.712016690287623,50.48004264212481,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotte Prehistorique de Goyet</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Goyet.html"               >Grotte de Goyet</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.014908605944937</longitude>
+                <latitude>50.44440504335211</latitude>
+                <altitude>0</altitude>
+                <range>631.2799254077953</range>
+                <tilt>0</tilt>
+                <heading>-0.0004644506850171946</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.014908605944937,50.44440504335211,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes de Hotton</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Hotton.html"              >Grottes de Hotton - Grottes de 1001 Nuit</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.456166671821516</longitude>
+                <latitude>50.25904360220923</latitude>
+                <altitude>0</altitude>
+                <range>698.3205208660701</range>
+                <tilt>0</tilt>
+                <heading>0.007427919687008166</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>5.456037738662047,50.25911529825008,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cavernes préhistoriques de l&apos;Abîme</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../be/showcaves/Abime.html"               >Abime</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.498388939276595</longitude>
+                <latitude>50.04887148055326</latitude>
+                <altitude>0</altitude>
+                <range>1861.158972897672</range>
+                <tilt>2.882071980766355e-011</tilt>
+                <heading>-0.01245688065099144</heading>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>4.4979095711318,50.04869318011187,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Fondry Des Chiens</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../be/karst/Fondry.html"                  >Le Fondry Des Chiens</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.555670833692209</longitude>
+                <latitude>50.06872318239418</latitude>
+                <altitude>0</altitude>
+                <range>1706.959846226841</range>
+                <tilt>4.045144068820133e-012</tilt>
+                <heading>0.01743101802659998</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>4.556595332679436,50.06894986168668,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grand Hornu</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Hornu.html"                   >Grand Hornu</a>]]>
+            </description>
+            <LookAt>
+                <longitude>3.839269493102684</longitude>
+                <latitude>50.43535990125481</latitude>
+                <altitude>0</altitude>
+                <range>574.9642455685449</range>
+                <tilt>0</tilt>
+                <heading>-0.0001345291701737833</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>3.839269493102684,50.43535990125481,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Blegny-Mine</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Blegny.html"                  >Blegny-Mine</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.722754857876821</longitude>
+                <latitude>50.6867349346384</latitude>
+                <altitude>0</altitude>
+                <range>752.9270595293854</range>
+                <tilt>0</tilt>
+                <heading>-0.0008349220001226203</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>5.722754857876822,50.68673493463841,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Le Bois du Cazier</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Cazier.html"                  >Bois du Cazier</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.443044591066968</longitude>
+                <latitude>50.38063721634498</latitude>
+                <altitude>0</altitude>
+                <range>606.7092578564556</range>
+                <tilt>0</tilt>
+                <heading>-0.00131120238916252</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>4.443044591066968,50.38063721634499,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Schieferstollen Recht</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Recht.html"                   >Schieferstollen Recht</a>]]>
+            </description>
+            <LookAt>
+                <longitude>6.054521321625439</longitude>
+                <latitude>50.32337415749103</latitude>
+                <altitude>0</altitude>
+                <range>4711.069996788775</range>
+                <tilt>6.557783854927064e-012</tilt>
+                <heading>0.008913784171152413</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>6.056163636279734,50.32261130907497,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ecomusée du Bois-du-Luc</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/BoisDuLuc.html"               >Ecomus&eacute;e du Bois-du-Luc</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.149278087278228</longitude>
+                <latitude>50.47051460675558</latitude>
+                <altitude>0</altitude>
+                <range>256.4407164511937</range>
+                <tilt>0</tilt>
+                <heading>-0.0003093684440878858</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>4.148662736790863,50.47089174789304,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Musée des Égouts</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/Egouts.html"                   >Mus&eacute;e des &Eacute;gouts</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.338900866339264</longitude>
+                <latitude>50.84467818742816</latitude>
+                <altitude>0</altitude>
+                <range>522.6166362893894</range>
+                <tilt>0</tilt>
+                <heading>0.0002906817373400061</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>4.338900866339264,50.84467818742816,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Les souterrains de Philippeville</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/Philippeville.html"            >Les souterrains de Philippeville</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.544219000000039</longitude>
+                <latitude>50.19637800000003</latitude>
+                <altitude>0</altitude>
+                <range>1149.844451461946</range>
+                <tilt>1.388277697850304e-011</tilt>
+                <heading>3.633877851042167e-015</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>4.544219000000039,50.19637800000004,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grotten Van Kanne</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/Kanne.html"                    >Grotten Van Kanne</a>]]>
+            </description>
+            <LookAt>
+                <longitude>5.668360553169043</longitude>
+                <latitude>50.80955349164147</latitude>
+                <altitude>0</altitude>
+                <range>319.4622577506689</range>
+                <tilt>0</tilt>
+                <heading>-0.0003967018304181762</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>5.668360553169043,50.80955349164147,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Grottes de Folx-Les-Caves</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/FolxLesCaves.html"             >Grottes de Folx-Les-Caves</a>]]>
+            </description>
+            <LookAt>
+                <longitude>4.94081576303639</longitude>
+                <latitude>50.66623736044122</latitude>
+                <altitude>0</altitude>
+                <range>233.2250990076346</range>
+                <tilt>0</tilt>
+                <heading>-0.0002051558533655381</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>4.940885500183767,50.66619196411775,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Musée de la Mine d&apos;Harchies</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Harchies.html"                >Mus&eacute;e de la Mine d'Harchies</a>]]>
+            </description>
+            <LookAt>
+                <longitude>3.687831009788775</longitude>
+                <latitude>50.47579352972679</latitude>
+                <altitude>0</altitude>
+                <range>335.7556920012634</range>
+                <tilt>0</tilt>
+                <heading>-0.0007061765585815209</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>3.687505137226461,50.47551243422454,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark>
+            <name>Boulder Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a sort="Boulder  " href="../../../english/usa/caves/Boulder.html"           >Boulder Caves</a>]]></description>
+            <LookAt>
+                <longitude>-71.72286057769126</longitude>
+                <latitude>44.02710313904722</latitude>
+                <altitude>0</altitude>
+                <range>2208.331704904831</range>
+                <tilt>1.705303081619074e-012</tilt>
+                <heading>-0.001858296028248845</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-71.72407697580486,44.02728250638086,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Polar Caves Park</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Polar  " href="../../../english/usa/showcaves/Polar.html"           >Polar Caves Park</a>]]></description>
+            <LookAt>
+                <longitude>-71.78814877007166</longitude>
+                <latitude>43.7838448643923</latitude>
+                <altitude>0</altitude>
+                <range>9890.059933799266</range>
+                <tilt>2.016465651265992e-012</tilt>
+                <heading>-0.04952291607259723</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-71.78087529510337,43.78159748214166,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ruggles Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Ruggles  " href="../../../english/usa/mines/Ruggles.html"           >Ruggles Mine</a>]]></description>
+            <LookAt>
+                <longitude>-71.99395635783442</longitude>
+                <latitude>43.5849143189417</latitude>
+                <altitude>0</altitude>
+                <range>5120.002615261223</range>
+                <tilt>-3.677203053915711e-012</tilt>
+                <heading>0.001546829592135057</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-71.99340337585417,43.58768893432526,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

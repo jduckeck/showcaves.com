@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Estonia</name>
+    	<Placemark>
+    		<name>Nöiakaev - Witch’s Well</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../misc/springs/Noiakaev.html"            >N&#245;iakaev</a>]]></description>
+    		<LookAt>
+    			<longitude>24.96268759309573</longitude>
+    			<latitude>59.20062977599181</latitude>
+    			<altitude>0</altitude>
+    			<range>1955.084616600865</range>
+    			<tilt>0</tilt>
+    			<heading>-0.003860491135408271</heading>
+    		</LookAt>
+    		<styleUrl>#spring</styleUrl>
+    		<Point>
+    			<coordinates>24.96679793087861,59.2019095703762,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Neitsikoobas</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Neitsikoobas.html"          >Neitsikoobas</a>]]></description>
+    		<LookAt>
+    			<longitude>27.04806237134149</longitude>
+    			<latitude>58.11053671524066</latitude>
+    			<altitude>0</altitude>
+    			<range>1603.318575270234</range>
+    			<tilt>0</tilt>
+    			<heading>0.002936185555462223</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>27.04674091379402,58.11012610378749,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Aruküla Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Arukula.html"                >Aruküla Caves</a>]]></description>
+    		<LookAt>
+    			<longitude>26.71636788511481</longitude>
+    			<latitude>58.38948541612307</latitude>
+    			<altitude>0</altitude>
+    			<range>1019.85766373742</range>
+    			<tilt>0</tilt>
+    			<heading>0.04877179566001277</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>26.71514208494954,58.39005051137685,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Piusa Koopad</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Piusa.html"                  >Piusa Koopad</a>]]></description>
+    		<LookAt>
+    			<longitude>27.46611311203146</longitude>
+    			<latitude>57.84200984270651</latitude>
+    			<altitude>0</altitude>
+    			<range>949.7715205001108</range>
+    			<tilt>0</tilt>
+    			<heading>-0.0008363391527668317</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>27.46590027319697,57.84065013446587,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Maimu Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Maimu.html"                 >Maimu Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>25.49173132440309</longitude>
+    			<latitude>58.12513942917948</latitude>
+    			<altitude>0</altitude>
+    			<range>3440.141341846546</range>
+    			<tilt>0</tilt>
+    			<heading>0.0433662770733341</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>25.49173132440309,58.12513942917948,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Helme Koobastesse</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Helme.html"                  >Helme Koopad</a>]]></description>
+    		<LookAt>
+    			<longitude>25.88000923728068</longitude>
+    			<latitude>58.01901421956016</latitude>
+    			<altitude>0</altitude>
+    			<range>2329.346447445395</range>
+    			<tilt>0</tilt>
+    			<heading>-0.009683708594501976</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>25.88030223307855,58.01837008472786,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Tori Hell</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Tori.html"                  >Tori Hell</a>]]></description>
+    		<LookAt>
+    			<longitude>24.81632435639161</longitude>
+    			<latitude>58.48344741744536</latitude>
+    			<altitude>0</altitude>
+    			<range>179.7251783114345</range>
+    			<tilt>0</tilt>
+    			<heading>-0.0006753012125706826</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>24.8163243563916,58.48344741744536,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Allikukivi Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Allikukivi.html"            >Allikukivi Caves</a>]]></description>
+    		<LookAt>
+    			<longitude>25.00837049467456</longitude>
+    			<latitude>58.15545115087895</latitude>
+    			<altitude>0</altitude>
+    			<range>980.093039894845</range>
+    			<tilt>0</tilt>
+    			<heading>0.04822942283618612</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>25.00837049467456,58.15545115087895,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

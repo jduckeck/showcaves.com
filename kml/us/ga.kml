@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>Georgia</name>
+        <Placemark>
+            <name>Cave Spring and Rolater Park</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/CaveSpring.html"           >Cave Spring</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.33474409692592</longitude>
+                <latitude>34.10545935479648</latitude>
+                <altitude>0</altitude>
+                <range>554.3122673590822</range>
+                <tilt>0</tilt>
+                <heading>-0.1017745706265645</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#spring</styleUrl>
+            <Point>
+                <coordinates>-85.33484365228993,34.10489546031008,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Consolidated Gold Mine</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Consolidated.html"           >Consolidated Gold Mines</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.97280666756791</longitude>
+                <latitude>34.53630544379337</latitude>
+                <altitude>0</altitude>
+                <range>588.0044380130717</range>
+                <tilt>0</tilt>
+                <heading>0.08903907211900342</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-83.97315007638728,34.5366158192221,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Dahlonega Courthouse Gold Museum</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Courthouse.html"             >Dahlonega Courthouse Gold Museum</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.98498886253958</longitude>
+                <latitude>34.53258693030795</latitude>
+                <altitude>0</altitude>
+                <range>173.3803515752908</range>
+                <tilt>0</tilt>
+                <heading>0.08213336519284177</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-83.98495298673932,34.53260165465476,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crisson Gold Mine</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Crisson.html"                >Crisson Gold Mine</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.9652737901209</longitude>
+                <latitude>34.56417772037283</latitude>
+                <altitude>0</altitude>
+                <range>1508.805882547929</range>
+                <tilt>0</tilt>
+                <heading>0.09352599246659674</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-83.9652737901209,34.56417772037283,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Petty John&apos;s Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/PettyJohn.html"              >Petty John's Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.3625637999186</longitude>
+                <latitude>34.66491727166358</latitude>
+                <altitude>0</altitude>
+                <range>1368.442316436866</range>
+                <tilt>52.4031492471177</tilt>
+                <heading>19.79746916692274</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-85.36610908109485,34.66444352614273,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pine Mountain Gold Museum - Stockmar Gold Mine</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/PineMountain.html"           >Pine Mountain Gold Museum</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-84.88576644589715</longitude>
+                <latitude>33.75236016167096</latitude>
+                <altitude>0</altitude>
+                <range>431.7818454914776</range>
+                <tilt>0</tilt>
+                <heading>-0.07051598789196033</heading>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-84.88576644589715,33.75236016167096,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sitton&apos;s Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Sitton.html"                 >Sitton's Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.48082289965488</longitude>
+                <latitude>34.83413148058318</latitude>
+                <altitude>0</altitude>
+                <range>595.7124285821693</range>
+                <tilt>0</tilt>
+                <heading>-0.0009670171036557248</heading>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-85.48082289965488,34.83413148058318,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

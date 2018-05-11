@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Centre.kml</name>
+	<Style id="sh_showcave10030">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc310">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc194">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc108">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc165">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc194</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_misc1021">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc169">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc241">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc171">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc153</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc241</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight7">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave166">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc431">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs01">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc165">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc153">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_showcave135">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave103</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave155</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc174">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc1072</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc401</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_misc161">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc105">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc108</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc157</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cross-hairs17">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc84">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc41">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc221</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_misc173">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc81">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc185">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc49">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc84</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc431</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave166</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave10030</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cross-hairs15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc71">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc145</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc169</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight13">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_misc1072">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cross-hairs12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_misc145">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cross-hairs_highlight21">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cross-hairs14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc46">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc173</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc165</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_misc181">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc161</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc75</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_misc221">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave103">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_misc138">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_misc185</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_misc1021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_misc157">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc401">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_misc75">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/misc.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave155">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Centre</name>
+		<Placemark>
+			<name>Centre</name>
+			<LookAt>
+				<longitude>1.675062988277076</longitude>
+				<latitude>47.75156911656103</latitude>
+				<altitude>0</altitude>
+				<heading>-8.677694393809116e-009</heading>
+				<tilt>0</tilt>
+				<range>368622.8205881937</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>1.675062988277076,47.75156911656102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cave des Producteurs de Montlouis</name>
+			<LookAt>
+				<longitude>0.8540359900565143</longitude>
+				<latitude>47.39112921397786</latitude>
+				<altitude>0</altitude>
+				<heading>-7.597897153030832e-005</heading>
+				<tilt>0</tilt>
+				<range>495.1590104851438</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc138</styleUrl>
+			<Point>
+				<coordinates>0.8540665476891785,47.39088326918056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grotte du Foulon</name>
+			<LookAt>
+				<longitude>1.32703486639695</longitude>
+				<latitude>48.07122212334939</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004717334948345278</heading>
+				<tilt>0</tilt>
+				<range>951.9760704572534</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_showcave021</styleUrl>
+			<Point>
+				<coordinates>1.32975807228366,48.07241925030064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>La Vallée troglodytique des Goupillières</name>
+			<LookAt>
+				<longitude>0.5022859901277796</longitude>
+				<latitude>47.26418846324604</latitude>
+				<altitude>0</altitude>
+				<heading>0.01022375195656388</heading>
+				<tilt>1.063027335550529e-011</tilt>
+				<range>1156.492693966505</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc46</styleUrl>
+			<Point>
+				<coordinates>0.5015392804425574,47.26377211730754,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Le Domaine des Hautes Roches</name>
+			<LookAt>
+				<longitude>0.7727179999857882</longitude>
+				<latitude>47.4101909999178</latitude>
+				<altitude>0</altitude>
+				<heading>-1.11226978980793e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000089253164</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>0.7739451332978131,47.41067814658395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restaurant La Cave</name>
+			<LookAt>
+				<longitude>0.8526644902105617</longitude>
+				<latitude>47.39110204393381</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001347066372606905</heading>
+				<tilt>0</tilt>
+				<range>161.367680871145</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc171</styleUrl>
+			<Point>
+				<coordinates>0.8527586182477065,47.39112887517596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Magnanerie de Bourré</name>
+			<LookAt>
+				<longitude>1.214723068205029</longitude>
+				<latitude>47.34689456203229</latitude>
+				<altitude>0</altitude>
+				<heading>4.7112740041759e-005</heading>
+				<tilt>6.541953343365356e-011</tilt>
+				<range>531.055179069907</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc174</styleUrl>
+			<Point>
+				<coordinates>1.215000570925554,47.34656756080755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Domaine Marc Bredif</name>
+			<LookAt>
+				<longitude>0.7541678408306344</longitude>
+				<latitude>47.40826088803002</latitude>
+				<altitude>0</altitude>
+				<heading>7.509197236601082e-010</heading>
+				<tilt>0</tilt>
+				<range>630.435849664708</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc165</styleUrl>
+			<Point>
+				<coordinates>0.7541067925356231,47.40871218016917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Les Caves Monmousseau</name>
+			<LookAt>
+				<longitude>1.19048000325179</longitude>
+				<latitude>47.34349047535112</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002529243348756784</heading>
+				<tilt>0</tilt>
+				<range>1986.844587993867</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc181</styleUrl>
+			<Point>
+				<coordinates>1.195520260122549,47.34418071073799,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cave des Roches</name>
+			<LookAt>
+				<longitude>1.224011999930514</longitude>
+				<latitude>47.35137900018811</latitude>
+				<altitude>0</altitude>
+				<heading>-5.149238515422394e-011</heading>
+				<tilt>0</tilt>
+				<range>1000.000163898913</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>1.224011999930514,47.35137900018811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Les Grandes Caves Saint Roch</name>
+			<LookAt>
+				<longitude>0.7539219426481036</longitude>
+				<latitude>47.40848056182122</latitude>
+				<altitude>0</altitude>
+				<heading>0.000118072826190981</heading>
+				<tilt>0</tilt>
+				<range>1711.289133963551</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc49</styleUrl>
+			<Point>
+				<coordinates>0.7539447868370814,47.40865724510046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grottes de Savonnieres</name>
+			<LookAt>
+				<longitude>0.5320665840747614</longitude>
+				<latitude>47.3457336290216</latitude>
+				<altitude>0</altitude>
+				<heading>0.01490635565955209</heading>
+				<tilt>8.380722861759981e-011</tilt>
+				<range>154.6251777015864</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_showcave135</styleUrl>
+			<Point>
+				<coordinates>0.5319391390966501,47.34582378351496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Troglododo</name>
+			<LookAt>
+				<longitude>0.482164770822944</longitude>
+				<latitude>47.26422440968797</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00455369208450577</heading>
+				<tilt>1.41114973674683e-011</tilt>
+				<range>774.9492994915472</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc71</styleUrl>
+			<Point>
+				<coordinates>0.4829611213994838,47.26439073587929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Village Troglodyte de Trôo</name>
+			<LookAt>
+				<longitude>0.7924180000059011</longitude>
+				<latitude>47.77751199865268</latitude>
+				<altitude>0</altitude>
+				<heading>1.911215186558185e-012</heading>
+				<tilt>0</tilt>
+				<range>988.0620211297696</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc105</styleUrl>
+			<Point>
+				<coordinates>0.7924180000059011,47.77751199865269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carrière de Vignemont</name>
+			<LookAt>
+				<longitude>1.000534770517667</longitude>
+				<latitude>47.12504753298201</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002373916162962926</heading>
+				<tilt>0</tilt>
+				<range>564.1122822692337</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_misc41</styleUrl>
+			<Point>
+				<coordinates>1.000289162181176,47.12443005061488,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

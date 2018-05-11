@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Gauteng</name>
+    	<Placemark>
+    		<name>Cullinan Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a href="../../../english/za/mines/Cullinan.html"           >Cullinan Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>28.51637102046527</longitude>
+    			<latitude>-25.67338855172696</latitude>
+    			<altitude>0</altitude>
+    			<range>3009.442222074003</range>
+    			<tilt>0</tilt>
+    			<heading>0.006424422409111588</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>28.5170171151293,-25.67314527256166,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Blaauwbank Historic Gold Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Blaauwbank  " href="../../../english/za/mines/Blaauwbank.html"           >Blaauwbank Historic Gold Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>27.53886767780609</longitude>
+    			<latitude>-25.9981466447617</latitude>
+    			<altitude>0</altitude>
+    			<range>4947.529158824263</range>
+    			<tilt>-5.259064680411021e-012</tilt>
+    			<heading>0.439648247410121</heading>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>27.53293519555212,-26.00225595802918,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Sterkfontein Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Sterkfontein  " href="../../../english/za/showcaves/Sterkfontein.html"           >Sterkfontein Caves</a>]]></description>
+    		<LookAt>
+    			<longitude>27.73379645653446</longitude>
+    			<latitude>-26.01570864586412</latitude>
+    			<altitude>0</altitude>
+    			<range>334.354886886507</range>
+    			<tilt>-2.23844859086495e-011</tilt>
+    			<heading>-0.1911784661971369</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>27.73433111496441,-26.01566365108378,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Wonder Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Wonder  " href="../../../english/za/showcaves/Wonder.html"           >Wonder Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>27.78210682993798</longitude>
+    			<latitude>-25.98263610571579</latitude>
+    			<altitude>0</altitude>
+    			<range>359.7041285340401</range>
+    			<tilt>1.143482865245813e-011</tilt>
+    			<heading>-0.2123290511335816</heading>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>27.78210682993798,-25.98263610571579,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Maropeng</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="../../../english/za/misc/Maropeng.html"           >Maropeng</a>]]></description>
+    		<LookAt>
+    			<longitude>27.66175340777413</longitude>
+    			<latitude>-25.96848714967497</latitude>
+    			<altitude>0</altitude>
+    			<range>1733.115454033095</range>
+    			<tilt>-3.005406595865357e-012</tilt>
+    			<heading>-0.1595989981230196</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#subterranea</styleUrl>
+    		<Point>
+    			<coordinates>27.66191052326632,-25.96833053596699,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Kromdraai Gold Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Kromdraai  " href="../../../english/za/mines/Kromdraai.html"           >Kromdraai Gold Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>27.84889737707245</longitude>
+    			<latitude>-26.00195870735008</latitude>
+    			<altitude>0</altitude>
+    			<range>29977.72777355958</range>
+    			<tilt>1.173286832945478e-024</tilt>
+    			<heading>0.08362376392636282</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>27.84898807654564,-26.0027403395024,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Gold Reef City</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a href="../../../english/za/mines/GoldReef.html"           >Gold Reef City</a>]]></description>
+    		<LookAt>
+    			<longitude>28.01136725975239</longitude>
+    			<latitude>-26.23722725786747</latitude>
+    			<altitude>0</altitude>
+    			<range>1181.596496892912</range>
+    			<tilt>3.503682664117293e-012</tilt>
+    			<heading>0.01211903813819635</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>28.01099477091817,-26.23666615375257,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Ferreira's Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a href="../../../english/za/mines/Ferreira.html"           >Ferreira's Mine</a>]]></description>
+    		<LookAt>
+    			<longitude>28.03887136577102</longitude>
+    			<latitude>-26.20108789705988</latitude>
+    			<altitude>0</altitude>
+    			<range>4640.661259375459</range>
+    			<tilt>-3.175319982738094e-012</tilt>
+    			<heading>-5.597847733019456e-005</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>28.03888740240484,-26.20030127318741,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

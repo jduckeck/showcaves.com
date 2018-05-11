@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="resource-type" content="document">
+<meta charset="utf-8">
+<meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+<meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+<meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+<meta name="publisher" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+<meta name="page-topic" content="travel tourism destination">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="distribution" content="global">
+<meta http-equiv="content-language" content="en">
+<meta name="language"  content="en">
+<link rel="shortcut icon" href="../../../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../../../css/global.css">
+<script language="JavaScript" src="../../../js/xemhid.js"></script>
+<!-- begin responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+<script src="../../../js/jquery-1.11.3.min.js"></script>
+<script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
+<link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
+<script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+<!-- end responsive -->
+
+
+
+
+
+<script type="text/javascript"><!--
+function Compute(obj)
+{
+    // Written by: Jochen Duckeck, Nuernberg, 1997
+    if  ( (obj.Miles.value!=0) && (eval(obj.Miles.value)!=0) )
+    {
+        obj.kilometre.value=eval(obj.Miles.value) * 1.609;
+    }
+    else
+    {
+        if(eval(obj.kilometre.value)!=0) obj.Miles.value= eval(obj.kilometre.value) / 1.609;
+    }
+}
+
+function Compute2(obj)
+{
+    // Written by: Jochen Duckeck, Nuernberg, 1997
+    if  ( (obj.Foot.value!=0) && (eval(obj.Foot.value)!=0) )
+    {
+        obj.Meter.value=eval(obj.Foot.value) * 0.3048;
+    }
+    else
+    {
+        if(eval(obj.Meter.value)!=0) obj.Foot.value= eval(obj.Meter.value) / 0.3048;
+    }
+}
+// -->
+</script>
+
+
+<title>Location</title>
+</head>
+
+<body>
+<div data-role="page" id="pageroot">
+  <div data-role="main" class="ui-content">
+
+
+
+
+
+<h2 align="center">Useful Information</h2>
+<h1 align="center">Location</h1>
+<h2 align="center"></h2>
+
+<br clear="all">
+
+
+<table border="0" cellspacing="0" cellpadding="0" class="usefulInfo">
+<tr><td valign="top">
+Every show cave, mine or subterranea on this site has a short list
+of hard facts called <b>Useful Information</b>.
+With a contemporary browser it will be displayed like this text, with
+smaller font and darkgreen letters on white background.<br>
+In the <b>Useful Information</b> block you find information in a very
+brief form, which makes some explanation necessary.<br>
+It is very difficult to write dates, fees and hours in a well readable
+manner, so we always tried to find a sort of "international" way
+of writing it, which should be understood by anybody.
+But if you do not understand it, here is the explanation:
+</td></tr>
+</table>
+
+<br>
+
+<p>
+The location of the cave or mine, and how to get there.
+Nearest highway, exit number or name, description of the route to the object.
+Sometimes coordinates in a map, GPS coordinates or link to an online map.
+Distance to some bigger cities around.
+</p>
+
+<p class="indentedText">
+All distances are given in the metric system.
+If you have difficulties with it, here is a litte tranformation tool.
+It works in both directions!
+</p>
+
+<br>
+
+<center><table border="0" cellspacing="0" cellpadding="5">
+
+<FORM>
+
+<tr>
+<td><input type="text" name="Miles" size=20>&nbsp;miles</td>
+<td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
+<td><input type="text" name="kilometre" size=20>&nbsp;kilometers</td>
+<td><input type="reset" value="Reset"></td>
+<td><input type="button" value="Transform" onClick="Compute(this.form)"></td>
+</tr>
+
+</form>
+<FORM>
+
+<tr>
+<td><input type="text" name="Foot" size=20>&nbsp;feet</td>
+<td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
+<td><input type="text" name="Meter" size=20>&nbsp;meters</td>
+<td><input type="reset" value="Reset"></td>
+<td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
+</tr>
+
+</form>
+
+</table>
+
+<br>
+
+  </div>
+
+<!-- Path Begin -->
+  <div data-role="header" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+        <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
+        <li><a data-ajax="false" target="_top" href="index.html">Abbreviations and Symbols</a></li>
+      </ul>
+    </div>
+  </div>
+<!-- Path End -->
+
+</div> 
+
+</body>
+</html>

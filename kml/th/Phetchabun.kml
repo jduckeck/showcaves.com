@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+	<Placemark>
+		<name>Tham Pha Hong</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/PhaHong.html"             >Tham Pha Hong</a>]]></description>
+		<LookAt>
+			<longitude>101.5083750001918</longitude>
+			<latitude>16.7572533334617</latitude>
+			<altitude>0</altitude>
+			<range>8002.691429314171</range>
+			<tilt>0</tilt>
+			<heading>5.530427993995799e-011</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>101.508375,16.75725333333334,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Yai Nam Nao</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/YaiNamNao.html"           >Tham Yai Nam Nao</a>]]></description>
+		<LookAt>
+			<longitude>101.5067288890231</longitude>
+			<latitude>16.94473277730487</latitude>
+			<altitude>0</altitude>
+			<range>3711.148255400967</range>
+			<tilt>0</tilt>
+			<heading>3.911962987399571e-011</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>101.5067288888889,16.94473277777778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Pha Thong</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/PhaThong.html"            >Tham Pha Thong</a>]]></description>
+		<styleUrl>#showcave</styleUrl>
+		<Point>
+			<coordinates>100.8220041666667,16.24614027777778,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Nam Bang</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/NamBang.html"                  >Tham Nam Bang</a>]]></description>
+		<LookAt>
+			<longitude>101.1356433330302</longitude>
+			<latitude>16.2455341657136</latitude>
+			<altitude>0</altitude>
+			<range>4701.845451649094</range>
+			<tilt>0</tilt>
+			<heading>-8.48202249532746e-011</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>101.1356433333333,16.24553416666667,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tham Ruesi Sombat</name>
+        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/RuesiSombat.html"              >Tham Ruesi Sombat</a>]]></description>
+		<LookAt>
+			<longitude>101.1264179109255</longitude>
+			<latitude>16.68556740448316</latitude>
+			<altitude>0</altitude>
+			<range>4306.318541960807</range>
+			<tilt>0</tilt>
+			<heading>0.001252987459423884</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#subterranea</styleUrl>
+		<Point>
+			<coordinates>101.1370530590021,16.69124808121414,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

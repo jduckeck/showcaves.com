@@ -1,0 +1,32 @@
+
+Quote Url plugin advanced formatting
+<li><a target=\"_blank\"  href=\"@url\"><img src=\"../../../graphics/symbol/World.png\" alt=\"World\" class=\"ui-li-icon ui-corner-none\"><b>@title</b>, (visited: @date)</a></li>
+
+<table border=\"0\" cellspacing=\"0\" cellpadding=\"2\" class=\"history\">
+<tr><td></td><td rowspan=\"100\">&nbsp;</td><td></td></tr>
+<tr><td valign=\"top\" nowrap></td><td>.</td></tr>
+</table>
+
+
+
+<li class=\"liShowcave\">
+<li><a data-ajax=\"false\" target=\"_top\" ><img src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\" class=\"ui-li-icon ui-corner-none\">
+
+    <img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/(.+)\.gif\" width=\"12\" height=\"12\">&nbsp;<a \s+>(.+)</a>(.*)&nbsp;\|
+<li><a data-ajax=\"false\" target=\"_top\" ><b>$4</b> $5</a></li>
+
+
+(.+)@(.+)\.(.+)
+E-mail: <img onClick=\"xemhid('\1','\2','\3')\" style=\"cursor: pointer;\" src=\"/xemhid.php?p1=\1&p2=npws&p3=\3\" vspace=\"0\" alt=\"contact\" title=\"contact\" border=\"0\">
+
+http://www.showcaves.com/graphics/kmz/showcave.png
+
+Classification:
+class=\"ui-btn ui-btn-inline\"
+<button data-role=\"button\" data-inline=\"true\" data-mini=\"true\"></button>
+<a data-ajax=\"false\" target=\"_top\" href=\"../../explain/Speleology/Karst.html\"  data-role=\"button\" data-inline=\"true\" data-mini=\"true\"><img class=\"ui-li-icon ui-corner-none\" vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Explain.gif\" width=\"12\" height=\"12\">Karst cave</a>
+
+Typ Category links
+        \<li\>\<a data-ajax=\"false\" target=\"_top\" href=\"\.\./\.\./explain/(.+)\"       \>\<img class=\"ui-li-icon ui-corner-none\" vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\>(.+)\</a\>\</li\>
+\<img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\>&nbsp;\<a href=\"\.\./\.\./explain/(\.+)\"         \>(\.+)\</a\>
+<button data-role="button" data-inline=\"true\" data-mini=\"true\"><a data-ajax=\"false\" target=\"_top\" href=\"../../explain/\1\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Explain.gif\" width=\"12\" height=\"12\">\2</a></button>

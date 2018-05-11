@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Namibia</name>
+    	<Placemark>
+    		<name>Dureb Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Dureb.html"             >Dureb Caves</a>]]></description>
+    		<LookAt>
+    			<longitude>14.66265977828327</longitude>
+    			<latitude>-21.11068939073097</latitude>
+    			<altitude>0</altitude>
+    			<range>1013.086422406163</range>
+    			<tilt>0</tilt>
+    			<heading>-3.657254508368268e-006</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>14.6641687359659,-21.11045635415666,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Gaub Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Gaub.html"                  >Gaub Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>17.63912028849886</longitude>
+    			<latitude>-19.37955395672055</latitude>
+    			<altitude>0</altitude>
+    			<range>338.3193998906524</range>
+    			<tilt>0</tilt>
+    			<heading>0.1430695959787886</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>17.63951921202647,-19.37979889221336,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Arnhem Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Arnhem.html"            >Arnhem Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>18.08841885329373</longitude>
+    			<latitude>-22.74150293028668</latitude>
+    			<altitude>0</altitude>
+    			<range>8035.213940470299</range>
+    			<tilt>0</tilt>
+    			<heading>-0.3031024870211596</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>18.08044940245809,-22.73884101823974,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Philipp&apos;s Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Philipp.html"               >Philipp's Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>15.63948198672398</longitude>
+    			<latitude>-21.79883427140747</latitude>
+    			<altitude>0</altitude>
+    			<range>2478.196460979127</range>
+    			<tilt>0</tilt>
+    			<heading>-0.204219365350854</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#cave</styleUrl>
+    		<Point>
+    			<coordinates>15.64086501666397,-21.79928596916358,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

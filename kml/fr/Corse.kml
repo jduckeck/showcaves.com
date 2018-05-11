@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Corse.kml</name>
+	<StyleMap id="msn_cross-hairs18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs_highlight01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave45">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave03">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs16">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave45</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cross-hairs_highlight01">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave110">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave215">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Corse</name>
+		<Placemark>
+			<name>Corse</name>
+			<LookAt>
+				<longitude>9.007966233626004</longitude>
+				<latitude>42.18058617638753</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002023528616707856</heading>
+				<tilt>0</tilt>
+				<range>259350.1037059997</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cross-hairs18</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>9.007966233626004,42.18058617638753,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grotte de Napoleon</name>
+			<LookAt>
+				<longitude>8.728325516969791</longitude>
+				<latitude>41.91676513887568</latitude>
+				<altitude>0</altitude>
+				<heading>0.001388082484331799</heading>
+				<tilt>1.331760593998059e-010</tilt>
+				<range>2646.516833851722</range>
+			</LookAt>
+			<styleUrl>#msn_cave003</styleUrl>
+			<Point>
+				<coordinates>8.725574999999999,41.91713888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grotte du Sdragonatu</name>
+			<LookAt>
+				<longitude>9.151862155692976</longitude>
+				<latitude>41.38739682020319</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004122499446875694</heading>
+				<tilt>0</tilt>
+				<range>2421.704300038969</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_cave215</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>9.143316615058977,41.38912767242408,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<Placemark>
+    		<name>Alabama Mining Museum</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Alabama.html"                >Alabama Mining Museum</a>]]></description>
+    		<LookAt>
+    			<longitude>-87.09013208435287</longitude>
+    			<latitude>33.73133660899249</latitude>
+    			<altitude>0</altitude>
+    			<range>399.4262880795397</range>
+    			<tilt>0</tilt>
+    			<heading>0.0005987702847151317</heading>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-87.08987500000001,33.7314388888889,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Aldrich Coal Mine Museum</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Aldrich.html"                >Aldrich Coal Mine Museum</a>]]></description>
+    		<LookAt>
+    			<longitude>-86.89242685124918</longitude>
+    			<latitude>33.10777094761334</latitude>
+    			<altitude>0</altitude>
+    			<range>238.8362529301079</range>
+    			<tilt>0</tilt>
+    			<heading>-0.01634147657399283</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#mine</styleUrl>
+    		<Point>
+    			<coordinates>-86.89254444444444,33.10768611111111,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Big Spring</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/BigSpring.html"            >Big Spring</a>]]></description>
+    		<LookAt>
+    			<longitude>-86.58700213964487</longitude>
+    			<latitude>34.72745080494541</latitude>
+    			<altitude>0</altitude>
+    			<range>1013.088100121977</range>
+    			<tilt>0</tilt>
+    			<heading>-0.0005709083474106933</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#spring</styleUrl>
+    		<Point>
+    			<coordinates>-86.58794313824224,34.72723200750468,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Cathedral Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/CathedralAL.html"        >Cathedral Caverns</a>]]></description>
+    		<LookAt>
+    			<longitude>-86.22118677226183</longitude>
+    			<latitude>34.57445215056249</latitude>
+    			<altitude>0</altitude>
+    			<range>976.0780662817742</range>
+    			<tilt>0</tilt>
+    			<heading>0.0007374929463252475</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-86.22105447576145,34.57375393433389,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>DeSoto Caverns Park</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/DeSoto.html"             >DeSoto Caverns Park</a>]]></description>
+    		<LookAt>
+    			<longitude>-86.27738074445963</longitude>
+    			<latitude>33.30726866435116</latitude>
+    			<altitude>0</altitude>
+    			<range>1512.215596322657</range>
+    			<tilt>0</tilt>
+    			<heading>0.01189223722229709</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-86.27752666145268,33.30671282316497,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Sequoyah Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Sequoyah.html"           >Sequoyah Caverns</a>]]></description>
+    		<LookAt>
+    			<longitude>-85.6461211492971</longitude>
+    			<latitude>34.62915102395765</latitude>
+    			<altitude>0</altitude>
+    			<range>38551.47473252185</range>
+    			<tilt>0</tilt>
+    			<heading>-0.0159354380940987</heading>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-85.60739340117961,34.66943999439415,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Russell Cave</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Russell.html"            >Russell Cave NM</a>]]></description>
+    		<LookAt>
+    			<longitude>-85.81016563192607</longitude>
+    			<latitude>34.97942697524873</latitude>
+    			<altitude>0</altitude>
+    			<range>2804.756606448224</range>
+    			<tilt>0</tilt>
+    			<heading>-0.0006213014338113567</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-85.81008646688201,34.97886640888859,0</coordinates>
+    		</Point>
+    	</Placemark>
+    	<Placemark>
+    		<name>Rickwood Caverns</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Rickwood.html"           >Rickwood Caverns</a>]]></description>
+    		<LookAt>
+    			<longitude>-86.8651690002834</longitude>
+    			<latitude>33.87641799990665</latitude>
+    			<altitude>0</altitude>
+    			<range>1320.077002632128</range>
+    			<tilt>0</tilt>
+    			<heading>-1.579866987689993e-010</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>-86.86310365062843,33.87566694668973,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

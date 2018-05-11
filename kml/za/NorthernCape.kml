@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>             
+          <atom:name>Jochen Duckeck</atom:name>         
+        </atom:author>         
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+    	<name>Northern Cape</name>
+		<Placemark>
+			<name>Bultfontein Mine</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
+			<LookAt>
+				<longitude>24.72492097863605</longitude>
+				<latitude>-28.69252522144974</latitude>
+				<altitude>0</altitude>
+				<range>8445.825364677499</range>
+				<tilt>1.162938805289983e-012</tilt>
+				<heading>-0.6049665830016087</heading>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>24.72492097863605,-28.69252522144975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Big Hole</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
+			<LookAt>
+				<longitude>24.75810033823057</longitude>
+				<latitude>-28.73808085898107</latitude>
+				<altitude>0</altitude>
+				<range>798.7843394980374</range>
+				<tilt>0</tilt>
+				<heading>0.00573727163940414</heading>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>24.7549638888889,-28.73855,0</coordinates>
+			</Point>
+		</Placemark>
+    	<Placemark>
+    		<name>Wonderwerk Caves</name>
+            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
+    		<LookAt>
+    			<longitude>23.55879651081971</longitude>
+    			<latitude>-27.83927332752057</latitude>
+    			<altitude>0</altitude>
+    			<range>18227.97537661489</range>
+    			<tilt>0</tilt>
+    			<heading>8.24974240281773e-005</heading>
+    			<altitudeMode>relativeToGround</altitudeMode>
+    		</LookAt>
+    		<styleUrl>#showcave</styleUrl>
+    		<Point>
+    			<coordinates>23.55896231311608,-27.83945135513948,0</coordinates>
+    		</Point>
+    	</Placemark>
+    </Document>
+</kml>

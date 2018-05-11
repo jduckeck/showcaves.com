@@ -1,0 +1,9 @@
+[autorun]
+open=.\autostart.bat
+icon=favicon.ico
+label=Show Caves of the World
+
+shell=inhalt
+
+shell\inhalt\command=.\autostart.bat
+shell\inhalt=&Show Caves of the World

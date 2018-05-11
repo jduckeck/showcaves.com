@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>Niue</name>
+        <Placemark>
+            <name>Anapala Chasm</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../misc/springs/Anapala.html"             >Anapala Chasm</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.8364114165435</longitude>
+                <latitude>-19.13549466027364</latitude>
+                <altitude>0</altitude>
+                <heading>-0.01038184226172265</heading>
+                <tilt>0</tilt>
+                <range>349.1674518708043</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#spring</styleUrl>
+            <Point>
+                <coordinates>-169.8364114165435,-19.13549466027364,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Anatola Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Anatola.html"               >Anatola Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.8013989189246</longitude>
+                <latitude>-18.99736282479403</latitude>
+                <altitude>0</altitude>
+                <heading>-0.002126243362661857</heading>
+                <tilt>0</tilt>
+                <range>1163.578231942646</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-169.7995666367863,-18.99717803691528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Avaiki Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Avaiki.html"                >Avaiki</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.9098321460971</longitude>
+                <latitude>-18.99664762144235</latitude>
+                <altitude>0</altitude>
+                <heading>0.03315018524659937</heading>
+                <tilt>0</tilt>
+                <range>768.9634040799429</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-169.9096936322345,-18.99625954554725,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Palaha Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Palaha.html"                >Palaha Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.9098321460971</longitude>
+                <latitude>-18.99664762144235</latitude>
+                <altitude>0</altitude>
+                <heading>0.03315018524659937</heading>
+                <tilt>0</tilt>
+                <range>768.9634040799429</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-169.9109754455322,-18.99757718766524,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Togo Chasm</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../misc/karst/Togo.html"                  >Togo Chasm</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.8085784999538</longitude>
+                <latitude>-19.10702320006712</latitude>
+                <altitude>0</altitude>
+                <heading>-1.511797153966646e-011</heading>
+                <tilt>0</tilt>
+                <range>1000.000184365926</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-169.8085784999538,-19.10702320006712,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Ulupaka</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Ulupaka.html"               >Ulupaka</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.7983165311603</longitude>
+                <latitude>-19.02324238684834</latitude>
+                <altitude>0</altitude>
+                <heading>-0.022494488395553</heading>
+                <tilt>0</tilt>
+                <range>1228.938869250462</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-169.7986603582194,-19.02293707993028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Vaikona Chasm</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../misc/karst/Vaikona.html"               >Vaikona Chasm</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.7932099930939</longitude>
+                <latitude>-19.09115207681863</latitude>
+                <altitude>0</altitude>
+                <heading>-0.004957624229489892</heading>
+                <tilt>0</tilt>
+                <range>4493.515696791111</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-169.791445035715,-19.08931705756071,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Matapa Chasm</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../misc/karst/Talava.html"                >Talava Arches</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.8798720103072</longitude>
+                <latitude>-18.95982789913333</latitude>
+                <altitude>0</altitude>
+                <heading>0.02341325243714194</heading>
+                <tilt>0</tilt>
+                <range>1190.167146183107</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#spring</styleUrl>
+            <Point>
+                <coordinates>-169.8821470953678,-18.96239399008326,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Talava Arches</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../misc/karst/Talava.html"                >Talava Arches</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-169.8798720103072</longitude>
+                <latitude>-18.95982789913333</latitude>
+                <altitude>0</altitude>
+                <heading>0.02341325243714194</heading>
+                <tilt>0</tilt>
+                <range>1190.167146183107</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-169.8777930670555,-18.9595433838627,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

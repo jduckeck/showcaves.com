@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <atom:author>
+            <atom:name>Jochen Duckeck</atom:name>
+        </atom:author>
+        <atom:link href="http://www.showcaves.com" />
+        <Style id="showcave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cave">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="subterranea">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mine">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="karst">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="spring">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="gorge">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name></name>
+        <!--
+        <styleUrl>#cave</styleUrl>
+        <styleUrl>#showcave</styleUrl>
+        <styleUrl>#subterranea</styleUrl>
+        <styleUrl>#mine</styleUrl>
+        <styleUrl>#karst</styleUrl>
+        <styleUrl>#spring</styleUrl>
+        <styleUrl>#gorge</styleUrl>
+        <description>
+        <![CDATA[]]>
+        </description>
+        -->
+        <Placemark>
+            <name>Dunbar Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Dunbar.html"             >Dunbar Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-87.30650800033715</longitude>
+                <latitude>36.55006499983461</latitude>
+                <altitude>0</altitude>
+                <heading>-2.008331435909999e-010</heading>
+                <tilt>0</tilt>
+                <range>1060.552754497493</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-87.30580750013368,36.55049830399109,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kentucky Caverns - Mammoth Onyx Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Kentucky.html"           >Kentucky Caverns</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.93262439723949</longitude>
+                <latitude>37.20463500136712</latitude>
+                <altitude>0</altitude>
+                <heading>0.0008606739024565797</heading>
+                <tilt>0</tilt>
+                <range>512.6564214500843</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-85.93192817097024,37.20421773977884,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Kentucky Coal Mining Museum</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/KentuckyCoal.html"           >Kentucky Coal Mining Museum</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-82.95156800017939</longitude>
+                <latitude>36.9639480000447</latitude>
+                <altitude>0</altitude>
+                <heading>-1.07881234240561e-010</heading>
+                <tilt>0</tilt>
+                <range>641.8351993477887</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-82.95156800017939,36.9639480000447,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Lost River Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/LostRiverKY.html"        >Lost River Cave and Valley</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.47410900004755</longitude>
+                <latitude>36.95394099963426</latitude>
+                <altitude>0</altitude>
+                <heading>-2.860511366641249e-011</heading>
+                <tilt>0</tilt>
+                <range>1000.000005484896</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.47358884287498,36.95378645537953,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>McConnell Springs</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/McConnell.html"              >McConnell Springs</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-84.52914198605312</longitude>
+                <latitude>38.05421326006012</latitude>
+                <altitude>0</altitude>
+                <heading>-0.0005707866294806259</heading>
+                <tilt>0</tilt>
+                <range>589.4430840304279</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#spring</styleUrl>
+            <Point>
+                <coordinates>-84.52791774984158,38.0540724193953,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Louisville Mega Cavern</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Mega.html"                    >Louisville Mega Cavern</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.70397447499549</longitude>
+                <latitude>38.20176805578656</latitude>
+                <altitude>0</altitude>
+                <heading>1.70273058638668e-005</heading>
+                <tilt>0</tilt>
+                <range>415.051634234279</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-85.70399342472371,38.20154681264884,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Owensboro Area Museum of Science and History</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Owensboro.html"               >Owensboro Area Museum of Science and History</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-87.11031704032978</longitude>
+                <latitude>37.77473890806914</latitude>
+                <altitude>0</altitude>
+                <heading>0.02966862101435236</heading>
+                <tilt>0</tilt>
+                <range>202.5998216253925</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-87.11022762006209,37.77474208416544,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Portal 31</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Portal31.html"               >Portal 31 Mine Ride</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-82.91856973226695</longitude>
+                <latitude>36.96579022041246</latitude>
+                <altitude>0</altitude>
+                <heading>0.002296291888133935</heading>
+                <tilt>0</tilt>
+                <range>475.8987794238426</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#mine</styleUrl>
+            <Point>
+                <coordinates>-82.91807553860636,36.96618254523544,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sand Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/SandVA.html"                 >Sand Cave (Cumberland Gap)</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.45968991354023</longitude>
+                <latitude>36.66820924060819</latitude>
+                <altitude>0</altitude>
+                <heading>0.09335509812215059</heading>
+                <tilt>0</tilt>
+                <range>8793.736571700571</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-83.45839951071292,36.6693066936962,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>Mammoth Cave Area</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Mammoth.html"               >Mammoth Cave Area</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.07468871360638</longitude>
+                <latitude>37.19978285517886</latitude>
+                <altitude>0</altitude>
+                <heading>-0.0958160674168744</heading>
+                <tilt>0</tilt>
+                <range>33814.12629424051</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cross-hairs</styleUrl>
+            <Point>
+                <coordinates>-86.07468871360638,37.19978285517886,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>American Cave Museum</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/AmericanCave.html"            >American Cave Museum</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.90647843858601</longitude>
+                <latitude>37.17946370463275</latitude>
+                <altitude>0</altitude>
+                <heading>-0.002771532105922147</heading>
+                <tilt>0</tilt>
+                <range>598.5478092832316</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-85.90668171616878,37.17948469145333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cave Spring Caverns</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/CaveSpring.html"         >Cave Spring Caverns</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.19751058951061</longitude>
+                <latitude>37.05922586655392</latitude>
+                <altitude>0</altitude>
+                <heading>-0.07742089963558048</heading>
+                <tilt>0</tilt>
+                <range>2817.820079444227</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.20197959421162,37.06192115384175,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Crystal Onyx Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/CrystalOnyx.html"        >Crystal Onyx Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.97704576948746</longitude>
+                <latitude>37.11094414303624</latitude>
+                <altitude>0</altitude>
+                <heading>-0.04218060623430719</heading>
+                <tilt>0</tilt>
+                <range>1300.327989540902</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-85.97365923431303,37.11076560157881,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cub Run Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/CubRun.html"             >Cub Run Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.09727174549919</longitude>
+                <latitude>37.31764719064577</latitude>
+                <altitude>0</altitude>
+                <heading>-0.02259660276766928</heading>
+                <tilt>0</tilt>
+                <range>5790.609625735609</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.09628741448026,37.31825110037406,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Diamond Caverns</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Diamond.html"            >Diamond Caverns</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.06449258791946</longitude>
+                <latitude>37.11847687579678</latitude>
+                <altitude>0</altitude>
+                <heading>-0.09821993879720857</heading>
+                <tilt>0</tilt>
+                <range>4261.158036432508</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.06186660116362,37.11662431376639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Great Onyx Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/GreatOnyx.html"          >Great Onyx Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.07559794397508</longitude>
+                <latitude>37.21699196539593</latitude>
+                <altitude>0</altitude>
+                <heading>-0.09634676584228274</heading>
+                <tilt>0</tilt>
+                <range>2222.985637363028</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-86.07763281346503,37.21866631214027,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Hidden River Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/HiddenRiver.html"        >Hidden River Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.90646886837669</longitude>
+                <latitude>37.17946487661892</latitude>
+                <altitude>0</altitude>
+                <heading>-0.002773135048620331</heading>
+                <tilt>0</tilt>
+                <range>939.0363517572556</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-85.90589947570132,37.17890257549821,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mammoth Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Mammoth.html"            >Mammoth Cave NP</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.10555346778615</longitude>
+                <latitude>37.18746413256255</latitude>
+                <altitude>0</altitude>
+                <heading>-0.1230100797665914</heading>
+                <tilt>0</tilt>
+                <range>10262.5133178655</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.10026430832153,37.18629187043386,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Onyx Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Onyx.html"               >Onyx Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-85.97809927616549</longitude>
+                <latitude>37.1396528663029</latitude>
+                <altitude>0</altitude>
+                <heading>-0.02117412363147618</heading>
+                <tilt>0.16547912560178</tilt>
+                <range>3187.596715357216</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-85.97916488753505,37.13749344042937,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Outlaw Cave Tours</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Outlaw.html"             >Outlaw Cave Tours</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.01588854395905</longitude>
+                <latitude>37.13412265926058</latitude>
+                <altitude>0</altitude>
+                <heading>-0.06562496345725594</heading>
+                <tilt>0</tilt>
+                <range>3445.005645025561</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-86.00556252357796,37.13281821320074,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Sand Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Sand.html"                   >Sand Cave (Mammoth Cave)</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.04705013489331</longitude>
+                <latitude>37.15225961476287</latitude>
+                <altitude>0</altitude>
+                <heading>-0.07906184325261151</heading>
+                <tilt>0</tilt>
+                <range>1172.075702282852</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-86.04770314037766,37.15266120591954,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Floyd Collins Museum - Wayfarer</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Wayfarer.html"                >Floyd Collins Museum</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-86.04434032756137</longitude>
+                <latitude>37.14883570223361</latitude>
+                <altitude>0</altitude>
+                <heading>-0.08601121690241075</heading>
+                <tilt>0</tilt>
+                <range>1096.330580189667</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#subterranea</styleUrl>
+            <Point>
+                <coordinates>-86.04373579995846,37.15006212330214,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name>Carter Caves State Park</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.12249260478289</longitude>
+                <latitude>38.37526513567802</latitude>
+                <altitude>0</altitude>
+                <heading>0.000480519337757735</heading>
+                <tilt>0</tilt>
+                <range>2602.142395995187</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cross-hairs</styleUrl>
+            <Point>
+                <coordinates>-83.12249260478289,38.37526513567802,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Smokey Bridge</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11980903088654</longitude>
+                <latitude>38.37408230777562</latitude>
+                <altitude>0</altitude>
+                <heading>-0.003953077736221183</heading>
+                <tilt>0</tilt>
+                <range>3415.515967428562</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-83.12493595363658,38.36916656768427,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Shangri La Arch</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11825604734347</longitude>
+                <latitude>38.37409531084988</latitude>
+                <altitude>0</altitude>
+                <heading>-0.002574988110976798</heading>
+                <tilt>2.276142259386036</tilt>
+                <range>3451.769548900133</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-83.13169104994147,38.3688351062282,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Natural Bridge</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.12627610583785</longitude>
+                <latitude>38.37751777238125</latitude>
+                <altitude>0</altitude>
+                <heading>-0.007553974603290265</heading>
+                <tilt>2.276655506839716</tilt>
+                <range>413.1457856387767</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-83.12637278053595,38.37796356435256,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Horne Hollow Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11772190531129</longitude>
+                <latitude>38.37875818346795</latitude>
+                <altitude>0</altitude>
+                <heading>-0.002243214153856472</heading>
+                <tilt>2.27689291739926</tilt>
+                <range>1505.046894187461</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-83.11587628867271,38.38038595091218,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Fern Bridge</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11593483365384</longitude>
+                <latitude>38.37599051852174</latitude>
+                <altitude>0</altitude>
+                <heading>-0.001133677854826826</heading>
+                <tilt>2.276912985124131</tilt>
+                <range>1561.214499198209</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#karst</styleUrl>
+            <Point>
+                <coordinates>-83.11479255326736,38.37213024967113,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>X-Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/X.html"                  >X Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11885000012153</longitude>
+                <latitude>38.37754999949242</latitude>
+                <altitude>0</altitude>
+                <heading>-7.546661120442558e-011</heading>
+                <tilt>0</tilt>
+                <range>1000.000030543018</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-83.11885000012153,38.37754999949242,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Saltpeter Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Saltpetre.html"          >Saltpetre Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.12343201720815</longitude>
+                <latitude>38.37701682036669</latitude>
+                <altitude>0</altitude>
+                <heading>6.877233873861523e-011</heading>
+                <tilt>0</tilt>
+                <range>1001.354790439746</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-83.12343201720815,38.37701682036669,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bat Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Bat.html"                >Bat Cave</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.12345488244243</longitude>
+                <latitude>38.37654174897381</latitude>
+                <altitude>0</altitude>
+                <heading>-0.000116765220490889</heading>
+                <tilt>0</tilt>
+                <range>809.0301671993931</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-83.12824753257657,38.37804361024602,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Laurel Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11541615808768</longitude>
+                <latitude>38.37533979536647</latitude>
+                <altitude>0</altitude>
+                <heading>0.004873687091045874</heading>
+                <tilt>0</tilt>
+                <range>710.7081965094831</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#cave</styleUrl>
+            <Point>
+                <coordinates>-83.11541615808768,38.37533979536647,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Cascade Cave</name>
+            <description>
+                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/CascadeCarter.html"      >Cascade Cavern</a>]]>
+            </description>
+            <LookAt>
+                <longitude>-83.11852582492217</longitude>
+                <latitude>38.36833871197641</latitude>
+                <altitude>0</altitude>
+                <heading>0.002943890844307726</heading>
+                <tilt>0</tilt>
+                <range>4901.57378196172</range>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+            </LookAt>
+            <styleUrl>#showcave</styleUrl>
+            <Point>
+                <coordinates>-83.11157764452851,38.35578694617411,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
