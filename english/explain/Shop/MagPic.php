@@ -80,7 +80,7 @@ Please visit their websites if you have further question on online payments.
 <br>
 
 <p>
-<center>
+<div style="text-align: center;">
 <b>1 year full access to showcaves.com images</b>, single payment of <b>US$ 10</b>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -97,7 +97,7 @@ Please visit their websites if you have further question on online payments.
 <input type="hidden" name="no_note" value="1">
 <input type="image" src="https://www.paypal.com/images/x-click-but23.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 </form>
-</center>
+</div>
 </p>
 
 

@@ -8,33 +8,45 @@ A:hover {
     color: #FF0000;
     background-color: transparent;
 }
+
 A:link {
     color: #0000C0;
     background-color: transparent;
 }
+
 A:visited {
     color: #900000;
     background-color: transparent;
 }
+
 A:active {
     color: #FF4040;
     background-color: transparent;
 }
 
-P { margin-top: 0em; margin-bottom: 0em; text-align: justify; }
+P {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
 
-.indentedText { font-family: sans-serif; text-indent: 2em; }
+.indentedText {
+    font-family: sans-serif;
+    text-indent: 2em;
+}
 
 .smallCaps {
     font-variant: small-caps;
     font-weight: normal;
 }
 
-.pssst { display: none; }
+.pssst {
+    display: none;
+}
 
-.centered { 
-		text-align: center;
-		page-break-before: auto;
+.centered {
+    text-align: center;
+    page-break-before: auto;
 }
 
 TABLE.usefulInfo {
@@ -46,18 +58,18 @@ TABLE.usefulInfo {
 }
 
 TABLE.history {
-    border: 0px;
+    border: 0;
     font-size: 80%;
     color: #400000;
     background-color: transparent;
-    margin: 0.0em;
-    padding: 0.0em;
+    margin: 0.0;
+    padding: 0.0;
 }
 
 TABLE.foreign {
     font-family: sans-serif;
     color: #400000;
-    margin: 1.5em 1.0em 1.0em 1.0em;
+    margin: 1.5em 1.0 1.0 1.0;
     padding: 0.5em;
     background-color: #D6D6D6;
 }
@@ -65,64 +77,72 @@ TABLE.foreign {
 TABLE.leftImg {
     clear: left;
     float: left;
-    margin: 0em 0.5em 0.5em 0em;
-    padding: 0em;
-    border-width: 0.0em;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0;
+    border-width: 0.0;
 }
 
 TABLE.rightImg {
     clear: right;
     float: right;
-    margin: 0em 0em 0.5em 0.5em;
-    padding: 0em;
-    border-width: 0em;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0;
+    border-width: 0;
 }
 
 TABLE.leftLang {
     clear: left;
     float: left;
-    margin: 0em 0.5em 0.5em 0em;
-    padding: 0em 0em 0em 0em;
-    border-width: 0em;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0 0 0 0;
+    border-width: 0;
     font-size: 60%;
 }
 
 TABLE.rightLang {
     clear: right;
     float: right;
-    margin: 0em 0em 0.5em 0.5em;
-    padding: 0em;
-    border-width: 0.0em;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0;
+    border-width: 0;
     font-size: 60%;
 }
 
 TABLE.centerImg {
-    clear: left;
-    clear: right;
-		position:relative; 
-		margin-left:auto; 
-		margin-right:auto;
-    padding: 0em;
-    border-width: 0.0em;
-		text-align: center;
+    clear: both;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-width: 0;
+    text-align: center;
 }
 
-.imgCaption { font-size: 70%; }
-.copyMsg { font-size: 70%; }
-.menuText { font-size: 65%; }
+.imgCaption {
+    font-size: 70%;
+}
+
+.copyMsg {
+    font-size: 70%;
+}
+
+.menuText {
+    font-size: 65%;
+}
+
 .mySiteName {
     color: #13305B;
     background-color: transparent;
 }
 
 .nopadding {
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
-    line-height: 0px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
     vertical-align: bottom;
-    word-spacing: 0px;
-    letter-spacing: 0px;
+    word-spacing: 0;
+    letter-spacing: 0;
 }
 
 .footerNav {
@@ -130,6 +150,7 @@ TABLE.centerImg {
     background-color: #C0C0C0;
     padding: 1em;
 }
+
 TABLE.footerNav {
     color: #000000;
     background-color: transparent;
@@ -141,49 +162,66 @@ TD.navBar {
     background-color: #FFFFC0;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     vertical-align: middle;
     text-align: center;
 }
+
 TABLE.navBar {
     color: #000000;
     background-color: #FEFFD3;
     padding: 5px;
-    border-width: 0px;
+    border-width: 0;
 }
 
-.banner {
-    border: 0px;
-    font-family: sans-serif;
-    font-size: 150%;
-    color: #400000;
-    background-color: transparent;
-    width: 100%;
-    height: 60px;
-    align: center;
-    margin: 0.0em;
-    padding: 0.0em;
-    vertical-align: middle;
-    text-align: center;
-    padding-bottom: 1em;
-}
 
 @media print {
-    TD.footerNav { display: none; }
-    TD.navBar { display: none; }
-    TABLE.navBar { display: none; }
-    TABLE.leftLang { display: none; }
-    TABLE.rightLang { display: none; }
-    .banner { display: none; }
-    .newPage { page-break-before: always; }
-    .liGoogleAd { display: none; }
-    .liWorldAd { display: none; }
-    .GoogleAd { display: none; }
-    .WorldAd { display: none; }
+    TD.footerNav {
+        display: none;
+    }
+
+    TD.navBar {
+        display: none;
+    }
+
+    TABLE.navBar {
+        display: none;
+    }
+
+    TABLE.leftLang {
+        display: none;
+    }
+
+    TABLE.rightLang {
+        display: none;
+    }
+
+    .newPage {
+        page-break-before: always;
+    }
+
+    .liGoogleAd {
+        display: none;
+    }
+
+    .liWorldAd {
+        display: none;
+    }
+
+    .GoogleAd {
+        display: none;
+    }
+
+    .WorldAd {
+        display: none;
+    }
 }
 
-.noBorder { margin-top: 0px; margin-bottom: 0px; }
+.noBorder {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 TABLE.invers {
     text-align: justify;
@@ -191,42 +229,97 @@ TABLE.invers {
     background-image: none;
     color: #FFFFFF;
     padding: 15px;
-    margin: 10px;
+    margin: 10;
     width: 60%;
 }
 
+.liWorld {
+    list-style-image: url("graphics/symbol/World.gif")
+}
 
-.liWorld { list-style-image: url("graphics/symbol/World.gif") }
-.liWorldAd { list-style-image: url("graphics/symbol/World.gif") }
-.liShowcave { list-style-image: url("graphics/symbol/Showcave.gif") }
-.liCave { list-style-image: url("graphics/symbol/Cave.gif") }
-.liMine { list-style-image: url("graphics/symbol/Mine.gif") }
-.liMisc { list-style-image: url("graphics/symbol/Misc.gif") }
-.liRegion { list-style-image: url("graphics/symbol/Region.gif") }
-.liSpring { list-style-image: url("graphics/symbol/Spring.gif") }
-.liKarst { list-style-image: url("graphics/symbol/Karst.gif") }
-.liGorge { list-style-image: url("graphics/symbol/Gorge.png") }
-.liExplain { list-style-image: url("graphics/symbol/Explain.gif") }
-.liBook { list-style-image: url("graphics/symbol/Book.gif") }
-.liMap { list-style-image: url("graphics/symbol/Map.gif") }
-.liGallery { list-style-image: url("graphics/symbol/Gallery.gif") }
-.liSmile { list-style-image: url("graphics/symbol/Smile.gif") }
-.liGoogle { list-style-image: url("graphics/symbol/google.png") }
-.liGoogleAd { list-style-image: url("graphics/symbol/google.png") }
-.liGoogleEa { list-style-image: url("graphics/symbol/GoogleEarth.png") }
-.liWiki { list-style-image: url("graphics/symbol/wiki.png") }
+.liWorldAd {
+    list-style-image: url("graphics/symbol/World.gif")
+}
+
+.liShowcave {
+    list-style-image: url("graphics/symbol/Showcave.gif")
+}
+
+.liCave {
+    list-style-image: url("graphics/symbol/Cave.gif")
+}
+
+.liMine {
+    list-style-image: url("graphics/symbol/Mine.gif")
+}
+
+.liMisc {
+    list-style-image: url("graphics/symbol/Misc.gif")
+}
+
+.liRegion {
+    list-style-image: url("graphics/symbol/Region.gif")
+}
+
+.liSpring {
+    list-style-image: url("graphics/symbol/Spring.gif")
+}
+
+.liKarst {
+    list-style-image: url("graphics/symbol/Karst.gif")
+}
+
+.liGorge {
+    list-style-image: url("graphics/symbol/Gorge.png")
+}
+
+.liExplain {
+    list-style-image: url("graphics/symbol/Explain.gif")
+}
+
+.liBook {
+    list-style-image: url("graphics/symbol/Book.gif")
+}
+
+.liMap {
+    list-style-image: url("graphics/symbol/Map.gif")
+}
+
+.liGallery {
+    list-style-image: url("graphics/symbol/Gallery.gif")
+}
+
+.liSmile {
+    list-style-image: url("graphics/symbol/Smile.gif")
+}
+
+.liGoogle {
+    list-style-image: url("graphics/symbol/google.png")
+}
+
+.liGoogleAd {
+    list-style-image: url("graphics/symbol/google.png")
+}
+
+.liGoogleEa {
+    list-style-image: url("graphics/symbol/GoogleEarth.png")
+}
+
+.liWiki {
+    list-style-image: url("graphics/symbol/wiki.png")
+}
 
 frameset {
     border: 1;
 }
 
 div.darken {
-  opacity:    0.9; 
-  background: #000; 
-  width:      100%;
-  height:     100%; 
-  z-index:    10;
-  top:        0; 
-  left:       0; 
-  position:   fixed; 
+    opacity: 0.9;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
 }

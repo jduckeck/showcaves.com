@@ -152,11 +152,11 @@
 <?
     if ($redirTime == "30") {
         echo "<p>";
-        echo "<center>";
+        echo "<div style="text-align: center;">";
         echo "The site <b>$theTitle</b> does not exist!";
         echo "<br><br>";
         echo "Please visit <a target=\"_top\" href=\"http://www.showcaves.com/\">www.showcaves.com</A>";
-        echo "</center>";
+        echo "</div>";
         echo "</p>";
         echo "</body>";
         echo "</html>";
