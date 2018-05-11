@@ -49,7 +49,7 @@
 <br clear="all">
 
 <ul>
-<li><a href="region/ByRegion.html">&Uuml;berblick nach Regionen</a></li>
+<li><a href="region/ByRegion.html">Überblick nach Regionen</a></li>
 
 <br>
 
@@ -67,7 +67,7 @@
 
 <ul class="linklist" data-role="listview" data-inset="true">
 <li data-role="list-divider">Siehe auch</li>
-<li><a target="_blank"  href="http://www.hfc-hersfeld.de/vdhk/schau.html"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>&Uuml;bersicht Schauhöhlen des VdHK</b></a></li>
+<li><a target="_blank"  href="http://www.hfc-hersfeld.de/vdhk/schau.html"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Übersicht Schauhöhlen des VdHK</b></a></li>
 <li><a target="_blank"  href="http://www.schauhoehle.de/"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Schauhöhlen und Besucherbergwerke</b></a></li>
 </ul>
 
