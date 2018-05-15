@@ -62,14 +62,14 @@ TABLE.history {
     font-size: 80%;
     color: #400000;
     background-color: transparent;
-    margin: 0.0;
-    padding: 0.0;
+    margin: 0;
+    padding: 0;
 }
 
 TABLE.foreign {
     font-family: sans-serif;
     color: #400000;
-    margin: 1.5em 1.0 1.0 1.0;
+    margin: 1.5em 1em 1em 1em;
     padding: 0.5em;
     background-color: #D6D6D6;
 }
@@ -79,7 +79,7 @@ TABLE.leftImg {
     float: left;
     margin: 0 0.5em 0.5em 0;
     padding: 0;
-    border-width: 0.0;
+    border-width: 0;
 }
 
 TABLE.rightImg {
@@ -229,88 +229,88 @@ TABLE.invers {
     background-image: none;
     color: #FFFFFF;
     padding: 15px;
-    margin: 10;
+    margin: 10px;
     width: 60%;
 }
 
 .liWorld {
-    list-style-image: url("graphics/symbol/World.gif")
+    list-style-image: url("../graphics/symbol/World.gif")
 }
 
 .liWorldAd {
-    list-style-image: url("graphics/symbol/World.gif")
+    list-style-image: url("../graphics/symbol/World.gif")
 }
 
 .liShowcave {
-    list-style-image: url("graphics/symbol/Showcave.gif")
+    list-style-image: url("../graphics/symbol/Showcave.gif")
 }
 
 .liCave {
-    list-style-image: url("graphics/symbol/Cave.gif")
+    list-style-image: url("../graphics/symbol/Cave.gif")
 }
 
 .liMine {
-    list-style-image: url("graphics/symbol/Mine.gif")
+    list-style-image: url("../graphics/symbol/Mine.gif")
 }
 
 .liMisc {
-    list-style-image: url("graphics/symbol/Misc.gif")
+    list-style-image: url("../graphics/symbol/Misc.gif")
 }
 
 .liRegion {
-    list-style-image: url("graphics/symbol/Region.gif")
+    list-style-image: url("../graphics/symbol/Region.gif")
 }
 
 .liSpring {
-    list-style-image: url("graphics/symbol/Spring.gif")
+    list-style-image: url("../graphics/symbol/Spring.gif")
 }
 
 .liKarst {
-    list-style-image: url("graphics/symbol/Karst.gif")
+    list-style-image: url("../graphics/symbol/Karst.gif")
 }
 
 .liGorge {
-    list-style-image: url("graphics/symbol/Gorge.png")
+    list-style-image: url("../graphics/symbol/Gorge.png")
 }
 
 .liExplain {
-    list-style-image: url("graphics/symbol/Explain.gif")
+    list-style-image: url("../graphics/symbol/Explain.gif")
 }
 
 .liBook {
-    list-style-image: url("graphics/symbol/Book.gif")
+    list-style-image: url("../graphics/symbol/Book.gif")
 }
 
 .liMap {
-    list-style-image: url("graphics/symbol/Map.gif")
+    list-style-image: url("../graphics/symbol/Map.gif")
 }
 
 .liGallery {
-    list-style-image: url("graphics/symbol/Gallery.gif")
+    list-style-image: url("../graphics/symbol/Gallery.gif")
 }
 
 .liSmile {
-    list-style-image: url("graphics/symbol/Smile.gif")
+    list-style-image: url("../graphics/symbol/Smile.gif")
 }
 
 .liGoogle {
-    list-style-image: url("graphics/symbol/google.png")
+    list-style-image: url("../graphics/symbol/google.png")
 }
 
 .liGoogleAd {
-    list-style-image: url("graphics/symbol/google.png")
+    list-style-image: url("../graphics/symbol/google.png")
 }
 
 .liGoogleEa {
-    list-style-image: url("graphics/symbol/GoogleEarth.png")
+    list-style-image: url("../graphics/symbol/GoogleEarth.png")
 }
 
 .liWiki {
-    list-style-image: url("graphics/symbol/wiki.png")
+    list-style-image: url("../graphics/symbol/wiki.png")
 }
 
 frameset {
-    border: 1;
+    border: 1px;
 }
 
 div.darken {
