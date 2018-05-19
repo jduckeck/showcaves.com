@@ -4,7 +4,5 @@ User-agent: Mediapartners-Google
 Disallow:
 
 User-agent: *
-Disallow: /images/
-Disallow: /foreign/
-Disallow: /graphics/
-Disallow: /entrance/
+Disallow: /foreign/large/
+Disallow: /graphics/amazon/
