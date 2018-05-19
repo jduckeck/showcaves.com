@@ -49,6 +49,15 @@ P {
     page-break-before: auto;
 }
 
+.foreignText {
+    font-family: sans-serif;
+    color: #400000;
+    margin: 1.5em 1em 1em 1em;
+    padding: 0.5em;
+    background-color: #D6D6D6;
+}
+
+
 TABLE.usefulInfo {
     font-size: 70%;
     color: #004000;
