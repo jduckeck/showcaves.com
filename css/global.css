@@ -49,6 +49,14 @@ P {
     page-break-before: auto;
 }
 
+.centerTable {
+    margin: 0 auto;
+}
+
+.blockcenter {
+    margin-left: auto;
+    margin-right: auto;
+}
 .foreignText {
     font-family: sans-serif;
     color: #400000;
@@ -162,30 +170,6 @@ TABLE.centerImg {
     color: #000000;
     background-color: #C0C0C0;
     padding: 1em;
-}
-
-TABLE.footerNav {
-    color: #000000;
-    background-color: transparent;
-    padding: 0.3em;
-}
-
-TD.navBar {
-    color: #000000;
-    background-color: #FFFFC0;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 0;
-    padding-bottom: 0;
-    vertical-align: middle;
-    text-align: center;
-}
-
-TABLE.navBar {
-    color: #000000;
-    background-color: #FEFFD3;
-    padding: 5px;
-    border-width: 0;
 }
 
 
@@ -326,13 +310,3 @@ frameset {
     border: 1px;
 }
 
-div.darken {
-    opacity: 0.9;
-    background: #000;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    position: fixed;
-}
