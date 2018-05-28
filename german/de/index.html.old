@@ -49,11 +49,11 @@
 <br clear="all">
 
 <ul>
-<li><a href="region/ByRegion.html">Überblick nach Regionen</a></li>
+<li><a data-ajax="false" target="_top" href="region/ByRegion.html">Überblick nach Regionen</a></li>
 
 <br>
 
-<li><a href="../explain/Books/index.html">Literatur zur Höhlenkunde</a></li>
+<li><a data-ajax="false" target="_top" href="../explain/Books/index.html">Literatur zur Höhlenkunde</a></li>
 
 <br>
 
