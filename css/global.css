@@ -57,6 +57,15 @@ P {
     background-color: #D6D6D6;
 }
 
+.symbol {
+    width: 12px;
+    height: 12px;
+    border: 0;
+    padding: 0;
+    padding-right: 0.25rem;
+    vertical-align: center;
+}
+
 
 TABLE.usefulInfo {
     font-size: 70%;
