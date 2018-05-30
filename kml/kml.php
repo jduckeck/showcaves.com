@@ -88,7 +88,7 @@ if ($conn) {
 ?>
     <Placemark>
         <name>Woodward Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../../english/usa/showcaves/Woodward.html"           >Woodward Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/usa/showcaves/Woodward.html"           >Woodward Cave</a>]]></description>
         <LookAt>
             <longitude>-77.38763214096298</longitude>
             <latitude>40.8877923657711</latitude>

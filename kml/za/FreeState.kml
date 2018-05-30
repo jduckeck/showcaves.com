@@ -68,7 +68,7 @@
             <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/Joel.html"                    >Joel Mine</a>]]></description>
             <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/Koffiefontein.html"           >De Beers Open Mine</a>]]></description>
             <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/StHelena.html"                >St. Helena Gold Mine</a>]]></description>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
 -->
 		<Placemark>
 			<name>Jagersfontein Mine</name>

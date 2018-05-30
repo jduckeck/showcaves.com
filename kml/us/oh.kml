@@ -57,7 +57,7 @@
         <name>Ohio</name>
     	<Placemark>
     		<name>Ohio Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/showcaves/Ohio.html"               >Ohio Caverns</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../usa/showcaves/Ohio.html"               >Ohio Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-83.77370000089182</longitude>
     			<latitude>40.24730000186417</latitude>
@@ -92,7 +92,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Perry&apos;s Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/showcaves/Perry.html"              >Perry's Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../usa/showcaves/Perry.html"              >Perry's Cave</a>]]></description>
 			<LookAt>
 				<longitude>-82.82794399997339</longitude>
 				<latitude>41.64676999980608</latitude>
@@ -110,7 +110,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Zane Shawnee Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/showcaves/Zane.html"               >Zane Caverns</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../usa/showcaves/Zane.html"               >Zane Caverns</a>]]></description>
 			<LookAt>
 				<longitude>-83.63458487738367</longitude>
 				<latitude>40.37423915466064</latitude>
@@ -127,7 +127,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Olentangy Indian Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/showcaves/Olentangy.html"          >Olentangy Indian Caverns</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../usa/showcaves/Olentangy.html"          >Olentangy Indian Caverns</a>]]></description>
 			<LookAt>
 				<longitude>-83.06340762105579</longitude>
 				<latitude>40.19319504813664</latitude>
@@ -144,7 +144,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Seneca Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/showcaves/Seneca.html"             >Seneca Caverns</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../usa/showcaves/Seneca.html"             >Seneca Caverns</a>]]></description>
 			<LookAt>
 				<longitude>-82.87422138918086</longitude>
 				<latitude>41.22582624142989</latitude>

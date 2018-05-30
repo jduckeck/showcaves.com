@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Spilia Olimbi</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../gr/showcaves/Olimbi.html"              >Spilia Olimbi</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../gr/showcaves/Olimbi.html"              >Spilia Olimbi</a>]]></description>
 		<LookAt>
 			<longitude>25.92455416698419</longitude>
 			<latitude>38.21181109277995</latitude>
@@ -107,7 +107,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Spilia Agio Gala</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../gr/showcaves/AgioGala.html"            >Spilia Agio Gala</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../gr/showcaves/AgioGala.html"            >Spilia Agio Gala</a>]]></description>
 		<LookAt>
 			<longitude>25.85809912954005</longitude>
 			<latitude>38.56261498380249</latitude>

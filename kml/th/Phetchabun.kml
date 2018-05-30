@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tham Pha Hong</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/PhaHong.html"             >Tham Pha Hong</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../th/showcaves/PhaHong.html"             >Tham Pha Hong</a>]]></description>
 		<LookAt>
 			<longitude>101.5083750001918</longitude>
 			<latitude>16.7572533334617</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tham Yai Nam Nao</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/YaiNamNao.html"           >Tham Yai Nam Nao</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../th/showcaves/YaiNamNao.html"           >Tham Yai Nam Nao</a>]]></description>
 		<LookAt>
 			<longitude>101.5067288890231</longitude>
 			<latitude>16.94473277730487</latitude>
@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tham Pha Thong</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/PhaThong.html"            >Tham Pha Thong</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../th/showcaves/PhaThong.html"            >Tham Pha Thong</a>]]></description>
 		<styleUrl>#showcave</styleUrl>
 		<Point>
 			<coordinates>100.8220041666667,16.24614027777778,0</coordinates>

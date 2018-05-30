@@ -56,7 +56,7 @@
         </Style>
         <Placemark>
             <name>Boulder Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a sort="Boulder  " href="../../../english/usa/caves/Boulder.html"           >Boulder Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="Boulder  " href="../../../english/usa/caves/Boulder.html"           >Boulder Caves</a>]]></description>
             <LookAt>
                 <longitude>-71.72286057769126</longitude>
                 <latitude>44.02710313904722</latitude>
@@ -73,7 +73,7 @@
         </Placemark>
         <Placemark>
             <name>Polar Caves Park</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Polar  " href="../../../english/usa/showcaves/Polar.html"           >Polar Caves Park</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Polar  " href="../../../english/usa/showcaves/Polar.html"           >Polar Caves Park</a>]]></description>
             <LookAt>
                 <longitude>-71.78814877007166</longitude>
                 <latitude>43.7838448643923</latitude>
@@ -90,7 +90,7 @@
         </Placemark>
         <Placemark>
             <name>Ruggles Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Ruggles  " href="../../../english/usa/mines/Ruggles.html"           >Ruggles Mine</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Ruggles  " href="../../../english/usa/mines/Ruggles.html"           >Ruggles Mine</a>]]></description>
             <LookAt>
                 <longitude>-71.99395635783442</longitude>
                 <latitude>43.5849143189417</latitude>

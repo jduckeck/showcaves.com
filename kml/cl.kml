@@ -152,7 +152,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva del Milodón</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Milodon.html"           >Cueva del Milodon</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Milodon.html"           >Cueva del Milodon</a>]]></description>
 		<LookAt>
 			<longitude>-72.5467746393424</longitude>
 			<latitude>-51.67066112745842</latitude>

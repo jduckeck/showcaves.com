@@ -137,7 +137,7 @@
         <Placemark>
             <name>Florida Caverns</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Florida.html"            >Florida Caverns State Park</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Florida.html"            >Florida Caverns State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.22539837590313</longitude>

@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Kalabera Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Kalabera.html"          >Kalabera Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Kalabera.html"          >Kalabera Cave</a>]]></description>
 		<LookAt>
 			<longitude>145.7971372599273</longitude>
 			<latitude>15.24431389835008</latitude>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Grutas da Moeda</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Moeda.html"               >Grutas da Moeda</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Moeda.html"               >Grutas da Moeda</a>]]></description>
 		<LookAt>
 			<longitude>-8.705096220811534</longitude>
 			<latitude>39.62457692486513</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Grutas de Santo-António</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/SantoAntonio.html"        >Gruta de Santo-Antonio</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/SantoAntonio.html"        >Gruta de Santo-Antonio</a>]]></description>
 		<LookAt>
 			<longitude>-8.742924651148156</longitude>
 			<latitude>39.5372654026316</latitude>
@@ -92,7 +92,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Grutas de Mira de Aire</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/MiraDeAire.html"          >Grutas de Mira de Aire</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/MiraDeAire.html"          >Grutas de Mira de Aire</a>]]></description>
 		<LookAt>
 			<longitude>-8.704004010228166</longitude>
 			<latitude>39.54011499815995</latitude>
@@ -128,7 +128,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Grutas de Alvados</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Alvados.html"             >Grutas de Alvados</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alvados.html"             >Grutas de Alvados</a>]]></description>
 		<LookAt>
 			<longitude>-8.752877863866193</longitude>
 			<latitude>39.53935269299188</latitude>

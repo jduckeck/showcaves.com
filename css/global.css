@@ -66,6 +66,15 @@ P {
     vertical-align: center;
 }
 
+.language {
+    width: 20px;
+    height: 10px;
+    border: 0;
+    padding: 0;
+    padding-left: 0.25rem;
+    vertical-align: center;
+}
+
 
 TABLE.usefulInfo {
     font-size: 70%;

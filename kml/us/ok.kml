@@ -57,7 +57,7 @@
     	<name>Oklahoma</name>
     	<Placemark>
     		<name>Alabaster Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Alabaster  " href="../../../english/usa/showcaves/Alabaster.html"           >Alabaster Caverns</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Alabaster  " href="../../../english/usa/showcaves/Alabaster.html"           >Alabaster Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-99.14629683950778</longitude>
     			<latitude>36.69868791363384</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Robbers Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a sort="Robbers  " href="../../../english/usa/caves/Robbers.html"           >Robbers Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="Robbers  " href="../../../english/usa/caves/Robbers.html"           >Robbers Cave</a>]]></description>
     		<LookAt>
     			<longitude>-95.35374886362774</longitude>
     			<latitude>34.98733205081357</latitude>
@@ -90,7 +90,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Selman Bat Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a sort="Selman  " href="../../../english/usa/caves/Selman.html"           >Selman Bat Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="Selman  " href="../../../english/usa/caves/Selman.html"           >Selman Bat Cave</a>]]></description>
     		<LookAt>
     			<longitude>-99.14629683950778</longitude>
     			<latitude>36.69868791363384</latitude>
@@ -107,7 +107,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Tulsa Cave House</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a sort="Tulsa  " href="../../../english/usa/misc/Tulsa.html"           >Tulsa Cave House</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a sort="Tulsa  " href="../../../english/usa/misc/Tulsa.html"           >Tulsa Cave House</a>]]></description>
     		<LookAt>
     			<longitude>-96.00930877420686</longitude>
     			<latitude>36.15045465476946</latitude>

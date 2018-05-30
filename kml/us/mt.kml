@@ -155,7 +155,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Lewis and Clark Caverns State Park</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/LewisAndClark.html"      >Lewis and Clark Caverns State Park</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/LewisAndClark.html"      >Lewis and Clark Caverns State Park</a>]]></description>
 		<LookAt>
 			<longitude>-111.8794218461873</longitude>
 			<latitude>45.83734510028476</latitude>
