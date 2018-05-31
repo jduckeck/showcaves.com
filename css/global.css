@@ -75,12 +75,11 @@ P {
     vertical-align: center;
 }
 
-.language {
+.mapIcon {
     width: 100px;
     height: 68px;
     border: 1px;
     padding: 0;
-    padding-left: 0.25rem;
     vertical-align: center;
 }
 
