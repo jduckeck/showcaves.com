@@ -84,6 +84,11 @@ P {
     vertical-align: center;
 }
 
+.galleryImg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 TABLE.usefulInfo {
     font-size: 70%;
@@ -349,9 +354,7 @@ TABLE.invers {
     list-style-image: url("../graphics/symbol/wiki.png")
 }
 
-frameset {
-    border: 1px;
-}
+
 
 div.darken {
     opacity: 0.9;
