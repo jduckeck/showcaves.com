@@ -93,7 +93,7 @@ if(lastmoddate == 0){               // unknown date (or January 1, 1970 GMT)
 }
 // End -->
 </SCRIPT>
-<A HREF="../../TermsOfUse.html">Terms of Use</A>,
+<a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</A>,
 &copy;&nbsp;<a target="_blank"  href="../../Jochen.html">Jochen Duckeck</a>..
 <!-- Thanx -->
 </ADDRESS>

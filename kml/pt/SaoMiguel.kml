@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Gruta do Carvão</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/CarvaoSaoMiguel.html"     >Gruta do Carv&atilde;o</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/CarvaoSaoMiguel.html"     >Gruta do Carv&atilde;o</a>]]></description>
 		<LookAt>
 			<longitude>-25.68681611635537</longitude>
 			<latitude>37.74918247732131</latitude>

@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script language="JavaScript" src="../../../js/global.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -26,7 +27,6 @@
     <!-- end responsive -->
 
 
-
     <meta name="description" content="Shpella e Radacit Serbia Show Caves showcaves.com">
     <title>Show Caves of Serbia: Shpella e Radacit</title>
 </head>
@@ -34,7 +34,6 @@
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
-
 
 
         <!--
@@ -137,10 +136,23 @@
         <h2>History</h2>
 
         <table border="0" cellspacing="0" cellpadding="2" class="history">
-            <tr><td></td><td rowspan="100">&nbsp;</td><td></td></tr>
-            <tr><td valign="top" nowrap>1968-1972</td><td>first exploration of the cave.</td></tr>
-            <tr><td valign="top" nowrap>2006-present</td><td>second exploration.</td></tr>
-            <tr><td valign="top" nowrap>29-JAN-2016</td><td>opened to the public.</td></tr>
+            <tr>
+                <td></td>
+                <td rowspan="100">&nbsp;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td valign="top" nowrap>1968-1972</td>
+                <td>first exploration of the cave.</td>
+            </tr>
+            <tr>
+                <td valign="top" nowrap>2006-present</td>
+                <td>second exploration.</td>
+            </tr>
+            <tr>
+                <td valign="top" nowrap>29-JAN-2016</td>
+                <td>opened to the public.</td>
+            </tr>
         </table>
 
 
@@ -172,14 +184,14 @@
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="http://www.google.com/search?q=Shpella e Radacit"><img
+            <li><a data-ajax="false" target="_blank" href="http://www.google.com/search?q=Shpella e Radacit"><img
                     src="../../../graphics/symbol/google.png" alt="Google" class="ui-li-icon ui-corner-none"><b>Search
                 Google for "Shpella e Radacit"</b></a></li>
             <li><a target="_blank" href="../../../kmz/rs/Radac.kmz"><img src="../../../graphics/symbol/GoogleEarth.png"
                                                                          alt="GoogleEa"
                                                                          class="ui-li-icon ui-corner-none"><b>Google
                 Earth Placemark</b></a></li>
-            <li><a target="_blank" href="https://www.facebook.com/shpellaradacit/"><img
+            <li><a data-ajax="false" target="_blank" href="https://www.facebook.com/shpellaradacit/"><img
                     src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>(36)
                 Shpella Radacit-Cave. "Bukuroshja e Fjetur"</b>, (visited: Tue Dec 06 2016 01:06:34 GMT+0100 (CET))</a>
             </li>

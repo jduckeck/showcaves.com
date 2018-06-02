@@ -92,7 +92,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Algar do Carvão</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
 		<LookAt>
 			<longitude>-27.21493700000301</longitude>
 			<latitude>38.72743800016256</latitude>
@@ -110,7 +110,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta do Natal</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
 		<LookAt>
 			<longitude>-27.26797348265302</longitude>
 			<latitude>38.73839620154617</latitude>

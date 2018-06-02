@@ -57,8 +57,8 @@
 <!--
         <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/Chersonesos.html"       >Chersonesos Cave Chruch</a>]]></description>
         <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/Kiev.html"              >Kiev Pechersk Lavra</a>]]></description>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Kristalnaja.html"         >Kristalnaja Pestera</a>]]></description>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Verteba.html"             >Verteba Pestera</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/Kristalnaja.html"         >Kristalnaja Pestera</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/Verteba.html"             >Verteba Pestera</a>]]></description>
 -->
 	<Placemark>
 		<name>Odessa Catacombs</name>
@@ -144,7 +144,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Red Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Krasnaja.html"            >Krasnaja Pestera</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/Krasnaja.html"            >Krasnaja Pestera</a>]]></description>
 		<LookAt>
 			<longitude>34.33745285530606</longitude>
 			<latitude>44.86549377176974</latitude>
@@ -161,7 +161,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Emine Bair Khasar Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/EmineBairKhasar.html"     >Emine Bair Khasar Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/EmineBairKhasar.html"     >Emine Bair Khasar Cave</a>]]></description>
 		<LookAt>
 			<longitude>34.28927468504062</longitude>
 			<latitude>44.80141425660312</latitude>
@@ -178,7 +178,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Mramornaja Pestera - Marble Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../ua/showcaves/Mramornaja.html"          >Mramornaja</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/Mramornaja.html"          >Mramornaja</a>]]></description>
 		<LookAt>
 			<longitude>34.27881136133723</longitude>
 			<latitude>44.79716081311327</latitude>

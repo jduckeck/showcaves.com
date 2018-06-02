@@ -1,5 +1,10 @@
 
-body { background-color: #EDEDED }
+body {
+    background-color: #EDEDED
+}
 
-A:hover { color: #CABE02; background-color: transparent }
+A:hover {
+    color: #CABE02;
+    background-color: transparent
+}
 

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Gruta do Escoural</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Escoural.html"            >Gruta do Escoural</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Escoural.html"            >Gruta do Escoural</a>]]></description>
 		<LookAt>
 			<longitude>-8.138600340863208</longitude>
 			<latitude>38.54399620390006</latitude>

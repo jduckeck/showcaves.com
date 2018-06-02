@@ -1,164 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="resource-type" content="document">
-<meta charset="utf-8">
-<meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
-<meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
-<meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
-<meta name="publisher" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
-<meta name="page-topic" content="travel tourism destination">
-<meta name="robots" content="INDEX,FOLLOW">
-<meta name="distribution" content="global">
-<meta http-equiv="content-language" content="en">
-<meta name="language"  content="en">
-<link rel="shortcut icon" href="../../../favicon.ico">
-<link rel="stylesheet" type="text/css" href="../../../css/global.css">
-<script language="JavaScript" src="../../../js/xemhid.js"></script>
-<!-- begin responsive -->
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
-<script src="../../../js/jquery-1.11.3.min.js"></script>
-<script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
-<link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
-<script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
-<!-- end responsive -->
+    <meta name="resource-type" content="document">
+    <meta charset="utf-8">
+    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+    <meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+    <meta name="publisher" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+    <meta name="page-topic" content="travel tourism destination">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="distribution" content="global">
+    <meta http-equiv="content-language" content="en">
+    <meta name="language" content="en">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../../css/global.css">
+    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script language="JavaScript" src="../../../js/global.js"></script>
+    <!-- begin responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
+    <script src="../../../js/jquery-1.11.3.min.js"></script>
+    <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet"/>
+    <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+    <!-- end responsive -->
 
 
-
-
-
-<!-- begin Google Map -->
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
-  var map;
-  function initialize() {
-    var myOptions = {
-      zoom: 11,
-  		center: new google.maps.LatLng(37.19978285517886, -86.07468871360638),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
-		var ctaLayer = new google.maps.KmlLayer('http://www.showcaves.com/kml/us/Mammoth.kml');
-		ctaLayer.setMap(map);
-  }
-
-  google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-<!-- end Google Map -->
-
-
-<meta name="description" content="Mammoth Cave Area America States of the United States showcaves.com">
-<title>States of the United States of America: Mammoth Cave Area</title>
+    <meta name="description" content="Mammoth Cave Area America States of the United States showcaves.com">
+    <title>States of the United States of America: Mammoth Cave Area</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
-  <div data-role="main" class="ui-content">
+    <div data-role="main" class="ui-content">
 
 
+        <h1 align="center">Mammoth Cave Area</h1>
+        <h2 align="center"></h2>
+
+        <br clear="all">
+        <div class="center">
+            <div id="map_canvas" style="width: 800px; height: 600px"></div>
+        </div>
+
+        <br>
+
+        <ul class="linklist2" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../usa/misc/AmericanCave.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">American Cave Museum</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CaveSpring.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cave Spring Caverns</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CrystalOnyx.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Crystal Onyx Cave</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CubRun.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cub Run Cave</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Diamond.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Diamond Caverns</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/GreatOnyx.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Great Onyx Cave</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/HiddenRiver.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Hidden River Cave</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Mammoth.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Mammoth Cave NP</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Onyx.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Onyx Cave</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Outlaw.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Outlaw Cave Tours</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/caves/Sand.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Sand Cave (Mammoth Cave)</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/misc/Wayfarer.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Floyd Collins Museum</a></li>
+        </ul>
+
+        <br>
 
 
-<h1 align="center">Mammoth Cave Area</h1>
-<h2 align="center"></h2>
+        <p>
+            The area around cave City is riddled with caves.
+            During the 19th century many caves were discovered by locals and the
+            construction of railroads caused a dramatic increase in visitors and
+            daytrippers.
+            Many caves were shown to visitors fo a fee, later developed and finally operated
+            as commercial caves.
+            But the visitors went only to one or two caves, so it was important to have the
+            most impressive cave to draw as much visitors as possible to ones caves.
+            The result was the so-called <b>Cave War</b>, where cave owners tried to
+            increase their income by adding sign, destroying the signs of otrher cave
+            owners, or by discovering and developing new and better caves.
+            During times there were more than 15 show caves in the area.
+            But the Mammoth Cave NP, which protects the longest cave on earth, was founded
+            and grew over the years.
+            Many small caves were absorbed and shut down.
+            But until today the are many caves in the area open to the public.
+        </p>
 
-<br clear="all">
-<div class="center">
-<div id="map_canvas" style="width: 800px; height: 600px"></div>
+        <br>
+        <br clear="all">
+
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="http://www.google.com/search?q=Mammoth+Cave+Area"><img src="../../../graphics/symbol/google.png" alt="Google" class="ui-li-icon ui-corner-none"><b>Search Google for "Mammoth Cave Area"</b></a></li>
+            <li><a target="_blank" href="http://www.state.ky.us/tour/scenic/mammoth2.htm"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Mammoth Cave Area</b></a></li>
+            <li><a target="_blank" href="http://gorp.com/gorp/resource/US_National_Park/ky_mammo.HTM"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Mammoth Cave National Park Information (GORP)</b></a></li>
+            <li><a target="_blank" href="http://www.mammothcave.com/cavetour.htm"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Mammoth Cave Online</b></a></li>
+            <li><a target="_blank" href="http://members.aol.com/spelhist/kaemper.htm"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Max Kämper und seine Vermessung der Mammoth Cave im Jahre 1908</b> (in <img alt="Deutsch - German" src="../../../graphics/flags/de-small.png" border="0" hspace="1" width="20"
+                                                                                                                                                                                                                                                                 height="10"> with <img alt="English" src="../../../graphics/flags/gb-small.png" border="0" hspace="1"
+                                                                                                                                                                                                                                                                                        width="20" height="10"> abstract)</a></li>
+        </ul>
+
+
+    </div>
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">U.S.A.</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/ky.html">Kentucky</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/Map.html">Map</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by State</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">&copy;&nbsp;Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img vspace="0" alt="contact" title="contact" border="0" style="cursor: pointer;" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
+
+
 </div>
-
-<br>
-
-<ul class="linklist2" data-role="listview" data-inset="true">
-        <li><a data-ajax="false" target="_top" href="../../usa/misc/AmericanCave.html"            ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">American Cave Museum</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CaveSpring.html"         ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Cave Spring Caverns</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CrystalOnyx.html"        ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Crystal Onyx Cave</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CubRun.html"             ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Cub Run Cave</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Diamond.html"            ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Diamond Caverns</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/GreatOnyx.html"          ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Great Onyx Cave</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/HiddenRiver.html"        ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Hidden River Cave</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Mammoth.html"            ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Mammoth Cave NP</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Onyx.html"               ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Onyx Cave</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Outlaw.html"             ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Outlaw Cave Tours</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/caves/Sand.html"                   ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">Sand Cave (Mammoth Cave)</a></li>
-        <li><a data-ajax="false" target="_top" href="../../usa/misc/Wayfarer.html"                ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">Floyd Collins Museum</a></li>
-</ul>
-
-<br>
-
-
-<p>
-The area around cave City is riddled with caves.
-During the 19th century many caves were discovered by locals and the
-construction of railroads caused a dramatic increase in visitors and
-daytrippers.
-Many caves were shown to visitors fo a fee, later developed and finally operated
-as commercial caves.
-But the visitors went only to one or two caves, so it was important to have the
-most impressive cave to draw as much visitors as possible to ones caves.
-The result was the so-called <b>Cave War</b>, where cave owners tried to
-increase their income by adding sign, destroying the signs of otrher cave
-owners, or by discovering and developing new and better caves.
-During times there were more than 15 show caves in the area.
-But the Mammoth Cave NP, which protects the longest cave on earth, was founded
-and grew over the years.
-Many small caves were absorbed and shut down.
-But until today the are many caves in the area open to the public.
-</p>
-
-<br>
-<br clear="all">
-
-
-<ul class="linklist" data-role="listview" data-inset="true">
-<li data-role="list-divider">See also</li>
-<li><a target="_blank"  href="http://www.google.com/search?q=Mammoth+Cave+Area"><img src="../../../graphics/symbol/google.png" alt="Google" class="ui-li-icon ui-corner-none"><b>Search Google for "Mammoth Cave Area"</b></a></li>
-<li><a target="_blank"  href="http://www.state.ky.us/tour/scenic/mammoth2.htm"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Mammoth Cave Area</b></a></li>
-<li><a target="_blank"  href="http://gorp.com/gorp/resource/US_National_Park/ky_mammo.HTM"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Mammoth Cave National Park Information (GORP)</b></a></li>
-<li><a target="_blank"  href="http://www.mammothcave.com/cavetour.htm"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Mammoth Cave Online</b></a></li>
-<li><a target="_blank"  href="http://members.aol.com/spelhist/kaemper.htm"><img src="../../../graphics/symbol/World.png" alt="World" class="ui-li-icon ui-corner-none"><b>Max Kämper und seine Vermessung der Mammoth Cave im Jahre 1908</b> (in <img alt="Deutsch - German" src="../../../graphics/flags/de-small.png" border="0" hspace="1" width="20" height="10"> with <img alt="English" src="../../../graphics/flags/gb-small.png" border="0" hspace="1" width="20" height="10"> abstract)</a></li>
-</ul>
-
-
-  </div>
-
-<!-- Path Begin -->
-  <div data-role="header" data-position="fixed">
-    <div data-role="navbar">
-      <ul>
-        <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-        <li><a data-ajax="false" target="_top" href="../index.html">U.S.A.</a></li>
-        <li><a data-ajax="false" target="_top" href="../region/ky.html">Kentucky</a></li>
-        <li><a data-ajax="false" target="_top" href="../region/Map.html">Map</a></li>
-        <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by State</a></li>
-      </ul>
-    </div>
-  </div>
-<!-- Path End -->
-
-
-<!-- Navigation Bar Begin -->
-  <div data-role="footer" data-position="fixed">
-    <div data-role="navbar">
-      <ul>
-        <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
-        <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
-        <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
-      </ul>
-      <ul>
-        <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
-        <li><a data-ajax="false" target="_top" href="../../Jochen.html">&copy;&nbsp;Jochen Duckeck</a></li>
-        <li><a data-ajax="false" target="_top" href="#"  onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img vspace="0" alt="contact" title="contact" border="0"  style="cursor: pointer;" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
-     </ul>
-    </div>
-  </div>
-<!-- Navigation Bar End -->
-
-
-
-
-</div> 
 
 </body>
 </html>

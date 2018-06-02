@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Furna do Enxofre</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Enxofre.html"             >Furna do Enxofre</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Enxofre.html"             >Furna do Enxofre</a>]]></description>
 		<LookAt>
 			<longitude>-27.97364494752618</longitude>
 			<latitude>39.02494390407836</latitude>

@@ -15,6 +15,7 @@
 <link rel="shortcut icon" href="../../../favicon.ico">
 <link rel="stylesheet" type="text/css" href="../../../css/global.css">
 <script language="JavaScript" src="../../../js/xemhid.js"></script>
+<script language="JavaScript" src="../../../js/global.js"></script>
 <!-- begin responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
@@ -28,25 +29,7 @@
 
 
 
-<!-- begin Google Map -->
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
-  var map;
-  function initialize() {
-    var myOptions = {
-      zoom: 5,
-  		center: new google.maps.LatLng(-38.416097, -63.616672),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
-		var ctaLayer = new google.maps.KmlLayer('http://www.showcaves.com/kml/ar.kml');
-		ctaLayer.setMap(map);
-  }
 
-  google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-<!-- end Google Map -->
 
 
 <title>Map of Argentina</title>
@@ -89,8 +72,8 @@
 <br>
 
 <ul class="linklist2" data-role="listview" data-inset="true">
-        <li><a data-ajax="false" target="_top" href="../../misc/showcaves/Brujas.html"            ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Caverna de las Brujas</a></li>
-        <li><a data-ajax="false" target="_top" href="../../misc/showcaves/Gualicho.html"          ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">Cueva de Gualicho</a></li>
+        <li><a data-ajax="false" target="_top" href="../../misc/showcaves/Brujas.html"            ><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Caverna de las Brujas</a></li>
+        <li><a data-ajax="false" target="_top" href="../../misc/showcaves/Gualicho.html"          ><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cueva de Gualicho</a></li>
         <li><a data-ajax="false" target="_top" href="../../misc/karst/Inca.html"                  ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">Puente del Inca</a></li>
         <li><a data-ajax="false" target="_top" href="../../misc/caves/LasManos.html"              ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">Cueva de las Manos</a></li>
         <li><a data-ajax="false" target="_top" href="../../misc/caves/Tigre.html"                 ><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">Cueva del Tigre</a></li>

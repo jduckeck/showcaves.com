@@ -166,8 +166,8 @@ if(lastmoddate == 0){               // unknown date (or January 1,&nbsp;1970 GMT
 }
 // End -->
 </script>
-<a href="../../TermsOfUse.html">Terms of Use</a>,
-&copy;&nbsp;<a href="../../Jochen.html">Jochen Duckeck</a>.
+<a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a>,
+&copy;&nbsp;<a data-ajax="false" target="_top" href="../../Jochen.html">Jochen Duckeck</a>.
 </td>
 </tr>
 </table>

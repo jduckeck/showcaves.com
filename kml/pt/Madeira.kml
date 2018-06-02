@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Grutas de São Vicente</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/SaoVicente.html"          >Grutas de S&atilde;o Vicente</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/SaoVicente.html"          >Grutas de S&atilde;o Vicente</a>]]></description>
 		<LookAt>
 			<longitude>-17.04220126524444</longitude>
 			<latitude>32.79806453606936</latitude>

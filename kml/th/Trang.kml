@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tham Khao Kop</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/KhaoKop.html"             >Tham Khao Kop</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../th/showcaves/KhaoKop.html"             >Tham Khao Kop</a>]]></description>
 		<LookAt>
 			<longitude>99.57492038234136</longitude>
 			<latitude>7.7902204905733</latitude>

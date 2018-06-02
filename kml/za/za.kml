@@ -126,7 +126,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Echo Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
 			<LookAt>
 				<longitude>30.60210864802036</longitude>
 				<latitude>-24.56300630048789</latitude>
@@ -144,7 +144,7 @@
 		</Placemark>
     	<Placemark>
     		<name>Sudwala Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
     		<LookAt>
     			<longitude>30.69968398822673</longitude>
     			<latitude>-25.37009214238318</latitude>
@@ -161,7 +161,7 @@
     	</Placemark>
     	<Placemark>
     		<name>St Blaize Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
     		<LookAt>
     			<longitude>22.15651811187099</longitude>
     			<latitude>-34.1861846494283</latitude>
@@ -177,7 +177,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Wonderwerk Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
     		<LookAt>
     			<longitude>23.55879651081971</longitude>
     			<latitude>-27.83927332752057</latitude>
@@ -263,7 +263,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Sterkfontein Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Sterkfontein.html"        >Sterkfontein Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Sterkfontein.html"        >Sterkfontein Caves</a>]]></description>
 			<LookAt>
 				<longitude>27.73379645653446</longitude>
 				<latitude>-26.01570864586412</latitude>
@@ -280,7 +280,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wonder Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Wondercave.html"          >Wondercave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Wondercave.html"          >Wondercave</a>]]></description>
 			<LookAt>
 				<longitude>27.78210682993798</longitude>
 				<latitude>-25.98263610571579</latitude>
@@ -413,7 +413,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cango Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
 			<LookAt>
 				<longitude>22.21248401609856</longitude>
 				<latitude>-33.39797402129807</latitude>

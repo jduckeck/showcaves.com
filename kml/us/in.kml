@@ -58,7 +58,7 @@
         <Placemark>
             <name>Squire Boone Caverns</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/SquireBoone.html"        >Squire Boone Caverns/Village</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/SquireBoone.html"        >Squire Boone Caverns/Village</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.13414749217019</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Marengo Cave National Landmark</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Marengo.html"            >Marengo Cave NL</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Marengo.html"            >Marengo Cave NL</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.339468000029</longitude>
@@ -98,7 +98,7 @@
         <Placemark>
             <name>Wyandotte Caves</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Wyandotte.html"          >Wyandotte Caves &amp; Woods</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Wyandotte.html"          >Wyandotte Caves &amp; Woods</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.29386300009062</longitude>
@@ -118,7 +118,7 @@
         <Placemark>
             <name>Twin Cave - Spring Mill State Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/SpringMill.html"         >Spring Mill State Park</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/SpringMill.html"         >Spring Mill State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.41598457270807</longitude>
@@ -138,7 +138,7 @@
         <Placemark>
             <name>Bluespring Caverns</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Bluespring.html"         >Bluespring Caverns</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Bluespring.html"         >Bluespring Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.54621363438496</longitude>

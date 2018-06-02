@@ -56,7 +56,7 @@
         </Style>
     	<Placemark>
     		<name>St. John Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="StJohn  " href="../../../english/usa/showcaves/StJohn.html"           >St. John Mine</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="StJohn  " href="../../../english/usa/showcaves/StJohn.html"           >St. John Mine</a>]]></description>
     		<LookAt>
     			<longitude>-90.71269635054549</longitude>
     			<latitude>42.68687382019284</latitude>
@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Platteville Mining Museum</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Platteville  " href="../../../english/usa/mines/Platteville.html"           >Platteville Mining Museum</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Platteville  " href="../../../english/usa/mines/Platteville.html"           >Platteville Mining Museum</a>]]></description>
     		<LookAt>
     			<longitude>-90.47274299999997</longitude>
     			<latitude>42.73285300000001</latitude>
@@ -90,7 +90,7 @@
     	</Placemark>
     	<Placemark>
     		<name>New Hope Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="NewHope  " href="../../../english/usa/showcaves/NewHope.html"           >New Hope Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="NewHope  " href="../../../english/usa/showcaves/NewHope.html"           >New Hope Cave</a>]]></description>
     		<LookAt>
     			<longitude>-87.77752001369062</longitude>
     			<latitude>44.29008603147018</latitude>
@@ -107,7 +107,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cave of the Mounds</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Mounds  " href="../../../english/usa/showcaves/Mounds.html"           >Cave of the Mounds</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Mounds  " href="../../../english/usa/showcaves/Mounds.html"           >Cave of the Mounds</a>]]></description>
     		<LookAt>
     			<longitude>-89.81634738897006</longitude>
     			<latitude>43.01791824016251</latitude>
@@ -124,7 +124,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Ledge View Nature Center</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="LedgeViewNatureCenter  " href="../../../english/usa/showcaves/LedgeViewNatureCenter.html"           >Ledge View Nature Center</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="LedgeViewNatureCenter  " href="../../../english/usa/showcaves/LedgeViewNatureCenter.html"           >Ledge View Nature Center</a>]]></description>
     		<LookAt>
     			<longitude>-88.15154783865989</longitude>
     			<latitude>44.00373204939925</latitude>
@@ -141,7 +141,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Kickapoo Indian Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="KickapooIndian  " href="../../../english/usa/showcaves/KickapooIndian.html"           >Kickapoo Indian Caverns</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="KickapooIndian  " href="../../../english/usa/showcaves/KickapooIndian.html"           >Kickapoo Indian Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-90.95182697453954</longitude>
     			<latitude>43.09336100928472</latitude>
@@ -158,7 +158,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Eagle Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Eagle  " href="../../../english/usa/showcaves/Eagle.html"           >Eagle Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Eagle  " href="../../../english/usa/showcaves/Eagle.html"           >Eagle Cave</a>]]></description>
     		<LookAt>
     			<longitude>-90.54020501187446</longitude>
     			<latitude>43.24328501118373</latitude>
@@ -174,7 +174,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Crystal Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="CrystalWI  " href="../../../english/usa/showcaves/CrystalWI.html"           >Crystal Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="CrystalWI  " href="../../../english/usa/showcaves/CrystalWI.html"           >Crystal Cave</a>]]></description>
     		<LookAt>
     			<longitude>-92.25351519352655</longitude>
     			<latitude>44.83585950071641</latitude>
@@ -191,7 +191,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Badger Mine and Museum</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Badger  " href="../../../english/usa/mines/Badger.html"           >Badger Mine and Museum</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Badger  " href="../../../english/usa/mines/Badger.html"           >Badger Mine and Museum</a>]]></description>
     		<LookAt>
     			<longitude>-90.23874030583323</longitude>
     			<latitude>42.56994395958596</latitude>

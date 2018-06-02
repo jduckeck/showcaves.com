@@ -57,7 +57,7 @@
     	<name>Nevada</name>
     	<Placemark>
     		<name>Lehman Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Lehman  " href="../../../english/usa/showcaves/Lehman.html"           >Lehman Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Lehman  " href="../../../english/usa/showcaves/Lehman.html"           >Lehman Caves</a>]]></description>
     		<LookAt>
     			<longitude>-114.2199920351603</longitude>
     			<latitude>39.00587449257784</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Ponderosa Saloon Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Ponderosa  " href="../../../english/usa/mines/Ponderosa.html"           >Ponderosa Saloon Mine</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Ponderosa  " href="../../../english/usa/mines/Ponderosa.html"           >Ponderosa Saloon Mine</a>]]></description>
     		<LookAt>
     			<longitude>-119.6548263425532</longitude>
     			<latitude>39.29781812373495</latitude>
@@ -91,7 +91,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Chollar Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Chollar  " href="../../../english/usa/mines/Chollar.html"           >Chollar Mine</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Chollar  " href="../../../english/usa/mines/Chollar.html"           >Chollar Mine</a>]]></description>
     		<LookAt>
     			<longitude>-119.6507366580239</longitude>
     			<latitude>39.30307934838027</latitude>
@@ -108,7 +108,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Tonopah Historic Mining Park</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Tonopah  " href="../../../english/usa/mines/Tonopah.html"           >Tonopah Historic Mining Park</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Tonopah  " href="../../../english/usa/mines/Tonopah.html"           >Tonopah Historic Mining Park</a>]]></description>
     		<LookAt>
     			<longitude>-117.2278384880946</longitude>
     			<latitude>38.06906636744466</latitude>
@@ -124,7 +124,7 @@
     	</Placemark>
     	<Placemark>
     		<name>El Dorado Canyon Mine Tours</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="EldoradoCanyon" href="../../../english/usa/mines/EldoradoCanyon.html"           >El Dorado Canyon Mine Tours</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="EldoradoCanyon" href="../../../english/usa/mines/EldoradoCanyon.html"           >El Dorado Canyon Mine Tours</a>]]></description>
     		<LookAt>
     			<longitude>-114.8085752266427</longitude>
     			<latitude>35.70993167771686</latitude>

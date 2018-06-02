@@ -15,6 +15,7 @@
 <link rel="shortcut icon" href="../../../favicon.ico">
 <link rel="stylesheet" type="text/css" href="../../../css/global.css">
 <script language="JavaScript" src="../../../js/xemhid.js"></script>
+<script language="JavaScript" src="../../../js/global.js"></script>
 <!-- begin responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
@@ -42,7 +43,7 @@
 <!--
 <table class="rightLang" width="53">
 <tr>
-<th><a href="../../../german/explain/People/Browne.html"><img src="../../../graphics/flags/de-medium.png" alt="In Deutsch" border="0" hspace="0" width="53" height="32"></a></th>
+<th><a data-ajax="false" target="_top" href="../../../german/explain/People/Browne.html"><img src="../../../graphics/flags/de-medium.png" alt="In Deutsch" border="0" hspace="0" width="53" height="32"></a></th>
 </tr>
 <tr><td class="center small">In Deutsch</td></tr>
 </table>
@@ -50,15 +51,14 @@
 
 <table class="leftLang" width="53">
 <tr>
-<th><a href="../../../german/explain/People/Browne.html"><img src="../../../graphics/flags/de-medium.png" alt="In Deutsch" border="0" hspace="0" width="53" height="32"></a></th>
+<th><a data-ajax="false" target="_top" href="../../../german/explain/People/Browne.html"><img src="../../../graphics/flags/de-medium.png" alt="In Deutsch" border="0" hspace="0" width="53" height="32"></a></th>
 </tr>
 <tr><td class="center small">In Deutsch</td></tr>
 </table>
 -->
 
 
-<table class="foreign">
-<tr><td>
+<div class="foreignText">
 
 <h1 align="center">The Rev George Forrest Browne</h1>
 <h2 align="center">(1833-1930)</h2>
@@ -68,7 +68,7 @@
 
 <table class="rightImg" width="187">
 <tr>
-<td><a href="../../../foreign/Big/F040-001.jpg"><img alt="" src="../../../foreign/F040-001.jpg" width="187" height="250"></a></td>
+<td><a data-ajax="false" target="_top" href="../../../foreign/Big/F040-001.jpg"><img alt="" src="../../../foreign/F040-001.jpg" width="187" height="250"></a></td>
 </tr>
 <tr>
 <td class="imgCaption"><b>Image:</b> The Rev George Forrest Browne, Bishop of Bristol, in the Chapel of Bristol Cathedral.<br>
@@ -196,7 +196,8 @@ With kind permission.
 
 <h2>References</h2>
 
-<ul>
+<ul class="linklist" data-role="listview" data-inset="true">
+
 <li class="liBook"    ><b class="smallCaps">Balch, E S.</b> (1900):
     <b>Glaci&egrave;res or Freezing Caverns</b>,
     Allen, Lane &amp; Scott. Philadelphia. 337 pp. 8vo.<br>
@@ -229,8 +230,7 @@ With kind permission.
 </li>
 </ul>
 
-</td></tr>
-</table>
+</div>
 
 
 

@@ -15,6 +15,7 @@
 <link rel="shortcut icon" href="../../../favicon.ico">
 <link rel="stylesheet" type="text/css" href="../../../css/global.css">
 <script language="JavaScript" src="../../../js/xemhid.js"></script>
+<script language="JavaScript" src="../../../js/global.js"></script>
 <!-- begin responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
@@ -28,25 +29,7 @@
 
 
 
-<!-- begin Google Map -->
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
-  var map;
-  function initialize() {
-    var myOptions = {
-      zoom: 7,
-  		center: new google.maps.LatLng(8.655905, -80.066309),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
-		var ctaLayer = new google.maps.KmlLayer('http://www.showcaves.com/kml/$CountryTwoLetter$.kml');
-		ctaLayer.setMap(map);
-  }
 
-  google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-<!-- end Google Map -->
 
 
 <title>Map of $Country$</title>
@@ -58,7 +41,7 @@
 
 
 
-<li><a href="../region/$CountryTwoLetter$Map.html"><img src="../../../graphics/symbol/Map.png" alt="Map" class="ui-li-icon ui-corner-none"><b>Map of $Country$</b></a></li>
+<li><a data-ajax="false" target="_top" href="../region/$CountryTwoLetter$Map.html"><img src="../../../graphics/symbol/Map.png" alt="Map" class="ui-li-icon ui-corner-none"><b>Map of $Country$</b></a></li>
 
 <h1 align="center">Map of $Country$</h1>
 <h2 align="center"></h2>

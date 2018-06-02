@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Idaho&apos;s Mammoth Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/IdahosMammoth.html"      >Idaho's Mammoth Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/IdahosMammoth.html"      >Idaho's Mammoth Cave</a>]]></description>
 		<LookAt>
 			<longitude>-114.412292440572</longitude>
 			<latitude>43.07056103567798</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Minnetonka Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Minnetonka.html"         >Minnetonka Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Minnetonka.html"         >Minnetonka Cave</a>]]></description>
 		<LookAt>
 			<longitude>-111.5195969115307</longitude>
 			<latitude>42.08866349983438</latitude>
@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Shoshone Ice Caves</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Shoshone.html"           >Shoshone Ice Caves</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Shoshone.html"           >Shoshone Ice Caves</a>]]></description>
 		<LookAt>
 			<longitude>-114.3400241196479</longitude>
 			<latitude>43.1660791209518</latitude>
@@ -257,7 +257,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Blue Pond Spring</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Minnetonka.html"         >Minnetonka Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Minnetonka.html"         >Minnetonka Cave</a>]]></description>
 		<LookAt>
 			<longitude>-111.4954751251159</longitude>
 			<latitude>42.10470862647451</latitude>

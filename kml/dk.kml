@@ -57,7 +57,7 @@
     	<name>Denmark</name>
         <Placemark>
             <name>Mønsted Kalkgruber</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a href="../../../english/usa/mines/Moensted.html"           >Mønsted Kalkgruber</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/usa/mines/Moensted.html"           >Mønsted Kalkgruber</a>]]></description>
             <LookAt>
                 <longitude>9.166277867166672</longitude>
                 <latitude>56.45572679467993</latitude>
@@ -74,7 +74,7 @@
         </Placemark>
         <Placemark>
             <name>Thingbæk Kalkminer</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Thingbaek  " href="../../../english/usa/mines/Thingbaek.html"           >Thingbæk Kalkminer</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Thingbaek  " href="../../../english/usa/mines/Thingbaek.html"           >Thingbæk Kalkminer</a>]]></description>
             <LookAt>
                 <longitude>9.812011480227618</longitude>
                 <latitude>56.83172716290659</latitude>
@@ -91,7 +91,7 @@
         </Placemark>
         <Placemark>
             <name>Daugbjerg Kalkgruber</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a sort="Daugbjerg  " href="../../../english/usa/mines/Daugbjerg.html"           >Daugbjerg Kalkgruber</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Daugbjerg  " href="../../../english/usa/mines/Daugbjerg.html"           >Daugbjerg Kalkgruber</a>]]></description>
             <LookAt>
                 <longitude>9.130527886286934</longitude>
                 <latitude>56.43823489718105</latitude>
@@ -108,7 +108,7 @@
         </Placemark>
         <Placemark>
             <name>Silkeborg Bunker Museum</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a sort="Silkeborg  " href="../../../english/usa/misc/Silkeborg.html"           >Silkeborg Bunker Museum</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a sort="Silkeborg  " href="../../../english/usa/misc/Silkeborg.html"           >Silkeborg Bunker Museum</a>]]></description>
             <LookAt>
                 <longitude>9.527930902390237</longitude>
                 <latitude>56.15432231353762</latitude>

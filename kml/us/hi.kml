@@ -98,7 +98,7 @@
         <Placemark>
             <name>Hana Lava Tube - Ka&apos;eleku Cavern</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Hana.html"               >Ka'eleku Caverns - Hana Lava Tube</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Hana.html"               >Ka'eleku Caverns - Hana Lava Tube</a>]]>
             </description>
             <LookAt>
                 <longitude>-156.0327320425285</longitude>
@@ -116,7 +116,7 @@
         <Placemark>
             <name>Thurston Lava Tube</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Thurston.html"           >Thurston Lava Tube</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Thurston.html"           >Thurston Lava Tube</a>]]>
             </description>
             <LookAt>
                 <longitude>-155.238824221813</longitude>
@@ -134,7 +134,7 @@
         <Placemark>
             <name>Fern Grotto</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Fern.html"               >Fern Grotto</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Fern.html"               >Fern Grotto</a>]]>
             </description>
             <LookAt>
                 <longitude>-159.3569653851161</longitude>
@@ -243,7 +243,7 @@
         <Placemark>
             <name>Makauwahi Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/Makauwahi.html"          >Makauwahi Cave</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Makauwahi.html"          >Makauwahi Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-159.4188319011604</longitude>

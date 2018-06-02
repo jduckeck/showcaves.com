@@ -91,7 +91,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cueva de la Quebrada del Toro</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Guacharo.html"          >Cueva del Gu&aacute;charo</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Guacharo.html"          >Cueva del Gu&aacute;charo</a>]]></description>
     		<LookAt>
     			<longitude>-69.13201369480997</longitude>
     			<latitude>10.82828455101727</latitude>
@@ -108,7 +108,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cueva del Guácharo</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/QuebradaDelToro.html"   >Cueva de la Quebrada del Toro</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/QuebradaDelToro.html"   >Cueva de la Quebrada del Toro</a>]]></description>
     		<LookAt>
     			<longitude>-63.52977170095097</longitude>
     			<latitude>10.17498262700201</latitude>

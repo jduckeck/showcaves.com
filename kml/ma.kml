@@ -58,7 +58,7 @@
         <Placemark>
             <name>Gouffre Friouato</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Friouato.html"          >Gouffre Friouato</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Friouato.html"          >Gouffre Friouato</a>]]>
             </description>
             <LookAt>
                 <longitude>-4.075321830755868</longitude>
@@ -76,7 +76,7 @@
         <Placemark>
             <name>Grottes d&apos;Hercules - The Caves of Hercules</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Hercules.html"          >Grottes d'Hercules</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Hercules.html"          >Grottes d'Hercules</a>]]>
             </description>
             <LookAt>
                 <longitude>-5.939155893476982</longitude>

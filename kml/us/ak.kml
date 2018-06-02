@@ -150,7 +150,7 @@
         </Placemark>
     	<Placemark>
     		<name>Old Spanish Treasure Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../usa/showcaves/OldSpanishTreasure.html" >Old Spanish Treasure Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/OldSpanishTreasure.html" >Old Spanish Treasure Cave</a>]]></description>
     		<LookAt>
     			<longitude>-94.44494206552633</longitude>
     			<latitude>36.44875268464577</latitude>

@@ -57,7 +57,7 @@
     	<name>Namibia</name>
     	<Placemark>
     		<name>Dureb Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Dureb.html"             >Dureb Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Dureb.html"             >Dureb Caves</a>]]></description>
     		<LookAt>
     			<longitude>14.66265977828327</longitude>
     			<latitude>-21.11068939073097</latitude>
@@ -91,7 +91,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Arnhem Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../misc/showcaves/Arnhem.html"            >Arnhem Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Arnhem.html"            >Arnhem Cave</a>]]></description>
     		<LookAt>
     			<longitude>18.08841885329373</longitude>
     			<latitude>-22.74150293028668</latitude>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Gruta das Torres</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../pt/showcaves/Torres.html"              >Gruta das Torres</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Torres.html"              >Gruta das Torres</a>]]></description>
 		<LookAt>
 			<longitude>-28.50239900000281</longitude>
 			<latitude>38.49430099971941</latitude>

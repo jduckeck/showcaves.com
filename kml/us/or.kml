@@ -56,7 +56,7 @@
         </Style>
         <Placemark>
             <name>Lava River Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a sort="LavaRiver  " href="../../../english/usa/caves/LavaRiver.html"           >Lava River Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="LavaRiver  " href="../../../english/usa/caves/LavaRiver.html"           >Lava River Cave</a>]]></description>
             <LookAt>
                 <longitude>-121.3693625124764</longitude>
                 <latitude>43.89536043296497</latitude>
@@ -73,7 +73,7 @@
         </Placemark>
         <Placemark>
             <name>Oregon Caves National Park</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="Oregon  " href="../../../english/usa/showcaves/Oregon.html"           >Oregon Caves National Park</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Oregon  " href="../../../english/usa/showcaves/Oregon.html"           >Oregon Caves National Park</a>]]></description>
             <LookAt>
                 <longitude>-123.4678778857142</longitude>
                 <latitude>42.16124059362621</latitude>
@@ -90,7 +90,7 @@
         </Placemark>
         <Placemark>
             <name>Portland Underground</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="../../../english/usa/misc/Portland.html"           >Portland Underground</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a href="../../../english/usa/misc/Portland.html"           >Portland Underground</a>]]></description>
             <LookAt>
                 <longitude>-122.6729267631443</longitude>
                 <latitude>45.52388658627352</latitude>
@@ -106,7 +106,7 @@
         </Placemark>
         <Placemark>
             <name>Sea Lion Caves</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a sort="SeaLion  " href="../../../english/usa/showcaves/SeaLion.html"           >Sea Lion Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="SeaLion  " href="../../../english/usa/showcaves/SeaLion.html"           >Sea Lion Caves</a>]]></description>
             <LookAt>
                 <longitude>-124.1269951587513</longitude>
                 <latitude>44.12178531420898</latitude>

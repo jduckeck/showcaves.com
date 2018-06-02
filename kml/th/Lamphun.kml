@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tham Luang Pha Wiang</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;<a href="../../th/showcaves/LuangPhaWiang.html"       >Tham Luang Pha Wiang</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../th/showcaves/LuangPhaWiang.html"       >Tham Luang Pha Wiang</a>]]></description>
 		<LookAt>
 			<longitude>98.84529830431529</longitude>
 			<latitude>18.21677420618359</latitude>
