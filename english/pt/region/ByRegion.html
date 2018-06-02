@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="resource-type" content="document">
@@ -13,192 +13,153 @@
     <meta http-equiv="content-language" content="en">
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="../../../global.css">
-    <script language="JavaScript" src="../../../xemhid.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="../../../css/global.css">
+    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script language="JavaScript" src="../../../js/global.js"></script>
+    <!-- begin responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
+    <script src="../../../js/jquery-1.11.3.min.js"></script>
+    <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet"/>
+    <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+    <!-- end responsive -->
 
     <title>Portugal by Region</title>
 </head>
 
 <body>
+<div data-role="page" id="pageroot">
+    <div data-role="main" class="ui-content">
 
 
-<h1 align="center">Portugal by Region</h1>
-<h2 align="center">Complete List by State</h2>
-
-<br clear="all">
-
-<table border="0" cellspacing="0" cellpadding="5">
-
-    <ul class="linklist3" data-role="listview" data-inset="true">
-        <li><a data-ajax="false" target="_top" href="../../pt/region/Evora.html"><b>Distrito de &Eacute;vora</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-        <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Escoural.html">Gruta do Escoural</a>
-        </td>
-        </tr>
+        <h1 align="center">Portugal by Region</h1>
+        <h2 align="center">Complete List by State</h2>
 
         <ul class="linklist3" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../pt/region/Faro.html"><b>Distrito de Faro</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-            <img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">&nbsp;<a href="../../pt/mines/Mouros.html">Cova dos Mouros</a>&nbsp;|
-            <img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif" width="12" height="12">&nbsp;<a href="../../pt/karst/RochaDePena.html">Rocha de Pena</a>
-            </td>
-            </tr>
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Evora.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>Distrito de &Eacute;vora</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Escoural.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Gruta do Escoural</a></li>
+        </ul>
 
-            <tr>
-                <td valign="top" nowrap>
-                   <li><a data-ajax="false" target="_top" href="../../pt/region/Leiria.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Distrito de Leiria</b></a></li>
-                </td>
-                <td>
-                    <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alvados.html">Grutas de Alvados</a>&nbsp;|
-                    <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/Furninha.html">Gruta da Furninha</a>&nbsp;|
-                    <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/MiraDeAire.html">Grutas de Mira de Aire</a>&nbsp;|
-                    <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Moeda.html">Grutas da Moeda</a>&nbsp;|
-                    <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/SantoAntonio.html">Gruta de Santo-Antonio</a>
-                </td>
-            </tr>
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Faro.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>Distrito de Faro</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/mines/Mouros.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif" width="12" height="12">Cova dos Mouros</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/karst/RochaDePena.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif" width="12" height="12">Rocha de Pena</a></li>
+        </ul>
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Leiria.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Distrito de Leiria</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Alvados.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Grutas de Alvados</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/caves/Furninha.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Gruta da Furninha</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/MiraDeAire.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Grutas de Mira de Aire</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Moeda.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Grutas da Moeda</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/SantoAntonio.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Gruta de Santo-Antonio</a></li>
+        </ul>
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Lisboa.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>Distrito de Lisboa</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/misc/Lisboa.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">Lisboa Roman Galleries</a></li>
+        </ul>
 
-            <ul class="linklist3" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../pt/region/Lisboa.html"><b>Distrito de Lisboa</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-                <img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="../../pt/misc/Lisboa.html">Lisboa Roman Galleries</a>
-                </td>
-                </tr>
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Santarem.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>Distrito de Santar&eacute;m</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Alcobertas.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Gruta das Alcobertas</a></li>
+        </ul>
 
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Braganca.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>Distrito de Bragan&ccedil;a</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/caves/SantoAdriao.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Grutas de Santo Adri&atilde;o</a></li>
+        </ul>
+
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Setubal.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif" width="12" height="12"><b>Distrito de Set&uacute;bal</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Zambujal.html"><span class="strike">Gruta do Zambujal</span><img src="../../../graphics/symbol/Showcave.png" class="symbol"></a></li>
+        </ul>
+
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Madeira.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>Madeira</b></a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/caves/Cavalum.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Furnas do Cavalum</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pt/showcaves/SaoVicente.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Grutas de S&atilde;o Vicente</a></li>
+        </ul>
+
+        <ul class="linklist3" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../pt/region/Azores.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"><b>A&ccedil;ores</b></a></li>
+            <li>
                 <ul class="linklist3" data-role="listview" data-inset="true">
-                    <li><a data-ajax="false" target="_top" href="../../pt/region/Santarem.html"><b>Distrito de Santar&eacute;m</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-                    <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alcobertas.html">Gruta das Alcobertas</a>
-                    </td>
-                    </tr>
+                    <li><a data-ajax="false" target="_top" href="../../pt/region/Graciosa.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla Graciosa</b></a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/caves/Abel.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Furna do Abel</a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Enxofre.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Furna do Enxofre</a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/caves/MariaEncantada.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Gruta da Maria Encantada</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="linklist3" data-role="listview" data-inset="true">
+                    <li><a data-ajax="false" target="_top" href="../../pt/region/Pico.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla Pico</b></a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/caves/FreiMatias.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Furna de Frei Matias</a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Torres.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Gruta das Torres</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="linklist3" data-role="listview" data-inset="true">
+                    <li><a data-ajax="false" target="_top" href="../../pt/region/Terceira.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla Terceira</b></a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/caves/Agulhas.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Gruta das Agulhas</a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Carvao.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Algar do Carv&atilde;o</a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/karst/MachadoFagundes.html"><img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif" width="12" height="12">Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/showcaves/Natal.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Gruta do Natal</a></li>
+                </ul>
+            </li>
+            <li>
+            <li>
+                <ul class="linklist3" data-role="listview" data-inset="true">
+                    <li><a data-ajax="false" target="_top" href="../../pt/region/SaoMiguel.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla S&atilde;o Miguel</b></a></li>
+                    <li><a data-ajax="false" target="_top" href="../../pt/showcaves/CarvaoSaoMiguel.html"><img src="../../../graphics/symbol/Showcave.png" class="symbol">Gruta do Carv&atilde;o</a></li>
+                </ul>
+            </li>
+        </ul>
 
-                    <ul class="linklist3" data-role="listview" data-inset="true">
-                        <li><a data-ajax="false" target="_top" href="../../pt/region/Braganca.html"><b>Distrito de Bragan&ccedil;a</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-                        <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/SantoAdriao.html">Grutas de Santo Adri&atilde;o</a>
-                        </td>
-                        </tr>
 
-                        <tr>
-                            <td valign="top">
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif" width="12" height="12"><a href="../../pt/region/Setubal.html"><b>Distrito de Set&uacute;bal</b></a>:
-                            </td>
-                            <td>
-                                <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Zambujal.html"><span class="strike">Gruta do Zambujal</span></a>
-                            </td>
-                        </tr>
+        <br>
 
-                        <ul class="linklist3" data-role="listview" data-inset="true">
-                            <li><a data-ajax="false" target="_top" href="../../pt/region/Madeira.html"><b>Madeira</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-                            <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/Cavalum.html">Furnas do Cavalum</a>&nbsp;|
-                            <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/SaoVicente.html">Grutas de S&atilde;o Vicente</a>
-                            </td>
-                            </tr>
+        <p>
+            The country is divided into seven regions, which are subdivided into 18
+            districts in mainland Portugal
+            Actually some districts belong to more than one region, so they do not share
+            borders.
+            There are also two autonomous regions, which are not part of mainland
+            Portugal but the archipelagos A&ccedil;ores and Madeira.
+            We decided to list using districts and autonomous regions.
+        </p>
 
-                            <ul class="linklist3" data-role="listview" data-inset="true">
-                                <li><a data-ajax="false" target="_top" href="../../pt/region/Azores.html"><b>A&ccedil;ores</b><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region"></a></li>
-                               <li><a data-ajax="false" target="_top" href="../../pt/region/Graciosa.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla Graciosa</b></a></li>
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/Abel.html">Furna do Abel</a>&nbsp;|
-                                <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Enxofre.html">Furna do Enxofre</a>&nbsp;|
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/MariaEncantada.html">Gruta da Maria Encantada</a>
-                                <br>
-                               <li><a data-ajax="false" target="_top" href="../../pt/region/Pico.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla Pico</b></a></li>
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/FreiMatias.html">Furna de Frei Matias</a>&nbsp;|
-                                <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Torres.html">Gruta das Torres</a>
-                                <br>
-                               <li><a data-ajax="false" target="_top" href="../../pt/region/Terceira.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla Terceira</b></a></li>
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;<a href="../../pt/caves/Agulhas.html">Gruta das Agulhas</a>&nbsp;|
-                                <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Carvao.html">Algar do Carv&atilde;o</a>&nbsp;|
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif" width="12" height="12">&nbsp;<a href="../../pt/karst/MachadoFagundes.html">Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>&nbsp;|
-                                <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Natal.html">Gruta do Natal</a>
-                                <br>
-                               <li><a data-ajax="false" target="_top" href="../../pt/region/SaoMiguel.html"><img class="symbol ui-li-icon ui-corner-none" src="../../../graphics/symbol/Region.png"><b>Isla S&atilde;o Miguel</b></a></li>
-                                <img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/CarvaoSaoMiguel.html">Gruta do Carv&atilde;o</a>
-                                </td>
-                                </tr>
+    </div>
 
-                                <!--
-                                <tr>
-                                <td valign="top">
-                                <img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../pt/region/.html"><b>:</b></a>
-                                </td>
-                                <td>
-                                </td>
-                                </tr>
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Portugal</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
 
-                                -->
 
-</table>
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">&copy;&nbsp;Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img vspace="0" alt="contact" title="contact" border="0" style="cursor: pointer;" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
 
-<br>
-
-<p>
-    The country is divided into seven regions, which are subdivided into 18
-    districts in mainland Portugal
-    Actually some districts belong to more than one region, so they do not share
-    borders.
-    There are also two autonomous regions, which are not part of mainland
-    Portugal but the archipelagos A&ccedil;ores and Madeira.
-    We decided to list using districts and autonomous regions.
-</p>
-
-<br clear="all">
-
-<br clear="all">
-
-<table align="center" border="0" cellspacing="0" cellpadding="5" class="footerNav">
-    <tr>
-        <td align="center" valign="middle" class="footerNav">
-            <a target="_top" href="../../index.html">Main Index</a> |
-            <a target="_top" href="../index.html">Portugal</a> |
-            <a href="Map.html">Map</a>
-        </td>
-    </tr>
-    <tr>
-        <td align="center" class="copyMsg">
-            Last updated
-            <script type="text/javascript">
-                <!--
-                Begin
-                lastmod = document.lastModified // get string of last modified date
-                lastmoddate = Date.parse(lastmod)   // convert modified string to date
-                if (lastmoddate == 0) {               // unknown date (or January 1, 1970 GMT)
-                    document.writeln("Unknown,")
-                } else {
-                    document.writeln(lastmod + ",")
-                }
-                // End -->
-            </script>
-            <a href="../../TermsOfUse.html">Terms of Use</a>,
-            &copy;&nbsp;<a href="../../Jochen.html">Jochen Duckeck</a>.
-        </td>
-    </tr>
-</table>
-
-<br><br>
-
-<!-- Navigation Bar Begin -->
-<table class="navBar" width="100%">
-    <tr>
-        <td class="navBar">
-            Search <span class="mySiteName">showcaves.com</span><br>
-            <form class="noBorder" method="GET" action="http://www.google.com/search">
-                <input type="hidden" name="as_qt" value="w">
-                <input type="hidden" name="as_eqt" value="w">
-                <input type="hidden" name="as_eq" value="">
-                <input type="hidden" name="as_dt" value="i">
-                <input type="hidden" name="as_sitesearch" value="showcaves.com">
-                <input type="hidden" name="lr" value="">
-                <input type="hidden" name="num" value="100">
-                <input type="text" name="as_q" size="20" maxlength="255" value="">
-                <input type="submit" name="btnG" value="Search!">
-            </form>
-        </td>
-        <td><img vspace="0" hspace="0" src="../../../graphics/space.gif" width="1" height="10"></td>
-        <td class="navBar"><a target="_top" href="../../explain/Maps/index.html">Maps</a><br><a target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></td>
-        <td><img vspace="0" hspace="0" src="../../../graphics/space.gif" width="1" height="10"></td>
-        <td class="navBar">Contact <span class="mySiteName">showcaves.com</span>:<br><img onClick="xemhid('askir','showcaves','com')" style="cursor: pointer;" src="/xemhid.php?p1=askir&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></td>
-        <td><img vspace="0" hspace="0" src="../../../graphics/space.gif" width="1" height="10"></td>
-        <td class="navBar"><a target="_top" href="../../explain/index.html">General Information</a></td>
-    </tr>
-</table>
-<!-- Navigation Bar End -->
-
+</div>
 
 </body>
 </html>
