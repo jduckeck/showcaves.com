@@ -44,6 +44,10 @@ P {
     display: none;
 }
 
+.closed {
+    text-decoration: line-through;
+}
+
 .center {
     padding: auto;
     text-align: center;
