@@ -30,3 +30,19 @@ Typ Category links
         \<li\>\<a data-ajax=\"false\" target=\"_top\" href=\"\.\./\.\./explain/(.+)\"       \>\<img class=\"ui-li-icon ui-corner-none\" vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\>(.+)\</a\>\</li\>
 \<img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\>&nbsp;\<a href=\"\.\./\.\./explain/(\.+)\"         \>(\.+)\</a\>
 <button data-role="button" data-inline=\"true\" data-mini=\"true\"><a data-ajax=\"false\" target=\"_top\" href=\"../../explain/\1\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Explain.gif\" width=\"12\" height=\"12\">\2</a></button>
+
+-- replace ByRegion links
+<img vspace="0" hspace="0" src="../../../graphics/symbol/(.*).gif" width="12" height="12">&nbsp;<a sort=".*" href="(.*)">(.*)</a>&nbsp;\|
+<li><a data-ajax="false" target="_top" href="$2"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png" alt="$1">$3</a></li>
+
+<br>
+            <li>\n                 <ul class="linklist3" data-role="listview" data-inset="true">\n                 </ul>\n                 </li>
+
+<strike>(.*?)</strike>
+<span class="closed">$1</span>
+
+            <li data-role="list-divider">unsorted</li>
+
+<font class="mySiteName">showcaves.com</font>
+<span class="mySiteName">showcaves.com</span>
+
