@@ -74,8 +74,7 @@ P {
     width: 12px;
     height: 12px;
     border: 0;
-    padding: 0;
-    padding-right: 0.25rem;
+    padding: 0 0.25rem 0 0;
     vertical-align: center;
 }
 
@@ -83,8 +82,7 @@ P {
     width: 20px;
     height: 10px;
     border: 0;
-    padding: 0;
-    padding-left: 0.25rem;
+    padding: 0 0 0 0.25rem;
     vertical-align: center;
 }
 
@@ -94,6 +92,15 @@ P {
     border: 1px;
     padding: 0;
     vertical-align: center;
+}
+
+.flag {
+    width: 100px;
+    height: 60px;
+    border: 0;
+    padding: 0;
+    float: right;
+    float-offset: 10px;
 }
 
 .galleryImg {
@@ -266,8 +273,7 @@ TABLE.centerImg {
 
 TABLE.invers {
     text-align: justify;
-    background-color: #635D83;
-    background-image: none;
+    background: #635D83 none;
     color: #FFFFFF;
     padding: 15px;
     margin: 10px;
