@@ -7,6 +7,7 @@ $(document).ready(function() {
 
 function init() {
 
+    $("#MenueEntries").load()
 
-    $("#MenueEntries").mmenu();
+    //$("#MenueEntries").mmenu();
 }

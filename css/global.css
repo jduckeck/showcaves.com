@@ -280,14 +280,6 @@ TABLE.invers {
     width: 60%;
 }
 
-.liWorld {
-    list-style-image: url("../graphics/symbol/World.gif")
-}
-
-.liWorldAd {
-    list-style-image: url("../graphics/symbol/World.gif")
-}
-
 .liShowcave {
     list-style-image: url("../graphics/symbol/Showcave.gif")
 }
@@ -355,6 +347,4 @@ TABLE.invers {
 .liWiki {
     list-style-image: url("../graphics/symbol/wiki.png")
 }
-
-
 

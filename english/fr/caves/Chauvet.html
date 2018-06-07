@@ -23,6 +23,7 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet"/>
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+    <link href="../../../css/hamburgers.css" type="text/css" rel="stylesheet">
     <!-- end responsive -->
 
 
@@ -274,7 +275,8 @@
                 <img alt="English" src="../../../graphics/flags/gb-small.png" class="language">
                 <img alt="Espa&ntilde;ol - Spanish" src="../../../graphics/flags/es-small.png" class="language">)</a></li>
             <li><a target="_blank" href="http://cogweb.ucla.edu/Abstracts/Snyder_99.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"><b>The Fiftieth Mlllenium</b>, by <b class="smallCaps">Gary Snyder</b></a></li>
-            <li><a target="_blank" href="http://www.amazon.com/exec/obidos/ASIN/0810932326"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Book.png" alt="Book"><b class="smallCaps">Eliette Brunel Deschamps</b>, <b class="smallCaps">Christian Hillaire</b>, <b class="smallCaps">Jean-Marie Chauvet</b>, <b class="smallCaps">Eliette Brunel Deschamps</b> (1996):
+            <li><a target="_blank" href="http://www.amazon.com/exec/obidos/ASIN/0810932326"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Book.png" alt="Book"><b class="smallCaps">Eliette Brunel Deschamps</b>, <b class="smallCaps">Christian Hillaire</b>, <b class="smallCaps">Jean-Marie Chauvet</b>, <b class="smallCaps">Eliette
+                Brunel Deschamps</b> (1996):
                 <b>Dawn of Art: The Chauvet Cave</b>, The Oldest Known Paintings in the World.
                 Harry N Abrams, 1996, Hardcover, 135pp, ISBN: 0810932326</a></li>
             <li><a target="_blank" href="http://www.amazon.com/exec/obidos/ASIN/0874807581"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Book.png" alt="Book"><b class="smallCaps">Jean Clottes</b> (2003):
@@ -292,10 +294,18 @@
 
     </div>
 
+    <div data-role="panel" id="nav-toggle" data-position="left" data-display="push">
+        <div id="MenueEntries">
+        </div>
+    </div>
+
     <!-- Path Begin -->
     <div data-role="header" data-position="fixed">
         <div data-role="navbar">
             <ul>
+                <li><a data-ajax="true" href="#nav-toggle">
+                    <button class="hamburger hamburger--arrow" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+                </a></li>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">France</a></li>
                 <li><a data-ajax="false" target="_top" href="../region/Rhone.html">Rh&ocirc;ne-Alpes</a></li>
