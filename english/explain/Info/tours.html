@@ -29,21 +29,23 @@
     <script type="text/javascript"><!--
     function Compute(obj) {
         // Written by: Jochen Duckeck, Nuernberg, 1997
-        if ((obj.Miles.value != 0) && (eval(obj.Miles.value) != 0)) {
+        if ((obj.Miles.value !== 0) && (eval(obj.Miles.value) !== 0)) {
             obj.kilometre.value = eval(obj.Miles.value) * 1.609;
         }
         else {
-            if (eval(obj.kilometre.value) != 0) obj.Miles.value = eval(obj.kilometre.value) / 1.609;
+            if (eval(obj.Kilometre.value) !== 0) {
+                obj.Miles.value = eval(obj.Kilometre.value) / 1.609;
+            }
         }
     }
 
     function Compute2(obj) {
         // Written by: Jochen Duckeck, Nuernberg, 1997
-        if ((obj.Foot.value != 0) && (eval(obj.Foot.value) != 0)) {
+        if ((obj.Foot.value !== 0) && (eval(obj.Foot.value) !== 0)) {
             obj.Meter.value = eval(obj.Foot.value) * 0.3048;
         }
         else {
-            if (eval(obj.Meter.value) != 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
+            if (eval(obj.Meter.value) !== 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
         }
     }
 
@@ -74,7 +76,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="imgCaption"><b>Image:</b> A tour visiting the
-                    <li><a data-ajax="false" target="_top" href="../../de/caves/HohlerFels.html"><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif" width="12" height="12">Hohler Fels</a></li>
+                    <a data-ajax="false" target="_top" href="../../de/caves/HohlerFels.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Hohler Fels</a>
                     in Germany.
                 </td>
             </tr>
@@ -82,70 +84,89 @@
 
         <p>
             All information about guided tours, like:
-
-        <DL COMPACT>
-            <DT><b>L</b>
-            <DD>Length of tour in meters.
-                The guided tour may be longer than the cave itself, if the path follows a tunnel more than once.
-            <DT><b>HD</b>
-            <DD>Height difference between highest and deepest point of tour.
-                It may give you a hint how strenuous the tour will be.
-            <DT><b>D</b>
-            <DD>Duration of the tour in minutes.
-                Be aware, that this may differ from guide to guide and depend on how big your group is and how much questions are asked.
-            <DT><b>St</b>
-            <DD>Steps of the path.
-                Like the HD it is just a hint how difficult the tour will be.
-                If the tour is suitable for disabled, it will be mentioned too
-            <DT><b>V</b>
-            <DD>Visitors per year.
-            <DT><b>G</b>
-            <DD>maximum size of groups.
-        </DL>
         </p>
 
-        <p class="indentedText">
+        <table class="centerTable">
+            <tr>
+                <td><b>L</b></td>
+                <td>Length of tour in meters.
+                    The guided tour may be longer than the cave itself, if the path follows a tunnel more than once.
+                </td>
+            </tr>
+            <tr>
+                <td><b>HD</b></td>
+                <td>Height difference between highest and deepest point of tour.
+                    It may give you a hint how strenuous the tour will be.
+                </td>
+            </tr>
+            <tr>
+                <td><b>D</b></td>
+                <td>Duration of the tour in minutes.
+                    Be aware, that this may differ from guide to guide and depend on how big your group is and how much questions are asked.
+                </td>
+            </tr>
+            <tr>
+                <td><b>St</b></td>
+                <td>Steps of the path.
+                    Like the HD it is just a hint how difficult the tour will be.
+                    If the tour is suitable for disabled, it will be mentioned too
+                </td>
+            </tr>
+            <tr>
+                <td><b>V</b></td>
+                <td>Visitors per year.</td>
+            </tr>
+            <tr>
+                <td><b>G</b></td>
+                <td>maximum size of groups.
+                </td>
+            </tr>
+        </table>
+
+        <p>
             Again, the dimension of the tours is given in metric units.
+            If you have problems with meters, here is a simple calculator to get the measures in feet:
         </p>
 
         <br>
 
-        <div class="center">
-            <table border="0" cellspacing="0" cellpadding="5">
-
-                <FORM>
-
-                    <tr>
-                        <td><input type="text" name="Foot" size=20>&nbsp;feet</td>
-                        <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
-                        <td><input type="text" name="Meter" size=20>&nbsp;meters</td>
-                        <td><input type="reset" value="Reset"></td>
-                        <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
-                    </tr>
-
-                </form>
-
+        <form>
+            <table border="0" cellspacing="0" cellpadding="5" class="centerTable">
+                <tr>
+                    <td><input type="text" name="Miles" size=20 placeholder="miles"></td>
+                    <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
+                    <td><input type="text" name="Kilometre" size=20 placeholder="kilometers"></td>
+                    <td><input type="button" value="Transform" onClick="Compute(this.form)"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Foot" size=20 placeholder="feet"></td>
+                    <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
+                    <td><input type="text" name="Meter" size=20 placeholder="meters"></td>
+                    <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
             </table>
+        </form>
 
-            <br>
-
-
-        </div>
-
-        <!-- Path Begin -->
-        <div data-role="header" data-position="fixed">
-            <div data-role="navbar">
-                <ul>
-                    <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                    <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
-                    <li><a data-ajax="false" target="_top" href="index.html">Abbreviations and Symbols</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- Path End -->
-
+        <br>
 
     </div>
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Abbreviations and Symbols</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
+
+</div>
 
 </body>
 </html>

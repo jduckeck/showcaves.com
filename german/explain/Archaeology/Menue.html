@@ -38,71 +38,54 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <table border="0" width="100%" cellspacing="0" cellpadding="0" border="0" class="menuText">
-            <tr>
-                <th align="center">Subterranea</th>
-            </tr>
-            <tr>
-                <td height="20" valign="middle">
-                    <hr width="60%" noshade>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                    <a target="_top" href="../../index.html"><img alt="" src="../../../graphics/MainIndex.jpg" alt="Hauptseite" border="0" hspace="0" width="60" height="42"></a><br>
-                    <li><a data-ajax="false" target="_top" href="../index.html">Allgemeine Informationen</a></li>
-                    </ul>
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+                <li><b>Zeitalter</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/StoneAge.html">Steinzeit</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Paleolithic.html">Paläolithikum</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Mesolithic.html">Mesolithikum</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Neolithic.html">Neolithikum</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/BronzeAge.html">Bronzezeit</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/IronAge.html">Eisenzeit</a></li>
+                <li><b>Funde</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Knochenfloete.html">Knochenflöte</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/String.html">&Auml;ltestes Saiteninstrument</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Loewenfrau.html">Löwenmensch</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Menschendarstellung.html">&Auml;lteste Menschendarstellung</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/VenusHohlerFels.html">Venus vom Hohlen Fels</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Painted.html">Bilderhöhlen</a></li>
+                <li><b>Methoden</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/C14.html">C14-Altersbestimmung</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Typesites.html">Locus Typicus</a></li>
+                <li><b>Sonstiges</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Abri.html">Abri</a></li>
+            </ul>
+        </div>
+
     </div>
 
-    <div id="MenueEntries">
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <a target="_top" href="../Speleology/index.html">Speläologie</a><br>
-            <a target="_top" href="../Speleothem/index.html">Höhlenminerale</a><br>
-            <a target="_top" href="../Karst/index.html">Karstgeologie</a><br>
-            <a target="_top" href="../Biology/index.html">Höhlenbiologie</a><br>
-            <a target="_top" href="../People/index.html">Berühmte Forscher</a><br>
-            <a target="_top" href="../Caving/index.html">Höhlenbefahrung</a><br>
-            <a target="_top" href="../Gear/index.html">Höhlenausrüstung</a><br>
-            <a target="_top" href="../Terminology/index.html">Fachbegriffe</a><br>
-            <a target="_top" href="../Geology/index.html">Geologie</a><br>
-            <!--a target="_top" href="../Archaeology/index.html"-->Archäologie<!--/a--><br>
-            <a target="_top" href="../Mines/index.html">Bergbau</a><br>
-            <a target="_top" href="../Mining/index.html">Bergbautechnik</a><br>
-            <a target="_top" href="../Subterranea/index.html">Subterranea</a><br>
-            <a target="_top" href="../Literature/index.html">Literatur</a><br>
-            <a target="_top" href="../History/index.html">Historische Höhlen</a><br>
-            <li><a data-ajax="false" target="_top" href="../Misc/index.html">Verschiedenes</a></li>
-        </ul>
+    <div data-role="header" data-position="fixed">
+        <div data-role="controlgroup" data-type="horizontal">
+            <a data-ajax="false" href="../Speleology/index.html" data-role="button" class="">Speläologie</a>
+            <a data-ajax="false" href="../Speleothem/index.html" data-role="button" class="">Höhlenminerale</a>
+            <a data-ajax="false" href="../Karst/index.html" data-role="button" class="">Karstgeologie</a>
+            <a data-ajax="false" href="../Biology/index.html" data-role="button" class="">Höhlenbiologie</a>
+            <a data-ajax="false" href="../People/index.html" data-role="button" class="">Berühmte Forscher</a>
+            <a data-ajax="false" href="../Caving/index.html" data-role="button" class="">Höhlenbefahrung</a>
+            <a data-ajax="false" href="../Gear/index.html" data-role="button" class="">Höhlenausrüstung</a>
+            <a data-ajax="false" href="../Terminology/Menue.html" data-role="button" class="">Fachbegriffe</a>
+            <a data-ajax="false" href="../Geology/index.html" data-role="button" class="">Geologie</a>
+            <a data-ajax="false" href="../Archaeology/index.html" data-role="button" class="ui-btn-active">Archäologie</a>
+            <a data-ajax="false" href="../Mines/index.html" data-role="button" class="">Bergbau</a>
+            <a data-ajax="false" href="../Mining/index.html" data-role="button" class="">Bergbautechnik</a>
+            <a data-ajax="false" href="../Subterranea/index.html" data-role="button" class="">Subterranea</a>
+            <a data-ajax="false" href="../Literature/index.html" data-role="button" class="">Literatur</a>
+            <a data-ajax="false" href="../Books/index.html" data-role="button" class="">Höhlen-Literatur</a>
+            <a data-ajax="false" href="../History/index.html" data-role="button" class="">Historische Höhlen</a>
+            <a data-ajax="false" href="../Misc/index.html" data-role="button" class="">Verschiedenes</a>
+        </div>
     </div>
 
-    <div id="MenueEntries">
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <b>Zeitalter</b><br>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/StoneAge.html">Steinzeit</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Paleolithic.html">Paläolithikum</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Mesolithic.html">Mesolithikum</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Neolithic.html">Neolithikum</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/BronzeAge.html">Bronzezeit</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/IronAge.html">Eisenzeit</a></li>
-            <br>
-            <b>Funde</b><br>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Knochenfloete.html">Knochenflöte</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/String.html">&Auml;ltestes Saiteninstrument</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Loewenfrau.html">Löwenmensch</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Menschendarstellung.html">&Auml;lteste Menschendarstellung</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/VenusHohlerFels.html">Venus vom Hohlen Fels</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Painted.html">Bilderhöhlen</a></li>
-            <br>
-            <b>Methoden</b><br>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/C14.html">C14-Altersbestimmung</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Typesites.html">Locus Typicus</a></li>
-            <br>
-            <b>Sonstiges</b><br>
-            <li><a data-ajax="false" target="_top" href="../../explain/Archaeology/Abri.html">Abri</a></li>
-        </ul>
-    </div>
-
-</div>
 </div>
 
 </body>
