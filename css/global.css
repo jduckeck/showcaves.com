@@ -109,8 +109,8 @@ P {
 }
 
 
-TABLE.usefulInfo {
-    font-size: 70%;
+.usefulInfo {
+    font-size: 80%;
     color: #004000;
     background-color: #FFFFFF;
     margin: 0.5em;

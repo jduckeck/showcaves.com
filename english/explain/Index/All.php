@@ -15,8 +15,8 @@
     <meta http-equiv="content-language" content="en">
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="../../../global.css">
-    <script language="JavaScript" src="../../../xemhid.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../css/global.css">
+    <script language="JavaScript" src="../../../js/xemhid.js"></script>
 
 
     <?
@@ -219,9 +219,6 @@
                         </td>
                     </tr>
                 </table>
-            </form>
-            <!-- SiteSearch Google -->
-            </form>
         </td>
         <td><img vspace="0" hspace="0" src="../../../graphics/space.gif" width="1" height="10"></td>
         <td class="navBar"><a target="_top" href="../../explain/Maps/index.html">Clickable Maps</a><br><a target="_top"

@@ -65,35 +65,61 @@
 
         <br clear="all">
 
+        <div class="usefulInfo">
+            Every show cave, mine or subterranea on this site has a short list
+            of hard facts called <b>Useful Information</b>.
+            With a contemporary browser it will be displayed like this text, with
+            smaller font and darkgreen letters on white background.<br>
+            In the <b>Useful Information</b> block you find information in a very
+            brief form, which makes some explanation necessary.<br>
+            It is very difficult to write dates, fees and hours in a well readable
+            manner, so we always tried to find a sort of "international" way
+            of writing it, which should be understood by anybody.
+            But if you do not understand it, here is the explanation:
+        </div>
+
+        <br>
 
         <p>
             All kind of statistic data about the cave or mine.
         </p>
 
-        <p class="indentedText">
-        <DL COMPACT>
-            <DT><b>L </b>
-            <DD>lenghth over all.
-            <DT><b>VR </b>
-            <DD><b>V</b>ertical <b>R</b>ange: height difference of the whole cave, difference between highest and lowest point, given in meter.
-            <DT><b>BH </b>
-            <DD><b>B</b>iggest <b>H</b>all:
-                <DL COMPACT>
-                    <DT><b>W </b>
-                    <DD>greatest <b>W</b>idth.
-                    <DT><b>H </b>
-                    <DD>greatest <b>H</b>eight.
-                </DL>
-            <DT><b>D </b>
-            <DD>biggest <b>D</b>epth below surface.
-            <DT><b>T </b>
-            <DD><b>T</b>emperature of the cave in centigrade (degree Celsius).
-            <DT><b>A </b>
-            <DD><b>A</b>ltitude: the height of the cave entrance is given in metre <b>asl</b> (above sea level).
-        </DL>
-        </p>
+        <table class="centerTable">
+            <tr>
+                <td><b>L</b></td>
+                <td>lenghth over all.</td>
+            </tr>
+            <tr>
+                <td><b>VR</b></td>
+                <td><b>V</b>ertical <b>R</b>ange: height difference of the whole cave, difference between highest and lowest point, given in meter.</td>
+            </tr>
+            <tr>
+                <td><b>BH</b></td>
+                <td><b>B</b>iggest <b>H</b>all</td>
+            </tr>
+            <tr>
+                <td><b>W </b></td>
+                <td>greatest <b>W</b>idth.</td>
+            </tr>
+            <tr>
+                <td><b>H </b></td>
+                <td>greatest <b>H</b>eight.</td>
+            </tr>
+            <tr>
+                <td><b>D </b></td>
+                <td>biggest <b>D</b>epth below surface.</td>
+            </tr>
+            <tr>
+                <td><b>T </b></td>
+                <td><b>T</b>emperature of the cave in centigrade (degree Celsius).</td>
+            </tr>
+            <tr>
+                <td><b>A </b></td>
+                <td><b>A</b>ltitude: the height of the cave entrance is given in metre <b>asl</b> (above sea level).</td>
+            </tr>
+        </table>
 
-        <p class="indentedText">
+        <p>
             Many other statistical values like size of the area in which the cave lies, size of the floor in sqaure meters or volume of the
             cave are sometimes used.
             They are not very useful, as there is no method to gather them exactly.
@@ -110,53 +136,51 @@
 
         <br>
 
-        <div class="center">
-            <table border="0" cellspacing="0" cellpadding="5">
+        <table border="0" cellspacing="0" cellpadding="5" class="centerTable">
 
-                <FORM>
+            <FORM>
 
-                    <tr>
-                        <td><input type="text" name="Foot" size=20>&nbsp;feet</td>
-                        <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
-                        <td><input type="text" name="Meter" size=20>&nbsp;meters</td>
-                        <td><input type="reset" value="Reset"></td>
-                        <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
-                    </tr>
+                <tr>
+                    <td><input type="text" name="Foot" size=20>&nbsp;feet</td>
+                    <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
+                    <td><input type="text" name="Meter" size=20>&nbsp;meters</td>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
+                </tr>
 
-                </form>
+            </form>
 
-                <FORM>
+            <FORM>
 
-                    <tr>
-                        <td><input type="text" name="Celsius" size=20>&nbsp;°Celsius</td>
-                        <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
-                        <td><input type="text" name="Fahrenheit" size=20>&nbsp;°Fahrenheit</td>
-                        <td><input type="reset" value="Reset"></td>
-                        <td><input type="button" value="Transform" onClick="Compute3(this.form)"></td>
-                    </tr>
+                <tr>
+                    <td><input type="text" name="Celsius" size=20>&nbsp;°Celsius</td>
+                    <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
+                    <td><input type="text" name="Fahrenheit" size=20>&nbsp;°Fahrenheit</td>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="button" value="Transform" onClick="Compute3(this.form)"></td>
+                </tr>
 
-                </form>
+            </form>
 
-            </table>
-
-            <br>
-
-        </div>
-
-        <!-- Path Begin -->
-        <div data-role="header" data-position="fixed">
-            <div data-role="navbar">
-                <ul>
-                    <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                    <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
-                    <li><a data-ajax="false" target="_top" href="index.html">Abbreviations and Symbols</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- Path End -->
+        </table>
 
 
     </div>
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Abbreviations and Symbols</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
+
+</div>
 
 </body>
 </html>
