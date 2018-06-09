@@ -30,106 +30,7 @@
     width: 12.328cm
 }
 
-.G-fr2 {
-    border: none;
-    display: inline;
-    font-size: 0.875em;
-    height: 10.476cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 14.815cm
-}
 
-.G-fr3 {
-    border: none;
-    display: inline;
-    font-size: 0.875em;
-    height: 10.582cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 15.238cm
-}
-
-.G-fr4 {
-    display: inline;
-    font-size: 0.875em;
-    height: 14.737cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 10.557cm
-}
-
-.G-fr5 {
-    border: none;
-    display: inline;
-    font-size: 0.875em;
-    height: 11.269cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 14.815cm
-}
-
-.G-fr6 {
-    border: none;
-    display: inline;
-    font-size: 0.875em;
-    height: 10.529cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 14.815cm
-}
-
-.G-fr7 {
-    border: none;
-    display: inline;
-    font-size: 0.875em;
-    height: 14.841cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 10.82cm
-}
 
 .P {
     display: block;
@@ -148,21 +49,6 @@
     padding-top: 0
 }
 
-.P-P {
-    display: block;
-    font-family: "Times New Roman", serif;
-    font-size: 1em;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    text-align: center
-}
 
 .P-P1 {
     display: block;
@@ -193,22 +79,6 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0
-}
-
-.P-P3 {
-    display: block;
-    font-family: "Times New Roman", serif;
-    font-size: 1em;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    text-align: justify
 }
 
 .P-P4 {
@@ -243,24 +113,6 @@
     padding-right: 0;
     padding-top: 0;
     text-align: center
-}
-
-.P-P6 {
-    display: block;
-    font-family: "Times New Roman", serif;
-    font-size: 1em;
-    height: 14.737cm;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    text-align: center;
-    width: 10.557cm
 }
 
 .P-P7 {
@@ -311,53 +163,6 @@
     padding-right: 0;
     padding-top: 0;
     text-align: justify
-}
-
-.S-SmallCaps {
-    font-family: "Times New Roman", serif;
-    font-size: 1em;
-    font-variant: small-caps;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
-}
-
-.S-SmallCaps1 {
-    font-family: "Times New Roman", serif;
-    font-size: 1em;
-    font-variant: small-caps;
-    font-weight: normal;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
-}
-
-.S-SmallCaps2 {
-    font-family: "Times New Roman", serif;
-    font-size: 1em;
-    font-variant: small-caps;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
 }
 
 .S-T {

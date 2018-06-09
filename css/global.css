@@ -54,6 +54,11 @@ P {
     page-break-before: auto;
 }
 
+.red {
+    color: #FF0000;
+    font-weight: bold;
+}
+
 .centerTable {
     margin: 0 auto;
 }
@@ -126,7 +131,7 @@ TABLE.history {
     padding: 0;
 }
 
-TABLE.foreign {
+.foreign {
     font-family: sans-serif;
     color: #400000;
     margin: 1.5em 1em 1em 1em;
@@ -281,31 +286,31 @@ TABLE.invers {
 }
 
 .liShowcave {
-    list-style-image: url("../graphics/symbol/Showcave.gif")
+    list-style-image: url("../graphics/symbol/Showcave.png")
 }
 
 .liCave {
-    list-style-image: url("../graphics/symbol/Cave.gif")
+    list-style-image: url("../graphics/symbol/Cave.png")
 }
 
 .liMine {
-    list-style-image: url("../graphics/symbol/Mine.gif")
+    list-style-image: url("../graphics/symbol/Mine.png")
 }
 
 .liMisc {
-    list-style-image: url("../graphics/symbol/Misc.gif")
+    list-style-image: url("../graphics/symbol/Misc.png")
 }
 
 .liRegion {
-    list-style-image: url("../graphics/symbol/Region.gif")
+    list-style-image: url("../graphics/symbol/Region.png")
 }
 
 .liSpring {
-    list-style-image: url("../graphics/symbol/Spring.gif")
+    list-style-image: url("../graphics/symbol/Spring.png")
 }
 
 .liKarst {
-    list-style-image: url("../graphics/symbol/Karst.gif")
+    list-style-image: url("../graphics/symbol/Karst.png")
 }
 
 .liGorge {
@@ -313,23 +318,23 @@ TABLE.invers {
 }
 
 .liExplain {
-    list-style-image: url("../graphics/symbol/Explain.gif")
+    list-style-image: url("../graphics/symbol/Explain.png")
 }
 
 .liBook {
-    list-style-image: url("../graphics/symbol/Book.gif")
+    list-style-image: url("../graphics/symbol/Book.png")
 }
 
 .liMap {
-    list-style-image: url("../graphics/symbol/Map.gif")
+    list-style-image: url("../graphics/symbol/Map.png")
 }
 
 .liGallery {
-    list-style-image: url("../graphics/symbol/Gallery.gif")
+    list-style-image: url("../graphics/symbol/Gallery.png")
 }
 
 .liSmile {
-    list-style-image: url("../graphics/symbol/Smile.gif")
+    list-style-image: url("../graphics/symbol/Smile.png")
 }
 
 .liGoogle {
