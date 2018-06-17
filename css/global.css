@@ -113,7 +113,17 @@ P {
     margin-right: auto;
 }
 
+.entrance {
+    width: 80px;
+    height: 50px;
+    border: 0;
+    padding: 15px 0;
+}
 
+.mainMenu {
+    height: 80px;
+    vertical-align: center;
+}
 .usefulInfo {
     font-size: 80%;
     color: #004000;
