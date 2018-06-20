@@ -124,12 +124,21 @@ P {
     height: 80px;
     vertical-align: center;
 }
+
 .usefulInfo {
     font-size: 80%;
     color: #004000;
     background-color: #FFFFFF;
     margin: 0.5em;
     padding: 0.5em;
+}
+
+.xemhid {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
 }
 
 TABLE.history {
