@@ -61,3 +61,35 @@ Typ Category links
 
 ui-btn-active
 
+<li><a target="_blank" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+
+\<tr\>\n\<td valign\=\"top\" nowrap\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
+<ul class="linklist3" data-role="listview" data-inset="true">\n    <li><a $1><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">$2</a></li>
+
+    <li><a target="_blank" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"><b></b></a></li>
+
+    <li><a data-ajax="false" target="_top" href="(.*)"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/(.*).png" alt="(.*)">(.*)</a></li>
+    <li><a data-ajax="false" target="_top" href="$2"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png" alt="$1">$3</a></li>
+
+
+    ((.|\n)*)
+
+    <ul class="linklist3" data-role="listview" data-inset="true">
+        <li><a (.*)><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">(.*)</a></li>
+
+        \<tr\>\n\<td valign\=\"top\"\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
+
+
+
+\<h4\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/kr\/region\/Chungbuk\.html\"               \>\<img class\=\"ui\-li\-icon ui\-corner\-none\" vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>Chungcheongbuk\-do\:\<\/a\>\<\/h4\>\n    \<ul class\=\"linklist3\" data\-role\=\"listview\" data\-inset\=\"true\"\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a href\=\"(.*)\"                \>\<b\>(.*)\<\/b\>\<\/a\>\:
+
+<li><a data-ajax="false" target="_top" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+<li><a data-ajax="false" target="_top" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+<li><a data-ajax="false" target="_top" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+<li><a data-ajax="false" target="_top" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+<li><a data-ajax="false" target="_top" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+<li><a data-ajax="false" target="_top" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
+
+
+<li><a (.+?)class="ui-li-icon ui-corner-none symbol" (.+?)</a></li>
+<a $1class="symbol" $2</a>

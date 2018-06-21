@@ -3,10 +3,8 @@
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="description"
-          content="Show Caves of the World is a site about underground sights open to the public, like caves and mines, all over the World">
-    <meta name="keywords"
-          content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="description" content="Show Caves of the World is a site about underground sights open to the public, like caves and mines, all over the World">
+    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
     <meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
     <meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
     <meta name="publisher" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
@@ -28,18 +26,26 @@
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
 
-
     <?
-    global $conn;
+
+    use classes\Statistics;
+
 
     include("../../../../open.inc.php");
 
     try {
-        $stmt = $conn->query("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+        $statement = $conn->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+        $statement->bindParam('limit', $limit, PDO::PARAM_INT);
+        $statement->execute();
+        while ($row = $statement->fetch()) {
+            echo $row['vorname'] . " " . $row['nachname'] . "<br />";
+            echo "E-Mail: " . $row['email'] . "<br /><br />";
+        }
+        $stmt = $conn->query();
 
         /* MAGIC HAPPENS HERE */
 
-        $conn->setFetchMode(PDO::FETCH_INTO, new Student);
+        $conn->setFetchMode(PDO::FETCH_INTO, new Statistics);
 
 
         foreach ($stmt as $student) {
@@ -60,7 +66,6 @@
 </head>
 
 <body>
-
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
@@ -72,38 +77,39 @@
 
 
         <p>
-            The following table is a statistics about the contents of
-            <span class="mySiteName">showcaves.com</span>.
+            The following table is a statistics about the contents of <span class="mySiteName">showcaves.com</span>.
             The site contains underground tourist sites from all over the world, which are
-            grouped by political units aka countries and categorized as caves, show caves,
-            mines, subterranea asf..
+            grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf..
         </p>
 
 
         <br clear="all">
 
+
         <table align="center" border="1" cellspacing="0" cellpadding="5">
             <tfoot style="background-color: #FFFFFF">
-            <th colspan="9"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?>
-            </th>
+            <tr>
+                <td rowspan="9" class="center">
+                    <span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?>
+                </td>
+            </tr>
             </tfoot>
 
+            <thead>
+            <tr>
+                <th bgcolor="white">Country</th>
+                <th bgcolor="white"><img src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;Showcaves</th>
+                <th bgcolor="white"><img src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;Caves</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">&nbsp;Karst Features</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">&nbsp;Springs</th>
+                <th bgcolor="white"><img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.png" class="symbol">Mines</th>
+                <th bgcolor="white"><img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.png" class="symbol">Subterranea</th>
+                <th bgcolor="white"><img vspace="0" hspace="0" src="../../../graphics/symbol/Gorge.png" width="12" height="12">&nbsp;Gorges</th>
+                <th bgcolor="white">Country Sum</th>
+            </tr>
+
+            </thead>
             <?
-            print ("<tr>");
-            print ("<th bgcolor=\"white\">Country</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Showcave.gif\" width=\"12\" height=\"12\">&nbsp;Showcaves</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Cave.gif\" width=\"12\" height=\"12\">&nbsp;Caves</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Karst.gif\" width=\"12\" height=\"12\">&nbsp;Karst Features</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Spring.gif\" width=\"12\" height=\"12\">&nbsp;Springs</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Mine.gif\" width=\"12\" height=\"12\">&nbsp;Mines</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Misc.gif\" width=\"12\" height=\"12\">&nbsp;Subterranea</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Gorge.png\" width=\"12\" height=\"12\">&nbsp;Gorges</th>");
-            print ("<th bgcolor=\"white\">Country Sum</th>");
-            print ("</tr>\n");
-
-            $sql = ;
-            $result = mysql_query($sql, $conn);
-
             $filebase = "../../..";
             $oldCountry = '';
             $entries = 0;
