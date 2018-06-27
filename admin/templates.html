@@ -2,8 +2,7 @@
 Quote Url plugin advanced formatting
 <li><a target=\"_blank\"  href=\"@url\"><img src=\"../../../graphics/symbol/World.png\" alt=\"World\" class=\"ui-li-icon ui-corner-none\"><b>@title</b>, (visited: @date)</a></li>
 
-<table border=\"0\" cellspacing=\"0\" cellpadding=\"2\" class=\"history\">
-<tr><td></td><td rowspan=\"100\">&nbsp;</td><td></td></tr>
+<table class=\"historyTable\">
 <tr><td valign=\"top\" nowrap></td><td>.</td></tr>
 </table>
 
@@ -23,7 +22,8 @@ Linklist:
 
 
 (.+)@(.+)\.(.+)
-E-mail: <img onClick=\"xemhid('\1','\2','\3')\" style=\"cursor: pointer;\" src=\"/xemhid.php?p1=\1&p2=npws&p3=\3\" vspace=\"0\" alt=\"contact\" title=\"contact\" border=\"0\">
+E-mail: <img onClick="xemhid('$1','$2','$3')" src="/xemhid.php?p1=$1&p2=$2&p3=$3" class="email" alt="contact">
+
 
 http://www.showcaves.com/graphics/kmz/showcave.png
 
@@ -66,20 +66,20 @@ ui-btn-active
 \<tr\>\n\<td valign\=\"top\" nowrap\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
 <ul class="linklist3" data-role="listview" data-inset="true">\n    <li><a $1><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">$2</a></li>
 
-    <li><a target="_blank" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"><b></b></a></li>
+<li><a target="_blank" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"><b></b></a></li>
 
-    <li><a data-ajax="false" target="_top" href="(.*)"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/(.*).png" alt="(.*)">(.*)</a></li>
-    <li><a data-ajax="false" target="_top" href="$2"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png" alt="$1">$3</a></li>
+<li><a data-ajax="false" target="_top" href="(.*)"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/(.*).png" alt="(.*)">(.*)</a></li>
+<li><a data-ajax="false" target="_top" href="$2"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png" alt="$1">$3</a></li>
 
-    <img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png" alt="$1">
-    <img class="symbol" src="../../../graphics/symbol/$1.png" alt="$1">
+<img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png" alt="$1">
+<img class="symbol" src="../../../graphics/symbol/$1.png" alt="$1">
 
-    ((.|\n)*)
+((.|\n)*)
 
-    <ul class="linklist3" data-role="listview" data-inset="true">
-        <li><a (.*)><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">(.*)</a></li>
+<ul class="linklist3" data-role="listview" data-inset="true">
+<li><a (.*)><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">(.*)</a></li>
 
-        \<tr\>\n\<td valign\=\"top\"\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
+\<tr\>\n\<td valign\=\"top\"\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
 
 
 
