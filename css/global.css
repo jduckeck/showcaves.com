@@ -24,6 +24,11 @@ A:active {
     background-color: transparent;
 }
 
+.entranceListview {
+    max-width: 800px;
+    margin-left: 200px;
+}
+
 P {
     margin-top: 0;
     margin-bottom: 0;

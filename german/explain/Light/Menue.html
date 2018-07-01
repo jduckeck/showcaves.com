@@ -28,68 +28,78 @@
 
 
     <title>Licht</title>
-
-    <base target="Licht">
-
-
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <table border="0" width="100%" cellspacing="0" cellpadding="0" border="0" class="menuText">
-            <tr>
-                <th align="center">Licht</th>
-            </tr>
-            <tr>
-                <td height="20" valign="middle">
-                    <hr width="60%" noshade>
-                </td>
-            </tr>
-            <tr>
-                <td align="center">
-                   <li><a data-ajax="false" target="_top" href="../../index.html"><img alt="" src="../../../graphics/MainIndex.jpg" alt="Hauptseite" border="0" hspace="0" width="60" height="42"></a></li>
-                    <li><a data-ajax="false" target="_top" href="../index.html">Allgemeine Informationen</a></li>
-                    </ul>
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+                <li><b>Licht für die Höhlenforschung</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Light/Carbide.html">Karbidlampen</a></li>
+                <li><b>Licht für Schauhöhlen und Schaubergwerke</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Light/Delco.html">Delco-Light</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Light/Lampenflora.html">Lampenflora</a></li>
+                <li><b>Licht für den Bergbau</b></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Light/Fatwood.html">Kienspäne</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Light/Oil.html">Öllampen</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Light/Security.html">Sicherheitslampen</a></li>
+                <li><b>Sonstiges</b></li>
+            </ul>
+        </div>
+
     </div>
 
-    <div id="MenueEntries">
-        <ul class="linklist" data-role="listview" data-inset="true">
-           <li><a data-ajax="false" target="_top" href="../Speleology/index.html">Speläologie</a></li>
-           <li><a data-ajax="false" target="_top" href="../Speleothem/index.html">Höhlenminerale</a></li>
-           <li><a data-ajax="false" target="_top" href="../Karst/index.html">Karstgeologie</a></li>
-           <li><a data-ajax="false" target="_top" href="../Biology/index.html">Höhlenbiologie</a></li>
-           <li><a data-ajax="false" target="_top" href="../People/index.html">Berühmte Forscher</a></li>
-           <li><a data-ajax="false" target="_top" href="../Caving/index.html">Höhlenbefahrung</a></li>
-           <li><a data-ajax="false" target="_top" href="../Gear/index.html">Höhlenausrüstung</a></li>
-           <li><a data-ajax="false" target="_top" href="../Terminology/index.html">Fachbegriffe</a></li>
-           <li><a data-ajax="false" target="_top" href="../Geology/index.html">Geologie</a></li>
-           <li><a data-ajax="false" target="_top" href="../Archaeology/index.html">Archäologie</a></li>
-           <li><a data-ajax="false" target="_top" href="../Mines/index.html">Bergbau</a></li>
-           <li><a data-ajax="false" target="_top" href="../Mining/index.html">Bergbautechnik</a></li>
-           <li><a data-ajax="false" target="_top" href="../Light/index.html">Licht</a></li>
-           <li><a data-ajax="false" target="_top" href="../Subterranea/index.html">Subterranea</a></li>
-           <li><a data-ajax="false" target="_top" href="../Literature/index.html">Literatur</a></li>
-           <li><a data-ajax="false" target="_top" href="../History/index.html">Historische Höhlen</a></li>
-            <li><a data-ajax="false" target="_top" href="../Misc/index.html">Verschiedenes</a></li>
-        </ul>
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Allgemeine Informationen</a></li>
+            </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../Speleology/index.html" data-role="button" class="">Speläologie</a>
+                <a data-ajax="false" href="../Karst/index.html" data-role="button" class="">Karstgeologie</a>
+                <a data-ajax="false" href="../Geology/index.html" data-role="button" class="">Geologie</a>
+                <a data-ajax="false" href="../Mines/index.html" data-role="button" class="">Bergbau</a>
+                <a data-ajax="false" href="../Mining/index.html" data-role="button" class="">Bergbautechnik</a>
+                <a data-ajax="false" href="../Subterranea/index.html" data-role="button" class="">Subterranea</a>
+                <a data-ajax="false" href="../Terminology/index.html" data-role="button" class="">Fachbegriffe</a>
+                <a data-ajax="false" href="../Caving/index.html" data-role="button" class="">Höhlenbefahrung</a>
+                <a data-ajax="false" href="../Gear/index.html" data-role="button" class="">Höhlenausrüstung</a>
+                <a data-ajax="false" href="../Light/index.html" data-role="button" class="ui-btn-active">Licht</a>
+                <a data-ajax="false" href="../Biology/index.html" data-role="button" class="">Höhlenbiologie</a>
+                <a data-ajax="false" href="../Speleothem/index.html" data-role="button" class="">Höhlenminerale</a>
+                <a data-ajax="false" href="../Archaeology/index.html" data-role="button" class="">Archäologie</a>
+                <a data-ajax="false" href="../History/index.html" data-role="button" class="">Historische Höhlen</a>
+                <a data-ajax="false" href="../People/index.html" data-role="button" class="">Berühmte Forscher</a>
+                <a data-ajax="false" href="../Literature/index.html" data-role="button" class="">Literatur</a>
+                <a data-ajax="false" href="../Books/index.html" data-role="button" class="">Books</a>
+                <a data-ajax="false" href="../../../english/explain/Statistics/index.html" data-role="button" class="">Statistics </a>
+                <a data-ajax="false" href="../Misc/index.html" data-role="button" class="">Verschiedenes</a>
+            </div>
+        </div>
     </div>
+    <!-- Path End -->
 
-    <div id="MenueEntries">
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <li><a data-ajax="false" target="_top" href="../../explain/Light/Lampenflora.html">Lampenflora</a></li>
-        </ul>
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../../english/explain/Maps/index.html">Landkarten</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches Register</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">&Auml;nderungen und Kritik: <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
     </div>
+    <!-- Navigation Bar End -->
 
 </div>
-</div>
-
 </body>
 </html>
