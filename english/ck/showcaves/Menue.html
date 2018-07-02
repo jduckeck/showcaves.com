@@ -36,27 +36,49 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <div data-role="header" data-position="fixed">
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../showcaves/Menue.html" data-role="button" class="">Show Caves</a>
-                <a data-ajax="false" href="../caves/Menue.html" data-role="button" class="">Caves</a>
-                <a data-ajax="false" href="../region/Menue.html" data-role="button" class="">By Island</a>
-                <a data-ajax="false" href="../karst/Menue.html" data-role="button" class="">Karst Features</a>
-                <a data-ajax="false" href="../springs/Menue.html" data-role="button" class="">Springs</a>
-                <a data-ajax="false" href="../mines/Menue.html" data-role="button" class="">Mines</a>
-                <a data-ajax="false" href="../misc/Menue.html" data-role="button" class="">Subterranea</a>
-            </div>
-        </div>
-
         <div id="MenueEntries">
             <ul class="linklist" data-role="listview" data-inset="true">
             </ul>
-
         </div>
-
 
     </div>
 
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Cook Islands</a></li>
+            </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/Menue.html" data-role="button" class="ui-btn-active">Show Caves</a>
+                <a data-ajax="false" href="../caves/Menue.html" data-role="button" class="">Caves</a>
+                <a data-ajax="false" href="../karst/Menue.html" data-role="button" class="">Karst Features</a>
+                <a data-ajax="false" href="../springs/Menue.html" data-role="button" class="">Springs</a>
+                <a data-ajax="false" href="../mines/Menue.html" data-role="button" class="">Mines</a>
+                <a data-ajax="false" href="../subterranea/Menue.html" data-role="button" class="">Subterranea</a>
+            </div>
+        </div>
+    </div>
+    <!-- Path End -->
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
+
+</div>
 </body>
 </html>
