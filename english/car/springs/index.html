@@ -24,44 +24,24 @@
     <link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet"/>
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
+    <link rel="stylesheet" type="text/css" href="../../../css/menue.css">
 
 
-    <title>Caribbean Islands: Dominican Republic</title>
+    <title>Springs of the Caribbean Islands</title>
+
+
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <img alt="do" src="../../../graphics/flags/do.png" class="flag">
-        <h2 align="center">Caribbean Islands</h2>
-        <h1 align="center">Dominican Republic</h1>
-        <h2 align="center"></h2>
-
-        <br clear="all">
-
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../car/showcaves/Cabarete.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cuevas de Cabarete</a></li>
-            <li><a data-ajax="false" target="_top" href="../../car/subterranea/ElMeson.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">El Meson de la Cava</a></li>
-            <li><a data-ajax="false" target="_top" href="../../car/mines/Filipinas.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Filipinas Larimar Mine</a></li>
-            <li><a data-ajax="false" target="_top" href="../../car/subterranea/GuacaraTaina.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Guacara Taina</a></li>
-            <li><a data-ajax="false" target="_top" href="../../car/showcaves/Maravillas.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cueva de las Maravillas</a></li>
-            <li><a data-ajax="false" target="_top" href="../../car/showcaves/Pomier.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cueva del Pomier No 1</a></li>
-            <li><a data-ajax="false" target="_top" href="../../car/showcaves/ThreeEyes.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Los Tres Ojos</a></li>
-        </ul>
-
-
-        <br clear="all">
-
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="http://www.google.com/search?q=Dominican+Republic"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png" alt="Google"><b>Search Google for "Dominican Republic"</b></a></li>
-            <li><a target="_blank" href="http://en.wikipedia.org/wiki/Dominican_Republic"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/wiki.png" alt="Wiki"><b>Dominican Republic - Wikipedia, the free encyclopedia</b></a></li>
-        </ul>
-
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+                <li><a data-ajax="false" target="_top" href="../../car/springs/BlueHole.html">Blue Hole, jm</a></li>
+                <li><a data-ajax="false" target="_top" href="../../car/springs/BlueHoleMineral.html">Blue Hole Mineral Spring</a></li>
+            </ul>
+        </div>
 
     </div>
 
@@ -72,10 +52,17 @@
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Caribbean Islands</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
+                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
+                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
+                <a data-ajax="false" href="../springs/index.html" data-role="button" class="ui-btn-active">Springs</a>
+                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
+                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
-
 
     <!-- Navigation Bar Begin -->
     <div data-role="footer" data-position="fixed">
@@ -94,8 +81,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
