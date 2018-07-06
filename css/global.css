@@ -160,6 +160,29 @@ TABLE.history {
     padding: 0;
 }
 
+TABLE.statistics {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 80%;
+    color: #400000;
+    background-color: transparent;
+    margin: 1em auto;
+    padding: 0;
+}
+
+TABLE.statistics th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+TABLE.statistics td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+
 .foreign {
     font-family: sans-serif;
     color: #400000;
