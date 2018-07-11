@@ -28,3 +28,5 @@ VALUES('yes','Askola Potholes', '/english/fi/gorges/Askola.html', 'Askola', 'Eur
         VALUES('yes','Pihlajamäki Potholes', '/english/fi/gorges/Pihlajamaki.html', 'Pihlajamaki', 'Europe', 'fi', 'Finland', 'gorges', 'SouthernFinland');
         INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
         VALUES('yes','Abano Mineral Lake Natural Monument', '/english/ge/springs/Abano.html', 'Abano', 'Asia', 'ge', 'Georgia', 'springs', 'Mtskheta');
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+        VALUES('yes','Bat Cave', '/english/car/caves/BatMontserrat.html', 'BatMontserrat', 'Caribbean Islands', 'ms', 'Montserrat', 'caves', 'ms', 'car');
