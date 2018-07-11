@@ -36,26 +36,12 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <div data-role="header" data-position="fixed">
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../showcaves/Menue.html" data-role="button" class="">Show Caves</a>
-                <a data-ajax="false" href="../caves/Menue.html" data-role="button" class="">Caves</a>
-                <a data-ajax="false" href="../region/Menue.html" data-role="button" class="">Districts</a>
-                <a data-ajax="false" href="../karst/Menue.html" data-role="button" class="">Karst Features</a>
-                <a data-ajax="false" href="../springs/Menue.html" data-role="button" class="">Springs</a>
-                <a data-ajax="false" href="../gorges/Menue.html" data-role="button" class="">Gorges</a>
-                <a data-ajax="false" href="../mines/Menue.html" data-role="button" class="">Mines</a>
-                <a data-ajax="false" href="../misc/Menue.html" data-role="button" class="">Subterranea</a>
-            </div>
-        </div>
-
         <div id="MenueEntries">
             <ul class="linklist" data-role="listview" data-inset="true">
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiosIoannisErimitis.html">Spileo Ag Io&aacute;nnis Erimitis</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiosIoannisHerakleia.html">Spilia Ag Io&aacute;nnis Ir&aacute;klia</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiosIoannisKastro.html">Spilia O'Ag Io&aacute;nnis Kastro</a></li>
-                <a data-ajax="false" target="_top" href="../../gr/caves/AgiosMamas.html">Spilaio Agios Mamas</a><br>
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiosMamas.html">Spilaio Agios Mamas</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiaParaskevi.html">Spilia Agia Paraskevi</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiosAntonios.html">Spilaio to Agiou Antoniou</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/AgiaParaskeviLesbos.html">Agia Paraskevi</a></li>
@@ -83,23 +69,61 @@
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Kefala.html">Trypas Kefalas</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Korykio.html">Korykio Andro</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Loizos.html">Loizos</a></li>
-                <a data-ajax="false" target="_top" href="../../gr/caves/MavriMykonos.html">Mavri Spilia, Mykonos</a><br>
-                <a data-ajax="false" target="_top" href="../../gr/caves/MavriProussos.html">Mavri Spilia, Proussos</a><br>
-                <a data-ajax="false" target="_top" href="../../gr/caves/Megali.html">Megali Spilia</a><br>
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/MavriMykonos.html">Mavri Spilia, Mykonos</a></li>
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/MavriProussos.html">Mavri Spilia, Proussos</a></li>
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/Megali.html">Megali Spilia</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Milatos.html">Milatos</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/MonksPrison.html">Monks' Prison</a></li>
-                <a data-ajax="false" target="_top" href="../../gr/caves/Nestor.html">Sp&iacute;lio tou Nest&oacute;ros</a><br>
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/Nestor.html">Sp&iacute;lio tou Nest&oacute;ros</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/PanagiaSpiliani.html">Panagia Spiliani</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Papanikolis.html">Spilia Papanikolis</a></li>
-                <a data-ajax="false" target="_top" href="../../gr/caves/Pelekita.html">Spilaio sta Pelekita</a><br>
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/Pelekita.html">Spilaio sta Pelekita</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/SevenVirgins.html">Cave of the Seven Virgins</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Theopetra.html">Theopetra Cave</a></li>
                 <li><a data-ajax="false" target="_top" href="../../gr/caves/Vathis.html">Spilaio tou Vathis</a></li>
-                <a data-ajax="false" target="_top" href="../../gr/caves/Xyngia.html">Xyngia Cave</a></ul>
-
+                <li><a data-ajax="false" target="_top" href="../../gr/caves/Xyngia.html">Xyngia Cave</a></li>
+            </ul>
         </div>
 
     </div>
 
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Greece</a></li>
+            </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
+                <a data-ajax="false" href="../caves/index.html" data-role="button" class="ui-btn-active">Caves</a>
+                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
+                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
+                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
+                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
+                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            </div>
+        </div>
+    </div>
+    <!-- Path End -->
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
+
+</div>
 </body>
 </html>
