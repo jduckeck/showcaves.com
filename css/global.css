@@ -109,6 +109,14 @@ table.language th {
     background-color: #D6D6D6;
 }
 
+.definition {
+    font-family: serif;
+    color: #404040;
+    margin: 1.5em 1em 1em 1em;
+    padding: 0.5em;
+    background-color: #e6F6e6;
+}
+
 .symbol {
     width: 12px;
     height: 12px;
@@ -173,7 +181,6 @@ img.flag {
     border: 0;
     padding: 0;
     margin: 0;
-
 }
 
 table.history {
