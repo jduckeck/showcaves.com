@@ -28,14 +28,13 @@ A:active {
     max-width: 800px;
 }
 
-P {
+p {
     margin-top: 0;
     margin-bottom: 0;
     text-align: justify;
 }
 
 .indentedText {
-    font-family: sans-serif;
     text-indent: 2em;
 }
 
@@ -95,11 +94,6 @@ table.language th {
     padding: 0.5rem;
 }
 
-
-.blockcenter {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .foreignText {
     font-family: sans-serif;
