@@ -23,10 +23,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Högberget Cave', '/english/fi/gorges/Hogberget.html', 'Hogberget', 'Europe', 'fi', 'Finland', 'caves', 'SouthernFinland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Askola Potholes', '/english/fi/gorges/Askola.html', 'Askola', 'Europe', 'fi', 'Finland', 'gorges', 'Uusimaa');
-
-        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-        VALUES('yes','Pihlajamäki Potholes', '/english/fi/gorges/Pihlajamaki.html', 'Pihlajamaki', 'Europe', 'fi', 'Finland', 'gorges', 'SouthernFinland');
-        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-        VALUES('yes','Abano Mineral Lake Natural Monument', '/english/ge/springs/Abano.html', 'Abano', 'Asia', 'ge', 'Georgia', 'springs', 'Mtskheta');
-        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
-        VALUES('yes','Bat Cave', '/english/car/caves/BatMontserrat.html', 'BatMontserrat', 'Caribbean Islands', 'ms', 'Montserrat', 'caves', 'ms', 'car');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Pihlajamäki Potholes', '/english/fi/gorges/Pihlajamaki.html', 'Pihlajamaki', 'Europe', 'fi', 'Finland', 'gorges', 'SouthernFinland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Abano Mineral Lake Natural Monument', '/english/ge/springs/Abano.html', 'Abano', 'Asia', 'ge', 'Georgia', 'springs', 'Mtskheta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Bat Cave', '/english/car/caves/BatMontserrat.html', 'BatMontserrat', 'Caribbean Islands', 'ms', 'Montserrat', 'caves', 'ms', 'car');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Grotte des Carbonnières', '/english/fr/showcaves/Carbonnieres.html', 'Carbonnieres', 'Europe', 'fr', 'France', 'showcaves', 'MidiPyrenees');
