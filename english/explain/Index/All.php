@@ -72,12 +72,8 @@
 
         <br clear="all">
 
-        <form class="ui-filterable">
-            <input id="myFilter" data-type="search">
-            <label for="myFilter">search the list...</label>
-        </form>
-
-        <ul data-role="listview" data-inset="true">
+        <label for="theList">search the list... (wait a second after your input, the list is quite long)</label>
+        <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
 
             <?
             $sql = "SELECT name, filename, countrycode, country, category FROM sights WHERE visible='yes' ORDER BY sortby";
@@ -120,7 +116,7 @@
                         break;
                 }
 
-                print ("         <li><a href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+                print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
             }
 
             @mysql_close($conn);
