@@ -18,7 +18,7 @@
 
 
     <?
-    include("../../../../open.inc.php");
+    include("../../../../opendb.php");
 
     if ($conn) {
         $sql = "SELECT * FROM Terminology";

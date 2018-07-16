@@ -27,23 +27,17 @@
 
 
     <?
-    include("../../../../open.inc.php");
+    include("../../../../opendb.php");
 
-    if ($conn) {
-        $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
-        $result = mysql_query($sql, $conn);
-        echo mysql_error($conn);
+    $conn = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
-        $row = mysql_fetch_object($result);
-        $count = $row->count;
+    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
+    $statement = $conn->prepare($sql);
+    $statement->bindParam('limit', $limit, PDO::PARAM_INT);
+    $statement->execute();
+    $count = $row->count;
 
-        $NumberOfColumns = 3;
-
-    } else {
-        print("<H2 ALIGN=CEMTER>Oops, something went wrong....</H2>\n\n");
-        print("<P>\nPlease send your comment by e-mail to <A HREF=\"mailto:submit@showcaves.com\">submit@showcaves.com</A>\n</P>\n\n");
-        die;
-    }
     ?>
 
 

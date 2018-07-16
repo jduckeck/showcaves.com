@@ -31,7 +31,7 @@
     use classes\Statistics;
 
 
-    include("../../../../open.inc.php");
+    include("../../../../opendb.php");
 
     try {
         $statement = $conn->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");

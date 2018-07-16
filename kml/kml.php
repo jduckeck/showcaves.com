@@ -56,7 +56,7 @@
         </Style>
     	<name>pa.kml</name>
 <?
-include("../../../../open.inc.php");
+include("../../../../opendb.php");
 
 if ($conn) {
     $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='caves'";
