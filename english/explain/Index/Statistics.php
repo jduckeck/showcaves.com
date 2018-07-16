@@ -3,7 +3,6 @@
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="description" content="Show Caves of the World is a site about underground sights open to the public, like caves and mines, all over the World">
     <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
     <meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
     <meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
@@ -25,6 +24,7 @@
     <link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet"/>
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
+
 
     <?
 

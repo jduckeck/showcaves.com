@@ -1,20 +1,20 @@
 # Rewrite static html uris to script uris
 
-Redirect /english/explain/Index/All.html http://www.showcaves.com/english/explain/Index/All.php
-Redirect /english/explain/Index/Showcaves.html http://www.showcaves.com/english/explain/Index/Showcaves.php
-Redirect /english/explain/Index/Caves.html http://www.showcaves.com/english/explain/Index/Caves.php
-Redirect /english/explain/Index/Mines.html http://www.showcaves.com/english/explain/Index/Mines.php
-Redirect /english/explain/Index/Subterranea.html http://www.showcaves.com/english/explain/Index/Subterranea.php
-Redirect /english/explain/Index/Karst.html http://www.showcaves.com/english/explain/Index/Karst.php
-Redirect /english/explain/Index/Springs.html http://www.showcaves.com/english/explain/Index/Springs.php
-Redirect /english/explain/Index/Gorges.html http://www.showcaves.com/english/explain/Index/Gorges.php
-Redirect /english/explain/Index/AllByCountry.html http://www.showcaves.com/english/explain/Index/AllByCountry.php
-Redirect /english/explain/Index/ShowcavesByCountry.html http://www.showcaves.com/english/explain/Index/ShowcavesByCountry.php
-Redirect /english/explain/Index/CavesByCountry.html http://www.showcaves.com/english/explain/Index/CavesByCountry.php
-Redirect /english/explain/Index/MinesByCountry.html http://www.showcaves.com/english/explain/Index/MinesByCountry.php
-Redirect /english/explain/Index/SubterraneaByCountry.html http://www.showcaves.com/english/explain/Index/SubterraneaByCountry.php
-Redirect /english/explain/Index/KarstByCountry.html http://www.showcaves.com/english/explain/Index/KarstByCountry.php
-Redirect /english/explain/Index/SpringsByCountry.html http://www.showcaves.com/english/explain/Index/SpringsByCountry.php
-Redirect /english/explain/Index/GorgesByCountry.html http://www.showcaves.com/english/explain/Index/GorgesByCountry.php
-Redirect /english/explain/Index/Statistics.html http://www.showcaves.com/english/explain/Index/Statistics.php
+Redirect /english/explain/Index/All.html /english/explain/Index/All.php
+Redirect /english/explain/Index/Showcaves.html /english/explain/Index/Showcaves.php
+Redirect /english/explain/Index/Caves.html /english/explain/Index/Caves.php
+Redirect /english/explain/Index/Mines.html /english/explain/Index/Mines.php
+Redirect /english/explain/Index/Subterranea.html /english/explain/Index/Subterranea.php
+Redirect /english/explain/Index/Karst.html /english/explain/Index/Karst.php
+Redirect /english/explain/Index/Springs.html /english/explain/Index/Springs.php
+Redirect /english/explain/Index/Gorges.html /english/explain/Index/Gorges.php
+Redirect /english/explain/Index/AllByCountry.html /english/explain/Index/AllByCountry.php
+Redirect /english/explain/Index/ShowcavesByCountry.html /english/explain/Index/ShowcavesByCountry.php
+Redirect /english/explain/Index/CavesByCountry.html /english/explain/Index/CavesByCountry.php
+Redirect /english/explain/Index/MinesByCountry.html /english/explain/Index/MinesByCountry.php
+Redirect /english/explain/Index/SubterraneaByCountry.html /english/explain/Index/SubterraneaByCountry.php
+Redirect /english/explain/Index/KarstByCountry.html /english/explain/Index/KarstByCountry.php
+Redirect /english/explain/Index/SpringsByCountry.html /english/explain/Index/SpringsByCountry.php
+Redirect /english/explain/Index/GorgesByCountry.html /english/explain/Index/GorgesByCountry.php
+Redirect /english/explain/Index/Statistics.html /english/explain/Index/Statistics.php
 

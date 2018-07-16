@@ -47,7 +47,7 @@
     ?>
 
 
-    <title>Indexes: All Entries of showcaves.com</title>
+    <title>Indexes: All Underground Sites of showcaves.com</title>
 </head>
 
 <body>
@@ -55,9 +55,8 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">All Entries of showcaves.com</h1>
-        <h2 align="center"><? print $count ?> entries are listed on <span class="mySiteName">showcaves.com</span>
-            on <? print date("d-M-Y H:i:s") ?></h2>
+        <h1 align="center">All Underground Sites of showcaves.com</h1>
+        <h2 align="center"><? print $count ?> Underground Sites are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
 
         <br clear="all">
 
@@ -65,16 +64,13 @@
 
         <ul>
             <li>The names are listed <b>alphabetically</b>.</li>
-            <li>The <b>country codes</b> are added to each site. Those codes are the two letter country codes, used for first level domains, as defined in ISO 3166.</li>
             <li>The names are always given in the original language, if possible and known.</li>
             <li>If the original language has no Latin font, we give the common transcription.</li>
-            <li>The search works on parts of the name, so its not necessary to enter the beginning, if you only know a part in the middle it will work.</li>
         </ul>
 
         <br clear="all">
 
         <ul id="theList" data-role="listview" data-inset="false">
-
             <?
             $sql = "SELECT name, filename, countrycode, country, chapter, category FROM sights WHERE visible='yes' ORDER BY country, sortby";
             $result = mysql_query($sql, $conn);
@@ -176,39 +172,37 @@
 
             @mysql_close($conn);
             ?>
-
         </ul>
+
     </div>
 
-</div>
-
-<!-- Path Begin -->
-<div data-role="header" data-position="fixed">
-    <div data-role="navbar">
-        <ul>
-            <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-            <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
-        </ul>
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+            </ul>
+        </div>
     </div>
-</div>
-<!-- Path End -->
+    <!-- Path End -->
 
-<!-- Navigation Bar Begin -->
-<div data-role="footer" data-position="fixed">
-    <div data-role="navbar">
-        <ul>
-            <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
-            <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
-        </ul>
-        <ul>
-            <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
-            <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-            <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
-        </ul>
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
     </div>
-</div>
-<!-- Navigation Bar End -->
+    <!-- Navigation Bar End -->
 
 </div>
 </body>

@@ -68,11 +68,12 @@
             <li>The names are always given in the original language, if possible and known.</li>
             <li>If the original language has no Latin font, we give the common transcription.</li>
             <li>The search works on parts of the name, so its not necessary to enter the beginning, if you only know a part in the middle it will work.</li>
+            <li>Wait a second after your input, the list is quite long, search will take a little. Actually it is done on your computer so the speed depends on your own machine.</li>
         </ul>
 
         <br clear="all">
 
-        <label for="theList">search the list... (wait a second after your input, the list is quite long)</label>
+        <label for="theList">search the list...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
 
             <?
