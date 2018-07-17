@@ -29,21 +29,10 @@
     <?
     include("../../../../opendb.php");
 
-    if ($conn) {
         $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='karst'";
-        $result = mysql_query($sql, $conn);
-        echo mysql_error($conn);
-
-        $row = mysql_fetch_object($result);
-        $count = $row->count;
-
-        $NumberOfColumns = 3;
-
-    } else {
-        print("<H2 ALIGN=CEMTER>Oops, something went wrong....</H2>\n\n");
-        print("<P>\nPlease send your comment by e-mail to <A HREF=\"mailto:submit@showcaves.com\">submit@showcaves.com</A>\n</P>\n\n");
-        die;
-    }
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $count = $pdo->query($sql)[0];
     ?>
 
 
@@ -77,19 +66,15 @@
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
             <?
             $sql = "SELECT name, filename, countrycode, country FROM sights WHERE visible='yes' AND category='karst' ORDER BY sortby";
-            $result = mysql_query($sql, $conn);
-
             $filebase = "../../..";
-            $NumberOfObjects = 0;
             $Category = 'Karst';
 
-            while ($row = mysql_fetch_object($result)) {
-                $name = $row->name;
-                $country = $row->countrycode;
-                print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+            foreach ($pdo->query($sql) as $row) {
+                $name = $row['name'];
+                $country = $row['countrycode'];
+                $filename = $row['filename'];
+                print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
             }
-
-            @mysql_close($conn);
             ?>
         </ul>
 

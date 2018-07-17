@@ -29,21 +29,10 @@
     <?
     include("../../../../opendb.php");
 
-    if ($conn) {
         $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='mines'";
-        $result = mysql_query($sql, $conn);
-        echo mysql_error($conn);
-
-        $row = mysql_fetch_object($result);
-        $count = $row->count;
-
-        $NumberOfColumns = 3;
-
-    } else {
-        print("<H2 ALIGN=CEMTER>Oops, something went wrong....</H2>\n\n");
-        print("<P>\nPlease send your comment by e-mail to <A HREF=\"mailto:submit@showcaves.com\">submit@showcaves.com</A>\n</P>\n\n");
-        die;
-    }
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $count = $pdo->query($sql)[0];
     ?>
 
 
@@ -73,8 +62,6 @@
         <ul id="theList" data-role="listview" data-inset="false">
             <?
             $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='mines' ORDER BY country, sortby";
-            $result = mysql_query($sql, $conn);
-
             $Category = "Mine";
             $filebase = "../../..";
             $oldCountry = '';
@@ -83,10 +70,15 @@
             $countryText = '';
             $itemsText = '';
 
-            while ($row = mysql_fetch_object($result)) {
+            foreach ($pdo->query($sql) as $row) {
+                $name = $row['name'];
+                $country = $row['countrycode'];
+                $filename = $row['filename'];
+                $countrycode = $row['countrycode'];
+                $chapter = $row['chapter'];
 
                 // finalize old country
-                if ($oldCountry != '' && $oldCountry != $row->country) {
+                if ($oldCountry != '' && $oldCountry != $country) {
                     if (1 == $entries) {
                         $entriesText = "1 entry";
                     } else {
@@ -103,26 +95,24 @@
                 }
 
                 // store head for new country
-                if ($oldCountry != $row->country) {
-                    if ($row->countrycode == 'XX') {
-                        $countryText = $row->country;
-                    } else if ($row->countrycode == 'us') {
-                        $countryText = "<a name=\"usa\" data-ajax=\"false\" target=\"_top\" href=\"../../usa/index.html\">$row->country</a>";
-                    } else if ($row->chapter != null) {
-                        $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->chapter . "/region/" . $row->countrycode . ".html\">" . $row->country . "</a>";
+                if ($oldCountry != $country) {
+                    if ($countrycode == 'XX') {
+                        $countryText = $country;
+                    } else if ($countrycode == 'us') {
+                        $countryText = "<a name=\"usa\" data-ajax=\"false\" target=\"_top\" href=\"../../usa/index.html\">$country</a>";
                     } else {
-                        $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->countrycode . "/index.html\">" . $row->country . "</a>";
+                        if ($chapter != null) {
+                            $countryText = "<a name=\"" . $countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $chapter . "/region/" . $countrycode . ".html\">" . $country . "</a>";
+                        } else {
+                            $countryText = "<a name=\"" . $countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $countrycode . "/index.html\">" . $country . "</a>";
+                        }
                     }
 
                     $itemsText = '';
-                    $oldCountry = $row->country;
+                    $oldCountry = $country;
                 }
 
-                // check row and derive all texts
-                //$name       = myUmlaute($row->name);
-                $name = $row->name;
-
-                $itemsText .= "               <li><a href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
+                $itemsText .= "               <li><a href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
                 $entries++;
             }
 
@@ -141,8 +131,6 @@
                 print ("            </ul>\n");
                 print ("         </div>\n");
             }
-
-            @mysql_close($conn);
             ?>
         </ul>
 

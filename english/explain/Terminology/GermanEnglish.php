@@ -20,7 +20,6 @@
     <?
     include("../../../../opendb.php");
 
-    if ($conn) {
 
         // Bei Aufruf ohne Parameter werden alle einträge angezeigt
         if (isset($SearchTerm)) {

@@ -29,21 +29,10 @@
     <?
     include("../../../../opendb.php");
 
-    if ($conn) {
-        $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='caves'";
-        $result = mysql_query($sql, $conn);
-        echo mysql_error($conn);
-
-        $row = mysql_fetch_object($result);
-        $count = $row->count;
-
-        $NumberOfColumns = 3;
-
-    } else {
-        print("<H2 ALIGN=CEMTER>Oops, something went wrong....</H2>\n\n");
-        print("<P>\nPlease send your comment by e-mail to <A HREF=\"mailto:submit@showcaves.com\">submit@showcaves.com</A>\n</P>\n\n");
-        die;
-    }
+    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='caves'";
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $count = $pdo->query($sql)[0];
     ?>
 
 
@@ -73,8 +62,6 @@
         <ul id="theList" data-role="listview" data-inset="false">
             <?
             $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='caves' ORDER BY country, sortby";
-            $result = mysql_query($sql, $conn);
-
             $Category = "Cave";
             $filebase = "../../..";
             $oldCountry = '';
@@ -83,7 +70,12 @@
             $countryText = '';
             $itemsText = '';
 
-            while ($row = mysql_fetch_object($result)) {
+            foreach ($pdo->query($sql) as $row) {
+                $name = $row['name'];
+                $country = $row['countrycode'];
+                $filename = $row['filename'];
+                $countrycode = $row['countrycode'];
+                $chapter = $row['chapter'];
 
                 // finalize old country
                 if ($oldCountry != '' && $oldCountry != $row->country) {
@@ -141,8 +133,6 @@
                 print ("            </ul>\n");
                 print ("         </div>\n");
             }
-
-            @mysql_close($conn);
             ?>
         </ul>
 

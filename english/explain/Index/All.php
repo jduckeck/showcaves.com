@@ -29,14 +29,11 @@
     <?
     include("../../../../opendb.php");
 
-    $conn = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
-    $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-
     $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
-    $statement = $conn->prepare($sql);
-    $statement->bindParam('limit', $limit, PDO::PARAM_INT);
-    $statement->execute();
-    $count = $row->count;
+
+    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $count = $pdo->query($sql)[0];
 
     ?>
 
@@ -69,23 +66,17 @@
 
         <label for="theList">search the list...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-
             <?
             $sql = "SELECT name, filename, countrycode, country, category FROM sights WHERE visible='yes' ORDER BY sortby";
-            $result = mysql_query($sql, $conn);
-
             $filebase = "../../..";
-            $NumberOfObjects = 0;
 
-            while ($row = mysql_fetch_object($result)) {
+            foreach ($pdo->query($sql) as $row) {
+                $name = $row['name'];
+                $country = $row['countrycode'];
+                $filename = $row['filename'];
 
-                // check row and derive all texts
-                //$name       = myUmlaute($row->name);
-                //$country    = myUmlaute($row->country);
-                $name = $row->name;
-                $country = $row->countrycode;
                 $Category = "Showcave";
-                switch ($row->category) {
+                switch ($row['category']) {
                     case 'showcaves':
                         $Category = "Showcave";
                         break;
@@ -111,10 +102,9 @@
                         break;
                 }
 
-                print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+                print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
             }
 
-            @mysql_close($conn);
             ?>
         </ul>
 

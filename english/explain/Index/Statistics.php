@@ -37,17 +37,14 @@
         $statement = $conn->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
         $statement->bindParam('limit', $limit, PDO::PARAM_INT);
         $statement->execute();
-        while ($row = $statement->fetch()) {
-            echo $row['vorname'] . " " . $row['nachname'] . "<br />";
-            echo "E-Mail: " . $row['email'] . "<br /><br />";
-        }
-        $stmt = $conn->query();
-
-        /* MAGIC HAPPENS HERE */
-
         $conn->setFetchMode(PDO::FETCH_INTO, new Statistics);
 
-
+        $sql = "SELECT * FROM users";
+        foreach ($pdo->query($sql) as $row) {
+            echo $row['email'] . "<br />";
+            echo $row['vorname'] . "<br />";
+            echo $row['nachname'] . "<br /><br />";
+        }
         foreach ($stmt as $student) {
             echo $student->getFullName() . '<br />';
         }
@@ -276,8 +273,6 @@
             print ("<td align=\"right\">" . $allgorges . "</td>\n");
             print ("<td align=\"right\">" . $total . "</td>\n");
             print ("</tr>\n");
-
-            @mysql_close($conn);
             ?>
 
         </table>

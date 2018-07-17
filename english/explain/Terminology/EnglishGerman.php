@@ -20,7 +20,6 @@
     <?
     include("../../../../opendb.php");
 
-    if ($conn) {
         $sql = "SELECT * FROM Terminology";
         $result = mysql_query($sql, $conn);
 
@@ -57,7 +56,7 @@
         <TH>Explanation</TH>
     </TR>
     <?
-    $NumberOfObjects = 0;
+
     while ($row = mysql_fetch_object($result)) {
         print ("<TR><TD>$row->Id");
         print ("</TD><TD>$row->English");

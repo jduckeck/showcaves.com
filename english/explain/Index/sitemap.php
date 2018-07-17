@@ -23,7 +23,7 @@ $sql = "SELECT filename FROM sights WHERE visible='yes' ORDER BY sortby";
 $result = mysql_query($sql, $conn);
 
 $filebase = "../../..";
-$NumberOfObjects = 0;
+
 
 while ($row = mysql_fetch_object($result)) {
 
