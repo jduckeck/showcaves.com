@@ -399,7 +399,8 @@ TABLE.invers {
 }
 
 .liBook {
-    list-style-image: url("../graphics/symbol/Book.png")
+    list-style-image: url("../graphics/symbol/Book.png");
+    margin-bottom: 1em;
 }
 
 .liMap {
