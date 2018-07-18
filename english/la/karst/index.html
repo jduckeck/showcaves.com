@@ -26,53 +26,16 @@
     <!-- end responsive -->
 
 
-    <title>Map of Thailand</title>
+    <title>Karst Features of Laos</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <table width="100" align="right">
-            <tr>
-                <th><a data-ajax="false" target="_top" href="../../explain/Maps/Asia.html"><img src="../../../maps/Asia.gif" alt="Asia Map" border="1" hspace="0" width="64" height="80"></a></th>
-            </tr>
-            <tr>
-                <td class="center small">Asia Map</td>
-            </tr>
-        </table>
-
-
-        <table width="100" align="left">
-            <tr>
-                <th><a data-ajax="false" target="_top" href="../../explain/Maps/Asia.html"><img src="../../../maps/Asia.gif" alt="Asia Map" border="1" hspace="0" width="64" height="80"></a></th>
-            </tr>
-            <tr>
-                <td class="center small">Asia Map</td>
-            </tr>
-        </table>
-
-
-        <h1 align="center">Map of Thailand</h1>
-
-        <br clear="all">
-
-        <div class="center">
-            <map name="ThailandMap">
-                <area shape="rect" alt="Laos" coords="267,44,319,65" href="../../la/Maps/Map.html">
-                <area shape="rect" alt="Vietnam" coords="406,63,492,84" href="../../vn/region/Map.html">
-                <area shape="rect" alt="Vietnam" coords="418,646,503,667" href="../../vn/region/Map.html">
-                <area shape="rect" alt="Cambodia" coords="367,460,472,479" nohref>
-                <area shape="rect" alt="Malaysia" coords="128,873,216,897" href="../../my/region/PeninsularMalaysia.html">
-                <area shape="default" nohref>
-            </map>
-            <img alt="" src="../../../maps/Big/Thailand.png" USEMAP="#ThailandMap" border="1" width="510" height="900">
-        </div>
-
-        <br>
-
-        <div class="center">
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+            </ul>
         </div>
 
     </div>
@@ -82,9 +45,16 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Thailand</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by Province</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Laos</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
+                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
+                <a data-ajax="false" href="../karst/index.html" data-role="button" class="ui-btn-active">Karst Features</a>
+                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
+                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
+                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
@@ -106,8 +76,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
