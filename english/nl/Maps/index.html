@@ -26,44 +26,18 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="South Holland Province The Netherlands showcaves.com">
-    <title>The Netherlands by Province: South Holland</title>
+    <title>Maps of the Netherlands</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <h1 align="center">South Holland</h1>
-        <h2 align="center"></h2>
-
-        <br clear="all">
-
-        <!--
-        <div class="center">
-        <map name="SouthHollandMap">
-        <area shape="default" nohref>
-        </map>
-        <img alt="" src="../../../maps/SouthHolland.png" usemap="#SouthHollandMap" border="0">
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+                <li><a data-ajax="false" target="_top" href="../../nl/Maps/Map.html">Map of the Netherlands</a></li>
+            </ul>
         </div>
-
-        <br>
-        -->
-
-        <p>
-        </p>
-
-        <br>
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-        </ul>
-
-        <br>
-
-
-        <!--  -->
-
 
     </div>
 
@@ -74,10 +48,13 @@
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">The Netherlands</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Province</a>
+                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
-
 
     <!-- Navigation Bar Begin -->
     <div data-role="footer" data-position="fixed">
@@ -96,8 +73,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
