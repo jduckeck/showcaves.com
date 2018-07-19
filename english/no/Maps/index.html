@@ -26,34 +26,18 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Norway Map showcaves.com">
-    <title>Map of Norway: $CaveName$</title>
+    <title>Maps of Norway</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <li><a data-ajax="false" target="_top" href="../../no/Maps/$FileName$.html">$CaveName$</a></li>
-        <li><a data-ajax="false" target="_top" href="../../no/Maps/$FileName$.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png" alt="Map">$CaveName$</a></li>
-
-        <h1 align="center">Map of Norway</h1>
-        <h2 align="center"></h2>
-
-        <br clear="all">
-
-        <div class="center">
-            <map name="NorwayMap">
-                <area shape="default" nohref>
-            </map>
-            <img alt="" src="../../../maps/Norway.png" USEMAP="#NorwayMap" border="1" width="780" height="460">
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+                <li><a data-ajax="false" target="_top" href="../Maps/Map.html">Map of Norway</a></li>
+            </ul>
         </div>
-
-        <br>
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-        </ul>
 
     </div>
 
@@ -63,8 +47,11 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Norway</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/byFylke.html">by Fylke</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Fylke</a>
+                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
@@ -86,8 +73,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
