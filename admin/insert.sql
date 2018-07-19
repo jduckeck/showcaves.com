@@ -2,7 +2,8 @@
 
 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Bundesbank-Bunker', '/english/de/misc/Bundesbank.html', 'Bundesbank', 'Europe', 'de', 'Germany', 'subterranea', 'Eifel');
+VALUES ('yes', 'Bundesbank-Bunker', '/english/de/subterranea/Bundesbank.html', 'Bundesbank', 'Europe', 'de', 'Germany',
+        'subterranea', 'Eifel');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Délirium Café', '/english/be/subterranea/Delirium.html', 'Delirium', 'Europe', 'be', 'Belgium', 'subterranea', 'Brussels');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
@@ -31,3 +32,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bat Cave', '/english/car/caves/BatMontserrat.html', 'BatMontserrat', 'Caribbean Islands', 'ms', 'Montserrat', 'caves', 'ms', 'car');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Grotte des Carbonnières', '/english/fr/showcaves/Carbonnieres.html', 'Carbonnieres', 'Europe', 'fr', 'France', 'showcaves', 'MidiPyrenees');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Carri&egrave;re Souterraine de Rinval', '/english/fr/subterranea/Rinval.html', 'Rinval', 'Europe', 'fr',
+        'France', 'subterranea', 'Lorraine');

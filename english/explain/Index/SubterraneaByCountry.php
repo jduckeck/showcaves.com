@@ -69,6 +69,7 @@
             $entriesText = '';
             $countryText = '';
             $itemsText = '';
+            $id = '';
 
             foreach ($pdo->query($sql) as $row) {
                 $name = $row['name'];
@@ -88,7 +89,7 @@
 
                     print ("         <div data-role=\"collapsible\">\n");
                     print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                    print ("            <ul id=\"theList\" data-role=\"listview\" data-inset=\"true\">\n");
+                    print ("            <ul id=\"$id\" data-role=\"listview\" data-inset=\"true\">\n");
                     print ($itemsText);
                     print ("            </ul>\n");
                     print ("         </div>\n");
@@ -110,6 +111,8 @@
 
                     $itemsText = '';
                     $oldCountry = $country;
+                    $id = $countrycode . "List";
+
                 }
 
                 $itemsText .= "               <li><a href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
@@ -126,7 +129,7 @@
             if ($entries > 0) {
                 print ("         <div data-role=\"collapsible\">\n");
                 print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                print ("            <ul id=\"theList\" data-role=\"listview\" data-inset=\"true\">\n");
+                print ("            <ul id=\"$id\" data-role=\"listview\" data-inset=\"true\">\n");
                 print ($itemsText);
                 print ("            </ul>\n");
                 print ("         </div>\n");
