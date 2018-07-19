@@ -26,78 +26,18 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Gallery México Subterranea showcaves.com">
-    <title>Subterranea of México: $CaveName$ Gallery</title>
+    <title>Maps of México</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <table class="galleryImg">
-            <tr>
-                <td><a data-ajax="false" target="_top" href="$FileName$Gallery.html"><img alt="" src="../../../graphics/Gallery.png" width="380" height="60"></a></td>
-            </tr>
-            <tr>
-                <td class="imgCaption" align="center"><b>$CaveName$ Gallery</b></td>
-            </tr>
-        </table>
-
-
-        <h1 align="center">$CaveName$ Gallery</h1>
-        <h2 align="center"></h2>
-
-        <br clear="all">
-
-
-        <div class="center">
-
-            <!-- Zeile -->
-
-            <table border="0" cellspacing="0" cellpadding="10">
-                <tr>
-                    <td valign="top">
-
-                        <table class="centerImg" width="250">
-                            <tr>
-                                <td><a data-ajax="false" target="_top" href="../../../images/Big/257-166.jpg"><img alt="" src="../../../images/257-166.jpg" width="250" height="250"></a></td>
-                            </tr>
-                            <tr>
-                                <td class="imgCaption"><b>Image:</b> .</td>
-                            </tr>
-                        </table>
-
-                    </td>
-                    <td valign="top">
-
-                        <table class="centerImg" width="250">
-                            <tr>
-                                <td><a data-ajax="false" target="_top" href="../../../images/Big/257-166.jpg"><img alt="" src="../../../images/257-166.jpg" width="250" height="250"></a></td>
-                            </tr>
-                            <tr>
-                                <td class="imgCaption"><b>Image:</b> .</td>
-                            </tr>
-                        </table>
-
-                    </td>
-                    <td valign="top">
-
-                        <table class="centerImg" width="250">
-                            <tr>
-                                <td><a data-ajax="false" target="_top" href="../../../images/Big/257-166.jpg"><img alt="" src="../../../images/257-166.jpg" width="250" height="250"></a></td>
-                            </tr>
-                            <tr>
-                                <td class="imgCaption"><b>Image:</b> .</td>
-                            </tr>
-                        </table>
-
-                    </td>
-                </tr>
-            </table>
-
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+                <li><a data-ajax="false" target="_top" href="../../mx/Maps/Map.html"> Map of México</a></li>
+            </ul>
         </div>
-
 
     </div>
 
@@ -107,12 +47,14 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">México</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/$CaveName$.html">$CaveName$</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Region</a>
+                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
-
 
     <!-- Navigation Bar Begin -->
     <div data-role="footer" data-position="fixed">
@@ -131,8 +73,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
