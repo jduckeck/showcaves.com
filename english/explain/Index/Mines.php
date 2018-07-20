@@ -29,7 +29,7 @@
     <?
     include("../../../../opendb.php");
 
-        $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='mines'";
+    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='mines'";
     $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $count = $pdo->query($sql)[0];
