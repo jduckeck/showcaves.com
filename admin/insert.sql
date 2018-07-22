@@ -1,9 +1,10 @@
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','La grotte des Petites-Dalles', '/english/fr/showcaves/PetitesDalles.html', 'PetitesDalles', 'Europe', 'fr', 'France', 'showcaves', 'HauteNormandie');
 
 
 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Bundesbank-Bunker', '/english/de/subterranea/Bundesbank.html', 'Bundesbank', 'Europe', 'de', 'Germany',
-        'subterranea', 'Eifel');
+VALUES ('yes', 'Bundesbank-Bunker', '/english/de/subterranea/Bundesbank.html', 'Bundesbank', 'Europe', 'de', 'Germany', 'subterranea', 'Eifel');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Délirium Café', '/english/be/subterranea/Delirium.html', 'Delirium', 'Europe', 'be', 'Belgium', 'subterranea', 'Brussels');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
