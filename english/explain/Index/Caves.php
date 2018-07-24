@@ -29,10 +29,14 @@
     <?
     include("../../../../opendb.php");
 
+    $count = 0;
     $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='caves'";
-    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
-    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-    $count = $pdo->query($sql)[0];
+    $statement = $pdo->query($sql);
+    if ($statement->execute()) {
+        if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+            $count = $row['count'];
+        }
+    }
     ?>
 
 
@@ -53,7 +57,6 @@
 
         <ul>
             <li>The names are listed <b>alphabetically</b>.</li>
-            <li>The <b>country codes</b> are added to each site. Those codes are the two letter country codes, used for first level domains, as defined in ISO 3166.</li>
             <li>The names are always given in the original language, if possible and known.</li>
             <li>If the original language has no Latin font, we give the common transcription.</li>
             <li>The search works on parts of the name, so its not necessary to enter the beginning, if you only know a part in the middle it will work.</li>
@@ -69,11 +72,14 @@
             $filebase = "../../..";
             $Category = 'Cave';
 
-            foreach ($pdo->query($sql) as $row) {
-                $name = $row['name'];
-                $country = $row['countrycode'];
-                $filename = $row['filename'];
-                print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+            $statement = $pdo->prepare($sql);
+            if ($statement->execute()) {
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    $name = $row['name'];
+                    $country = $row['country'];
+                    $filename = $row['filename'];
+                    print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+                }
             }
             ?>
         </ul>
