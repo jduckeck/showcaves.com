@@ -1,6 +1,6 @@
 <?PHP
 include "../config.inc.php";
-include "../open.inc.php";
+include "../opendb.php";
 include "../instr.php";
 include "../image.lib.php";
 include "../killfile.lib.php";
@@ -13,7 +13,6 @@ global $pic, $type, $size, $l, $key;
 //---------------------------------------------------------------------------------------------------
 if ( killfile() == true ) {
     echo "file not found (killfile)";
-    @mysql_close($conn);
     exit;
 }
 
@@ -24,7 +23,6 @@ $Filename = checkfile ( $pic, $type, $size, $l );
 
 if ( empty($Filename) || !file_exists($Filename) ) {
     echo "file [$Filename] not found";
-    @mysql_close($conn);
     exit;
 }
 
@@ -65,7 +63,6 @@ switch ( (int)$picInfo[2] ) {
 }
 
 readfile ( $Filename );
-@mysql_close($conn);
 exit;
 
 ?>

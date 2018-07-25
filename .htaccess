@@ -66,14 +66,3 @@ RewriteRule ^.*$ /image.php?pic=%1&type=f&size=small [L,NE]
 RewriteCond %{REQUEST_URI} ^/surveys/(.*)$
 RewriteRule ^.*$ /image.php?pic=%1&type=s&size=small [L,NE]
 
-
-# rewrite requests to the entrance pictures
-RewriteCond %{REQUEST_URI} ^/entrance/english/(.*)$
-RewriteRule ^.*$ /image.php?pic=%1&type=e&size=small&l=en [L,NE]
-
-RewriteCond %{REQUEST_URI} ^/entrance/german/(.*)$
-RewriteRule ^.*$ /image.php?pic=%1&type=e&size=small&l=de [L,NE]
-
-RewriteCond %{REQUEST_URI} ^/entrance/(.*)$
-RewriteRule ^.*$ /image.php?pic=%1&type=e&size=small [L,NE]
-
