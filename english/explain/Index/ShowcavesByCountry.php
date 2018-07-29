@@ -63,83 +63,71 @@
 
         <br clear="all">
 
-        <ul id="theList" data-role="listview" data-inset="false">
-            <?
-            $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='showcaves' ORDER BY country, sortby";
-            $Category = "Showcave";
-            $filebase = "../../..";
-            $oldCountry = '';
-            $entries = 0;
-            $entriesText = '';
-            $countryText = '';
-            $itemsText = '';
+        <?
+        $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='showcaves' ORDER BY country, sortby";
+        $Category = "Showcave";
+        $filebase = "../../..";
+        $oldCountry = '';
+        $entries = 0;
+        $entriesText = '';
+        $countryText = '';
+        $itemsText = '';
 
-            $statement = $pdo->prepare($sql);
-            if ($statement->execute()) {
-                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                    $name = $row['name'];
-                    $country = $row['country'];
-                    $filename = $row['filename'];
-                    $countrycode = $row['countrycode'];
-                    $chapter = $row['chapter'];
+        $statement = $pdo->prepare($sql);
+        if ($statement->execute()) {
+            while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                $name = $row['name'];
+                $country = $row['country'];
+                $filename = $row['filename'];
+                $countrycode = $row['countrycode'];
+                $chapter = $row['chapter'];
 
-                    // finalize old country
-                    if ($oldCountry != '' && $oldCountry != $country) {
-                        if (1 == $entries) {
-                            $entriesText = "1 entry";
-                        } else {
-                            $entriesText = "$entries entries";
-                        }
-                        $entries = 0;
-
-                        print ("         <div data-role=\"collapsible\">\n");
-                        print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                        print ("            <ul id=\"theList\" data-role=\"listview\" data-inset=\"true\">\n");
-                        print ($itemsText);
-                        print ("            </ul>\n");
-                        print ("         </div>\n");
+                // finalize old country
+                if ($oldCountry != '' && $oldCountry != $country) {
+                    if (1 == $entries) {
+                        $entriesText = "1 entry";
+                    } else {
+                        $entriesText = "$entries entries";
                     }
+                    $entries = 0;
 
-                    // store head for new country
-                    if ($oldCountry != $country) {
-                        if ($countrycode == 'XX') {
-                            $countryText = $country;
-                        } else if ($countrycode == 'us') {
-                            $countryText = "<a name=\"usa\" data-ajax=\"false\" target=\"_top\" href=\"../../usa/index.html\">$country</a>";
-                        } else {
-                            if ($chapter != null) {
-                                $countryText = "<a name=\"" . $countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $chapter . "/region/" . $countrycode . ".html\">" . $country . "</a>";
-                            } else {
-                                $countryText = "<a name=\"" . $countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $countrycode . "/index.html\">" . $country . "</a>";
-                            }
-                        }
-
-                        $itemsText = '';
-                        $oldCountry = $country;
-                    }
-
-                    $itemsText .= "               <li><a href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
-                    $entries++;
-                }
-
-                // there is no more row when the last country is done, so we have to output the last country
-                if (1 == $entries) {
-                    $entriesText = "1 entry";
-                } else {
-                    $entriesText = "$entries entries";
-                }
-
-                if ($entries > 0) {
                     print ("         <div data-role=\"collapsible\">\n");
                     print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                    print ("            <ul id=\"theList\" data-role=\"listview\" data-inset=\"true\">\n");
+                    print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
                     print ($itemsText);
                     print ("            </ul>\n");
                     print ("         </div>\n");
                 }
+
+                // store head for new country
+                if ($oldCountry != $country) {
+                    $countryText = $country;
+
+                    $itemsText = '';
+                    $oldCountry = $country;
+                }
+
+                $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
+                $entries++;
             }
-            ?>
-        </ul>
+
+            // there is no more row when the last country is done, so we have to output the last country
+            if (1 == $entries) {
+                $entriesText = "1 entry";
+            } else {
+                $entriesText = "$entries entries";
+            }
+
+            if ($entries > 0) {
+                print ("         <div data-role=\"collapsible\">\n");
+                print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
+                print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
+                print ($itemsText);
+                print ("            </ul>\n");
+                print ("         </div>\n");
+            }
+        }
+        ?>
 
     </div>
 

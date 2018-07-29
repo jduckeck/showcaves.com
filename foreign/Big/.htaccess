@@ -1,4 +1,0 @@
-#AuthType Basic
-#AuthName "Showcaves.com Private Section"
-#AuthUserFile /kunden/showcaves.com/public_html/.htpasswd01
-#require valid-user

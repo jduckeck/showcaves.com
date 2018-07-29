@@ -103,6 +103,14 @@ table.language th {
     background-color: #D6D6D6;
 }
 
+.foreign {
+    font-family: sans-serif;
+    color: #400000;
+    margin: 1.5em 1em 1em 1em;
+    padding: 0.5em;
+    background-color: #D6D6D6;
+}
+
 .definition {
     font-family: serif;
     color: #404040;
@@ -206,14 +214,6 @@ TABLE.statistics td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 0.5em;
-}
-
-.foreign {
-    font-family: sans-serif;
-    color: #400000;
-    margin: 1.5em 1em 1em 1em;
-    padding: 0.5em;
-    background-color: #D6D6D6;
 }
 
 TABLE.leftImg {
