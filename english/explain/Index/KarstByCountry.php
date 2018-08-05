@@ -25,7 +25,6 @@
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
 
-
     <?
     include("../../../../opendb.php");
 
@@ -38,7 +37,6 @@
         }
     }
     ?>
-
 
     <title>Indexes: All Karst Features</title>
 </head>
@@ -137,6 +135,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/KarstByCountry.php"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>

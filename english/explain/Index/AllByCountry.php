@@ -29,9 +29,6 @@
     <?
     include("../../../../opendb.php");
 
-    $pdo = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
-    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-
     $count = 0;
     $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
     $statement = $pdo->query($sql);
@@ -166,6 +163,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/AllByCountry.html"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>

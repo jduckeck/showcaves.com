@@ -93,6 +93,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/Subterranea.php"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>

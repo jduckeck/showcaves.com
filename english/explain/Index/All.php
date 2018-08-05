@@ -25,7 +25,6 @@
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
 
-
     <?
     include("../../../../opendb.php");
 
@@ -37,11 +36,7 @@
             $count = $row['count'];
         }
     }
-
-
     ?>
-
-
     <title>Indexes: All Entries of showcaves.com</title>
 </head>
 
@@ -122,6 +117,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/All.html"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>

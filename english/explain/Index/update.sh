@@ -15,4 +15,4 @@ wget http://temp.showcaves.com/english/explain/Index/SubterraneaByCountry.php --
 wget http://temp.showcaves.com/english/explain/Index/KarstByCountry.php --output-document=KarstByCountry.html
 wget http://temp.showcaves.com/english/explain/Index/SpringsByCountry.php --output-document=SpringsByCountry.html
 wget http://temp.showcaves.com/english/explain/Index/GorgesByCountry.php --output-document=GorgesByCountry.html
-#wget http://temp.showcaves.com/english/explain/Index/Statistics.php --output-document=Statistics.html
+wget http://temp.showcaves.com/english/explain/Index/Statistics.php --output-document=Statistics.html

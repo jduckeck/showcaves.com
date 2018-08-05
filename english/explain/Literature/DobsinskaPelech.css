@@ -32,10 +32,7 @@
     font-weight: bold;
     line-height: 1.2;
     margin: 0.423cm 0 0.212cm;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    padding: 0;
 }
 
 .P-P1 {
@@ -43,14 +40,8 @@
     font-family: "Times New Roman", serif;
     font-size: 1em;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .P-P2 {
@@ -59,14 +50,8 @@
     font-size: 1.125em;
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom: 0.212cm;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.423cm;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0.423cm 0 0.212cm;
+    padding: 0;
 }
 
 .P-P4 {
@@ -74,14 +59,8 @@
     font-family: "Times New Roman", serif;
     font-size: 1em;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-align: right
 }
 
@@ -92,14 +71,8 @@
     font-style: italic;
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom: 0.212cm;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.423cm;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0.423cm 0 0.212cm;
+    padding: 0;
     text-align: center
 }
 
@@ -108,14 +81,8 @@
     font-family: "Times New Roman", serif;
     font-size: 1em;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-align: left
 }
 
@@ -126,14 +93,8 @@
     font-style: italic;
     font-weight: normal;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-align: justify
 }
 
@@ -142,10 +103,7 @@
     font-family: "Times New Roman", serif;
     font-size: 1em;
     line-height: 1.2;
-    margin-bottom: 0.212cm;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
+    margin: 0 0 0.212cm;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -305,83 +263,6 @@
     width: 7.885cm
 }
 
-.TC-Tabelle1A {
-    display: table-column;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 1.191cm
-}
-
-.TC-Tabelle1B {
-    display: table-column;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 2.223cm
-}
-
-.TC-Tabelle1C {
-    display: table-column;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 2.355cm
-}
-
-.TC-Tabelle1D {
-    display: table-column;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 2.672cm
-}
-
-.TC-Tabelle2A {
-    display: table-column;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 6.588cm
-}
-
-.TC-Tabelle2B {
-    display: table-column;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    width: 1.296cm
-}
 
 .TD-Tabelle1A {
     border: none;
