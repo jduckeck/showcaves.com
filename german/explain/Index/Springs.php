@@ -40,7 +40,7 @@
     ?>
 
 
-    <title>Alphabethisches Register: All Springs</title>
+    <title>Alphabethisches Register: Alle Karstquellen</title>
 </head>
 
 <body>
@@ -48,8 +48,8 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">All Springs</h1>
-        <h2 align="center"><? print $count ?> Springs are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h1 align="center">Alle Karstquellen</h1>
+        <h2 align="center"><? print $count ?> Karstquellen werden auf <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
 
         <br clear="all">
 

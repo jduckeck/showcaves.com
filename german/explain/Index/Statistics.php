@@ -57,15 +57,15 @@
         <table align="center" border="1" cellspacing="0" cellpadding="5">
             <thead>
             <tr>
-                <th bgcolor="white">Country</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Showcaves</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Caves</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">Karst Features</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Springs</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Mines</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Subterranea</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Gorge.png" alt="Gorge">Gorges</th>
-                <th bgcolor="white">Country Sum</th>
+                <th bgcolor="white">Länder</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Schauhöhlen</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Höhlen</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">Karsterscheinungen</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Karstquellen</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Bergwerke</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Künstliche Hohlräume</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Gorge.png" alt="Gorge">Schuchten</th>
+                <th bgcolor="white">Gesamt Land</th>
             </tr>
             </thead>
             <tbody>
@@ -224,21 +224,21 @@
             print("</tbody>");
             print ("<tfoot style=\"background-color: #FFFFFF\">
             <tr>
-            <th bgcolor=\"white\">Countries</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\">Showcaves</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Cave.png\" alt=\"Cave\">Caves</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Karst.png\" alt=\"Karst\">Karst Features</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Spring.png\" alt=\"Spring\">Springs</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Mine.png\" alt=\"Mine\">Mines</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Misc.png\" alt=\"Misc\">Subterranea</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Gorge.png\" alt=\"Gorge\">Gorges</th>
-            <th bgcolor=\"white\">Entries Total</th>
+            <th bgcolor=\"white\">Länder</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\">Schauhöhlen</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Cave.png\" alt=\"Cave\">Höhlen</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Karst.png\" alt=\"Karst\">Karsterscheinungen</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Spring.png\" alt=\"Spring\">Karstquellen</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Mine.png\" alt=\"Mine\">Bergwerke</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Misc.png\" alt=\"Misc\">Künstliche Hohlräume</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Gorge.png\" alt=\"Gorge\">Schuchten</th>
+            <th bgcolor=\"white\">Gesamt</th>
             </tr>
             ");
 
             print ("
             <tr>
-            <td>$countries countries</td>
+            <td>$countries Länder</td>
             <td align=\"right\">$allshowcaves</td>
             <td align=\"right\">$allcaves</td>
             <td align=\"right\">$allkarst</td>

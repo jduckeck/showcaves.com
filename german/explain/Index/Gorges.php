@@ -49,7 +49,7 @@
 
 
         <h1 align="center">All Gorges</h1>
-        <h2 align="center"><? print $count ?> Gorges are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 align="center"><? print $count ?> Gorges werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br clear="all">
 

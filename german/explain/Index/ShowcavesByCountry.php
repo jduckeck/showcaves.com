@@ -40,7 +40,7 @@
     ?>
 
 
-    <title>Alphabethisches Register: Alle Schauhöhlen Grouped By Country</title>
+    <title>Alphabethisches Register: Alle Schauhöhlen nach Ländern gruppiert</title>
 </head>
 
 <body>
@@ -48,7 +48,7 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">Alle Schauhöhlen Grouped By Country</h1>
+        <h1 align="center">Alle Schauhöhlen nach Ländern gruppiert</h1>
         <h2 align="center"><? print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br clear="all">
