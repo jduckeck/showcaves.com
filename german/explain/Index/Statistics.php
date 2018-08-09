@@ -93,13 +93,6 @@
 
             $countries = 0;
 
-            /**
-             * @param $countrycode
-             * @param $country
-             * @param $row
-             * @param $countries
-             * @return array
-             */
             function createCountryCell($countrycode, $country, $chapter, $countries)
             {
                 $filebase = "../../../english";

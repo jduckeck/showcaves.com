@@ -26,7 +26,7 @@
     <!-- end responsive -->
 
     <?
-    include("../../../../opendb.php");
+    include($_SERVER['DOCUMENT_ROOT']."/../opendb.php");
 
     $count = 0;
     $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
