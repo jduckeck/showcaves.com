@@ -103,6 +103,14 @@ table.language th {
     background-color: #D6D6D6;
 }
 
+.foreign {
+    font-family: sans-serif;
+    color: #400000;
+    margin: 1.5em 1em 1em 1em;
+    padding: 0.5em;
+    background-color: #D6D6D6;
+}
+
 .definition {
     font-family: serif;
     color: #404040;
@@ -208,14 +216,6 @@ TABLE.statistics td {
     padding: 0.5em;
 }
 
-.foreign {
-    font-family: sans-serif;
-    color: #400000;
-    margin: 1.5em 1em 1em 1em;
-    padding: 0.5em;
-    background-color: #D6D6D6;
-}
-
 TABLE.leftImg {
     clear: left;
     float: left;
@@ -259,6 +259,16 @@ TABLE.centerImg {
     padding: 0;
     border-width: 0;
     text-align: center;
+}
+
+TABLE.index {
+    clear: both;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border-width: 0;
+    text-align: justify;
 }
 
 .imgCaption {

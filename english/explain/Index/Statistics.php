@@ -25,40 +25,12 @@
     <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
 
-
     <?
-
-    use classes\Statistics;
-
-
     include("../../../../opendb.php");
 
-    try {
-        $statement = $conn->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-        $statement->bindParam('limit', $limit, PDO::PARAM_INT);
-        $statement->execute();
-        $conn->setFetchMode(PDO::FETCH_INTO, new Statistics);
-
-        $sql = "SELECT * FROM users";
-        foreach ($pdo->query($sql) as $row) {
-            echo $row['email'] . "<br />";
-            echo $row['vorname'] . "<br />";
-            echo $row['nachname'] . "<br /><br />";
-        }
-        foreach ($stmt as $student) {
-            echo $student->getFullName() . '<br />';
-        }
-
-        $dbh = null;
-    } catch (PDOException $e) {
-        print("<H2 ALIGN=CEMTER>Oops, something went wrong....</H2>\n\n");
-        print("<P>\nPlease send your comment by e-mail to <A HREF=\"mailto:submit@showcaves.com\">submit@showcaves.com</A>\n</P>\n\n");
-        die;
-    }
-    $NumberOfColumns = 7;
+    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+    $statement->bindParam('limit', $limit, PDO::PARAM_INT);
     ?>
-
-
     <title>Indexes: Statistics of showcaves.com</title>
 </head>
 
@@ -68,7 +40,7 @@
 
 
         <h1 align="center">Statistics of showcaves.com</h1>
-        <h2 align="center"></h2>
+        <h2 align="center"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?></h2>
 
         <br clear="all">
 
@@ -84,30 +56,21 @@
 
 
         <table align="center" border="1" cellspacing="0" cellpadding="5">
-            <tfoot style="background-color: #FFFFFF">
-            <tr>
-                <td rowspan="9" class="center">
-                    <span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?>
-                </td>
-            </tr>
-            </tfoot>
-
             <thead>
             <tr>
                 <th bgcolor="white">Country</th>
-                <th bgcolor="white"><img src="../../../graphics/symbol/Showcave.gif" width="12" height="12">&nbsp;Showcaves</th>
-                <th bgcolor="white"><img src="../../../graphics/symbol/Cave.gif" width="12" height="12">&nbsp;Caves</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">&nbsp;Karst Features</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">&nbsp;Springs</th>
-                <th bgcolor="white"><img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.png" class="symbol">Mines</th>
-                <th bgcolor="white"><img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.png" class="symbol">Subterranea</th>
-                <th bgcolor="white"><img vspace="0" hspace="0" src="../../../graphics/symbol/Gorge.png" width="12" height="12">&nbsp;Gorges</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Showcaves</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Caves</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">Karst Features</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Springs</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Mines</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Subterranea</th>
+                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Gorge.png" alt="Gorge">Gorges</th>
                 <th bgcolor="white">Country Sum</th>
             </tr>
-
             </thead>
+            <tbody>
             <?
-            $filebase = "../../..";
             $oldCountry = '';
             $entries = 0;
 
@@ -131,148 +94,163 @@
 
             $countries = 0;
 
-            while ($row = mysql_fetch_object($result)) {
+            /**
+             * @param $countrycode
+             * @param $country
+             * @param $row
+             * @param $countries
+             * @return array
+             */
+            function createCountryCell($countrycode, $country, $chapter, $countries)
+            {
+                $filebase = "../../../english";
 
-                if ($oldcountry == '') {
-
-                    if ($row->countrycode == 'XX') {
-                        $countrycell = $row->country;
-                        $cellatts = "";
-                    } else if ($row->countrycode == 'us') {
-                        $countrycell = "<a name=\"usa\" target=\"_top\" href=\"../../usa/index.html\">" . $row->country . "</a>";
-                        $cellatts = " bgcolor=\"silver\"";
-                    } else if ($row->chapter != null) {
-                        $countrycell = "<a name=\"" . $row->countrycode . "\" href=\"../../" . $row->chapter . "/region/" . $row->countrycode . ".html\">" . $row->country . "</a>";
-                        $cellatts = "";
-                    } else {
-                        $countrycell = "<a name=\"" . $row->countrycode . "\" target=\"_top\" href=\"../../" . $row->countrycode . "/index.html\">" . $row->country . "</a>";
-                        $cellatts = " bgcolor=\"silver\"";
-                    }
-
-                    $oldcountry = $row->country;
-                    $countries++;
+                if ($countrycode == 'XX') {
+                    $countrycell = $country;
+                    $cellatts = "";
+                } else if ($countrycode == 'us') {
+                    $countrycell = "<a name=\"usa\" target=\"_top\" href=\"$filebase/usa/index.html\">$country</a>";
+                    $cellatts = " bgcolor=\"silver\"";
+                } else if ($chapter != null) {
+                    $countrycell = "<a name=\"$countrycode\" href=\"$filebase/$chapter/region/$countrycode.html\">$country</a>";
+                    $cellatts = "";
+                } else {
+                    $countrycell = "<a name=\"$countrycode\" target=\"_top\" href=\"$filebase/$countrycode/index.html\">$country</a>";
+                    $cellatts = " bgcolor=\"silver\"";
                 }
 
-                // head for new country
-                if ($oldcountry != $row->country) {
-                    print ("<tr>\n");
-                    print ("<td" . $cellatts . ">" . $countrycell . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $showcaves . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $caves . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $karst . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $springs . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $mines . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $subterranea . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $gorges . "</td>\n");
-                    print ("<td" . $cellatts . " align=\"right\">" . $countrytotal . "</td>\n");
-                    print ("</tr>\n");
-
-                    if ($row->countrycode == 'XX') {
-                        $countrycell = $row->country;
-                        $cellatts = "";
-                    } else if ($row->countrycode == 'us') {
-                        $countrycell = "<a name=\"usa\" target=\"_top\" href=\"../../usa/index.html\">" . $row->country . "</a>";
-                        $cellatts = " bgcolor=\"silver\"";
-                    } else if ($row->chapter != null) {
-                        $countrycell = "<a name=\"" . $row->countrycode . "\" href=\"../../" . $row->chapter . "/region/" . $row->countrycode . ".html\">" . $row->country . "</a>";
-                        $cellatts = "";
-                    } else {
-                        $countrycell = "<a name=\"" . $row->countrycode . "\" target=\"_top\" href=\"../../" . $row->countrycode . "/index.html\">" . $row->country . "</a>";
-                        $cellatts = " bgcolor=\"silver\"";
-                    }
-
-                    $oldcountry = $row->country;
-                    $countries++;
-
-                    $allshowcaves += $showcaves;
-                    $allcaves += $caves;
-                    $allkarst += $karst;
-                    $allsprings += $springs;
-                    $allmines += $mines;
-                    $allsubterranea += $subterranea;
-                    $allgorges += $gorges;
-                    $alltotal += $countrytotal;
-
-                    $showcaves = 0;
-                    $caves = 0;
-                    $karst = 0;
-                    $springs = 0;
-                    $mines = 0;
-                    $subterranea = 0;
-                    $gorges = 0;
-                    $countrytotal = 0;
-                }
-
-                switch ($row->category) {
-                    case 'showcaves':
-                        $showcaves = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    case 'caves':
-                        $caves = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    case 'subterranea':
-                        $subterranea = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    case 'mines':
-                        $mines = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    case 'karst':
-                        $karst = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    case 'springs':
-                        $springs = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    case 'gorges':
-                        $gorges = $row->count;
-                        $countrytotal += $row->count;
-                        break;
-                    default:
-                        break;
-                }
-
+                $oldCountry = $country;
+                $countries++;
+                return array($countrycell, $cellatts, $oldCountry, $countries);
             }
 
-            print ("<tr>\n");
-            print ("<td" . $cellatts . ">" . $countrycell . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $showcaves . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $caves . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $karst . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $springs . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $mines . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $subterranea . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $gorges . "</td>\n");
-            print ("<td" . $cellatts . " align=\"right\">" . $countrytotal . "</td>\n");
-            print ("</tr>\n");
+            if ($statement->execute()) {
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    $countrycode = $row['countrycode'];
+                    $chapter = $row['chapter'];
+                    $country = $row['country'];
+                    $category = $row['category'];
+                    $count = $row['count'];
 
-            print ("<tr>");
-            print ("<th bgcolor=\"white\">Countries</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Showcave.gif\" width=\"12\" height=\"12\">&nbsp;Showcaves</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Cave.gif\" width=\"12\" height=\"12\">&nbsp;Caves</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Karst.gif\" width=\"12\" height=\"12\">&nbsp;Karst Features</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Spring.gif\" width=\"12\" height=\"12\">&nbsp;Springs</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Mine.gif\" width=\"12\" height=\"12\">&nbsp;Mines</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Misc.gif\" width=\"12\" height=\"12\">&nbsp;Subterranea</th>");
-            print ("<th bgcolor=\"white\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Gorge.png\" width=\"12\" height=\"12\">&nbsp;Gorges</th>");
-            print ("<th bgcolor=\"white\">Entries Total</th>");
-            print ("</tr>\n");
+                    if ($oldCountry == '') {
+                        list($countrycell, $cellatts, $oldCountry, $countries) = createCountryCell($countrycode, $country, $chapter, $countries);
+                    }
 
-            print ("<tr>\n");
-            print ("<td>" . $countries . " countries</td>\n");
-            print ("<td align=\"right\">" . $allshowcaves . "</td>\n");
-            print ("<td align=\"right\">" . $allcaves . "</td>\n");
-            print ("<td align=\"right\">" . $allkarst . "</td>\n");
-            print ("<td align=\"right\">" . $allsprings . "</td>\n");
-            print ("<td align=\"right\">" . $allmines . "</td>\n");
-            print ("<td align=\"right\">" . $allsubterranea . "</td>\n");
-            print ("<td align=\"right\">" . $allgorges . "</td>\n");
-            print ("<td align=\"right\">" . $total . "</td>\n");
-            print ("</tr>\n");
+                    // head for new country
+                    if ($oldCountry != $country) {
+                        print ("
+            <tr>
+            <td$cellatts>$countrycell</td>
+            <td$cellatts align=\"right\">$showcaves</td>
+            <td$cellatts align=\"right\">$caves</td>
+            <td$cellatts align=\"right\">$karst</td>
+            <td$cellatts align=\"right\">$springs</td>
+            <td$cellatts align=\"right\">$mines</td>
+            <td$cellatts align=\"right\">$subterranea</td>
+            <td$cellatts align=\"right\">$gorges</td>
+            <td$cellatts align=\"right\">$countrytotal</td>
+            </tr>
+");
+
+                        list($countrycell, $cellatts, $oldCountry, $countries) = createCountryCell($countrycode, $country, $chapter, $countries);
+
+                        $allshowcaves += $showcaves;
+                        $allcaves += $caves;
+                        $allkarst += $karst;
+                        $allsprings += $springs;
+                        $allmines += $mines;
+                        $allsubterranea += $subterranea;
+                        $allgorges += $gorges;
+                        $alltotal += $countrytotal;
+
+                        $showcaves = 0;
+                        $caves = 0;
+                        $karst = 0;
+                        $springs = 0;
+                        $mines = 0;
+                        $subterranea = 0;
+                        $gorges = 0;
+                        $countrytotal = 0;
+                    }
+
+                    switch ($category) {
+                        case 'showcaves':
+                            $showcaves = $count;
+                            $countrytotal += $count;
+                            break;
+                        case 'caves':
+                            $caves = $count;
+                            $countrytotal += $count;
+                            break;
+                        case 'subterranea':
+                            $subterranea = $count;
+                            $countrytotal += $count;
+                            break;
+                        case 'mines':
+                            $mines = $count;
+                            $countrytotal += $count;
+                            break;
+                        case 'karst':
+                            $karst = $count;
+                            $countrytotal += $count;
+                            break;
+                        case 'springs':
+                            $springs = $count;
+                            $countrytotal += $count;
+                            break;
+                        case 'gorges':
+                            $gorges = $count;
+                            $countrytotal += $count;
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+
+            print ("
+            <tr>
+            <td$cellatts>$countrycell</td>
+            <td$cellatts align=\"right\">$showcaves</td>
+            <td$cellatts align=\"right\">$caves</td>
+            <td$cellatts align=\"right\">$karst</td>
+            <td$cellatts align=\"right\">$springs</td>
+            <td$cellatts align=\"right\">$mines</td>
+            <td$cellatts align=\"right\">$subterranea</td>
+            <td$cellatts align=\"right\">$gorges</td>
+            <td$cellatts align=\"right\">$countrytotal</td>
+            </tr>
+            ");
+
+            print("</tbody>");
+            print ("<tfoot style=\"background-color: #FFFFFF\">
+            <tr>
+            <th bgcolor=\"white\">Countries</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\">Showcaves</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Cave.png\" alt=\"Cave\">Caves</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Karst.png\" alt=\"Karst\">Karst Features</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Spring.png\" alt=\"Spring\">Springs</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Mine.png\" alt=\"Mine\">Mines</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Misc.png\" alt=\"Misc\">Subterranea</th>
+            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Gorge.png\" alt=\"Gorge\">Gorges</th>
+            <th bgcolor=\"white\">Entries Total</th>
+            </tr>
+            ");
+
+            print ("
+            <tr>
+            <td>$countries countries</td>
+            <td align=\"right\">$allshowcaves</td>
+            <td align=\"right\">$allcaves</td>
+            <td align=\"right\">$allkarst</td>
+            <td align=\"right\">$allsprings</td>
+            <td align=\"right\">$allmines</td>
+            <td align=\"right\">$allsubterranea</td>
+            <td align=\"right\">$allgorges</td>
+            <td align=\"right\">$alltotal</td>
+            </tr>
+            ");
+            print ("</tfoot>");
             ?>
 
         </table>
@@ -304,11 +282,11 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/Statistics.html"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>
     <!-- Path End -->
-
 
     <!-- Navigation Bar Begin -->
     <div data-role="footer" data-position="fixed">
@@ -320,20 +298,13 @@
             </ul>
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
-                <li><a data-ajax="false" target="_top" href="../../Jochen.html">&copy;&nbsp;Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact
-                        <span class="mySiteName">showcaves.com</span>: <img vspace="0" alt="contact" title="contact"
-                                                                            border="0" style="cursor: pointer;"
-                                                                            src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a>
-                </li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
-
 </body>
 </html>

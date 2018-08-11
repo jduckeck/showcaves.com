@@ -63,85 +63,83 @@
 
         <br clear="all">
 
-        <ul id="theList" data-role="listview" data-inset="false">
-            <?
-            $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='caves' ORDER BY country, sortby";
-            $Category = "Cave";
-            $filebase = "../../..";
-            $oldCountry = '';
-            $entries = 0;
-            $entriesText = '';
-            $countryText = '';
-            $itemsText = '';
+        <?
+        $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='caves' ORDER BY country, sortby";
+        $Category = "Cave";
+        $filebase = "../../..";
+        $oldCountry = '';
+        $entries = 0;
+        $entriesText = '';
+        $countryText = '';
+        $itemsText = '';
 
-            $statement = $pdo->prepare($sql);
-            if ($statement->execute()) {
-                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                    $name = $row['name'];
-                    $country = $row['country'];
-                    $filename = $row['filename'];
-                    $countrycode = $row['countrycode'];
-                    $chapter = $row['chapter'];
+        $statement = $pdo->prepare($sql);
+        if ($statement->execute()) {
+            while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                $name = $row['name'];
+                $country = $row['country'];
+                $filename = $row['filename'];
+                $countrycode = $row['countrycode'];
+                $chapter = $row['chapter'];
 
-                    // finalize old country
-                    if ($oldCountry != '' && $oldCountry != $row->country) {
-                        if (1 == $entries) {
-                            $entriesText = "1 entry";
-                        } else {
-                            $entriesText = "$entries entries";
-                        }
-                        $entries = 0;
-
-                        print ("         <div data-role=\"collapsible\">\n");
-                        print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                        print ("            <ul id=\"theList\" data-role=\"listview\" data-inset=\"true\">\n");
-                        print ($itemsText);
-                        print ("            </ul>\n");
-                        print ("         </div>\n");
+                // finalize old country
+                if ($oldCountry != '' && $oldCountry != $row->country) {
+                    if (1 == $entries) {
+                        $entriesText = "1 entry";
+                    } else {
+                        $entriesText = "$entries entries";
                     }
+                    $entries = 0;
 
-                    // store head for new country
-                    if ($oldCountry != $row->country) {
-                        if ($row->countrycode == 'XX') {
-                            $countryText = $row->country;
-                        } else if ($row->countrycode == 'us') {
-                            $countryText = "<a name=\"usa\" data-ajax=\"false\" target=\"_top\" href=\"../../usa/index.html\">$row->country</a>";
-                        } else if ($row->chapter != null) {
-                            $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->chapter . "/region/" . $row->countrycode . ".html\">" . $row->country . "</a>";
-                        } else {
-                            $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->countrycode . "/index.html\">" . $row->country . "</a>";
-                        }
-
-                        $itemsText = '';
-                        $oldCountry = $row->country;
-                    }
-
-                    // check row and derive all texts
-                    //$name       = myUmlaute($row->name);
-                    $name = $row->name;
-
-                    $itemsText .= "               <li><a href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
-                    $entries++;
-                }
-
-                // there is no more row when the last country is done, so we have to output the last country
-                if (1 == $entries) {
-                    $entriesText = "1 entry";
-                } else {
-                    $entriesText = "$entries entries";
-                }
-
-                if ($entries > 0) {
                     print ("         <div data-role=\"collapsible\">\n");
                     print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                    print ("            <ul id=\"theList\" data-role=\"listview\" data-inset=\"true\">\n");
+                    print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
                     print ($itemsText);
                     print ("            </ul>\n");
                     print ("         </div>\n");
                 }
+
+                // store head for new country
+                if ($oldCountry != $row->country) {
+                    if ($row->countrycode == 'XX') {
+                        $countryText = $row->country;
+                    } else if ($row->countrycode == 'us') {
+                        $countryText = "<a name=\"usa\" data-ajax=\"false\" target=\"_top\" href=\"../../usa/index.html\">$row->country</a>";
+                    } else if ($row->chapter != null) {
+                        $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->chapter . "/region/" . $row->countrycode . ".html\">" . $row->country . "</a>";
+                    } else {
+                        $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->countrycode . "/index.html\">" . $row->country . "</a>";
+                    }
+
+                    $itemsText = '';
+                    $oldCountry = $row->country;
+                }
+
+                // check row and derive all texts
+                //$name       = myUmlaute($row->name);
+                $name = $row->name;
+
+                $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
+                $entries++;
             }
-            ?>
-        </ul>
+
+            // there is no more row when the last country is done, so we have to output the last country
+            if (1 == $entries) {
+                $entriesText = "1 entry";
+            } else {
+                $entriesText = "$entries entries";
+            }
+
+            if ($entries > 0) {
+                print ("         <div data-role=\"collapsible\">\n");
+                print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
+                print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
+                print ($itemsText);
+                print ("            </ul>\n");
+                print ("         </div>\n");
+            }
+        }
+        ?>
 
     </div>
 
@@ -151,6 +149,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/CavesByCountry.php"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>
@@ -167,7 +166,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="/xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>

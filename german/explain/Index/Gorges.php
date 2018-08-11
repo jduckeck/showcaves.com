@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="resource-type" content="document">
+    <meta charset="utf-8">
+    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+    <meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+    <meta name="publisher" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
+    <meta name="page-topic" content="travel tourism destination">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="distribution" content="global">
+    <meta http-equiv="content-language" content="en">
+    <meta name="language" content="en">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../../css/global.css">
+    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script language="JavaScript" src="../../../js/global.js"></script>
+    <!-- begin responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
+    <script src="../../../js/jquery-1.11.3.min.js"></script>
+    <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="../../../css/jquery.mmenu.all.css" type="text/css" rel="stylesheet"/>
+    <script src="../../../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+    <!-- end responsive -->
+
+
+    <?
+    include("../../../../opendb.php");
+
+    $count = 0;
+    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='gorges'";
+    $statement = $pdo->query($sql);
+    if ($statement->execute()) {
+        if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+            $count = $row['count'];
+        }
+    }
+    ?>
+
+
+    <title>Alphabethisches Register: All Gorges</title>
+</head>
+
+<body>
+<div data-role="page" id="pageroot">
+    <div data-role="main" class="ui-content">
+
+
+        <h1 align="center">All Gorges</h1>
+        <h2 align="center"><? print $count ?> Gorges werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+
+        <br clear="all">
+
+        <h4>Erläuterungen:</h4>
+
+        <ul>
+            <li>Die Sehenswürdigkeiten sind <b>alphabethisch</b> nach ihrem Namen geordnet.</li>
+            <li>Die Namen werden möglichst in der Landessprache angegeben, soweit bekannt.</li>
+            <li>Wenn die Landessprache keinen lateinischen Zeichensatz benutzt wird eine gängige Schreibweise in lateinischer Schrift angegeben.</li>
+            <li>Die Suchfunktion findet Teile des Namens, es ist nicht notwendig den Anfang des Namens zu kenen, ein Mittelteil wird ebenfalls gefunden.</li>
+            <li>Die Suche kann bei langen Listen einige Sekunden dauern, da sie im Browser ausgeführt wird ist die Dauer von der Geschwindigkeit Ihres eigenen Rechners abhängig.</li>
+        </ul>
+
+        <br clear="all">
+
+        <label for="theList">Liste durchsuchen...</label>
+        <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
+
+            <?
+            $sql = "SELECT name, filename, countrycode, country FROM sights WHERE visible='yes' AND category='gorges' ORDER BY sortby";
+            $filebase = "../../..";
+            $Category = 'Gorge';
+
+            $statement = $pdo->prepare($sql);
+            if ($statement->execute()) {
+                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    $name = $row['name'];
+                    $country = $row['country'];
+                    $filename = $row['filename'];
+                    print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+                }
+            }
+            ?>
+        </ul>
+
+    </div>
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Alphabethisches Register</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Gorges.php"><img alt="English" src="../../../graphics/flags/gb-small.png" class="language"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Landkarten</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches Register</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                 <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
+
+</div>
+</body>
+</html>
