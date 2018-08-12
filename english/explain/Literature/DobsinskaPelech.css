@@ -104,145 +104,82 @@
     font-size: 1em;
     line-height: 1.2;
     margin: 0 0 0.212cm;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    padding: 0;
     text-align: justify
 }
 
 .S-T {
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T1 {
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T2 {
     font-style: italic;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T3 {
     font-family: "Times New Roman", serif;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T4 {
     font-family: "Times New Roman", serif;
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T5 {
     font-style: italic;
     font-weight: normal;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T6 {
     font-weight: normal;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T7 {
     font-family: "Times New Roman", serif;
     font-style: italic;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .S-T8 {
     font-style: normal;
     font-weight: bold;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0;
+    padding: 0;
 }
 
 .T-Tabelle {
     border-collapse: collapse;
     border-spacing: 2px;
     display: table;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-indent: 0;
     width: 8.44cm
 }
@@ -251,14 +188,8 @@
     border-collapse: collapse;
     border-spacing: 2px;
     display: table;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-indent: 0;
     width: 7.885cm
 }
@@ -267,14 +198,8 @@
 .TD-Tabelle1A {
     border: none;
     display: table-cell;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0.097cm;
-    padding-left: 0.097cm;
-    padding-right: 0.097cm;
-    padding-top: 0.097cm;
+    margin: 0;
+    padding: 0.097cm;
     text-align: inherit;
     vertical-align: inherit
 }
@@ -283,14 +208,8 @@
     background-color: transparent;
     border: none;
     display: table-cell;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0.097cm;
-    padding-left: 0.097cm;
-    padding-right: 0.097cm;
-    padding-top: 0.097cm;
+    margin: 0;
+    padding: 0.097cm;
     text-align: inherit;
     vertical-align: inherit
 }
@@ -299,42 +218,24 @@
     display: block;
     font-size: 1em;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 5pt;
-    margin-right: 5pt;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0
+    margin: 0 5pt;
+    padding: 0;
 }
 
 .calibre1 {
     color: inherit;
     cursor: inherit;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-decoration: inherit
 }
 
 .calibre2 {
     height: auto;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     width: auto
 }
 
@@ -342,27 +243,15 @@
     color: blue;
     cursor: pointer;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     text-decoration: underline
 }
 
 .calibre4 {
     display: table-row;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
     vertical-align: middle
 }
 

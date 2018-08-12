@@ -61,7 +61,7 @@
             </tr>
             <tr>
                 <td class="imgCaption">The entrance of the
-                    <li><a data-ajax="false" target="_top" href="../../de/showcaves/Sontheim.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Sontheimer Höhle</a></li>
+                    <a data-ajax="false" target="_top" href="../../de/showcaves/Sontheim.html"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Sontheimer Höhle</a>
                     in Germany.
                 </td>
             </tr>
@@ -106,7 +106,13 @@
                 Try yourself:<br><br>
                 <div class="center">
                     <FORM>
-                        <input type="text" name="pm" size=10>&nbsp;p.m. <b>-&gt;</b> <input type="text" name="twentyfour" size=10>
+                        <label>
+                            <input type="text" name="pm" size=10>
+                             p.m.
+                        </label> p.m. <b>-></b>
+                        <label>
+                            <input type="text" name="twentyfour" size=10>
+                        </label>
                         <input type="reset" value="Reset">
                         <input type="button" value="Transform" onClick="Compute(this.form)">
                     </form>
