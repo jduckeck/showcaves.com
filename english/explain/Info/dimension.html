@@ -31,17 +31,17 @@
     <script type="text/javascript"><!--
     function Compute2(obj) {
         // Written by: Jochen Duckeck, Nuernberg, 1997
-        if ((obj.Foot.value != 0) && (eval(obj.Foot.value) != 0)) {
+        if ((obj.Foot.value !== 0) && (eval(obj.Foot.value) !== 0)) {
             obj.Meter.value = eval(obj.Foot.value) * 0.3048;
         }
         else {
-            if (eval(obj.Meter.value) != 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
+            if (eval(obj.Meter.value) !== 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
         }
     }
 
     function Compute3(obj) {
         // Written by: Jochen Duckeck, Nuernberg, 1997
-        if ((obj.Celsius.value == '') && (obj.Fahrenheit.value != '') && (eval(obj.Fahrenheit.value) != 0)) {
+        if ((obj.Celsius.value === '') && (obj.Fahrenheit.value !== '') && (eval(obj.Fahrenheit.value) !== 0)) {
             obj.Celsius.value = (eval(obj.Fahrenheit.value) - 32) / 1.8;
         }
         else {
@@ -131,34 +131,31 @@
 
         <br>
 
-        <table border="0" cellspacing="0" cellpadding="5" class="centerTable">
+        <form>
+            <label>
+                <input type="text" name="Foot" size=20>
+                 feet
+            </label>
+            <b> <-> </b>
+            <label>
+                <input type="text" name="Meter" size=20>
+                 meters
+            </label>
+            <input type="reset" value="Reset">
+        </form>
 
-            <FORM>
-
-                <tr>
-                    <td><input type="text" name="Foot" size=20>&nbsp;feet</td>
-                    <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
-                    <td><input type="text" name="Meter" size=20>&nbsp;meters</td>
-                    <td><input type="reset" value="Reset"></td>
-                    <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
-                </tr>
-
-            </form>
-
-            <FORM>
-
-                <tr>
-                    <td><input type="text" name="Celsius" size=20>&nbsp;°Celsius</td>
-                    <td><b>&nbsp;&lt;-&gt;&nbsp;</b></td>
-                    <td><input type="text" name="Fahrenheit" size=20>&nbsp;°Fahrenheit</td>
-                    <td><input type="reset" value="Reset"></td>
-                    <td><input type="button" value="Transform" onClick="Compute3(this.form)"></td>
-                </tr>
-
-            </form>
-
-        </table>
-
+        <form>
+            <label>
+                <input type="text" name="Celsius" size=20>
+                 °Celsius
+            </label>
+            <b> <-> </b>
+            <label>
+                <input type="text" name="Fahrenheit" size=20>
+                 °Fahrenheit
+            </label>
+            <input type="reset" value="Reset">
+        </form>
 
     </div>
 
