@@ -27,7 +27,6 @@
 
 
     <?
-    $pdo = null;
     include("../../../../opendb.php");
 
     $count = 0;

@@ -28,31 +28,6 @@
     <!-- end responsive -->
 
 
-    <script type="text/javascript"><!--
-    function Compute2(obj) {
-        // Written by: Jochen Duckeck, Nuernberg, 1997
-        if ((obj.Foot.value !== 0) && (eval(obj.Foot.value) !== 0)) {
-            obj.Meter.value = eval(obj.Foot.value) * 0.3048;
-        }
-        else {
-            if (eval(obj.Meter.value) !== 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
-        }
-    }
-
-    function Compute3(obj) {
-        // Written by: Jochen Duckeck, Nuernberg, 1997
-        if ((obj.Celsius.value === '') && (obj.Fahrenheit.value !== '') && (eval(obj.Fahrenheit.value) !== 0)) {
-            obj.Celsius.value = (eval(obj.Fahrenheit.value) - 32) / 1.8;
-        }
-        else {
-            obj.Fahrenheit.value = (eval(obj.Celsius.value) * 1.8) + 32;
-        }
-    }
-
-    // -->
-    </script>
-
-
     <title>Dimension</title>
 </head>
 
@@ -125,37 +100,9 @@
 
         <p class="indentedText">
             All dimensions are given in the metric system.
-            If you have difficulties with it, here is a litte tranformation tool.
-            It works in both directions, but default direction is from left to right!
         </p>
 
         <br>
-
-        <form>
-            <label>
-                <input type="text" name="Foot" size=20>
-                 feet
-            </label>
-            <b> <-> </b>
-            <label>
-                <input type="text" name="Meter" size=20>
-                 meters
-            </label>
-            <input type="reset" value="Reset">
-        </form>
-
-        <form>
-            <label>
-                <input type="text" name="Celsius" size=20>
-                 °Celsius
-            </label>
-            <b> <-> </b>
-            <label>
-                <input type="text" name="Fahrenheit" size=20>
-                 °Fahrenheit
-            </label>
-            <input type="reset" value="Reset">
-        </form>
 
     </div>
 

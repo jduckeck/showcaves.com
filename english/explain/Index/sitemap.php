@@ -31,6 +31,5 @@ if ($statement->execute()) {
         print ("</url>\n");
     }
 }
-
+print ("</urlset>");
 ?>
-</urlset> 
