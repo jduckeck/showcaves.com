@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Big Ice Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/BigIce.html"                 >Big Ice Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/BigIce.html"                 >Big Ice Cave</a>]]></description>
 		<LookAt>
 			<longitude>-108.3995735347346</longitude>
 			<latitude>45.16312631149865</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Free Enterprise Health Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/FreeEnterprise.html"         >Free Enterprise Health Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/FreeEnterprise.html"         >Free Enterprise Health Mine</a>]]></description>
 		<LookAt>
 			<longitude>-112.1475913245436</longitude>
 			<latitude>46.2553258618258</latitude>
@@ -89,7 +89,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Berkeley Pit</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/BerkeleyPit.html"            >Berkeley Pit</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/BerkeleyPit.html"            >Berkeley Pit</a>]]></description>
 		<LookAt>
 			<longitude>-112.5118169187725</longitude>
 			<latitude>46.01618301195994</latitude>
@@ -105,7 +105,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Medicine Rocks State Park</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/MedicineRocks.html"          >Medicine Rocks State Park</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/MedicineRocks.html"          >Medicine Rocks State Park</a>]]></description>
 		<LookAt>
 			<longitude>-104.4739181446668</longitude>
 			<latitude>46.04494018322792</latitude>
@@ -122,7 +122,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Pictograph Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Pictograph.html"             >Pictograph Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Pictograph.html"             >Pictograph Cave</a>]]></description>
 		<LookAt>
 			<longitude>-108.4327522442271</longitude>
 			<latitude>45.73711685337876</latitude>
@@ -139,7 +139,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Orphan Girl Mine - World Museum of Mining</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/OrphanGirl.html"             >Orphan Girl Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/OrphanGirl.html"             >Orphan Girl Mine</a>]]></description>
 		<LookAt>
 			<longitude>-112.5655221784908</longitude>
 			<latitude>46.01015764014667</latitude>
@@ -172,7 +172,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Spokane Bar Sapphire Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/SpokaneBar.html"             >Spokane Bar Sapphire Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/SpokaneBar.html"             >Spokane Bar Sapphire Mine</a>]]></description>
 		<LookAt>
 			<longitude>-111.8114054166942</longitude>
 			<latitude>46.66460181288178</latitude>

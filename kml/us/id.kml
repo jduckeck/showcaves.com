@@ -107,7 +107,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Indian Tunnel</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
 		<LookAt>
 			<longitude>-113.5281387542487</longitude>
 			<latitude>43.44442343152206</latitude>
@@ -123,7 +123,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Dewdrop Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
 		<LookAt>
 			<longitude>-113.5281387542487</longitude>
 			<latitude>43.44442343152206</latitude>
@@ -140,7 +140,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Boy Scout Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
 		<LookAt>
 			<longitude>-113.5281387542487</longitude>
 			<latitude>43.44442343152206</latitude>
@@ -157,7 +157,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Beauty Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
 		<LookAt>
 			<longitude>-113.5281387542487</longitude>
 			<latitude>43.44442343152206</latitude>
@@ -174,7 +174,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Buffalo Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CratersOfTheMoon.html"       >Craters of the Moon</a>]]></description>
 		<LookAt>
 			<longitude>-113.5406067429309</longitude>
 			<latitude>43.42637267835292</latitude>
@@ -191,7 +191,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Civil Defense Caves</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CivilDefense.html"           >Civil Defense Caves</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CivilDefense.html"           >Civil Defense Caves</a>]]></description>
 		<LookAt>
 			<longitude>-111.7761260192789</longitude>
 			<latitude>44.15549570684498</latitude>
@@ -224,7 +224,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Paris Ice Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/ParisIce.html"               >Paris Ice Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/ParisIce.html"               >Paris Ice Cave</a>]]></description>
 		<LookAt>
 			<longitude>-111.497835733185</longitude>
 			<latitude>42.20695209934372</latitude>
@@ -290,7 +290,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Crystal Gold Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/CrystalGold.html"            >Crystal Gold Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/CrystalGold.html"            >Crystal Gold Mine</a>]]></description>
 		<LookAt>
 			<longitude>-116.0815693078022</longitude>
 			<latitude>47.53240809806018</latitude>
@@ -306,7 +306,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Sierra Silver Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Sierra.html"                 >Sierra Silver Mine Tour</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Sierra.html"                 >Sierra Silver Mine Tour</a>]]></description>
 		<styleUrl>#mine</styleUrl>
 		<Point>
 			<coordinates>-115.9172222222222,47.485,0</coordinates>
@@ -314,7 +314,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Sierra Silver Mine Tour - Start of Tour</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Sierra.html"                 >Sierra Silver Mine Tour</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Sierra.html"                 >Sierra Silver Mine Tour</a>]]></description>
 		<LookAt>
 			<longitude>-115.9254589965749</longitude>
 			<latitude>47.47142499915051</latitude>
@@ -330,7 +330,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Dougout Ranch</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/DougoutRanch.html"            >Dougout Ranch</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/DougoutRanch.html"            >Dougout Ranch</a>]]></description>
 		<LookAt>
 			<longitude>-113.9640948098103</longitude>
 			<latitude>44.93062452883242</latitude>

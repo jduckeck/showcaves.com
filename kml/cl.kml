@@ -72,7 +72,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Chañarcillo Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../misc/mines/Chanarcillo.html"           >Cha&ntilde;arcillo Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../misc/mines/Chanarcillo.html"           >Cha&ntilde;arcillo Mine</a>]]></description>
 		<LookAt>
 			<longitude>-70.41309131356069</longitude>
 			<latitude>-27.81539877317086</latitude>
@@ -88,7 +88,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Chuquicamata Copper Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../misc/mines/Chuquicamata.html"          >Chuquicamata Copper Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../misc/mines/Chuquicamata.html"          >Chuquicamata Copper Mine</a>]]></description>
 		<LookAt>
 			<longitude>-68.89201151572802</longitude>
 			<latitude>-22.29903427812482</latitude>
@@ -104,7 +104,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Mina Escondida</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../misc/mines/Escondida.html"             >Minera Escondida</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../misc/mines/Escondida.html"             >Minera Escondida</a>]]></description>
 		<LookAt>
 			<longitude>-69.07297330067148</longitude>
 			<latitude>-24.27365669470467</latitude>
@@ -135,7 +135,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Robinson Crusoe&apos;s Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/RobinsonCrusoe.html"        >Robinson Crusoe's Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/RobinsonCrusoe.html"        >Robinson Crusoe's Cave</a>]]></description>
 		<LookAt>
 			<longitude>-78.84875550423152</longitude>
 			<latitude>-33.62113182170408</latitude>

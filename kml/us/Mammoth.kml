@@ -58,7 +58,7 @@
         <Placemark>
             <name>American Cave Museum</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/AmericanCave.html"            >American Cave Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/AmericanCave.html"            >American Cave Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.90647843858601</longitude>
@@ -250,7 +250,7 @@
         <Placemark>
             <name>Sand Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Sand.html"                   >Sand Cave (Mammoth Cave)</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Sand.html"                   >Sand Cave (Mammoth Cave)</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.04705013489331</longitude>
@@ -270,7 +270,7 @@
         <Placemark>
             <name>Floyd Collins Museum - Wayfarer</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Wayfarer.html"                >Floyd Collins Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Wayfarer.html"                >Floyd Collins Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.04434032756137</longitude>

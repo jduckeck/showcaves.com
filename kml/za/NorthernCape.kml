@@ -57,7 +57,7 @@
     	<name>Northern Cape</name>
 		<Placemark>
 			<name>Bultfontein Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
 			<LookAt>
 				<longitude>24.72492097863605</longitude>
 				<latitude>-28.69252522144974</latitude>
@@ -74,7 +74,7 @@
 		</Placemark>
 		<Placemark>
 			<name>The Big Hole</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
 			<LookAt>
 				<longitude>24.75810033823057</longitude>
 				<latitude>-28.73808085898107</latitude>

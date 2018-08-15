@@ -359,7 +359,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Mines &amp; Meadows ATV Riding Resort</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/MinesMeadows.html"            >Mines &amp; Meadows ATV Riding Resort</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/MinesMeadows.html"            >Mines &amp; Meadows ATV Riding Resort</a>]]></description>
     		<open>1</open>
     		<address>1307 Old Route 18, Wampum, PA 16157, Vereinigte Staaten</address>
     		<LookAt>

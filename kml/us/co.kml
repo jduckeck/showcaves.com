@@ -472,7 +472,7 @@
             <name>Hopemore Mine</name>
             <LookAt>
                 <description>
-                    <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Hopemore.html"               >Hopemore Mine</a>]]>
+                    <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Hopemore.html"               >Hopemore Mine</a>]]>
                 </description>
                 <longitude>-106.2335265518675</longitude>
                 <latitude>39.24371691534085</latitude>
@@ -490,7 +490,7 @@
         <Placemark>
             <name>Nederland Mining Museum</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Nederland.html"              >Nederland Mining Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Nederland.html"              >Nederland Mining Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.5110068808527</longitude>

@@ -110,7 +110,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta da Furninha</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Furninha.html"                >Gruta da Furninha</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Furninha.html"                >Gruta da Furninha</a>]]></description>
 		<LookAt>
 			<longitude>-9.399050224305558</longitude>
 			<latitude>39.35597642536367</latitude>

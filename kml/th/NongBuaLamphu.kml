@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tham Erawan</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/Erawan.html"                   >Tham Erawan</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/Erawan.html"                   >Tham Erawan</a>]]></description>
 		<LookAt>
 			<longitude>102.0205540014038</longitude>
 			<latitude>17.34750000011538</latitude>

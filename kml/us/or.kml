@@ -122,7 +122,7 @@
         </Placemark>
     	<Placemark>
     		<name>Dust Devil Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/DustDevil.html"              >Dust Devil Mine</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/DustDevil.html"              >Dust Devil Mine</a>]]></description>
     		<LookAt>
     			<longitude>-119.8661277936588</longitude>
     			<latitude>42.71287820800485</latitude>
@@ -139,7 +139,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Spectrum Sunstone Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Spectrum.html"               >Spectrum Sunstone Mine</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Spectrum.html"               >Spectrum Sunstone Mine</a>]]></description>
     		<LookAt>
     			<longitude>-119.8672258074833</longitude>
     			<latitude>42.73302910434745</latitude>

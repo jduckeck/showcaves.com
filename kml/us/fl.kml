@@ -57,7 +57,7 @@
         <name>Florida</name>
         <Placemark>
             <name>Blue Hole Spring</name>
-            <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/BlueHole.html"             >Blue Hole Spring</a>]]>
+            <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/BlueHole.html"             >Blue Hole Spring</a>]]>
             <LookAt>
                 <longitude>-85.24534392304574</longitude>
                 <latitude>30.81967954718856</latitude>
@@ -76,7 +76,7 @@
         <Placemark>
             <name>De Leon Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/DeLeon.html"               >De Leon Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/DeLeon.html"               >De Leon Springs</a>]]>
             </description>
             <open>1</open>
             <LookAt>
@@ -97,7 +97,7 @@
         <Placemark>
             <name>Devil&apos;s Den</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/DevilsDen.html"            >Devil's Den</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/DevilsDen.html"            >Devil's Den</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.47634900017303</longitude>
@@ -117,7 +117,7 @@
         <Placemark>
             <name>Falling Waters Sink</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/FallingWaters.html"          >Falling Waters Sink</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/FallingWaters.html"          >Falling Waters Sink</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.53000866757871</longitude>
@@ -157,7 +157,7 @@
         <Placemark>
             <name>Florida Museum of Natural History</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/FloridaMuseum.html"           >Florida Museum of Natural History</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/FloridaMuseum.html"           >Florida Museum of Natural History</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.37066948304491</longitude>
@@ -176,7 +176,7 @@
         </Placemark>
         <Placemark>
             <name>Ichetucknee Spring</name>
-            <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Ichetucknee.html"          >Ichetucknee Spring</a>]]>
+            <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Ichetucknee.html"          >Ichetucknee Spring</a>]]>
             <LookAt>
                 <longitude>-82.76194444437752</longitude>
                 <latitude>29.98388888935476</latitude>
@@ -195,7 +195,7 @@
         <Placemark>
             <name>Injun Joe&apos;s Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/InjunJoe.html"                >Injun Joe's Cave</a> at Walt Disney World]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/InjunJoe.html"                >Injun Joe's Cave</a> at Walt Disney World]]>
             </description>
             <LookAt>
                 <longitude>-81.5835069662684</longitude>
@@ -215,7 +215,7 @@
         <Placemark>
             <name>Santa Fe River Sink - O&apos;Leno State Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/OLeno.html"                  >O'Leno State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/OLeno.html"                  >O'Leno State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.57352287988874</longitude>
@@ -235,7 +235,7 @@
         <Placemark>
             <name>Peacock Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Peacock.html"              >Peacock Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Peacock.html"              >Peacock Springs</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.13385386713691</longitude>
@@ -255,7 +255,7 @@
         <Placemark>
             <name>Ponce de Leon Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/PonceDeLeon.html"          >Ponce de Leon Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/PonceDeLeon.html"          >Ponce de Leon Springs</a>]]>
             </description>
             <open>1</open>
             <LookAt>
@@ -276,7 +276,7 @@
         <Placemark>
             <name>River Rise</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/RiverRise.html"            >River Rise State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/RiverRise.html"            >River Rise State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.59279171575129</longitude>
@@ -296,7 +296,7 @@
         <Placemark>
             <name>Rock Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Rock.html"                 >Rock Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Rock.html"                 >Rock Springs</a>]]>
             </description>
             <LookAt>
                 <longitude>-81.50152168490554</longitude>
@@ -316,7 +316,7 @@
         <Placemark>
             <name>Silver Springs Nature Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/SilverSprings.html"        >Silver Springs Nature Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/SilverSprings.html"        >Silver Springs Nature Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.05359048605909</longitude>
@@ -336,7 +336,7 @@
         <Placemark>
             <name>Troy Spring</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Troy.html"                 >Troy Spring</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Troy.html"                 >Troy Spring</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.99737714921268</longitude>
@@ -356,7 +356,7 @@
         <Placemark>
             <name>Wakulla Spring</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Wakulla.html"              >Wakulla Spring</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Wakulla.html"              >Wakulla Spring</a>]]>
             </description>
             <LookAt>
                 <longitude>-84.30139411479848</longitude>
@@ -374,7 +374,7 @@
         <Placemark>
             <name>Wekiwa Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Wekiwa.html"               >Wekiwa Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Wekiwa.html"               >Wekiwa Springs</a>]]>
             </description>
             <LookAt>
                 <longitude>-81.4601233000609</longitude>
@@ -394,7 +394,7 @@
         <Placemark>
             <name>Werner-Boyce Salt Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/WernerBoyce.html"          >Werner-Boyce Salt Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/WernerBoyce.html"          >Werner-Boyce Salt Springs</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.72536311324531</longitude>
@@ -414,7 +414,7 @@
         <Placemark>
             <name>White Cliff Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/WhiteCliff.html"             >White Cliff Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/WhiteCliff.html"             >White Cliff Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.12129588094072</longitude>

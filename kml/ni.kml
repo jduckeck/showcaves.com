@@ -72,7 +72,7 @@
 	</Placemark>
 	<Placemark>
 		<name>San Jaun de las Aguas</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/SanJaun.html"                >San Jaun de las Aguas</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/SanJaun.html"                >San Jaun de las Aguas</a>]]></description>
 		<LookAt>
 			<longitude>-85.37442851122503</longitude>
 			<latitude>12.10478094412085</latitude>

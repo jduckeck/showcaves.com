@@ -58,7 +58,7 @@
         <Placemark>
             <name>Grotte Scladina</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../be/caves/Scladina.html"                >Grotte Scladina</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../be/caves/Scladina.html"                >Grotte Scladina</a>]]>
             </description>
             <LookAt>
                 <longitude>5.025788281569425</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Grotte de Spy</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../be/caves/Spy.html"                     >La Grotte de Spy</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../be/caves/Spy.html"                     >La Grotte de Spy</a>]]>
             </description>
             <LookAt>
                 <longitude>4.673995138023523</longitude>
@@ -98,7 +98,7 @@
         <Placemark>
             <name>Ardoisalle 1947</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Ardoisalle.html"              >Ardoisalle 1947</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Ardoisalle.html"              >Ardoisalle 1947</a>]]>
             </description>
             <LookAt>
                 <longitude>4.966418602292288</longitude>
@@ -118,7 +118,7 @@
         <Placemark>
             <name>Bertrix Slate Mine</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Bertrix.html"                 >Bertrix Slate Mine</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Bertrix.html"                 >Bertrix Slate Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>5.272433711900899</longitude>
@@ -138,7 +138,7 @@
         <Placemark>
             <name>Vlaams Mijnmuseum</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Vlaams.html"                  >Vlaams Mijnmuseum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Vlaams.html"                  >Vlaams Mijnmuseum</a>]]>
             </description>
             <LookAt>
                 <longitude>5.221054000127221</longitude>
@@ -158,7 +158,7 @@
         <Placemark>
             <name>Les minières de silex néolithique de Spiennes à Mons</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Spiennes.html"                >Les mini&egrave;res de silex n&eacute;olithique de Spiennes</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Spiennes.html"                >Les mini&egrave;res de silex n&eacute;olithique de Spiennes</a>]]>
             </description>
             <LookAt>
                 <longitude>3.982132322465153</longitude>
@@ -178,7 +178,7 @@
         <Placemark>
             <name>Parc National de Furfooz</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../be/caves/Furfooz.html"                 >Parc National de Furfooz</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../be/caves/Furfooz.html"                 >Parc National de Furfooz</a>]]>
             </description>
             <LookAt>
                 <longitude>4.955243000601328</longitude>
@@ -198,7 +198,7 @@
         <Placemark>
             <name>Musée de la Mine La Louvière</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Louviere.html"                >Mus&eacute;e de la Mine La Louvi&egrave;re</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Louviere.html"                >Mus&eacute;e de la Mine La Louvi&egrave;re</a>]]>
             </description>
             <LookAt>
                 <longitude>4.149278087278228</longitude>
@@ -513,7 +513,7 @@
         <Placemark>
             <name>Le Fondry Des Chiens</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../be/karst/Fondry.html"                  >Le Fondry Des Chiens</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../be/karst/Fondry.html"                  >Le Fondry Des Chiens</a>]]>
             </description>
             <LookAt>
                 <longitude>4.555670833692209</longitude>
@@ -532,7 +532,7 @@
         <Placemark>
             <name>Grand Hornu</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Hornu.html"                   >Grand Hornu</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Hornu.html"                   >Grand Hornu</a>]]>
             </description>
             <LookAt>
                 <longitude>3.839269493102684</longitude>
@@ -551,7 +551,7 @@
         <Placemark>
             <name>Blegny-Mine</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Blegny.html"                  >Blegny-Mine</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Blegny.html"                  >Blegny-Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>5.722754857876821</longitude>
@@ -570,7 +570,7 @@
         <Placemark>
             <name>Le Bois du Cazier</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Cazier.html"                  >Bois du Cazier</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Cazier.html"                  >Bois du Cazier</a>]]>
             </description>
             <LookAt>
                 <longitude>4.443044591066968</longitude>
@@ -589,7 +589,7 @@
         <Placemark>
             <name>Schieferstollen Recht</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Recht.html"                   >Schieferstollen Recht</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Recht.html"                   >Schieferstollen Recht</a>]]>
             </description>
             <LookAt>
                 <longitude>6.054521321625439</longitude>
@@ -608,7 +608,7 @@
         <Placemark>
             <name>Ecomusée du Bois-du-Luc</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/BoisDuLuc.html"               >Ecomus&eacute;e du Bois-du-Luc</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/BoisDuLuc.html"               >Ecomus&eacute;e du Bois-du-Luc</a>]]>
             </description>
             <LookAt>
                 <longitude>4.149278087278228</longitude>
@@ -628,7 +628,7 @@
         <Placemark>
             <name>Musée des Égouts</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/Egouts.html"                   >Mus&eacute;e des &Eacute;gouts</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/Egouts.html"                   >Mus&eacute;e des &Eacute;gouts</a>]]>
             </description>
             <LookAt>
                 <longitude>4.338900866339264</longitude>
@@ -647,7 +647,7 @@
         <Placemark>
             <name>Les souterrains de Philippeville</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/Philippeville.html"            >Les souterrains de Philippeville</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/Philippeville.html"            >Les souterrains de Philippeville</a>]]>
             </description>
             <LookAt>
                 <longitude>4.544219000000039</longitude>
@@ -666,7 +666,7 @@
         <Placemark>
             <name>Grotten Van Kanne</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/Kanne.html"                    >Grotten Van Kanne</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/Kanne.html"                    >Grotten Van Kanne</a>]]>
             </description>
             <LookAt>
                 <longitude>5.668360553169043</longitude>
@@ -686,7 +686,7 @@
         <Placemark>
             <name>Grottes de Folx-Les-Caves</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../be/misc/FolxLesCaves.html"             >Grottes de Folx-Les-Caves</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/FolxLesCaves.html"             >Grottes de Folx-Les-Caves</a>]]>
             </description>
             <LookAt>
                 <longitude>4.94081576303639</longitude>
@@ -706,7 +706,7 @@
         <Placemark>
             <name>Musée de la Mine d&apos;Harchies</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../be/mines/Harchies.html"                >Mus&eacute;e de la Mine d'Harchies</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../be/mines/Harchies.html"                >Mus&eacute;e de la Mine d'Harchies</a>]]>
             </description>
             <LookAt>
                 <longitude>3.687831009788775</longitude>

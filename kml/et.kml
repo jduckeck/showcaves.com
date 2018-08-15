@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Lalibela</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Lalibela.html"               >Lalibela</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Lalibela.html"               >Lalibela</a>]]></description>
 		<LookAt>
 			<longitude>39.04076629114388</longitude>
 			<latitude>12.02659040369374</latitude>

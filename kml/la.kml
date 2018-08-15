@@ -222,7 +222,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Hoi</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../la/caves/Hoi.html"                     >Tham Hoi</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../la/caves/Hoi.html"                     >Tham Hoi</a>]]></description>
 			<LookAt>
 				<longitude>102.4425157839587</longitude>
 				<latitude>18.90930820266269</latitude>
@@ -256,7 +256,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Phou Prasat</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../la/caves/Prasat.html"                  >Phou Prasat</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../la/caves/Prasat.html"                  >Phou Prasat</a>]]></description>
 			<LookAt>
 				<longitude>100.9906211182347</longitude>
 				<latitude>20.78081163578143</latitude>
@@ -290,7 +290,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Xang</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../la/subterranea/Xang.html"              >Tham Xang</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../la/subterranea/Xang.html"              >Tham Xang</a>]]></description>
 			<LookAt>
 				<longitude>102.4442967763705</longitude>
 				<latitude>18.91012187514154</latitude>
@@ -307,7 +307,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Vieng Xai Cave City</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../la/subterranea/ViengXai.html"          >Vieng Xai Cave City</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../la/subterranea/ViengXai.html"          >Vieng Xai Cave City</a>]]></description>
 			<LookAt>
 				<longitude>104.2268690852548</longitude>
 				<latitude>20.40987324245083</latitude>

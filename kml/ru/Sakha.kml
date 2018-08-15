@@ -57,7 +57,7 @@
     	<name>Sakha Republic</name>
     	<Placemark>
     		<name>Mir Diamond Mine</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../ru/mines/Mir.html"                     >Mir Diamond Mine</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../ru/mines/Mir.html"                     >Mir Diamond Mine</a>]]></description>
     		<LookAt>
     			<longitude>113.9932494808234</longitude>
     			<latitude>62.52663733602118</latitude>

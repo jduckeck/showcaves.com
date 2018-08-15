@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Kaaiman&apos;s Grotto</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
     		<LookAt>
     			<longitude>22.55742040189781</longitude>
     			<latitude>-33.99767871951782</latitude>

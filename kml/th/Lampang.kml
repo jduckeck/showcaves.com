@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tham Pha Thai</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/PhaThai.html"                  >Tham Pha Thai</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/PhaThai.html"                  >Tham Pha Thai</a>]]></description>
 		<styleUrl>#subterranea</styleUrl>
 		<Point>
 			<coordinates>99.89649583333335,18.60574638888889,0</coordinates>

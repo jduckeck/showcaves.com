@@ -57,7 +57,7 @@
     	<name>Missouri</name>
 		<Placemark>
 			<name>Bird&apos;s Botanicals</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/BirdsBotanicals.html"         >Bird's Botanicals</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/BirdsBotanicals.html"         >Bird's Botanicals</a>]]></description>
 			<LookAt>
 				<longitude>-94.48872157123554</longitude>
 				<latitude>39.08209309579368</latitude>
@@ -90,7 +90,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/BonneTerre.html"             >Bonne Terre Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/BonneTerre.html"             >Bonne Terre Mine</a>]]></description>
 			<name>Bonne Terre Mine</name>
 			<LookAt>
 				<longitude>-90.54686086900044</longitude>
@@ -107,7 +107,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Brunson Instrument Company</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Brunson.html"                 >Brunson Instrument Company</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Brunson.html"                 >Brunson Instrument Company</a>]]></description>
 			<LookAt>
 				<longitude>-94.48503487515932</longitude>
 				<latitude>39.08072788395794</latitude>
@@ -159,7 +159,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Caveman Bar-BQ &amp; Steak House</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Caveman.html"                 >Caveman Bar-BQ &amp; Steak House</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Caveman.html"                 >Caveman Bar-BQ &amp; Steak House</a>]]></description>
 			<LookAt>
 				<longitude>-92.33787422476222</longitude>
 				<latitude>37.83936036862635</latitude>
@@ -176,7 +176,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cave Spring Historic Site &amp; Nature Center</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CaveSpring.html"             >Cave Spring Historic Site</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CaveSpring.html"             >Cave Spring Historic Site</a>]]></description>
 			<LookAt>
 				<longitude>-94.48330956312572</longitude>
 				<latitude>38.99367573065726</latitude>
@@ -212,7 +212,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cherokee Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Cherokee.html"               >Cherokee Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Cherokee.html"               >Cherokee Cave</a>]]></description>
 			<LookAt>
 				<longitude>-90.21636200000273</longitude>
 				<latitude>38.59215100008466</latitude>
@@ -239,7 +239,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Devil&apos;s Icebox Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/DevilsIcebox.html"           >Devil's Icebox Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/DevilsIcebox.html"           >Devil's Icebox Cave</a>]]></description>
 			<LookAt>
 				<longitude>-92.32694823964359</longitude>
 				<latitude>38.87232911685719</latitude>
@@ -257,7 +257,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Doling Park Cave - Giboney Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Doling.html"                 >Doling Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Doling.html"                 >Doling Cave</a>]]></description>
 			<LookAt>
 				<longitude>-93.29076462891567</longitude>
 				<latitude>37.24600469263117</latitude>
@@ -300,7 +300,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fisher&apos;s Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Fishers.html"                >Fisher's Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Fishers.html"                >Fisher's Cave</a>]]></description>
 			<LookAt>
 				<longitude>-93.23824851319844</longitude>
 				<latitude>37.14577801961004</latitude>
@@ -317,7 +317,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Graham Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Graham.html"                 >Graham Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Graham.html"                 >Graham Cave</a>]]></description>
 			<LookAt>
 				<longitude>-91.57691176916602</longitude>
 				<latitude>38.90754484223326</latitude>
@@ -335,7 +335,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Grand Gulf State Park</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/GrandGulf.html"              >Grand Gulf State Park</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/GrandGulf.html"              >Grand Gulf State Park</a>]]></description>
 			<LookAt>
 				<longitude>-91.64402608533682</longitude>
 				<latitude>36.54466598158972</latitude>
@@ -353,7 +353,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Green&apos;s Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Greens.html"                 >Green's Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Greens.html"                 >Green's Cave</a>]]></description>
 			<LookAt>
 				<longitude>-91.09333333341758</longitude>
 				<latitude>38.18416666650754</latitude>
@@ -369,7 +369,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ha Ha Tonka Karst</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/HaHaTonka.html"              >Ha Ha Tonka State Park</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/HaHaTonka.html"              >Ha Ha Tonka State Park</a>]]></description>
 			<LookAt>
 				<longitude>-92.76852761034409</longitude>
 				<latitude>37.97494057186654</latitude>
@@ -403,7 +403,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Interstate Caves</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/InterstateCaves.html"         >Interstate Caves</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/InterstateCaves.html"         >Interstate Caves</a>]]></description>
 			<LookAt>
 				<longitude>-94.48268146855581</longitude>
 				<latitude>39.08158985055956</latitude>
@@ -436,7 +436,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Manchester Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Manchester.html"              >Manchester Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Manchester.html"              >Manchester Cave</a>]]></description>
 			<LookAt>
 				<longitude>-90.51953655545425</longitude>
 				<latitude>38.59267710704845</latitude>
@@ -523,7 +523,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Children&apos;s Garden, Missouri Botanical Garden</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Mobot.html"                   >Missouri Botanical Garden</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Mobot.html"                   >Missouri Botanical Garden</a>]]></description>
 			<LookAt>
 				<longitude>-90.25878912532481</longitude>
 				<latitude>38.61337388875653</latitude>
@@ -559,7 +559,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Underground Racquets Ltd.</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Racquets.html"                >Underground Racquets Ltd.</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Racquets.html"                >Underground Racquets Ltd.</a>]]></description>
 			<LookAt>
 				<longitude>-94.3269552999592</longitude>
 				<latitude>37.1953295993723</latitude>
@@ -577,7 +577,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Rockwoods Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Rockwoods.html"              >Rockwoods Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Rockwoods.html"              >Rockwoods Cave</a>]]></description>
 			<LookAt>
 				<longitude>-90.67029610947732</longitude>
 				<latitude>38.56892181502385</latitude>
@@ -595,7 +595,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Rolla Experimental Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Rolla.html"                  >Rolla Experimental Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Rolla.html"                  >Rolla Experimental Mine</a>]]></description>
 			<LookAt>
 				<longitude>-91.79027794793547</longitude>
 				<latitude>37.93733090704322</latitude>
@@ -646,7 +646,7 @@
 		</Placemark>
 		<Placemark>
 			<name>SubTropolis</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/SubTropolis.html"             >SubTropolis</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/SubTropolis.html"             >SubTropolis</a>]]></description>
 			<LookAt>
 				<longitude>-94.47840995480172</longitude>
 				<latitude>39.15853693666107</latitude>
@@ -698,7 +698,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tumbling Creek Cave Replica</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/TumblingCreek.html"           >Tumbling Creek Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/TumblingCreek.html"           >Tumbling Creek Cave</a>]]></description>
 			<LookAt>
 				<longitude>-93.29921151906034</longitude>
 				<latitude>37.18095062747705</latitude>
@@ -716,7 +716,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tumbling Creek Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/TumblingCreek.html"          >Tumbling Creek Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/TumblingCreek.html"          >Tumbling Creek Cave</a>]]></description>
 			<LookAt>
 				<longitude>-92.80893500004473</longitude>
 				<latitude>36.55920299979253</latitude>
@@ -734,7 +734,7 @@
 		</Placemark>
 	<Placemark>
 		<name>Cave Spring</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CaveSpringCurrent.html"      >Cave Spring on Current River</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CaveSpringCurrent.html"      >Cave Spring on Current River</a>]]></description>
 		<LookAt>
 			<longitude>-91.49768069781199</longitude>
 			<latitude>37.36219964162599</latitude>
@@ -752,7 +752,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Devil&apos;s Well</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/DevilsWell.html"             >Devil's Well</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/DevilsWell.html"             >Devil's Well</a>]]></description>
 		<LookAt>
 			<longitude>-91.49112296758065</longitude>
 			<latitude>37.37649053397622</latitude>

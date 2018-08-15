@@ -158,7 +158,7 @@
         <Placemark>
             <name>Gruta da Furninha</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Furninha.html"                >Gruta da Furninha</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Furninha.html"                >Gruta da Furninha</a>]]>
             </description>
             <LookAt>
                 <longitude>-9.399050224305558</longitude>
@@ -218,7 +218,7 @@
         <Placemark>
             <name>Galerias Romanas da Rua da Prata</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../pt/misc/Lisboa.html"                   >Lisboa Roman Galleries</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../pt/misc/Lisboa.html"                   >Lisboa Roman Galleries</a>]]>
             </description>
             <LookAt>
                 <longitude>-9.136756072477605</longitude>
@@ -238,7 +238,7 @@
         <Placemark>
             <name>Grutas de Santo Adrião</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/SantoAdriao.html"             >Grutas de Santo Adri&atilde;o</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/SantoAdriao.html"             >Grutas de Santo Adri&atilde;o</a>]]>
             </description>
             <LookAt>
                 <longitude>-6.443970920087711</longitude>
@@ -258,7 +258,7 @@
         <Placemark>
             <name>Rocha de Pena</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../pt/karst/RochaDePena.html"             >Rocha de Pena</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/RochaDePena.html"             >Rocha de Pena</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.096389243689552</longitude>
@@ -278,7 +278,7 @@
         <Placemark>
             <name>Cova dos Mouros</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../pt/mines/Mouros.html"                  >Cova dos Mouros</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../pt/mines/Mouros.html"                  >Cova dos Mouros</a>]]>
             </description>
             <LookAt>
                 <longitude>-7.71886117320496</longitude>
@@ -315,7 +315,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Museu Vulcanoespeleológico &quot;Machado Fagundes&quot;</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
 		<LookAt>
 			<longitude>-27.22138499935452</longitude>
 			<latitude>38.65539187486889</latitude>
@@ -333,7 +333,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta das Agulhas</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
 		<LookAt>
 			<longitude>-27.10607324952918</longitude>
 			<latitude>38.64432330079247</latitude>

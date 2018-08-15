@@ -57,7 +57,7 @@
     	<name>Denmark</name>
     	<Placemark>
     		<name>Cueva del Cerro Autana</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Autana.html"                >Cueva del Cerro Autana</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Autana.html"                >Cueva del Cerro Autana</a>]]></description>
     		<LookAt>
     			<longitude>-67.44754090538466</longitude>
     			<latitude>4.858083486181732</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cueva del Fantasma</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Fantasma.html"              >Cueva del Fantasma</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Fantasma.html"              >Cueva del Fantasma</a>]]></description>
     		<LookAt>
     			<longitude>-62.44640911817727</longitude>
     			<latitude>5.392269654822805</latitude>

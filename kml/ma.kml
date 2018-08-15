@@ -94,7 +94,7 @@
         <Placemark>
             <name>Bhalil Cave Dwellings</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Bhalil.html"                 >Bhalil Cave Dwellings</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Bhalil.html"                 >Bhalil Cave Dwellings</a>]]>
             </description>
             <LookAt>
                 <longitude>-4.873231553399918</longitude>

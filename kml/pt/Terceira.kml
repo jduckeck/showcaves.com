@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Museu Vulcanoespeleológico &quot;Machado Fagundes&quot;</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
 		<LookAt>
 			<longitude>-27.22138499935452</longitude>
 			<latitude>38.65539187486889</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta das Agulhas</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
 		<LookAt>
 			<longitude>-27.10607324952918</longitude>
 			<latitude>38.64432330079247</latitude>

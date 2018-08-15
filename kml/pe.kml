@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Caverna de la Olada</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Olada.html"                 >Caverna de la Olada</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Olada.html"                 >Caverna de la Olada</a>]]></description>
 		<LookAt>
 			<longitude>-75.12588546284266</longitude>
 			<latitude>-10.93340395146486</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva de la Lechuzas</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Lechazas.html"              >Cueva de la Lechazas</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Lechazas.html"              >Cueva de la Lechazas</a>]]></description>
 		<LookAt>
 			<longitude>-76.03088234400634</longitude>
 			<latitude>-9.340307527953026</latitude>
@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Agua Sulfurosa</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../misc/springs/Sulfurosa.html"           >Agua Sulfurosa</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../misc/springs/Sulfurosa.html"           >Agua Sulfurosa</a>]]></description>
 		<LookAt>
 			<longitude>-76.02888229917623</longitude>
 			<latitude>-9.323876754782189</latitude>
@@ -107,7 +107,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta de Huagapo</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Huagapo.html"               >Gruta de Huagapo</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Huagapo.html"               >Gruta de Huagapo</a>]]></description>
 		<LookAt>
 			<longitude>-75.78556969936993</longitude>
 			<latitude>-11.26928703243384</latitude>

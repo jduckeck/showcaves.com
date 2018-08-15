@@ -89,7 +89,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Illinois Caverns</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../../english/usa/caves/Illinois.html"           >Illinois Caverns</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../../english/usa/caves/Illinois.html"           >Illinois Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-90.13691122823737</longitude>
     			<latitude>38.23600502193997</latitude>

@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Furna da Maria Encantada</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/MariaEncantada.html"          >Gruta da Maria Encantada</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/MariaEncantada.html"          >Gruta da Maria Encantada</a>]]></description>
 		<LookAt>
 			<longitude>-27.97501138402157</longitude>
 			<latitude>39.02764587359808</latitude>
@@ -92,7 +92,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Furna do Abel</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Abel.html"                    >Furna do Abel</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Abel.html"                    >Furna do Abel</a>]]></description>
 		<LookAt>
 			<longitude>-27.97642319909839</longitude>
 			<latitude>39.02725010233561</latitude>

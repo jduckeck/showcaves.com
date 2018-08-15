@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Furnas do Cavalum</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/Cavalum.html"                 >Furnas do Cavalum</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Cavalum.html"                 >Furnas do Cavalum</a>]]></description>
 		<LookAt>
 			<longitude>-16.76431704718961</longitude>
 			<latitude>32.72848120277836</latitude>

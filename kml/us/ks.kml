@@ -57,7 +57,7 @@
     	<name>Kansas</name>
 		<Placemark>
 			<name>Kansas Underground Salt Museum</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/KansasSalt.html"             >Kansas Underground Salt Museum</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/KansasSalt.html"             >Kansas Underground Salt Museum</a>]]></description>
 			<LookAt>
 				<longitude>-97.86955482181499</longitude>
 				<latitude>38.04349372093785</latitude>
@@ -75,7 +75,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Schermerhorn Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Schermerhorn.html"           >Schermerhorn Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Schermerhorn.html"           >Schermerhorn Cave</a>]]></description>
 			<LookAt>
 				<longitude>-94.64049354692887</longitude>
 				<latitude>37.0448132243681</latitude>
@@ -93,7 +93,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Big Brutus</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/BigBrutus.html"              >Big Brutus, Inc.</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/BigBrutus.html"              >Big Brutus, Inc.</a>]]></description>
 			<LookAt>
 				<longitude>-94.93796972171954</longitude>
 				<latitude>37.27297003559878</latitude>
@@ -109,7 +109,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Faris Caves</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Faris.html"                   >Faris Caves</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Faris.html"                   >Faris Caves</a>]]></description>
 			<LookAt>
 				<longitude>-98.10269383033362</longitude>
 				<latitude>38.69156527097056</latitude>
@@ -127,7 +127,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ellinwood Underground Tunnels</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Ellinwood.html"               >Ellinwood Underground</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Ellinwood.html"               >Ellinwood Underground</a>]]></description>
 			<LookAt>
 				<longitude>-98.58143387319767</longitude>
 				<latitude>38.35378601732293</latitude>
@@ -145,7 +145,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Dalton Gang Museum and Escape Tunnel</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/DaltonEscapeTunnel.html"      >Dalton Gang Museum and Escape Tunnel</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/DaltonEscapeTunnel.html"      >Dalton Gang Museum and Escape Tunnel</a>]]></description>
 			<LookAt>
 				<longitude>-100.3370151922759</longitude>
 				<latitude>37.28078664590791</latitude>
@@ -163,7 +163,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Big Basin</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/BigBasin.html"               >Big Basin</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/BigBasin.html"               >Big Basin</a>]]></description>
 			<LookAt>
 				<longitude>-99.99118291695589</longitude>
 				<latitude>37.23994608400722</latitude>
@@ -181,7 +181,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Little Basin</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/BigBasin.html"               >Big Basin</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/BigBasin.html"               >Big Basin</a>]]></description>
 			<LookAt>
 				<longitude>-99.99118291695589</longitude>
 				<latitude>37.23994608400722</latitude>

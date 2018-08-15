@@ -826,7 +826,7 @@
 		<name>Cabinet War Rooms</name>
 		<description><![CDATA[Right in the middle of London, between Parliament Square and Trafalgar square is the location of a historic subterranea. At the end of King Charles Street some steps lead down to the Cabinet War Rooms. A bunker with 19 rooms, only a few meters below surface was the most important center of British defense during World War II. Churchill's underground wartime headquarters was the place where the British War Cabinett and the chiefs of staff directed the British war machinery.
 <br>
-<img vspace="0" hspace="0" src="http://www.showcaves.com/graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="http://www.showcaves.com/english/gb/misc/CabinetWarRooms.html"           >Cabinet War Rooms</a>]]></description>
+<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="http://www.showcaves.com/english/gb/misc/CabinetWarRooms.html"           >Cabinet War Rooms</a>]]></description>
 		<LookAt>
 			<longitude>-0.1291393568337848</longitude>
 			<latitude>51.50142095424118</latitude>
@@ -846,7 +846,7 @@
 
 To the east of the castle hill is the old Reigate Tunnel. It was used as a road tunnel to the 1970s, but was abandoned as the tunnel was becoming unsafe due to the vibration caused by large lorries. Along the tunnel are more caves, both to the east and the west.
 <br>
-<img vspace="0" hspace="0" src="http://www.showcaves.com/graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="http://www.showcaves.com/english/gb/misc/Barons.html"           >Barons' Cave</a>]]></description>
+<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="http://www.showcaves.com/english/gb/misc/Barons.html"           >Barons' Cave</a>]]></description>
 		<LookAt>
 			<longitude>-0.2069585550458784</longitude>
 			<latitude>51.23864338955524</latitude>
@@ -864,7 +864,7 @@ To the east of the castle hill is the old Reigate Tunnel. It was used as a road 
 		<name>Dorking Caves</name>
 		<description><![CDATA[Dorking Caves are a series of cellars below the city of Dorking, especially below the High Street shops and some premises in South St.. South Street Caves are only one of several cellars, and they are amongst the most extensive. They are entered through a door close to the War Memorial in South Street.
 <br>
-<img vspace="0" hspace="0" src="http://www.showcaves.com/graphics/symbol/Misc.gif" width="12" height="12">&nbsp;<a href="http://www.showcaves.com/english/gb/misc/Dorking.html"           >Dorking Caves</a>]]></description>
+<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="http://www.showcaves.com/english/gb/misc/Dorking.html"           >Dorking Caves</a>]]></description>
 		<LookAt>
 			<longitude>-0.3340768003346105</longitude>
 			<latitude>51.23066984935991</latitude>

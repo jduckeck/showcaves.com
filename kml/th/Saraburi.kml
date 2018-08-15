@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Wat Tham Krabok</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/Krabok.html"                   >Wat Tham Krabok</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/Krabok.html"                   >Wat Tham Krabok</a>]]></description>
 		<LookAt>
 			<longitude>100.7916333166655</longitude>
 			<latitude>14.71404058108451</latitude>

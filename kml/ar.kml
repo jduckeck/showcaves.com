@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Cueva del Tigré</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Tigre.html"                 >Cueva del Tigre</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Tigre.html"                 >Cueva del Tigre</a>]]></description>
 		<LookAt>
 			<longitude>-69.44526161030966</longitude>
 			<latitude>-35.74803590923884</latitude>
@@ -106,7 +106,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva de las Manos</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/LasManos.html"              >Cueva de las Manos</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/LasManos.html"              >Cueva de las Manos</a>]]></description>
 		<LookAt>
 			<longitude>-70.66594240221197</longitude>
 			<latitude>-47.1508901436186</latitude>

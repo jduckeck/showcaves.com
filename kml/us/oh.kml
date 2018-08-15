@@ -162,7 +162,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Hocking Hills State Park</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
 			<LookAt>
 				<longitude>-82.53880563817522</longitude>
 				<latitude>39.4364144185316</latitude>
@@ -180,7 +180,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ash Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
 			<LookAt>
 				<longitude>-82.5460863004114</longitude>
 				<latitude>39.39747219134172</latitude>
@@ -198,7 +198,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Old Man&apos;s Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
 			<LookAt>
 				<longitude>-82.542209417709</longitude>
 				<latitude>39.43331238672916</latitude>
@@ -216,7 +216,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Rock House</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a target="DigIt" href="../../usa/caves/HockingHills.html"           >Hocking Hills State Park</a>]]></description>
 			<LookAt>
 				<longitude>-82.61418380279005</longitude>
 				<latitude>39.49725166499729</latitude>
@@ -234,7 +234,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Queen City Underground</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/misc/QueenCity.html"               >Queen City Underground</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../usa/misc/QueenCity.html"               >Queen City Underground</a>]]></description>
 			<LookAt>
 				<longitude>-84.51473899996316</longitude>
 				<latitude>39.10829799999498</latitude>
@@ -252,7 +252,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Haunted Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../usa/misc/Haunted.html"                 >Haunted Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../usa/misc/Haunted.html"                 >Haunted Cave</a>]]></description>
 			<LookAt>
 				<longitude>-84.55722222231356</longitude>
 				<latitude>39.86138888888657</latitude>

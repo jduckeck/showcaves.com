@@ -57,7 +57,7 @@
     	<name>Northern Mariana Islands</name>
 	<Placemark>
 		<name>The Grotto</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Grotto.html"                >The Grotto</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Grotto.html"                >The Grotto</a>]]></description>
 		<LookAt>
 			<longitude>145.8235081805069</longitude>
 			<latitude>15.26025257049584</latitude>

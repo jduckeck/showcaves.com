@@ -58,7 +58,7 @@
         <Placemark>
             <name>Kurjey Lhakhang</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/KurjeyLhakhang.html"         >Kurjey Lhakhang</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/KurjeyLhakhang.html"         >Kurjey Lhakhang</a>]]>
             </description>
             <LookAt>
                 <longitude>90.73070313017166</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Taktsang Dzong</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Taktsang.html"               >Taktsang Dzong</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Taktsang.html"               >Taktsang Dzong</a>]]>
             </description>
             <LookAt>
                 <longitude>89.36289073705366</longitude>

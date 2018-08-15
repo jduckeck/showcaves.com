@@ -56,7 +56,7 @@
         </Style>
     	<Placemark>
     		<name>Alabama Mining Museum</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Alabama.html"                >Alabama Mining Museum</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Alabama.html"                >Alabama Mining Museum</a>]]></description>
     		<LookAt>
     			<longitude>-87.09013208435287</longitude>
     			<latitude>33.73133660899249</latitude>
@@ -72,7 +72,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Aldrich Coal Mine Museum</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Aldrich.html"                >Aldrich Coal Mine Museum</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Aldrich.html"                >Aldrich Coal Mine Museum</a>]]></description>
     		<LookAt>
     			<longitude>-86.89242685124918</longitude>
     			<latitude>33.10777094761334</latitude>
@@ -89,7 +89,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Big Spring</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/BigSpring.html"            >Big Spring</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/BigSpring.html"            >Big Spring</a>]]></description>
     		<LookAt>
     			<longitude>-86.58700213964487</longitude>
     			<latitude>34.72745080494541</latitude>

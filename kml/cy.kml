@@ -84,7 +84,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Egkleistra</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../misc/misc/Egkleistra.html"             >Egkleistra</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../misc/misc/Egkleistra.html"             >Egkleistra</a>]]></description>
 			<LookAt>
 				<longitude>32.44580213238773</longitude>
 				<latitude>34.84633511549791</latitude>
@@ -102,7 +102,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tombs of the Kings Kato Pafos</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../misc/misc/KatoPafos.html"              >Tombs of the Kings</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../misc/misc/KatoPafos.html"              >Tombs of the Kings</a>]]></description>
 			<LookAt>
 				<longitude>32.40581025281782</longitude>
 				<latitude>34.77535476924712</latitude>

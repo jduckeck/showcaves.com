@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Caverna La Gran Galería</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/GranGaleria.html"           >Caverna La Gran Galer&iacute;a</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/GranGaleria.html"           >Caverna La Gran Galer&iacute;a</a>]]></description>
 		<LookAt>
 			<longitude>-82.91760066155068</longitude>
 			<latitude>8.656238280693762</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva de Damas</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Damas.html"                 >Cueva de Damas</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Damas.html"                 >Cueva de Damas</a>]]></description>
 		<LookAt>
 			<longitude>-84.16228580694198</longitude>
 			<latitude>9.522774084527478</latitude>
@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cavernas del Venado</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Venado.html"                >Cavernas del Venado</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Venado.html"                >Cavernas del Venado</a>]]></description>
 		<LookAt>
 			<longitude>-84.77472287332333</longitude>
 			<latitude>10.55583028379972</latitude>
@@ -107,7 +107,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Sima Terciopelo</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Terciopelo.html"            >Sima Terciopelo</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Terciopelo.html"            >Sima Terciopelo</a>]]></description>
 		<LookAt>
 			<longitude>-85.3606581752109</longitude>
 			<latitude>10.17138513595721</latitude>

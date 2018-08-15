@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Clarksville Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Clarksville.html"            >Clarksville Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Clarksville.html"            >Clarksville Cave</a>]]></description>
     		<LookAt>
     			<longitude>-73.96494467331931</longitude>
     			<latitude>42.57619506706155</latitude>

@@ -110,7 +110,7 @@
         <Placemark>
             <name>Kentucky Coal Mining Museum</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/KentuckyCoal.html"           >Kentucky Coal Mining Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/KentuckyCoal.html"           >Kentucky Coal Mining Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.95156800017939</longitude>
@@ -150,7 +150,7 @@
         <Placemark>
             <name>McConnell Springs</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../usa/karst/McConnell.html"              >McConnell Springs</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../usa/karst/McConnell.html"              >McConnell Springs</a>]]>
             </description>
             <LookAt>
                 <longitude>-84.52914198605312</longitude>
@@ -170,7 +170,7 @@
         <Placemark>
             <name>Louisville Mega Cavern</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Mega.html"                    >Louisville Mega Cavern</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Mega.html"                    >Louisville Mega Cavern</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.70397447499549</longitude>
@@ -190,7 +190,7 @@
         <Placemark>
             <name>Owensboro Area Museum of Science and History</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Owensboro.html"               >Owensboro Area Museum of Science and History</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Owensboro.html"               >Owensboro Area Museum of Science and History</a>]]>
             </description>
             <LookAt>
                 <longitude>-87.11031704032978</longitude>
@@ -210,7 +210,7 @@
         <Placemark>
             <name>Portal 31</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Portal31.html"               >Portal 31 Mine Ride</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Portal31.html"               >Portal 31 Mine Ride</a>]]>
             </description>
             <LookAt>
                 <longitude>-82.91856973226695</longitude>
@@ -230,7 +230,7 @@
         <Placemark>
             <name>Sand Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/SandVA.html"                 >Sand Cave (Cumberland Gap)</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/SandVA.html"                 >Sand Cave (Cumberland Gap)</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.45968991354023</longitude>
@@ -251,7 +251,7 @@
         <Placemark>
             <name>Mammoth Cave Area</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Mammoth.html"               >Mammoth Cave Area</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Mammoth.html"               >Mammoth Cave Area</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.07468871360638</longitude>
@@ -271,7 +271,7 @@
         <Placemark>
             <name>American Cave Museum</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/AmericanCave.html"            >American Cave Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/AmericanCave.html"            >American Cave Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.90647843858601</longitude>
@@ -463,7 +463,7 @@
         <Placemark>
             <name>Sand Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Sand.html"                   >Sand Cave (Mammoth Cave)</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Sand.html"                   >Sand Cave (Mammoth Cave)</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.04705013489331</longitude>
@@ -483,7 +483,7 @@
         <Placemark>
             <name>Floyd Collins Museum - Wayfarer</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/Wayfarer.html"                >Floyd Collins Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/Wayfarer.html"                >Floyd Collins Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.04434032756137</longitude>
@@ -503,7 +503,7 @@
         <Placemark>
             <name>Carter Caves State Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.12249260478289</longitude>
@@ -523,7 +523,7 @@
         <Placemark>
             <name>Smokey Bridge</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11980903088654</longitude>
@@ -543,7 +543,7 @@
         <Placemark>
             <name>Shangri La Arch</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11825604734347</longitude>
@@ -563,7 +563,7 @@
         <Placemark>
             <name>Natural Bridge</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.12627610583785</longitude>
@@ -583,7 +583,7 @@
         <Placemark>
             <name>Horne Hollow Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11772190531129</longitude>
@@ -603,7 +603,7 @@
         <Placemark>
             <name>Fern Bridge</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11593483365384</longitude>
@@ -683,7 +683,7 @@
         <Placemark>
             <name>Laurel Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">&nbsp;<a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11541615808768</longitude>

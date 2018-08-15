@@ -98,7 +98,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tham Nam Bang</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/NamBang.html"                  >Tham Nam Bang</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/NamBang.html"                  >Tham Nam Bang</a>]]></description>
 		<LookAt>
 			<longitude>101.1356433330302</longitude>
 			<latitude>16.2455341657136</latitude>
@@ -115,7 +115,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tham Ruesi Sombat</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/RuesiSombat.html"              >Tham Ruesi Sombat</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/RuesiSombat.html"              >Tham Ruesi Sombat</a>]]></description>
 		<LookAt>
 			<longitude>101.1264179109255</longitude>
 			<latitude>16.68556740448316</latitude>

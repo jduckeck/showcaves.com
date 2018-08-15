@@ -57,7 +57,7 @@
         <name>The Netherlands</name>
 		<Placemark>
 			<name>The Vault</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Vault.html"                    >The Vault</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Vault.html"                    >The Vault</a>]]></description>
 			<LookAt>
 				<longitude>5.68438657513567</longitude>
 				<latitude>50.83602259626915</latitude>
@@ -75,7 +75,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Duivelsgrot</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Duivelsgrot.html"              >Duivelsgrot</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Duivelsgrot.html"              >Duivelsgrot</a>]]></description>
 			<LookAt>
 				<longitude>5.67815404496817</longitude>
 				<latitude>50.8180117026815</latitude>
@@ -93,7 +93,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Maastricht Grotten - Grotten Zonneberg</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/StPietersberg.html"            >Grotten St. Pietersberg</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/StPietersberg.html"            >Grotten St. Pietersberg</a>]]></description>
 			<LookAt>
 				<longitude>5.696071859099077</longitude>
 				<latitude>50.82556846107892</latitude>
@@ -111,7 +111,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Maastricht Grotten - Grotten Noord</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/StPietersberg.html"            >Grotten St. Pietersberg</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/StPietersberg.html"            >Grotten St. Pietersberg</a>]]></description>
 			<LookAt>
 				<longitude>5.68489097398218</longitude>
 				<latitude>50.83598267784428</latitude>
@@ -129,7 +129,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Maastricht Kazematten</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/MaastrichtKazematten.html"     >Maastricht Kazematten</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/MaastrichtKazematten.html"     >Maastricht Kazematten</a>]]></description>
 			<LookAt>
 				<longitude>5.680864310458085</longitude>
 				<latitude>50.84384866928125</latitude>
@@ -147,7 +147,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Schuilen in Maastricht</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Schuilen.html"                 >Schuilen in Maastricht</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Schuilen.html"                 >Schuilen in Maastricht</a>]]></description>
 			<LookAt>
 				<longitude>5.678347796775927</longitude>
 				<latitude>50.84445669649615</latitude>
@@ -165,7 +165,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Dino&apos;s Monstergrot</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/DinosMonstergrot.html"         >Dino's Monstergrot</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/DinosMonstergrot.html"         >Dino's Monstergrot</a>]]></description>
 			<LookAt>
 				<longitude>5.82730983631479</longitude>
 				<latitude>50.86439003323001</latitude>
@@ -183,7 +183,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Gemeentegrot</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Gemeentegrot.html"             >Gemeentegrot</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Gemeentegrot.html"             >Gemeentegrot</a>]]></description>
 			<LookAt>
 				<longitude>5.828747314702192</longitude>
 				<latitude>50.86243435620216</latitude>
@@ -201,7 +201,7 @@
 		</Placemark>
 		<Placemark>
 			<name>A GoGo Valkenburg</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/AGoGo.html"                    >A GoGo Valkenburg</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/AGoGo.html"                    >A GoGo Valkenburg</a>]]></description>
 			<LookAt>
 				<longitude>5.833546983491644</longitude>
 				<latitude>50.86006564077826</latitude>
@@ -219,7 +219,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Fluweelengrot</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Fluweelengrot.html"            >Fluweelengrot</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Fluweelengrot.html"            >Fluweelengrot</a>]]></description>
 			<LookAt>
 				<longitude>5.830044329318199</longitude>
 				<latitude>50.86029660345805</latitude>
@@ -237,7 +237,7 @@
 		</Placemark>
 		<Placemark>
 			<name>De prehistorische vuursteenmijnen van Rijckholt - St. Geertruid</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/mines/Rijckholt.html"               >De prehistorische vuursteenmijnen van Rijckholt - St. Geertruid</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a target="DigIt" href="../../nl/mines/Rijckholt.html"               >De prehistorische vuursteenmijnen van Rijckholt - St. Geertruid</a>]]></description>
 			<LookAt>
 				<longitude>5.739903380159817</longitude>
 				<latitude>50.79509622699094</latitude>
@@ -253,7 +253,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Nederlands Wijnmuseum Arnhem</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Wijnmuseum.html"               >Nederlands Wijnmuseum Arnhem</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Wijnmuseum.html"               >Nederlands Wijnmuseum Arnhem</a>]]></description>
 			<LookAt>
 				<longitude>5.923880992834524</longitude>
 				<latitude>51.98617498991393</latitude>
@@ -269,7 +269,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Historische Kelders Arnhem</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Arnhem.html"                   >Historische Kelders Arnhem</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Arnhem.html"                   >Historische Kelders Arnhem</a>]]></description>
 			<LookAt>
 				<longitude>5.906459495825107</longitude>
 				<latitude>51.98250959083948</latitude>
@@ -286,7 +286,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Steenkolenmijn Valkenburg</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/mines/Steenkolenmijn.html"          >Steenkolenmijn Valkenburg</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a target="DigIt" href="../../nl/mines/Steenkolenmijn.html"          >Steenkolenmijn Valkenburg</a>]]></description>
 			<LookAt>
 				<longitude>5.824318878196633</longitude>
 				<latitude>50.85604730658026</latitude>
@@ -304,7 +304,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Valkenburgs Grottenaquarium</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Grottenaquarium.html"          >Grottenaquarium</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Grottenaquarium.html"          >Grottenaquarium</a>]]></description>
 			<LookAt>
 				<longitude>5.826569495425435</longitude>
 				<latitude>50.86108929313807</latitude>
@@ -322,7 +322,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Romeinse Katacomben</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/RomeinseKatacomben.html"       >Romeinse Katacomben</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/RomeinseKatacomben.html"       >Romeinse Katacomben</a>]]></description>
 			<LookAt>
 				<longitude>5.820559665538712</longitude>
 				<latitude>50.86537777084088</latitude>
@@ -340,7 +340,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Sibbergroeve</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a target="DigIt" href="../../nl/misc/Sibbergroeve.html"             >Sibbergroeve</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../nl/misc/Sibbergroeve.html"             >Sibbergroeve</a>]]></description>
 			<LookAt>
 				<longitude>5.817870764202262</longitude>
 				<latitude>50.84816150403593</latitude>

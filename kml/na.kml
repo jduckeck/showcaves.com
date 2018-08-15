@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Gaub Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Gaub.html"                  >Gaub Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Gaub.html"                  >Gaub Cave</a>]]></description>
     		<LookAt>
     			<longitude>17.63912028849886</longitude>
     			<latitude>-19.37955395672055</latitude>
@@ -108,7 +108,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Philipp&apos;s Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Philipp.html"               >Philipp's Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Philipp.html"               >Philipp's Cave</a>]]></description>
     		<LookAt>
     			<longitude>15.63948198672398</longitude>
     			<latitude>-21.79883427140747</latitude>

@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Furna de Frei Matias</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../pt/caves/FreiMatias.html"          >Furna de Frei Matias</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/FreiMatias.html"          >Furna de Frei Matias</a>]]></description>
 		<LookAt>
 			<longitude>-28.45522243375867</longitude>
 			<latitude>38.49420671031028</latitude>

@@ -225,7 +225,7 @@
         <Placemark>
             <name>Eden Falls Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Buffalo.html"                >Buffalo National River</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Buffalo.html"                >Buffalo National River</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.3724720769039</longitude>
@@ -244,7 +244,7 @@
         <Placemark>
             <name>Devil&apos;s Den Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/DevilsDen.html"              >Devil's Den Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/DevilsDen.html"              >Devil's Den Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-94.25359985634098</longitude>
@@ -264,7 +264,7 @@
         <Placemark>
             <name>Mammoth Spring</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/Mammoth.html"              >Mammoth Spring</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Mammoth.html"              >Mammoth Spring</a>]]>
             </description>
             <LookAt>
                 <longitude>-91.53507520440179</longitude>
@@ -284,7 +284,7 @@
         <Placemark>
             <name>Crater of Diamonds State Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/CraterOfDiamonds.html"       >Crater of Diamonds State Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/CraterOfDiamonds.html"       >Crater of Diamonds State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.67120895252513</longitude>
@@ -303,7 +303,7 @@
         <Placemark>
             <name>Eureka Springs Underground</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/EurekaSprings.html"           >Eureka Springs Underground</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/EurekaSprings.html"           >Eureka Springs Underground</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.73752811452945</longitude>
@@ -321,7 +321,7 @@
         <Placemark>
             <name>Beckham Creek Cave Lodge</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../usa/misc/BeckhamCreek.html"            >Beckham Creek Cave Haven</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/BeckhamCreek.html"            >Beckham Creek Cave Haven</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.31555133439822</longitude>

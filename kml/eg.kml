@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Abu Simbel</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/AbuSimbel.html"              >Abu Simbel</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/AbuSimbel.html"              >Abu Simbel</a>]]></description>
 		<LookAt>
 			<longitude>31.5988054283665</longitude>
 			<latitude>22.3608613784506</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Blue Hole</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Karst.gif"    width="12" height="12">&nbsp;<a href="../../misc/karst/Blue.html"                  >Blue Hole</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../misc/karst/Blue.html"                  >Blue Hole</a>]]></description>
 		<styleUrl>#karst</styleUrl>
 		<Point>
 			<coordinates>34.53708333333333,28.57222222222222,0</coordinates>
@@ -81,7 +81,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Djara Cave</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Djara.html"                 >Djara Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Djara.html"                 >Djara Cave</a>]]></description>
 		<LookAt>
 			<longitude>29.63161519294216</longitude>
 			<latitude>27.40303064120777</latitude>
@@ -99,7 +99,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Kom es-Shouqafa</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/KomEsShouqafa.html"          >Kom es-Shouqafa</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/KomEsShouqafa.html"          >Kom es-Shouqafa</a>]]></description>
 		<LookAt>
 			<longitude>29.90458502379721</longitude>
 			<latitude>31.18686898405222</latitude>
@@ -117,7 +117,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Jabal al Muqaţţam - Muqattam Mountain Cave Cathedral</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/Muqattam.html"               >Muqattam Mountain Cave Cathedral</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Muqattam.html"               >Muqattam Mountain Cave Cathedral</a>]]></description>
 		<LookAt>
 			<longitude>31.2833333000371</longitude>
 			<latitude>30.03333330021594</latitude>
@@ -135,7 +135,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cave of Swimmers</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Swimmers.html"              >Cave of Swimmers</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Swimmers.html"              >Cave of Swimmers</a>]]></description>
 		<LookAt>
 			<longitude>25.23003875655536</longitude>
 			<latitude>23.59429837493191</latitude>

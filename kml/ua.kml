@@ -55,14 +55,14 @@
             </IconStyle>
         </Style>
 <!--
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/Chersonesos.html"       >Chersonesos Cave Chruch</a>]]></description>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/Kiev.html"              >Kiev Pechersk Lavra</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../ua/subterranea/Chersonesos.html"       >Chersonesos Cave Chruch</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../ua/subterranea/Kiev.html"              >Kiev Pechersk Lavra</a>]]></description>
         <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/Kristalnaja.html"         >Kristalnaja Pestera</a>]]></description>
         <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ua/showcaves/Verteba.html"             >Verteba Pestera</a>]]></description>
 -->
 	<Placemark>
 		<name>Odessa Catacombs</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/OdessaCatacombs.html"   >Odessa Catacombs</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../ua/subterranea/OdessaCatacombs.html"   >Odessa Catacombs</a>]]></description>
 		<LookAt>
 			<longitude>30.62716259534939</longitude>
 			<latitude>46.53775782629032</latitude>
@@ -79,7 +79,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Mangup Kale</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/MangupKale.html"        >Mangup-Kale</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../ua/subterranea/MangupKale.html"        >Mangup-Kale</a>]]></description>
 		<LookAt>
 			<longitude>33.8047878206947</longitude>
 			<latitude>44.59951144834992</latitude>
@@ -96,7 +96,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Chufut Kale</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../ua/subterranea/ChufutKale.html"        >Chufut-Kale</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../ua/subterranea/ChufutKale.html"        >Chufut-Kale</a>]]></description>
 		<LookAt>
 			<longitude>33.92190482162174</longitude>
 			<latitude>44.74139292887158</latitude>

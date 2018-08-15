@@ -58,7 +58,7 @@
         <Placemark>
             <name>Cave Spring and Rolater Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Spring.gif"   width="12" height="12">&nbsp;<a href="../../usa/springs/CaveSpring.html"           >Cave Spring</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/CaveSpring.html"           >Cave Spring</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.33474409692592</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Consolidated Gold Mine</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Consolidated.html"           >Consolidated Gold Mines</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Consolidated.html"           >Consolidated Gold Mines</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.97280666756791</longitude>
@@ -97,7 +97,7 @@
         <Placemark>
             <name>Dahlonega Courthouse Gold Museum</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Courthouse.html"             >Dahlonega Courthouse Gold Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Courthouse.html"             >Dahlonega Courthouse Gold Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.98498886253958</longitude>
@@ -116,7 +116,7 @@
         <Placemark>
             <name>Crisson Gold Mine</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Crisson.html"                >Crisson Gold Mine</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Crisson.html"                >Crisson Gold Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.9652737901209</longitude>
@@ -136,7 +136,7 @@
         <Placemark>
             <name>Petty John&apos;s Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/PettyJohn.html"              >Petty John's Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/PettyJohn.html"              >Petty John's Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.3625637999186</longitude>
@@ -155,7 +155,7 @@
         <Placemark>
             <name>Pine Mountain Gold Museum - Stockmar Gold Mine</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/PineMountain.html"           >Pine Mountain Gold Museum</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/PineMountain.html"           >Pine Mountain Gold Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-84.88576644589715</longitude>
@@ -173,7 +173,7 @@
         <Placemark>
             <name>Sitton&apos;s Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Sitton.html"                 >Sitton's Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Sitton.html"                 >Sitton's Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-85.48082289965488</longitude>

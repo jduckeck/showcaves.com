@@ -158,7 +158,7 @@
         <Placemark>
             <name>Cave River Park</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/CaveRiverPark.html"          >Cave River Park</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CaveRiverPark.html"          >Cave River Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.25416844991673</longitude>
@@ -178,7 +178,7 @@
         <Placemark>
             <name>Elliott Underground Quarry</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../usa/mines/Elliott.html"                >Elliott Underground Quarry</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Elliott.html"                >Elliott Underground Quarry</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.48379598795395</longitude>

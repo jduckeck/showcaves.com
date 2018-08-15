@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Galerias Romanas da Rua da Prata</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../pt/misc/Lisboa.html"                   >Lisboa Roman Galleries</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../pt/misc/Lisboa.html"                   >Lisboa Roman Galleries</a>]]></description>
 		<LookAt>
 			<longitude>-9.136756072477605</longitude>
 			<latitude>38.70967952486921</latitude>

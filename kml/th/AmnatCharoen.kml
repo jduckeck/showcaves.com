@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Wat Tham Saeng Phet</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../th/misc/SaengPhet.html"                >Wat Tham Saeng Phet</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/SaengPhet.html"                >Wat Tham Saeng Phet</a>]]></description>
 		<LookAt>
 			<longitude>104.7343093223015</longitude>
 			<latitude>15.88818506142023</latitude>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Kathu Tin Mining Museum</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../th/mines/Kathu.html"                   >Kathu Mining Museum</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../th/mines/Kathu.html"                   >Kathu Mining Museum</a>]]></description>
 		<LookAt>
 			<longitude>98.34932990059893</longitude>
 			<latitude>7.934343828746033</latitude>

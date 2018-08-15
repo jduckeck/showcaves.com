@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tham Tab Tao</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../th/caves/TabTao.html"                  >Tham Tab Tao</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../th/caves/TabTao.html"                  >Tham Tab Tao</a>]]></description>
 		<LookAt>
 			<longitude>99.11778527065347</longitude>
 			<latitude>19.66205837960125</latitude>

@@ -57,7 +57,7 @@
     	<name>Lithuania</name>
     	<Placemark>
     		<name>Sovietinis bunkeris</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../misc/misc/SovietinisBunkeris.html"     >Sovietinis bunkeris</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/SovietinisBunkeris.html"     >Sovietinis bunkeris</a>]]></description>
     		<LookAt>
     			<longitude>25.53445569594425</longitude>
     			<latitude>54.83145541023038</latitude>

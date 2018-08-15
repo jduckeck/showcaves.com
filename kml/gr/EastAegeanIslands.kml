@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tunnel of Eupalinus North Entrance</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../gr/misc/Eupalinus.html"                >Tunnel of Eupalinus</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../gr/misc/Eupalinus.html"                >Tunnel of Eupalinus</a>]]></description>
 		<LookAt>
 			<longitude>26.92428982035781</longitude>
 			<latitude>37.70606517057534</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tunnel of Eupalinus South Entrance</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../gr/misc/Eupalinus.html"                >Tunnel of Eupalinus</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../gr/misc/Eupalinus.html"                >Tunnel of Eupalinus</a>]]></description>
 		<LookAt>
 			<longitude>26.93101097607887</longitude>
 			<latitude>37.69474354713209</latitude>
@@ -124,7 +124,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Αγία Παρασκευή - Agia Paraskevi</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../gr/caves/AgiaParaskeviLesbos.html"     >Agia Paraskevi</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../gr/caves/AgiaParaskeviLesbos.html"     >Agia Paraskevi</a>]]></description>
 		<LookAt>
 			<longitude>26.26802860990411</longitude>
 			<latitude>39.25078982214921</latitude>
@@ -140,7 +140,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Panagia Spiliani</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Misc.gif"     width="12" height="12">&nbsp;<a href="../../gr/misc/PanagiaSpiliani.html"          >Panagia Spiliani</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../gr/misc/PanagiaSpiliani.html"          >Panagia Spiliani</a>]]></description>
 		<LookAt>
 			<longitude>26.93671544079762</longitude>
 			<latitude>37.69583392422788</latitude>

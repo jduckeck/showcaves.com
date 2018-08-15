@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Cavernas de Repechon</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Repechon.html"              >Cavernas de Repechon</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Repechon.html"              >Cavernas de Repechon</a>]]></description>
 		<LookAt>
 			<longitude>-65.49152601508504</longitude>
 			<latitude>-17.0842326187422</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Qala Qala - Cala Cala Painted Caves</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/QalaQala.html"              >Qala Qala</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/QalaQala.html"              >Qala Qala</a>]]></description>
 		<LookAt>
 			<longitude>-66.91731900800117</longitude>
 			<latitude>-18.02766960503212</latitude>
@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>San José Mine</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../misc/mines/SanJose.html"               >San Jos&eacute; Silver Mine</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../misc/mines/SanJose.html"               >San Jos&eacute; Silver Mine</a>]]></description>
 		<LookAt>
 			<longitude>-67.12500000054934</longitude>
 			<latitude>-17.96111111173397</latitude>
@@ -107,7 +107,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva del Diablo</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../misc/caves/Diablo.html"                >Cueva del Diablo</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Diablo.html"                >Cueva del Diablo</a>]]></description>
 		<LookAt>
 			<longitude>-65.82363015503935</longitude>
 			<latitude>-19.56220270026283</latitude>
@@ -124,7 +124,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Potosí Cooperative Mines</name>
-        <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Mine.gif"     width="12" height="12">&nbsp;<a href="../../misc/mines/Potosi.html"                >Potosi Cooperative Mines</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../misc/mines/Potosi.html"                >Potosi Cooperative Mines</a>]]></description>
 		<LookAt>
 			<longitude>-65.74201225860234</longitude>
 			<latitude>-19.60625167311534</latitude>

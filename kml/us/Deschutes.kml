@@ -57,7 +57,7 @@
     	<name>Deschutes National Forest</name>
     	<Placemark>
     		<name>South Ice Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/SouthIce.html"               >South Ice Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/SouthIce.html"               >South Ice Cave</a>]]></description>
     		<LookAt>
     			<longitude>-121.1008868788919</longitude>
     			<latitude>43.57803168073932</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Boyd Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Boyd.html"                   >Boyd Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Boyd.html"                   >Boyd Cave</a>]]></description>
     		<LookAt>
     			<longitude>-121.1989664650481</longitude>
     			<latitude>43.94051310934657</latitude>
@@ -91,7 +91,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Lava River Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/LavaRiver.html"              >Lava River Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/LavaRiver.html"              >Lava River Cave</a>]]></description>
     		<LookAt>
     			<longitude>-121.3695289794733</longitude>
     			<latitude>43.89538302415129</latitude>
@@ -107,7 +107,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Wind Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Boyd.html"                   >Boyd Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Boyd.html"                   >Boyd Cave</a>]]></description>
     		<LookAt>
     			<longitude>-121.1439272567173</longitude>
     			<latitude>43.92042249199957</latitude>
@@ -124,7 +124,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Arnold Ice Cave</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/ArnoldIce.html"              >Arnold Ice Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/ArnoldIce.html"              >Arnold Ice Cave</a>]]></description>
     		<LookAt>
     			<longitude>-121.1594484103717</longitude>
     			<latitude>43.90564497168571</latitude>

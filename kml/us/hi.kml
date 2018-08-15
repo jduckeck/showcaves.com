@@ -58,7 +58,7 @@
         <Placemark>
             <name>Kula Kai Caverns</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/KulaKai.html"                >Kula Kai Caverns</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/KulaKai.html"                >Kula Kai Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-155.7994757155716</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Kazumura Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Kazumura.html"               >Kazumura Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Kazumura.html"               >Kazumura Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-155.1014870106171</longitude>
@@ -152,7 +152,7 @@
         <Placemark>
             <name>Waikanaloa Caves - Waikapala&apos;e Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Waikanaloa.html"             >Waikanaloa Caves</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Waikanaloa.html"             >Waikanaloa Caves</a>]]>
             </description>
             <LookAt>
                 <longitude>-159.5812747620914</longitude>
@@ -171,7 +171,7 @@
         <Placemark>
             <name>Waikanaloa Caves - Dry Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Waikanaloa.html"             >Waikanaloa Caves</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Waikanaloa.html"             >Waikanaloa Caves</a>]]>
             </description>
             <LookAt>
                 <longitude>-159.5811625662125</longitude>
@@ -206,7 +206,7 @@
         <Placemark>
             <name>Kaumana Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Kaumana.html"                >Kaumana Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Kaumana.html"                >Kaumana Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-155.1836397657258</longitude>
@@ -224,7 +224,7 @@
         <Placemark>
             <name>Wai&apos;anapanapa Cave</name>
             <description>
-                <![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Cave.gif"     width="12" height="12">&nbsp;<a href="../../usa/caves/Waianapanapa.html"           >Wai'anapanapa Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Waianapanapa.html"           >Wai'anapanapa Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-155.9977419538811</longitude>
