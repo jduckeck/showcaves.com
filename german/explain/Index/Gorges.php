@@ -93,7 +93,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Alphabethisches Register</a></li>
-                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Gorges.php"><img alt="English" src="../../../graphics/flags/gb-small.png" class="language"></a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Gorges.html"><img alt="English" src="../../../graphics/flags/gb-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>
@@ -110,7 +110,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                 <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>

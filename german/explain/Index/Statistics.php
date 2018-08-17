@@ -31,7 +31,7 @@
     $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
     $statement->bindParam('limit', $limit, PDO::PARAM_INT);
     ?>
-    <title>Alphabethisches Register: Statistics of showcaves.com</title>
+    <title>Alphabethisches Register: Statistik von showcaves.com</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">Statistics of showcaves.com</h1>
+        <h1 align="center">Statistik von <span class="mySiteName">showcaves.com</span></h1>
         <h2 align="center"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?></h2>
 
         <br clear="all">
@@ -242,9 +242,9 @@
             <td align=\"right\">$alltotal</td>
             </tr>
             ");
-            ?>
-            </tfoot>
 
+            print ("</tfoot>");
+            ?>
         </table>
 
         <br clear="all">
@@ -288,7 +288,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                 <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>

@@ -26,7 +26,7 @@
     <!-- end responsive -->
 
     <?
-    include($_SERVER['DOCUMENT_ROOT']."/../opendb.php");
+    include($_SERVER['DOCUMENT_ROOT'] . "/../opendb.php");
 
     $count = 0;
     $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
@@ -57,7 +57,7 @@
             <li>Die Namen werden möglichst in der Landessprache angegeben, soweit bekannt.</li>
             <li>Wenn die Landessprache keinen lateinischen Zeichensatz benutzt wird eine gängige Schreibweise in lateinischer Schrift angegeben.</li>
             <li>Die Suchfunktion findet Teile des Namens, es ist nicht notwendig den Anfang des Namens zu kenen, ein Mittelteil wird ebenfalls gefunden.</li>
-            <li>Die Suche kann bei langen Listen einige Sekunden dauern, da sie im Browser ausgeführt wird ist Daure von der Geschwindigkeit Ihres eigenen Rechners abhängig.</li>
+            <li>Die Suche kann bei langen Listen einige Sekunden dauern, da sie im Browser ausgeführt wird ist Dauer von der Geschwindigkeit Ihres eigenen Rechners abhängig.</li>
         </ul>
 
         <br clear="all">
@@ -134,7 +134,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                 <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('askir','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=askir&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>
