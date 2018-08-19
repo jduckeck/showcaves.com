@@ -3,14 +3,6 @@ include("../../../../opendb.php");
 if($pdo==null) {
     exit();
 }
-$count = 0;
-$sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
-$statement = $pdo->query($sql);
-if ($statement->execute()) {
-    if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-        $count = $row['count'];
-    }
-}
 
 $NumberOfColumns = 3;
 
