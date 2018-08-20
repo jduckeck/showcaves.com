@@ -24,10 +24,6 @@ A:active {
     background-color: transparent;
 }
 
-.entranceListview {
-    max-width: 900px;
-}
-
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -159,15 +155,12 @@ img.flag {
 }
 
 .entrance {
-    width: 80px;
-    height: 50px;
-    border: 0;
-    padding: 15px 0;
-}
-
-.mainMenu {
-    height: 80px;
-    vertical-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
 }
 
 .usefulInfo {
