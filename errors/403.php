@@ -59,7 +59,7 @@ the other possibilities.
 If you followed a link from a foreign page, please tell me where the broken link was
 (the page you where coming from).
 Just paste its URL/title into an email and send it to
-        <b>E-mail: <img onClick="xemhid('askir','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=askir&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
+        <b>E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
 I will do the best to give you the new address of the page.
 </p>
 

@@ -37,7 +37,7 @@ If you did not intend to visit a protected page, you may have mispelled the URL.
 
 <p>
 If you have questions, please send an email to
-        <b>E-mail: <img onClick="xemhid('askir','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=askir&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
+        <b>E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
 </p>
 
 <br clear="all">

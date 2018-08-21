@@ -30,7 +30,7 @@ The page produced a script error.
 This should not happen, as this website uses scripts very carefull.
 Please tell me where the error happened (the page you where coming from).
 Just paste its URL/title into an email and send it to
-        <b>E-mail: <img onClick="xemhid('askir','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=askir&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
+        <b>E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
 </p>
 
 <p>
