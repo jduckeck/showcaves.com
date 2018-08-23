@@ -15,7 +15,6 @@
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script language="JavaScript" src="../../../js/xemhid.js"></script>
-    <script language="JavaScript" src="../../../js/global.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -41,42 +40,62 @@
 
         <br clear="all">
 
-        <p>
-            <b>Höhlenbiologie</b> ist die wissenschaftliche Erforschung der in
-            Höhlen vorkomenden Flora und Fauna.
-            Pflanzen, die Licht für die Photosyntheses benötigen, kommen
-            ausschließlich im
-            Eingangsbereich von Höhlen vor.
-            Tiere die ausschließlich in Höhlen leben werden
-            <b>Troglobionten</b> genannt.
-            Doch die meisten Tiere, die häufig als Höhlentiere angesehen werden
-            sind eigentlich nur <b>Höhlenbesucher</b>.
-            Dazu gehören auch die bekanntesten "Höhlentiere", die
-            Fledermäuse.
+        <p class="definition">
+            <b>Höhlenbiologie</b> ist die wissenschaftliche Erforschung der in Höhlen vorkomenden Flora und Fauna.
+            Pflanzen, die Licht für die Photosyntheses benötigen, kommen ausschließlich im Eingangsbereich von Höhlen vor.
+            Tiere die in Höhlen leben werden <b>Troglobionten</b> genannt.
+            Doch die meisten Tiere, die häufig als Höhlentiere angesehen werden sind eigentlich nur <b>Höhlenbesucher</b>.
+            Dazu gehören auch die bekanntesten "Höhlentiere", die Fledermäuse.
         </p>
 
+        <br>
 
-        <table border="0" cellspacing="0" cellpadding="5">
+        <p>
+        </p>
+
+        <br>
+
+        <table class="standard center">
+            <thead>
             <tr>
-                <th nowrap>terrestrial cavernicole</th>
-                <th nowrap>aquatic cavernicole</th>
-                <th nowrap>Explanation</th>
+                <th colspan="3">Land-Höhlentier</th>
+                <th rowspan="2">Wasser-Höhlentier</th>
+                <th rowspan="2">Erklärung</th>
             </tr>
             <tr>
-                <td valign="top" nowrap><a href="Troglobites.html"><b>Troglobionte</b></a><br>Echte Höhlentiere</td>
-                <td valign="top" nowrap><b>Stygobit</b><br>Aquatische Troglobionte</td>
+                <th>Klassisch</th>
+                <th>Modern</th>
+                <th>Deutsch</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a data-ajax="false" target="_top" href="Troglobites.html"><b>Troglobiont</b></a></td>
+                <td>Eutroglobiont</td>
+                <td>Echte Höhlentiere</td>
+                <td><b>Stygobit</b></td>
                 <td>Ein Tier das in Höhlen lebt und nicht in der Lage ist außerhalb der Höhle zu überleben. Sie haben sich üblicherweise in ihrer Anatomie an die Höhlen angepaßt.</td>
             </tr>
             <tr>
-                <td valign="top" nowrap><a href="Troglophiles.html"><b>Troglophile</b></a><br>Höhlenliebende Tiere</td>
-                <td valign="top" nowrap><b>Stygophile</b><br>Aquatische Troglophile</td>
+                <td><a data-ajax="false" target="_top" href="Troglophiles.html"><b>Troglophil</b></a></td>
+                <td>Eutroglophil</td>
+                <td>Höhlenliebende Tiere</td>
+                <td><b>Stygophile</b></td>
                 <td>Ein Tier das vielfach in Höhlen lebt, aber nicht auf diesen Lebensraum beschränkt ist.</td>
             </tr>
             <tr>
-                <td valign="top" nowrap><a href="Trogloxenes.html"><b>Trogloxene</b></a><br>Zufallsgäste</td>
-                <td valign="top" nowrap><b>Stygoxene</b><br>Aquatische Trogloxene</td>
-                <td>Ein Tier das nur einen Teil seines Lebens in einer Höhle verbringt, das regelmäßig an die Oberfläche zurückkehren muß, in der Regel zur Nahrungssuche.</td>
+                <td rowspan="2"><a data-ajax="false" target="_top" href="Trogloxenes.html"><b>Trogloxen</b></a></td>
+                <td>Subtroglophil</td>
+                <td>Höhlenbesucher</td>
+                <td rowspan="2"><b>Stygoxene</b></td>
+                <td>Ein Tier das gezielt Abschnitte seines Lebens in einer Höhle verbringt (Übernachtung, Überwinterung, Versteck,...).</td>
             </tr>
+            <tr>
+                <td>Eutrogloxen</td>
+                <td>Zufallsgäste</td>
+                <td>Ein Tier das kein Höhlenbewohner ist, gelangt nur zufällig in Höhlen.</td>
+            </tr>
+            </tbody>
         </table>
 
         <br>
@@ -86,7 +105,18 @@
 
 
         <ul class="linklist" data-role="listview" data-inset="true">
-             <li data-role="list-divider">Weitere Speläobiologische Themen</li>
+            <li data-role="list-divider">Weitere Speläobiologische Themen</li>
+            <li><a data-ajax="false" target="_top" href="../../explain/Biology/Troglobites.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Troglobiont</a></li>
+            <li><a data-ajax="false" target="_top" href="../../explain/Biology/Troglophiles.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Troglophil</a></li>
+            <li><a data-ajax="false" target="_top" href="../../explain/Biology/Trogloxenes.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Trogloxen</a></li>
+        </ul>
+
+
+        <br clear="all">
+
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">Weitere Speläobiologische Themen</li>
             <li><a data-ajax="false" target="_top" href="../../explain/Biology/Troglomorphy.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Troglomorphie</a></li>
             <li><a data-ajax="false" target="_top" href="../Biology/HommingbergerGepardenforelle.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Hommingberger Gepardenforelle</a></li>
             <li><a data-ajax="false" target="_top" href="../../explain/Biology/WNS.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">White-nose Syndrome</a></li>
@@ -111,6 +141,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Allgemeine Informationen</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/explain/Biology/index.html"><img alt="English" src="../../../graphics/flags/gb-small.png" class="language"></a></li>
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
                 <a data-ajax="false" href="../Speleology/index.html" data-role="button" class="">Speläologie</a>

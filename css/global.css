@@ -187,7 +187,36 @@ table.history {
     padding: 0;
 }
 
-TABLE.statistics {
+table.standard {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 80%;
+    color: #242400;
+    background-color: transparent;
+    padding: 0;
+}
+
+table.standard th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+table.standard td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+table.standard th {
+    background-color: white;
+}
+
+table.standard tfoot {
+    background-color: white;
+}
+
+table.statistics {
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 80%;
@@ -197,16 +226,33 @@ TABLE.statistics {
     padding: 0;
 }
 
-TABLE.statistics th {
+table.statistics th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 0.5em;
 }
 
-TABLE.statistics td {
+table.statistics td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 0.5em;
+}
+
+table.center {
+    clear: both;
+    margin: 1em auto;
+}
+
+table.left {
+    margin: 0 0 0.5em 0.5em;
+    clear: left;
+    float: left;
+}
+
+table.right {
+    margin: 0 0 0.5em 0.5em;
+    clear: right;
+    float: right;
 }
 
 TABLE.leftImg {
@@ -215,6 +261,7 @@ TABLE.leftImg {
     margin: 0 0.5em 0.5em 0;
     padding: 0;
     border-width: 0;
+    max-width: 260px;
 }
 
 TABLE.rightImg {

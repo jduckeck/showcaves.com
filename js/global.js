@@ -6,7 +6,4 @@ $(document).ready(function() {
 
 
 function init() {
-    $().tooltip({
-        show: {effect: "slideDowm", duration: 800}
-    });
 }

@@ -15,7 +15,6 @@
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script language="JavaScript" src="../../../js/xemhid.js"></script>
-    <script language="JavaScript" src="../../../js/global.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -43,56 +42,19 @@
         <br clear="all">
 
         <div class="center">
-            <div id="map_canvas" style="width: 800px; height: 1000px"></div>
+            <!-- map_canvas -->
         </div>
 
         <br>
-        <br>
 
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../usa/mines/Alabama.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Alabama Mining Museum</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/mines/Aldrich.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Aldrich Coal Mine Museum</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/springs/BigSpring.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Big Spring</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CathedralAL.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cathedral Caverns</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/DeSoto.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">DeSoto Caverns Park</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Rickwood.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Rickwood Caverns</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Russell.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Russell Cave NM</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/caves/Sauta.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Sauta Cave</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Sequoyah.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Sequoyah Caverns</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/caves/TumblingRock.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Tumbling Rock Cave</a></li>
-        </ul>
-
-        <br>
-        <br>
-
-        <p class="indentedText">
-            The State of Alabama is one of the southern states of the United States, almost
-            completely bordered by other states it has a sort of leg to the south with a
-            short piece of Gulf of Mexico coastline.
-            The state is divided into two different areas with different geologic structure.
-            The southern and western part of the state is covered by almost horizontal,
-            gently dipping rocks.
-            They form shallow escarpments.
-            The northeast is the southernmost end of the <b>Appalachian</b> mountain ridge
-            which runs almost parallel to the east coast from northeast to southwest.
-        </p>
-
-        <p class="indentedText">
-            The caves of Alabama are located in the northeastern part of the state.
-            This part of the <b>Appalachian Mountains</b> consists of folded
-            <a data-ajax="false" target="_top" href="../../explain/Geology/TimeScale.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Carboniferous</a>
-            limestones.
-            Many caves of this region have served as shelter for Indians.
-            The oldest known Woodland Indian site of the eastern United states has beeen
-            found in
-            <a data-ajax="false" target="_top" href="../showcaves/Russell.html"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Russell Cave NM</a>.
-        </p>
-
-        <table class="rightImg" border="1" cellspacing="0" cellpadding="3">
+        <table class="standard small right">
+            <thead>
             <tr>
                 <th align="right">year</th>
-                <th align="right">production in tons</th>
+                <th align="right">coal production in tons</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td align="right">1870</td>
                 <td align="right">13,200</td>
@@ -125,10 +87,36 @@
                 <td align="right">1929</td>
                 <td align="right">18,415,914</td>
             </tr>
+            </tbody>
+            <tfoot>
             <tr>
-                <th colspan="2">Production rates according to an article in<br>The Shelby County Reporter dated Thursday, December 18, 1930.</th>
+                <td colspan="2">Production rates according to an article in<br>The Shelby County Reporter<br>dated Thursday, December 18, 1930.</td>
             </tr>
+            </tfoot>
         </table>
+
+        <p>
+            The State of Alabama is one of the southern states of the United States, almost
+            completely bordered by other states it has a sort of leg to the south with a
+            short piece of Gulf of Mexico coastline.
+            The state is divided into two different areas with different geologic structure.
+            The southern and western part of the state is covered by almost horizontal,
+            gently dipping rocks.
+            They form shallow escarpments.
+            The northeast is the southernmost end of the <b>Appalachian</b> mountain ridge
+            which runs almost parallel to the east coast from northeast to southwest.
+        </p>
+
+        <p class="indentedText">
+            The caves of Alabama are located in the northeastern part of the state.
+            This part of the <b>Appalachian Mountains</b> consists of folded
+            <a data-ajax="false" target="_top" href="../../explain/Geology/TimeScale.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Carboniferous</a>
+            limestones.
+            Many caves of this region have served as shelter for Indians.
+            The oldest known Woodland Indian site of the eastern United states has beeen
+            found in
+            <a data-ajax="false" target="_top" href="../showcaves/Russell.html"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Russell Cave NM</a>.
+        </p>
 
         <p class="indentedText">
             The second part of Alabama, to the south is covered by sedimentary rocks.
@@ -172,6 +160,20 @@
             Without the coal the state would have stayed rural.
         </p>
 
+        <br>
+
+        <ul class="linklist2" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../usa/mines/Alabama.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Alabama Mining Museum</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/mines/Aldrich.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Aldrich Coal Mine Museum</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/springs/BigSpring.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Big Spring</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/CathedralAL.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Cathedral Caverns</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/DeSoto.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">DeSoto Caverns Park</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Rickwood.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Rickwood Caverns</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Russell.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Russell Cave NM</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/caves/Sauta.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Sauta Cave</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Sequoyah.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Sequoyah Caverns</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/caves/TumblingRock.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Tumbling Rock Cave</a></li>
+        </ul>
 
         <br clear="all">
 
