@@ -238,6 +238,29 @@ table.statistics td {
     padding: 0.5em;
 }
 
+table.classification {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 100%;
+    color: black;
+    margin: 0 0 0.5em 0.5em;
+}
+
+table.classification th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #bac9dd;
+    padding: 0.4em;
+    alignment: left;
+}
+
+table.classification td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.4em;
+    background-color: rgba(186, 201, 221, 0.49);
+}
+
 table.center {
     clear: both;
     margin: 1em auto;
