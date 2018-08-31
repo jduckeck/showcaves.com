@@ -100,13 +100,13 @@
                     $countrycell = $country;
                     $cellatts = "";
                 } else if ($countrycode == 'us') {
-                    $countrycell = "<a name=\"usa\" target=\"_top\" href=\"$filebase/usa/index.html\">$country</a>";
+                    $countrycell = "<a data-ajax=\"false\" target=\"_top\" href=\"$filebase/usa/index.html\" name=\"usa\">$country</a>";
                     $cellatts = " bgcolor=\"silver\"";
                 } else if ($chapter != null) {
-                    $countrycell = "<a name=\"$countrycode\" href=\"$filebase/$chapter/region/$countrycode.html\">$country</a>";
+                    $countrycell = "<a data-ajax=\"false\" href=\"$filebase/$chapter/region/$countrycode.html\" name=\"$countrycode\">$country</a>";
                     $cellatts = "";
                 } else {
-                    $countrycell = "<a name=\"$countrycode\" target=\"_top\" href=\"$filebase/$countrycode/index.html\">$country</a>";
+                    $countrycell = "<a data-ajax=\"false\" target=\"_top\" href=\"$filebase/$countrycode/index.html\" name=\"$countrycode\">$country</a>";
                     $cellatts = " bgcolor=\"silver\"";
                 }
 

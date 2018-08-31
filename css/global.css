@@ -52,7 +52,6 @@ p {
 }
 
 .center {
-    padding: auto;
     text-align: center;
     page-break-before: auto;
 }
@@ -200,16 +199,15 @@ table.standard th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 0.5em;
+    text-align: left;
+    background-color: white;
 }
 
 table.standard td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 0.5em;
-}
-
-table.standard th {
-    background-color: white;
+    text-align: left;
 }
 
 table.standard tfoot {
