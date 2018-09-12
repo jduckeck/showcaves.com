@@ -138,6 +138,9 @@ img.language {
     vertical-align: center;
 }
 
+img.map {
+    max-width: 100%;
+}
 img.flag {
     width: 100px;
     height: 60px;
