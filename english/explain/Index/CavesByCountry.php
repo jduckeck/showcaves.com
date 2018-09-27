@@ -26,20 +26,14 @@
 
 
     <?
-    include("../../../../opendb.php");
-
-    $count = 0;
-    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='caves'";
-    $statement = $pdo->query($sql);
-    if ($statement->execute()) {
-        if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-            $count = $row['count'];
-        }
-    }
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, " AND category='caves'");
     ?>
 
 
-    <title>Indexes: All Caves</title>
+    <title>Indexes: All Caves By Country</title>
 </head>
 
 <body>
@@ -47,7 +41,7 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">All Caves</h1>
+        <h1 align="center">All Caves By Country</h1>
         <h2 align="center"><? print $count ?> Underground Sites are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
 
         <br clear="all">
@@ -62,83 +56,9 @@
 
         <br clear="all">
 
-        <?
-        $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='caves' ORDER BY country, sortby";
-        $Category = "Cave";
-        $filebase = "../../..";
-        $oldCountry = '';
-        $entries = 0;
-        $entriesText = '';
-        $countryText = '';
-        $itemsText = '';
-
-        $statement = $pdo->prepare($sql);
-        if ($statement->execute()) {
-            while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                $name = $row['name'];
-                $country = $row['country'];
-                $filename = $row['filename'];
-                $countrycode = $row['countrycode'];
-                $chapter = $row['chapter'];
-
-                // finalize old country
-                if ($oldCountry != '' && $oldCountry != $row->country) {
-                    if (1 == $entries) {
-                        $entriesText = "1 entry";
-                    } else {
-                        $entriesText = "$entries entries";
-                    }
-                    $entries = 0;
-
-                    print ("         <div data-role=\"collapsible\">\n");
-                    print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                    print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
-                    print ($itemsText);
-                    print ("            </ul>\n");
-                    print ("         </div>\n");
-                }
-
-                // store head for new country
-                if ($oldCountry != $row->country) {
-                    if ($row->countrycode == 'XX') {
-                        $countryText = $row->country;
-                    } else if ($row->countrycode == 'us') {
-                        $countryText = "<a name=\"usa\" data-ajax=\"false\" target=\"_top\" href=\"../../usa/index.html\">$row->country</a>";
-                    } else if ($row->chapter != null) {
-                        $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->chapter . "/region/" . $row->countrycode . ".html\">" . $row->country . "</a>";
-                    } else {
-                        $countryText = "<a name=\"" . $row->countrycode . "\" data-ajax=\"false\" target=\"_top\" href=\"../../" . $row->countrycode . "/index.html\">" . $row->country . "</a>";
-                    }
-
-                    $itemsText = '';
-                    $oldCountry = $row->country;
-                }
-
-                // check row and derive all texts
-                //$name       = myUmlaute($row->name);
-                $name = $row->name;
-
-                $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$row->filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
-                $entries++;
-            }
-
-            // there is no more row when the last country is done, so we have to output the last country
-            if (1 == $entries) {
-                $entriesText = "1 entry";
-            } else {
-                $entriesText = "$entries entries";
-            }
-
-            if ($entries > 0) {
-                print ("         <div data-role=\"collapsible\">\n");
-                print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
-                print ($itemsText);
-                print ("            </ul>\n");
-                print ("         </div>\n");
-            }
-        }
-        ?>
+<?
+printByCountry($pdo, 'caves');
+?>
 
     </div>
 

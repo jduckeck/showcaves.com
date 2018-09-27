@@ -26,20 +26,14 @@
 
 
     <?
-    include("../../../../opendb.php");
-
-    $count = 0;
-    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
-    $statement = $pdo->query($sql);
-    if ($statement->execute()) {
-        if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-            $count = $row['count'];
-        }
-    }
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, "");
     ?>
 
 
-    <title>Alphabethisches Register: Alle Sehenswürdigkeiten auf showcaves.com</title>
+    <title>Alphabethisches Register: Alle Sehenswürdigkeiten auf showcaves.com nach Ländern gruppiert</title>
 </head>
 
 <body>
@@ -47,7 +41,7 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">Alle Sehenswürdigkeiten auf showcaves.com</h1>
+        <h1 align="center">Alle Sehenswürdigkeiten auf <span class="mySiteName">showcaves.com</span> nach Ländern gruppiert</h1>
         <h2 align="center"><? print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br clear="all">
@@ -62,97 +56,9 @@
 
         <br clear="all">
 
-        <?
-        $sql = "SELECT name, filename, countrycode, country, chapter, category FROM sights WHERE visible='yes' ORDER BY country, sortby";
-        $filebase = "../../..";
-        $oldCountry = '';
-        $entries = 0;
-        $entriesText = '';
-        $countryText = '';
-        $itemsText = '';
-        $Category = "Showcave";
-
-        $statement = $pdo->prepare($sql);
-        if ($statement->execute()) {
-            while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                $country = $row['country'];
-                $name = $row['name'];
-                $filename = $row['filename'];
-                $countrycode = $row['countrycode'];
-                $chapter = $row['chapter'];
-
-                // finalize old country
-                if ($oldCountry != '' && $oldCountry != $country) {
-                    if (1 == $entries) {
-                        $entriesText = "1 entry";
-                    } else {
-                        $entriesText = "$entries entries";
-                    }
-                    $entries = 0;
-
-                    print ("         <div data-role=\"collapsible\">\n");
-                    print ("            <h3><span style=\"float: right;\">$entriesText</span></h3>\n");
-                    print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
-                    print ($itemsText);
-                    print ("            </ul>\n");
-                    print ("         </div>\n");
-                }
-
-                // store head for new country
-                if ($oldCountry != $country) {
-                    $countryText = $country;
-
-                    $itemsText = '';
-                    $oldCountry = $country;
-                }
-
-                switch ($row['category']) {
-                    case 'showcaves':
-                        $Category = "Showcave";
-                        break;
-                    case 'caves':
-                        $Category = "Cave";
-                        break;
-                    case 'subterranea':
-                        $Category = "Misc";
-                        break;
-                    case 'mines':
-                        $Category = "Mine";
-                        break;
-                    case 'karst':
-                        $Category = "Karst";
-                        break;
-                    case 'springs':
-                        $Category = "Spring";
-                        break;
-                    case 'gorges':
-                        $Category = "Gorge";
-                        break;
-                    default:
-                        break;
-                }
-
-                $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
-                $entries++;
-            }
-
-            // there is no more row when the last country is done, so we have to output the last country
-            if (1 == $entries) {
-                $entriesText = "1 entry";
-            } else {
-                $entriesText = "$entries entries";
-            }
-
-            if ($entries > 0) {
-                print ("         <div data-role=\"collapsible\">\n");
-                print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryText</h3>\n");
-                print ("            <ul id=\"$oldCountry" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
-                print ($itemsText);
-                print ("            </ul>\n");
-                print ("         </div>\n");
-            }
-        }
-        ?>
+<?
+printByCountryAll($pdo);
+?>
 
     </div>
 

@@ -26,16 +26,10 @@
 
 
     <?
-    include("../../../../opendb.php");
-
-    $count = 0;
-    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes' AND category='showcaves'";
-    $statement = $pdo->query($sql);
-    if ($statement->execute()) {
-        if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-            $count = $row['count'];
-        }
-    }
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, " AND category='showcaves'");
     ?>
 
 
@@ -66,22 +60,9 @@
 
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-
-            <?
-            $sql = "SELECT name, filename, countrycode, country FROM sights WHERE visible='yes' AND category='showcaves' ORDER BY sortby";
-            $filebase = "../../..";
-            $Category = 'Showcave';
-
-            $statement = $pdo->prepare($sql);
-            if ($statement->execute()) {
-                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                    $name = $row['name'];
-                    $country = $row['country'];
-                    $filename = $row['filename'];
-                    print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
-                }
-            }
-            ?>
+<?
+printAllByCategory($pdo, 'showcaves');
+?>
         </ul>
 
     </div>

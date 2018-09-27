@@ -25,16 +25,10 @@
     <!-- end responsive -->
 
     <?
-    include("../../../../opendb.php");
-
-    $count = 0;
-    $sql = "SELECT COUNT(*) AS count FROM sights WHERE visible='yes'";
-    $statement = $pdo->query($sql);
-    if ($statement->execute()) {
-        if ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-            $count = $row['count'];
-        }
-    }
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, "");
     ?>
     <title>Indexes: All Entries of showcaves.com</title>
 </head>
@@ -62,49 +56,8 @@
         <br clear="all">
 
         <label for="theList">search the list...</label>
-        <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-            <?
-            $sql = "SELECT name, filename, countrycode, country, category FROM sights WHERE visible='yes' ORDER BY sortby";
-            $filebase = "../../..";
-
-            $statement = $pdo->prepare($sql);
-            if ($statement->execute()) {
-                while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                    $name = $row['name'];
-                    $country = $row['country'];
-                    $filename = $row['filename'];
-
-                    $Category = "Showcave";
-                    switch ($row['category']) {
-                        case 'showcaves':
-                            $Category = "Showcave";
-                            break;
-                        case 'caves':
-                            $Category = "Cave";
-                            break;
-                        case 'subterranea':
-                            $Category = "Misc";
-                            break;
-                        case 'mines':
-                            $Category = "Mine";
-                            break;
-                        case 'karst':
-                            $Category = "Karst";
-                            break;
-                        case 'springs':
-                            $Category = "Spring";
-                            break;
-                        case 'gorges':
-                            $Category = "Gorge";
-                            break;
-                        default:
-                            break;
-                    }
-
-                    print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
-                }
-            }
-
+        <ul id="theList" data-role="listview" data-inset="true" data-filter="true"><?
+            printAll($pdo);
             ?>
         </ul>
 

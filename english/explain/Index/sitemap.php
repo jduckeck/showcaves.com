@@ -1,8 +1,6 @@
 <?php
-include("../../../../opendb.php");
-if($pdo==null) {
-    exit();
-}
+include("../../../php/opendb.php");
+$pdo = openDB();
 
 $NumberOfColumns = 3;
 
