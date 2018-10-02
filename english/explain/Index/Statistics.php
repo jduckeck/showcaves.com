@@ -257,12 +257,9 @@
         </p>
 
         <p class="indentedText">
-            Some countries have only a few entries, so those countrries are managed in a
-            section called Misc Countires.
+            Some countries have only a few entries, so those countries are managed in a section called <i>Other Countries</i>.
             In this table they have a <b>bright grey</b> background.
-            Countries with a certain amount of underground sites (about 10) get their own
-            section or chapter, which includes additional pages like some country
-            background, geology and the translation of important caving terms.
+            Countries with a certain amount of underground sites (about 10) get their own section or chapter, which includes additional pages like some country background, geology and the translation of important caving terms.
             In this table they have a <b>dark grey</b> background.
         </p>
 

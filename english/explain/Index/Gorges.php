@@ -61,7 +61,7 @@
         <label for="theList">search the list...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
 <?
-printAllByCategory($pdo, 'caves');
+printAllByCategory($pdo, 'gorges');
 ?>
         </ul>
 

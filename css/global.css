@@ -139,8 +139,14 @@ img.language {
 }
 
 img.map {
-    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
 }
+
 img.flag {
     width: 100px;
     height: 60px;

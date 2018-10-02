@@ -21,11 +21,8 @@ function openDB()
     $pdo = null;
     try {
         $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-        $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     } catch (PDOException $e) {
-        echo "ServerName is ";
-        echo $_SERVER['SERVER_NAME'];
-        die("<b>Oops, something went wrong</b>");
+        echo "$e->errorInfo";
     }
 
     return $pdo;
