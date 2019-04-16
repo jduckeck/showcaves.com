@@ -56,6 +56,10 @@ p {
     page-break-before: auto;
 }
 
+.clear {
+    clear: both
+}
+
 .red {
     color: #FF0000;
     font-weight: bold;
@@ -171,12 +175,20 @@ img.flag {
     height: auto;
 }
 
-.usefulInfo {
+table.usefulInfo {
     font-size: 80%;
     color: #004000;
     background-color: #FFFFFF;
     margin: 0.5em;
     padding: 0.5em;
+}
+
+table.usefulInfo tr :first-child {
+    padding-right: .5em;
+}
+
+table.usefulInfo td {
+    vertical-align: top;
 }
 
 .xemhid {
@@ -193,6 +205,15 @@ table.history {
     background-color: transparent;
     margin: 0;
     padding: 0;
+}
+
+table.history tr :first-child {
+    white-space: nowrap;
+    padding-right: .5em;
+}
+
+table.history td {
+    vertical-align: top;
 }
 
 table.standard {
