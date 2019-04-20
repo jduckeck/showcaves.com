@@ -3,3 +3,5 @@ VALUES('yes','Egloffsteiner Felsenkeller', '/english/de/subterranea/Egloffstein.
 DELETE FROM sights WHERE sortby='Felsenkell';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Einödhöhle', '/english/at/caves/Einoed.html', 'Einoed', 'Europe', 'at', 'Austria', 'caves', 'Nieder');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Jordan Creek Underground Tours', '/english/usa/subterranea/JordanCreek.html', 'JordanCreek', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'mo');
