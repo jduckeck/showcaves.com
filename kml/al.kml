@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Shpella e Kërçmoit</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Konispol.html"              >Konispol Cave</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Konispol.html"              >Konispol Cave</a>]]></description>
 		<LookAt>
 			<longitude>20.17256610890033</longitude>
 			<latitude>39.66883656822244</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Shpella e Pëllumbasit</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Pellumbas.html"             >Shpella e P&euml;llumbasit</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Pellumbas.html"             >Shpella e P&euml;llumbasit</a>]]></description>
 		<LookAt>
 			<longitude>19.97067551918788</longitude>
 			<latitude>41.2583317568822</latitude>

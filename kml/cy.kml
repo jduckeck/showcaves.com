@@ -66,7 +66,7 @@
 -->
 		<Placemark>
 			<name>Incirli Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../misc/showcaves/Incirli.html"           >Incirli Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a target="DigIt" href="../../other/showcaves/Incirli.html"           >Incirli Cave</a>]]></description>
 			<LookAt>
 				<longitude>33.76760434936695</longitude>
 				<latitude>35.32536059333582</latitude>
@@ -84,7 +84,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Egkleistra</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../misc/misc/Egkleistra.html"             >Egkleistra</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../other/subterranea/Egkleistra.html"             >Egkleistra</a>]]></description>
 			<LookAt>
 				<longitude>32.44580213238773</longitude>
 				<latitude>34.84633511549791</latitude>
@@ -102,7 +102,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tombs of the Kings Kato Pafos</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../misc/misc/KatoPafos.html"              >Tombs of the Kings</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a target="DigIt" href="../../other/subterranea/KatoPafos.html"              >Tombs of the Kings</a>]]></description>
 			<LookAt>
 				<longitude>32.40581025281782</longitude>
 				<latitude>34.77535476924712</latitude>

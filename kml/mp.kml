@@ -57,7 +57,7 @@
     	<name>Northern Mariana Islands</name>
 	<Placemark>
 		<name>The Grotto</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Grotto.html"                >The Grotto</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Grotto.html"                >The Grotto</a>]]></description>
 		<LookAt>
 			<longitude>145.8235081805069</longitude>
 			<latitude>15.26025257049584</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Kalabera Cave</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Kalabera.html"          >Kalabera Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Kalabera.html"          >Kalabera Cave</a>]]></description>
 		<LookAt>
 			<longitude>145.7971372599273</longitude>
 			<latitude>15.24431389835008</latitude>

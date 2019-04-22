@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Montelimar Cave</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Montelimar.html"        >Montelimar Cave</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Montelimar.html"        >Montelimar Cave</a>]]></description>
 		<LookAt>
 			<longitude>-86.51788525968109</longitude>
 			<latitude>11.82025112601102</latitude>
@@ -72,7 +72,7 @@
 	</Placemark>
 	<Placemark>
 		<name>San Jaun de las Aguas</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/SanJaun.html"                >San Jaun de las Aguas</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/SanJaun.html"                >San Jaun de las Aguas</a>]]></description>
 		<LookAt>
 			<longitude>-85.37442851122503</longitude>
 			<latitude>12.10478094412085</latitude>

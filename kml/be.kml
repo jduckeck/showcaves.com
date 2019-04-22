@@ -628,7 +628,7 @@
         <Placemark>
             <name>Musée des Égouts</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/Egouts.html"                   >Mus&eacute;e des &Eacute;gouts</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/other/Egouts.html"                   >Mus&eacute;e des &Eacute;gouts</a>]]>
             </description>
             <LookAt>
                 <longitude>4.338900866339264</longitude>
@@ -647,7 +647,7 @@
         <Placemark>
             <name>Les souterrains de Philippeville</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/Philippeville.html"            >Les souterrains de Philippeville</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/other/Philippeville.html"            >Les souterrains de Philippeville</a>]]>
             </description>
             <LookAt>
                 <longitude>4.544219000000039</longitude>
@@ -666,7 +666,7 @@
         <Placemark>
             <name>Grotten Van Kanne</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/Kanne.html"                    >Grotten Van Kanne</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/other/Kanne.html"                    >Grotten Van Kanne</a>]]>
             </description>
             <LookAt>
                 <longitude>5.668360553169043</longitude>
@@ -686,7 +686,7 @@
         <Placemark>
             <name>Grottes de Folx-Les-Caves</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/misc/FolxLesCaves.html"             >Grottes de Folx-Les-Caves</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../be/other/FolxLesCaves.html"             >Grottes de Folx-Les-Caves</a>]]>
             </description>
             <LookAt>
                 <longitude>4.94081576303639</longitude>

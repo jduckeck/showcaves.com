@@ -57,7 +57,7 @@
     	<name>Latvia</name>
 		<Placemark>
 			<name>Gutmana Ala</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Gutmana.html"               >Gutmana Ala</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Gutmana.html"               >Gutmana Ala</a>]]></description>
 			<LookAt>
 				<longitude>24.84342395400399</longitude>
 				<latitude>57.17608345743755</latitude>
@@ -75,7 +75,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kaupo Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Kaupo.html"                 >Kaupo Ala</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Kaupo.html"                 >Kaupo Ala</a>]]></description>
 			<LookAt>
 				<longitude>24.7671424799264</longitude>
 				<latitude>57.16031020834684</latitude>
@@ -93,7 +93,7 @@
 		</Placemark>
 		<Placemark>
 			<name>D Dupleks</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/DDupleks.html"               >D Dupleks</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/DDupleks.html"               >D Dupleks</a>]]></description>
 			<LookAt>
 				<longitude>24.17081182105483</longitude>
 				<latitude>56.97347690246666</latitude>
@@ -111,7 +111,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Regro S</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/RegroS.html"                 >Regro S</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/RegroS.html"                 >Regro S</a>]]></description>
 			<LookAt>
 				<longitude>24.0699279234394</longitude>
 				<latitude>56.95904974746681</latitude>

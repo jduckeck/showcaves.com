@@ -57,7 +57,7 @@
     	<name>Namibia</name>
     	<Placemark>
     		<name>Dureb Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Dureb.html"             >Dureb Caves</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Dureb.html"             >Dureb Caves</a>]]></description>
     		<LookAt>
     			<longitude>14.66265977828327</longitude>
     			<latitude>-21.11068939073097</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Gaub Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Gaub.html"                  >Gaub Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Gaub.html"                  >Gaub Cave</a>]]></description>
     		<LookAt>
     			<longitude>17.63912028849886</longitude>
     			<latitude>-19.37955395672055</latitude>
@@ -91,7 +91,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Arnhem Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Arnhem.html"            >Arnhem Cave</a>]]></description>
+            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Arnhem.html"            >Arnhem Cave</a>]]></description>
     		<LookAt>
     			<longitude>18.08841885329373</longitude>
     			<latitude>-22.74150293028668</latitude>
@@ -108,7 +108,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Philipp&apos;s Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Philipp.html"               >Philipp's Cave</a>]]></description>
+            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Philipp.html"               >Philipp's Cave</a>]]></description>
     		<LookAt>
     			<longitude>15.63948198672398</longitude>
     			<latitude>-21.79883427140747</latitude>

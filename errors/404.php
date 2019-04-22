@@ -37,7 +37,7 @@
         case "/german/global.css":
             $redirURL = "/global.css";
             break;
-        case "/english/Miscellaneous.html":
+        case "/english/otherellaneous.html":
             $redirURL = "/english/Subterranea.html";
             break;
         case "/german/Miscellaneous.html":
@@ -79,70 +79,70 @@
         case "/english/il/Politics.html":
             $redirURL = "/english/il/About.html";
             break;
-        case "/english/it/misc/CapriGregorovius.html":
+        case "/english/it/subterranea/CapriGregorovius.html":
             $redirURL = "/german/explain/Literature/CapriGregorovius.html";
             break;
-        case "/english/it/misc/CollepardoGregorovius.html":
+        case "/english/it/subterranea/CollepardoGregorovius.html":
             $redirURL = "/german/explain/Literature/CollepardoGregorovius.html";
             break;
         case "/english/it/showcaves/CastelloTesino.html":
             $redirURL = "/english/it/caves/CastelloTesino.html";
             break;
-        case "/english/misc/caves/Drakonina.html":
+        case "/english/other/caves/Drakonina.html":
             $redirURL = "/english/hr/caves/Drakonina.html";
             break;
-        case "/english/misc/caves/Golondrinas.html":
+        case "/english/other/caves/Golondrinas.html":
             $redirURL = "/english/mx/caves/Golondrinas.html";
             break;
-        case "/english/misc/caves/Naica.html":
+        case "/english/other/caves/Naica.html":
             $redirURL = "/english/mx/caves/Naica.html";
             break;
-        case "/english/misc/caves/VillaLuz.html":
+        case "/english/other/caves/VillaLuz.html":
             $redirURL = "/english/mx/caves/VillaLuz.html";
             break;
-        case "/english/misc/mines/Wieliczka.html":
+        case "/english/other/mines/Wieliczka.html":
             $redirURL = "/english/pl/mines/Wieliczka.html";
             break;
-        case "/english/misc/misc/ShiptonsArch.html":
-            $redirURL = "/english/cn/misc/ShiptonsArch.html";
+        case "/english/other/subterranea/ShiptonsArch.html":
+            $redirURL = "/english/cn/subterranea/ShiptonsArch.html";
             break;
-        case "/english/misc/region/cn.html":
+        case "/english/other/region/cn.html":
             $redirURL = "/english/cn/index.html";
             break;
-        case "/english/misc/region/hr.html":
+        case "/english/other/region/hr.html":
             $redirURL = "/english/hr/index.html";
             break;
-        case "/english/misc/region/mx.html":
+        case "/english/other/region/mx.html":
             $redirURL = "/english/mx/index.html";
             break;
-        case "/english/misc/region/pl.html":
+        case "/english/other/region/pl.html":
             $redirURL = "/english/pl/index.html";
             break;
-        case "/english/misc/region/plMap.html":
+        case "/english/other/region/plMap.html":
             $redirURL = "/english/pl/region/Map.html";
             break;
-        case "/english/misc/showcaves/AktunChen.html":
+        case "/english/other/showcaves/AktunChen.html":
             $redirURL = "/english/mx/showcaves/AktunChen.html";
             break;
-        case "/english/misc/showcaves/Cacahuamilpa.html":
+        case "/english/other/showcaves/Cacahuamilpa.html":
             $redirURL = "/english/mx/showcaves/Cacahuamilpa.html";
             break;
-        case "/english/misc/showcaves/Coyame.html":
+        case "/english/other/showcaves/Coyame.html":
             $redirURL = "/english/mx/showcaves/Coyame.html";
             break;
-        case "/english/misc/showcaves/Garcia.html":
+        case "/english/other/showcaves/Garcia.html":
             $redirURL = "/english/mx/showcaves/Garcia.html";
             break;
-        case "/english/misc/showcaves/Niedzwiedzia.html":
+        case "/english/other/showcaves/Niedzwiedzia.html":
             $redirURL = "/english/pl/showcaves/Niedzwiedzia.html";
             break;
-        case "/english/misc/showcaves/Raj.html":
+        case "/english/other/showcaves/Raj.html":
             $redirURL = "/english/pl/showcaves/Raj.html";
             break;
-        case "/english/misc/showcaves/VanHato.html":
+        case "/english/other/showcaves/VanHato.html":
             $redirURL = "/english/car/showcaves/VanHato.html";
             break;
-        case "/english/misc/showcaves/ZhiJin.html":
+        case "/english/other/showcaves/ZhiJin.html":
             $redirURL = "/english/cn/showcaves/ZhiJin.html";
             break;
         case "/english/nz/showcaves/Taniwha.html":

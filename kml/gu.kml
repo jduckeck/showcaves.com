@@ -58,7 +58,7 @@
         <Placemark>
             <name>Talofofo Caves</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Talofofo.html"              >Talofofo Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Talofofo.html"              >Talofofo Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>144.7664445940431</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Yokoi&apos;s Cave</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Yokoi.html"                  >Yokoi's Cave</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/Yokoi.html"                  >Yokoi's Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>144.7365137276</longitude>

@@ -58,7 +58,7 @@
         <Placemark>
             <name>Gouffre Friouato</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Friouato.html"          >Gouffre Friouato</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Friouato.html"          >Gouffre Friouato</a>]]>
             </description>
             <LookAt>
                 <longitude>-4.075321830755868</longitude>
@@ -76,7 +76,7 @@
         <Placemark>
             <name>Grottes d&apos;Hercules - The Caves of Hercules</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Hercules.html"          >Grottes d'Hercules</a>]]>
+                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Hercules.html"          >Grottes d'Hercules</a>]]>
             </description>
             <LookAt>
                 <longitude>-5.939155893476982</longitude>
@@ -94,7 +94,7 @@
         <Placemark>
             <name>Bhalil Cave Dwellings</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Bhalil.html"                 >Bhalil Cave Dwellings</a>]]>
+                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/Bhalil.html"                 >Bhalil Cave Dwellings</a>]]>
             </description>
             <LookAt>
                 <longitude>-4.873231553399918</longitude>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Sof Omar Cave</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/SofOmar.html"           >Sof Omar</a>]]></description>
+        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/SofOmar.html"           >Sof Omar</a>]]></description>
 		<LookAt>
 			<longitude>39.76666699953135</longitude>
 			<latitude>6.216666999699422</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Lalibela</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../misc/misc/Lalibela.html"               >Lalibela</a>]]></description>
+        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/Lalibela.html"               >Lalibela</a>]]></description>
 		<LookAt>
 			<longitude>39.04076629114388</longitude>
 			<latitude>12.02659040369374</latitude>
