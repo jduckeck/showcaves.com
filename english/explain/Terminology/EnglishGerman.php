@@ -14,7 +14,7 @@
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
-    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script type="text/javascript" src="../../../js/xemhid.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -38,7 +38,7 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">English-German Dictionary</h1>
+        <h1 class="center">English-German Dictionary</h1>
         <h2 align=center></h2>
 
         <hr>

@@ -14,7 +14,7 @@
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
-    <script language="JavaScript" src="../js/xemhid.js"></script>
+    <script type="text/javascript" src="../js/xemhid.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -34,10 +34,10 @@
     <div data-role="main" class="ui-content">
 
 
-        <h2 align="center">Show Caves of the World</h2>
-        <h1 align="center">Error 401</h1>
+        <h2 class="center">Show Caves of the World</h2>
+        <h1 class="center">Error 401</h1>
 
-        <br clear="all">
+        <br class="clear">
 
         <p>
             The page you tried to visit is only accessible with authentification.
@@ -45,7 +45,7 @@
             If you did not intend to visit a protected page, you may have mispelled the URL.
         </p>
 
-        <br clear="all">
+        <br class="clear">
 
         <p>
             If you have questions, please send an email to

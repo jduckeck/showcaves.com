@@ -14,7 +14,7 @@
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
-    <script language="JavaScript" src="../js/xemhid.js"></script>
+    <script type="text/javascript" src="../js/xemhid.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -234,8 +234,8 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <h2 align="center"><? echo $theTitle ?></h2>
-        <h1 align="center">Error 404 = Page Not Found</h1>
+        <h2 class="center"><? echo $theTitle ?></h2>
+        <h1 class="center">Error 404 = Page Not Found</h1>
 
         <?
         if ($redirTime == "30") {

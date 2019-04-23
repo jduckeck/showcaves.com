@@ -16,8 +16,6 @@ function openDB()
         $pass = "Kreibich";                    // MySQL-Kennwort
         $dbname = "db8399";                        // Standarddatenbank
     }
-    echo "ServerName is ";
-    echo $_SERVER['SERVER_NAME'];
     $pdo = null;
     try {
         $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);

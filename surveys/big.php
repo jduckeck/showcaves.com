@@ -130,8 +130,8 @@ if($result) {
 
 
 
-<h2 align="center"><? echo $CaveName ?></h2>
-<h1 align="center"><? echo $Title ?></h1>
+<h2 class="center"><? echo $CaveName ?></h2>
+<h1 class="center"><? echo $Title ?></h1>
 
 
 
@@ -140,10 +140,10 @@ if($result) {
 <tr><td class="imgCaption"><? echo $Caption ?></td></tr>
 </table>
 
-<h1 align="center"><a href="<? echo $HTTP_REFERER ?>">Back</a></h1>
+<h1 class="center"><a href="<? echo $HTTP_REFERER ?>">Back</a></h1>
 
 
-<br clear="all">
+<br class="clear">
 
 <table align="center" border="0" cellspacing="0" cellpadding="5">
 <tr><td align="center" valign="middle" class="footerNav">
@@ -151,7 +151,7 @@ if($result) {
 </td></tr>
 <tr><td align="center" class="copyMsg">
 Last updated
-<script language="JavaScript">
+<script type="text/javascript">
 <!-- Begin
 lastmod = document.lastModified // get string of last modified date
 lastmoddate = Date.parse(lastmod)   // convert modified string to date

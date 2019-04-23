@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
-    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script type="text/javascript" src="../../../js/xemhid.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -39,10 +39,10 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">Statistics of showcaves.com</h1>
-        <h2 align="center"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?></h2>
+        <h1 class="center">Statistics of showcaves.com</h1>
+        <h2 class="center"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?></h2>
 
-        <br clear="all">
+        <br class="clear">
 
 
         <p>
@@ -52,7 +52,7 @@
         </p>
 
 
-        <br clear="all">
+        <br class="clear">
 
 
         <table align="center" border="1" cellspacing="0" cellpadding="5">
@@ -248,7 +248,7 @@
 
         </table>
 
-        <br clear="all">
+        <br class="clear">
 
         <p>
             This table gives the numbers of listed sites, grouped by countries and category.

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
-    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script type="text/javascript" src="../../../js/xemhid.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -41,10 +41,10 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">All Subterranea By Country</h1>
-        <h2 align="center"><? print $count ?> Underground Sites are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h1 class="center">All Subterranea By Country</h1>
+        <h2 class="center"><? print $count ?> Underground Sites are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
 
-        <br clear="all">
+        <br class="clear">
 
         <h4>Explanation:</h4>
 
@@ -54,7 +54,7 @@
             <li>If the original language has no Latin font, we give the common transcription.</li>
         </ul>
 
-        <br clear="all">
+        <br class="clear">
 
 <?
 printByCountry($pdo, 'subterranea');

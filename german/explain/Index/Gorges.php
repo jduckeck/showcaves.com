@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
     <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
-    <script language="JavaScript" src="../../../js/xemhid.js"></script>
+    <script type="text/javascript" src="../../../js/xemhid.js"></script>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -41,10 +41,10 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 align="center">All Gorges</h1>
-        <h2 align="center"><? print $count ?> Gorges werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h1 class="center">All Gorges</h1>
+        <h2 class="center"><? print $count ?> Gorges werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
-        <br clear="all">
+        <br class="clear">
 
         <h4>Erläuterungen:</h4>
 
@@ -56,7 +56,7 @@
             <li>Die Suche kann bei langen Listen einige Sekunden dauern, da sie im Browser ausgeführt wird ist die Dauer von der Geschwindigkeit Ihres eigenen Rechners abhängig.</li>
         </ul>
 
-        <br clear="all">
+        <br class="clear">
 
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
