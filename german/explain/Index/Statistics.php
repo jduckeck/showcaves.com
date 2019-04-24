@@ -54,18 +54,18 @@
         <br class="clear">
 
 
-        <table align="center" border="1" cellspacing="0" cellpadding="5">
+        <table class="statistics">
             <thead>
             <tr>
-                <th bgcolor="white">Länder</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Schauhöhlen</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Höhlen</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">Karsterscheinungen</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Karstquellen</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Bergwerke</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Künstliche Hohlräume</th>
-                <th bgcolor="white"><img class="symbol" src="../../../graphics/symbol/Gorge.png" alt="Gorge">Schuchten</th>
-                <th bgcolor="white">Gesamt Land</th>
+                <th>Länder</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Schauhöhlen</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Höhlen</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">Karsterscheinungen</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Karstquellen</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Bergwerke</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Künstliche Hohlräume</th>
+                <th><img class="symbol" src="../../../graphics/symbol/Gorge.png" alt="Gorge">Schuchten</th>
+                <th>Gesamt Land</th>
             </tr>
             </thead>
             <tbody>
@@ -101,14 +101,14 @@
                     $countrycell = $country;
                     $cellatts = "";
                 } else if ($countrycode == 'us') {
-                    $countrycell = "<a data-ajax=\"false\" target=\"_top\" href=\"$filebase/usa/index.html\" name=\"usa\">$country</a>";
-                    $cellatts = " bgcolor=\"silver\"";
+                    $countrycell = "<a data-ajax=\"false\" target=\"_top\" href=\"$filebase/usa/index.html\" id=\"usa\">$country</a>";
+                    $cellatts = " class=\"chapter\"";
                 } else if ($chapter != null) {
-                    $countrycell = "<a data-ajax=\"false\" href=\"$filebase/$chapter/region/$countrycode.html\" name=\"$countrycode\">$country</a>";
+                    $countrycell = "<a data-ajax=\"false\" href=\"$filebase/$chapter/region/$countrycode.html\" id=\"$countrycode\">$country</a>";
                     $cellatts = "";
                 } else {
-                    $countrycell = "<a data-ajax=\"false\" target=\"_top\" href=\"$filebase/$countrycode/index.html\" name=\"$countrycode\">$country</a>";
-                    $cellatts = " bgcolor=\"silver\"";
+                    $countrycell = "<a data-ajax=\"false\" target=\"_top\" href=\"$filebase/$countrycode/index.html\" id=\"$countrycode\">$country</a>";
+                    $cellatts = " class=\"chapter\"";
                 }
 
                 $oldCountry = $country;
@@ -131,16 +131,16 @@
                     // head for new country
                     if ($oldCountry != $country) {
                         print ("
-            <tr>
-            <td$cellatts>$countrycell</td>
-            <td$cellatts align=\"right\">$showcaves</td>
-            <td$cellatts align=\"right\">$caves</td>
-            <td$cellatts align=\"right\">$karst</td>
-            <td$cellatts align=\"right\">$springs</td>
-            <td$cellatts align=\"right\">$mines</td>
-            <td$cellatts align=\"right\">$subterranea</td>
-            <td$cellatts align=\"right\">$gorges</td>
-            <td$cellatts align=\"right\">$countrytotal</td>
+            <tr$cellatts>
+            <td class='left'>$countrycell</td>
+            <td>$showcaves</td>
+            <td>$caves</td>
+            <td>$karst</td>
+            <td>$springs</td>
+            <td>$mines</td>
+            <td>$subterranea</td>
+            <td>$gorges</td>
+            <td>$countrytotal</td>
             </tr>
 ");
 
@@ -201,45 +201,45 @@
             }
 
             print ("
-            <tr>
-            <td$cellatts>$countrycell</td>
-            <td$cellatts align=\"right\">$showcaves</td>
-            <td$cellatts align=\"right\">$caves</td>
-            <td$cellatts align=\"right\">$karst</td>
-            <td$cellatts align=\"right\">$springs</td>
-            <td$cellatts align=\"right\">$mines</td>
-            <td$cellatts align=\"right\">$subterranea</td>
-            <td$cellatts align=\"right\">$gorges</td>
-            <td$cellatts align=\"right\">$countrytotal</td>
+            <tr$cellatts>
+            <td class='left'>$countrycell</td>
+            <td>$showcaves</td>
+            <td>$caves</td>
+            <td>$karst</td>
+            <td>$springs</td>
+            <td>$mines</td>
+            <td>$subterranea</td>
+            <td>$gorges</td>
+            <td>$countrytotal</td>
             </tr>
             ");
 
             print("</tbody>");
             print ("<tfoot style=\"background-color: #FFFFFF\">
             <tr>
-            <th bgcolor=\"white\">Länder</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\">Schauhöhlen</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Cave.png\" alt=\"Cave\">Höhlen</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Karst.png\" alt=\"Karst\">Karsterscheinungen</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Spring.png\" alt=\"Spring\">Karstquellen</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Mine.png\" alt=\"Mine\">Bergwerke</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Misc.png\" alt=\"Misc\">Künstliche Hohlräume</th>
-            <th bgcolor=\"white\"><img class=\"symbol\" src=\"../../../graphics/symbol/Gorge.png\" alt=\"Gorge\">Schuchten</th>
-            <th bgcolor=\"white\">Gesamt</th>
+            <th class='left'>Länder</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\">Schauhöhlen</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Cave.png\" alt=\"Cave\">Höhlen</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Karst.png\" alt=\"Karst\">Karsterscheinungen</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Spring.png\" alt=\"Spring\">Karstquellen</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Mine.png\" alt=\"Mine\">Bergwerke</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Misc.png\" alt=\"Misc\">Künstliche Hohlräume</th>
+            <th><img class=\"symbol\" src=\"../../../graphics/symbol/Gorge.png\" alt=\"Gorge\">Schuchten</th>
+            <th>Gesamt</th>
             </tr>
             ");
 
             print ("
             <tr>
-            <td>$countries Länder</td>
-            <td align=\"right\">$allshowcaves</td>
-            <td align=\"right\">$allcaves</td>
-            <td align=\"right\">$allkarst</td>
-            <td align=\"right\">$allsprings</td>
-            <td align=\"right\">$allmines</td>
-            <td align=\"right\">$allsubterranea</td>
-            <td align=\"right\">$allgorges</td>
-            <td align=\"right\">$alltotal</td>
+            <td class='left'>$countries Länder</td>
+            <td>$allshowcaves</td>
+            <td>$allcaves</td>
+            <td>$allkarst</td>
+            <td>$allsprings</td>
+            <td>$allmines</td>
+            <td>$allsubterranea</td>
+            <td>$allgorges</td>
+            <td>$alltotal</td>
             </tr>
             ");
 
