@@ -22,6 +22,12 @@ if ($statement->execute()) {
         //$url->addChild('priority', "0.8");
     }
 }
+
+$dom = new DOMDocument('1.0');
+$dom->preserveWhiteSpace = false;
+$dom->formatOutput = true;
+$dom->loadXML($xml->asXML());
+
 Header('Content-type: text/xml');
-print ($xml->asXML());
+print ($dom->saveXML());
 ?>
