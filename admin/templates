@@ -1,4 +1,8 @@
 
+bash:
+convert '*.jpg[1200x12000>]' F090-%03d.jpg
+
+
 Quote Url plugin advanced formatting
 <li><a target=\"_blank\"  href=\"@url\"><img src=\"../../../graphics/symbol/World.png\" alt=\"World\" class=\"ui-li-icon ui-corner-none\"><b>@title</b>, (visited: @date)</a></li>
 

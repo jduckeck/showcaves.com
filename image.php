@@ -11,7 +11,7 @@ global $pic, $type, $size, $l, $key;
 //---------------------------------------------------------------------------------------------------
 // first check blacklist
 //---------------------------------------------------------------------------------------------------
-if ( killfile() == true ) {
+if (killfile() == true) {
     echo "file not found (killfile)";
     exit;
 }
@@ -19,50 +19,50 @@ if ( killfile() == true ) {
 //---------------------------------------------------------------------------------------------------
 // find file
 //---------------------------------------------------------------------------------------------------
-$Filename = checkfile ( $pic, $type, $size, $l );
+$Filename = checkfile($pic, $type, $size, $l);
 
-if ( empty($Filename) || !file_exists($Filename) ) {
+if (empty($Filename) || !file_exists($Filename)) {
     echo "file [$Filename] not found";
     exit;
 }
 
-$picInfo = @GetImageSize ( $Filename );
-countHits ( $pic, $conn );
-$Filename = checkKey ( $pic, $size, $l, $key, $conn, $installDir, $Filename, $installDir );
+$picInfo = @GetImageSize($Filename);
+countHits($pic, $conn);
+$Filename = checkKey($pic, $size, $l, $key, $conn, $installDir, $Filename);
 
-if ( $size == "big" ) {
+if ($size == "big") {
     //$Filename = checkKey ( $pic, $type, $size, $l, $key, $conn, $installDir, $Filename, $installDir );
-} else  if ( $size=="tiny" ) {
+} else if ($size == "tiny") {
     // NOP at the moment
-} else  {
+} else {
     //branding ( $type, $size, $Filename );
 }
 
-$Filename = killfileVIP ( $Filename );
-$picInfo = @GetImageSize ( $Filename );
+$Filename = killfileVIP($Filename);
+$picInfo = @GetImageSize($Filename);
 
 
 //---------------------------------------------------------------------------------------------------
 // Return an image instead of an html page.
 // handle low res preview and display image.
 //---------------------------------------------------------------------------------------------------
-switch ( (int)$picInfo[2] ) {
+switch ((int)$picInfo[2]) {
 
     case 1: // GIF images
-        header ( "Content-type: image/gif" );
+        header("Content-type: image/gif");
         break;
 
     case 2: // jpeg images
-        header ( "Content-type: image/jpeg" );
+        header("Content-type: image/jpeg");
         break;
 
     default: // ??? images
-        header ( "Content-type: image/png" );
+        header("Content-type: image/png");
         break;
 
 }
 
-readfile ( $Filename );
+readfile($Filename);
 exit;
 
 ?>
