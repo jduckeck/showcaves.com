@@ -10,3 +10,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gua Pindul', '/english/other/caves/Pindul.html', 'Pindul', 'Asia', 'id', 'Indonesia', 'caves', 'id', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Carlotta Arch', '/english/au/caves/Carlotta.html', 'Carlotta', 'Australia', 'au', 'Australia', 'caves', 'nsw');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Métro de Paris', '/english/fr/subterranea/ParisMetro.html', 'ParisMetro', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kanarra Creek Gorge', '/english/usa/gorges/Kanarra.html', 'Kanarra', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kanze Limestone Cave', '/english/jp/caves/Kanze.html', 'Kanze', 'Asia', 'jp', 'Japan', 'caves', 'Kumamoto');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Catedral de Marmol', '/english/other/caves/Marmol.html', 'Marmol', 'SouthAmerica', 'cl', 'Chile', 'caves', 'cl', 'other');
