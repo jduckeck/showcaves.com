@@ -20,3 +20,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Catedral de Marmol', '/english/other/caves/Marmol.html', 'Marmol', 'SouthAmerica', 'cl', 'Chile', 'caves', 'cl', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Peshtera Kozarnika', '/english/bg/caves/Kozarnika.html', 'Kozarnika', 'Europe', 'bg', 'Bulgaria', 'caves', 'Vidin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kuang Si Falls', '/english/la/karst/KuangSi.html', 'KuangSi', 'Europe', 'la', 'Laos', 'karst', 'Louangphabang');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Syri i kaltër', '/english/other/springs/SyriIKalter.html', 'SyriIKalter', 'Europe', 'al', 'Albania', 'springs', 'al', 'misc');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Sri Nakarin Dam', '/english/th/karst/SriNakarin.html', 'SriNakarin', 'Asia', 'th', 'Thailand', 'karst', 'Kanchanaburi');
