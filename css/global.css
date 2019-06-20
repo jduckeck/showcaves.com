@@ -375,6 +375,7 @@ TABLE.index {
 
 .imgCaption {
     font-size: 70%;
+    max-width: 250px;
 }
 
 .copyMsg {

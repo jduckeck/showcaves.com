@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Kanze Limestone Cave', '/english/jp/caves/Kanze.html', 'Kanze', 'Asia', 'jp', 'Japan', 'caves', 'Kumamoto');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES('yes','Catedral de Marmol', '/english/other/caves/Marmol.html', 'Marmol', 'SouthAmerica', 'cl', 'Chile', 'caves', 'cl', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Peshtera Kozarnika', '/english/bg/caves/Kozarnika.html', 'Kozarnika', 'Europe', 'bg', 'Bulgaria', 'caves', 'Vidin');

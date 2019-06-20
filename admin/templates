@@ -291,3 +291,14 @@ http://www.showcaves.com/graphics/kmz/gorge.png
 
     <tr>\n\s+<td align="left" valign="top"><img class="symbol" src="../../../graphics/symbol/World.png" alt="World"></td>\n\s+<td valign="top"><a target="_blank" href="(.+?)">(.*?)</a></td>\n\s+<td valign="top">\n\s+((.|\n)*?)\n\s+</td>\n\s+</tr>
     <li><a target="_blank" href="$1"><img src="../../../graphics/80/latitude.png" alt="Link">\n<h3>$2</h3>\n<p>\n$3\n</p>\n</a></li>\n
+
+
+        <table class="rightImg">
+            <tr>
+                <td><a data-lightbox="page" href="../../../foreign/Big/F090-022.jpg" data-title='<b>Image:</b> . Public Domain.'><img alt="" src="../../../foreign/Big/F090-022.jpg" width="250"></a></td>
+            </tr>
+            <tr>
+                <td class="imgCaption"><b>Image:</b> . Public Domain.</td>
+            </tr>
+        </table>
+
