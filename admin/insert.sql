@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Syri i kaltër', '/english/other/springs/SyriIKalter.html', 'SyriIKalter', 'Europe', 'al', 'Albania', 'springs', 'al', 'misc');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Sri Nakarin Dam', '/english/th/karst/SriNakarin.html', 'SriNakarin', 'Asia', 'th', 'Thailand', 'karst', 'Kanchanaburi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Santa Cueva de Covadonga', '/english/es/caves/Covadonga.html', 'Covadonga', 'Europe', 'es', 'Spain', 'caves', 'Asturias');
