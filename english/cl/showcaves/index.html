@@ -27,65 +27,17 @@
     <!-- end responsive -->
 
 
-    <title>Map of Brazil</title>
+    <title>Show Caves of Chile</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <table width="100" align="right">
-            <tr>
-                <th><a data-ajax="false" target="_top" href="../../explain/Maps/SouthAmerica.html"><img src="../../../maps/SouthAmerica.gif" alt="Europe Map" border="1" hspace="0" width="61" height="101"></a></th>
-            </tr>
-            <tr>
-                <td class="center small">South America Map</td>
-            </tr>
-        </table>
-
-
-        <table width="100" align="left">
-            <tr>
-                <th><a data-ajax="false" target="_top" href="../../explain/Maps/SouthAmerica.html"><img src="../../../maps/SouthAmerica.gif" alt="Europe Map" border="1" hspace="0" width="61" height="101"></a></th>
-            </tr>
-            <tr>
-                <td class="center small">South America Map</td>
-            </tr>
-        </table>
-
-
-        <h1 class="center">Map of Brazil</h1>
-
-        <br class="clear">
-
-        <div class="center">
-            <map name="BrazilMap">
-                <area shape="rect" alt="Bahia" coords="626,343,659,355" href="Bahia.html">
-                <area shape="rect" alt="Minas Gerais" coords="568,449,646,461" href="MinasGerais.html">
-                <area shape="rect" alt="São Paulo" coords="462,532,523,545" href="SaoPaulo.html">
-                <area shape="rect" alt="Paraná" coords="415,591,459,604" href="Parana.html">
-                <area shape="rect" alt="Mato Grosso do Sol" coords="330,503,448,517" href="MatoGrosso.html">
-                <area shape="rect" alt="Goiás" coords="484,393,519,407" href="Goias.html">
-                <area shape="rect" alt="Ceará" coords="675,214,709,227" href="Ceara.html">
-                <area shape="rect" alt="Venezuela" coords="148,3,244,20" href="../../other/region/ve.html">
-                <area shape="rect" alt="Colombia" coords="16,44,101,63" href="../../other/region/co.html">
-                <area shape="rect" alt="Peru" coords="9,183,55,202" href="../../other/region/pe.html">
-                <area shape="rect" alt="Peru" coords="17,380,64,399" href="../../other/region/pe.html">
-                <area shape="rect" alt="Bolivia" coords="180,426,244,445" href="../../other/region/bo.html">
-                <area shape="rect" alt="Argentina" coords="175,653,266,673" href="../../other/region/ar.html">
-                <area shape="rect" alt="Chile" coords="103,583,153,602" href="../../cl/index.html">
-                <area shape="rect" alt="Paraguay" coords="272,566,365,587" nohref>
-                <area shape="rect" alt="Uruguay" coords="331,763,409,784" nohref>
-                <area shape="default" nohref>
-            </map>
-            <img alt="" src="../../../maps/Brazil.gif" USEMAP="#BrazilMap" border="1" width="800" height="795">
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+            </ul>
         </div>
-
-        <br>
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-        </ul>
 
     </div>
 
@@ -94,9 +46,17 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Brazil</a></li>
-                <li><a data-ajax="false" target="_top" href="ByRegion.html">by State</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Chile</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="ui-btn-active">Show Caves</a>
+                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
+                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
+                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
+                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
+                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
+                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
@@ -118,8 +78,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
