@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Khapra Kodiya Caves', '/english/in/subterranea/KhapraKodiya.html', 'KhapraKodiya', 'Asia', 'in', 'India', 'subterranea', 'Gujarat');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Leutasch-Klamm Wasserfallsteig', '/english/at/gorges/Leutasch.html', 'Leutasch', 'Europe', 'at', 'Austria', 'gorges', '$Region$');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Poço Encantado', '/english/br/springs/Encantado.html', 'Encantado', 'SouthAmerica', 'br', 'Brazil', 'springs', 'Bahia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Poço Azul', '/english/br/springs/Azul.html', 'Azul', 'SouthAmerica', 'br', 'Brazil', 'springs', 'Bahia');
