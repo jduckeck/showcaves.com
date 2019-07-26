@@ -28,3 +28,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ana Te Pora', '/english/cl/caves/TePora.html', 'TePora', 'SouthAmerica', 'cl', 'Chile', 'caves', 'Easter');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Ana Kakenga', '/english/cl/caves/Kakenga.html', 'Kakenga', 'SouthAmerica', 'cl', 'Chile', 'caves', 'Easter');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Gruta Dos Paiva', '/english/br/caves/Paiva.html', 'Paiva', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Gruta Alambari de Baixo', '/english/br/caves/Alambari.html', 'Alambari', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo');
