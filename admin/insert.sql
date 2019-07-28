@@ -32,3 +32,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gruta Dos Paiva', '/english/br/caves/Paiva.html', 'Paiva', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Gruta Alambari de Baixo', '/english/br/caves/Alambari.html', 'Alambari', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Erlebniswelt am Grünten', '/english/de/mines/Gruenten.html', 'Gruenten', 'Europe', 'de', 'Germany', 'mines', 'Alpen');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Bergbauerlebniswelt Imsbach', '/english/de/mines/Imsbach.html', 'Imsbach', 'Europe', 'de', 'Germany', 'mines', 'PfaelzerBergland');
