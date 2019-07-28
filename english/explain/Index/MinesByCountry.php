@@ -68,7 +68,7 @@ printByCountry($pdo, 'mines');
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Indexes</a></li>
-                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/MinesByCountry.php"><img alt="Deutsch" src="../../../graphics/flags/de-small.png" class="language"></a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/MinesByCountry.php"><img alt="Deutsch - German" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>
