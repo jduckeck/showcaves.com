@@ -96,7 +96,6 @@
     </div>
     <!-- Path End -->
 
-
     <!-- Navigation Bar Begin -->
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
@@ -114,8 +113,6 @@
     </div>
     <!-- Navigation Bar End -->
 
-
 </div>
-
 </body>
 </html>
