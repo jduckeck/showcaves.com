@@ -11,14 +11,14 @@ function openDB()
         $pass = "Kreibich";                            // MySQL-Kennwort
         $dbname = "db8399";                        // Standarddatenbank
     } else {
-        $server = "mysql4.showcaves.com";        // MySQL-Server
-        $user = "db8399";                        // MySQL-Nutzer
-        $pass = "Kreibich";                    // MySQL-Kennwort
-        $dbname = "db8399";                        // Standarddatenbank
+        $server = "mysql5.showcaves.com";        // MySQL-Server
+        $user = "db8399_1";                        // MySQL-Nutzer
+        $pass = "JGdamUUpvJjhcz4oCwAI";            // MySQL-Kennwort
+        $dbname = "db8399_1";                        // Standarddatenbank
     }
     $pdo = null;
     try {
-        $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+        $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
     } catch (PDOException $e) {
         echo "$e->errorInfo";
     }
