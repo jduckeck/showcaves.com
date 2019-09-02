@@ -68,7 +68,7 @@ ui-btn-active
 <li><a target="_blank" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"></a></li>
 
 \<tr\>\n\<td valign\=\"top\" nowrap\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
-<ul class="linklist3" data-role="listview" data-inset="true">\n    <li><a $1><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">$2</a></li>
+<ul class="linklist3" data-role="listview" data-inset="true">\n    <li><a $1><img class="ui-li-icon ui-corner-none symbol" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">$2</a></li>
 
 <li><a target="_blank" href=""><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World"><b></b></a></li>
 
@@ -81,7 +81,7 @@ ui-btn-active
 ((.|\n)*)
 
 <ul class="linklist3" data-role="listview" data-inset="true">
-<li><a (.*)><img class="ui-li-icon ui-corner-none" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">(.*)</a></li>
+<li><a (.*)><img class="ui-li-icon ui-corner-none symbol" vspace="0" hspace="0" src="../../../graphics/symbol/Region.gif"   width="12" height="12">(.*)</a></li>
 
 \<tr\>\n\<td valign\=\"top\"\>\n\<img vspace\=\"0\" hspace\=\"0\" src\=\"\.\.\/\.\.\/\.\.\/graphics\/symbol\/Region\.gif\"   width\=\"12\" height\=\"12\"\>\&nbsp\;\<a (.*)\>(.*)\<\/a\>\:\n\<\/td\>\n\<td\>
 
