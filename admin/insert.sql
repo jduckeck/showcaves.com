@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gottesackerplateau', '/english/de/karst/Gottesackerplateau.html', 'Gottesackerplateau', 'Europe', 'de', 'Germany', 'karst', 'Alpen');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES('yes','Blue Lagoon', '/english/car/springs/BlueLagoon.html', 'BlueLagoon', 'Caribbean Islands', 'jm', 'Jamaica', 'springs', 'jm', 'car');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Maghārat al-Dam', '/english/other/caves/AlDam.html', 'AlDam', 'MiddleEast', 'sy', 'Syria', 'caves', 'sy', 'other');
