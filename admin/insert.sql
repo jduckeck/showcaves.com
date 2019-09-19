@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Sa Morakot', '/english/th/springs/SaMorakot.html', 'SaMorakot', 'Asia', 'th', 'Thailand', 'springs', 'Krabi');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Gwangmyeongdonggul', '/english/kr/mines/Gwangmyeong.html', 'Gwangmyeong', 'Asia', 'kr', 'South Korea', 'mines', 'Gyeonggi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Casino Keller', '/english/at/subterranea/CasinoKeller.html', 'CasinoKeller', 'Europe', 'at', 'Austria', 'subterranea', 'Ober');
