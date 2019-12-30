@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="keywords"
+          content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
     <meta name="copyright" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
     <meta name="author" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
     <meta name="publisher" content="Jochen Duckeck (http://www.JochenDuckeck.de/)">
