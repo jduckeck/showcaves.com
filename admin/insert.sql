@@ -10,3 +10,6 @@ VALUES ('yes', 'Peštera Pešna', '/english/other/caves/Peshna.html', 'Peshna', 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Auracher Löchl', '/english/at/subterranea/Auracher.html', 'Auracher', 'Europe', 'at', 'Austria',
         'subterranea', 'Tirol');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Electric Mountain Visitor Centre', '/english/gb/subterranea/ElectricMountain.html', 'ElectricMountain',
+        'Europe', 'gb', 'Great Britain', 'subterranea', 'Wales');
