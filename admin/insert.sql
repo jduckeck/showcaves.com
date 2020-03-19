@@ -25,3 +25,6 @@ VALUES ('yes', 'Go Below Underground Adventures', '/english/gb/mines/GoBelow.htm
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES ('yes', 'Levon’s Divine Underground', '/english/other/subterranea/Levon.html', 'Levon', 'Europe', 'am',
         'Armenia', 'subterranea', 'am', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'City Museum', '/english/usa/subterranea/CityMuseum.html', 'CityMuseum', 'NorthAmerica', 'usa',
+        'United States of America', 'subterranea', 'il');
