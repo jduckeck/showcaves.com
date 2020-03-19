@@ -13,3 +13,12 @@ VALUES ('yes', 'Auracher Löchl', '/english/at/subterranea/Auracher.html', 'Aura
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Electric Mountain Visitor Centre', '/english/gb/subterranea/ElectricMountain.html', 'ElectricMountain',
         'Europe', 'gb', 'Great Britain', 'subterranea', 'Wales');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Corris Mine Explorers', '/english/gb/mines/CorrisMineExplorers.html', 'CorrisMineExplorers', 'Europe',
+        'gb', 'Great Britain', 'mines', 'Wales');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Winding House', '/english/gb/mines/WindingHouse.html', 'WindingHouse', 'Europe', 'gb', 'Great Britain',
+        'mines', 'Wales');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Go Below Underground Adventures', '/english/gb/mines/GoBelow.html', 'GoBelow', 'Europe', 'gb',
+        'Great Britain', 'mines', 'Wales');
