@@ -34,3 +34,6 @@ VALUES ('yes', 'Österreichisches Felsbildermuseum', '/english/at/subterranea/Fe
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Kőbányai pincerendszer', '/english/hu/subterranea/Kobanya.html', 'Kobanya', 'Europe', 'hu', 'Hungary',
         'subterranea', 'Budapest');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Aliança Underground Museum', '/english/pt/subterranea/Alianca.html', 'Alianca', 'Europe', 'pt',
+        'Portugal', 'subterranea', '$Region$');
