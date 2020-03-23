@@ -37,3 +37,24 @@ VALUES ('yes', 'Kőbányai pincerendszer', '/english/hu/subterranea/Kobanya.html
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Aliança Underground Museum', '/english/pt/subterranea/Alianca.html', 'Alianca', 'Europe', 'pt',
         'Portugal', 'subterranea', '$Region$');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museu Mineiro do Lousal', '/english/pt/mines/Lousal.html', 'Lousal', 'Europe', 'pt', 'Portugal',
+        'mines', 'Setubal');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Mina de São Domingos', '/english/pt/mines/SaoDomingos.html', 'SaoDomingos', 'Europe', 'pt', 'Portugal',
+        'mines', 'Beja');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Mina subterrânea de Sal-Gema de Loulé', '/english/pt/mines/Loule.html', 'Loule', 'Europe', 'pt',
+        'Portugal', 'mines', 'Faro');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Monsanto', '/english/pt/subterranea/Monsanto.html', 'Monsanto', 'Europe', 'pt', 'Portugal',
+        'subterranea', 'CasteloBranco');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Quinta da Regaleira', '/english/pt/subterranea/QuintaDaRegaleira.html', 'QuintaDaRegaleira', 'Europe',
+        'pt', 'Portugal', 'subterranea', 'Lisboa');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grutas do Rossio', '/english/pt/subterranea/Rossio.html', 'Rossio', 'Europe', 'pt', 'Portugal',
+        'subterranea', 'Beja');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grutas do Rossio', '/english/pt/subterranea/Rossio.html', 'Rossio', 'Europe', 'pt', 'Portugal',
+        'subterranea', 'Beja');

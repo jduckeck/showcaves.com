@@ -36,8 +36,12 @@
     <div data-role="main" class="ui-content">
 
 
-        <li><a data-ajax="false" target="_top" href="../../pt/karst/$FileName$.html">$CaveName$</a></li>
-        <li><a data-ajax="false" target="_top" href="../../pt/karst/$FileName$.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">$CaveName$</a></li>
+        <!--
+          <li><a data-ajax="false" target="_top" href="../../pt/karst/$FileName$.html">$CaveName$</a></li>
+       <li><a data-ajax="false" target="_top" href="../../pt/karst/$FileName$.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">$CaveName$</a></li>
+       INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+       VALUES('yes','$CaveName$', '/english/pt/karst/$FileName$.html', '$FileName$', 'Europe', 'pt', 'Portugal', 'karst', '$Region$');
+       -->
 
         <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
@@ -131,6 +135,15 @@
         <p>
         </p>
 
+        <br class="clear">
+
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png" alt="Google">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/pt/$FileName$.kmz"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png" alt="GoogleEarth">Google Earth Placemark</a></li>
+        </ul>
+
 
     </div>
 
@@ -140,6 +153,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Portugal</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">Distrito de $Region$</a></li>
             </ul>
         </div>
     </div>
