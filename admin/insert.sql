@@ -58,3 +58,21 @@ VALUES ('yes', 'Grutas do Rossio', '/english/pt/subterranea/Rossio.html', 'Rossi
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Grutas do Rossio', '/english/pt/subterranea/Rossio.html', 'Rossio', 'Europe', 'pt', 'Portugal',
         'subterranea', 'Beja');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Algar de Benagil', '/english/pt/caves/Benagil.html', 'Benagil', 'Europe', 'pt', 'Portugal', 'caves',
+        'Faro');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Parque Mineiro De Aljustrel', '/english/pt/mines/Aljustrel.html', 'Aljustrel', 'Europe', 'pt',
+        'Portugal', 'mines', 'Beja');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Algar do Pena', '/english/pt/showcaves/Pena.html', 'Pena', 'Europe', 'pt', 'Portugal', 'showcaves',
+        'Santarem');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Polje de Mira-Minde', '/english/pt/karst/MiraMinde.html', 'MiraMinde', 'Europe', 'pt', 'Portugal',
+        'karst', 'Leiria');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Nascentes do Alviela', '/english/pt/springs/Alviela.html', 'Alviela', 'Europe', 'pt', 'Portugal',
+        'springs', 'Santarem');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Parque Natural da Arrábida', '/english/pt/caves/Arrabida.html', 'Arrabida', 'Europe', 'pt', 'Portugal',
+        'caves', 'Setubal');
