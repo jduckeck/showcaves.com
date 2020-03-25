@@ -82,3 +82,6 @@ VALUES ('yes', 'José Maria da Fonseca Wine Cellars', '/english/pt/subterranea/F
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Manazan Mağaraları', '/english/tr/subterranea/Manazan.html', 'Manazan', 'Europe', 'tr', 'Turkey',
         'subterranea', 'Taurus');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Boca do Inferno', '/english/pt/caves/Inferno.html', 'Inferno', 'Europe', 'pt', 'Portugal', 'caves',
+        'Lisboa');
