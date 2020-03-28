@@ -85,3 +85,6 @@ VALUES ('yes', 'Manazan Mağaraları', '/english/tr/subterranea/Manazan.html', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Boca do Inferno', '/english/pt/caves/Inferno.html', 'Inferno', 'Europe', 'pt', 'Portugal', 'caves',
         'Lisboa');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grutas de Intervales', '/english/br/showcaves/Intervales.html', 'Intervales', 'SouthAmerica', 'br',
+        'Brazil', 'showcaves', 'SaoPaulo');
