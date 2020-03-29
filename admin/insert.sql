@@ -88,3 +88,9 @@ VALUES ('yes', 'Boca do Inferno', '/english/pt/caves/Inferno.html', 'Inferno', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Grutas de Intervales', '/english/br/showcaves/Intervales.html', 'Intervales', 'SouthAmerica', 'br',
         'Brazil', 'showcaves', 'SaoPaulo');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Catacombe di San Gennaro', '/english/it/subterranea/SanGennaro.html', 'SanGennaro', 'Europe', 'it',
+        'Italy', 'subterranea', 'Napoli');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Catacombe di San Gaudioso', '/english/it/subterranea/SanGaudioso.html', 'SanGaudioso', 'Europe', 'it',
+        'Italy', 'subterranea', 'Napoli');
