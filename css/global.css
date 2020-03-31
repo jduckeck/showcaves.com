@@ -353,6 +353,28 @@ TABLE.rightLang {
     font-size: 60%;
 }
 
+TABLE.leftMap {
+    clear: left;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0 0 0 0;
+    border-width: 0;
+    font-size: 60%;
+    width: 100px;
+    text-align: center;
+}
+
+TABLE.rightMap {
+    clear: right;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0;
+    border-width: 0;
+    font-size: 60%;
+    width: 100px;
+    text-align: center;
+}
+
 TABLE.centerImg {
     clear: both;
     position: relative;
