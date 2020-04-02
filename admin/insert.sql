@@ -97,3 +97,6 @@ VALUES ('yes', 'Catacombe di San Gaudioso', '/english/it/subterranea/SanGaudioso
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Longyou Caves', '/english/cn/subterranea/Longyou.html', 'Longyou', 'Asia', 'cn', 'China', 'subterranea',
         'Zhejiang');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Binġemma', '/english/mt/subterranea/Bingemma.html', 'Bingemma', 'Europe', 'mt', 'Malta', 'subterranea',
+        'Malta');
