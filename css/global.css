@@ -335,6 +335,26 @@ TABLE.rightImg {
     max-width: 260px;
 }
 
+figure {
+    background-color: darkgrey;
+    display: table;
+    padding: 0;
+    border-width: 0;
+    width: 14px;
+}
+
+figure.right {
+    clear: right;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+}
+
+figure.left {
+    clear: left;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+}
+
 TABLE.leftLang {
     clear: left;
     float: left;
@@ -397,7 +417,9 @@ TABLE.index {
 
 .imgCaption {
     font-size: 70%;
-    max-width: 250px;
+    max-width: 100%;
+    display: table-caption;
+    caption-side: bottom;
 }
 
 .copyMsg {
