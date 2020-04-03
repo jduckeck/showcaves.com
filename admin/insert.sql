@@ -100,3 +100,18 @@ VALUES ('yes', 'Longyou Caves', '/english/cn/subterranea/Longyou.html', 'Longyou
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Binġemma', '/english/mt/subterranea/Bingemma.html', 'Bingemma', 'Europe', 'mt', 'Malta', 'subterranea',
         'Malta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Museum of Independence', '/english/other/subterranea/Independence.html', 'Independence', 'Asia', 'bd',
+        'Bangladesh', 'subterranea', 'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Alutila Cave', '/english/other/caves/Alutila.html', 'Alutila', 'Asia', 'bd', 'Bangladesh', 'caves',
+        'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Kana Raja\'s Cave', '/english/other/caves/KanaRaja.html', 'KanaRaja', 'Asia', 'bd', 'Bangladesh',
+        'caves', 'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Alikadam Cave', '/english/other/caves/Alikadam.html', 'Alikadam', 'Asia', 'bd', 'Bangladesh', 'caves',
+        'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Kundum Cave', '/english/other/caves/Kundum.html', 'Kundum', 'Asia', 'bd', 'Bangladesh', 'caves', 'bd',
+        'other');
