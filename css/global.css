@@ -336,7 +336,6 @@ TABLE.rightImg {
 }
 
 figure {
-    background-color: darkgrey;
     display: table;
     padding: 0;
     border-width: 0;
@@ -353,6 +352,10 @@ figure.left {
     clear: left;
     float: left;
     margin: 0 0.5em 0.5em 0;
+}
+
+figcaption {
+    font-size: 80%;
 }
 
 TABLE.leftLang {
