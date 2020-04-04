@@ -291,7 +291,7 @@ http://www.showcaves.com/graphics/kmz/gorge.png
 <a target="_top" href="../../explain/Karst/TowerKarst.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tower Karst</a>
 
 <tr>\n\s+<td align="left" valign="top"><img class="symbol" src="../../../graphics/symbol/World.png" alt="World"></td>\n\s+<td valign="top"><a target="_blank" href="(.+?)">(.*?)</a></td>\n\s+<td valign="top">\n\s+((.|\n)*?)\n\s+</td>\n\s+</tr>
-<li><a target="_blank" href="$1"><img src="../../../graphics/80/latitude.png" alt="Link">\n<h3>$2</h3>\n<p>\n$3\n</p>\n</a></li>\n
+<li><a target="_blank" href="$1"><img alt="Link" src="../../../graphics/80/latitude.png">\n<h3>$2</h3>\n<p>\n$3\n</p>\n</a></li>\n
 
         \<table class\=\"(.+)Img\"\>\n            \<tr\>\n                \<t.\>(.+)\<\/t.\>\n            \<\/tr\>\n            \<tr\>\n                \<td class\=\"imgCaption\"\>(.+)\<\/td\>\n            \<\/tr\>\n        \<\/table\>
 
