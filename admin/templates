@@ -141,20 +141,6 @@ http://www.showcaves.com/graphics/kmz/spring.png
 http://www.showcaves.com/graphics/kmz/gorge.png
 
 
-    \s*
-    <table class="centerImg" .*>\n\s*
-        <tr>\n\s*
-            <td><a data-ajax="false" target="_top" href="(.+?)"><img .*></a></td>
-            \n\s*
-        </tr>
-        \n\s*
-        <tr>\n\s*
-            <td class="imgCaption">([^']+?)</td>
-            \n\s*
-        </tr>
-        \n\s*
-    </table>
-
     \n<a data-lightbox="gallery" href="$1" data-title='$2'></a>
 
     <a(.+?)</a>\, (.+?) \|
