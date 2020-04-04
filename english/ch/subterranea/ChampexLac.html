@@ -27,8 +27,8 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Colline de Géronde Switzerland Subterranea showcaves.com">
-    <title>Subterranea of Switzerland: Colline de Géronde</title>
+    <meta name="description" content="$CaveName$ Switzerland Subterranea showcaves.com">
+    <title>Subterranea of Switzerland: $CaveName$</title>
 </head>
 
 <body>
@@ -36,8 +36,15 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Colline de Géronde</h1>
-        <h2 class="center">Grotte des Nains</h2>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../ch/subterranea/ChampexLac.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../ch/subterranea/ChampexLac.html"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png" alt="Subterranea">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/ch/subterranea/ChampexLac.html', 'ChampexLac', 'Europe', 'ch', 'Switzerland', 'subterranea', '$Region$');
+        -->
+
+        <h1 class="center">$CaveName$</h1>
+        <h2 class="center">Artilleriefestung von Champex-Lac</h2>
 
         <br class="clear">
 
@@ -48,7 +55,7 @@
             <tr>
                 <td><a data-ajax="false" target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
-                    Sierre
+                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -134,7 +141,11 @@
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Colline+de+Géronde"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png" alt="Google">Search Google for "Colline de Géronde"</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png" alt="Google">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/ch/ChampexLac.kmz"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png" alt="GoogleEarth">Google Earth Placemark</a></li>
+            <li><a target="_blank" href="https://www.proforteresse.ch/"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World">Pro Fortress Association (visited: 10-DEZ.-2019)</a></li>
+            <li><a target="_blank" href="https://www.champex.ch/de/aktivitaten/seien-sie-nach-herzenlust-aktiv/aktivitaeten-verzeichnis/item/6120-artilleriefestung-von-champex-lac"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World">Artilleriefestung von Champex-Lac <img alt="Deutsch - German" src="../../../graphics/flags/de-small.png" class="language"> (visited: 10-DEZ.-2019)</a></li>
+            <li><a target="_blank" href="https://www.valais.ch/en/activities/culture-customs/castles-fortresses/the-artillery-fort"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png" alt="World">The artillery fort (visited: 31-März-2020)</a></li>
         </ul>
 
 
@@ -146,7 +157,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Switzerland</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/Wallis.html">Wallis</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$</a></li>
             </ul>
         </div>
     </div>
