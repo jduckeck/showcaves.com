@@ -57,7 +57,7 @@
     	<name>Western Cape</name>
     	<Placemark>
     		<name>St Blaize Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
     		<LookAt>
     			<longitude>22.15651811187099</longitude>
     			<latitude>-34.1861846494283</latitude>
@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Kaaiman&apos;s Grotto</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
     		<LookAt>
     			<longitude>22.55742040189781</longitude>
     			<latitude>-33.99767871951782</latitude>
@@ -91,7 +91,7 @@
     	</Placemark>
 		<Placemark>
 			<name>Cango Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
 			<LookAt>
 				<longitude>22.21248401609856</longitude>
 				<latitude>-33.39797402129807</latitude>

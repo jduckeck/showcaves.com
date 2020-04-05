@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Gruta do Zambujal</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Zambujal.html"            ><span class="strike">Gruta do Zambujal</span></a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Zambujal.html"            ><span class="strike">Gruta do Zambujal</span></a>]]></description>
 		<LookAt>
 			<longitude>-9.129526387278519</longitude>
 			<latitude>38.44135239171957</latitude>

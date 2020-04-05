@@ -56,7 +56,7 @@
         </Style>
     	<Placemark>
     		<name>Vinegar Hill Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Vinegar  " href="../../../english/usa/mines/Vinegar.html"           >Vinegar Hill Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Vinegar  " href="../../../english/usa/mines/Vinegar.html"           >Vinegar Hill Mine</a>]]></description>
     		<LookAt>
     			<longitude>-90.42496499999996</longitude>
     			<latitude>42.50056200000003</latitude>
@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Shawnee Cave Amphitheatre</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Shawnee  " href="../../../english/usa/showcaves/Shawnee.html"           >Shawnee Cave Amphitheatre</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Shawnee  " href="../../../english/usa/showcaves/Shawnee.html"           >Shawnee Cave Amphitheatre</a>]]></description>
     		<LookAt>
     			<longitude>-89.3229413513827</longitude>
     			<latitude>37.65299777898355</latitude>
@@ -89,7 +89,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Illinois Caverns</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../../english/usa/caves/Illinois.html"           >Illinois Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../../english/usa/caves/Illinois.html"           >Illinois Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-90.13691122823737</longitude>
     			<latitude>38.23600502193997</latitude>
@@ -105,7 +105,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Chicago Museum of Science and Industry</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Chicago  " href="../../../english/usa/mines/Chicago.html"           >Chicago Museum of Science and Industry</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Chicago  " href="../../../english/usa/mines/Chicago.html"           >Chicago Museum of Science and Industry</a>]]></description>
     		<LookAt>
     			<longitude>-87.58254060843098</longitude>
     			<latitude>41.79072461028456</latitude>
@@ -122,7 +122,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cave-in-Rock State Park</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="CaveInRock  " href="../../../english/usa/caves/Cave-in-Rock.html"           >Cave-in-Rock State Park</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a sort="CaveInRock  " href="../../../english/usa/caves/Cave-in-Rock.html"           >Cave-in-Rock State Park</a>]]></description>
     		<LookAt>
     			<longitude>-88.19740711638396</longitude>
     			<latitude>37.46148445543528</latitude>

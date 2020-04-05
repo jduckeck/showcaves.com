@@ -57,7 +57,7 @@
     	<name>Pennsylvania</name>
         <Placemark>
             <name>Woodward Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/usa/showcaves/Woodward.html"           >Woodward Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/usa/showcaves/Woodward.html"           >Woodward Cave</a>]]></description>
             <LookAt>
                 <longitude>-77.38763214096298</longitude>
                 <latitude>40.8877923657711</latitude>
@@ -74,7 +74,7 @@
         </Placemark>
         <Placemark>
             <name>Penn&apos;s Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Penn  " href="../../../english/usa/showcaves/Penn.html"           >Penn&apos;s Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Penn  " href="../../../english/usa/showcaves/Penn.html"           >Penn&apos;s Cave</a>]]></description>
             <LookAt>
                 <longitude>-77.61154474583196</longitude>
                 <latitude>40.8817519664554</latitude>
@@ -91,7 +91,7 @@
         </Placemark>
         <Placemark>
             <name>Lost River Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="LostRiver  " href="../../../english/usa/showcaves/LostRiver.html"           >Lost River Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="LostRiver  " href="../../../english/usa/showcaves/LostRiver.html"           >Lost River Caverns</a>]]></description>
             <LookAt>
                 <longitude>-75.33268543575416</longitude>
                 <latitude>40.58026840998142</latitude>
@@ -108,7 +108,7 @@
         </Placemark>
         <Placemark>
             <name>Lincoln Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Lincoln  " href="../../../english/usa/showcaves/Lincoln.html"           >Lincoln Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Lincoln  " href="../../../english/usa/showcaves/Lincoln.html"           >Lincoln Caverns</a>]]></description>
             <LookAt>
                 <longitude>-78.07082054353791</longitude>
                 <latitude>40.50727276180181</latitude>
@@ -125,7 +125,7 @@
         </Placemark>
         <Placemark>
             <name>Indian Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Indian  " href="../../../english/usa/showcaves/Indian.html"           >Indian Cavern</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Indian  " href="../../../english/usa/showcaves/Indian.html"           >Indian Cavern</a>]]></description>
             <LookAt>
                 <longitude>-78.08841542652064</longitude>
                 <latitude>40.64470920518979</latitude>
@@ -142,7 +142,7 @@
         </Placemark>
         <Placemark>
             <name>Indian Echo Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="IndianEcho  " href="../../../english/usa/showcaves/IndianEcho.html"           >Indian Echo Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="IndianEcho  " href="../../../english/usa/showcaves/IndianEcho.html"           >Indian Echo Caverns</a>]]></description>
             <LookAt>
                 <longitude>-76.70951317266703</longitude>
                 <latitude>40.25509082050465</latitude>
@@ -159,7 +159,7 @@
         </Placemark>
         <Placemark>
             <name>Laurel Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Laurel  " href="../../../english/usa/showcaves/Laurel.html"           >Laurel Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Laurel  " href="../../../english/usa/showcaves/Laurel.html"           >Laurel Caverns</a>]]></description>
             <LookAt>
                 <longitude>-79.72330058296529</longitude>
                 <latitude>39.81252812200018</latitude>
@@ -176,7 +176,7 @@
         </Placemark>
         <Placemark>
             <name>Crystal Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Crystal  " href="../../../english/usa/showcaves/Crystal.html"           >Crystal Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Crystal  " href="../../../english/usa/showcaves/Crystal.html"           >Crystal Cave</a>]]></description>
             <LookAt>
                 <longitude>-75.84347104653244</longitude>
                 <latitude>40.52727583552244</latitude>
@@ -193,7 +193,7 @@
         </Placemark>
         <Placemark>
             <name>Coral Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Coral  " href="../../../english/usa/showcaves/Coral.html"           >Coral Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Coral  " href="../../../english/usa/showcaves/Coral.html"           >Coral Caverns</a>]]></description>
             <LookAt>
                 <longitude>-78.58780879722494</longitude>
                 <latitude>40.00687018641131</latitude>
@@ -210,7 +210,7 @@
         </Placemark>
         <Placemark>
             <name>Franklin Court Underground Museum</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a sort="FranklinCourt  " href="../../../english/usa/misc/FranklinCourt.html"           >Franklin Court Underground Museum</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a sort="FranklinCourt  " href="../../../english/usa/misc/FranklinCourt.html"           >Franklin Court Underground Museum</a>]]></description>
             <LookAt>
                 <longitude>-75.14671208972955</longitude>
                 <latitude>39.94942134268404</latitude>
@@ -226,7 +226,7 @@
         </Placemark>
     	<Placemark>
     		<name>Trough Creek Ice Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a sort="TroughCreek  " href="../../../english/usa/misc/TroughCreek.html"           >Trough Creek Ice Mine</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a sort="TroughCreek  " href="../../../english/usa/misc/TroughCreek.html"           >Trough Creek Ice Mine</a>]]></description>
     		<LookAt>
     			<longitude>-78.12171246465653</longitude>
     			<latitude>40.33202745954465</latitude>
@@ -243,7 +243,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Seldom Seen Tourist Coal Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="SeldomSeen  " href="../../../english/usa/mines/SeldomSeen.html"           >Seldom Seen Tourist Coal Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="SeldomSeen  " href="../../../english/usa/mines/SeldomSeen.html"           >Seldom Seen Tourist Coal Mine</a>]]></description>
     		<LookAt>
     			<longitude>-78.67623777899773</longitude>
     			<latitude>40.65793447574476</latitude>
@@ -260,7 +260,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Tour-Ed Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="TourEd  " href="../../../english/usa/mines/Tour-Ed.html"           >Tour-Ed Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="TourEd  " href="../../../english/usa/mines/Tour-Ed.html"           >Tour-Ed Mine</a>]]></description>
     		<LookAt>
     			<longitude>-79.76074316859986</longitude>
     			<latitude>40.61728846334776</latitude>
@@ -276,7 +276,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Pioneer Tunnel Coal Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Pioneer  " href="../../../english/usa/mines/Pioneer.html"           >Pioneer Tunnel Coal Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Pioneer  " href="../../../english/usa/mines/Pioneer.html"           >Pioneer Tunnel Coal Mine</a>]]></description>
     		<LookAt>
     			<longitude>-76.35227807727658</longitude>
     			<latitude>40.77879434258414</latitude>
@@ -292,7 +292,7 @@
     	</Placemark>
     	<Placemark>
     		<name>The No. 9 Mine &amp; Museum</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="No9  " href="../../../english/usa/mines/No9.html"           >The No. 9 Mine &amp; Museum</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="No9  " href="../../../english/usa/mines/No9.html"           >The No. 9 Mine &amp; Museum</a>]]></description>
     		<LookAt>
     			<longitude>-75.89869</longitude>
     			<latitude>40.828553</latitude>
@@ -308,7 +308,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Lackawanna Coal Mine Tour</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Lackawanna  " href="../../../english/usa/mines/Lackawanna.html"           >Lackawanna Coal Mine Tour</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Lackawanna  " href="../../../english/usa/mines/Lackawanna.html"           >Lackawanna Coal Mine Tour</a>]]></description>
     		<LookAt>
     			<longitude>-75.66448436660495</longitude>
     			<latitude>41.40854629095386</latitude>
@@ -325,7 +325,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Coudersport Ice Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Coudersport  " href="../../../english/usa/mines/Coudersport.html"           >Coudersport Ice Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Coudersport  " href="../../../english/usa/mines/Coudersport.html"           >Coudersport Ice Mine</a>]]></description>
     		<LookAt>
     			<longitude>-77.95869183358707</longitude>
     			<latitude>41.7550940759624</latitude>
@@ -342,7 +342,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Centralia Burning Coal Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Centralia  " href="../../../english/usa/mines/Centralia.html"           >Centralia Burning Coal Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Centralia  " href="../../../english/usa/mines/Centralia.html"           >Centralia Burning Coal Mine</a>]]></description>
     		<LookAt>
     			<longitude>-76.34413684402995</longitude>
     			<latitude>40.80025393575183</latitude>
@@ -359,7 +359,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Mines &amp; Meadows ATV Riding Resort</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/MinesMeadows.html"            >Mines &amp; Meadows ATV Riding Resort</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../usa/misc/MinesMeadows.html"            >Mines &amp; Meadows ATV Riding Resort</a>]]></description>
     		<open>1</open>
     		<address>1307 Old Route 18, Wampum, PA 16157, Vereinigte Staaten</address>
     		<LookAt>

@@ -57,7 +57,7 @@
     	<name>Phang-nga Province, Thailand</name>
     	<Placemark>
     		<name>Wat Tham Tapan</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/Tapan.html"                    >Wat Tham Tapan</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../th/misc/Tapan.html"                    >Wat Tham Tapan</a>]]></description>
     		<LookAt>
     			<longitude>98.52782431245448</longitude>
     			<latitude>8.454335887889965</latitude>
@@ -92,7 +92,7 @@
     -->
     	<Placemark>
     		<name>James Bond Rock</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../th/karst/JamesBond.html"               >James Bond Rock</a>]]></description>
+            <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../th/karst/JamesBond.html"               >James Bond Rock</a>]]></description>
     		<LookAt>
     			<longitude>98.50068461591013</longitude>
     			<latitude>8.274831805787356</latitude>
@@ -109,7 +109,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Wat Tham Suwan Kuha</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../th/misc/SuwanKuha.html"                >Tham Suwan Kuha</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../th/misc/SuwanKuha.html"                >Tham Suwan Kuha</a>]]></description>
     		<LookAt>
     			<longitude>98.47126844297195</longitude>
     			<latitude>8.428600032308184</latitude>

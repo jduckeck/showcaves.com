@@ -64,15 +64,15 @@
     		<styleUrl>#spring</styleUrl>
     		<styleUrl>#gorge</styleUrl>
 
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Beatrix.html"                 >Beatrix Mine</a>]]></description>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Joel.html"                    >Joel Mine</a>]]></description>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Koffiefontein.html"           >De Beers Open Mine</a>]]></description>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/StHelena.html"                >St. Helena Gold Mine</a>]]></description>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Beatrix.html"                 >Beatrix Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Joel.html"                    >Joel Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Koffiefontein.html"           >De Beers Open Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/StHelena.html"                >St. Helena Gold Mine</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
 -->
 		<Placemark>
 			<name>Jagersfontein Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Jagersfontein.html"           >Jagersfontein Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Jagersfontein.html"           >Jagersfontein Mine</a>]]></description>
 			<LookAt>
 				<longitude>25.4269878084538</longitude>
 				<latitude>-29.77259108884589</latitude>

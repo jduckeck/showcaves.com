@@ -58,7 +58,7 @@
         <Placemark>
             <name>Argo Gold Mill and Museum</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Argo  " href="../../../english/usa/mines/Argo.html"           >Argo Gold Mill and Museum</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Argo  " href="../../../english/usa/mines/Argo.html"           >Argo Gold Mill and Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.5066590318788</longitude>
@@ -77,7 +77,7 @@
         <Placemark>
             <name>Bachelor-Syracuse Mine Tour</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="BachelorSyracuse  " href="../../../english/usa/mines/BachelorSyracuse.html"           >Bachelor-Syracuse Mine Tour</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="BachelorSyracuse  " href="../../../english/usa/mines/BachelorSyracuse.html"           >Bachelor-Syracuse Mine Tour</a>]]>
             </description>
             <LookAt>
                 <longitude>-107.6809374497656</longitude>
@@ -96,7 +96,7 @@
         <Placemark>
             <name>Carbonate Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Carbonate  " href="../../../english/usa/mines/Carbonate.html"           >Carbonate Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Carbonate  " href="../../../english/usa/mines/Carbonate.html"           >Carbonate Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.9826567739817</longitude>
@@ -115,7 +115,7 @@
         <Placemark>
             <name>Cave of the Winds</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="CaveOfTheWind  " href="../../../english/usa/showcaves/CaveOfTheWind.html"           >Cave of the Winds</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="CaveOfTheWind  " href="../../../english/usa/showcaves/CaveOfTheWind.html"           >Cave of the Winds</a>]]>
             </description>
             <LookAt>
                 <longitude>-104.9188283076811</longitude>
@@ -134,7 +134,7 @@
         <Placemark>
             <name>The Country Boy Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="CountryBoy  " href="../../../english/usa/mines/CountryBoy.html"           >The Country Boy Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="CountryBoy  " href="../../../english/usa/mines/CountryBoy.html"           >The Country Boy Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.0333355928739</longitude>
@@ -153,7 +153,7 @@
         <Placemark>
             <name>Creede Underground Mining Museum</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Creede  " href="../../../english/usa/mines/Creede.html"           >Creede Underground Mining Museum</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Creede  " href="../../../english/usa/mines/Creede.html"           >Creede Underground Mining Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.9235723811102</longitude>
@@ -171,7 +171,7 @@
         <Placemark>
             <name>CSM Edgar Experimental Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Edgar  " href="../../../english/usa/mines/Edgar.html"           >CSM Edgar Experimental Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Edgar  " href="../../../english/usa/mines/Edgar.html"           >CSM Edgar Experimental Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.5249366055381</longitude>
@@ -190,7 +190,7 @@
         <Placemark>
             <name>Fulford Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="Fulford  " href="../../../english/usa/caves/Fulford.html"           >Fulford Cave</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a sort="Fulford  " href="../../../english/usa/caves/Fulford.html"           >Fulford Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.659235903291</longitude>
@@ -209,7 +209,7 @@
         <Placemark>
             <name>Glenwood Caverns</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/usa/showcaves/Glenwood.html"           >Glenwood Caverns</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/usa/showcaves/Glenwood.html"           >Glenwood Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-107.3330885056779</longitude>
@@ -228,7 +228,7 @@
         <Placemark>
             <name>Hard Tack Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/usa/mines/HardTack.html"           >Hard Tack Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/usa/mines/HardTack.html"           >Hard Tack Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-107.3771343761541</longitude>
@@ -247,7 +247,7 @@
         <Placemark>
             <name>Hidee Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Hidee  " href="../../../english/usa/mines/Hidee.html"           >Hidee Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Hidee  " href="../../../english/usa/mines/Hidee.html"           >Hidee Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.5045042580671</longitude>
@@ -266,7 +266,7 @@
         <Placemark>
             <name>Hubbard's Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a href="../../../english/usa/caves/Hubbards.html"           >Hubbard's Cave</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../../english/usa/caves/Hubbards.html"           >Hubbard's Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-107.3038366518715</longitude>
@@ -284,7 +284,7 @@
         <Placemark>
             <name>Lebanon Silver Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Lebanon  " href="../../../english/usa/mines/Lebanon.html"           >Lebanon Silver Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Lebanon  " href="../../../english/usa/mines/Lebanon.html"           >Lebanon Silver Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.726019476793</longitude>
@@ -303,7 +303,7 @@
         <Placemark>
             <name>Lomax Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Lomax  " href="../../../english/usa/mines/Lomax.html"           >Lomax Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Lomax  " href="../../../english/usa/mines/Lomax.html"           >Lomax Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.0505280552352</longitude>
@@ -322,7 +322,7 @@
         <Placemark>
             <name>Lost Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Lost  " href="../../../english/usa/mines/Lost.html"           >Lost Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Lost  " href="../../../english/usa/mines/Lost.html"           >Lost Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.9992141451455</longitude>
@@ -341,7 +341,7 @@
         <Placemark>
             <name>Manitou Cliff Dwellings</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a sort="Manitou  " href="../../../english/usa/misc/Manitou.html"           >Manitou Cliff Dwellings</a>]]>
+                <![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a sort="Manitou  " href="../../../english/usa/misc/Manitou.html"           >Manitou Cliff Dwellings</a>]]>
             </description>
             <LookAt>
                 <longitude>-104.9126831348513</longitude>
@@ -360,7 +360,7 @@
         <Placemark>
             <name>Matchless Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Matchless  " href="../../../english/usa/mines/Matchless.html"           >Matchless Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Matchless  " href="../../../english/usa/mines/Matchless.html"           >Matchless Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.2812342533068</longitude>
@@ -378,7 +378,7 @@
         <Placemark>
             <name>Mollie Kathleen Gold Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="MollieKathleen  " href="../../../english/usa/mines/MollieKathleen.html"           >Mollie Kathleen Gold Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="MollieKathleen  " href="../../../english/usa/mines/MollieKathleen.html"           >Mollie Kathleen Gold Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.1571045825996</longitude>
@@ -396,7 +396,7 @@
         <Placemark>
             <name>Old Hundred Gold Mine Tour</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="OldHundred  " href="../../../english/usa/mines/OldHundred.html"           >Old Hundred Gold Mine Tour</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="OldHundred  " href="../../../english/usa/mines/OldHundred.html"           >Old Hundred Gold Mine Tour</a>]]>
             </description>
             <LookAt>
                 <longitude>-107.5886293853608</longitude>
@@ -415,7 +415,7 @@
         <Placemark>
             <name>Smuggler Mine and Compromise Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/usa/mines/Smuggler.html"           >Smuggler Mine and Compromise Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/usa/mines/Smuggler.html"           >Smuggler Mine and Compromise Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.8070591221293</longitude>
@@ -433,7 +433,7 @@
         <Placemark>
             <name>Phoenix Gold Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Phoenix  " href="../../../english/usa/mines/Phoenix.html"           >Phoenix Gold Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Phoenix  " href="../../../english/usa/mines/Phoenix.html"           >Phoenix Gold Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.5654727618327</longitude>
@@ -452,7 +452,7 @@
         <Placemark>
             <name>Washington Mine</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Washington  " href="../../../english/usa/mines/Washington.html"           >Washington Mine</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Washington  " href="../../../english/usa/mines/Washington.html"           >Washington Mine</a>]]>
             </description>
             <LookAt>
                 <longitude>-106.0157962971785</longitude>
@@ -472,7 +472,7 @@
             <name>Hopemore Mine</name>
             <LookAt>
                 <description>
-                    <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Hopemore.html"               >Hopemore Mine</a>]]>
+                    <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Hopemore.html"               >Hopemore Mine</a>]]>
                 </description>
                 <longitude>-106.2335265518675</longitude>
                 <latitude>39.24371691534085</latitude>
@@ -490,7 +490,7 @@
         <Placemark>
             <name>Nederland Mining Museum</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Nederland.html"              >Nederland Mining Museum</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Nederland.html"              >Nederland Mining Museum</a>]]>
             </description>
             <LookAt>
                 <longitude>-105.5110068808527</longitude>

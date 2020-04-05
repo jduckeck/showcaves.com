@@ -111,7 +111,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Echo Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
 			<LookAt>
 				<longitude>30.60210864802036</longitude>
 				<latitude>-24.56300630048789</latitude>

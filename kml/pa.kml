@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Las Cuevas de Chilibre</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Chilibrillo.html"           >Chilibrillo Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/Chilibrillo.html"           >Chilibrillo Cave</a>]]></description>
 		<LookAt>
 			<longitude>-79.61692127119012</longitude>
 			<latitude>9.176480612052279</latitude>
@@ -72,7 +72,7 @@
 	</Placemark>
 	<Placemark>
 		<name>El Majé Caves</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/ElMaje.html"                >El Maj&eacute; Caves</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/ElMaje.html"                >El Maj&eacute; Caves</a>]]></description>
 		<LookAt>
 			<longitude>-78.84189242021033</longitude>
 			<latitude>9.160245543820798</latitude>
@@ -89,7 +89,7 @@
 	</Placemark>
 	<Placemark>
 		<name>La Fuente</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../misc/springs/LaFuente.html"            >La Fuente</a>]]></description>
+        <description><![CDATA[<img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png"><a href="../../misc/springs/LaFuente.html"            >La Fuente</a>]]></description>
 		<LookAt>
 			<longitude>-82.71612360875962</longitude>
 			<latitude>8.843759323616414</latitude>
@@ -106,7 +106,7 @@
 	</Placemark>
 	<Placemark>
 		<name>La Gruta</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/LaGruta.html"               >La Gruta</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/LaGruta.html"               >La Gruta</a>]]></description>
 		<LookAt>
 			<longitude>-82.26912771282157</longitude>
 			<latitude>9.398259337767504</latitude>
@@ -123,7 +123,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Nivida Cave</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Nivida.html"                >Cave Nivida</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/Nivida.html"                >Cave Nivida</a>]]></description>
 		<LookAt>
 			<longitude>-82.20415144525038</longitude>
 			<latitude>9.345681565913395</latitude>
@@ -140,7 +140,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta del Drago</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Drago.html"                 >Gruta del Drago</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/Drago.html"                 >Gruta del Drago</a>]]></description>
 		<LookAt>
 			<longitude>-82.32682864781168</longitude>
 			<latitude>9.40905623811671</latitude>
@@ -157,7 +157,7 @@
 	</Placemark>
 	<Placemark>
 		<name>El Puente Natural</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/ElPuenteNatural.html"       >El Puente Natural</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/ElPuenteNatural.html"       >El Puente Natural</a>]]></description>
 		<LookAt>
 			<longitude>-79.55554916700331</longitude>
 			<latitude>9.196720905379625</latitude>

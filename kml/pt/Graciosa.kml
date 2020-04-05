@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Furna do Enxofre</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Enxofre.html"             >Furna do Enxofre</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Enxofre.html"             >Furna do Enxofre</a>]]></description>
 		<LookAt>
 			<longitude>-27.97364494752618</longitude>
 			<latitude>39.02494390407836</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Furna da Maria Encantada</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/MariaEncantada.html"          >Gruta da Maria Encantada</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/MariaEncantada.html"          >Gruta da Maria Encantada</a>]]></description>
 		<LookAt>
 			<longitude>-27.97501138402157</longitude>
 			<latitude>39.02764587359808</latitude>
@@ -92,7 +92,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Furna do Abel</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Abel.html"                    >Furna do Abel</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/Abel.html"                    >Furna do Abel</a>]]></description>
 		<LookAt>
 			<longitude>-27.97642319909839</longitude>
 			<latitude>39.02725010233561</latitude>

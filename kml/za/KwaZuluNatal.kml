@@ -57,7 +57,7 @@
     	<name>KwaZulu Natal</name>
 		<Placemark>
 			<name>Border Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../za/caves/Border.html"                  >Border Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Border.html"                  >Border Cave</a>]]></description>
 			<LookAt>
 				<longitude>32.41866992315804</longitude>
 				<latitude>-27.04520045152413</latitude>

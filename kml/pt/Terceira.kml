@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Museu Vulcanoespeleológico &quot;Machado Fagundes&quot;</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
 		<LookAt>
 			<longitude>-27.22138499935452</longitude>
 			<latitude>38.65539187486889</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta das Agulhas</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
 		<LookAt>
 			<longitude>-27.10607324952918</longitude>
 			<latitude>38.64432330079247</latitude>
@@ -92,7 +92,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Algar do Carvão</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
 		<LookAt>
 			<longitude>-27.21493700000301</longitude>
 			<latitude>38.72743800016256</latitude>
@@ -110,7 +110,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta do Natal</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
 		<LookAt>
 			<longitude>-27.26797348265302</longitude>
 			<latitude>38.73839620154617</latitude>

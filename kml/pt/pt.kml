@@ -58,7 +58,7 @@
         <Placemark>
             <name>Gruta das Alcobertas</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alcobertas.html"          >Gruta das Alcobertas</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Alcobertas.html"          >Gruta das Alcobertas</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.920542932087063</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Gruta do Escoural</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Escoural.html"            >Gruta do Escoural</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Escoural.html"            >Gruta do Escoural</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.138600340863208</longitude>
@@ -98,7 +98,7 @@
         <Placemark>
             <name>Grutas da Moeda</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Moeda.html"               >Grutas da Moeda</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Moeda.html"               >Grutas da Moeda</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.705096220811534</longitude>
@@ -118,7 +118,7 @@
         <Placemark>
             <name>Grutas de Santo-António</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/SantoAntonio.html"        >Gruta de Santo-Antonio</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/SantoAntonio.html"        >Gruta de Santo-Antonio</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.742924651148156</longitude>
@@ -138,7 +138,7 @@
         <Placemark>
             <name>Grutas de Mira de Aire</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/MiraDeAire.html"          >Grutas de Mira de Aire</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/MiraDeAire.html"          >Grutas de Mira de Aire</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.704004010228166</longitude>
@@ -158,7 +158,7 @@
         <Placemark>
             <name>Gruta da Furninha</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Furninha.html"                >Gruta da Furninha</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/Furninha.html"                >Gruta da Furninha</a>]]>
             </description>
             <LookAt>
                 <longitude>-9.399050224305558</longitude>
@@ -178,7 +178,7 @@
         <Placemark>
             <name>Grutas de Alvados</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alvados.html"             >Grutas de Alvados</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Alvados.html"             >Grutas de Alvados</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.752877863866193</longitude>
@@ -198,7 +198,7 @@
         <Placemark>
             <name>Gruta das Alcobertas</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alcobertas.html"          >Gruta das Alcobertas</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Alcobertas.html"          >Gruta das Alcobertas</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.920542932087063</longitude>
@@ -218,7 +218,7 @@
         <Placemark>
             <name>Galerias Romanas da Rua da Prata</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../pt/misc/Lisboa.html"                   >Lisboa Roman Galleries</a>]]>
+                <![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../pt/misc/Lisboa.html"                   >Lisboa Roman Galleries</a>]]>
             </description>
             <LookAt>
                 <longitude>-9.136756072477605</longitude>
@@ -238,7 +238,7 @@
         <Placemark>
             <name>Grutas de Santo Adrião</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/SantoAdriao.html"             >Grutas de Santo Adri&atilde;o</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/SantoAdriao.html"             >Grutas de Santo Adri&atilde;o</a>]]>
             </description>
             <LookAt>
                 <longitude>-6.443970920087711</longitude>
@@ -258,7 +258,7 @@
         <Placemark>
             <name>Rocha de Pena</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/RochaDePena.html"             >Rocha de Pena</a>]]>
+                <![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../pt/karst/RochaDePena.html"             >Rocha de Pena</a>]]>
             </description>
             <LookAt>
                 <longitude>-8.096389243689552</longitude>
@@ -278,7 +278,7 @@
         <Placemark>
             <name>Cova dos Mouros</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../pt/mines/Mouros.html"                  >Cova dos Mouros</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../pt/mines/Mouros.html"                  >Cova dos Mouros</a>]]>
             </description>
             <LookAt>
                 <longitude>-7.71886117320496</longitude>
@@ -297,7 +297,7 @@
         </Placemark>
 	<Placemark>
 		<name>Gruta do Carvão</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/CarvaoSaoMiguel.html"     >Gruta do Carv&atilde;o</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/CarvaoSaoMiguel.html"     >Gruta do Carv&atilde;o</a>]]></description>
 		<LookAt>
 			<longitude>-25.68681611635537</longitude>
 			<latitude>37.74918247732131</latitude>
@@ -315,7 +315,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Museu Vulcanoespeleológico &quot;Machado Fagundes&quot;</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../pt/karst/MachadoFagundes.html"         >Museu Vulcanoespeleol&oacute;gico "Machado Fagundes"</a>]]></description>
 		<LookAt>
 			<longitude>-27.22138499935452</longitude>
 			<latitude>38.65539187486889</latitude>
@@ -333,7 +333,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta das Agulhas</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/Agulhas.html"                 >Gruta das Agulhas</a>]]></description>
 		<LookAt>
 			<longitude>-27.10607324952918</longitude>
 			<latitude>38.64432330079247</latitude>
@@ -351,7 +351,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Algar do Carvão</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Carvao.html"              >Algar do Carv&atilde;o</a>]]></description>
 		<LookAt>
 			<longitude>-27.21493700000301</longitude>
 			<latitude>38.72743800016256</latitude>
@@ -369,7 +369,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta do Natal</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Natal.html"               >Gruta do Natal</a>]]></description>
 		<LookAt>
 			<longitude>-27.26797348265302</longitude>
 			<latitude>38.73839620154617</latitude>
@@ -387,7 +387,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Gruta do Zambujal</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Zambujal.html"            ><span class="strike">Gruta do Zambujal</span></a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Zambujal.html"            ><span class="strike">Gruta do Zambujal</span></a>]]></description>
 		<LookAt>
 			<longitude>-9.129526387278519</longitude>
 			<latitude>38.44135239171957</latitude>

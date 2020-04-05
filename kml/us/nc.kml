@@ -56,7 +56,7 @@
         </Style>
     	<Placemark>
     		<name>Emerald Village &amp; North Carolina Mining Museum</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Emerald  " href="../../../english/usa/mines/Emerald.html"           >Emerald Village &amp; North Carolina Mining Museum</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Emerald  " href="../../../english/usa/mines/Emerald.html"           >Emerald Village &amp; North Carolina Mining Museum</a>]]></description>
     		<LookAt>
     			<longitude>-82.1312223011501</longitude>
     			<latitude>35.8489045808676</latitude>
@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Reed Gold Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Reed  " href="../../../english/usa/mines/Reed.html"           >Reed Gold Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Reed  " href="../../../english/usa/mines/Reed.html"           >Reed Gold Mine</a>]]></description>
     		<LookAt>
     			<longitude>-80.46697992032438</longitude>
     			<latitude>35.28564166706922</latitude>
@@ -90,7 +90,7 @@
     	</Placemark>
     	<Placemark>
     		<name>The Grove Park Inn Resort &amp; Spa</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a href="../../../english/usa/misc/Portland.html"           >The Grove Park Inn Resort &amp; Spa</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../../english/usa/misc/Portland.html"           >The Grove Park Inn Resort &amp; Spa</a>]]></description>
     		<LookAt>
     			<longitude>-82.5426080645024</longitude>
     			<latitude>35.62033438893288</latitude>
@@ -107,7 +107,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Boone's Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="Boone  " href="../../../english/usa/caves/Boone.html"           >Boone's Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a sort="Boone  " href="../../../english/usa/caves/Boone.html"           >Boone's Cave</a>]]></description>
     		<LookAt>
     			<longitude>-80.07114838826374</longitude>
     			<latitude>35.37766004599936</latitude>
@@ -124,7 +124,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Linville Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/usa/showcaves/Linville.html"           >Linville Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/usa/showcaves/Linville.html"           >Linville Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-81.93977243392571</longitude>
     			<latitude>35.91399589297798</latitude>

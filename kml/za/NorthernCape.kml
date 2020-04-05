@@ -57,7 +57,7 @@
     	<name>Northern Cape</name>
 		<Placemark>
 			<name>Bultfontein Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
 			<LookAt>
 				<longitude>24.72492097863605</longitude>
 				<latitude>-28.69252522144974</latitude>
@@ -74,7 +74,7 @@
 		</Placemark>
 		<Placemark>
 			<name>The Big Hole</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
 			<LookAt>
 				<longitude>24.75810033823057</longitude>
 				<latitude>-28.73808085898107</latitude>
@@ -90,7 +90,7 @@
 		</Placemark>
     	<Placemark>
     		<name>Wonderwerk Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
     		<LookAt>
     			<longitude>23.55879651081971</longitude>
     			<latitude>-27.83927332752057</latitude>

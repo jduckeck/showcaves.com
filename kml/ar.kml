@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Cueva del Tigré</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Tigre.html"                 >Cueva del Tigre</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../other/caves/Tigre.html"                 >Cueva del Tigre</a>]]></description>
 		<LookAt>
 			<longitude>-69.44526161030966</longitude>
 			<latitude>-35.74803590923884</latitude>
@@ -72,7 +72,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva de Gualicho</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Gualicho.html"          >Cueva de Gualicho</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../other/showcaves/Gualicho.html"          >Cueva de Gualicho</a>]]></description>
 		<LookAt>
 			<longitude>-72.20424785771323</longitude>
 			<latitude>-50.29747981642107</latitude>
@@ -89,7 +89,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Caverna de las Brujas</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../other/showcaves/Brujas.html"            >Caverna de las Brujas</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../other/showcaves/Brujas.html"            >Caverna de las Brujas</a>]]></description>
 		<LookAt>
 			<longitude>-69.81428646754</longitude>
 			<latitude>-35.81986095760202</latitude>
@@ -106,7 +106,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva de las Manos</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/LasManos.html"              >Cueva de las Manos</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../other/caves/LasManos.html"              >Cueva de las Manos</a>]]></description>
 		<LookAt>
 			<longitude>-70.66594240221197</longitude>
 			<latitude>-47.1508901436186</latitude>

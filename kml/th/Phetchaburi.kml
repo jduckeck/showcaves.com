@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Tham Khao Luang</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../th/showcaves/KhaoLuang.html"           >Tham Khao Luang</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../th/showcaves/KhaoLuang.html"           >Tham Khao Luang</a>]]></description>
 		<LookAt>
 			<longitude>99.9403278899065</longitude>
 			<latitude>13.11488608463803</latitude>

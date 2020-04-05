@@ -68,7 +68,7 @@
         <Placemark>
             <name>Blanchard Springs Caverns</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/BlanchardSprings.html"   >Blanchard Springs Caverns</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/BlanchardSprings.html"   >Blanchard Springs Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-92.18031834184821</longitude>
@@ -88,7 +88,7 @@
         <Placemark>
             <name>Bull Shoals Caverns</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/BullShoals.html"         >Bull Shoals Caverns</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/BullShoals.html"         >Bull Shoals Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-92.58411675170021</longitude>
@@ -108,7 +108,7 @@
         <Placemark>
             <name>Cosmic Cavern</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Cosmic.html"             >Cosmic Caverns</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Cosmic.html"             >Cosmic Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.49682903625099</longitude>
@@ -127,7 +127,7 @@
         <Placemark>
             <name>Hurricane River Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/HurricaneRiver.html"     >Hurricane River Cave</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/HurricaneRiver.html"     >Hurricane River Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-92.93416193479007</longitude>
@@ -147,7 +147,7 @@
         <Placemark>
             <name>Mystic Caverns</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Mystic.html"             >Mystic Caverns</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Mystic.html"             >Mystic Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.12651401508292</longitude>
@@ -167,7 +167,7 @@
         <Placemark>
             <name>Old Spanish Treasure Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/OldSpanishTreasure.html" >Old Spanish Treasure Cave</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/OldSpanishTreasure.html" >Old Spanish Treasure Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-94.44494206552633</longitude>
@@ -186,7 +186,7 @@
         <Placemark>
             <name>Onyx Cave Park</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/OnyxPark.html"           >Onyx Cave Park</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/OnyxPark.html"           >Onyx Cave Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.69728874275479</longitude>
@@ -206,7 +206,7 @@
         <Placemark>
             <name>War Eagle Cavern</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/WarEagle.html"           >War Eagle Cavern</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/WarEagle.html"           >War Eagle Cavern</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.90463966175012</longitude>
@@ -225,7 +225,7 @@
         <Placemark>
             <name>Eden Falls Cave</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Buffalo.html"                >Buffalo National River</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../usa/caves/Buffalo.html"                >Buffalo National River</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.3724720769039</longitude>
@@ -244,7 +244,7 @@
         <Placemark>
             <name>Devil&apos;s Den Cave</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/DevilsDen.html"              >Devil's Den Cave</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../usa/caves/DevilsDen.html"              >Devil's Den Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-94.25359985634098</longitude>
@@ -264,7 +264,7 @@
         <Placemark>
             <name>Mammoth Spring</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/Mammoth.html"              >Mammoth Spring</a>]]>
+                <![CDATA[<img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png"><a href="../../usa/springs/Mammoth.html"              >Mammoth Spring</a>]]>
             </description>
             <LookAt>
                 <longitude>-91.53507520440179</longitude>
@@ -284,7 +284,7 @@
         <Placemark>
             <name>Crater of Diamonds State Park</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/CraterOfDiamonds.html"       >Crater of Diamonds State Park</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/CraterOfDiamonds.html"       >Crater of Diamonds State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.67120895252513</longitude>
@@ -303,7 +303,7 @@
         <Placemark>
             <name>Eureka Springs Underground</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/EurekaSprings.html"           >Eureka Springs Underground</a>]]>
+                <![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../usa/misc/EurekaSprings.html"           >Eureka Springs Underground</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.73752811452945</longitude>
@@ -321,7 +321,7 @@
         <Placemark>
             <name>Beckham Creek Cave Lodge</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../usa/misc/BeckhamCreek.html"            >Beckham Creek Cave Haven</a>]]>
+                <![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../usa/misc/BeckhamCreek.html"            >Beckham Creek Cave Haven</a>]]>
             </description>
             <LookAt>
                 <longitude>-93.31555133439822</longitude>
@@ -341,7 +341,7 @@
         <Placemark>
             <name>Wonderland Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/WonderlandAR.html"       ><span class="strike">Wonderland Cave</span></a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/WonderlandAR.html"       ><span class="strike">Wonderland Cave</span></a>]]>
             </description>
             <LookAt>
                 <longitude>-94.22359990006879</longitude>

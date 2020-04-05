@@ -4,7 +4,7 @@ convert '*.jpg[1200x12000>]' F090-%03d.jpg
 
 
 Quote Url plugin advanced formatting
-<li><a target=\"_blank\"  href=\"@url\"><img src=\"../../../graphics/symbol/World.png\" alt=\"World\" class=\"ui-li-icon ui-corner-none\"><b>@title</b>, (visited: @date)</a></li>
+<li><a target=\"_blank\"  href=\"@url\"><img alt="" src=\"../../../graphics/symbol/World.png\" alt=\"World\" class=\"ui-li-icon ui-corner-none\"><b>@title</b>, (visited: @date)</a></li>
 
 <table class=\"history\">
 <tr><td valign=\"top\" nowrap></td><td>.</td></tr>
@@ -19,7 +19,7 @@ Linklist:
 <li><a target="_blank" href=""><img alt="Wiki" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/wiki.png"><b></b> (visited: date)</a></li>
 
 <li class=\"liShowcave\">
-<li><a data-ajax=\"false\" target=\"_top\" ><img src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\" class=\"ui-li-icon ui-corner-none\">
+<li><a data-ajax=\"false\" target=\"_top\" ><img alt="" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\" class=\"ui-li-icon ui-corner-none\">
 
     <img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/(.+)\.gif\" width=\"12\" height=\"12\"> <a \s+>(.+)</a>(.*) \|
 <li><a data-ajax=\"false\" target=\"_top\" ><b>$4</b> $5</a></li>
@@ -42,7 +42,7 @@ Typ Category links
 <button data-role="button" data-inline=\"true\" data-mini=\"true\"><a data-ajax=\"false\" target=\"_top\" href=\"../../explain/\1\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Explain.gif\" width=\"12\" height=\"12\">\2</a></button>
 
 -- replace ByRegion links
-<img class="symbol" src="../../../graphics/symbol/(.*).png" alt="(.*)"> <a sort=".*" href="(.*)">(.*)</a> \|
+<img alt="(.*)" class="symbol" src="../../../graphics/symbol/(.*).png"> <a sort=".*" href="(.*)">(.*)</a> \|
 <li><a data-ajax="false" target="_top" href="$2"><img alt="$1" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png">$3</a></li>
 
 
@@ -76,7 +76,7 @@ ui-btn-active
 <li><a data-ajax="false" target="_top" href="$2"><img alt="$1" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png">$3</a></li>
 
 <img alt="$1" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png">
-<img class="symbol" src="../../../graphics/symbol/$1.png" alt="$1">
+<img alt="$1" class="symbol" src="../../../graphics/symbol/$1.png">
 
 ((.|\n)*)
 
@@ -98,30 +98,30 @@ ui-btn-active
 
 
 
-<a target="_top" href="../../explain/Subterranea/Casemate.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Casemates</a>
-<a target="_top" href="../../explain/Subterranea/Catacombs.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Catacombs</a>
-<a target="_top" href="../../explain/Subterranea/CaveCastles.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cave Castles</a>
-<a target="_top" href="../../explain/Subterranea/CaveChurches.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cave Churches</a>
-<a target="_top" href="../../explain/Subterranea/CaveHouses.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cave Houses</a>
-<a target="_top" href="../../explain/Subterranea/CaveReplica.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cave Replica</a>
-<a target="_top" href="../../explain/Subterranea/CaveTomb.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cave Tomb</a>
-<a target="_top" href="../../explain/Subterranea/Cellars.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cellars</a>
-<a target="_top" href="../../explain/Subterranea/City.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Underground City</a>
-<a target="_top" href="../../explain/Subterranea/Crypts.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Crypts</a>
-<a target="_top" href="../../explain/Subterranea/Enigma.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Enigmatic Cavern</a>
-<a target="_top" href="../../explain/Subterranea/Erdstall.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Erdstall</a>
-<a target="_top" href="../../explain/Subterranea/Factories.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Factories</a>
-<a target="_top" href="../../explain/Subterranea/Grottoes.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Grottoes</a>
-<a target="_top" href="../../explain/Subterranea/IceGrotto.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Ice Grottos or Glacier Grottos</a>
-<a target="_top" href="../../explain/Subterranea/Museums.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Museums</a>
-<a target="_top" href="../../explain/Subterranea/RockMines.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Rock Mines</a>
-<a target="_top" href="../../explain/Subterranea/SecretBunkers.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Secret Bunkers</a>
-<a target="_top" href="../../explain/Subterranea/Sewage.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Sewage System</a>
-<a target="_top" href="../../explain/Subterranea/Tunneling.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tunneling</a>
-<a target="_top" href="../../explain/Subterranea/Tunnels.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tunnels</a>
-<a target="_top" href="../../explain/Subterranea/UndergroundRailroad.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Underground Railroad</a>
-<a target="_top" href="../../explain/Subterranea/Underground.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Underground Railway</a>
-<a target="_top" href="../../explain/Subterranea/WWIIBunkers.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">World War II Bunkers</a>
+<a target="_top" href="../../explain/Subterranea/Casemate.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Casemates</a>
+<a target="_top" href="../../explain/Subterranea/Catacombs.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Catacombs</a>
+<a target="_top" href="../../explain/Subterranea/CaveCastles.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cave Castles</a>
+<a target="_top" href="../../explain/Subterranea/CaveChurches.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cave Churches</a>
+<a target="_top" href="../../explain/Subterranea/CaveHouses.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cave Houses</a>
+<a target="_top" href="../../explain/Subterranea/CaveReplica.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cave Replica</a>
+<a target="_top" href="../../explain/Subterranea/CaveTomb.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cave Tomb</a>
+<a target="_top" href="../../explain/Subterranea/Cellars.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cellars</a>
+<a target="_top" href="../../explain/Subterranea/City.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Underground City</a>
+<a target="_top" href="../../explain/Subterranea/Crypts.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Crypts</a>
+<a target="_top" href="../../explain/Subterranea/Enigma.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Enigmatic Cavern</a>
+<a target="_top" href="../../explain/Subterranea/Erdstall.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Erdstall</a>
+<a target="_top" href="../../explain/Subterranea/Factories.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Factories</a>
+<a target="_top" href="../../explain/Subterranea/Grottoes.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Grottoes</a>
+<a target="_top" href="../../explain/Subterranea/IceGrotto.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Ice Grottos or Glacier Grottos</a>
+<a target="_top" href="../../explain/Subterranea/Museums.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Museums</a>
+<a target="_top" href="../../explain/Subterranea/RockMines.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Rock Mines</a>
+<a target="_top" href="../../explain/Subterranea/SecretBunkers.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Secret Bunkers</a>
+<a target="_top" href="../../explain/Subterranea/Sewage.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Sewage System</a>
+<a target="_top" href="../../explain/Subterranea/Tunneling.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tunneling</a>
+<a target="_top" href="../../explain/Subterranea/Tunnels.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tunnels</a>
+<a target="_top" href="../../explain/Subterranea/UndergroundRailroad.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Underground Railroad</a>
+<a target="_top" href="../../explain/Subterranea/Underground.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Underground Railway</a>
+<a target="_top" href="../../explain/Subterranea/WWIIBunkers.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">World War II Bunkers</a>
 
 
 
@@ -212,64 +212,64 @@ http://www.showcaves.com/graphics/kmz/gorge.png
     (<img alt="Tiếng Việt - Vietnamese" src="../../../graphics/flags/vn-small.png" class="language">)
 
 
-<a target="_top" href="../../explain/Speleology/Classification.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain"><b>Classification of Caves:</b></a>
-<a target="_top" href="../../explain/Speleology/Primary.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain"><b>Primary Caves:</b></a>
-<a target="_top" href="../../explain/Speleology/Blister.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Blister Caves</a>
-<a target="_top" href="../../explain/Speleology/Lava.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Lava Caves</a>
-<a target="_top" href="../../explain/Speleology/LavaTube.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Lava Tubes</a>
-<a target="_top" href="../../explain/Speleology/Tuff.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tufa Caves</a>
-<a target="_top" href="../../explain/Speleology/Reef.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Reef Caves</a>
-<a target="_top" href="../../explain/Speleology/Secondary.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain"><b>Secondary Caves:</b></a>
-<a target="_top" href="../../explain/Speleology/Limestone.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Limestone Caves</a>
-<a target="_top" href="../../explain/Speleology/Gypsum.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Gypsum Caves</a>
-<a target="_top" href="../../explain/Speleology/Salt.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Salt Caves</a>
-<a target="_top" href="../../explain/Speleology/Tectonic.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tectonic Caves</a>
-<a target="_top" href="../../explain/Speleology/Neotectonic.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Neotectonic Caves</a>
-<a target="_top" href="../../explain/Speleology/Talus.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Talus Caves</a>
-<a target="_top" href="../../explain/Speleology/Fissure.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Fissure Caves</a>
-<a target="_top" href="../../explain/Speleology/SeaCave.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Sea Caves</a>
-<a target="_top" href="../../explain/Speleology/Speleogenesis.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain"><b>Speleogenesis:</b></a>
-<a target="_top" href="../../explain/Speleology/Karst.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Karst Caves</a>
-<a target="_top" href="../../explain/Speleology/River.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">River Caves</a>
-<a target="_top" href="../../explain/Speleology/Erosion.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Erosional Caves</a>
-<a target="_top" href="../../explain/Speleology/Solution.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Solutional Caves</a>
-<a target="_top" href="../../explain/Speleology/Inkasion.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Inkasion</a>
-<a target="_top" href="../../explain/Speleology/Mischungskorrosion.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Mixture Corrosion</a>
-<a target="_top" href="../../explain/Speleology/Wind.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Wind Caves</a>
-<a target="_top" href="../../explain/Speleology/Suffosional.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Suffosional Pseudokarst</a>
-<a target="_top" href="../../explain/Speleology/Special.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain"><b>Some Special Cave Types:</b></a>
-<a target="_top" href="../../explain/Speleology/Anchialine.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Anchialine Caves</a>
-<a target="_top" href="../../explain/Speleology/Dogs.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Dog's Caves</a>
-<a target="_top" href="../../explain/Speleology/Ice.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Ice Caves</a>
-<a target="_top" href="../../explain/Speleology/Glacier.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Glacier Caves</a>
+<a target="_top" href="../../explain/Speleology/Classification.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Classification of Caves:</b></a>
+<a target="_top" href="../../explain/Speleology/Primary.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Primary Caves:</b></a>
+<a target="_top" href="../../explain/Speleology/Blister.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Blister Caves</a>
+<a target="_top" href="../../explain/Speleology/Lava.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Lava Caves</a>
+<a target="_top" href="../../explain/Speleology/LavaTube.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Lava Tubes</a>
+<a target="_top" href="../../explain/Speleology/Tuff.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tufa Caves</a>
+<a target="_top" href="../../explain/Speleology/Reef.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Reef Caves</a>
+<a target="_top" href="../../explain/Speleology/Secondary.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Secondary Caves:</b></a>
+<a target="_top" href="../../explain/Speleology/Limestone.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Limestone Caves</a>
+<a target="_top" href="../../explain/Speleology/Gypsum.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Gypsum Caves</a>
+<a target="_top" href="../../explain/Speleology/Salt.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Salt Caves</a>
+<a target="_top" href="../../explain/Speleology/Tectonic.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tectonic Caves</a>
+<a target="_top" href="../../explain/Speleology/Neotectonic.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Neotectonic Caves</a>
+<a target="_top" href="../../explain/Speleology/Talus.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Talus Caves</a>
+<a target="_top" href="../../explain/Speleology/Fissure.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Fissure Caves</a>
+<a target="_top" href="../../explain/Speleology/SeaCave.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Sea Caves</a>
+<a target="_top" href="../../explain/Speleology/Speleogenesis.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Speleogenesis:</b></a>
+<a target="_top" href="../../explain/Speleology/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst Caves</a>
+<a target="_top" href="../../explain/Speleology/River.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">River Caves</a>
+<a target="_top" href="../../explain/Speleology/Erosion.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Erosional Caves</a>
+<a target="_top" href="../../explain/Speleology/Solution.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Solutional Caves</a>
+<a target="_top" href="../../explain/Speleology/Inkasion.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Inkasion</a>
+<a target="_top" href="../../explain/Speleology/Mischungskorrosion.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Mixture Corrosion</a>
+<a target="_top" href="../../explain/Speleology/Wind.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Wind Caves</a>
+<a target="_top" href="../../explain/Speleology/Suffosional.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Suffosional Pseudokarst</a>
+<a target="_top" href="../../explain/Speleology/Special.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Some Special Cave Types:</b></a>
+<a target="_top" href="../../explain/Speleology/Anchialine.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Anchialine Caves</a>
+<a target="_top" href="../../explain/Speleology/Dogs.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Dog's Caves</a>
+<a target="_top" href="../../explain/Speleology/Ice.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Ice Caves</a>
+<a target="_top" href="../../explain/Speleology/Glacier.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Glacier Caves</a>
 
-<a target="_top" href="../../explain/Karst/Karst.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Karst</a>
-<a target="_top" href="../../explain/Karst/BareKarst.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Bare Karst</a>
-<a target="_top" href="../../explain/Karst/CoveredKarst.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Covered Karst</a>
-<a target="_top" href="../../explain/Karst/Halogenide.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Halogenide Karst</a>
-<a target="_top" href="../../explain/Karst/Sulfate.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Sulfate Karst</a>
-<a target="_top" href="../../explain/Karst/Carbonate.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Carbonate Karst</a>
-<a target="_top" href="../../explain/Karst/Cenote.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Cenote</a>
-<a target="_top" href="../../explain/Karst/Doline.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Doline or sink</a>
-<a target="_top" href="../../explain/Karst/DryValley.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Dry Valley</a>
-<a target="_top" href="../../explain/Karst/Estavelle.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Estavelle</a>
-<a target="_top" href="../../explain/Karst/Karren.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Karren</a>
-<a target="_top" href="../../explain/Karst/KarstLake.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Karst Lake</a>
-<a target="_top" href="../../explain/Karst/KarstSpring.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Karst Spring</a>
-<a target="_top" href="../../explain/Karst/Seasonal.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Seasonal Spring</a>
-<a target="_top" href="../../explain/Karst/Intermittent.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Intermittent Spring</a>
-<a target="_top" href="../../explain/Karst/LosingStream.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Losing Stream</a>
-<a target="_top" href="../../explain/Karst/NaturalBridge.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Natural Bridge</a>
-<a target="_top" href="../../explain/Karst/Polje.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Polje</a>
-<a target="_top" href="../../explain/Karst/Ponor.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Ponor</a>
-<a target="_top" href="../../explain/Karst/StreamChannel.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Stream Channel</a>
-<a target="_top" href="../../explain/Karst/Tufa.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tufa Deposits</a>
-<a target="_top" href="../../explain/Karst/SteinerneRinne.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tufa Runnel</a>
-<a target="_top" href="../../explain/Karst/Phases.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Karst Development Phases</a>
-<a target="_top" href="../../explain/Karst/CollapsedCave.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Collapsed Cave</a>
-<a target="_top" href="../../explain/Karst/TowerKarst.html"><img class="symbol" src="../../../graphics/symbol/Explain.png" alt="Explain">Tower Karst</a>
+<a target="_top" href="../../explain/Karst/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst</a>
+<a target="_top" href="../../explain/Karst/BareKarst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Bare Karst</a>
+<a target="_top" href="../../explain/Karst/CoveredKarst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Covered Karst</a>
+<a target="_top" href="../../explain/Karst/Halogenide.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Halogenide Karst</a>
+<a target="_top" href="../../explain/Karst/Sulfate.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Sulfate Karst</a>
+<a target="_top" href="../../explain/Karst/Carbonate.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Carbonate Karst</a>
+<a target="_top" href="../../explain/Karst/Cenote.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Cenote</a>
+<a target="_top" href="../../explain/Karst/Doline.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Doline or sink</a>
+<a target="_top" href="../../explain/Karst/DryValley.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Dry Valley</a>
+<a target="_top" href="../../explain/Karst/Estavelle.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Estavelle</a>
+<a target="_top" href="../../explain/Karst/Karren.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karren</a>
+<a target="_top" href="../../explain/Karst/KarstLake.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst Lake</a>
+<a target="_top" href="../../explain/Karst/KarstSpring.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst Spring</a>
+<a target="_top" href="../../explain/Karst/Seasonal.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Seasonal Spring</a>
+<a target="_top" href="../../explain/Karst/Intermittent.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Intermittent Spring</a>
+<a target="_top" href="../../explain/Karst/LosingStream.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Losing Stream</a>
+<a target="_top" href="../../explain/Karst/NaturalBridge.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Natural Bridge</a>
+<a target="_top" href="../../explain/Karst/Polje.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Polje</a>
+<a target="_top" href="../../explain/Karst/Ponor.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Ponor</a>
+<a target="_top" href="../../explain/Karst/StreamChannel.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Stream Channel</a>
+<a target="_top" href="../../explain/Karst/Tufa.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tufa Deposits</a>
+<a target="_top" href="../../explain/Karst/SteinerneRinne.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tufa Runnel</a>
+<a target="_top" href="../../explain/Karst/Phases.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst Development Phases</a>
+<a target="_top" href="../../explain/Karst/CollapsedCave.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Collapsed Cave</a>
+<a target="_top" href="../../explain/Karst/TowerKarst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tower Karst</a>
 
-<tr>\n\s+<td align="left" valign="top"><img class="symbol" src="../../../graphics/symbol/World.png" alt="World"></td>\n\s+<td valign="top"><a target="_blank" href="(.+?)">(.*?)</a></td>\n\s+<td valign="top">\n\s+((.|\n)*?)\n\s+</td>\n\s+</tr>
+<tr>\n\s+<td align="left" valign="top"><img alt="World" class="symbol" src="../../../graphics/symbol/World.png"></td>\n\s+<td valign="top"><a target="_blank" href="(.+?)">(.*?)</a></td>\n\s+<td valign="top">\n\s+((.|\n)*?)\n\s+</td>\n\s+</tr>
 <li><a target="_blank" href="$1"><img alt="Link" src="../../../graphics/80/latitude.png">\n<h3>$2</h3>\n<p>\n$3\n</p>\n</a></li>\n
 
         \<table class\=\"(.+)Img\"\>\n            \<tr\>\n                \<t.\>(.+)\<\/t.\>\n            \<\/tr\>\n            \<tr\>\n                \<td class\=\"imgCaption\"\>(.+)\<\/td\>\n            \<\/tr\>\n        \<\/table\>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Gruta das Alcobertas</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/Alcobertas.html"          >Gruta das Alcobertas</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/Alcobertas.html"          >Gruta das Alcobertas</a>]]></description>
 		<LookAt>
 			<longitude>-8.920542932087063</longitude>
 			<latitude>39.41897805275401</latitude>

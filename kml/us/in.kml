@@ -58,7 +58,7 @@
         <Placemark>
             <name>Squire Boone Caverns</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/SquireBoone.html"        >Squire Boone Caverns/Village</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/SquireBoone.html"        >Squire Boone Caverns/Village</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.13414749217019</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Marengo Cave National Landmark</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Marengo.html"            >Marengo Cave NL</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Marengo.html"            >Marengo Cave NL</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.339468000029</longitude>
@@ -98,7 +98,7 @@
         <Placemark>
             <name>Wyandotte Caves</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Wyandotte.html"          >Wyandotte Caves &amp; Woods</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Wyandotte.html"          >Wyandotte Caves &amp; Woods</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.29386300009062</longitude>
@@ -118,7 +118,7 @@
         <Placemark>
             <name>Twin Cave - Spring Mill State Park</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/SpringMill.html"         >Spring Mill State Park</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/SpringMill.html"         >Spring Mill State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.41598457270807</longitude>
@@ -138,7 +138,7 @@
         <Placemark>
             <name>Bluespring Caverns</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Bluespring.html"         >Bluespring Caverns</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Bluespring.html"         >Bluespring Caverns</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.54621363438496</longitude>
@@ -158,7 +158,7 @@
         <Placemark>
             <name>Cave River Park</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/CaveRiverPark.html"          >Cave River Park</a>]]>
+                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../usa/caves/CaveRiverPark.html"          >Cave River Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.25416844991673</longitude>
@@ -178,7 +178,7 @@
         <Placemark>
             <name>Elliott Underground Quarry</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Elliott.html"                >Elliott Underground Quarry</a>]]>
+                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Elliott.html"                >Elliott Underground Quarry</a>]]>
             </description>
             <LookAt>
                 <longitude>-86.48379598795395</longitude>

@@ -64,10 +64,10 @@
     		<styleUrl>#spring</styleUrl>
     		<styleUrl>#gorge</styleUrl>
 
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Beatrix.html"                 >Beatrix Mine</a>]]></description>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Joel.html"                    >Joel Mine</a>]]></description>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Koffiefontein.html"           >De Beers Open Mine</a>]]></description>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/StHelena.html"                >St. Helena Gold Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Beatrix.html"                 >Beatrix Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Joel.html"                    >Joel Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Koffiefontein.html"           >De Beers Open Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/StHelena.html"                >St. Helena Gold Mine</a>]]></description>
 
 -->
 		<Placemark>
@@ -126,7 +126,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Echo Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
 			<LookAt>
 				<longitude>30.60210864802036</longitude>
 				<latitude>-24.56300630048789</latitude>
@@ -144,7 +144,7 @@
 		</Placemark>
     	<Placemark>
     		<name>Sudwala Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
     		<LookAt>
     			<longitude>30.69968398822673</longitude>
     			<latitude>-25.37009214238318</latitude>
@@ -161,7 +161,7 @@
     	</Placemark>
     	<Placemark>
     		<name>St Blaize Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
     		<LookAt>
     			<longitude>22.15651811187099</longitude>
     			<latitude>-34.1861846494283</latitude>
@@ -177,7 +177,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Wonderwerk Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
     		<LookAt>
     			<longitude>23.55879651081971</longitude>
     			<latitude>-27.83927332752057</latitude>
@@ -194,7 +194,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Kaaiman&apos;s Grotto</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
     		<LookAt>
     			<longitude>22.55742040189781</longitude>
     			<latitude>-33.99767871951782</latitude>
@@ -212,7 +212,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Swartkrans Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../za/caves/Swartkrans.html"              >Swartkrans Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Swartkrans.html"              >Swartkrans Cave</a>]]></description>
     		<LookAt>
     			<longitude>27.72241365809851</longitude>
     			<latitude>-26.01484739071412</latitude>
@@ -230,7 +230,7 @@
     	</Placemark>
 		<Placemark>
 			<name>Cullinan Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Cullinan.html"                >Cullinan Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Cullinan.html"                >Cullinan Mine</a>]]></description>
 			<LookAt>
 				<longitude>28.51637102046527</longitude>
 				<latitude>-25.67338855172696</latitude>
@@ -247,7 +247,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Blaauwbank Historic Gold Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Blaauwbank.html"              >Blaauwbank Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Blaauwbank.html"              >Blaauwbank Mine</a>]]></description>
 			<LookAt>
 				<longitude>27.53886767780609</longitude>
 				<latitude>-25.9981466447617</latitude>
@@ -263,7 +263,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Sterkfontein Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Sterkfontein.html"        >Sterkfontein Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Sterkfontein.html"        >Sterkfontein Caves</a>]]></description>
 			<LookAt>
 				<longitude>27.73379645653446</longitude>
 				<latitude>-26.01570864586412</latitude>
@@ -280,7 +280,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Wonder Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Wondercave.html"          >Wondercave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Wondercave.html"          >Wondercave</a>]]></description>
 			<LookAt>
 				<longitude>27.78210682993798</longitude>
 				<latitude>-25.98263610571579</latitude>
@@ -296,7 +296,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Maropeng</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../za/misc/Maropeng.html"                 >Maropeng</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../za/misc/Maropeng.html"                 >Maropeng</a>]]></description>
 			<LookAt>
 				<longitude>27.66175340777413</longitude>
 				<latitude>-25.96848714967497</latitude>
@@ -313,7 +313,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Kromdraai Gold Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Kromdraai.html"               >Kromdraai Gold Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Kromdraai.html"               >Kromdraai Gold Mine</a>]]></description>
 			<LookAt>
 				<longitude>27.84889737707245</longitude>
 				<latitude>-26.00195870735008</latitude>
@@ -330,7 +330,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Gold Reef City</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/GoldReef.html"                >Gold Reef City</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/GoldReef.html"                >Gold Reef City</a>]]></description>
 			<LookAt>
 				<longitude>28.01136725975239</longitude>
 				<latitude>-26.23722725786747</latitude>
@@ -347,7 +347,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ferreira&apos;s Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Ferreira.html"                >Ferreira's Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Ferreira.html"                >Ferreira's Mine</a>]]></description>
 			<LookAt>
 				<longitude>28.03887136577102</longitude>
 				<latitude>-26.20108789705988</latitude>
@@ -364,7 +364,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Jagersfontein Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Jagersfontein.html"           >Jagersfontein Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Jagersfontein.html"           >Jagersfontein Mine</a>]]></description>
 			<LookAt>
 				<longitude>25.4269878084538</longitude>
 				<latitude>-29.77259108884589</latitude>
@@ -380,7 +380,7 @@
 		</Placemark>
 		<Placemark>
 			<name>The Big Hole</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
 			<LookAt>
 				<longitude>24.75810033823057</longitude>
 				<latitude>-28.73808085898107</latitude>
@@ -396,7 +396,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Bultfontein Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
 			<LookAt>
 				<longitude>24.72492097863605</longitude>
 				<latitude>-28.69252522144974</latitude>
@@ -413,7 +413,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Cango Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
 			<LookAt>
 				<longitude>22.21248401609856</longitude>
 				<latitude>-33.39797402129807</latitude>
@@ -430,7 +430,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Border Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../za/caves/Border.html"                  >Border Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Border.html"                  >Border Cave</a>]]></description>
 			<LookAt>
 				<longitude>32.41866992315804</longitude>
 				<latitude>-27.04520045152413</latitude>

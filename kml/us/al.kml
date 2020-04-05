@@ -56,7 +56,7 @@
         </Style>
     	<Placemark>
     		<name>Alabama Mining Museum</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Alabama.html"                >Alabama Mining Museum</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Alabama.html"                >Alabama Mining Museum</a>]]></description>
     		<LookAt>
     			<longitude>-87.09013208435287</longitude>
     			<latitude>33.73133660899249</latitude>
@@ -72,7 +72,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Aldrich Coal Mine Museum</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Aldrich.html"                >Aldrich Coal Mine Museum</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Aldrich.html"                >Aldrich Coal Mine Museum</a>]]></description>
     		<LookAt>
     			<longitude>-86.89242685124918</longitude>
     			<latitude>33.10777094761334</latitude>
@@ -89,7 +89,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Big Spring</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../usa/springs/BigSpring.html"            >Big Spring</a>]]></description>
+            <description><![CDATA[<img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png"><a href="../../usa/springs/BigSpring.html"            >Big Spring</a>]]></description>
     		<LookAt>
     			<longitude>-86.58700213964487</longitude>
     			<latitude>34.72745080494541</latitude>
@@ -106,7 +106,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cathedral Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/CathedralAL.html"        >Cathedral Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/CathedralAL.html"        >Cathedral Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-86.22118677226183</longitude>
     			<latitude>34.57445215056249</latitude>
@@ -123,7 +123,7 @@
     	</Placemark>
     	<Placemark>
     		<name>DeSoto Caverns Park</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/DeSoto.html"             >DeSoto Caverns Park</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/DeSoto.html"             >DeSoto Caverns Park</a>]]></description>
     		<LookAt>
     			<longitude>-86.27738074445963</longitude>
     			<latitude>33.30726866435116</latitude>
@@ -140,7 +140,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Sequoyah Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Sequoyah.html"           >Sequoyah Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Sequoyah.html"           >Sequoyah Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-85.6461211492971</longitude>
     			<latitude>34.62915102395765</latitude>
@@ -156,7 +156,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Russell Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Russell.html"            >Russell Cave NM</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Russell.html"            >Russell Cave NM</a>]]></description>
     		<LookAt>
     			<longitude>-85.81016563192607</longitude>
     			<latitude>34.97942697524873</latitude>
@@ -173,7 +173,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Rickwood Caverns</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Rickwood.html"           >Rickwood Caverns</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Rickwood.html"           >Rickwood Caverns</a>]]></description>
     		<LookAt>
     			<longitude>-86.8651690002834</longitude>
     			<latitude>33.87641799990665</latitude>

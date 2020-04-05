@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Gruta del Espiritu Santo</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/EspirituSanto.html"         >Gruta del Espiritu Santo</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/EspirituSanto.html"         >Gruta del Espiritu Santo</a>]]></description>
 		<LookAt>
 			<longitude>-87.98217033333259</longitude>
 			<latitude>13.82676198276433</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>El Capulín Natural Pool</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring"><a href="../../misc/springs/ElCapulin.html"           >El Capulin Natural Pool</a>]]></description>
+        <description><![CDATA[<img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png"><a href="../../misc/springs/ElCapulin.html"           >El Capulin Natural Pool</a>]]></description>
 		<LookAt>
 			<longitude>-88.24831250236706</longitude>
 			<latitude>13.53236305077353</latitude>

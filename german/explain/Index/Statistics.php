@@ -58,13 +58,13 @@
             <thead>
             <tr>
                 <th>Länder</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave">Schauhöhlen</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave">Höhlen</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst">Karsterscheinungen</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Spring.png" alt="Spring">Karstquellen</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine">Bergwerke</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc">Künstliche Hohlräume</th>
-                <th><img class="symbol" src="../../../graphics/symbol/Gorge.png" alt="Gorge">Schuchten</th>
+                <th><img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png">Schauhöhlen</th>
+                <th><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Höhlen</th>
+                <th><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karsterscheinungen</th>
+                <th><img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png">Karstquellen</th>
+                <th><img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png">Bergwerke</th>
+                <th><img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png">Künstliche Hohlräume</th>
+                <th><img alt="Gorge" class="symbol" src="../../../graphics/symbol/Gorge.png">Schuchten</th>
                 <th>Gesamt Land</th>
             </tr>
             </thead>
@@ -282,13 +282,16 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Landkarten</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches Register</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches
+                        Register</a></li>
                 <li><a data-ajax="false" target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
             </ul>
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Änderungen und Kritik: <img class="xemhid" alt="contact" src="../../../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Änderungen
+                        und Kritik: <img alt="contact" class="xemhid"
+                                         src="../../../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>

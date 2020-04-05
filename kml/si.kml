@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Divaška Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Divaska.html">Diva&#353;ka Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Divaska.html">Diva&#353;ka Jama</a>]]></description>
 		<LookAt>
 			<longitude>13.95074699049916</longitude>
 			<latitude>45.67460055726586</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Boka Waterfall</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Spring.png" class="symbol"><a href="../../../english/si/springs/Boka.html">Boka</a>]]></description>
+        <description><![CDATA[<img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png"><a href="../../../english/si/springs/Boka.html">Boka</a>]]></description>
 		<LookAt>
 			<longitude>13.4814532047674</longitude>
 			<latitude>46.32094800932845</latitude>
@@ -92,7 +92,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Kostanjevica Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Kostanjevica.html">Kostanjevica Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Kostanjevica.html">Kostanjevica Jama</a>]]></description>
 		<LookAt>
 			<longitude>15.43237820891067</longitude>
 			<latitude>45.84100512570712</latitude>
@@ -110,7 +110,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Jama pod Babjim zobom</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Babjim.html">Jama pod Babjim zobom</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Babjim.html">Jama pod Babjim zobom</a>]]></description>
 		<LookAt>
 			<longitude>14.07119677327033</longitude>
 			<latitude>46.33370299370623</latitude>
@@ -128,7 +128,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Veliko Otljško Okno</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Karst.png" class="symbol"><a href="../../../english/si/karst/OtliskoOkno.html">Otli&scaron;ko Okno</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../../english/si/karst/OtliskoOkno.html">Otli&scaron;ko Okno</a>]]></description>
 		<LookAt>
 			<longitude>13.91258311449157</longitude>
 			<latitude>45.91648361734947</latitude>
@@ -146,7 +146,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Železna jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Zelezna.html">&#381;elezna jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Zelezna.html">&#381;elezna jama</a>]]></description>
 		<LookAt>
 			<longitude>14.62859018634036</longitude>
 			<latitude>46.13651759617154</latitude>
@@ -164,7 +164,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Škocjanske Jame</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Skocjanske.html">Skocjanske Jame</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Skocjanske.html">Skocjanske Jame</a>]]></description>
 		<LookAt>
 			<longitude>13.98922165799018</longitude>
 			<latitude>45.66270809337686</latitude>
@@ -181,7 +181,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Smrekova draga</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Karst.png" class="symbol"><a href="../../../english/si/karst/Smrekova.html">Smrekova Draga</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../../english/si/karst/Smrekova.html">Smrekova Draga</a>]]></description>
 		<LookAt>
 			<longitude>13.86297042030762</longitude>
 			<latitude>45.9883567464034</latitude>
@@ -199,7 +199,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Paradana Velika Ledena Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a href="../../../english/si/caves/Paradana.html">Paradana Ledenika Jama</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../../english/si/caves/Paradana.html">Paradana Ledenika Jama</a>]]></description>
 		<LookAt>
 			<longitude>13.84561118619443</longitude>
 			<latitude>45.98690751735784</latitude>
@@ -217,7 +217,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Ravenska Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Ravenska.html">Ravenska Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Ravenska.html">Ravenska Jama</a>]]></description>
 		<LookAt>
 			<longitude>13.95278015718102</longitude>
 			<latitude>46.12107629609694</latitude>
@@ -234,7 +234,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Antonijev Rov</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/si/mines/Antonijev.html">Antonijev Rov</a>]]></description>
+        <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/si/mines/Antonijev.html">Antonijev Rov</a>]]></description>
 		<LookAt>
 			<longitude>14.02229184522866</longitude>
 			<latitude>46.0001476827517</latitude>
@@ -251,7 +251,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cerknisko Jezero</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Karst.png" class="symbol"><a href="../../../english/si/karst/Cerknisko.html">Cerknisko Jezero</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../../english/si/karst/Cerknisko.html">Cerknisko Jezero</a>]]></description>
 		<LookAt>
 			<longitude>14.36770678883235</longitude>
 			<latitude>45.76674750260053</latitude>
@@ -267,7 +267,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Jama Pekel</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Pekel.html">Jama Pekel</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Pekel.html">Jama Pekel</a>]]></description>
 		<LookAt>
 			<longitude>15.13799101518112</longitude>
 			<latitude>46.29307360573115</latitude>
@@ -284,7 +284,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Huda Luknja</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a href="../../../english/si/caves/HudaLuknja.html">Huda Luknja</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../../english/si/caves/HudaLuknja.html">Huda Luknja</a>]]></description>
 		<LookAt>
 			<longitude>15.17190107562965</longitude>
 			<latitude>46.30642670699469</latitude>
@@ -301,7 +301,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Muzej Premogovništva Slovenije</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/si/mines/Velenje.html">Muzej Premogovni&#353;tva Slovenije</a>]]></description>
+        <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/si/mines/Velenje.html">Muzej Premogovni&#353;tva Slovenije</a>]]></description>
 		<LookAt>
 			<longitude>15.09953261634546</longitude>
 			<latitude>46.3706979255218</latitude>
@@ -318,7 +318,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Rudnik svinca in cinka Mežica</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/si/mines/Mezica.html">Rudnik svinca in cinka Me&#382;ica</a>]]></description>
+        <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/si/mines/Mezica.html">Rudnik svinca in cinka Me&#382;ica</a>]]></description>
 		<LookAt>
 			<longitude>14.83818479660985</longitude>
 			<latitude>46.46891508676671</latitude>
@@ -334,7 +334,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Županova Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Taborska.html">&#381;upanova Jama - Taborska Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Taborska.html">&#381;upanova Jama - Taborska Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.63970104228401</longitude>
 			<latitude>45.91439166784816</latitude>
@@ -351,7 +351,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Sveta Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Sveta.html">Sveta Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Sveta.html">Sveta Jama</a>]]></description>
 		<LookAt>
 			<longitude>13.86310833920777</longitude>
 			<latitude>45.58949342673881</latitude>
@@ -368,7 +368,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Predjamska Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Predjamska.html">Predjamska Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Predjamska.html">Predjamska Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.12831746972961</longitude>
 			<latitude>45.81701001646971</latitude>
@@ -385,7 +385,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Pivka Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Pivka.html">Pivka Jama and Crna Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Pivka.html">Pivka Jama and Crna Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.20493286586891</longitude>
 			<latitude>45.79278554584377</latitude>
@@ -402,7 +402,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Otoska Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Otoska.html">Otoska Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Otoska.html">Otoska Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.20493286586891</longitude>
 			<latitude>45.79278554584377</latitude>
@@ -419,7 +419,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Postojnska Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Postojna.html">Postojnska Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Postojna.html">Postojnska Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.20461956533676</longitude>
 			<latitude>45.78200782416224</latitude>
@@ -437,7 +437,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Planinska Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Planinska.html">Planinska Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Planinska.html">Planinska Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.24519396074984</longitude>
 			<latitude>45.82013441870533</latitude>
@@ -454,7 +454,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Snezna jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Snezna.html">Snezna Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Snezna.html">Snezna Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.73817785111273</longitude>
 			<latitude>46.39541275993823</latitude>
@@ -487,7 +487,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Krizna Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Krizna.html">Krizna Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Krizna.html">Krizna Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.45879048590319</longitude>
 			<latitude>45.74186279176232</latitude>
@@ -505,7 +505,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Dimnice Jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Dimnice.html">Dimnice Jama</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Dimnice.html">Dimnice Jama</a>]]></description>
 		<LookAt>
 			<longitude>14.03951646699763</longitude>
 			<latitude>45.56396449127365</latitude>
@@ -523,7 +523,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Krška jama</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Krska.html">Kr&#353;ka jama - izvir Krke</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Krska.html">Kr&#353;ka jama - izvir Krke</a>]]></description>
 		<LookAt>
 			<longitude>14.7700135543035</longitude>
 			<latitude>45.88871292655029</latitude>
@@ -558,7 +558,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Jama Vilenica</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../../english/si/showcaves/Vilenica.html">Jama Vilenica</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../../english/si/showcaves/Vilenica.html">Jama Vilenica</a>]]></description>
 		<LookAt>
 			<longitude>13.91039704370306</longitude>
 			<latitude>45.67398287181081</latitude>
@@ -576,7 +576,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Zelške jame</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a href="../../../english/si/caves/Zelske.html">Zel&#353;ke jame</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../../english/si/caves/Zelske.html">Zel&#353;ke jame</a>]]></description>
 		<LookAt>
 			<longitude>14.30523746032993</longitude>
 			<latitude>45.79216127589061</latitude>
@@ -594,7 +594,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Rakov Škocjan Nature Reserve</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Karst.png" class="symbol"><a href="../../../english/si/karst/RakovSkocjan.html">Rakov Skocjan Nature Reserve</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../../english/si/karst/RakovSkocjan.html">Rakov Skocjan Nature Reserve</a>]]></description>
 		<LookAt>
 			<longitude>14.29901956073211</longitude>
 			<latitude>45.79134059472759</latitude>
@@ -612,7 +612,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Planina Karst Polje and Seasonal Lake</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Karst.png" class="symbol"><a href="../../../english/si/karst/Planinska.html">Planina Karst Polje and Seasonal Lake</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../../english/si/karst/Planinska.html">Planina Karst Polje and Seasonal Lake</a>]]></description>
 		<LookAt>
 			<longitude>14.25800558392113</longitude>
 			<latitude>45.835731247118</latitude>
@@ -630,7 +630,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Speleobiološka Postaja</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Karst.png" class="symbol"><a href="../../../english/si/karst/Speleobioloska.html">Speleobiolo&#353;ka Postaja</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../../english/si/karst/Speleobioloska.html">Speleobiolo&#353;ka Postaja</a>]]></description>
 		<LookAt>
 			<longitude>14.20461956533676</longitude>
 			<latitude>45.78200782416224</latitude>
@@ -648,7 +648,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Divje Jezero</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Spring.png" class="symbol"><a href="../../../english/si/springs/Divje.html">Divje Jezero</a>]]></description>
+        <description><![CDATA[<img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png"><a href="../../../english/si/springs/Divje.html">Divje Jezero</a>]]></description>
 		<LookAt>
 			<longitude>14.02665441555697</longitude>
 			<latitude>45.98299492813102</latitude>

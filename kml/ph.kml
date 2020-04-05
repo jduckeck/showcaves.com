@@ -74,7 +74,7 @@
 	</Style>
 	<Placemark>
 		<name>Bathala Caves</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ph/showcaves/Bathala.html"             >Bathala Caves</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../ph/showcaves/Bathala.html"             >Bathala Caves</a>]]></description>
 		<LookAt>
 			<longitude>121.9575598029307</longitude>
 			<latitude>13.52396595452773</latitude>
@@ -91,7 +91,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Buenavista Cave</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Buenavista.html"              >Buenavista Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Buenavista.html"              >Buenavista Cave</a>]]></description>
 		<LookAt>
 			<longitude>125.5485455329353</longitude>
 			<latitude>9.86930502018417</latitude>
@@ -108,7 +108,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Bukilat Cave</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ph/showcaves/Bukilat.html"             >Bukilat Cave</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../ph/showcaves/Bukilat.html"             >Bukilat Cave</a>]]></description>
 		<LookAt>
 			<longitude>124.4672891797636</longitude>
 			<latitude>10.65126088800055</latitude>
@@ -124,7 +124,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Sohoton Natural Bridge Natural Park</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../ph/region/Sohoton.html"                >Sohoton Natural Bridge Natural Park</a>]]></description>
+        <description><![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../ph/region/Sohoton.html"                >Sohoton Natural Bridge Natural Park</a>]]></description>
 		<LookAt>
 			<longitude>125.155428191605</longitude>
 			<latitude>11.34399741896153</latitude>
@@ -140,7 +140,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Macahambus Cave</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ph/showcaves/Macahambus.html"          >Macahambus Cave</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../ph/showcaves/Macahambus.html"          >Macahambus Cave</a>]]></description>
 		<LookAt>
 			<longitude>124.6093041249837</longitude>
 			<latitude>8.376743793844096</latitude>
@@ -157,7 +157,7 @@
 	</Placemark>
 	<Placemark>
 		<name>St Paul Subterranean River National Park</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/StPaul.html"                  >St Paul Subterranean River National Park</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/StPaul.html"                  >St Paul Subterranean River National Park</a>]]></description>
 		<LookAt>
 			<longitude>118.9287095911629</longitude>
 			<latitude>10.18686749819685</latitude>
@@ -173,7 +173,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cacupangan Cave</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Cacupangan.html"              >Cacupangan Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Cacupangan.html"              >Cacupangan Cave</a>]]></description>
 		<LookAt>
 			<longitude>119.9577238144529</longitude>
 			<latitude>16.05433324488995</latitude>
@@ -190,7 +190,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cacupangan Cave - 2nd entrance</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Cacupangan.html"              >Cacupangan Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Cacupangan.html"              >Cacupangan Cave</a>]]></description>
 		<LookAt>
 			<longitude>119.9577238144529</longitude>
 			<latitude>16.05433324488995</latitude>
@@ -207,7 +207,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Enchanted Cave - Bolinao Cave</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ph/showcaves/Enchanted.html"           >Enchanted Cave</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../ph/showcaves/Enchanted.html"           >Enchanted Cave</a>]]></description>
 		<LookAt>
 			<longitude>119.80432378635</longitude>
 			<latitude>16.34300676265858</latitude>
@@ -224,7 +224,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Villacorta Cave</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Villacorta.html"              >Villacorta Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Villacorta.html"              >Villacorta Cave</a>]]></description>
 		<LookAt>
 			<longitude>119.9713239763712</longitude>
 			<latitude>16.05215118491107</latitude>
@@ -249,38 +249,38 @@
    		<styleUrl>#region</styleUrl>
 
 ]]></description>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ph/showcaves/Hinagdanan.html"          >Hinagdanan Cave</a>]]></description>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../ph/showcaves/Rawis.html"               >Rawis Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/AlayanLion.html"              >Alayan-Lion Cave System</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/BalocBaloc.html"              >Baloc-Baloc Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Bingag.html"                  >Bingag Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Bugasan.html"                 >Bugasan Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Calbiga.html"                 >Calbiga Caves</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Callao.html"                  >Callao Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Cantabon.html"                >Cantabon Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Capigtan.html"                >Capigtan Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/FranciscoDagohoy.html"        >Francisco Dagohoy Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Guimit.html"                  >Guimit Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Locso.html"                   >Locso-on Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/PanhuluganI.html"             >Panhulugan Cave I</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/PanhuluganII.html"            >Panhulugan Cave II</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Roc.html"                     >Roc Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/SagradaFamilia.html"          >Sagrada Familia Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/SanCarlos.html"               >San Carlos Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/SantoNino.html"               >Santo Ni&ntilde;o Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Sierra.html"                  >Sierra Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Sohoton.html"                 >Sohoton Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Sumaging.html"                >Sumaging</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Tabon.html"                   >Caves of Tabon</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Tinago.html"                  >Tinago-an Cave</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../ph/caves/Ubong.html"                   >Ubong Caves</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../ph/karst/Sohoton.html"                 >Sohoton Natural Bridge</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../ph/showcaves/Hinagdanan.html"          >Hinagdanan Cave</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../ph/showcaves/Rawis.html"               >Rawis Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/AlayanLion.html"              >Alayan-Lion Cave System</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/BalocBaloc.html"              >Baloc-Baloc Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Bingag.html"                  >Bingag Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Bugasan.html"                 >Bugasan Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Calbiga.html"                 >Calbiga Caves</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Callao.html"                  >Callao Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Cantabon.html"                >Cantabon Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Capigtan.html"                >Capigtan Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/FranciscoDagohoy.html"        >Francisco Dagohoy Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Guimit.html"                  >Guimit Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Locso.html"                   >Locso-on Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/PanhuluganI.html"             >Panhulugan Cave I</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/PanhuluganII.html"            >Panhulugan Cave II</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Roc.html"                     >Roc Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/SagradaFamilia.html"          >Sagrada Familia Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/SanCarlos.html"               >San Carlos Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/SantoNino.html"               >Santo Ni&ntilde;o Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Sierra.html"                  >Sierra Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Sohoton.html"                 >Sohoton Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Sumaging.html"                >Sumaging</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Tabon.html"                   >Caves of Tabon</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Tinago.html"                  >Tinago-an Cave</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../ph/caves/Ubong.html"                   >Ubong Caves</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../ph/karst/Sohoton.html"                 >Sohoton Natural Bridge</a>]]></description>
         <description><![CDATA[<br>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../ph/mines/Balatoc.html"                 >Balatoc Mines Tour</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../ph/misc/Malinta.html"                  >Malinta Tunnel</a>]]></description>
+        <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../ph/mines/Balatoc.html"                 >Balatoc Mines Tour</a>]]></description>
+        <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../ph/misc/Malinta.html"                  >Malinta Tunnel</a>]]></description>
         <description><![CDATA[<br>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../ph/region/Bohol.html"                  >Bohol Island</a>]]></description>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../ph/region/Callao.html"                 >Callao Caves Tourist Zone</a>]]></description>
+        <description><![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../ph/region/Bohol.html"                  >Bohol Island</a>]]></description>
+        <description><![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../ph/region/Callao.html"                 >Callao Caves Tourist Zone</a>]]></description>
 <description><![CDATA[-->
 </Document>
 </kml>

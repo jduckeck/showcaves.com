@@ -57,7 +57,7 @@
     	<name>Denmark</name>
     	<Placemark>
     		<name>Cueva del Cerro Autana</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Autana.html"                >Cueva del Cerro Autana</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/Autana.html"                >Cueva del Cerro Autana</a>]]></description>
     		<LookAt>
     			<longitude>-67.44754090538466</longitude>
     			<latitude>4.858083486181732</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cueva del Fantasma</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../misc/caves/Fantasma.html"              >Cueva del Fantasma</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../misc/caves/Fantasma.html"              >Cueva del Fantasma</a>]]></description>
     		<LookAt>
     			<longitude>-62.44640911817727</longitude>
     			<latitude>5.392269654822805</latitude>
@@ -91,7 +91,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cueva de la Quebrada del Toro</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/Guacharo.html"          >Cueva del Gu&aacute;charo</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../misc/showcaves/Guacharo.html"          >Cueva del Gu&aacute;charo</a>]]></description>
     		<LookAt>
     			<longitude>-69.13201369480997</longitude>
     			<latitude>10.82828455101727</latitude>
@@ -108,7 +108,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Cueva del Guácharo</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../misc/showcaves/QuebradaDelToro.html"   >Cueva de la Quebrada del Toro</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../misc/showcaves/QuebradaDelToro.html"   >Cueva de la Quebrada del Toro</a>]]></description>
     		<LookAt>
     			<longitude>-63.52977170095097</longitude>
     			<latitude>10.17498262700201</latitude>

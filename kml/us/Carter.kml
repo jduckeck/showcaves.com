@@ -58,7 +58,7 @@
         <Placemark>
             <name>Smokey Bridge</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11980903088654</longitude>
@@ -78,7 +78,7 @@
         <Placemark>
             <name>Shangri La Arch</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11825604734347</longitude>
@@ -98,7 +98,7 @@
         <Placemark>
             <name>Natural Bridge</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.12627610583785</longitude>
@@ -118,7 +118,7 @@
         <Placemark>
             <name>Horne Hollow Cave</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11772190531129</longitude>
@@ -138,7 +138,7 @@
         <Placemark>
             <name>Fern Bridge</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11593483365384</longitude>
@@ -158,7 +158,7 @@
         <Placemark>
             <name>X-Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/X.html"                  >X Cave</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/X.html"                  >X Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11885000012153</longitude>
@@ -178,7 +178,7 @@
         <Placemark>
             <name>Saltpeter Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Saltpetre.html"          >Saltpetre Cave</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Saltpetre.html"          >Saltpetre Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.12343201720815</longitude>
@@ -198,7 +198,7 @@
         <Placemark>
             <name>Bat Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/Bat.html"                >Bat Cave</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/Bat.html"                >Bat Cave</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.12345488244243</longitude>
@@ -218,7 +218,7 @@
         <Placemark>
             <name>Laurel Cave</name>
             <description>
-                <![CDATA[<img class="symbol" src="../../../graphics/symbol/Region.png" alt="Region"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
+                <![CDATA[<img alt="Region" class="symbol" src="../../../graphics/symbol/Region.png"><a href="../../usa/region/Carter.html"                >Carter Caves State Park</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11541615808768</longitude>
@@ -238,7 +238,7 @@
         <Placemark>
             <name>Cascade Cave</name>
             <description>
-                <![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../usa/showcaves/CascadeCarter.html"      >Cascade Cavern</a>]]>
+                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/CascadeCarter.html"      >Cascade Cavern</a>]]>
             </description>
             <LookAt>
                 <longitude>-83.11852582492217</longitude>

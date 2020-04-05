@@ -56,7 +56,7 @@
         </Style>
         <Placemark>
             <name>Lava River Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="LavaRiver  " href="../../../english/usa/caves/LavaRiver.html"           >Lava River Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a sort="LavaRiver  " href="../../../english/usa/caves/LavaRiver.html"           >Lava River Cave</a>]]></description>
             <LookAt>
                 <longitude>-121.3693625124764</longitude>
                 <latitude>43.89536043296497</latitude>
@@ -73,7 +73,7 @@
         </Placemark>
         <Placemark>
             <name>Oregon Caves National Park</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Oregon  " href="../../../english/usa/showcaves/Oregon.html"           >Oregon Caves National Park</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Oregon  " href="../../../english/usa/showcaves/Oregon.html"           >Oregon Caves National Park</a>]]></description>
             <LookAt>
                 <longitude>-123.4678778857142</longitude>
                 <latitude>42.16124059362621</latitude>
@@ -90,7 +90,7 @@
         </Placemark>
         <Placemark>
             <name>Portland Underground</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a href="../../../english/usa/misc/Portland.html"           >Portland Underground</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../../english/usa/misc/Portland.html"           >Portland Underground</a>]]></description>
             <LookAt>
                 <longitude>-122.6729267631443</longitude>
                 <latitude>45.52388658627352</latitude>
@@ -106,7 +106,7 @@
         </Placemark>
         <Placemark>
             <name>Sea Lion Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="SeaLion  " href="../../../english/usa/showcaves/SeaLion.html"           >Sea Lion Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="SeaLion  " href="../../../english/usa/showcaves/SeaLion.html"           >Sea Lion Caves</a>]]></description>
             <LookAt>
                 <longitude>-124.1269951587513</longitude>
                 <latitude>44.12178531420898</latitude>
@@ -122,7 +122,7 @@
         </Placemark>
     	<Placemark>
     		<name>Dust Devil Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/DustDevil.html"              >Dust Devil Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/DustDevil.html"              >Dust Devil Mine</a>]]></description>
     		<LookAt>
     			<longitude>-119.8661277936588</longitude>
     			<latitude>42.71287820800485</latitude>
@@ -139,7 +139,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Spectrum Sunstone Mine</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../usa/mines/Spectrum.html"               >Spectrum Sunstone Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Spectrum.html"               >Spectrum Sunstone Mine</a>]]></description>
     		<LookAt>
     			<longitude>-119.8672258074833</longitude>
     			<latitude>42.73302910434745</latitude>

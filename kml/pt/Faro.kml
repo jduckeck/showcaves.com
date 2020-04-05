@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Rocha de Pena</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Karst.png" alt="Karst"><a href="../../pt/karst/RochaDePena.html"             >Rocha de Pena</a>]]></description>
+        <description><![CDATA[<img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png"><a href="../../pt/karst/RochaDePena.html"             >Rocha de Pena</a>]]></description>
 		<LookAt>
 			<longitude>-8.096389243689552</longitude>
 			<latitude>37.25469904745191</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cova dos Mouros</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../pt/mines/Mouros.html"                  >Cova dos Mouros</a>]]></description>
+        <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../pt/mines/Mouros.html"                  >Cova dos Mouros</a>]]></description>
 		<LookAt>
 			<longitude>-7.71886117320496</longitude>
 			<latitude>37.4036134042588</latitude>

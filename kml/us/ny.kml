@@ -56,7 +56,7 @@
         </Style>
     	<Placemark>
     		<name>Cooper's Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Cave.png" class="symbol"><a sort="CaveInRock  " href="../../../english/usa/caves/Cooper.html"           >Cooper's Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a sort="CaveInRock  " href="../../../english/usa/caves/Cooper.html"           >Cooper's Cave</a>]]></description>
     		<LookAt>
     			<longitude>-73.64072261849471</longitude>
     			<latitude>43.30570200838385</latitude>
@@ -73,7 +73,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Clarksville Cave</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../usa/caves/Clarksville.html"            >Clarksville Cave</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../usa/caves/Clarksville.html"            >Clarksville Cave</a>]]></description>
     		<LookAt>
     			<longitude>-73.96494467331931</longitude>
     			<latitude>42.57619506706155</latitude>

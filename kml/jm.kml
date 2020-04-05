@@ -57,7 +57,7 @@
     	<name>Jamaica</name>
 		<Placemark>
 			<name>Green Grotto Caves</name>
-			<description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave"><a href="../../car/showcaves/GreenGrotto.html"                >Green Grotto Caves</a>]]></description>
+			<description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../car/showcaves/GreenGrotto.html"                >Green Grotto Caves</a>]]></description>
 			<LookAt>
 				<longitude>-77.37415842776537</longitude>
 				<latitude>18.46140688661602</latitude>
@@ -75,7 +75,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Nonsuch Caves</name>
-			<description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Showcave.png" alt="Showcave"><a href="../../car/showcaves/Nonsuch.html"                    >Nonsuch Caves</a>]]></description>
+			<description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../car/showcaves/Nonsuch.html"                    >Nonsuch Caves</a>]]></description>
 			<LookAt>
 				<longitude>-76.4279876350775</longitude>
 				<latitude>18.15422491783738</latitude>
@@ -93,7 +93,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Two Sisters Cave</name>
-			<description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../car/caves/TwoSisters.html"                     >Two Sisters Cave</a>]]></description>
+			<description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../car/caves/TwoSisters.html"                     >Two Sisters Cave</a>]]></description>
 			<LookAt>
 				<longitude>-76.90333052200657</longitude>
 				<latitude>17.88418492868762</latitude>
@@ -111,7 +111,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Ipswich Caves</name>
-			<description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../car/caves/Ipswich.html"                        >Ipswich Caves</a>]]></description>
+			<description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../car/caves/Ipswich.html"                        >Ipswich Caves</a>]]></description>
 			<LookAt>
 				<longitude>-77.82531296171383</longitude>
 				<latitude>18.18716745844281</latitude>
@@ -147,7 +147,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Windsor Great Cave</name>
-			<description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../car/caves/Windsor.html"                        >Windsor Cave</a>]]></description>
+			<description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../car/caves/Windsor.html"                        >Windsor Cave</a>]]></description>
 			<LookAt>
 				<longitude>-77.64752777788425</longitude>
 				<latitude>18.35130554800584</latitude>
@@ -165,7 +165,7 @@
 		</Placemark>
 		<Placemark>
 			<name>The Caves Hotel</name>
-			<description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Subterranea.png" alt="Subterranea"><a href="../../car/subterranea/TheCaves.html"                        >The Caves Hotel</a>]]></description>
+			<description><![CDATA[<img alt="Subterranea" class="symbol" src="../../../graphics/symbol/Subterranea.png"><a href="../../car/subterranea/TheCaves.html"                        >The Caves Hotel</a>]]></description>
 			<LookAt>
 				<longitude>-78.36080836345518</longitude>
 				<latitude>18.25012722220824</latitude>

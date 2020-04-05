@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Furnas do Cavalum</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/Cavalum.html"                 >Furnas do Cavalum</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/Cavalum.html"                 >Furnas do Cavalum</a>]]></description>
 		<LookAt>
 			<longitude>-16.76431704718961</longitude>
 			<latitude>32.72848120277836</latitude>
@@ -74,7 +74,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Grutas de São Vicente</name>
-        <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../pt/showcaves/SaoVicente.html"          >Grutas de S&atilde;o Vicente</a>]]></description>
+        <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../pt/showcaves/SaoVicente.html"          >Grutas de S&atilde;o Vicente</a>]]></description>
 		<LookAt>
 			<longitude>-17.04220126524444</longitude>
 			<latitude>32.79806453606936</latitude>

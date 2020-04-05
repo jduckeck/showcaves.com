@@ -131,7 +131,7 @@
 -->
 		<Placemark>
 			<name>Konglor Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/Konglor.html"             >Tham Kong Lor</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/Konglor.html"             >Tham Kong Lor</a>]]></description>
 			<LookAt>
 				<longitude>104.7591501068029</longitude>
 				<latitude>17.9594181258574</latitude>
@@ -148,7 +148,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Pa Fa - Buddha Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/PaFa.html"                >Tham Pa Fa</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/PaFa.html"                >Tham Pa Fa</a>]]></description>
 			<LookAt>
 				<longitude>104.8515050545964</longitude>
 				<latitude>17.47640703729451</latitude>
@@ -164,7 +164,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Chom Ong</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/ChomOng.html"             >Tham Chom Ong</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/ChomOng.html"             >Tham Chom Ong</a>]]></description>
 			<LookAt>
 				<longitude>101.8094439998428</longitude>
 				<latitude>20.7338889993244</latitude>
@@ -180,7 +180,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Doun</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/Doun.html"                >Tham Doun</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/Doun.html"                >Tham Doun</a>]]></description>
 			<LookAt>
 				<longitude>102.6515000002171</longitude>
 				<latitude>20.75400000004909</latitude>
@@ -197,7 +197,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Pha Kouang</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/PhaKouang.html"           >Tham Pha Kouang</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/PhaKouang.html"           >Tham Pha Kouang</a>]]></description>
 			<styleUrl>#showcave</styleUrl>
 			<Point>
 				<coordinates>102.5917777777778,20.58269444444445,0</coordinates>
@@ -205,7 +205,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Pak Ou</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/PakOu.html"               >Tham Pak Ou</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/PakOu.html"               >Tham Pak Ou</a>]]></description>
 			<LookAt>
 				<longitude>102.212364679078</longitude>
 				<latitude>20.04696533001261</latitude>
@@ -222,7 +222,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Hoi</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../la/caves/Hoi.html"                     >Tham Hoi</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../la/caves/Hoi.html"                     >Tham Hoi</a>]]></description>
 			<LookAt>
 				<longitude>102.4425157839587</longitude>
 				<latitude>18.90930820266269</latitude>
@@ -239,7 +239,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Pha Tok</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/PhaTok.html"              >Tham Pha Tok</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/PhaTok.html"              >Tham Pha Tok</a>]]></description>
 			<LookAt>
 				<longitude>102.6201267671727</longitude>
 				<latitude>20.55961389656483</latitude>
@@ -256,7 +256,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Phou Prasat</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../la/caves/Prasat.html"                  >Phou Prasat</a>]]></description>
+            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../la/caves/Prasat.html"                  >Phou Prasat</a>]]></description>
 			<LookAt>
 				<longitude>100.9906211182347</longitude>
 				<latitude>20.78081163578143</latitude>
@@ -273,7 +273,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Oung Kao Rao</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/KaoRao.html"              >Tham Kao Rao</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/KaoRao.html"              >Tham Kao Rao</a>]]></description>
 			<LookAt>
 				<longitude>101.1486470833127</longitude>
 				<latitude>20.69793058450321</latitude>
@@ -290,7 +290,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Tham Xang</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../la/subterranea/Xang.html"              >Tham Xang</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../la/subterranea/Xang.html"              >Tham Xang</a>]]></description>
 			<LookAt>
 				<longitude>102.4442967763705</longitude>
 				<latitude>18.91012187514154</latitude>
@@ -307,7 +307,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Vieng Xai Cave City</name>
-            <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../la/subterranea/ViengXai.html"          >Vieng Xai Cave City</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../la/subterranea/ViengXai.html"          >Vieng Xai Cave City</a>]]></description>
 			<LookAt>
 				<longitude>104.2268690852548</longitude>
 				<latitude>20.40987324245083</latitude>
@@ -323,7 +323,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Buddha Pond</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../la/showcaves/PaFa.html"                >Tham Pa Fa</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../la/showcaves/PaFa.html"                >Tham Pa Fa</a>]]></description>
 			<LookAt>
 				<longitude>104.8515307027118</longitude>
 				<latitude>17.47540874604778</latitude>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Catedral de Sal Zipaquirá</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Mine.png" alt="Mine"><a href="../../other/mines/Zipaquira.html"             >Zipaquir&aacute; Salt Mine</a>]]></description>
+        <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../other/mines/Zipaquira.html"             >Zipaquir&aacute; Salt Mine</a>]]></description>
 		<LookAt>
 			<longitude>-74.00900126788464</longitude>
 			<latitude>5.020559419609629</latitude>
@@ -73,7 +73,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Cueva de Morgan</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../other/caves/Morgan.html"                >Cueva De Morgan</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../other/caves/Morgan.html"                >Cueva De Morgan</a>]]></description>
 		<LookAt>
 			<longitude>-81.7318326129032</longitude>
 			<latitude>12.52759493607835</latitude>
@@ -90,7 +90,7 @@
 	</Placemark>
 	<Placemark>
 		<name>Tierradentro Rock Tombs</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Misc.png" alt="Misc"><a href="../../other/subterranea/Tierradentro.html"           >Tierradentro Rock Tombs</a>]]></description>
+        <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../other/subterranea/Tierradentro.html"           >Tierradentro Rock Tombs</a>]]></description>
 		<styleUrl>#subterranea</styleUrl>
 		<Point>
 			<coordinates>-76.03333333333333,2.583333333333334,0</coordinates>

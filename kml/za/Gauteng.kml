@@ -57,7 +57,7 @@
     	<name>Gauteng</name>
     	<Placemark>
     		<name>Cullinan Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/za/mines/Cullinan.html"           >Cullinan Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/za/mines/Cullinan.html"           >Cullinan Mine</a>]]></description>
     		<LookAt>
     			<longitude>28.51637102046527</longitude>
     			<latitude>-25.67338855172696</latitude>
@@ -74,7 +74,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Blaauwbank Historic Gold Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Blaauwbank  " href="../../../english/za/mines/Blaauwbank.html"           >Blaauwbank Historic Gold Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Blaauwbank  " href="../../../english/za/mines/Blaauwbank.html"           >Blaauwbank Historic Gold Mine</a>]]></description>
     		<LookAt>
     			<longitude>27.53886767780609</longitude>
     			<latitude>-25.9981466447617</latitude>
@@ -90,7 +90,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Sterkfontein Caves</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Sterkfontein  " href="../../../english/za/showcaves/Sterkfontein.html"           >Sterkfontein Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Sterkfontein  " href="../../../english/za/showcaves/Sterkfontein.html"           >Sterkfontein Caves</a>]]></description>
     		<LookAt>
     			<longitude>27.73379645653446</longitude>
     			<latitude>-26.01570864586412</latitude>
@@ -107,7 +107,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Wonder Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a sort="Wonder  " href="../../../english/za/showcaves/Wonder.html"           >Wonder Cave</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a sort="Wonder  " href="../../../english/za/showcaves/Wonder.html"           >Wonder Cave</a>]]></description>
     		<LookAt>
     			<longitude>27.78210682993798</longitude>
     			<latitude>-25.98263610571579</latitude>
@@ -123,7 +123,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Maropeng</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Misc.png" class="symbol"><a href="../../../english/za/misc/Maropeng.html"           >Maropeng</a>]]></description>
+            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../../english/za/misc/Maropeng.html"           >Maropeng</a>]]></description>
     		<LookAt>
     			<longitude>27.66175340777413</longitude>
     			<latitude>-25.96848714967497</latitude>
@@ -140,7 +140,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Kromdraai Gold Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a sort="Kromdraai  " href="../../../english/za/mines/Kromdraai.html"           >Kromdraai Gold Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a sort="Kromdraai  " href="../../../english/za/mines/Kromdraai.html"           >Kromdraai Gold Mine</a>]]></description>
     		<LookAt>
     			<longitude>27.84889737707245</longitude>
     			<latitude>-26.00195870735008</latitude>
@@ -157,7 +157,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Gold Reef City</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/za/mines/GoldReef.html"           >Gold Reef City</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/za/mines/GoldReef.html"           >Gold Reef City</a>]]></description>
     		<LookAt>
     			<longitude>28.01136725975239</longitude>
     			<latitude>-26.23722725786747</latitude>
@@ -174,7 +174,7 @@
     	</Placemark>
     	<Placemark>
     		<name>Ferreira's Mine</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Mine.png" class="symbol"><a href="../../../english/za/mines/Ferreira.html"           >Ferreira's Mine</a>]]></description>
+            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../../english/za/mines/Ferreira.html"           >Ferreira's Mine</a>]]></description>
     		<LookAt>
     			<longitude>28.03887136577102</longitude>
     			<latitude>-26.20108789705988</latitude>

@@ -56,7 +56,7 @@
         </Style>
 	<Placemark>
 		<name>Grutas de Santo Adrião</name>
-        <description><![CDATA[<img class="symbol" src="../../../graphics/symbol/Cave.png" alt="Cave"><a href="../../pt/caves/SantoAdriao.html"             >Grutas de Santo Adri&atilde;o</a>]]></description>
+        <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../pt/caves/SantoAdriao.html"             >Grutas de Santo Adri&atilde;o</a>]]></description>
 		<LookAt>
 			<longitude>-6.443970920087711</longitude>
 			<latitude>41.55234985739806</latitude>

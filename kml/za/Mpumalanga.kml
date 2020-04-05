@@ -57,7 +57,7 @@
     	<name>Mpumalanga</name>
     	<Placemark>
     		<name>Sudwala Cave</name>
-            <description><![CDATA[<img src="../../../graphics/symbol/Showcave.png" class="symbol"><a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
+            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
     		<LookAt>
     			<longitude>30.69968398822673</longitude>
     			<latitude>-25.37009214238318</latitude>
