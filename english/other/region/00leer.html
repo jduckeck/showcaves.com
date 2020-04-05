@@ -34,10 +34,10 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <li><a>$Country$</a></li>
-        <li><a><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png" alt="Region">$Country$</a></li>
-        :
+        <!--
+                <li><a data-ajax="false" target="_top" href="../region/bt.html">$Country$</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/bt.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">$Country$</a></li>
+        -->
 
         <img alt="$CountryTwoLetter$" src="../../../graphics/flags/$CountryTwoLetter$.png" class="flag">
         <h1 class="center">$Country$</h1>
@@ -51,7 +51,7 @@
         <br>
 
         <ul class="linklist" data-role="listview" data-inset="true">
-             <li data-role="list-divider">Sights of $Country$</li>
+            <li data-role="list-divider">Sights of $Country$</li>
         </ul>
 
         <br>
@@ -60,9 +60,9 @@
 
 
         <ul class="linklist" data-role="listview" data-inset="true">
-             <li data-role="list-divider">Additional Information about $Country$</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=$Country$"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png" alt="Google">Search Google for "$Country$"</a></li>
-            <li><a target="_blank" href="http://en.wikipedia.org/wiki/$Country$"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png" alt="Wikipedia">$Country$ - Wikipedia</a></li>
+            <li data-role="list-divider">Additional Information about $Country$</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$Country$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$Country$"</a></li>
+            <li><a target="_blank" href="http://en.wikipedia.org/wiki/$Country$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$Country$ - Wikipedia</a></li>
         </ul>
 
 

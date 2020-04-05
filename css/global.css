@@ -317,40 +317,34 @@ table.right {
     float: right;
 }
 
-TABLE.leftImg {
-    clear: left;
-    float: left;
-    margin: 0 0.5em 0.5em 0;
+figure {
+    display: table;
     padding: 0;
     border-width: 0;
-    max-width: 260px;
+    width: 20px;
 }
 
-TABLE.rightImg {
+figure.right {
     clear: right;
     float: right;
     margin: 0 0 0.5em 0.5em;
-    padding: 0;
-    border-width: 0;
-    max-width: 260px;
 }
 
-TABLE.leftLang {
+figure.left {
     clear: left;
     float: left;
     margin: 0 0.5em 0.5em 0;
-    padding: 0 0 0 0;
-    border-width: 0;
-    font-size: 60%;
 }
 
-TABLE.rightLang {
-    clear: right;
-    float: right;
-    margin: 0 0 0.5em 0.5em;
-    padding: 0;
-    border-width: 0;
-    font-size: 60%;
+figure.center {
+    clear: both;
+    float: none;
+    margin: 1em auto;
+    width: 600px;
+}
+
+figcaption {
+    font-size: 80%;
 }
 
 TABLE.leftMap {
@@ -385,27 +379,12 @@ TABLE.centerImg {
     text-align: center;
 }
 
-TABLE.index {
-    clear: both;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5em;
-    border-width: 0;
-    text-align: justify;
-}
-
 .imgCaption {
     font-size: 70%;
-    max-width: 250px;
-}
-
-.copyMsg {
-    font-size: 70%;
-}
-
-.menuText {
-    font-size: 65%;
+    max-width: 100%;
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
 }
 
 .small {
@@ -425,76 +404,12 @@ TABLE.index {
     background-color: transparent;
 }
 
-.nopadding {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-    vertical-align: bottom;
-    word-spacing: 0;
-    letter-spacing: 0;
-}
-
-.footerNav {
-    color: #000000;
-    background-color: #C0C0C0;
-    padding: 1em;
-}
 
 @media print {
-    TD.footerNav {
-        display: none;
-    }
-
-    TD.navBar {
-        display: none;
-    }
-
-    TABLE.navBar {
-        display: none;
-    }
-
-    TABLE.leftLang {
-        display: none;
-    }
-
-    TABLE.rightLang {
-        display: none;
-    }
 
     .newPage {
         page-break-before: always;
     }
-
-    .liGoogleAd {
-        display: none;
-    }
-
-    .liWorldAd {
-        display: none;
-    }
-
-    .GoogleAd {
-        display: none;
-    }
-
-    .WorldAd {
-        display: none;
-    }
-}
-
-.noBorder {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-TABLE.invers {
-    text-align: justify;
-    background: #635D83 none;
-    color: #FFFFFF;
-    padding: 15px;
-    margin: 10px;
-    width: 60%;
 }
 
 .liShowcave {
@@ -505,30 +420,6 @@ TABLE.invers {
     list-style-image: url("../graphics/symbol/Cave.png")
 }
 
-.liMine {
-    list-style-image: url("../graphics/symbol/Mine.png")
-}
-
-.liMisc {
-    list-style-image: url("../graphics/symbol/Misc.png")
-}
-
-.liRegion {
-    list-style-image: url("../graphics/symbol/Region.png")
-}
-
-.liSpring {
-    list-style-image: url("../graphics/symbol/Spring.png")
-}
-
-.liKarst {
-    list-style-image: url("../graphics/symbol/Karst.png")
-}
-
-.liGorge {
-    list-style-image: url("../graphics/symbol/Gorge.png")
-}
-
 .liExplain {
     list-style-image: url("../graphics/symbol/Explain.png")
 }
@@ -536,33 +427,5 @@ TABLE.invers {
 .liBook {
     list-style-image: url("../graphics/symbol/Book.png");
     margin-bottom: 1em;
-}
-
-.liMap {
-    list-style-image: url("../graphics/symbol/Map.png")
-}
-
-.liGallery {
-    list-style-image: url("../graphics/symbol/Gallery.png")
-}
-
-.liSmile {
-    list-style-image: url("../graphics/symbol/Smile.png")
-}
-
-.liGoogle {
-    list-style-image: url("../graphics/symbol/google.png")
-}
-
-.liGoogleAd {
-    list-style-image: url("../graphics/symbol/google.png")
-}
-
-.liGoogleEa {
-    list-style-image: url("../graphics/symbol/GoogleEarth.png")
-}
-
-.liWiki {
-    list-style-image: url("../graphics/symbol/Wikipedia.png")
 }
 

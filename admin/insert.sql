@@ -1,8 +1,15 @@
+UPDATE sights
+SET name="Ulmer Museum - Archaeological Collection"
+WHERE name = "Ulmer Museum - Archaeologic Collection";
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
-VALUES('yes','Peštera Pešna', '/english/other/caves/Peshna.html', 'Peshna', 'Europe', 'mk', 'Makedonija', 'caves', 'mk', 'other');
+VALUES ('yes', 'Peštera Pešna', '/english/other/caves/Peshna.html', 'Peshna', 'Europe', 'mk', 'Makedonija', 'caves',
+        'mk', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Domaines Rouvinez', '/english/ch/subterranea/Rouvinez.html', 'Rouvinez', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
-DELETE FROM sights WHERE sortby='Geronde';
+VALUES ('yes', 'Domaines Rouvinez', '/english/ch/subterranea/Rouvinez.html', 'Rouvinez', 'Europe', 'ch', 'Switzerland',
+        'subterranea', 'Wallis');
+DELETE
+FROM sights
+WHERE sortby = 'Geronde';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES ('yes', 'Peștera Duruitoarea', '/english/other/caves/Duruitoarea.html', 'Duruitoarea', '$continent$', 'md',
         'Republic of Moldova', 'caves', 'md', 'other');
@@ -99,3 +106,36 @@ VALUES ('yes', 'Catacombe di San Gennaro', '/english/it/subterranea/SanGennaro.h
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Catacombe di San Gaudioso', '/english/it/subterranea/SanGaudioso.html', 'SanGaudioso', 'Europe', 'it',
         'Italy', 'subterranea', 'Napoli');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Longyou Caves', '/english/cn/subterranea/Longyou.html', 'Longyou', 'Asia', 'cn', 'China', 'subterranea',
+        'Zhejiang');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Binġemma', '/english/mt/subterranea/Bingemma.html', 'Bingemma', 'Europe', 'mt', 'Malta', 'subterranea',
+        'Malta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Museum of Independence', '/english/other/subterranea/Independence.html', 'Independence', 'Asia', 'bd',
+        'Bangladesh', 'subterranea', 'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Alutila Cave', '/english/other/caves/Alutila.html', 'Alutila', 'Asia', 'bd', 'Bangladesh', 'caves',
+        'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Kana Raja\'s Cave', '/english/other/caves/KanaRaja.html', 'KanaRaja', 'Asia', 'bd', 'Bangladesh',
+        'caves', 'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Alikadam Cave', '/english/other/caves/Alikadam.html', 'Alikadam', 'Asia', 'bd', 'Bangladesh', 'caves',
+        'bd', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Kundum Cave', '/english/other/caves/Kundum.html', 'Kundum', 'Asia', 'bd', 'Bangladesh', 'caves', 'bd',
+        'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Knadel Cave Tour', '/english/other/caves/Knadel.html', 'Knadel', 'Africa', 'ma', 'Morocco', 'caves',
+        'ma', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Sub Terra Vorau', '/english/at/subterranea/Vorau.html', 'Vorau', 'Europe', 'at', 'Austria',
+        'subterranea', 'Steiermark');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Phnom Chhngok Cave Temple', '/english/other/caves/PhnomChhngok.html', 'PhnomChhngok', 'Asia', 'kh',
+        'Cambodia', 'caves', 'kh', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Veitensteinhöhle', '/english/de/caves/Veitenstein.html', 'Veitenstein', 'Europe', 'de', 'Germany',
+        'caves', 'Franken');
