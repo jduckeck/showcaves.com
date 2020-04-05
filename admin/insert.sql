@@ -127,3 +127,6 @@ VALUES ('yes', 'Alikadam Cave', '/english/other/caves/Alikadam.html', 'Alikadam'
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES ('yes', 'Kundum Cave', '/english/other/caves/Kundum.html', 'Kundum', 'Asia', 'bd', 'Bangladesh', 'caves', 'bd',
         'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Knadel Cave Tour', '/english/other/caves/Knadel.html', 'Knadel', 'Africa', 'ma', 'Morocco', 'caves',
+        'ma', 'other');
