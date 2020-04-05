@@ -133,3 +133,6 @@ VALUES ('yes', 'Knadel Cave Tour', '/english/other/caves/Knadel.html', 'Knadel',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Sub Terra Vorau', '/english/at/subterranea/Vorau.html', 'Vorau', 'Europe', 'at', 'Austria',
         'subterranea', 'Steiermark');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Phnom Chhngok Cave Temple', '/english/other/caves/PhnomChhngok.html', 'PhnomChhngok', 'Asia', 'kh',
+        'Cambodia', 'caves', 'kh', 'other');
