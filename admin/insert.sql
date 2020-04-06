@@ -139,3 +139,18 @@ VALUES ('yes', 'Phnom Chhngok Cave Temple', '/english/other/caves/PhnomChhngok.h
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Veitensteinhöhle', '/english/de/caves/Veitenstein.html', 'Veitenstein', 'Europe', 'de', 'Germany',
         'caves', 'Franken');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'La Cueva Caprichosa', '/english/es/subterranea/Caprichosa.html', 'Caprichosa', 'Europe', 'es', 'Spain',
+        'subterranea', 'Tenerife');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Prois de Candeleria', '/english/es/caves/ProisCandeleria.html', 'ProisCandeleria', 'Europe', 'es',
+        'Spain', 'caves', 'La Palma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cueva de Las Palomas', '/english/es/showcaves/LasPalomas.html', 'LasPalomas', 'Europe', 'es', 'Spain',
+        'showcaves', 'La Palma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Eisgrotte Stubaier Gletscher', '/english/at/subterranea/Stubai.html', 'Stubai', 'Europe', 'at',
+        'Austria', 'subterranea', 'Tirol');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cueva de los Aviones', '/english/es/caves/Aviones.html', 'Aviones', 'Europe', 'es', 'Spain', 'caves',
+        'Murcia');
