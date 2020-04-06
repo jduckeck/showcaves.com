@@ -154,3 +154,6 @@ VALUES ('yes', 'Eisgrotte Stubaier Gletscher', '/english/at/subterranea/Stubai.h
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Cueva de los Aviones', '/english/es/caves/Aviones.html', 'Aviones', 'Europe', 'es', 'Spain', 'caves',
         'Murcia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cueva Victoria', '/english/es/showcaves/Victoria.html', 'Victoria', 'Europe', 'es', 'Spain',
+        'showcaves', 'Murcia');
