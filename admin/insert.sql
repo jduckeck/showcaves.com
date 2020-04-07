@@ -160,3 +160,5 @@ VALUES ('yes', 'Cueva Victoria', '/english/es/showcaves/Victoria.html', 'Victori
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES ('yes', 'Riežupes smilšu alas', '/english/other/mines/Riezupes.html', 'Riezupes', 'Europe', 'lv', 'Latvia',
         'mines', 'lv', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Lībiešu upuralas', '/english/other/caves/LibiesuUpuralas.html', 'LibiesuUpuralas', 'Europe', 'lv', 'Latvia', 'caves', 'lv', 'other');
