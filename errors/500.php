@@ -61,19 +61,22 @@ Please try again maybe 15 minutes later.
         </ul>
     </div>
 </div>
-<!-- Path End -->
+    <!-- Path End -->
 
-<!-- Navigation Bar Begin -->
-<div data-role="footer" data-position="fixed">
-    <div data-role="navbar">
-        <ul>
-            <li><a data-ajax="false" target="_top" href="TermsOfUse.html">Terms of Use</a></li>
-            <li><a data-ajax="false" target="_top" href="Jochen.html">©Jochen Duckeck</a></li>
-            <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img class="xemhid" alt="contact" src="../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
-        </ul>
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact
+                        <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid"
+                                                                            src="../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
-<!-- Navigation Bar End -->
+    <!-- Navigation Bar End -->
 
 </div>
 </body>
