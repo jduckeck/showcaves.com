@@ -79,16 +79,13 @@ printByCountry($pdo, 'gorges');
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Landkarten</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches
-                        Register</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches Register</a></li>
                 <li><a data-ajax="false" target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
             </ul>
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Änderungen
-                        und Kritik: <img alt="contact" class="xemhid"
-                                         src="../../../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Änderungen und Kritik: <img alt="contact" class="xemhid" src="../../../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>
