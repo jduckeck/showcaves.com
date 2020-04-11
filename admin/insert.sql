@@ -161,4 +161,44 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Riežupes smilšu alas', '/english/other/mines/Riezupes.html', 'Riezupes', 'Europe', 'lv', 'Latvia',
         'mines', 'lv', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
-VALUES('yes','Lībiešu upuralas', '/english/other/caves/LibiesuUpuralas.html', 'LibiesuUpuralas', 'Europe', 'lv', 'Latvia', 'caves', 'lv', 'other');
+VALUES ('yes', 'Lībiešu upuralas', '/english/other/caves/LibiesuUpuralas.html', 'LibiesuUpuralas', 'Europe', 'lv',
+        'Latvia', 'caves', 'lv', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniere di Argento Vivo', '/english/it/mines/ArgentoVivo.html', 'ArgentoVivo', 'Europe', 'it', 'Italy',
+        'mines', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grotte di Equi Terme', '/english/it/showcaves/EquiTerme.html', 'EquiTerme', 'Europe', 'it', 'Italy',
+        'showcaves', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Parco Fluviale Novella', '/english/it/gorges/Novella.html', 'Novella', 'Europe', 'it', 'Italy',
+        'gorges', 'Trentino');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'La Miniera Di Cogne', '/english/it/mines/Cogne.html', 'Cogne', 'Europe', 'it', 'Italy', 'mines',
+        'Piemonte');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera di Calceranica', '/english/it/mines/Calceranica.html', 'Calceranica', 'Europe', 'it', 'Italy',
+        'mines', 'Trentino');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grua va Hardömbl', '/english/it/mines/Hardombl.html', 'Hardombl', 'Europe', 'it', 'Italy', 'mines',
+        'Trentino');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cava del Piastraio', '/english/it/mines/Piastraio.html', 'Piastraio', 'Europe', 'it', 'Italy', 'mines',
+        'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Arroyo Tapiado Mud Caves', '/english/usa/caves/ArroyoTapiado.html', 'ArroyoTapiado', 'NorthAmerica',
+        'usa', 'United States of America', 'caves', 'ca');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniere di Dossena', '/english/it/mines/Dossena.html', 'Dossena', 'Europe', 'it', 'Italy', 'mines',
+        'Lombardia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Sorgente Fiumelatte', '/english/it/springs/Fiumelatte.html', 'Fiumelatte', 'Europe', 'it', 'Italy',
+        'springs', 'Lombardia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera della Bagnada', '/english/it/mines/Bagnada.html', 'Bagnada', 'Europe', 'it', 'Italy', 'mines',
+        'Lombardia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniere di Darzo', '/english/it/mines/Darzo.html', 'Darzo', 'Europe', 'it', 'Italy', 'mines',
+        'Trentino');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera Gaffione', '/english/it/mines/Gaffione.html', 'Gaffione', 'Europe', 'it', 'Italy', 'mines',
+        'Lombardia');
