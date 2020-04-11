@@ -96,7 +96,7 @@ function printByCountryAll($pdo)
                 $oldCountry = $country;
             }
 
-            $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
+            $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name</a></li>\n";
             $entries++;
         }
 
@@ -143,7 +143,7 @@ function printByCountry($pdo, $category)
                 $oldCountry = $country;
             }
 
-            $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name</a></li>\n";
+            $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name</a></li>\n";
             $entries++;
         }
 
@@ -187,7 +187,7 @@ function printAllByCategory($pdo, $category)
             $name = $row['name'];
             $country = $row['country'];
             $filename = $row['filename'];
-            print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+            print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
         }
     }
 }
@@ -207,7 +207,7 @@ function printAll($pdo)
             $country = $row['country'];
             $filename = $row['filename'];
             $Category = getCategory($row['category']);
-            print ("           <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png' alt='$Category'>$name, $country</a></li>\n");
+            print ("           <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
         }
     }
 }
