@@ -26,7 +26,7 @@ Linklist:
 
 
 (\S+)@(\S+)\.(\S+)
-E-mail: <img onClick="xemhid('$1','$2','$3')" src="../../../xemhid.php?p1=$1&p2=$2&p3=$3" class="email" alt="contact">
+E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../xemhid.php?p1=$1&p2=$2&p3=$3">
 
 
 
