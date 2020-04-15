@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Miniere di Cortabbio di Primaluna', '/english/it/mines/Primaluna.html', 'Primaluna', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Miniere dei Resinelli', '/english/it/mines/Resinelli.html', 'Resinelli', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grotta di Santa Barbara', '/english/it/showcaves/SantaBarbara.html', 'SantaBarbara', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera di Masua', '/english/it/mines/Masua.html', 'Masua', 'Europe', 'it', 'Italy', 'mines', 'Sardinia');
