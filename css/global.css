@@ -161,10 +161,15 @@ img.flag {
     float-offset: 10px;
 }
 
-.galleryImg {
+table.galleryImg {
     margin-left: auto;
     margin-right: auto;
     width: 380px;
+}
+
+table.galleryImg td {
+    text-align: center;
+    font-weight: bold;
 }
 
 .entrance {
