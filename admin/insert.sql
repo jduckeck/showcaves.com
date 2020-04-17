@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Galleria Henry', '/english/it/mines/Henry.html', 'Henry', 'Europe', 'it', 'Italy', 'mines', 'Sardinia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Miniera di Amianto di Balangero e Corio', '/english/it/mines/Balangero.html', 'Balangero', 'Europe', 'it', 'Italy', 'mines', 'Piemonte');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera d\'Oro di Brusson', '/english/it/mines/Brusson.html', 'Brusson', 'Europe', 'it', 'Italy', 'mines', 'Piemonte');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniere di Saint-Marcel', '/english/it/mines/SaintMarcel.html', 'SaintMarcel', 'Europe', 'it', 'Italy', 'mines', 'Piemonte');
