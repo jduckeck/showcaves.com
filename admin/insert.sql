@@ -31,6 +31,6 @@ VALUES ('yes', 'Miniera Montevecchio', '/english/it/mines/Montevecchio.html', 'M
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Miniera di Naracauli', '/english/it/mines/Naracauli.html', 'Naracauli', 'Europe', 'it', 'Italy', 'mines', 'Sardinia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Miniera di San Giovanni', '/english/it/mines/SanGiovanni.html', 'SanGiovanni', 'Europe', 'it', 'Italy', 'mines', 'Sardinia');
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Museo del Carbone della Grande Miniera di Serbariu', '/english/it/mines/Serbariu.html', 'Serbariu', 'Europe', 'it', 'Italy', 'mines', 'Sardinia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera di Rosas', '/english/it/mines/Rosas.html', 'Rosas', 'Europe', 'it', 'Italy', 'mines', 'Sardinia');
