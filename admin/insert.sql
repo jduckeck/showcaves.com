@@ -5,7 +5,7 @@ VALUES ('yes', 'Miniera d\'Oro di Sessa', '/english/ch/mines/Sessa.html', 'Sessa
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Grotta dei Cristalli', '/english/ch/subterranea/Cristalli.html', 'Cristalli', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Ticino');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Miniere di Cortabbio di Primaluna', '/english/it/mines/Primaluna.html', 'Primaluna', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
+VALUES ('yes', 'Parco Minerario Cortabbio di Primaluna', '/english/it/mines/Primaluna.html', 'Primaluna', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Miniere dei Resinelli', '/english/it/mines/Resinelli.html', 'Resinelli', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
