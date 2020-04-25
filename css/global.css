@@ -305,6 +305,28 @@ table.classification td {
     background-color: rgba(186, 201, 221, 0.49);
 }
 
+table.withBorder {
+    border: 1px solid black;
+    border-collapse: collapse;
+    clear: both;
+    margin: 1em auto;
+}
+
+table.withBorder th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #bac9dd;
+    padding: 0.4em;
+    text-align: left;
+    background-color: rgba(186, 201, 221, 0.49);
+}
+
+table.withBorder td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.4em;
+}
+
 table.center {
     clear: both;
     margin: 1em auto;

@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Štoly Marie pomocná a Koňská jáma', '/english/cz/mines/MariePomocna.html', 'MariePomocna', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Štola Johannes', '/english/cz/mines/Johannes.html', 'Johannes', 'Europe', 'cz', 'Czech Republic', 'mines', 'Karlovarsky');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Důl Mauritius', '/english/cz/mines/Mauritius.html', 'Mauritius', 'Europe', 'cz', 'Czech Republic', 'mines', 'Karlovarsky');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Besucherbergwerk „St.-Christoph“', '/english/de/mines/StChristoph.html', 'StChristoph', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge');
