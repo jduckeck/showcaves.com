@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Důl Mauritius', '/english/cz/mines/Mauritius.html', 'Mauritius', 'Europe', 'cz', 'Czech Republic', 'mines', 'Karlovarsky');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Besucherbergwerk „St.-Christoph“', '/english/de/mines/StChristoph.html', 'StChristoph', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Muzeum vltavínů', '/english/cz/subterranea/Moldavite.html', 'Moldavite', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihocesky');
