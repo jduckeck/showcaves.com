@@ -43,10 +43,6 @@ p {
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 }
 
-.pssst {
-    display: none;
-}
-
 .closed {
     text-decoration: line-through;
 }
@@ -67,6 +63,18 @@ p {
 
 .centerTable {
     margin: 0 auto;
+}
+
+ol.biglist {
+    margin: 2rem;
+}
+
+ol.biglist li {
+    margin: 1rem;
+}
+
+ol.biglist ul li {
+    margin: .5rem;
 }
 
 table.language {
