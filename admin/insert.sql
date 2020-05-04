@@ -25,4 +25,34 @@ VALUES ('yes', 'Důl Mauritius', '/english/cz/mines/Mauritius.html', 'Mauritius'
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Besucherbergwerk „St.-Christoph“', '/english/de/mines/StChristoph.html', 'StChristoph', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Muzeum vltavínů', '/english/cz/subterranea/Moldavite.html', 'Moldavite', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihocesky');
+VALUES ('yes', 'Muzeum vltavínů', '/english/cz/subterranea/Moldavite.html', 'Moldavite', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihocesky');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museo dei Minerali Elbani', '/english/it/mines/MineraliElbani.html', 'MineraliElbani', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Zeche Zollverein', '/english/de/mines/Zollverein.html', 'Zollverein', 'Europe', 'de', 'Germany', 'mines', 'Ruhrgebiet');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Beppu Benten Pond', '/english/jp/springs/Beppu.html', 'Beppu', 'Asia', 'jp', 'Japan', 'springs', 'Yamaguchi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Rashōmon Natural Bridges', '/english/jp/caves/Rashomon.html', 'Rashomon', 'Asia', 'jp', 'Japan', 'caves', 'Okayama');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Saitobaru Burial Mounds', '/english/jp/subterranea/Saitobaru.html', 'Saitobaru', 'Asia', 'jp', 'Japan', 'subterranea', 'Miyazaki');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Udo-jingū', '/english/jp/caves/Udo.html', 'Udo', 'Asia', 'jp', 'Japan', 'caves', 'Miyazaki');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Takachiho Gorge', '/english/jp/gorges/Takachiho.html', 'Takachiho', 'Asia', 'jp', 'Japan', 'gorges', 'Miyazaki');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Dorohacchō Gorge', '/english/jp/gorges/Dorohaccho.html', 'Dorohaccho', 'Asia', 'jp', 'Japan', 'gorges', 'Nara');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Chikura Cavern', '/english/jp/caves/Chikura.html', 'Chikura', 'Asia', 'jp', 'Japan', 'caves', 'Kagoshima');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Taishaku Gorge', '/english/jp/gorges/Taishaku.html', 'Taishaku', 'Asia', 'jp', 'Japan', 'gorges', 'Hiroshima');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Yajagama Cave', '/english/jp/showcaves/Yajagama.html', 'Yajagama', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa‎');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Amano Yasugawara', '/english/jp/caves/AmanoYasugawara.html', 'AmanoYasugawara', 'Asia', 'jp', 'Japan', 'caves', 'Miyazaki');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera di Punta Ginepro', '/english/it/mines/PuntaGinepro.html', 'PuntaGinepro', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera del Siele', '/english/it/mines/Siele.html', 'Siele', 'Europe', 'it', 'Italy', 'mines', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Miniera del Temperino', '/english/it/mines/Temperino.html', 'Temperino', 'Europe', 'it', 'Italy', 'mines', 'Toscana');
