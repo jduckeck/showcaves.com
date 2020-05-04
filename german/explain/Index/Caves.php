@@ -61,7 +61,7 @@
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
 <?
-printAllByCategory($pdo, 'showcaves');
+printAllByCategory($pdo, 'caves');
 ?>
         </ul>
 

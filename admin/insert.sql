@@ -56,3 +56,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Miniera del Siele', '/english/it/mines/Siele.html', 'Siele', 'Europe', 'it', 'Italy', 'mines', 'Toscana');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Miniera del Temperino', '/english/it/mines/Temperino.html', 'Temperino', 'Europe', 'it', 'Italy', 'mines', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Takkoku no Iwaya Temple', '/english/jp/caves/Takkoku.html', 'Takkoku', 'Asia', 'jp', 'Japan', 'caves', 'Iwate');
