@@ -58,3 +58,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Miniera del Temperino', '/english/it/mines/Temperino.html', 'Temperino', 'Europe', 'it', 'Italy', 'mines', 'Toscana');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Takkoku no Iwaya Temple', '/english/jp/caves/Takkoku.html', 'Takkoku', 'Asia', 'jp', 'Japan', 'caves', 'Iwate');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Ushibushi dōkutsu', '/english/jp/subterranea/Ushibushi.html', 'Ushibushi', 'Asia', 'jp', 'Japan', 'subterranea', 'Gunma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hanibe Caves', '/english/jp/subterranea/Hanibe.html', 'Hanibe', 'Asia', 'jp', 'Japan', 'subterranea', 'Ishikawa');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Yoshimi Hyakuana', '/english/jp/subterranea/Yoshimi.html', 'Yoshimi', 'Asia', 'jp', 'Japan', 'subterranea', 'Saitama');
