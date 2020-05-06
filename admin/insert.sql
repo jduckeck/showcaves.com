@@ -64,3 +64,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hanibe Caves', '/english/jp/subterranea/Hanibe.html', 'Hanibe', 'Asia', 'jp', 'Japan', 'subterranea', 'Ishikawa');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Yoshimi Hyakuana', '/english/jp/subterranea/Yoshimi.html', 'Yoshimi', 'Asia', 'jp', 'Japan', 'subterranea', 'Saitama');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Montreal Goldfield', '/english/au/mines/Montreal.html', 'Montreal', 'Oceania', 'au', 'Australia', 'mines', 'nsw');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museum of the Goldfields', '/english/au/mines/Goldfields.html', 'Goldfields', 'Oceania', 'au', 'Australia', 'mines', 'wa');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hard Rock Vault', '/english/gb/subterranea/HardRock.html', 'HardRock', 'Europe', 'gb', 'Great Britain', 'subterranea', 'London');
