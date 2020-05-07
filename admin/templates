@@ -215,8 +215,8 @@ http://www.showcaves.com/graphics/kmz/gorge.png
 <a target="_top" href="../../explain/Speleology/Classification.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Classification of Caves:</b></a>
 <a target="_top" href="../../explain/Speleology/Primary.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Primary Caves:</b></a>
 <a target="_top" href="../../explain/Speleology/Blister.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Blister Caves</a>
-<a target="_top" href="../../explain/Speleology/Lava.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Lava Caves</a>
-<a target="_top" href="../../explain/Speleology/LavaTube.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Lava Tubes</a>
+<a data-ajax="false" target="_top" href="../../explain/Speleology/Lava.html"><img alt="Speleology" class="symbol" src="../../../graphics/symbol/Cave.png">lava cave</a>
+<a data-ajax="false" target="_top" href="../../explain/Speleology/LavaTube.html"><img alt="Speleology" class="symbol" src="../../../graphics/symbol/Cave.png">lava tube</a>
 <a target="_top" href="../../explain/Speleology/Tuff.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Tufa Caves</a>
 <a target="_top" href="../../explain/Speleology/Reef.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Reef Caves</a>
 <a target="_top" href="../../explain/Speleology/Secondary.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Secondary Caves:</b></a>
@@ -242,6 +242,7 @@ http://www.showcaves.com/graphics/kmz/gorge.png
 <a target="_top" href="../../explain/Speleology/Dogs.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Dog's Caves</a>
 <a target="_top" href="../../explain/Speleology/Ice.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Ice Caves</a>
 <a target="_top" href="../../explain/Speleology/Glacier.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Glacier Caves</a>
+<a data-ajax="false" target="_top" href="../../explain/Speleology/Sandstone.html"><img alt="Speleology" class="symbol" src="../../../graphics/symbol/Cave.png">sandstone cave</a>
 
 <a target="_top" href="../../explain/Karst/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst</a>
 <a target="_top" href="../../explain/Karst/BareKarst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Bare Karst</a>

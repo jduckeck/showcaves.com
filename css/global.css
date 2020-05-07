@@ -65,6 +65,23 @@ p {
     margin: 0 auto;
 }
 
+/*create formula with super and subscript */
+.supsub {
+    position: absolute;
+}
+
+.sub {
+    display: block;
+    position: relative;
+    font-size: 70%;
+}
+
+.sup {
+    display: block;
+    position: relative;
+    font-size: 70%;
+}
+
 ol.biglist {
     margin: 2rem;
 }
