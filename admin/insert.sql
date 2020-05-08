@@ -70,3 +70,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museum of the Goldfields', '/english/au/mines/Goldfields.html', 'Goldfields', 'Oceania', 'au', 'Australia', 'mines', 'wa');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Hard Rock Vault', '/english/gb/subterranea/HardRock.html', 'HardRock', 'Europe', 'gb', 'Great Britain', 'subterranea', 'London');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Puna Tree Molds', '/english/usa/caves/Puna.html', 'Puna', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'hi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Mauna Loa Tree Molds', '/english/usa/caves/MaunaLoaTreeMolds.html', 'MaunaLoaTreeMolds', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'hi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Skalky skřítků', '/english/cz/caves/SkalkySkritku.html', 'SkalkySkritku', 'Europe', 'cz', 'Czech Republic', 'caves', 'Karlovarsky');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Trail of Two Forests', '/english/usa/caves/TwoForests.html', 'TwoForests', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'wa');
