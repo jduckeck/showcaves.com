@@ -227,7 +227,7 @@ http://www.showcaves.com/graphics/kmz/gorge.png
 <a target="_top" href="../../explain/Speleology/Neotectonic.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Neotectonic Caves</a>
 <a target="_top" href="../../explain/Speleology/Talus.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Talus Caves</a>
 <a target="_top" href="../../explain/Speleology/Fissure.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Fissure Caves</a>
-<a target="_top" href="../../explain/Speleology/SeaCave.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Sea Caves</a>
+<a data-ajax="false" target="_top" href="../../explain/Speleology/SeaCave.html"><img alt="Speleology" class="symbol" src="../../../graphics/symbol/Cave.png">sea cave</a>
 <a target="_top" href="../../explain/Speleology/Speleogenesis.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png"><b>Speleogenesis:</b></a>
 <a target="_top" href="../../explain/Speleology/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Karst Caves</a>
 <a target="_top" href="../../explain/Speleology/River.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">River Caves</a>
