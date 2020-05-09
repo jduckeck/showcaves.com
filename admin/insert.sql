@@ -80,3 +80,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Trail of Two Forests', '/english/usa/caves/TwoForests.html', 'TwoForests', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'wa');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Bullers of Buchan', '/english/gb/caves/Bullers.html', 'Bullers', 'Europe', 'gb', 'Great Britain', 'caves', 'Aberdeenshire');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Gole dell\'Alcantara', '/english/it/gorges/Alcantara.html', 'Alcantara', 'Europe', 'it', 'Italy', 'gorges', 'Sicilia');
