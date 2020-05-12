@@ -32,8 +32,7 @@
         // Written by: Jochen Duckeck, Nuernberg, 1997
         if ((obj.Miles.value !== 0) && (eval(obj.Miles.value) !== 0)) {
             obj.kilometre.value = eval(obj.Miles.value) * 1.609;
-        }
-        else {
+        } else {
             if (eval(obj.kilometre.value) !== 0) obj.Miles.value = eval(obj.kilometre.value) / 1.609;
         }
     }
@@ -42,8 +41,7 @@
         // Written by: Jochen Duckeck, Nuernberg, 1997
         if ((obj.Foot.value !== 0) && (eval(obj.Foot.value) !== 0)) {
             obj.Meter.value = eval(obj.Foot.value) * 0.3048;
-        }
-        else {
+        } else {
             if (eval(obj.Meter.value) !== 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
         }
     }
@@ -65,7 +63,6 @@
         <h2 class="center"></h2>
 
         <br class="clear">
-
 
         <table class="usefulInfo">
             <tr>
@@ -142,12 +139,29 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Abbreviations and Symbols</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Info/location.html"><img alt="Deutsch - German" src="../../../graphics/flags/de-small.png" class="language"></a></li>
             </ul>
         </div>
     </div>
     <!-- Path End -->
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+            </ul>
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid" src="../../../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
 
 </div>
 </body>
