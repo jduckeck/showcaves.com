@@ -11,7 +11,7 @@ Quote Url plugin advanced formatting
 </table>
 
 <table class="history">
-    <tr><td></td><td rowspan="100"> </td><td></td></tr>
+    <tr><td></td><td rowspan="100"> </td><td></td></tr>
     <tr><td></td><td>.</td></tr>
 </table>
 
@@ -21,7 +21,7 @@ Linklist:
 <li class=\"liShowcave\">
 <li><a data-ajax=\"false\" target=\"_top\" ><img alt="" src=\"../../../graphics/symbol/Showcave.png\" alt=\"Showcave\" class=\"ui-li-icon ui-corner-none\">
 
-    <img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/(.+)\.gif\" width=\"12\" height=\"12\"> <a \s+>(.+)</a>(.*) \|
+    <img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/(.+)\.gif\" width=\"12\" height=\"12\"> <a \s+>(.+)</a>(.*) \|
 <li><a data-ajax=\"false\" target=\"_top\" ><b>$4</b> $5</a></li>
 
 
@@ -38,11 +38,11 @@ class=\"ui-btn ui-btn-inline\"
 
 Typ Category links
         \<li\>\<a data-ajax=\"false\" target=\"_top\" href=\"\.\./\.\./explain/(.+)\"       \>\<img class=\"ui-li-icon ui-corner-none\" vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\>(.+)\</a\>\</li\>
-\<img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\> \<a href=\"\.\./\.\./explain/(\.+)\"         \>(\.+)\</a\>
+\<img vspace=\"0\" hspace=\"0\" src=\"\.\./\.\./\.\./graphics/symbol/Explain\.gif\"  width=\"12\" height=\"12\"\> \<a href=\"\.\./\.\./explain/(\.+)\"         \>(\.+)\</a\>
 <button data-role="button" data-inline=\"true\" data-mini=\"true\"><a data-ajax=\"false\" target=\"_top\" href=\"../../explain/\1\"><img vspace=\"0\" hspace=\"0\" src=\"../../../graphics/symbol/Explain.gif\" width=\"12\" height=\"12\">\2</a></button>
 
 -- replace ByRegion links
-<img alt="(.*)" class="symbol" src="../../../graphics/symbol/(.*).png"> <a sort=".*" href="(.*)">(.*)</a> \|
+<img alt="(.*)" class="symbol" src="../../../graphics/symbol/(.*).png"> <a sort=".*" href="(.*)">(.*)</a> \|
 <li><a data-ajax="false" target="_top" href="$2"><img alt="$1" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/$1.png">$3</a></li>
 
 
