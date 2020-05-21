@@ -83,9 +83,9 @@ printAllByCategory($pdo, 'springs');
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Landkarten</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabethisches Register</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
+                <li><a target="_top" href="../../explain/Maps/index.html">Landkarten</a></li>
+                <li><a target="_top" href="../../explain/Index/index.html">Alphabethisches Register</a></li>
+                <li><a target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
             </ul>
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>

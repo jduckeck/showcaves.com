@@ -83,9 +83,9 @@
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a data-ajax="false" target="_top" href="../../explain/Maps/index.html">Maps</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/index.html">General Information</a></li>
+                <li><a target="_top" href="../../explain/Maps/index.html">Maps</a></li>
+                <li><a target="_top" href="../../explain/Index/index.html">Alphabetical Index</a></li>
+                <li><a target="_top" href="../../explain/index.html">General Information</a></li>
             </ul>
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
