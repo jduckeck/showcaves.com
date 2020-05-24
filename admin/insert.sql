@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Lucca City Walls Basement', '/english/it/subterranea/Lucca.html', 'Lucca', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Al Kittan', '/english/om/showcaves/AlKittan.html', 'AlKittan', 'MiddleEast', 'om', 'Oman', 'showcaves', 'om');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Bimmah Sinkhole', '/english/other/karst/Bimmah.html', 'Bimmah', 'MiddleEast', 'om', 'Oman', 'karst', 'om', 'other');
