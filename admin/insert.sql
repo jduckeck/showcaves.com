@@ -40,3 +40,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bimmah Sinkhole', '/english/other/karst/Bimmah.html', 'Bimmah', 'MiddleEast', 'om', 'Oman', 'karst', 'om', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES ('yes', 'Mina de Sal de Nemocón', '/english/other/mines/Nemocon.html', 'Nemocon', 'SouthAmerica', 'co', 'Colombia', 'mines', 'co', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Sauta Cave', '/english/usa/caves/Sauta.html', 'Sauta', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'al');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Crowley Lake Columns', '/english/usa/caves/CrowleyLakeColumns.html', 'CrowleyLakeColumns', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ca');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cave Creek Museum', '/english/usa/mines/CaveCreek.html', 'CaveCreek', 'NorthAmerica', 'us', 'United States of America', 'mines', 'az');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Rose Creek Mine', '/english/usa/mines/RoseCreek.html', 'RoseCreek', 'NorthAmerica', 'us', 'United States of America', 'mines', 'nc');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Wallace District Mining Museum', '/english/usa/mines/Wallace.html', 'Wallace', 'NorthAmerica', 'us', 'United States of America', 'mines', 'id');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Wegner Crystal Mines', '/english/usa/mines/Wegner.html', 'Wegner', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
