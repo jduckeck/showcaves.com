@@ -8,3 +8,47 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Luobi Cave', '/english/cn/caves/Luobi.html', 'Luobi', 'Asia', 'cn', 'China', 'caves', 'Hainan');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Xionglong Cave', '/english/cn/showcaves/Xionglong.html', 'Xionglong', 'Asia', 'cn', 'China', 'showcaves', 'Hebei');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Mithrasgrotte', '/english/de/subterranea/Halberg.html', 'Halberg', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Mitreo delle Terme del Mitra', '/english/it/subterranea/TermeDelMitra.html', 'TermeDelMitra', 'Europe', 'it', 'Italy', 'subterranea', 'Roma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Mitreo di Palazzo Barberini', '/english/it/subterranea/PalazzoBarberini.html', 'PalazzoBarberini', 'Europe', 'it', 'Italy', 'subterranea', 'Roma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Underground Basilica of Porta Maggiore', '/english/it/subterranea/PortaMaggiore.html', 'PortaMaggiore', 'Europe', 'it', 'Italy', 'subterranea', 'Roma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Heidenkapelle', '/english/fr/subterranea/Dalem.html', 'Dalem', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Santa Prisca Mithraeum', '/english/it/subterranea/SantaPrisca.html', 'SantaPrisca', 'Europe', 'it', 'Italy', 'subterranea', 'Roma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Matsushiro Underground Imperial Headquarters', '/english/jp/subterranea/Matsushiro.html', 'Matsushiro', 'Asia', 'jp', 'Japan', 'subterranea', 'Nagano');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Creugenat', '/english/ch/karst/Creugenat.html', 'Creugenat', 'Europe', 'ch', 'Switzerland', 'karst', 'Jura');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grotte del Caglieron', '/english/it/gorges/Caglieron.html', 'Caglieron', 'Europe', 'it', 'Italy', 'gorges', 'Veneto');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'St. Colman\'s Cell', '/english/ie/caves/StColmans.html', 'StColmans', 'Europe', 'ie', 'Ireland', 'caves', 'Clare');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Ecomuseo Miniere di Gorno', '/english/it/mines/Gorno.html', 'Gorno', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grotta di Monte Cucco', '/english/it/showcaves/MonteCucco.html', 'MonteCucco', 'Europe', 'it', 'Italy', 'showcaves', 'Umbria');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Lucca City Walls Basement', '/english/it/subterranea/Lucca.html', 'Lucca', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Al Kittan', '/english/om/showcaves/AlKittan.html', 'AlKittan', 'MiddleEast', 'om', 'Oman', 'showcaves', 'om');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Bimmah Sinkhole', '/english/other/karst/Bimmah.html', 'Bimmah', 'MiddleEast', 'om', 'Oman', 'karst', 'om', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Mina de Sal de Nemocón', '/english/other/mines/Nemocon.html', 'Nemocon', 'SouthAmerica', 'co', 'Colombia', 'mines', 'co', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Sauta Cave', '/english/usa/caves/Sauta.html', 'Sauta', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'al');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Crowley Lake Columns', '/english/usa/caves/CrowleyLakeColumns.html', 'CrowleyLakeColumns', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ca');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cave Creek Museum', '/english/usa/mines/CaveCreek.html', 'CaveCreek', 'NorthAmerica', 'us', 'United States of America', 'mines', 'az');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Rose Creek Mine', '/english/usa/mines/RoseCreek.html', 'RoseCreek', 'NorthAmerica', 'us', 'United States of America', 'mines', 'nc');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Wallace District Mining Museum', '/english/usa/mines/Wallace.html', 'Wallace', 'NorthAmerica', 'us', 'United States of America', 'mines', 'id');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Wegner Crystal Mines', '/english/usa/mines/Wegner.html', 'Wegner', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
