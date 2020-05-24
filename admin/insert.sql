@@ -38,3 +38,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Al Kittan', '/english/om/showcaves/AlKittan.html', 'AlKittan', 'MiddleEast', 'om', 'Oman', 'showcaves', 'om');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES ('yes', 'Bimmah Sinkhole', '/english/other/karst/Bimmah.html', 'Bimmah', 'MiddleEast', 'om', 'Oman', 'karst', 'om', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Mina de Sal de Nemocón', '/english/other/mines/Nemocon.html', 'Nemocon', 'SouthAmerica', 'co', 'Colombia', 'mines', 'co', 'other');
