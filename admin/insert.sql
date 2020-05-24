@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Heidenkapelle', '/english/fr/subterranea/Dalem.html', 'Dalem', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Santa Prisca Mithraeum', '/english/it/subterranea/SantaPrisca.html', 'SantaPrisca', 'Europe', 'it', 'Italy', 'subterranea', 'Roma');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Matsushiro Underground Imperial Headquarters', '/english/jp/subterranea/Matsushiro.html', 'Matsushiro', 'Asia', 'jp', 'Japan', 'subterranea', 'Nagano');
