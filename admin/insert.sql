@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte del Caglieron', '/english/it/gorges/Caglieron.html', 'Caglieron', 'Europe', 'it', 'Italy', 'gorges', 'Veneto');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'St. Colman\'s Cell', '/english/ie/caves/StColmans.html', 'StColmans', 'Europe', 'ie', 'Ireland', 'caves', 'Clare');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Ecomuseo Miniere di Gorno', '/english/it/mines/Gorno.html', 'Gorno', 'Europe', 'it', 'Italy', 'mines', 'Lombardia');
