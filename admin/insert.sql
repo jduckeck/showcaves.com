@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Matsushiro Underground Imperial Headquarters', '/english/jp/subterranea/Matsushiro.html', 'Matsushiro', 'Asia', 'jp', 'Japan', 'subterranea', 'Nagano');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Creugenat', '/english/ch/karst/Creugenat.html', 'Creugenat', 'Europe', 'ch', 'Switzerland', 'karst', 'Jura');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Grotte del Caglieron', '/english/it/gorges/Caglieron.html', 'Caglieron', 'Europe', 'it', 'Italy', 'gorges', 'Veneto');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'St. Colman\'s Cell', '/english/ie/caves/StColmans.html', 'StColmans', 'Europe', 'ie', 'Ireland', 'caves', 'Clare');
