@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotta di Monte Cucco', '/english/it/showcaves/MonteCucco.html', 'MonteCucco', 'Europe', 'it', 'Italy', 'showcaves', 'Umbria');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Lucca City Walls Basement', '/english/it/subterranea/Lucca.html', 'Lucca', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Al Kittan', '/english/om/showcaves/AlKittan.html', 'AlKittan', 'MiddleEast', 'om', 'Oman', 'showcaves', 'om');
