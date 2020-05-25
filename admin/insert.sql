@@ -52,3 +52,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wallace District Mining Museum', '/english/usa/mines/Wallace.html', 'Wallace', 'NorthAmerica', 'us', 'United States of America', 'mines', 'id');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Wegner Crystal Mines', '/english/usa/mines/Wegner.html', 'Wegner', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Deutsches Bunkermuseum', '/english/de/subterranea/DeutschesBunkermuseum.html', 'DeutschesBunkermuseum', 'Europe', 'de', 'Germany', 'subterranea', 'Bayern');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hilfskrankenhaus Gunzenhausen', '/english/de/subterranea/Gunzenhausen.html', 'Gunzenhausen', 'Europe', 'de', 'Germany', 'subterranea', 'Bayern');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Speco di San Francesco', '/english/it/caves/SpecoSanFrancesco.html', 'SpecoSanFrancesco', 'Europe', 'it', 'Italy', 'caves', 'Umbria');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Jarnan Cave', '/english/other/caves/Jarnan.html', 'Jarnan', 'MiddleEast', 'om', 'Oman', 'caves', 'om', 'other');
