@@ -62,3 +62,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Jarnan Cave', '/english/other/caves/Jarnan.html', 'Jarnan', 'MiddleEast', 'om', 'Oman', 'caves', 'om', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Gwalia Gold Mine', '/english/au/mines/Gwalia.html', 'Gwalia', 'Oceania', 'au', 'Australia', 'mines', 'wa');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Carriere souterraine de Géromont', '/english/be/mines/Geromont.html', 'Geromont', 'Europe', 'be', 'Belgium', 'mines', 'Liege');
