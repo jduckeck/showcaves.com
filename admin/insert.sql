@@ -63,4 +63,6 @@ VALUES ('yes', 'Jarnan Cave', '/english/other/caves/Jarnan.html', 'Jarnan', 'Mid
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Gwalia Gold Mine', '/english/au/mines/Gwalia.html', 'Gwalia', 'Oceania', 'au', 'Australia', 'mines', 'wa');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Carriere souterraine de Géromont', '/english/be/mines/Geromont.html', 'Geromont', 'Europe', 'be', 'Belgium', 'mines', 'Liege');
+VALUES ('yes', 'Carriere souterraine de Gèromont', '/english/be/mines/Geromont.html', 'Geromont', 'Europe', 'be', 'Belgium', 'mines', 'Liege');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Carrières souterraines de la Malogne', '/english/be/mines/Malogne.html', 'Malogne', 'Europe', 'be', 'Belgium', 'mines', 'Hainaut');
