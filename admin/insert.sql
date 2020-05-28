@@ -66,3 +66,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Carriere souterraine de Gèromont', '/english/be/mines/Geromont.html', 'Geromont', 'Europe', 'be', 'Belgium', 'mines', 'Liege');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Carrières souterraines de la Malogne', '/english/be/mines/Malogne.html', 'Malogne', 'Europe', 'be', 'Belgium', 'mines', 'Hainaut');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Wadi Shab', '/english/other/gorges/WadiShab.html', 'WadiShab', 'MiddleEast', 'om', 'Oman', 'gorges', 'om', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Weeki Wachee', '/english/usa/springs/WeekiWachee.html', 'WeekiWachee', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl');
