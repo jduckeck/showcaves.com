@@ -72,3 +72,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Weeki Wachee', '/english/usa/springs/WeekiWachee.html', 'WeekiWachee', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Gamaoreum Japanese Cavern Site', '/english/kr/subterranea/Gamaoreum.html', 'Gamaoreum', 'Asia', 'kr', 'South Korea', 'subterranea', 'Jeju');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Medvidina špilja', '/english/hr/caves/Medvidina.html', 'Medvidina', 'Europe', 'hr', 'Croatia', 'caves', 'Dalmatia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Zelena Špilja', '/english/hr/caves/Zelena.html', 'Zelena', 'Europe', 'hr', 'Croatia', 'caves', 'Dalmatia');
