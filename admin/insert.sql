@@ -88,3 +88,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Atombunker Garzau', '/english/de/subterranea/Garzau.html', 'Garzau', 'Europe', 'de', 'Germany', 'subterranea', 'Norddeutschland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Port Alberni Hole in the Wall', '/english/ca/karst/PortAlberni.html', 'PortAlberni', 'NorthAmerica', 'ca', 'Canada', 'karst', 'BritishColumbia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Wadi Sannur Cave', '/english/other/caves/Sannur.html', 'Sannur', 'Africa', 'eg', 'Egypt', 'caves', 'eg', 'other');
