@@ -269,6 +269,11 @@ table.standard td {
     border-collapse: collapse;
     padding: 0.5em;
     text-align: left;
+    white-space: nowrap;
+}
+
+table.standard td.wrap {
+    white-space: normal !important;
 }
 
 table.standard tfoot {

@@ -76,3 +76,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Medvidina špilja', '/english/hr/caves/Medvidina.html', 'Medvidina', 'Europe', 'hr', 'Croatia', 'caves', 'Dalmatia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Zelena Špilja', '/english/hr/caves/Zelena.html', 'Zelena', 'Europe', 'hr', 'Croatia', 'caves', 'Dalmatia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Wadi Sannur Cave', '/english/other/caves/Sannur.html', 'Sannur', 'Africa', 'eg', 'Egypt', 'caves', 'eg', 'other');
