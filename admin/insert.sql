@@ -89,4 +89,6 @@ VALUES ('yes', 'Atombunker Garzau', '/english/de/subterranea/Garzau.html', 'Garz
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Port Alberni Hole in the Wall', '/english/ca/karst/PortAlberni.html', 'PortAlberni', 'NorthAmerica', 'ca', 'Canada', 'karst', 'BritishColumbia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
-VALUES('yes','Wadi Sannur Cave', '/english/other/caves/Sannur.html', 'Sannur', 'Africa', 'eg', 'Egypt', 'caves', 'eg', 'other');
+VALUES ('yes', 'Wadi Sannur Cave', '/english/other/caves/Sannur.html', 'Sannur', 'Africa', 'eg', 'Egypt', 'caves', 'eg', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Gletschergrotte Titlis', '/english/ch/subterranea/Titlis.html', 'Titlis', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Obwalden');
