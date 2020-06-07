@@ -92,3 +92,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wadi Sannur Cave', '/english/other/caves/Sannur.html', 'Sannur', 'Africa', 'eg', 'Egypt', 'caves', 'eg', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Gletschergrotte Titlis', '/english/ch/subterranea/Titlis.html', 'Titlis', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Obwalden');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Dachstein Eispalast', '/english/at/subterranea/Eispalast.html', 'Eispalast', 'Europe', 'at', 'Austria', 'subterranea', 'Ober');
