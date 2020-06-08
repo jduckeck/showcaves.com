@@ -110,3 +110,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cascade d’Étufs', '/english/fr/karst/Etufs.html', 'Etufs', 'Europe', 'fr', 'France', 'karst', 'Champagne');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Tuffière d´Amorey', '/english/fr/karst/Amorey.html', 'Amorey', 'Europe', 'fr', 'France', 'karst', 'Champagne');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hou\'er Sinkhole', '/english/cn/karst/HouEr.html', 'HouEr', 'Asia', 'cn', 'China', 'karst', 'Guizhou');
