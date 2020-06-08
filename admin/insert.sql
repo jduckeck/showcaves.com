@@ -104,3 +104,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Notre Dame du Scex', '/english/ch/subterranea/NotreDameScex.html', 'NotreDameScex', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Hotel Jalta Bunker Museum', '/english/cz/subterranea/HotelJalta.html', 'HotelJalta', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Praha');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Tufière de Rolampont', '/english/fr/karst/Rolampont.html', 'Rolampont', 'Europe', 'fr', 'France', 'karst', 'Champagne');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cascade d’Étufs', '/english/fr/karst/Etufs.html', 'Etufs', 'Europe', 'fr', 'France', 'karst', 'Champagne');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Tuffière d´Amorey', '/english/fr/karst/Amorey.html', 'Amorey', 'Europe', 'fr', 'France', 'karst', 'Champagne');
