@@ -102,3 +102,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Fort de Dailly', '/english/ch/subterranea/Dailly.html', 'Dailly', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Notre Dame du Scex', '/english/ch/subterranea/NotreDameScex.html', 'NotreDameScex', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hotel Jalta Bunker Museum', '/english/cz/subterranea/HotelJalta.html', 'HotelJalta', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Praha');
