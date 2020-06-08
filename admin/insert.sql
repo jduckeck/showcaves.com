@@ -93,4 +93,12 @@ VALUES ('yes', 'Wadi Sannur Cave', '/english/other/caves/Sannur.html', 'Sannur',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Gletschergrotte Titlis', '/english/ch/subterranea/Titlis.html', 'Titlis', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Obwalden');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Dachstein Eispalast', '/english/at/subterranea/Eispalast.html', 'Eispalast', 'Europe', 'at', 'Austria', 'subterranea', 'Ober');
+VALUES ('yes', 'Dachstein Eispalast', '/english/at/subterranea/Eispalast.html', 'Eispalast', 'Europe', 'at', 'Austria', 'subterranea', 'Ober');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Fort du Scex', '/english/ch/subterranea/Scex.html', 'ScexScex', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Fort du Cindey', '/english/ch/subterranea/Cindey.html', 'CindeyScex', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Fort de Dailly', '/english/ch/subterranea/Dailly.html', 'Dailly', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Notre Dame du Scex', '/english/ch/subterranea/NotreDameScex.html', 'NotreDameScex', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis');
