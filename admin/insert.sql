@@ -110,3 +110,38 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cascade d’Étufs', '/english/fr/karst/Etufs.html', 'Etufs', 'Europe', 'fr', 'France', 'karst', 'Champagne');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Tuffière d´Amorey', '/english/fr/karst/Amorey.html', 'Amorey', 'Europe', 'fr', 'France', 'karst', 'Champagne');
+DELETE FROM `sights` WHERE `sights`.`sightId` = 869;
+DELETE FROM `sights` WHERE `sights`.`sightId` = 897;
+DELETE FROM `sights` WHERE `sights`.`sightId` = 927;
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Shwe Kyar Pwint Cave', '/english/mm/caves/ShweKyarPwint.html', 'ShweKyarPwint', 'Asia', 'mm', 'Myanmar', 'caves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Bayin Nyi Cave', '/english/mm/showcaves/BayinNyi.html', 'BayinNyi', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Eaik Sa Ta Ya Cave', '/english/mm/showcaves/EaikSaTaYa.html', 'EaikSaTaYa', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kaw Gon Cave', '/english/mm/showcaves/KawGon.html', 'KawGon', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kaw Ka Thaung Cave', '/english/mm/showcaves/KawKaThaung.html', 'KawKaThaung', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Khayon Cave', '/english/mm/showcaves/Khayon.html', 'Khayon', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Naung Mya Hlwe Cave', '/english/mm/showcaves/NaungMyaHlwe.html', 'NaungMyaHlwe', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Pindaya Cave', '/english/mm/showcaves/Pindaya.html', 'Pindaya', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Saddan Cave', '/english/mm/showcaves/Saddan.html', 'Saddan', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Well Byan Cave', '/english/mm/showcaves/WellByan.html', 'WellByan', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Yathae Pyan Cave', '/english/mm/showcaves/YathaePyan.html', 'YathaePyan', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kyat Khayon Cave Monastery', '/english/mm/subterranea/KyatKhayon.html', 'KyatKhayon', 'Asia', 'mm', 'Myanmar', 'subterranea', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Powintaung Cave Pagodas', '/english/mm/subterranea/Powintaung.html', 'Powintaung', 'Asia', 'mm', 'Myanmar', 'subterranea', 'Sagaing');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Peik Chin Myaung Cave', '/english/mm/showcaves/PeikChinMyaung.html', 'PeikChinMyaung', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ti Law Ka Guru Cave', '/english/mm/subterranea/TiLawKaGuru.html', 'TiLawKaGuru', 'Asia', 'mm', 'Myanmar', 'subterranea', 'Sagaing');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Linno Gu', '/english/mm/caves/Linno.html', 'Linno', 'Asia', 'mm', 'Myanmar', 'caves', 'Kayin');

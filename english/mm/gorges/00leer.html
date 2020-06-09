@@ -27,8 +27,7 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Khayon Cave Myanmar Show Caves showcaves.com">
-    <title>Show Caves of Myanmar: Khayon Cave</title>
+    <title>Gorges of Myanmar: $CaveName$</title>
 </head>
 
 <body>
@@ -36,7 +35,14 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Khayon Cave</h1>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../mm/gorges/$FileName$.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../mm/gorges/$FileName$.html"><img alt="Gorge" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Gorge.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/mm/gorges/$FileName$.html', '$FileName$', 'Asia', 'mm', 'Myanmar', 'gorges', '$Region$');
+        -->
+
+        <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
@@ -48,33 +54,33 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
-                    Khayon village, from Mawlamyaing across the Attaran bridge, about 15 minutes.
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
                 <td>
-                    All year daily.
-                    [2007]
+                    no restrictions.<br>
+                    [2008]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
                 <td>
-                    free
-                    [2007]
+                    free.<br>
+                    [2008]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
                 <td>
-                    <a target="_top" href="../../explain/Speleology/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.gif">Karst cave</a>
+                    <a target="_top" href="../../explain/Geology/Gorges.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Gorge</a>
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
                 <td>
-                    electric.
+                    n/a
                 </td>
             </tr>
             <tr>
@@ -110,7 +116,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    &nbsp;
+                    $CaveName$, Tel: +95-, Fax: +95-,
                 </td>
             </tr>
             <tr>
@@ -128,21 +134,19 @@
         <h2>Description</h2>
 
         <p>
-            <b>Khayon Cave</b> (Farm Cave) is named after nearby Khayon village.
-            This karst cave posesses nice speleothems like stalactites and stalagmites.
-            It is used as a Buddhistic temple and is equipped with many Buddha statues and
-            images.
-            The cave is also an important biological site.
         </p>
 
+        <!--
+        <b>$CaveName$</b> is
+         -->
 
         <br class="clear">
 
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Khayon+Cave"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Khayon Cave"</a></li>
-            <li><a target="_blank" href="http://www.yangonow.com/eng/magazine/from_myanmar/200211.html"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">News from Yangon, at the bottom.</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/mm/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
 
@@ -153,8 +157,8 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Misc Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/mm.html">Myanmar</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Myanmar</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$</a></li>
             </ul>
         </div>
     </div>
