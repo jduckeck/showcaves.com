@@ -145,3 +145,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ti Law Ka Guru Cave', '/english/mm/subterranea/TiLawKaGuru.html', 'TiLawKaGuru', 'Asia', 'mm', 'Myanmar', 'subterranea', 'Sagaing');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Linno Gu', '/english/mm/caves/Linno.html', 'Linno', 'Asia', 'mm', 'Myanmar', 'caves', 'Kayin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Phakant Jade Mine', '/english/mm/mines/Phakant.html', 'Phakant', 'Asia', 'mm', 'Myanmar', 'mines', 'Kachin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Mogok Gem Mines', '/english/mm/mines/Mogok.html', 'Mogok', 'Asia', 'mm', 'Myanmar', 'mines', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Gems Museum', '/english/mm/mines/GemsMuseum.html', 'GemsMuseum', 'Asia', 'mm', 'Myanmar', 'mines', 'Yangon');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Naypyitaw Gem Museum', '/english/mm/mines/Naypyitaw.html', 'Naypyitaw', 'Asia', 'mm', 'Myanmar', 'mines', 'Naypyitaw');
