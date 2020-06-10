@@ -153,3 +153,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gems Museum', '/english/mm/mines/GemsMuseum.html', 'GemsMuseum', 'Asia', 'mm', 'Myanmar', 'mines', 'Yangon');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Naypyitaw Gem Museum', '/english/mm/mines/Naypyitaw.html', 'Naypyitaw', 'Asia', 'mm', 'Myanmar', 'mines', 'Naypyitaw');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Nammongyi Blue Lagoon', '/english/mm/karst/Nammongyi.html', 'Nammongyi', 'Asia', 'mm', 'Myanmar', 'karst', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Shwe Oo Min Cave', '/english/mm/showcaves/ShweOoMin.html', 'ShweOoMin', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Htan San Cave', '/english/mm/showcaves/HtanSan.html', 'HtanSan', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Moun Ta Wa Cave', '/english/mm/showcaves/MounTaWa.html', 'MounTaWa', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
