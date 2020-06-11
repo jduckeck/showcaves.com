@@ -154,6 +154,8 @@ VALUES('yes','Gems Museum', '/english/mm/mines/GemsMuseum.html', 'GemsMuseum', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Naypyitaw Gem Museum', '/english/mm/mines/Naypyitaw.html', 'Naypyitaw', 'Asia', 'mm', 'Myanmar', 'mines', 'Naypyitaw');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hou\'er Sinkhole', '/english/cn/karst/HouEr.html', 'HouEr', 'Asia', 'cn', 'China', 'karst', 'Guizhou');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Nammongyi Blue Lagoon', '/english/mm/karst/Nammongyi.html', 'Nammongyi', 'Asia', 'mm', 'Myanmar', 'karst', 'Shan');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Shwe Oo Min Cave', '/english/mm/showcaves/ShweOoMin.html', 'ShweOoMin', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
