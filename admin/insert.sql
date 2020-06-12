@@ -169,3 +169,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Osugidani Gorge', '/english/jp/gorges/Osugidani.html', 'Osugidani', 'Asia', 'jp', 'Japan', 'gorges', 'Mie');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Kurobe Gorge', '/english/jp/gorges/Kurobe.html', 'Kurobe', 'Asia', 'jp', 'Japan', 'gorges', 'Toyama');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Deedote Blue Lagoon', '/english/mm/karst/Deedote.html', 'Deedote', 'Asia', 'mm', 'Myanmar', 'karst', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Dat Taw Taung Cave', '/english/mm/showcaves/DatTawTaung.html', 'DatTawTaung', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Dat Taw Gyaint Waterfall', '/english/mm/karst/DatTawGyaint.html', 'DatTawGyaint', 'Asia', 'mm', 'Myanmar', 'karst', 'Mandalay');
