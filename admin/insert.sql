@@ -155,3 +155,17 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Naypyitaw Gem Museum', '/english/mm/mines/Naypyitaw.html', 'Naypyitaw', 'Asia', 'mm', 'Myanmar', 'mines', 'Naypyitaw');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Hou\'er Sinkhole', '/english/cn/karst/HouEr.html', 'HouEr', 'Asia', 'cn', 'China', 'karst', 'Guizhou');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Nammongyi Blue Lagoon', '/english/mm/karst/Nammongyi.html', 'Nammongyi', 'Asia', 'mm', 'Myanmar', 'karst', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Shwe Oo Min Cave', '/english/mm/showcaves/ShweOoMin.html', 'ShweOoMin', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Htan San Cave', '/english/mm/showcaves/HtanSan.html', 'HtanSan', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Moun Ta Wa Cave', '/english/mm/showcaves/MounTaWa.html', 'MounTaWa', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kiyotsu-kyō', '/english/jp/gorges/Kiyotsu.html', 'Kiyotsu', 'Asia', 'jp', 'Japan', 'gorges', 'Niigata');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Osugidani Gorge', '/english/jp/gorges/Osugidani.html', 'Osugidani', 'Asia', 'jp', 'Japan', 'gorges', 'Mie');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kurobe Gorge', '/english/jp/gorges/Kurobe.html', 'Kurobe', 'Asia', 'jp', 'Japan', 'gorges', 'Toyama');
