@@ -177,3 +177,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Dat Taw Gyaint Waterfall', '/english/mm/karst/DatTawGyaint.html', 'DatTawGyaint', 'Asia', 'mm', 'Myanmar', 'karst', 'Mandalay');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Navenakhevi Cave', '/english/ge/showcaves/Navenakhevi.html', 'Navenakhevi', 'Asia', 'ge', 'Georgia', 'showcaves', 'Terjol');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Grotta di San Michele', '/english/it/showcaves/Ozieri.html', 'Ozieri', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia');
