@@ -195,3 +195,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Geophysical Cave', '/english/ua/showcaves/Geophysical.html', 'Geophysical', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Yalta Cave', '/english/ua/showcaves/Yalta.html', 'Yalta', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Wasserlochklamm', '/english/at/gorges/Wasserloch.html', 'Wasserloch', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark');
