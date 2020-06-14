@@ -188,12 +188,18 @@ VALUES('yes','Mezmaiskaya Cave', '/english/ru/caves/Mezmaiskaya.html', 'Mezmaisk
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Vorontsovskaya Cave', '/english/ru/showcaves/Vorontsovskaya.html', 'Vorontsovskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Sochi');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Adjimushkay Cave', '/english/ua/showcaves/Adjimushkay.html', 'Adjimushkay', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+VALUES ('yes', 'Adjimushkay Cave', '/english/ua/showcaves/Adjimushkay.html', 'Adjimushkay', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Three Eyed Cave', '/english/ua/showcaves/ThreeEyed.html', 'ThreeEyed', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+VALUES ('yes', 'Three Eyed Cave', '/english/ua/showcaves/ThreeEyed.html', 'ThreeEyed', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Geophysical Cave', '/english/ua/showcaves/Geophysical.html', 'Geophysical', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+VALUES ('yes', 'Geophysical Cave', '/english/ua/showcaves/Geophysical.html', 'Geophysical', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Yalta Cave', '/english/ua/showcaves/Yalta.html', 'Yalta', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+VALUES ('yes', 'Yalta Cave', '/english/ua/showcaves/Yalta.html', 'Yalta', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Wasserlochklamm', '/english/at/gorges/Wasserloch.html', 'Wasserloch', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark');
+VALUES ('yes', 'Wasserlochklamm', '/english/at/gorges/Wasserloch.html', 'Wasserloch', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Hierve el Agua', '/english/mx/karst/HierveElAgua.html', 'HierveElAgua', 'MiddleAmerica', 'mx', 'México', 'karst', 'Oaxaca');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Bakhardenskaya Cave', '/english/other/showcaves/Bakhardenskaya.html', 'Bakhardenskaya', 'Asia', 'tm', 'Turkmenistan', 'showcaves', 'tm', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Gruta de las Canicas', '/english/mx/caves/Canicas.html', 'Canicas', 'MiddleAmerica', 'mx', 'México', 'caves', 'Tabasco');
