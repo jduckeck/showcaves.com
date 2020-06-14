@@ -169,3 +169,21 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Osugidani Gorge', '/english/jp/gorges/Osugidani.html', 'Osugidani', 'Asia', 'jp', 'Japan', 'gorges', 'Mie');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Kurobe Gorge', '/english/jp/gorges/Kurobe.html', 'Kurobe', 'Asia', 'jp', 'Japan', 'gorges', 'Toyama');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Deedote Blue Lagoon', '/english/mm/karst/Deedote.html', 'Deedote', 'Asia', 'mm', 'Myanmar', 'karst', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Dat Taw Taung Cave', '/english/mm/showcaves/DatTawTaung.html', 'DatTawTaung', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Dat Taw Gyaint Waterfall', '/english/mm/karst/DatTawGyaint.html', 'DatTawGyaint', 'Asia', 'mm', 'Myanmar', 'karst', 'Mandalay');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Navenakhevi Cave', '/english/ge/showcaves/Navenakhevi.html', 'Navenakhevi', 'Asia', 'ge', 'Georgia', 'showcaves', 'Terjol');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Grotta di San Michele', '/english/it/showcaves/Ozieri.html', 'Ozieri', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Bol\'shaya Azishskaya Cave', '/english/ru/showcaves/BolshayaAzishskaya.html', 'BolshayaAzishskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Adygea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Nezhnaya Cave', '/english/ru/showcaves/Nezhnaya.html', 'Nezhnaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Adygea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Mezmaiskaya Cave', '/english/ru/caves/Mezmaiskaya.html', 'Mezmaiskaya', 'Asia', 'ru', 'Russia', 'caves', 'Adygea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Vorontsovskaya Cave', '/english/ru/showcaves/Vorontsovskaya.html', 'Vorontsovskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Sochi');
