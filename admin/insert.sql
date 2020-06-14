@@ -187,3 +187,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mezmaiskaya Cave', '/english/ru/caves/Mezmaiskaya.html', 'Mezmaiskaya', 'Asia', 'ru', 'Russia', 'caves', 'Adygea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Vorontsovskaya Cave', '/english/ru/showcaves/Vorontsovskaya.html', 'Vorontsovskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Sochi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Adjimushkay Cave', '/english/ua/showcaves/Adjimushkay.html', 'Adjimushkay', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Three Eyed Cave', '/english/ua/showcaves/ThreeEyed.html', 'ThreeEyed', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Geophysical Cave', '/english/ua/showcaves/Geophysical.html', 'Geophysical', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Yalta Cave', '/english/ua/showcaves/Yalta.html', 'Yalta', 'Europe', 'ua', 'Ukraine', 'showcaves', 'Crimea');
