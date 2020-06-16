@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Grottes Schoenfels', '/english/lu/subterranea/Schoenfels.html', 'Schoenfels', 'Europe', 'lu', 'Luxembourg', 'subterranea', '$Region$');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Thor’s Well', '/english/usa/caves/Thor.html', 'Thor', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'or');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Palfauer Wasserloch', '/english/at/springs/PalfauerWasserloch.html', 'PalfauerWasserloch', 'Europe', 'at', 'Austria', 'springs', 'Steiermark');
