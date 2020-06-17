@@ -1,4 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Sweet Surrender Crystal Mine', '/english/usa/mines/SweetSurrender.html', 'SweetSurrender', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Stanley Mine on Fisher Mountain', '/english/usa/mines/Stanley.html', 'Stanley', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Twin Creek Crystal Mine', '/english/usa/mines/TwinCreek.html', 'TwinCreek', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Glory Hole Waterfall', '/english/usa/karst/GloryHole.html', 'GloryHole', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'ar');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Lost Lake', '/english/usa/karst/LostLake.html', 'LostLake', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'or');
