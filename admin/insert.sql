@@ -3,7 +3,9 @@ VALUES('yes','Glory Hole Waterfall', '/english/usa/karst/GloryHole.html', 'Glory
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Lost Lake', '/english/usa/karst/LostLake.html', 'LostLake', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'or');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Grottes Schoenfels', '/english/lu/subterranea/Schoenfels.html', 'Schoenfels', 'Europe', 'lu', 'Luxembourg', 'subterranea', '$Region$');
+VALUES('yes','Coleman Rock Shop & Crystal Mines', '/english/usa/mines/JimColeman.html', 'Coleman', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Grottes Schoenfels', '/english/lu/subterranea/Schoenfels.html', 'Schoenfels', 'Europe', 'lu', 'Luxembourg', 'subterranea', 'Luxembourg');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Thor’s Well', '/english/usa/caves/Thor.html', 'Thor', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'or');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
