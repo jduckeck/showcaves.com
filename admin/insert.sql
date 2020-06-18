@@ -23,4 +23,24 @@ VALUES('yes','Wassermannsloch', '/english/at/aprings/Wassermannsloch.html', 'Was
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Spitzenbachklamm', '/english/at/gorges/Spitzenbach.html', 'Spitzenbach', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Nothklamm', '/english/at/gorges/Noth.html', 'Noth', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark');
+VALUES ('yes', 'Padamyar Cave', '/english/mm/showcaves/Padamyar.html', 'Padamyar', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Akhshtyrskaya Cave', '/english/ru/showcaves/Akhshtyrskaya.html', 'Akhshtyrskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Sochi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Nothklamm', '/english/at/gorges/Noth.html', 'Noth', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Volivoli Cave', '/english/other/caves/Volivoli.html', 'Volivoli', 'Oceania', 'fj', 'Fiji', 'caves', 'fj', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES ('yes', 'Nakoroloaloa Cave', '/english/other/showcaves/Nakoroloaloa.html', 'Nakoroloaloa', 'Oceania', 'fj', 'Fidji', 'showcaves', 'fj', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museo dei Minerali Elbani "Alfeo Ricci"', '/english/it/mines/AlfeoRicci.html', 'AlfeoRicci', 'Europe', 'it', 'Italy', 'mines', 'Toscana');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museo dei Minerali della Gente di Rio', '/english/it/mines/GenteDiRio.html', 'GenteDiRio', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museo delle Miniere di Capoliveri', '/english/it/mines/Capoliveri.html', 'Capoliveri', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museo Mineralogico Luigi Celleri', '/english/it/mines/LuigiCelleri.html', 'LuigiCelleri', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Museo civico archeologico del Distretto minerario', '/english/it/mines/MuseoArcheologicoDistrettoMinerario.html', 'MuseoArcheologicoDistrettoMinerario', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Piccola Miniera Gl.ost srl', '/english/it/mines/PiccolaMiniera.html', 'PiccolaMiniera', 'Europe', 'it', 'Italy', 'mines', 'Elba');

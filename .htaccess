@@ -2,12 +2,15 @@
 
 RewriteEngine On
 
+# redirect to https
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 # force canonical hostname: www.showcaves.com
 # This makes the catch all to refresh...
-# special prots or https is only possible with a correct domain name
 RewriteCond %{HTTP_HOST}   !^www\.showcaves\.com [NC]
 RewriteCond %{HTTP_HOST}   !^$
-RewriteRule ^/(.*)         http://www.showcaves.com/$1 [L,R]
+RewriteRule ^/(.*)         https://www.showcaves.com/$1 [L,R=301]
 
 # sitemap
 RewriteCond %{REQUEST_URI} ^/sitemap.xml$
