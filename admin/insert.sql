@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Mokolea Lava Pools', '/english/usa/caves/Mokolea.html', 'Mokolea', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'hi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Sweet Surrender Crystal Mine', '/english/usa/mines/SweetSurrender.html', 'SweetSurrender', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Stanley Mine on Fisher Mountain', '/english/usa/mines/Stanley.html', 'Stanley', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
