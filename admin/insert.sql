@@ -50,3 +50,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museo civico archeologico del Distretto minerario', '/english/it/mines/MuseoArcheologicoDistrettoMinerario.html', 'MuseoArcheologicoDistrettoMinerario', 'Europe', 'it', 'Italy', 'mines', 'Elba');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Piccola Miniera Gl.ost srl', '/english/it/mines/PiccolaMiniera.html', 'PiccolaMiniera', 'Europe', 'it', 'Italy', 'mines', 'Elba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Todi Sotterranea', '/english/it/subterranea/Todi.html', 'Todi', 'Europe', 'it', 'Italy', 'subterranea', 'Umbria');
