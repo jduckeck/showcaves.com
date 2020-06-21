@@ -1,7 +1,9 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Havasu Falls', '/english/usa/gorges/Havasu.html', 'Havasu', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'co');
+VALUES('yes','Havasu Falls', '/english/usa/gorges/Havasu.html', 'Havasu', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'az');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Waimea Canyon', '/english/usa/gorges/Waimea.html', 'Waimea', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'hi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Walsenburg Mining Museum', '/english/usa/mines/Walsenburg.html', 'Walsenburg', 'NorthAmerica', 'us', 'United States of America', 'mines', 'co');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Mokolea Lava Pools', '/english/usa/caves/Mokolea.html', 'Mokolea', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'hi');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
