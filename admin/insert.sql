@@ -60,3 +60,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ron Coleman Mining', '/english/usa/mines/RonColeman.html', 'RonColeman', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Spouting Horn', '/english/usa/caves/SpoutingHorn.html', 'SpoutingHorn', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'hi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'El Caminito del Rey', '/english/es/gorges/Rey.html', 'Rey', 'Europe', 'es', 'Spain', 'gorges', 'Andalucia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Desfiladero de los Gaitanes', '/english/es/gorges/Gaitanes.html', 'Gaitanes', 'Europe', 'es', 'Spain', 'gorges', 'Andalucia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Board Camp Crystal Mine', '/english/usa/mines/BoardCamp.html', 'BoardCamp', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
