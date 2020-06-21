@@ -56,3 +56,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Piccola Miniera Gl.ost srl', '/english/it/mines/PiccolaMiniera.html', 'PiccolaMiniera', 'Europe', 'it', 'Italy', 'mines', 'Elba');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Todi Sotterranea', '/english/it/subterranea/Todi.html', 'Todi', 'Europe', 'it', 'Italy', 'subterranea', 'Umbria');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Ron Coleman Mining', '/english/usa/mines/RonColeman.html', 'RonColeman', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ar');
