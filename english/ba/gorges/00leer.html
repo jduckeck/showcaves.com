@@ -27,7 +27,7 @@
     <!-- end responsive -->
 
 
-    <title>Show Caves of Bosnia and Herzegovina: Pecina Orlovaca</title>
+    <title>Gorges of Bosnia and Herzegovina: $CaveName$</title>
 </head>
 
 <body>
@@ -35,8 +35,15 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Pecina Orlovaca</h1>
-        <h2 class="center">Pecina Orlovaca Museum</h2>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../ba/gorges/$FileName$.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../ba/gorges/$FileName$.html"><img alt="Gorge" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Gorge.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/ba/gorges/$FileName$.html', '$FileName$', 'Europe', 'ba', 'Bosnia and Herzegovina', 'gorges', '$Region$');
+        -->
+
+        <h1 class="center">$CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
@@ -47,38 +54,39 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
-                    Donje Sinjevo, 10km from Pale.
-                    20km east of Sarajevo
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
                 <td>
-                    &nbsp;
+                    no restrictions.<br>
+                    [2008]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
                 <td>
-                    &nbsp;
+                    free.<br>
+                    [2008]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
                 <td>
-                    <a target="_top" href="../../explain/Speleology/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.gif">Karst cave</a>
+                    <a target="_top" href="../../explain/Geology/Gorges.html"><img alt="Gorge" class="symbol" src="../../../graphics/symbol/Gorge.png">Gorge</a>
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
                 <td>
-                    electric.
+                    n/a
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/dimension.html">Dimension:</a></td>
                 <td>
-                    L=2,500m, A=949m asl.
+                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -108,7 +116,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    Pecina Orlovaca,
+                    $CaveName$, Tel: +387-, Fax: +387-,
                 </td>
             </tr>
             <tr>
@@ -119,17 +127,6 @@
 
         <h2>History</h2>
 
-        <table class="history">
-            <tr>
-                <td>2004</td>
-                <td>16,000 years old cave bear bones discovered.</td>
-            </tr>
-            <tr>
-                <td>2009</td>
-                <td>cave bear bones stolen.</td>
-            </tr>
-        </table>
-
 
         <br class="clear">
 
@@ -137,23 +134,10 @@
         <h2>Description</h2>
 
         <p>
-            <b>Pecina Orlovaca</b> is a natural cave which was transformed into a cave
-            museum.
-            One of the highlights is a 16,000-year-old cave bear skeleton, which is the
-            second-largest cave bear skeleton ever found.
-            The bones were discovered rather lately in 2004, but unfortunately they were
-            stolen in 2009.
-        </p>
-
-        <p class="indentedText">
-            The cave is famous for many findings, both archaeological remains from the
-            Mesolithic and palaeontologic remains, especially of the cave bear (<i>Ursus
-            spelaeus</i>).
-            There are some endemic animals known from the cave, for example a cave beetle
-            which was named after the cave.
         </p>
 
         <!--
+        <b>$CaveName$</b> is
          -->
 
         <br class="clear">
@@ -161,8 +145,8 @@
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Orlovaca+Cave"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Pecina Orlovaca"</a></li>
-            <li><a target="_blank" href="../../../kmz/ba/Orlovaca.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/ba/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
 
@@ -173,8 +157,8 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Misc Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ba.html">Bosnia and Herzegovina</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Bosnia and Herzegovina</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$</a></li>
             </ul>
         </div>
     </div>
