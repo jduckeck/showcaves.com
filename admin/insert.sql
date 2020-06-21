@@ -1,3 +1,5 @@
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Popovo Polje', '/english/other/karst/Popovo.html', 'Popovo', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'ba', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Havasu Falls', '/english/usa/gorges/Havasu.html', 'Havasu', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'az');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
