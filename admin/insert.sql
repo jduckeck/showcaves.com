@@ -1,4 +1,12 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','The Subway', '/english/usa/gorges/Subway.html', 'Subway', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Zion Narrows', '/english/usa/gorges/ZionNarrows.html', 'ZionNarrows', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Horseshoe Bend', '/english/usa/gorges/Horseshoe.html', 'Horseshoe', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'az');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Bryce Canyon', '/english/usa/gorges/Bryce.html', 'Bryce', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Gila Cliff Dwellings', '/english/usa/caves/Gila.html', 'Gila', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'nm');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Arches National Park', '/english/usa/caves/Arches.html', 'Arches', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut');
