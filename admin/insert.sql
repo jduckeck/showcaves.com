@@ -1,4 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Gila Cliff Dwellings', '/english/usa/caves/Gila.html', 'Gila', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'nm');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Arches National Park', '/english/usa/caves/Arches.html', 'Arches', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Trinidad Mining Museum', '/english/usa/mines/Trinidad.html', 'Trinidad', 'NorthAmerica', 'us', 'United States of America', 'mines', 'co');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Popovo Polje', '/english/ba/karst/Popovo.html', 'Popovo', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'ba');
