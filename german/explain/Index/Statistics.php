@@ -270,7 +270,6 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
-                <li><a data-ajax="false" target="_top" href="index.html">Alphabethisches Register</a></li>
                 <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Statistics.html"><img alt="English" src="../../../graphics/flags/gb-small.png" class="language"></a></li>
             </ul>
         </div>
