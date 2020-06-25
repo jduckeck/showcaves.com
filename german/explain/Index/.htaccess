@@ -1,5 +1,6 @@
 # Rewrite static html uris to script uris
 
+Redirect /german/explain/Index/Search.html /german/explain/Index/Search.php
 Redirect /german/explain/Index/All.html /german/explain/Index/All.php
 Redirect /german/explain/Index/Showcaves.html /german/explain/Index/Showcaves.php
 Redirect /german/explain/Index/Caves.html /german/explain/Index/Caves.php

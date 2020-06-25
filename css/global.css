@@ -486,3 +486,11 @@ TABLE.centerImg {
     margin-bottom: 1em;
 }
 
+.noresize {
+    width: 800px;
+    font-size: 85%;
+    line-height: 1;
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
