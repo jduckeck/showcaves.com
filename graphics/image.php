@@ -22,7 +22,7 @@ if ( !file_exists($Filename) ) {
 $size = GetImageSize ( $Filename );
 
 
-if ( 0 == InStr("http://www.showcaves.com/", $HTTP_REFERER) ) {
+if ( 0 == InStr("https://www.showcaves.com/", $HTTP_REFERER) ) {
     echo "you are not allowed to see this image";
     $sql = "UPDATE myImages SET Hacks=Hacks+1 WHERE Filename ='".$pic."'";
     $result = mysql_query($sql, $conn);

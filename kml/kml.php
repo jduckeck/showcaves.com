@@ -12,12 +12,12 @@ $xml->addAttribute('xmlns:atom', 'http://www.w3.org/2005/Atom');
 $Document = $xml->addChild('Document');
 $author = $Document->addChild('atom:author');
 $author->addChild('atom:name', 'Jochen Duckeck');
-$Document->addChild('atom:link')->addAttribute('href', 'http://www.showcaves.com');
+$Document->addChild('atom:link')->addAttribute('href', 'https://www.showcaves.com');
 
 foreach ($categories as $category) {
     $Style = $Document->addChild('Style');
     $Style->addAttribute('id', $category);
-    $Style->addChild('IconStyle')->addChild('Icon')->addChild('href', 'http://www.showcaves.com/graphics/symbol/$category.png');
+    $Style->addChild('IconStyle')->addChild('Icon')->addChild('href', 'https://www.showcaves.com/graphics/symbol/$category.png');
 }
 
 $Document->addChild('name', 'pa.kml');
@@ -37,7 +37,7 @@ if ($statement->execute()) {
 
         $Placemark = $Document->addChild('Placemark');
         $Placemark->addChild('name', $name);
-        $description = '<![CDATA[<img alt="" src="http://www.showcaves.com/graphics/symbol/$category.png" class="symbol"><a href="http://www.showcaves.com$filename">$name</a>]]';
+        $description = '<![CDATA[<img alt="" src="https://www.showcaves.com/graphics/symbol/$category.png" class="symbol"><a href="https://www.showcaves.com$filename">$name</a>]]';
         $Placemark->addChild('description', $description);
         $LookAt = $Placemark->addChild('LookAt');
         $LookAt->addChild('latitude', $latitude);
