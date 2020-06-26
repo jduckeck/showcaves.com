@@ -31,7 +31,8 @@
     $redirURL = "http://www.showcaves.com/";
     $redirTime = "0";
 
-    switch ($REDIRECT_URL) {
+    $REQUEST_URI = $_SERVER["REQUEST_URI"];
+    switch ($REQUEST_URI) {
         case "/english/global.css":
             $redirURL = "/global.css";
             break;
@@ -170,11 +171,12 @@
             break;
     }
 
-    if (FALSE != strstr($REDIRECT_URL, "/german/explain/Literature/Lau")) {
+    if (FALSE != strstr($REQUEST_URI, "/german/explain/Literature/Lau")) {
         $redirURL = "/german/explain/Literature/Lau.html";
         $redirTime = "0";
     }
 
+    $SERVER_NAME = $_SERVER["SERVER_NAME"];
     switch ($SERVER_NAME) {
         case "www.showcaves.com":
         case "showcaves.com":
@@ -202,29 +204,6 @@
         echo "</BODY>";
         echo "</HTML>";
         exit;
-    } else {
-        $liveserver = "mysql.domainfactory.de";
-        $server = "mysql.domainfactory.de";    // MySQL-Server
-        $user = "db8399";            // MySQL-Nutzer
-        $pass = "Kreibich";        // MySQL-Kennwort
-        $dbase = "db8399";            // Standarddatenbank
-
-        $conn = @mysql_connect($server, $user, $pass);
-        if ($conn) {
-            mysql_select_db($dbase, $conn);
-            $sql = "SELECT Id,count FROM Error404 WHERE url='" . $REDIRECT_URL . "' AND domain='" . $SERVER_NAME . "'";
-            $results = mysql_query($sql, $conn);
-            //echo "<BR>[".$sql."]";
-
-            if ($row = mysql_fetch_object($results)) {
-                $sql = "UPDATE Error404 SET count=" . ($row->count + 1) . " WHERE Id=" . $row->Id;
-            } else {
-                $sql = "INSERT INTO Error404 (url,domain,count) VALUES('" . $REDIRECT_URL . "','" . $SERVER_NAME . "',1)";
-            }
-            $results = mysql_query($sql, $conn);
-            //echo "<BR>[".$sql."]";
-            //echo mysql_error($conn);
-        }
     }
     ?>
 
@@ -241,30 +220,28 @@
         <?
         if ($redirTime == "30") {
             echo "<p>";
-            echo "<div class="center">";
-        echo "The site <b>$theTitle</b> does not exist!";
-        echo "<br><br>";
-        echo "Please visit <a target=\"_top\" href=\"http://www.showcaves.com/\">www.showcaves.com</A>";
-        echo "</div>";
-        echo "</p>";
-        echo "</body>";
-        echo "</html>";
-        exit;
-    }
+            echo "<div class='center'>";
+            echo "The site <b>$theTitle</b> does not exist!";
+            echo "<br><br>";
+            echo "Please visit <a target=\"_top\" href=\"http://www.showcaves.com/\">www.showcaves.com</A>";
+            echo "</div>";
+            echo "</p>";
+            echo "</body>";
+            echo "</html>";
+            exit;
+        }
         ?>
 
         <p>
-            The page you were looking for (<?= $REDIRECT_URL ?>) could not be found on this
-            server.
-            There are several possibile reasons:
+            The page you were looking for (<?= $REQUEST_URI ?>) could not be found on this server.
+            There are several possible reasons:
         </p>
 
-        <h2>You may have mispelled the URL</h2>
+        <h2>You may have misspelled the URL</h2>
 
         <p>
-            If you have typed in the URL manually, please check first, if you have mispelled
-            it.
-            Be carefull with capital letters!
+            If you have typed in the URL manually, please check first, if you have misspelled it.
+            Be careful with capital letters!
         </p>
 
 
@@ -272,24 +249,20 @@
 
         <p>
             We sometimes move pages, when we add new sections.
-            This applies for the <b>Misc Countries</b> section, if the number of entries for
-            a country increases and we decide to make a new chapter for this country.
+            This applies for the <b>Misc Countries</b> section, if the number of entries for a country increases and we decide to make a new chapter for this country.
         </p>
 
         <p>
             But the shortest way to a page will be the navigation bar at the bottom.
-            The search will only work online and it uses Google, so if you found the malformed link in Google, try
-            the other possibilities.
         </p>
 
 
         <h2>Tell me about broken links....</h2>
 
         <p>
-            If you followed a link from a foreign page, please tell me where the broken link was
-            (the page you where coming from).
+            If you followed a link from a foreign page, please tell me where the broken link was (the page you where coming from).
             Just paste its URL/title into an email and send it to
-            <b>E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0"></b>.
+            E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0">.
             We will do the best to give you the new address of the page.
         </p>
 
@@ -315,6 +288,15 @@
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
+                <li><a target="_top" href="../english/explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Index.png">Index</a></li>
+                <li><a target="_top" href="../english/explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Topic.png">Topics</a></li>
+                <li><a target="_top" href="../english/explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Hierarchical.png">Hierarchical</a></li>
+                <li><a target="_top" href="../english/Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Countries.png">Countries</a></li>
+                <li><a target="_top" href="../english/explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Map.png">Maps</a></li>
+            </ul>
+            <ul>
+                <li><a target="_top" href="../english/explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Search.png">Search</a></li>
+                <li><a target="_top" href="../english/explain/index.html">General Information</a></li>
                 <li><a data-ajax="false" target="_top" href="../english/TermsOfUse.html">Terms of Use</a></li>
                 <li><a data-ajax="false" target="_top" href="../english/Jochen.html">©Jochen Duckeck</a></li>
                 <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid" src="../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>

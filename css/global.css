@@ -160,9 +160,17 @@ img.language {
     vertical-align: center;
 }
 
-.mapIcon {
+.mapIconEurope {
     width: 100px;
     height: 68px;
+    border: 1px;
+    padding: 0;
+    vertical-align: center;
+}
+
+.mapIconAsia {
+    width: 64px;
+    height: 80px;
     border: 1px;
     padding: 0;
     vertical-align: center;
