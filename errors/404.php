@@ -25,10 +25,10 @@
     <script src="../js/jquery.mmenu.min.all.js" type="text/javascript"></script>
     <!-- end responsive -->
 
-    <meta http-equiv="refresh" content="120; URL=http://www.showcaves.com/index.html">
+    <meta http-equiv="refresh" content="120; URL=https://www.showcaves.com/index.html">
 
     <?
-    $redirURL = "http://www.showcaves.com/";
+    $redirURL = "https://www.showcaves.com/";
     $redirTime = "0";
 
     $REQUEST_URI = $_SERVER["REQUEST_URI"];
@@ -191,7 +191,7 @@
 
         default:
             $theTitle = $SERVER_NAME;
-            $redirURL = "http://www.showcaves.com/";
+            $redirURL = "https://www.showcaves.com/";
             $redirTime = "30";
             break;
     }
@@ -223,7 +223,7 @@
             echo "<div class='center'>";
             echo "The site <b>$theTitle</b> does not exist!";
             echo "<br><br>";
-            echo "Please visit <a target=\"_top\" href=\"http://www.showcaves.com/\">www.showcaves.com</A>";
+            echo "Please visit <a target=\"_top\" href=\"https://www.showcaves.com/\">www.showcaves.com</A>";
             echo "</div>";
             echo "</p>";
             echo "</body>";
@@ -262,7 +262,7 @@
         <p>
             If you followed a link from a foreign page, please tell me where the broken link was (the page you where coming from).
             Just paste its URL/title into an email and send it to
-            E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="http://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0">.
+            E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="https://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0">.
             We will do the best to give you the new address of the page.
         </p>
 
