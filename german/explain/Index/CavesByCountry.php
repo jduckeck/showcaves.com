@@ -85,6 +85,8 @@ printByCountry($pdo, 'caves');
                 <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Karten</a></li>
             </ul>
             <ul>
+                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Suche</a></li>
+                <li><a target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
                 <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Änderungen und Kritik: <img alt="contact" class="xemhid" src="../../../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
