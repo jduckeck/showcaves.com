@@ -27,7 +27,7 @@
     <!-- end responsive -->
 
 
-    <title>Caribbean Islands: Eleuthera</title>
+    <title>Map of Bahamas: $CaveName$</title>
 </head>
 
 <body>
@@ -35,38 +35,25 @@
     <div data-role="main" class="ui-content">
 
 
-        <img alt="bs" src="../../../graphics/flags/bs.png" class="flag">
-        <h2 class="center">Caribbean Islands</h2>
-        <h1 class="center">Eleuthera</h1>
-        <h2 class="center">Bahamas</h2>
+        <li><a data-ajax="false" target="_top" href="../../bs/Maps/$FileName$.html">$CaveName$</a></li>
+        <li><a data-ajax="false" target="_top" href="../../bs/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
 
-        <br class="clear">
-
-        <p>
-        </p>
-
+        <h1 class="center">Map of Bahamas</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <!-- map_canvas -->
+            <map name="BahamasMap">
+                <area shape="default" nohref>
+            </map>
+            <img alt="" src="../../../maps/Bahamas.png" USEMAP="#BahamasMap" border="1" width="780" height="460">
         </div>
 
-        <br class="clear">
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../car/karst/OceanHole.html"><img alt="Karst" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Karst.png">Ocean Hole</a></li>
-        </ul>
-
-        <br class="clear">
-
+        <br>
 
         <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Eleuthera+Bahamas"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Eleuthera Bahamas"</a></li>
-            <li><a target="_blank" href="http://en.wikipedia.org/wiki/Eleuthera"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">Eleuthera - Wikipedia, (visited: 28-AUG-2014)</a></li>
         </ul>
-
 
     </div>
 
@@ -75,9 +62,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Caribbean Islands</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/bs.html">Bahamas</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Bahamas</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Island</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

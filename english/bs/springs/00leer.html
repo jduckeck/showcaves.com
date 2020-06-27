@@ -27,7 +27,7 @@
     <!-- end responsive -->
 
 
-    <title>$Country$ by $RegionLocal$: $CaveName$ $RegionLocal$</title>
+    <title>Springs of Bahamas: $CaveName$</title>
 </head>
 
 <body>
@@ -36,42 +36,105 @@
 
 
         <!--
-                <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/region/$FileName$.html">$CaveName$ $RegionLocal$</a></li>
-                <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/region/$FileName$.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">$CaveName$ $RegionLocal$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../bs/springs/$FileName$.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../bs/springs/$FileName$.html"><img alt="Spring" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/bs/springs/$FileName$.html', '$FileName$', 'NorthAmerica', 'bs', 'Bahamas', 'springs', '$Region$');
         -->
 
-        <h1 class="center">$CaveName$ $RegionLocal$</h1>
+        <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
+
+        <h2>Useful Information</h2>
+
+        <table class="usefulInfo">
+            <tr>
+                <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
+                <td>
+                    no restrictions.<br>
+                    [2014]
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
+                <td>
+                    free.<br>
+                    [2014]
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
+                <td>
+                    <a target="_top" href="../../explain/Karst/KarstSpring.html"><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karst Spring</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/dimension.html">Dimension:</a></td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/photo.html">Photography:</a></td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/accessibility.html">Accessibility:</a></td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/literature.html">Bibliography:</a></td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
+                <td>
+                    $CaveName$, Tel: +1-242-, Fax: +1-242-,
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">As far as we know this information was accurate when it was published (see years in brackets), but may have changed since then.<br>Please check rates and details directly with the companies in question if you need more recent info.</td>
+            </tr>
+        </table>
+
+
+        <h2>History</h2>
+
+
+        <br class="clear">
+
+
+        <h2>Description</h2>
+
         <p>
         </p>
 
-        <br>
-
-        <div class="center">
-            <!--
-            <!-- map_canvas -->
-            -->
-        </div>
-
-        <br>
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-        </ul>
-
-        <br>
 
         <!--  -->
+
 
         <br class="clear">
 
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$+$RegionLocal$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$ $RegionLocal$"</a></li>
-            <li><a target="_blank" href="http://en.wikipedia.org/wiki/$CaveName$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$CaveName$ - Wikipedia</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/bs/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
 
@@ -82,13 +145,9 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">$Country$</a></li>
-                <li><a data-ajax="false" target="_top" href="index.html">By $RegionLocal$</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Bahamas</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$</a></li>
             </ul>
-        </div>
-        <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="ui-btn-active">By $RegionLocal$</a>
-            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="">Maps</a>
         </div>
     </div>
     <!-- Path End -->
