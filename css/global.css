@@ -152,6 +152,13 @@ table.language th {
     vertical-align: center;
 }
 
+.flagsymbol {
+    height: 12px;
+    border: 0;
+    padding: 0 0.25rem 0 0;
+    vertical-align: center;
+}
+
 img.language {
     width: 20px;
     height: 10px;
