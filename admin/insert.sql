@@ -1,4 +1,16 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Henry Morgan\'s Cave', '/english/bs/caves/HenryMorgan.html', 'HenryMorgan', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'Andros');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ben\'s Cave', '/english/bs/caves/Ben.html', 'Ben', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'GrandBahamas');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Preacher\'s Cave', '/english/bs/caves/Preacher.html', 'Preacher', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'Eleuthera');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Shrimp Hole', '/english/bs/karst/Shrimp.html', 'Shrimp', 'NorthAmerica', 'bs', 'Bahamas', 'karst', 'Long');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Hatchet Bay Cave', '/english/bs/caves/HatchetBay.html', 'HatchetBay', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'Eleuthera');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ten Bay Cave', '/english/bs/caves/TenBay.html', 'TenBay', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'Eleuthera');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Kaunos Kral Mezarları', '/english/tr/subterranea/Kaunos.html', 'Kaunos', 'Europe', 'tr', 'Turkey', 'subterranea', 'Lycia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Rock-cut Tombs in Myra', '/english/tr/subterranea/Myra.html', 'Myra', 'Europe', 'tr', 'Turkey', 'subterranea', 'Lycia');
