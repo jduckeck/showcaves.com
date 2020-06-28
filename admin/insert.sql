@@ -1,3 +1,9 @@
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='NorthAmerica'
+WHERE countrycode = 'bs';
+
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Mermaid’s Lair Cave', '/english/bs/caves/MermaidsLair.html', 'MermaidsLair', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'GrandBahamas');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
