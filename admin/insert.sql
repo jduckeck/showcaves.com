@@ -3,7 +3,16 @@ SET chapter=NULL,
     region=NULL,
     continent='NorthAmerica'
 WHERE countrycode = 'bs';
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='Europe'
+WHERE countrycode = 'ee';
 
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Vortex Spring', '/english/usa/springs/Vortex.html', 'Vortex', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Punker Baar', '/english/other/subterranea/PunkerBaar.html', 'PunkerBaar', 'Europe', 'ee', 'Estonia', 'subterranea', 'ee');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Mermaid’s Lair Cave', '/english/bs/caves/MermaidsLair.html', 'MermaidsLair', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'GrandBahamas');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
