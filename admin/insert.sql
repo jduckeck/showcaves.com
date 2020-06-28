@@ -1,6 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Mermaid’s Lair Cave', '/english/bs/caves/MermaidsLair.html', 'MermaidsLair', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'GrandBahamas');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','The Caves', '/english/bs/caves/TheCaves.html', 'TheCaves', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'NewProvidence');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Henry Morgan\'s Cave', '/english/bs/caves/HenryMorgan.html', 'HenryMorgan', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'Andros');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Ben\'s Cave', '/english/bs/caves/Ben.html', 'Ben', 'NorthAmerica', 'bs', 'Bahamas', 'caves', 'GrandBahamas');
