@@ -27,7 +27,8 @@
     <!-- end responsive -->
 
 
-    <title>Caves of Estonia: Allikukivi Caves</title>
+    <meta name="description" content="$CaveName$ Estonia Show Mines showcaves.com">
+    <title>Show Mines of Estonia: $CaveName$</title>
 </head>
 
 <body>
@@ -35,7 +36,14 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Allikukivi Caves</h1>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../ee/mines/$FileName$.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../ee/mines/$FileName$.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/ee/mines/$FileName$.html', '$FileName$', 'Europe', 'ee', 'Estonia', 'mines', '$Region$');
+        -->
+
+        <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
@@ -47,40 +55,37 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
-                    1.5 km east of Kilingi-N&otilde;mme village, Pärnu County.
-                    Between the new and old road, in a small valley.
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
                 <td>
-                    No restrictions.<br>
-                    [2010]
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
                 <td>
-                    free.<br>
-                    [2010]
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
                 <td>
-                    <a target="_top" href="../../explain/Speleology/Erosion.html"><img alt="Speleology" class="symbol" src="../../../graphics/symbol/Cave.png">erosional cave</a>
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
                 <td>
-                    bring torch
+                    electric.
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/dimension.html">Dimension:</a></td>
                 <td>
-                    L=33m, BH: L=6m, W=5m, H=5m.
+                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -110,7 +115,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    &nbsp;
+                    $CaveName$, Tel: +372-, Fax: +372-,
                 </td>
             </tr>
             <tr>
@@ -121,12 +126,13 @@
 
         <h2>History</h2>
 
-        <table class="history">
-            <tr>
-                <td>1961</td>
-                <td>discovered during road construction, when an excavator broke through the cave ceiling.</td>
-            </tr>
-        </table>
+
+        <br class="clear">
+
+        <h2>Geology</h2>
+
+        <p>
+        </p>
 
 
         <br class="clear">
@@ -135,47 +141,17 @@
         <h2>Description</h2>
 
         <p>
-            The <b>Allikukivi Cave</b> is with a length of only 33m the longest cave of
-            Estonia in Devonian sandstones.
-            It has a chamber with a size of six by five meters, about 27m&sup2;, and a
-            height of five meters.
-            Actually this is a reputable size for erosional sandstoine caves.
         </p>
 
-        <p class="indentedText">
-            It formed in the middle part of the <b>Aruküla Regional Stage</b> which is
-            the upper Eifelian in international terms.
-            The facies is a reddish-brown, argillaceous and silty sandstone.
-        </p>
-
-        <p class="indentedText">
-            There are numerous legends about this cave.
-            According to one, a ghost lives inside the caves.
-            Another legend tells, that a stingy farmer is buried in the caves with his farm.
-            Rather similar is the legend of a wedding-party, whose guests did not help a
-            beggar.
-            As a result they vanished into the cave and were never seen again.
-        </p>
-
-        <p class="indentedText">
-            The area has several other caves and related features.
-            There are two dolines, where obviously the caves below collapsed, one with a
-            diameter of 7m and another of 17m, both about 2m deep.
-            Nearby is also Kärsu spring, which always has been an important resting
-            place.
-        </p>
-
-        <!--
-        -->
+        <!--  -->
 
         <br class="clear">
 
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Allikukivi+Caves"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Allikukivi Caves"</a></li>
-            <li><a target="_blank" href="../../../kmz/ee/Allikukivi.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
-            <li><a target="_blank" href="http://www.egeos.ee/index_en.php?pg=news_events&mida=loe&id=1055770073&lang=est"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">The Geological Society of Estonia</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/ee/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
 
@@ -186,8 +162,8 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Misc Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ee.html">Estonia</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Estonia</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$</a></li>
             </ul>
         </div>
     </div>

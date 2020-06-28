@@ -27,48 +27,17 @@
     <!-- end responsive -->
 
 
-    <title>Map of Estonia</title>
+    <title>Show Caves of Estonia</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <figure class="left">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
-        </figure>
-
-
-        <h1 class="center">Map of Estonia</h1>
-        <h2 class="center"></h2>
-
-        <br class="clear">
-
-        <div class="center">
-            <!-- map_canvas -->
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+            </ul>
         </div>
-
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../caves/Allikukivi.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Allikukivi Caves</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/Arukula.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Aruküla Caves</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/Helme.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Helme Koopad</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/Maimu.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Maimu Cave</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/Neitsikoobas.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Neitsikoobas</a></li>
-            <li><a data-ajax="false" target="_top" href="../springs/Noiakaev.html"><img alt="Spring" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png">N&#245;iakaev</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/Piusa.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Piusa Koopad</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/Tori.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Tori Hell</a></li>
-        </ul>
-
-        <br>
 
     </div>
 
@@ -77,8 +46,17 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ee.html">Estonia</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Estonia</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="ui-btn-active">Show Caves</a>
+                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
+                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
+                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
+                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
+                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
+                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
