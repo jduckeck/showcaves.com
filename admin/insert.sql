@@ -55,3 +55,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Eesti Kaevandusmuusem', '/english/ee/mines/Kaevandus.html', 'Kaevandus', 'Europe', 'ee', 'Estonia', 'mines', 'IdaViru');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Kohtla-Järve Põlevkivimuuseum', '/english/ee/mines/Kohtla.html', 'Kohtla', 'Europe', 'ee', 'Estonia', 'mines', 'IdaViru');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Syanovskie Quarry', '/english/ru/subterranea/Syanovskie.html', 'Syanovskie', 'Asia', 'ru', 'Russia', 'subterranea', 'Moscow');
