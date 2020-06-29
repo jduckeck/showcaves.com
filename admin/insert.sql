@@ -67,3 +67,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Khadzhokhskaya tesnina', '/english/ru/gorges/Khadzhokhskaya.html', 'Khadzhokhskaya', 'Asia', 'ru', 'Russia', 'gorges', 'Adygea');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Bandelier', '/english/usa/subterranea/Bandelier.html', 'Bandelier', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nm');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Pailon del Diablo', '/english/other/gorges/PailonDelDiablo.html', 'PailonDelDiablo', 'SouthAmerica', 'ec', 'Ecuador', 'gorges', 'ec', 'other');
