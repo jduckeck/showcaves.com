@@ -8,7 +8,26 @@ SET chapter=NULL,
     region=NULL,
     continent='Europe'
 WHERE countrycode = 'ee';
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='Europe'
+WHERE countrycode = 'cy';
 
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Temppeliaukion kirkko', '/english/fi/subterranea/Temppeliaukio.html', 'Temppeliaukio', 'Europe', 'fi', 'Finland', 'subterranea', 'Helsinki');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Panagia Chrysopiliotissa Church', '/english/other/subterranea/PanagiaChrysopiliotissa.html', 'PanagiaChrysopiliotissa', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Nicosia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ayioi Saranta Cave Church', '/english/cy/subterranea/AyioiSaranta.html', 'AyioiSaranta', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Famagusta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Cave Church Kadjenica', '/english/rs/subterranea/Kadjenica.html', 'Kadjenica', 'Europe', 'rs', 'Serbia', 'subterranea', 'Serbia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Panagia Vounarkotissa', '/english/cy/subterranea/PanagiaVounarkotissa.html', 'PanagiaVounarkotissa', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Limassol');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Kamara tou Koraka Natural Bridge', '/english/cy/karst/Koraka.html', 'Koraka', 'Europe', 'cy', 'Cyprus', 'karst', 'Famagusta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Church of Panagia Evangelistria', '/english/cy/subterranea/PanagiaEvangelistria.html', 'PanagiaEvangelistria', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Larnaca');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Vortex Spring', '/english/usa/springs/Vortex.html', 'Vortex', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)

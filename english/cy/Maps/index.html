@@ -27,13 +27,12 @@
     <!-- end responsive -->
 
 
-    <title>Map of Cyprus</title>
+    <title>Maps of Cyprus</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
-
 
         <figure class="left">
             <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
@@ -51,20 +50,27 @@
 
         <br class="clear">
 
-        <div class="center">
-            <!-- map_canvas -->
-        </div>
+        <figure class="center">
+<!--            <map name="cyMap">-->
+<!--      USEMAP="#cyMap"          <area shape="default" nohref>-->
+<!--            </map>-->
+            <img alt="" src="../../../maps/Big/Cyprus.png" >
+            <div style="position:absolute; left:198px; top:196px"><a href="Nicosia.html" title="Nicosia District"><span style="color: white;">Nicosia</span></a></div>
+            <div style="position:absolute; left:150px; top:280px"><a href="Limassol.html" title="Limassol District"><span style="color: white;">Limassol</span></a></div>
+            <div style="position:absolute; left:276px; top:256px"><a href="Larnaca.html" title="Larnaca District">Larnaca</a></div>
+            <div style="position:absolute; left:42px; top:244px"><a href="Paphos.html" title="Paphos District"><span style="color: white;">Paphos</span></a></div>
+            <div style="position:absolute; left:345px; top:154px"><a href="Famagusta.html" title="Famagusta District"><span style="color: black;">Famagusta</span></a></div>
+            <div style="position:absolute; left:216px; top:121px"><a href="Kyrenia.html" title="Kyrenia District">Kyrenia</a></div>
+        </figure>
 
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../subterranea/Egkleistra.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Egkleistra</a></li>
-            <li><a data-ajax="false" target="_top" href="../showcaves/Incirli.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Incirli Cave</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/KatoPafos.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Tombs of the Kings</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/TheCaveBar.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">The Cave Bar</a></li>
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/Famagusta.html">Famagusta</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/Kyrenia.html">Kyrenia</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/Larnaca.html">Larnaca</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/Limassol.html">Limassol</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/Nicosia.html">Nicosia</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/Paphos.html">Paphos</a></li>
         </ul>
-
-        <br>
 
     </div>
 
@@ -73,8 +79,12 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/cy.html">Cyprus</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Cyprus</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">By District</a>
+            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

@@ -27,67 +27,34 @@
     <!-- end responsive -->
 
 
-    <title>Miscellaneous Countries: Cyprus</title>
+    <title>Maps of Cyprus: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cy/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <img alt="cy" src="../../../graphics/flags/cy.png" class="flag">
-        <h1 class="center">Kypriaki Dimokratia / Kibris Cumhuriyeti</h1>
-        <h2 class="center">Cyprus</h2>
-
-        <br class="clear">
-
-        <p>
-            <b>Cyprus</b> (Kypros) is an island in the middle of the Mediterranean Sea.
-            The Capital is Nicosia (Levk&ograve;sia).
-        </p>
-
-        <p class="indentedText">
-            Cyprus is 240km long and 100km wide, which makes it the third largest island in
-            the Mediterranean sea.
-            There are two mountain ranges, the Troodos Mountains and the smaller Kyrenia
-            Range with the central plain named Mesaoria in between.
-        </p>
-
-        <p class="indentedText">
-            The geology is complicated and very interesting.
-            The island lies on the convergend palte rim between the African and Eurasian
-            Plate.
-            There are as interesting features like ocean floor basalts moved up by the
-            collision of the two continents.
-            There are the connected volcanic and plutonic rocks, ores and mineral, numerous
-            ore deposits and mines.
-            And there is limestone with caves.
-        </p>
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">Sights of Cyprus</li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/Egkleistra.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Egkleistra</a></li>
-            <li><a data-ajax="false" target="_top" href="../showcaves/Incirli.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Incirli Cave</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/KatoPafos.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Tombs of the Kings</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/TheCaveBar.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">The Cave Bar</a></li>
-        </ul>
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" nohref>
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" border="1">
+        </div>
 
         <br>
 
-
-        <br class="clear">
-
-
         <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">Additional Information about Cyprus</li>
-            <li><a data-ajax="false" target="_top" href="../region/cyMap.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Map of Cyprus</a></li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Cyprus+cave"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Cyprus cave"</a></li>
-            <li><a target="_blank" href="http://en.wikipedia.org/wiki/Cyprus"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">Cyprus - Wikipedia</a></li>
-            <li><a target="_blank" href="http://shropshiremines.org.uk/cyprus/cyprus.htm"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Mines of Cyprus</a></li>
         </ul>
-
 
     </div>
 
@@ -96,9 +63,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Misc Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/Europe.html">Europe</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Cyprus</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By District</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
