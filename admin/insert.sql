@@ -4,15 +4,27 @@ SET chapter=NULL,
     continent='NorthAmerica'
 WHERE countrycode = 'bs';
 UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/bs/')
+WHERE countrycode = 'bs';
+
+UPDATE sights
 SET chapter=NULL,
     region=NULL,
     continent='Europe'
 WHERE countrycode = 'ee';
 UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/ee/')
+WHERE countrycode = 'ee';
+
+UPDATE sights
 SET chapter=NULL,
     region=NULL,
     continent='Europe'
 WHERE countrycode = 'cy';
+UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/cy/')
+WHERE countrycode = 'cy';
+
 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Temppeliaukion kirkko', '/english/fi/subterranea/Temppeliaukio.html', 'Temppeliaukio', 'Europe', 'fi', 'Finland', 'subterranea', 'Helsinki');
