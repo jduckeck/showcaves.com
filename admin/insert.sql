@@ -4,7 +4,7 @@ SET chapter=NULL,
     continent='NorthAmerica'
 WHERE countrycode = 'bs';
 UPDATE sights
-SET filename = REPLACE(filename, '/other/', '/bs/')
+SET filename = REPLACE(filename, '/car/', '/bs/')
 WHERE countrycode = 'bs';
 
 UPDATE sights
