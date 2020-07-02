@@ -14,3 +14,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Love Bridge', '/english/cy/karst/LoveBridge.html', 'LoveBridge', 'Europe', 'cy', 'Cyprus', 'karst', 'Famagusta');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Hermitage of St. Cirijaka', '/english/hr/subterranea/StCirijaka.html', 'StCirijaka', 'Europe', 'hr', 'Croatia', 'subterranea', 'Dalmatia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Hundraðmannahellir', '/english/is/caves/Hundradmannahellir.html', 'Hundradmannahellir', 'Europe', 'is', 'Iceland', 'caves', 'Vestmannaeyjar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Páskahellir', '/english/is/caves/Paskahellir.html', 'Paskahellir', 'Europe', 'is', 'Iceland', 'caves', 'Vestmannaeyjar');
