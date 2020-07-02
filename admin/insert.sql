@@ -6,3 +6,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ayias Solomonis Cave Church and Catacombs', '/english/cy/subterranea/AyiasSolomonis.html', 'AyiasSolomonis', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Paphos');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Farkaskői Alkotótelep', '/english/hu/subterranea/Noszvaj.html', 'Noszvaj', 'Europe', 'hu', 'Hungary', 'subterranea', 'Lillafured');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ayia Napa Sea Caves', '/english/cy/caves/AyiaNapa.html', 'AyiaNapa', 'Europe', 'cy', 'Cyprus', 'caves', 'Famagusta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Playa Escondida', '/english/mx/karst/PlayaEscondida.html', 'PlayaEscondida', 'MiddleAmerica', 'mx', 'México', 'karst', 'Nayarit');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Love Bridge', '/english/cy/karst/LoveBridge.html', 'LoveBridge', 'Europe', 'cy', 'Cyprus', 'karst', 'Famagusta');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Hermitage of St. Cirijaka', '/english/hr/subterranea/StCirijaka.html', 'StCirijaka', 'Europe', 'hr', 'Croatia', 'subterranea', 'Dalmatia');
