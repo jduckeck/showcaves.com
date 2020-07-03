@@ -18,3 +18,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Hundraðmannahellir', '/english/is/caves/Hundradmannahellir.html', 'Hundradmannahellir', 'Europe', 'is', 'Iceland', 'caves', 'Vestmannaeyjar');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Páskahellir', '/english/is/caves/Paskahellir.html', 'Paskahellir', 'Europe', 'is', 'Iceland', 'caves', 'Vestmannaeyjar');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Gýgagjá', '/english/is/caves/Gygagja.html', 'Gygagja', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Hálsanefshellir Cave', '/english/is/caves/Halsanefshellir.html', 'Halsanefshellir', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tintron Cave Tour', '/english/is/caves/Tintron.html', 'Tintron', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Litli Björn - Vörðuhellir', '/english/is/caves/LitliBjorn.html', 'LitliBjorn', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Sönghellir', '/english/is/caves/Songhellir.html', 'Songhellir', 'Europe', 'is', 'Iceland', 'caves', 'Vesturland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','þakgilshellir', '/english/is/caves/Thakgilshellir.html', 'Thakgilshellir', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
