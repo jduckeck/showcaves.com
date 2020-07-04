@@ -125,6 +125,7 @@ table.language th {
     margin: 1.5em 1em 1em 1em;
     padding: 0.5em;
     background-color: #D6D6D6;
+    overflow:hidden;
     clear: both;
 }
 
@@ -134,6 +135,7 @@ table.language th {
     margin: 1.5em 1em 1em 1em;
     padding: 0.5em;
     background-color: #D6D6D6;
+    overflow:hidden;
 }
 
 .definition {
