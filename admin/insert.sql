@@ -1,3 +1,15 @@
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Cueva Ventana', '/english/car/showcaves/Ventana.html', 'Ventana', 'Caribbean Islands', 'pr', 'Puerto Rico', 'showcaves', 'pr', 'car');
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='MiddleAmerica'
+WHERE countrycode = 'do';
+UPDATE sights
+SET filename = REPLACE(filename, '/car/', '/do/')
+WHERE countrycode = 'do';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','San Juan de la Peña', '/english/es/subterranea/SanJuanPena.html', 'SanJuanPena', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Ayios Sozomenos Cave Church', '/english/cy/subterranea/AyiosSozomenos.html', 'AyiosSozomenos', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Nicosia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
