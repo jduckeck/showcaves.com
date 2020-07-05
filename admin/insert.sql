@@ -1,3 +1,5 @@
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Cueva Ventana', '/english/car/showcaves/Ventana.html', 'Ventana', 'Caribbean Islands', 'pr', 'Puerto Rico', 'showcaves', 'pr', 'car');
 UPDATE sights
 SET chapter=NULL,
     region=NULL,
