@@ -189,9 +189,8 @@ img.map {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
     width: 100%;
-    max-width: 800px;
-    height: auto;
 }
 
 img.flag {
