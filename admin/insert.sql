@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','San Juan de la Peña', '/english/es/subterranea/SanJuanPena.html', 'SanJuanPena', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Ayios Sozomenos Cave Church', '/english/cy/subterranea/AyiosSozomenos.html', 'AyiosSozomenos', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Nicosia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Ayia Thekla Cave Church', '/english/cy/subterranea/AyiaThekla.html', 'AyiaThekla', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Famagusta');
