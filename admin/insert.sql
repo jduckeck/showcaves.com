@@ -38,6 +38,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Hamatoura Monastery', '/english/lb/subterranea/Hamatoura.html', 'Hamatoura', 'MiddleEast', 'lb', 'Lebanon', 'subterranea', 'North');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Monastery of Mar Lishaa', '/english/lb/subterranea/MarLishaa.html', 'MarLishaa', 'MiddleEast', 'lb', 'Lebanon', 'subterranea', 'North');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Sötétkapu', '/english/hu/subterranea/Sotetkapu.html', 'Sotetkapu', 'Europe', 'hu', 'Hungary', 'subterranea', 'Komarom');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Szelim-barlang', '/english/hu/caves/Szelim.html', 'Szelim', 'Europe', 'hu', 'Hungary', 'caves', 'Komarom');
 UPDATE sights
 SET chapter=NULL,
     region=NULL,
