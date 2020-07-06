@@ -27,8 +27,8 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Magharet Afqua Lebanon Caves showcaves.com">
-    <title>Caves of Lebanon: Magharet Afqua</title>
+    <meta name="description" content="$CaveName$ Lebanon Caves showcaves.com">
+    <title>Caves of Lebanon: $CaveName$</title>
 </head>
 
 <body>
@@ -36,7 +36,14 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Magharet Afqua</h1>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../lb/caves/$FileName$.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../lb/caves/$FileName$.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/lb/caves/$FileName$.html', '$FileName$', 'MiddleEast', 'lb', 'Lebanon', 'caves', '$Region$');
+        -->
+
+        <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
@@ -48,28 +55,25 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
-                    Afqa.
-                    Beirut towards Jbail (Byblos), Qartaba exit between Jounie and Byblos.
-                    Through Qartaba and Mughaira to Afqa.
-                    65km from Beirut.
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
                 <td>
-                    n/a
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
                 <td>
-                    n/a
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
                 <td>
-                    <a target="_top" href="../../explain/Speleology/Karst.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.gif">Karst cave</a>
+                    &nbsp;
                 </td>
             </tr>
             <tr>
@@ -111,7 +115,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    &nbsp;
+                    $CaveName$, Tel: +961-, Fax: +961-,
                 </td>
             </tr>
             <tr>
@@ -129,39 +133,19 @@
         <h2>Description</h2>
 
         <p>
-            <b>Magharet Afqua</b> is a river cave and the resurgence of the <b>Adonis</b>
-            river.
-            During spring the melting water from the mountains makes the spring rise, and
-            because of the water bringing a lot of red clay with it, it is called the
-            <b>blood of adonis</b>.
-            The Romans believed that this was the place were the legend of <b
-                class="smallCaps">Aphrodite</b> and <b class="smallCaps">Adonis</b> had
-            happened.
-            After being wounded Adonis went to this cave to die, and since this time the
-            water is coloured red every year.
-        </p>
-
-        <p class="indentedText">
-            The cave is not developed, but it is possible ti climb up on the left side of
-            the river.
-            It is a little difficult, so a little climbing experience and the right shoes
-            are necessary.
+            <b>$CaveName$</b> is
         </p>
 
         <!--
-
-        -->
-
+         -->
 
         <br class="clear">
 
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Magharet+Afqua"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Magharet Afqua"</a></li>
-            <li><a target="_blank" href="http://www.kahlil.org/lebpics/lebpics064.html"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Afqua cave and pool picture.</a></li>
-            <li><a target="_blank" href="http://www.libanon-info.de/lib/lale/lalenaf.html"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Afqagrotte (<img alt="Deutsch - German" src="../../../graphics/flags/de-small.png" class="language">)</a></li>
-            <li><a target="_blank" href="http://www.libanon-info.de/lib/lale/lalenafinfo.html"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Der Adonismythos</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/lb/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
 
@@ -172,8 +156,8 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Misc Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/lb.html">Lebanon</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Lebanon</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$ Governorate</a></li>
             </ul>
         </div>
     </div>

@@ -27,50 +27,34 @@
     <!-- end responsive -->
 
 
-    <title>Map of Lebanon</title>
+    <title>Maps of Lebanon: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../lb/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../lb/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <figure class="left">
-            <a target="_top" href="../../explain/Maps/MiddleEast.html"><img alt="Middle East Map" src="../../../maps/MiddleEast.gif" border="1" hspace="0" width="86" height="62"></a>
-            <figcaption class="center">Middle East Map</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a target="_top" href="../../explain/Maps/MiddleEast.html"><img alt="Middle East Map" src="../../../maps/MiddleEast.gif" border="1" hspace="0" width="86" height="62"></a>
-            <figcaption class="center">Middle East Map</figcaption>
-        </figure>
-
-
-        <h1 class="center">Map of Lebanon</h1>
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="LebanonMap">
-                <area shape="rect" alt="Magharet Jeita - Jeita Grotto" coords="184,288,279,302" href="../showcaves/Jeita.html">
-                <area shape="rect" alt="Israel" coords="193,581,238,598" href="../../il/region/Map.html">
-                <area shape="rect" alt="Israel" coords="119,622,161,636" href="../../il/region/Map.html">
-                <area shape="rect" alt="Israel" coords="186,619,242,634" href="../../il/region/Map.html">
+            <map name="$FileName$Map">
                 <area shape="default" nohref>
             </map>
-            <img alt="" src="../../../maps/Lebanon.gif" USEMAP="#LebanonMap" border="1" width="500" height="638">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" border="1">
         </div>
 
         <br>
 
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../showcaves/Jeita.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Magharet Jeita - Jeita Grotto</a></li>
+        <ul class="linklist" data-role="listview" data-inset="true">
         </ul>
-
-        <br>
 
     </div>
 
@@ -79,8 +63,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/lb.html">Lebanon</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Lebanon</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Governorate</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

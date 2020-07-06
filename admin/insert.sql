@@ -1,5 +1,25 @@
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='MiddleEast'
+WHERE countrycode = 'lb';
+UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/lb/')
+WHERE countrycode = 'lb';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
 VALUES('yes','Cueva Ventana', '/english/car/showcaves/Ventana.html', 'Ventana', 'Caribbean Islands', 'pr', 'Puerto Rico', 'showcaves', 'pr', 'car');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ain Wazein Cave', '/english/other/showcaves/AinWazein.html', 'AinWazein', 'MiddleEast', 'lb', 'Lebanon', 'showcaves', 'MountLebanon');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Mabaj Cave', '/english/other/showcaves/Mabaj.html', 'Mabaj', 'MiddleEast', 'lb', 'Lebanon', 'showcaves', 'lb');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Zahlan Cave', '/english/other/showcaves/Zahlan.html', 'Zahlan', 'MiddleEast', 'lb', 'Lebanon', 'showcaves', 'lb');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Baatara Cave', '/english/other/caves/Baatara.html', 'Baatara', 'MiddleEast', 'lb', 'Lebanon', 'caves', 'lb');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Rouiess Cave', '/english/other/caves/Rouiess.html', 'Rouiess', 'MiddleEast', 'lb', 'Lebanon', 'caves', 'lb');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Faqra Natzral Bridge', '/english/other/karst/Faqra.html', 'Faqra', 'MiddleEast', 'lb', 'Lebanon', 'karst', 'lb');
 UPDATE sights
 SET chapter=NULL,
     region=NULL,
