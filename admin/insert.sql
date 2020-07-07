@@ -50,6 +50,16 @@ WHERE countrycode = 'do';
 UPDATE sights
 SET filename = REPLACE(filename, '/car/', '/do/')
 WHERE countrycode = 'do';
+UPDATE sights SET region='SanCristobal' WHERE  countrycode = 'do' AND sortby='Pomier';
+UPDATE sights SET region='PuertoPlata' WHERE  countrycode = 'do' AND sortby='Cabarete';
+UPDATE sights SET region='SanPedro' WHERE  countrycode = 'do' AND sortby='Maravillas';
+UPDATE sights SET region='SantoDomingo' WHERE  countrycode = 'do' AND sortby='ElMeson';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Filipinas Larimar Mine', '/english/do/mines/Filipinas.html', 'Filipinas', 'MiddleAmerica', 'do', 'Dominican Republic', 'mines', 'Barahona');
+UPDATE sights SET region='SantoDomingo' WHERE  countrycode = 'do' AND sortby='ThreeEyes';
+UPDATE sights SET region='SantoDomingo' WHERE  countrycode = 'do' AND sortby='GuacaraTai';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Oyo Azul', '/english/do/karst/OyoAzul.html', 'OyoAzul', 'MiddleAmerica', 'do', 'Dominican Republic', 'karst', 'LaAltagracia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','San Juan de la Peña', '/english/es/subterranea/SanJuanPena.html', 'SanJuanPena', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
