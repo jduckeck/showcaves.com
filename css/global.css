@@ -416,6 +416,31 @@ figure.center {
     width: 600px;
 }
 
+figure.panorama {
+    clear: both;
+    float: none;
+    margin: 1em auto;
+    width: 100%;
+}
+figure.panorama img {
+    max-width: 100%;
+}
+figure.panorama figcaption {
+    text-align: center;
+}
+
+div.panorama {
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 78px;
+    overflow: hidden;
+}
+div.panorama img {
+    width: 3000px;
+    height: 78px;
+}
+
 figcaption {
     font-size: 80%;
 }
