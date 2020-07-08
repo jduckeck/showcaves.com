@@ -16,12 +16,12 @@ function printCountry($entries, $countryName, $itemsText)
         $entriesText = "$entries entries";
     }
 
-    print ("         <div data-role=\"collapsible\">\n");
-    print ("            <h3><span style=\"float: right;\">$entriesText</span>$countryName</h3>\n");
+    print ("        <div data-role=\"collapsible\">\n");
+    print ("            <h3>$countryName<span class=\"ui-li-count\">$entriesText</span></h3>\n");
     print ("            <ul id=\"$countryName" . "List\" data-role=\"listview\" data-inset=\"true\">\n");
     print ($itemsText);
     print ("            </ul>\n");
-    print ("         </div>\n");
+    print ("        </div>\n");
 }
 
 /**
@@ -55,6 +55,7 @@ function getCategory($category)
             $Category = "Gorge";
             break;
         default:
+            $Category = "Subterranea";
             break;
     }
     return $Category;
@@ -97,7 +98,7 @@ function printByCountryAll($pdo)
                 $oldCountry = $country;
             }
 
-            $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name</a></li>\n";
+            $itemsText .= "                <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name</a></li>\n";
             $entries++;
         }
 
@@ -144,7 +145,7 @@ function printByCountry($pdo, $category)
                 $oldCountry = $country;
             }
 
-            $itemsText .= "               <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name</a></li>\n";
+            $itemsText .= "                <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name</a></li>\n";
             $entries++;
         }
 
@@ -188,7 +189,7 @@ function printAllByCategory($pdo, $category)
             $name = $row['name'];
             $country = $row['country'];
             $filename = $row['filename'];
-            print ("         <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
+            print ("            <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
         }
     }
 }
@@ -208,7 +209,7 @@ function printAll($pdo)
             $country = $row['country'];
             $filename = $row['filename'];
             $Category = getCategory($row['category']);
-            print ("           <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
+            print ("            <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
         }
     }
 }
