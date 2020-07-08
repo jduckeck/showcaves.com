@@ -1,4 +1,5 @@
 <?php
+error_reporting (0);
 
 /**
  * print the whole block of a country with collapsible header and list of items
