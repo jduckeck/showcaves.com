@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!META http-equiv="Content-Type" content="text/html; charset=windows-1250">
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
     <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
@@ -26,27 +25,34 @@
     <!-- end responsive -->
 
 
-    <title>Caves of the Czech Republic</title>
+    <title>Maps of Czech Republic: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/ByciSkala.html">Jeskyně Býčí skála</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/Cisarska.html">Císařská jeskyně</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/Kralova.html">Králova jeskynĕ</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/Ledova.html">Ledová jeskynĕ</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/MalaPravcicka.html">Malá Pravčická Brána</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/Ochoz.html">Ochozská jeskynĕ</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/Pravcicka.html">Pravčická Brána</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/Sipka.html">Jeskyně Šipka</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/SkalkySkritku.html">Skalky skřítků</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/caves/SvIvanova.html">Jeskyně svatého Ivana</a></li>
-            </ul>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../cz/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../cz/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
+
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" nohref>
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" border="1">
         </div>
+
+        <br>
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+        </ul>
 
     </div>
 
@@ -56,16 +62,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Czech Republic</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
-            <a data-ajax="false" href="../caves/index.html" data-role="button" class="ui-btn-active">Caves</a>
-            <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
-            <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
-                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
-            <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
-            <a data-ajax="false" href="../../cz/subterranea/index.html" data-role="button" class="">Subterranea</a>
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Region</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
