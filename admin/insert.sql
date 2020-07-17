@@ -1,3 +1,5 @@
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Monastery of Sant Miquel del Fai', '/english/es/subterranea/SantMiquel.html', 'SantMiquel', 'Europe', 'es', 'Spain', 'subterranea', 'Cataluna');
 UPDATE sights
 SET filename = REPLACE(filename, '/showcaves/', '/gorges/'),
     category = 'gorges'
