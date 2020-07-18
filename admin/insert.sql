@@ -4,6 +4,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Yemrehanna Kristos Church', '/english/other/subterranea/YemrehannaKristos.html', 'YemrehannaKristos', 'Africa', 'et', 'Ethiopia', 'subterranea', 'et', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Grotta del Cammello', '/english/it/caves/Cammello.html', 'Cammello', 'Europe', 'it', 'Italy', 'caves', 'Sicilia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ikuno Silver Mine', '/english/jp/mines/Ikuno.html', 'Ikuno', 'Asia', 'jp', 'Japan', 'mines', 'Hyogo');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Utsuno Cave', '/english/jp/showcaves/Utsuno.html', 'Utsuno', 'Asia', 'jp', 'Japan', 'showcaves', 'Tochigi');
 UPDATE sights
 SET filename = REPLACE(filename, '/showcaves/', '/gorges/'),
     category = 'gorges'
