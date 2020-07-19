@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Kipina Monastery', '/english/gr/subterranea/Kipina.html', 'Kipina', 'Europe', 'gr', 'Greece', 'subterranea', 'Epiros');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Ashio Copper Mine', '/english/jp/mines/Ashio.html', 'Ashio', 'Asia', 'jp', 'Japan', 'mines', 'Tochigi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Shitodo', '/english/jp/caves/Shitodo.html', 'Shito', 'Asia', 'jp', 'Japan', 'caves', 'Kanagawa');
