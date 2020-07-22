@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Les grottes du Régulus et des Fontaines', '/english/fr/subterranea/Regulus.html', 'Regulus', 'Europe', 'fr', 'France', 'subterranea', 'PoitouCharentes');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Coves Prehistòriques de Serinyà', '/english/es/showcaves/Serinya.html', 'Serinya', 'Europe', 'es', 'Spain', 'showcaves', 'Cataluna');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Coves del Cogul', '/english/es/showcaves/ElCogul.html', 'ElCogul', 'Europe', 'es', 'Spain', 'showcaves', 'Cataluna');
