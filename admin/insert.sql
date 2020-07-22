@@ -1,4 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Coves Prehistòriques de Serinyà', '/english/es/showcaves/Serinya.html', 'Serinya', 'Europe', 'es', 'Spain', 'showcaves', 'Cataluna');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Coves del Cogul', '/english/es/showcaves/ElCogul.html', 'ElCogul', 'Europe', 'es', 'Spain', 'showcaves', 'Cataluna');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Coves del Toll', '/english/es/showcaves/ElToll.html', 'ElToll', 'Europe', 'es', 'Spain', 'showcaves', 'Cataluna');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Balaclava Mine', '/english/au/mines/Balaclava.html', 'Balaclava', 'Oceania', 'au', 'Australia', 'mines', 'vic');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Nakatonbetsu Limestone Cave', '/english/jp/showcaves/Nakatonbetsu.html', 'Nakatonbetsu', 'Asia', 'jp', 'Japan', 'showcaves', 'Hokkaido');
