@@ -291,6 +291,14 @@ table.standard td.wrap {
     white-space: normal !important;
 }
 
+table.standard td.right {
+    text-align: right;
+}
+
+table.standard td.left {
+    text-align: left;
+}
+
 table.standard tfoot {
     background-color: white;
 }
