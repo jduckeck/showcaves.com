@@ -141,9 +141,10 @@ table.language th {
 .definition {
     font-family: serif;
     color: #404040;
-    margin: 1.5em 1em 1em 1em;
+    margin: 0 1em 1em;
     padding: 0.5em;
     background-color: #e6F6e6;
+    overflow:hidden;
 }
 
 .symbol {
