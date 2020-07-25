@@ -6,3 +6,14 @@ E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src=".
 
 multiline:
 ((.|\n)*)
+
+
+<figure class="$1">
+$2
+<figcaption>$3</figcaption>
+</figure>
+
+<figure class="right">
+$1
+<figcaption>$2</figcaption>
+</figure>
