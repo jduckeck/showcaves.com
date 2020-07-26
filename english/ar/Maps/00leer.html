@@ -25,57 +25,34 @@
     <!-- end responsive -->
 
 
-    <title>Chile by Región: Región de Magallanes y de la Antártica Chilena</title>
+    <title>Maps of Argentina: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../ar/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../ar/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <h1 class="center">Región de Magallanes y de la Antártica Chilena</h1>
-        <h2 class="center">Magallanes and Chilean Antarctica Region</h2>
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
-            The <b>Magallanes Region</b> is the southernmost, largest, and second least populated region of Chile.
-            It has such well known geographical features like Torres del Paine, Cape Horn, Tierra del Fuego island, and the Strait of Magellan.
-        </p>
-
-        <p class="indentedText">
-            <b>Patagonia</b> is the southern tip of South America, and belongs to two countries.
-            It is also divided into an eastern and a western part by the Andes, which run from north to south.
-            The Eastern Patagonia part belongs mostly to Argentina and has about 90% of the land surface.
-            The remaining 10%, Western Patagonia, belongs to Chile.
-            Patagonia is quite big, so it is composed of three regions: Aysén and Magallanes are located entirely within Patagonia, while the Los Lagos Region partly belongs to Patagonia.
-        </p>
-
-        <br>
-
         <div class="center">
-            We are sorry, this map is not yet drawn....
+            <map name="$FileName$Map">
+                <area shape="default" nohref>
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" border="1">
         </div>
 
         <br>
 
         <ul class="linklist" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../showcaves/Milodon.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Cueva del Milodon</a></li>
         </ul>
-
-        <br>
-
-        <!--  -->
-
-        <br class="clear">
-
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Magallanes+Región"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Región de Magallanes y de la Antártica Chilena"</a></li>
-            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Magallanes_Region"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">Magallanes - Wikipedia</a></li>
-        </ul>
-
 
     </div>
 
@@ -84,8 +61,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Chile</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Argentina</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
