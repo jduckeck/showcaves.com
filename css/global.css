@@ -292,6 +292,10 @@ table.standard td.wrap {
     white-space: normal !important;
 }
 
+table.standard td:last-of-type {
+    white-space: normal !important;
+}
+
 table.standard td.right {
     text-align: right;
 }

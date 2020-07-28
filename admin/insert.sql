@@ -64,3 +64,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Landmannahellir', '/english/is/caves/Landmannahellir.html', 'Landmannahellir', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Gatklettur', '/english/is/karst/Gatklettur.html', 'Gatklettur', 'Europe', 'is', 'Iceland', 'karst', 'Vesturland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','El Arco del Tiempo del Río La Venta', '/english/mx/caves/ArcoDelTiempo.html', 'ArcoDelTiempo', 'MiddleAmerica', 'mx', 'México', 'caves', 'Chiapas');
+UPDATE sights SET chapter=NULL, region=NULL, continent='SouthAmerica' WHERE countrycode = 'ar';
+UPDATE sights SET filename = REPLACE(filename, '/other/', '/ar/') WHERE countrycode = 'ar';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Grutas del Mamut', '/english/mx/showcaves/Mamut.html', 'Mamut', 'MiddleAmerica', 'mx', 'México', 'showcaves', 'Chiapas');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Sima de las Cotorras', '/english/mx/karst/Cotorras.html', 'Cotorras', 'MiddleAmerica', 'mx', 'México', 'karst', 'Chiapas');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','El Arcotete Parque Ecoturístico', '/english/mx/showcaves/ElArcotete.html', 'ElArcotete', 'MiddleAmerica', 'mx', 'México', 'showcaves', 'Chiapas');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Cueva El Chorreadero', '/english/mx/caves/ElChorreadero.html', 'ElChorreadero', 'MiddleAmerica', 'mx', 'México', 'caves', 'Chiapas');
