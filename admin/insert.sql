@@ -76,3 +76,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','El Arcotete Parque Ecoturístico', '/english/mx/showcaves/ElArcotete.html', 'ElArcotete', 'MiddleAmerica', 'mx', 'México', 'showcaves', 'Chiapas');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Cueva El Chorreadero', '/english/mx/caves/ElChorreadero.html', 'ElChorreadero', 'MiddleAmerica', 'mx', 'México', 'caves', 'Chiapas');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Cueva de Los Pajaritos', '/english/ar/showcaves/LosPajaritos.html', 'LosPajaritos', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Cordoba');
