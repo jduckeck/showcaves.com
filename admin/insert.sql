@@ -56,3 +56,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Francetova Jama', '/english/si/showcaves/Francetova.html', 'Francetova', 'Europe', 'si', 'Slovenia', 'showcaves', 'Dolenjska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Federal Reserve Bank of New York Gold Vault', '/english/usa/subterranea/FederalGoldVault.html', 'FederalGoldVault', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Rauðfeldsgjá', '/english/is/gorges/Raudfeldsgja.html', 'Raudfeldsgja', 'Europe', 'is', 'Iceland', 'gorges', 'Vesturland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Landmannahellir', '/english/is/caves/Landmannahellir.html', 'Landmannahellir', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Gatklettur', '/english/is/karst/Gatklettur.html', 'Gatklettur', 'Europe', 'is', 'Iceland', 'karst', 'Vesturland');
