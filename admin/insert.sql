@@ -78,3 +78,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva El Chorreadero', '/english/mx/caves/ElChorreadero.html', 'ElChorreadero', 'MiddleAmerica', 'mx', 'México', 'caves', 'Chiapas');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Cueva de Los Pajaritos', '/english/ar/showcaves/LosPajaritos.html', 'LosPajaritos', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Cordoba');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Brotherhood Winery', '/english/usa/subterranea/Brotherhood.html', 'Brotherhood', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny');
