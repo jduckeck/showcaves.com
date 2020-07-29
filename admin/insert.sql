@@ -80,3 +80,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva de Los Pajaritos', '/english/ar/showcaves/LosPajaritos.html', 'LosPajaritos', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Cordoba');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Brotherhood Winery', '/english/usa/subterranea/Brotherhood.html', 'Brotherhood', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Isposnica Svetog Save', '/english/rs/subterranea/SvetogSave.html', 'SvetogSave', 'Europe', 'rs', 'Serbia', 'subterranea', '');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Taor Spring', '/english/rs/springs/Taor.html', 'Taor', 'Europe', 'rs', 'Serbia', 'springs', '');
