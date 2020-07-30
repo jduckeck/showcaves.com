@@ -1,13 +1,24 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Storwartz', '/english/no/mines/Storwartz.html', 'Storwartz', 'Europe', 'no', 'Norway', 'mines', 'SorTrondelag');
+VALUES ('yes', 'Zelenci', '/english/si/springs/Zelenci.html', 'Zelenci', 'Europe', 'si', 'Slovenia', 'springs',
+        'Gorenjska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Hellnahellir', '/english/is/subterranea/Hellnahellir.html', 'Hellnahellir', 'Europe', 'is', 'Iceland', 'subterranea', 'Sudurland');
+VALUES ('yes', 'Izvir Nadiže', '/english/si/springs/Nadiza.html', 'Nadiza', 'Europe', 'si', 'Slovenia', 'springs',
+        'Gorenjska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Seljalandsfoss', '/english/is/caves/Seljalandsfoss.html', 'Seljalandsfoss', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+VALUES ('yes', 'Storwartz', '/english/no/mines/Storwartz.html', 'Storwartz', 'Europe', 'no', 'Norway', 'mines',
+        'SorTrondelag');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Dyrhólaey', '/english/is/karst/Dyrholaey.html', 'Dyrholaey', 'Europe', 'is', 'Iceland', 'karst', 'Sudurland');
+VALUES ('yes', 'Hellnahellir', '/english/is/subterranea/Hellnahellir.html', 'Hellnahellir', 'Europe', 'is', 'Iceland',
+        'subterranea', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Kvernufoss', '/english/is/caves/Kvernufoss.html', 'Kvernufoss', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
+VALUES ('yes', 'Seljalandsfoss', '/english/is/caves/Seljalandsfoss.html', 'Seljalandsfoss', 'Europe', 'is', 'Iceland',
+        'caves', 'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Dyrhólaey', '/english/is/karst/Dyrholaey.html', 'Dyrholaey', 'Europe', 'is', 'Iceland', 'karst',
+        'Sudurland');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Kvernufoss', '/english/is/caves/Kvernufoss.html', 'Kvernufoss', 'Europe', 'is', 'Iceland', 'caves',
+        'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Caves of Hella', '/english/is/subterranea/Hella.html', 'Hella', 'Europe', 'is', 'Iceland', 'subterranea', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
