@@ -1,24 +1,17 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Zelenci', '/english/si/springs/Zelenci.html', 'Zelenci', 'Europe', 'si', 'Slovenia', 'springs',
-        'Gorenjska');
+VALUES ('yes', 'Zelenci', '/english/si/springs/Zelenci.html', 'Zelenci', 'Europe', 'si', 'Slovenia', 'springs', 'Gorenjska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Izvir Nadiže', '/english/si/springs/Nadiza.html', 'Nadiza', 'Europe', 'si', 'Slovenia', 'springs',
-        'Gorenjska');
+VALUES ('yes', 'Izvir Nadiže', '/english/si/springs/Nadiza.html', 'Nadiza', 'Europe', 'si', 'Slovenia', 'springs', 'Gorenjska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Storwartz', '/english/no/mines/Storwartz.html', 'Storwartz', 'Europe', 'no', 'Norway', 'mines',
-        'SorTrondelag');
+VALUES ('yes', 'Storwartz', '/english/no/mines/Storwartz.html', 'Storwartz', 'Europe', 'no', 'Norway', 'mines', 'SorTrondelag');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Hellnahellir', '/english/is/subterranea/Hellnahellir.html', 'Hellnahellir', 'Europe', 'is', 'Iceland',
-        'subterranea', 'Sudurland');
+VALUES ('yes', 'Hellnahellir', '/english/is/subterranea/Hellnahellir.html', 'Hellnahellir', 'Europe', 'is', 'Iceland', 'subterranea', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Seljalandsfoss', '/english/is/caves/Seljalandsfoss.html', 'Seljalandsfoss', 'Europe', 'is', 'Iceland',
-        'caves', 'Sudurland');
+VALUES ('yes', 'Seljalandsfoss', '/english/is/caves/Seljalandsfoss.html', 'Seljalandsfoss', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Dyrhólaey', '/english/is/karst/Dyrholaey.html', 'Dyrholaey', 'Europe', 'is', 'Iceland', 'karst',
-        'Sudurland');
+VALUES ('yes', 'Dyrhólaey', '/english/is/karst/Dyrholaey.html', 'Dyrholaey', 'Europe', 'is', 'Iceland', 'karst', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES ('yes', 'Kvernufoss', '/english/is/caves/Kvernufoss.html', 'Kvernufoss', 'Europe', 'is', 'Iceland', 'caves',
-        'Sudurland');
+VALUES ('yes', 'Kvernufoss', '/english/is/caves/Kvernufoss.html', 'Kvernufoss', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Caves of Hella', '/english/is/subterranea/Hella.html', 'Hella', 'Europe', 'is', 'Iceland', 'subterranea', 'Sudurland');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
@@ -49,10 +42,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ikuno Silver Mine', '/english/jp/mines/Ikuno.html', 'Ikuno', 'Asia', 'jp', 'Japan', 'mines', 'Hyogo');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Utsuno Cave', '/english/jp/showcaves/Utsuno.html', 'Utsuno', 'Asia', 'jp', 'Japan', 'showcaves', 'Tochigi');
-UPDATE sights
-SET filename = REPLACE(filename, '/showcaves/', '/gorges/'),
-    category = 'gorges'
-WHERE sortby = 'BledneSkal';
+UPDATE sights SET filename = REPLACE(filename, '/showcaves/', '/gorges/'), category = 'gorges' WHERE sortby = 'BledneSkal';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Kamieńczyk Gorge', '/english/pl/gorges/Kamienczyk.html', 'Kamienczyk', 'Europe', 'pl', 'Poland', 'gorges', 'Dolnoslaskie');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
@@ -79,6 +69,12 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','El Arco del Tiempo del Río La Venta', '/english/mx/caves/ArcoDelTiempo.html', 'ArcoDelTiempo', 'MiddleAmerica', 'mx', 'México', 'caves', 'Chiapas');
 UPDATE sights SET chapter=NULL, region=NULL, continent='SouthAmerica' WHERE countrycode = 'ar';
 UPDATE sights SET filename = REPLACE(filename, '/other/', '/ar/') WHERE countrycode = 'ar';
+UPDATE sights SET region='SantaCruz' WHERE sortby='Gualicho';
+UPDATE sights SET region='Mendoza' WHERE sortby='Brujas';
+UPDATE sights SET region='SantaCruz' WHERE sortby='LasManos';
+UPDATE sights SET region='Mendoza' WHERE sortby='Tigre';
+UPDATE sights SET region='Misiones' WHERE sortby='Wanda';
+UPDATE sights SET region='Mendoza' WHERE sortby='Inca';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Grutas del Mamut', '/english/mx/showcaves/Mamut.html', 'Mamut', 'MiddleAmerica', 'mx', 'México', 'showcaves', 'Chiapas');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
