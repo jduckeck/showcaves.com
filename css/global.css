@@ -186,6 +186,14 @@ img.language {
     vertical-align: center;
 }
 
+.mapIconSouthAmerica {
+    width: 61px;
+    height: 101px;
+    border: 1px;
+    padding: 0;
+    vertical-align: center;
+}
+
 img.map {
     display: block;
     margin-left: auto;
