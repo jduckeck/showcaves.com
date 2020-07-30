@@ -95,3 +95,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Isposnica Svetog Save', '/english/rs/subterranea/SvetogSave.html', 'SvetogSave', 'Europe', 'rs', 'Serbia', 'subterranea', '');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Taor Spring', '/english/rs/springs/Taor.html', 'Taor', 'Europe', 'rs', 'Serbia', 'springs', '');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Speakeasy 518', '/english/usa/subterranea/Speakeasy518.html', 'Speakeasy518', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny');
