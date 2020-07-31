@@ -170,6 +170,14 @@ img.language {
     vertical-align: center;
 }
 
+.mapIconWorld {
+    width: 100px;
+    height: 62px;
+    border: 1px;
+    padding: 0;
+    vertical-align: center;
+}
+
 .mapIconEurope {
     width: 100px;
     height: 68px;

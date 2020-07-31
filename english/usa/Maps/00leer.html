@@ -25,33 +25,39 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="New Hampshire America States of the United States showcaves.com">
-    <title>States of the United States of America: New Hampshire</title>
+    <title>Maps of U.S.A.: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../usa/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../usa/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <h1 class="center">New Hampshire</h1>
+        <figure class="right">
+            <a target="_top" href="../../usa/Maps/index.html"><img alt="U.S.A. Map" src="../../../maps/USA.png" class="mapIconWorld"></a>
+            <figcaption class="center">U.S.A. Map</figcaption>
+        </figure>
+
+        <figure class="left">
+            <a target="_top" href="../../usa/Maps/index.html"><img alt="U.S.A. Map" src="../../../maps/USA.png" class="mapIconWorld"></a>
+            <figcaption class="center">U.S.A. Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-
-
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../usa/caves/Boulder.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Boulder Caves</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/gorges/Flume.html"><img alt="Gorge" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Gorge.png">Flume Gorge</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Polar.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Polar Caves Park</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/mines/Ruggles.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png"><span class="closed">Ruggles Mine</span></a></li>
-        </ul>
-
-        <br>
-
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
+        </div>
 
     </div>
 
@@ -61,8 +67,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">U.S.A.</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by State</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By State</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
