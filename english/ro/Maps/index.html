@@ -32,12 +32,39 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../ro/Maps/Map.html">Map of Romania</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ro/Maps/Karst.html">Mun&#x1E6D;ii Banatului</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ro/Maps/Karstgebiete.html">Karst Areas of Romania</a></li>
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Romania</h1>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="RomaniaMap">
+                <area shape="rect" alt="Hungary" coords="71,83,142,104" href="../../hu/region/Map.html">
+                <area shape="rect" alt="Ukraine" coords="356,14,423,32" href="../../ua/region/Map.html">
+                <area shape="rect" alt="Yugoslavia - Serbia - Montenegro" coords="92,465,148,484" href="../../rs/Maps/index.html">
+                <area shape="rect" alt="Bulgaria" coords="535,516,606,536" href="../../bg/region/Map.html">
+                <area shape="rect" alt="Peştera Meziad" coords="153,191,211,204" href="../showcaves/Meziad.html">
+                <area shape="rect" alt="Peştera Urşilor" coords="165,207,215,220" href="../showcaves/Ursilor.html">
+                <area shape="rect" alt="Peştera Scarisoara" coords="152,234,226,244" href="../showcaves/Scarisoara.html">
+                <area shape="rect" alt="Poarta Lui Johele" coords="223,240,328,249" href="../showcaves/Johele.html">
+                <area shape="rect" alt="Peştera Ialomita" coords="431,348,487,360" href="../showcaves/Ialomita.html">
+                <area shape="rect" alt="Piatra Altarului" coords="220,211,310,222" href="../caves/Altarului.html">
+                <area shape="rect" alt="Movile" coords="655,491,705,502" href="../caves/Movile.html">
+                <area shape="rect" alt="Institut Racovita" coords="290,182,392,195" href="../../explain/People/Racovita.html">
+                <area shape="rect" alt="Institut Racovita" coords="408,450,509,464" href="../../explain/People/Racovita.html">
+                <area shape="rect" alt="Ghetarul Ponorului" coords="219,199,334,211" >
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Romania.gif" USEMAP="#RomaniaMap" class="map">
         </div>
 
     </div>

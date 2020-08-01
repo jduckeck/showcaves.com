@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Muzej Rudarstva i Metalurgije Bor', '/english/rs/mines/Bor.html', 'Bor', 'Europe', 'rs', 'Serbia', 'mines', 'Serbia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','El Tajo Canyon', '/english/es/gorges/ElTajo.html', 'ElTajo', 'Europe', 'es', 'Spain', 'gorges', 'Andalucia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES ('yes', 'Zelenci', '/english/si/springs/Zelenci.html', 'Zelenci', 'Europe', 'si', 'Slovenia', 'springs', 'Gorenjska');

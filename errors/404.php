@@ -119,7 +119,7 @@
             $redirURL = "/english/pl/index.html";
             break;
         case "/english/other/region/plMap.html":
-            $redirURL = "/english/pl/region/Map.html";
+            $redirURL = "/english/pl/region/index.html";
             break;
         case "/english/other/showcaves/AktunChen.html":
             $redirURL = "/english/mx/showcaves/AktunChen.html";
