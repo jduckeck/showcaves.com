@@ -111,3 +111,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Taor Spring', '/english/rs/springs/Taor.html', 'Taor', 'Europe', 'rs', 'Serbia', 'springs', '');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Speakeasy 518', '/english/usa/subterranea/Speakeasy518.html', 'Speakeasy518', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Gruta del Palacio', '/english/other/caves/Palacio.html', 'Palacio', 'SouthAmerica', 'uy', 'Uruguay', 'caves', 'uy', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Grutas de Salamanca', '/english/other/caves/Salamanca.html', 'Salamanca', 'SouthAmerica', 'uy', 'Uruguay', 'caves', 'uy', 'other');
