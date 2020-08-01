@@ -25,7 +25,7 @@
     <!-- end responsive -->
 
 
-    <title>Springs of Peru: Agua Sulfurosa</title>
+    <title>Springs of Peru: $CaveName$</title>
 </head>
 
 <body>
@@ -33,7 +33,14 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Agua Sulfurosa</h1>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../pe/springs/$FileName$.html">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../../pe/springs/$FileName$.html"><img alt="Spring" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+        VALUES('yes','$CaveName$', '/english/pe/springs/$FileName$.html', '$FileName$', 'SouthAmerica', 'pe', 'Peru', 'springs', '$Region$');
+        -->
+
+        <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
@@ -45,37 +52,27 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
-                    Parque Nacional Tingo Mar&iacute;a.
-                    6 km east of Tingo Mar&iacute;a town.
-                    Huanuco Department, 120 km north of Huanuco city.
-                    About 8 hours drive from Lima.
-                    In the Tingo Maria National Park
+                    &nbsp;
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
                 <td>
                     no restrictions.<br>
-                    [2008]
+                    [2014]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
                 <td>
                     free.<br>
-                    [2008]
+                    [2014]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
                 <td>
                     <a target="_top" href="../../explain/Karst/KarstSpring.html"><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karst Spring</a>
-                </td>
-            </tr>
-            <tr>
-                <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
-                <td>
-                    n/a.
                 </td>
             </tr>
             <tr>
@@ -105,7 +102,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    &nbsp;
+                    $CaveName$, Tel: +51-, Fax: +51-,
                 </td>
             </tr>
             <tr>
@@ -114,18 +111,19 @@
         </table>
 
 
+        <h2>History</h2>
+
+
         <br class="clear">
 
 
         <h2>Description</h2>
 
         <p>
-            This is a karst spring with the typical turquoise water caused by the high
-            amount of dissolved limestone.
-            It emerges from a underwater cave at the foot of a limestone cliff.
-            The surrounding area is a public picknick area with wooden benches and desks.
-            It is part of the Parque Nacional Tingo Mar&iacute;a.
         </p>
+
+
+        <!--  -->
 
 
         <br class="clear">
@@ -133,9 +131,8 @@
 
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Agua+Sulfurosa"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Agua Sulfurosa"</a></li>
-            <li><a target="_blank" href="../../../kmz/pe/Sulfurosa.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
-            <li><a target="_blank" href="http://www.ciudadtingomaria.com/turismo/sulfurosas.htm"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">AGUAS SULFUROSAS</a></li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/pe/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
 
@@ -146,8 +143,8 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Misc Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/pe.html">Per&uacute;</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Peru</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$</a></li>
             </ul>
         </div>
     </div>
