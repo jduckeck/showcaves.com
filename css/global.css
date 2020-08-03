@@ -118,17 +118,6 @@ table.language th {
     padding: 0.5rem;
 }
 
-
-.foreignText {
-    font-family: sans-serif;
-    color: #400000;
-    margin: 1.5em 1em 1em 1em;
-    padding: 0.5em;
-    background-color: #D6D6D6;
-    overflow:hidden;
-    clear: both;
-}
-
 .foreign {
     font-family: sans-serif;
     color: #400000;
