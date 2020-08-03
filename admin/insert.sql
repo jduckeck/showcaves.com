@@ -3,6 +3,10 @@ VALUES('yes','Hadži-Prodanova Pecina', '/english/rs/caves/HadziProdan.html', 'H
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Muntanya de Sal a Cordona', '/english/es/mines/Cardona.html', 'Cardona', 'Europe', 'es', 'Spain', 'mines', 'Cataluna');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tham Luang Nang Non', '/english/th/caves/LuangNangNon.html', 'LuangNangNon', 'Asia', 'th', 'Thailand', 'caves', 'ChiangRai');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tham Pha Nang Khoi', '/english/th/showcaves/PhaNangKhoi.html', 'PhaNangKhoi', 'Asia', 'th', 'Thailand', 'showcaves', 'Phrae');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Muzej Rudarstva i Metalurgije Bor', '/english/rs/mines/Bor.html', 'Bor', 'Europe', 'rs', 'Serbia', 'mines', 'Serbia');
 UPDATE sights SET chapter=NULL, region=NULL, continent='SouthAmerica' WHERE countrycode = 'pe';
 UPDATE sights SET filename = REPLACE(filename, '/other/', '/pe/') WHERE countrycode = 'pe';
