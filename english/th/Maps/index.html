@@ -32,9 +32,30 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/Asia.html"><img alt="Asia Map" src="../../../maps/Asia.gif" class="mapIconAsia"></a>
+            <figcaption class="center">Asia Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/Asia.html"><img alt="Asia Map" src="../../../maps/Asia.gif" class="mapIconAsia"></a>
+            <figcaption class="center">Asia Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Thailand</h1>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="ThailandMap">
+                <area shape="rect" alt="Laos" coords="267,44,319,65" href="../../la/Maps/Map.html">
+                <area shape="rect" alt="Vietnam" coords="406,63,492,84" href="../../vn/region/Map.html">
+                <area shape="rect" alt="Vietnam" coords="418,646,503,667" href="../../vn/region/Map.html">
+                <area shape="rect" alt="Cambodia" coords="367,460,472,479" href="../../other/region/kh.html">
+                <area shape="rect" alt="Malaysia" coords="128,873,216,897" href="../../my/Maps/PeninsularMalaysia.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/Thailand.png" USEMAP="#ThailandMap" border="1" width="510" height="900">
         </div>
 
     </div>
@@ -48,7 +69,7 @@
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
                 <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Province</a>
-                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+                <a data-ajax="false" href="index.html" data-role="button" class="ui-btn-active">Maps</a>
             </div>
         </div>
     </div>
