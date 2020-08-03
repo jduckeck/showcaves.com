@@ -7,6 +7,12 @@ VALUES('yes','Tham Luang Nang Non', '/english/th/caves/LuangNangNon.html', 'Luan
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Tham Pha Nang Khoi', '/english/th/showcaves/PhaNangKhoi.html', 'PhaNangKhoi', 'Asia', 'th', 'Thailand', 'showcaves', 'Phrae');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tham Pla', '/english/th/caves/Pla.html', 'Pla', 'Asia', 'th', 'Thailand', 'caves', 'ChiangRai');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tham Phra Nang Nai', '/english/th/showcaves/PhraNangNai.html', 'PhraNangNai', 'Asia', 'th', 'Thailand', 'showcaves', 'Krabi');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tham Khamin', '/english/th/showcaves/Khamin.html', 'Khamin', 'Asia', 'th', 'Thailand', 'showcaves', 'SuratThani');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Muzej Rudarstva i Metalurgije Bor', '/english/rs/mines/Bor.html', 'Bor', 'Europe', 'rs', 'Serbia', 'mines', 'Serbia');
 UPDATE sights SET chapter=NULL, region=NULL, continent='SouthAmerica' WHERE countrycode = 'pe';
 UPDATE sights SET filename = REPLACE(filename, '/other/', '/pe/') WHERE countrycode = 'pe';
