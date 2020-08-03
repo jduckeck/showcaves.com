@@ -90,6 +90,14 @@ ol.biglist li {
     margin: 1rem;
 }
 
+ul.literature {
+    margin: 2rem;
+}
+
+ul.literature li {
+    margin: 1rem;
+}
+
 ol.biglist ul li {
     margin: .5rem;
 }
