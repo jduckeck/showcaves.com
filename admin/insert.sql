@@ -18,6 +18,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Muzej Rudarstva i Metalurgije Bor', '/english/rs/mines/Bor.html', 'Bor', 'Europe', 'rs', 'Serbia', 'mines', 'Serbia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Basarbovo Cave Monastery', '/english/bg/subterranea/Basarbovo.html', 'Basarbovo', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Rousse');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Agios Spyridon', '/english/cy/subterranea/AgiosSpyridon.html', 'AgiosSpyridon', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Limassol');
 UPDATE sights SET chapter=NULL, region=NULL, continent='SouthAmerica' WHERE countrycode = 'pe';
 UPDATE sights SET filename = REPLACE(filename, '/other/', '/pe/') WHERE countrycode = 'pe';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
