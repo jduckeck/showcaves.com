@@ -92,7 +92,7 @@ VALUES('yes','Ashio Copper Mine', '/english/jp/mines/Ashio.html', 'Ashio', 'Asia
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Slap Savice', '/english/si/springs/Savice.html', 'Savice', 'Europe', 'si', 'Slovenia', 'springs', 'Gorenjska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
-VALUES('yes','Slap Kozjak', '/english/si/gorges/Kozjak.html', 'Kozjak', 'Europe', 'si', 'Slovenia', 'gorges', 'Gorenjska');
+VALUES('yes','Slap Kozjak', '/english/si/gorges/Kozjak.html', 'Kozjak', 'Europe', 'si', 'Slovenia', 'gorges', 'Primorska');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Štefanova Vinska Klet', '/english/si/subterranea/Stefanova.html', 'Stefanova', 'Europe', 'si', 'Slovenia', 'subterranea', 'Prekmurje');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
