@@ -3,10 +3,11 @@ email:
 (\S+)@(\S+)\.(\S+)
 E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../xemhid.php?p1=$1&p2=$2&p3=$3">
 
-
 multiline:
 ((.|\n)*)
 
+incomplete:
+VALUES\('yes','[^$]
 
 <figure class="$1">
 $2
@@ -17,3 +18,4 @@ $2
 $1
 <figcaption>$2</figcaption>
 </figure>
+
