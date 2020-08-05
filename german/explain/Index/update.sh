@@ -17,3 +17,4 @@ wget https://www.showcaves.com/german/explain/Index/KarstByCountry.php --output-
 wget https://www.showcaves.com/german/explain/Index/SpringsByCountry.php --output-document=SpringsByCountry.html
 wget https://www.showcaves.com/german/explain/Index/GorgesByCountry.php --output-document=GorgesByCountry.html
 wget https://www.showcaves.com/german/explain/Index/Statistics.php --output-document=Statistics.html
+

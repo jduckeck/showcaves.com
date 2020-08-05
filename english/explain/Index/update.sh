@@ -18,3 +18,4 @@ wget https://www.showcaves.com/english/explain/Index/SpringsByCountry.php --outp
 wget https://www.showcaves.com/english/explain/Index/GorgesByCountry.php --output-document=GorgesByCountry.html
 wget https://www.showcaves.com/english/explain/Index/Statistics.php --output-document=Statistics.html
 wget https://www.showcaves.com/english/explain/Index/sitemap.php --output-document=sitemap.xml
+
