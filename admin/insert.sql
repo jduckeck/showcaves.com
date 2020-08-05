@@ -1,6 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Eisenacher Drachenschlucht', '/english/de/gorges/Drachenschlucht.html', 'Drachenschlucht', 'Europe', 'de', 'Germany', 'gorges', 'ThueringerBecken');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Huanglong', '/english/cn/karst/Huanglong.html', 'Huanglong', 'Asia', 'cn', 'China', 'karst', 'Sichuan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Hadži-Prodanova Pecina', '/english/rs/caves/HadziProdan.html', 'HadziProdan', 'Europe', 'yu', 'Serbia', 'caves', null);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Muntanya de Sal a Cordona', '/english/es/mines/Cardona.html', 'Cardona', 'Europe', 'es', 'Spain', 'mines', 'Cataluna');
