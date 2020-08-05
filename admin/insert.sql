@@ -1,6 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Eisenacher Drachenschlucht', '/english/de/gorges/Drachenschlucht.html', 'Drachenschlucht', 'Europe', 'de', 'Germany', 'gorges', 'ThueringerBecken');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Huanglong', '/english/cn/karst/Huanglong.html', 'Huanglong', 'Asia', 'cn', 'China', 'karst', 'Sichuan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Hadži-Prodanova Pecina', '/english/rs/caves/HadziProdan.html', 'HadziProdan', 'Europe', 'yu', 'Serbia', 'caves', null);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Muntanya de Sal a Cordona', '/english/es/mines/Cardona.html', 'Cardona', 'Europe', 'es', 'Spain', 'mines', 'Cataluna');
@@ -22,6 +24,12 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Agios Spyridon', '/english/cy/subterranea/AgiosSpyridon.html', 'AgiosSpyridon', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Limassol');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Molinetto della Croda', '/english/it/karst/Croda.html', 'Croda', 'Europe', 'it', 'Italy', 'karst', 'Veneto');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Saint Barbara Cave Church', '/english/cy/subterranea/AgiaBarbara.html', 'AgiaBarbara', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Limassol');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Dhank Caves', '/english/in/subterranea/Dhank.html', 'Dhank', 'Asia', 'in', 'India', 'subterranea', 'Gujarat');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Yana Rocks', '/english/in/karst/Yana.html', 'Yana', 'Asia', 'in', 'India', 'karst', 'Karnataka');
 UPDATE sights SET chapter=NULL, region=NULL, continent='SouthAmerica' WHERE countrycode = 'pe';
 UPDATE sights SET filename = REPLACE(filename, '/other/', '/pe/') WHERE countrycode = 'pe';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
