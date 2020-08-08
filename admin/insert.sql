@@ -14,3 +14,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Lice Ashâb-ı Kehf Mağarası', '/english/tr/subterranea/Lice.html', 'Lice', 'Europe', 'tr', 'Turkey', 'subterranea', 'SoutheastAnatolia');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Zeche Consolidation', '/english/de/mines/Consol.html', 'Consol', 'Europe', 'de', 'Germany', 'mines', 'Ruhrgebiet');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Landgrafenschlucht', '/english/de/gorges/Landgrafenschlucht.html', 'Landgrafenschlucht', 'Europe', 'de', 'Germany', 'gorges', 'ThueringerWald', 50.954139, 10.309430);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ludwigsklamm', '/english/de/gorges/Ludwigsklamm.html', 'Ludwigsklamm', 'Europe', 'de', 'Germany', 'gorges', 'ThueringerWald', 50.961866, 10.324635);
