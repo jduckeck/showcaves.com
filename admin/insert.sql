@@ -1,2 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
 VALUES('yes','Knaben Gruvemuseum', '/english/no/mines/Knaben.html', 'Knaben', 'Europe', 'no', 'Norway', 'mines', 'VestAgder');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Ashab-ı Kehf Mağarası', '/english/tr/caves/AshabIKehf.html', 'AshabIKehf', 'Europe', 'tr', 'Turkey', 'caves', 'SoutheastAnatolia');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Tuyuq Khojam Mazar', '/english/cn/subterranea/TuyuqKhojamMazar.html', 'TuyuqKhojamMazar', 'Asia', 'cn', 'China', 'subterranea', 'Xinjiang');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Masjid al-Ruqood al-Sebaa', '/english/other/subterranea/Sebaa.html', 'Sebaa', 'Africa', 'tn', 'Tunisia', 'subterranea', 'tn', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Ashabi Kahf', '/english/other/caves/AshabiKahf.html', 'AshabiKahf', 'Asia', 'az', 'Azerbaijan', 'caves', 'az', 'other');
