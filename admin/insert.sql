@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ashabi Kahf', '/english/other/caves/AshabiKahf.html', 'AshabiKahf', 'Asia', 'az', 'Azerbaijan', 'caves', 'az', 'other');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Eshab-ı Kehf Kulliye', '/english/tr/subterranea/Kulliye.html', 'Kulliye', 'Europe', 'tr', 'Turkey', 'subterranea', 'CentralAnatolia', 38.248544, 36.855168);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes','Lice Ashâb-ı Kehf Mağarası', '/english/tr/subterranea/Lice.html', 'Lice', 'Europe', 'tr', 'Turkey', 'subterranea', 'SoutheastAnatolia');
