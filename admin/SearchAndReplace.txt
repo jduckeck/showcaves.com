@@ -7,7 +7,7 @@ multiline:
 ((.|\n)*)
 
 incomplete:
-VALUES\('yes','[^$]
+        VALUES\('yes','[^$]
 
 <figure class="$1">
 $2

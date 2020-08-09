@@ -18,3 +18,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Landgrafenschlucht', '/english/de/gorges/Landgrafenschlucht.html', 'Landgrafenschlucht', 'Europe', 'de', 'Germany', 'gorges', 'ThueringerWald', 50.954139, 10.309430);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ludwigsklamm', '/english/de/gorges/Ludwigsklamm.html', 'Ludwigsklamm', 'Europe', 'de', 'Germany', 'gorges', 'ThueringerWald', 50.961866, 10.324635);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','\'Ashabi Alkahf', '/english/other/subterranea/AshabeKahf.html', 'AshabeKahf', 'MiddleEast', 'jo', 'Jordan', 'subterranea', 'jo', 'other');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter)
+VALUES('yes','Gruta Colón', '/english/other/showcaves/Colon.html', 'Colon', 'SouthAmerica', 'uy', 'Uruguay', 'showcaves', 'uy', 'other');
