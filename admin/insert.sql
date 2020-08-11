@@ -23,4 +23,4 @@ VALUES('yes','\'Ashabi Alkahf', '/english/other/subterranea/AshabeKahf.html', 'A
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Gruta Colón', '/english/other/showcaves/Colon.html', 'Colon', 'SouthAmerica', 'uy', 'Uruguay', 'showcaves', 'uy', 'other', -34.285727, -55.269262);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Unterirdisches Zeitz', '/english/de/subterranea/Zeitz.html', 'Zeitz', 'Europe', 'de', 'Germany', 'subterranea', 'Norddeutschland', 51.049676, 12.134723);
+VALUES('yes','Unterirdisches Zeitz', '/english/de/subterranea/Zeitz.html', 'Zeitz', 'Europe', 'de', 'Germany', 'subterranea', 'Norddeutschland', 51.049697, 12.134760);
