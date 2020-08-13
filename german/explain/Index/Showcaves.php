@@ -71,7 +71,7 @@ printAllByCategory($pdo, 'showcaves');
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
                 <li><a data-ajax="false" target="_top" href="index.html">Alphabethisches Register</a></li>
-                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Showcaves.html"><img alt="English" src="../../../graphics/flags/gb-small.png" class="language"></a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Showcaves.html"><img alt="English" src="../../../graphics/language/gb.png" class="language"></a></li>
             </ul>
         </div>
     </div>
