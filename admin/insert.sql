@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grutas de la Catedral', '/english/mx/showcaves/Catedral.html', 'Catedral', 'MiddleAmerica', 'mx', 'México', 'showcaves', 'SanLuisPotosi', 21.937488, -100.242911);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Topolandia', '/english/other/subterranea/Topolandia.html', 'Topolandia', 'MiddleAmerica', 'cr', 'Costa Rica', 'subterranea', 'cr', 'other', 9.260245, -83.561463);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cascade des Tufs', '/english/fr/karst/CascadeTufs.html', 'CascadeTufs', 'Europe', 'fr', 'France', 'karst', 'Jura', 46.871667, 5.805278);
