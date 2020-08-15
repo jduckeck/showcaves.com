@@ -1,4 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lúčansky Vodopád', '/english/sk/karst/Lucansky.html', 'Lucansky', 'Europe', 'sk', 'Slovakia', 'karst', 'Zilina', 49.129754, 19.403198);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rokle Malý Kyseľ', '/english/sk/gorges/MalyKysel.html', 'MalyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.935988, 20.397732);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rokle Veľký Kyseľ', '/english/sk/gorges/VeľkyKysel.html', 'VeľkyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.933674,  20.402741);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Sigmund Thun Klamm', '/english/at/gorges/SigmundThunKlamm.html', 'SigmundThunKlamm', 'Europe', 'at', 'Austria', 'gorges', 'Salzburg', 47.259256, 12.740277);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Knaben Gruvemuseum', '/english/no/mines/Knaben.html', 'Knaben', 'Europe', 'no', 'Norway', 'mines', 'VestAgder', 58.662677, 7.074775);
