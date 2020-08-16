@@ -5,6 +5,12 @@ VALUES('yes','Rokle Malý Kyseľ', '/english/sk/gorges/MalyKysel.html', 'MalyKys
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Rokle Veľký Kyseľ', '/english/sk/gorges/VeľkyKysel.html', 'VeľkyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.933674,  20.402741);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rokle Suchá Belá', '/english/sk/gorges/SuchaBela.html', 'SuchaBela', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.962527, 20.384916);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rokle Piecky', '/english/sk/gorges/Piecky.html', 'Piecky', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.942692, 20.347543);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Veľký Sokol', '/english/sk/gorges/VelkySokol.html', 'VelkySokol', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.942692, 20.347543);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Sigmund Thun Klamm', '/english/at/gorges/SigmundThunKlamm.html', 'SigmundThunKlamm', 'Europe', 'at', 'Austria', 'gorges', 'Salzburg', 47.259256, 12.740277);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Knaben Gruvemuseum', '/english/no/mines/Knaben.html', 'Knaben', 'Europe', 'no', 'Norway', 'mines', 'VestAgder', 58.662677, 7.074775);
