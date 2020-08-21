@@ -3,6 +3,8 @@ VALUES('yes','Expozícia uhoľného baníctva na Slovenku', '/english/sk/mines/H
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de los Guacharos', '/english/pe/caves/Guacharos.html', 'Guacharos', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Cajamarca', -6.238574, -78.712306);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Las Médulas', '/english/es/mines/LasMedulas.html', 'LasMedulas', 'Europe', 'es', 'Spain', 'mines', 'Leon', 42.460669, -6.759338);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Lúčansky Vodopád', '/english/sk/karst/Lucansky.html', 'Lucansky', 'Europe', 'sk', 'Slovakia', 'karst', 'Zilina', 49.129754, 19.403198);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Rokle Malý Kyseľ', '/english/sk/gorges/MalyKysel.html', 'MalyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.935988, 20.397732);
