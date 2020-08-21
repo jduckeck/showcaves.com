@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Topolandia', '/english/other/subterranea/Topolandia.html', 'Topolandia', 'MiddleAmerica', 'cr', 'Costa Rica', 'subterranea', 'cr', 'other', 9.260245, -83.561463);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cascade des Tufs', '/english/fr/karst/CascadeTufs.html', 'CascadeTufs', 'Europe', 'fr', 'France', 'karst', 'Jura', 46.871667, 5.805278);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Štola Starý Martin', '/english/cz/mines/StaryMartin.html', 'StaryMartin', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky');
