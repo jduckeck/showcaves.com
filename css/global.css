@@ -167,6 +167,13 @@ img.language {
     vertical-align: center;
 }
 
+.mapIcon {
+    width: 100px;
+    border: 1px;
+    padding: 0;
+    vertical-align: center;
+}
+
 .mapIconWorld {
     width: 100px;
     height: 62px;
