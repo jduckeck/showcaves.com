@@ -11,6 +11,8 @@ VALUES('yes','Cueva Palacio del Rey', '/english/pe/caves/PalacioDelRey.html', 'P
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de la Piedra Brillante', '/english/pe/caves/PiedraBrillante.html', 'PiedraBrillante', 'SouthAmerica', 'pe', 'Perú', 'caves', 'SanMartin', -5.899721, -77.360298);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Almendras', '/english/pe/caves/Almendras.html', 'Almendras', 'SouthAmerica', 'pe', 'Perú', 'caves', 'SanMartin');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Las Médulas', '/english/es/mines/LasMedulas.html', 'LasMedulas', 'Europe', 'es', 'Spain', 'mines', 'Leon', 42.460669, -6.759338);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Lúčansky Vodopád', '/english/sk/karst/Lucansky.html', 'Lucansky', 'Europe', 'sk', 'Slovakia', 'karst', 'Zilina', 49.129754, 19.403198);
