@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Múzeum Vín Prešov', '/english/sk/subterranea/Vin.html', 'Vin', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Presov');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Banské múzeum štôlňa Andrej', '/english/sk/mines/Andrej.html', 'Andrej', 'Europe', 'sk', 'Slovakia', 'mines', 'BanskaBystrica', 48.711086, 18.907033);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Múzeum baníctva a hutníctva Maša', '/english/sk/mines/Masa.html', 'Masa', 'Europe', 'sk', 'Slovakia', 'mines', 'Zilina', 49.034065, 19.768912);
