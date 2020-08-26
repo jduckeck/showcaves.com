@@ -4497,7 +4497,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `name`, `filename`, `chapter`, `sort
 (4582, 'yes', 'Todi Sotterranea', '/english/it/subterranea/Todi.html', NULL, 'Todi', 'Europe', 'Italy', 'it', 'Umbria', 'subterranea', NULL, NULL),
 (4583, 'yes', 'Ron Coleman Mining', '/english/usa/mines/RonColeman.html', NULL, 'RonColeman', 'NorthAmerica', 'United States of America', 'us', 'ar', 'mines', NULL, NULL),
 (4584, 'yes', 'Spouting Horn', '/english/usa/caves/SpoutingHorn.html', NULL, 'SpoutingHo', 'NorthAmerica', 'United States of America', 'us', 'hi', 'caves', NULL, NULL),
-(4585, 'yes', 'El Caminito del Rey', '/english/es/gorges/Rey.html', NULL, 'Rey', 'Europe', 'Spain', 'es', 'Andalucia', 'gorges', NULL, NULL),
+(4585, 'yes', 'Caminito del Rey', '/english/es/gorges/Rey.html', NULL, 'Rey', 'Europe', 'Spain', 'es', 'Andalucia', 'gorges', NULL, NULL),
 (4586, 'yes', 'Desfiladero de los Gaitanes', '/english/es/gorges/Gaitanes.html', NULL, 'Gaitanes', 'Europe', 'Spain', 'es', 'Andalucia', 'gorges', NULL, NULL),
 (4587, 'yes', 'Board Camp Crystal Mine', '/english/usa/mines/BoardCamp.html', NULL, 'BoardCamp', 'NorthAmerica', 'United States of America', 'us', 'ar', 'mines', NULL, NULL),
 (4588, 'yes', 'Castle Dome Mine Museum', '/english/usa/mines/CastleDome.html', NULL, 'CastleDome', 'NorthAmerica', 'United States of America', 'us', 'az', 'mines', NULL, NULL),
