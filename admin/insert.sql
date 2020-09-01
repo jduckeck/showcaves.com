@@ -1,6 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Flascharův důl', '/english/cz/mines/Flaschar.html', 'Flaschar', 'Europe', 'cz', 'Czech Republic', 'mines', 'Moravskoslezsky', 49.646321, 17.821568);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Banícka Expozícia Pezinok', '/english/sk/mines/Pezinok.html', 'Pezinok', 'Europe', 'sk', 'Slovakia', 'mines', 'Bratislava', 48.287231, 17.270198);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mestská a naftárska expozícia Gbely', '/english/sk/mines/Gbely.html', 'Gbely', 'Europe', 'sk', 'Slovakia', 'mines', 'Trnava', 48.719220, 17.115301);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Miniexpozíca Ťažby a Spracovania Bridlice v Marianke', '/english/sk/mines/Marianka.html', 'Marianka', 'Europe', 'sk', 'Slovakia', 'mines', 'Bratislava', 48.247640, 17.067486);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Múzeum Vín Prešov', '/english/sk/subterranea/Vin.html', 'Vin', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Presov', 48.997300, 21.239852);
