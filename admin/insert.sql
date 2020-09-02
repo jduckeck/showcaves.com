@@ -71,6 +71,6 @@ VALUES('yes','Topolandia', '/english/other/subterranea/Topolandia.html', 'Topola
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cascade des Tufs', '/english/fr/karst/CascadeTufs.html', 'CascadeTufs', 'Europe', 'fr', 'France', 'karst', 'Jura', 46.871667, 5.805278);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Štola Starý Martin', '/english/cz/mines/StaryMartin.html', 'StaryMartin', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky');
+VALUES('yes','Štola Starý Martin', '/english/cz/mines/StaryMartin.html', 'StaryMartin', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky', 50.697289, 13.846714);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kláštorská Roklina', '/english/sk/gorges/Klastorska.html', 'Klastorska', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.950350, 20.422052);
