@@ -5,7 +5,15 @@ VALUES('yes','Banícka Expozícia Pezinok', '/english/sk/mines/Pezinok.html', 'P
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mestská a naftárska expozícia Gbely', '/english/sk/mines/Gbely.html', 'Gbely', 'Europe', 'sk', 'Slovakia', 'mines', 'Trnava', 48.719220, 17.115301);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Pohronské múzeum Nová Baňa', '/english/sk/mines/NovaBana.html', 'NovaBana', 'Europe', 'sk', 'Slovakia', 'mines', 'BanskaBystrica', 48.424028, 18.640294);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mineralogické a Banícke Múzeum Bojnice', '/english/sk/mines/Bojnice.html', 'Bojnice', 'Europe', 'sk', 'Slovakia', 'mines', 'Trencín', 48.777778, 18.586389);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Miniexpozíca Ťažby a Spracovania Bridlice v Marianke', '/english/sk/mines/Marianka.html', 'Marianka', 'Europe', 'sk', 'Slovakia', 'mines', 'Bratislava', 48.247640, 17.067486);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Podzemie pod vežami', '/english/sk/subterranea/LiptovskyJan.html', 'LiptovskyJan', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Zilina', 49.044811, 19.677130);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Medvedia štôlňa', '/english/sk/mines/Medvedia.html', 'Medvedia', 'Europe', 'sk', 'Slovakia', 'mines', 'Zilina', 49.147562, 19.704361);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Múzeum Vín Prešov', '/english/sk/subterranea/Vin.html', 'Vin', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Presov', 48.997300, 21.239852);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
