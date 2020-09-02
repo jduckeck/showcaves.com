@@ -9,7 +9,7 @@ VALUES('yes','Huánglóng dòng', '/english/cn/showcaves/Huanglong2.html', 'Huan
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Expozícia uhoľného baníctva na Slovenku', '/english/sk/mines/Handlova.html', 'Handlova', 'Europe', 'sk', 'Slovakia', 'mines', 'Trencín', 48.728118, 18.756529);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Cueva de los Guacharos', '/english/pe/caves/Guacharos.html', 'Guacharos', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Cajamarca', -6.238574, -78.712306);
+VALUES('yes','Cueva de los Guacharos', '/english/pe/caves/Guacharos.html', 'Guacharos', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Cajamarca', -6.23010, -78.74843);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cavernas de Laurel', '/english/pe/caves/Laurel.html', 'Laurel', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Amazonas', -5.91527, -78.28234);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -72,3 +72,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cascade des Tufs', '/english/fr/karst/CascadeTufs.html', 'CascadeTufs', 'Europe', 'fr', 'France', 'karst', 'Jura', 46.871667, 5.805278);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Štola Starý Martin', '/english/cz/mines/StaryMartin.html', 'StaryMartin', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kláštorská Roklina', '/english/sk/gorges/Klastorska.html', 'Klastorska', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.950350, 20.422052);
