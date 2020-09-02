@@ -27,7 +27,7 @@ VALUES('yes','Lúčansky Vodopád', '/english/sk/karst/Lucansky.html', 'Lucansky
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Rokle Malý Kyseľ', '/english/sk/gorges/MalyKysel.html', 'MalyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.935988, 20.397732);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Rokle Veľký Kyseľ', '/english/sk/gorges/VeľkyKysel.html', 'VeľkyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.933674,  20.402741);
+VALUES('yes','Rokle Veľký Kyseľ', '/english/sk/gorges/VelkyKysel.html', 'VeľkyKysel', 'Europe', 'sk', 'Slovakia', 'gorges', 'Kosice', 48.933674,  20.402741);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Golden Cathedral', '/english/usa/caves/Golden.html', 'Golden', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut', 37.593064, -111.218356);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
