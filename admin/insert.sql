@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Šarkania diera', '/english/sk/caves/SarkaniaDiera.html', 'SarkaniaDiera', 'Europe', 'sk', 'Slovakia', 'caves', 'Zilina', 49.181340, 18.606196);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Jánošíkove diery', '/english/sk/gorges/Janosik.html', 'Janosik', 'Europe', 'sk', 'Slovakia', 'gorges', 'Zilina', 49.256095, 19.067569);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Múzeum medi v Španej Doline', '/english/sk/mines/Spania.html', 'Spania', 'Europe', 'sk', 'Slovakia', 'mines', 'BanskaBystrica', 48.807506, 19.132094);
