@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Jánošíkove diery', '/english/sk/gorges/Janosik.html', 'Janosik', 'Europe', 'sk', 'Slovakia', 'gorges', 'Zilina', 49.256095, 19.067569);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Múzeum medi v Španej Doline', '/english/sk/mines/Spania.html', 'Spania', 'Europe', 'sk', 'Slovakia', 'mines', 'BanskaBystrica', 48.807506, 19.132094);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Expozícia História Baníctva na Spiši', '/english/sk/mines/Spis.html', 'Spis', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.944336, 20.557056);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Banícka a geologická expozícia v Nižnej Slanej', '/english/sk/mines/NiznaSlana.html', 'NiznaSlana', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.724722, 20.406389);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Banský Skanzen v Hnilčíku', '/english/sk/mines/Hnilcik.html', 'Hnilcik', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.85627, 20.57175);
