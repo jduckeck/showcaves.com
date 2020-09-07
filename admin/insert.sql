@@ -14,3 +14,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Banícka a geologická expozícia v Nižnej Slanej', '/english/sk/mines/NiznaSlana.html', 'NiznaSlana', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.724722, 20.406389);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Banský Skanzen v Hnilčíku', '/english/sk/mines/Hnilcik.html', 'Hnilcik', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.85627, 20.57175);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Múzeum Zemplínske Hámre', '/english/sk/mines/ZemplinskeHamre.html', 'ZemplinskeHamre', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.950160, 22.154681);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Slovenské Technické Múzeum', '/english/sk/mines/Kosice.html', 'Kosice', 'Europe', 'sk', 'Slovakia', 'mines', 'Kosice', 48.724116, 21.255903);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Solivar v Prešove', '/english/sk/mines/Solivar.html', 'Solivar', 'Europe', 'sk', 'Slovakia', 'mines', 'Presov', 48.978611, 21.275000);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Šarišská galéria Prešov', '/english/sk/subterranea/Saris.html', 'Saris', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Presov', 48.996389, 21.240833);
