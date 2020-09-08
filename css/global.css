@@ -52,6 +52,10 @@ p {
     page-break-before: auto;
 }
 
+.right {
+    text-align: right;
+}
+
 .clear {
     clear: both
 }
