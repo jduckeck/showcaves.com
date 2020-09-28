@@ -1,6 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Vodojemy Brno', '/english/cz/subterranea/VodojemyBrno.html', 'VodojemyBrno', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.196214, 16.590554);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Labyrinth pod Zelným trhem', '/english/cz/subterranea/Labyrinth.html', 'Labyrinth', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.192828, 16.609635);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Důl Hlubina', '/english/cz/mines/Hlubina.html', 'Hlubina', 'Europe', 'cz', 'Czech Republic', 'mines', 'Moravskoslezsky', 49.82130,18.27824);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bunker B-S 8 Hřbitov', '/english/sk/subterranea/BS8.html', 'BS8', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Bratislava', 48.107950, 17.081344);
