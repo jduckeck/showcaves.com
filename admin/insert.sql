@@ -23,6 +23,10 @@ VALUES('yes','Slovenské Technické Múzeum', '/english/sk/mines/Kosice.html', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Solivar v Prešove', '/english/sk/mines/Solivar.html', 'Solivar', 'Europe', 'sk', 'Slovakia', 'mines', 'Presov', 48.978611, 21.275000);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Alexander Caverns', '/english/usa/caves/Alexander.html', 'Alexander', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'pa', 40.696587, -77.559789);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Šarišská galéria Prešov', '/english/sk/subterranea/Saris.html', 'Saris', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Presov', 48.996389, 21.240833);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Slovenské Opálové Bane', '/english/sk/mines/Opal.html', 'Opal', 'Europe', 'sk', 'Slovakia', 'mines', 'Presov', 48.904276, 21.461079);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tamborine Mountain Glow Worm Caves', '/english/au/subterranea/Tamborine.html', 'Tamborine', 'Australia', 'au', 'Australia', 'subterranea', 'qld', -27.937209, 153.189392);
