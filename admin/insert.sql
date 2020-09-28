@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Důl Hlubina', '/english/cz/mines/Hlubina.html', 'Hlubina', 'Europe', 'cz', 'Czech Republic', 'mines', 'Moravskoslezsky', 49.82130,18.27824);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bunker B-S 8 Hřbitov', '/english/sk/subterranea/BS8.html', 'BS8', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Bratislava', 48.107950, 17.081344);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Vyvieračka Hlbokô', '/english/sk/springs/Hlboko.html', 'Hlboko', 'Europe', 'sk', 'Slovakia', 'springs', 'Zilina', 48.9977615, 19.675795);
@@ -28,5 +30,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Šarišská galéria Prešov', '/english/sk/subterranea/Saris.html', 'Saris', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Presov', 48.996389, 21.240833);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Slovenské Opálové Bane', '/english/sk/mines/Opal.html', 'Opal', 'Europe', 'sk', 'Slovakia', 'mines', 'Presov', 48.904276, 21.461079);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Důl Michal', '/english/cz/mines/Michal.html', 'Michal', 'Europe', 'cz', 'Czech Republic', 'mines', 'Moravskoslezsky', 49.842129, 18.344750);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tamborine Mountain Glow Worm Caves', '/english/au/subterranea/Tamborine.html', 'Tamborine', 'Australia', 'au', 'Australia', 'subterranea', 'qld', -27.937209, 153.189392);
