@@ -452,12 +452,17 @@ figure.center {
     width: 600px;
 }
 
+figcaption {
+    text-align: left;
+}
+
 figure.panorama {
     clear: both;
     float: none;
     margin: 1em auto;
     width: 100%;
 }
+
 figure.panorama img {
     max-width: 100%;
 }
