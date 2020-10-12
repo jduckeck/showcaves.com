@@ -1,31 +1,19 @@
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Museo della Civiltà Contadina', '/english/it/subterranea/Contadino.html', 'Contadino', 'Europe', 'it',
-        'Italy', 'subterranea', 'Napoli', 40.892785, 14.290419);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Natural Bridge Springbrook', '/english/au/karst/Springbrook.html', 'Springbrook', 'Australia', 'au',
-        'Australia', 'karst', 'qld', -28.230545, 153.242360);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Vodojemy Brno', '/english/cz/subterranea/VodojemyBrno.html', 'VodojemyBrno', 'Europe', 'cz',
-        'Czech Republic', 'subterranea', 'Jihomoravsky', 49.196214, 16.590554);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Labyrinth pod Zelným trhem', '/english/cz/subterranea/Labyrinth.html', 'Labyrinth', 'Europe', 'cz',
-        'Czech Republic', 'subterranea', 'Jihomoravsky', 49.192828, 16.609635);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Mincmistrovský sklep', '/english/cz/subterranea/Mincmistr.html', 'Mincmistr', 'Europe', 'cz',
-        'Czech Republic', 'subterranea', 'Jihomoravsky', 49.194141, 16.606298);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Kryt 10 - Z', '/english/cz/subterranea/Kryt10-Z.html', 'Kryt10-Z', 'Europe', 'cz', 'Czech Republic',
-        'subterranea', 'Jihomoravsky', 49.193985, 16.604402);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude,
-                    Longitude)
-VALUES ('yes', 'Chrám kamene', '/english/cz/subterranea/ChramKamene.html', 'ChramKamene', 'Europe', 'cz',
-        'Czech Republic', 'subterranea', 'Jihomoravsky', 49.194633, 16.599183);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Huelgoat', '/english/fr/caves/Huelgoat.html', 'Huelgoat', 'Europe', 'fr', 'France', 'caves', 'Bretagne', 48.367433, -3.744573);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo della Civiltà Contadina', '/english/it/subterranea/Contadino.html', 'Contadino', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 40.892785, 14.290419);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Natural Bridge Springbrook', '/english/au/karst/Springbrook.html', 'Springbrook', 'Australia', 'au', 'Australia', 'karst', 'qld', -28.230545, 153.242360);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vodojemy Brno', '/english/cz/subterranea/VodojemyBrno.html', 'VodojemyBrno', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.196214, 16.590554);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Labyrinth pod Zelným trhem', '/english/cz/subterranea/Labyrinth.html', 'Labyrinth', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.192828, 16.609635);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mincmistrovský sklep', '/english/cz/subterranea/Mincmistr.html', 'Mincmistr', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.194141, 16.606298);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kryt 10 - Z', '/english/cz/subterranea/Kryt10-Z.html', 'Kryt10-Z', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.193985, 16.604402);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chrám kamene', '/english/cz/subterranea/ChramKamene.html', 'ChramKamene', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.194633, 16.599183);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kryt Denis', '/english/cz/subterranea/KrytDenis.html', 'KrytDenis', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.190040, 16.608495);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
