@@ -1,4 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Saratlı Kırkgöz Yeraltı Şehri', '/english/tr/subterranea/SaratliKirkgoz.html', 'SaratliKirkgoz', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.445023, 34.234785);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Aziz Mercurius Yeraltı Şehri ve Kilisesi', '/english/tr/subterranea/StMercurius.html', 'StMercurius', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.451211, 34.231508);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Huelgoat', '/english/fr/caves/Huelgoat.html', 'Huelgoat', 'Europe', 'fr', 'France', 'caves', 'Bretagne', 48.367433, -3.744573);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo della Civiltà Contadina', '/english/it/subterranea/Contadino.html', 'Contadino', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 40.892785, 14.290419);
