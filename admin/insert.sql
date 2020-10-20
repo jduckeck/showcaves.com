@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Setenil de las Bodegas', '/english/es/subterranea/Setenil.html', 'Setenil', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 36.862284, -5.178956);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','St. Lampertus Fundgrube', '/english/de/mines/StLampertus.html', 'StLampertus', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.805472, 12.726041);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Saratlı Kırkgöz Yeraltı Şehri', '/english/tr/subterranea/SaratliKirkgoz.html', 'SaratliKirkgoz', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.445023, 34.234785);
