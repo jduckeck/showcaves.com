@@ -62,3 +62,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tamborine Mountain Glow Worm Caves', '/english/au/subterranea/Tamborine.html', 'Tamborine', 'Australia', 'au', 'Australia', 'subterranea', 'qld', -27.937209, 153.189392);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Vicus Caprarius', '/english/it/subterranea/VicusCaprarius.html', 'VicusCaprarius', 'Europe', 'it', 'Italy', 'subterranea', 'Roma', 41.9004, 12.4841);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Prison de Kara', '/english/other/subterranea/PrisonKara.html', 'PrisonKara', 'Africa', 'ma', 'Morocco', 'subterranea', 'ma', 'other', 33.890952, -5.564991);
