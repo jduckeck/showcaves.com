@@ -5,6 +5,14 @@ VALUES('yes','Blair Street Underground Vaults', '/english/gb/subterranea/BlairSt
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gaziemir Yer Altı Şehri', '/english/tr/subterranea/Gaziemir.html', 'Gaziemir', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.352466, 34.388674);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rovi pod starim Kranjem', '/english/si/subterranea/Kranj.html', 'Kranj', 'Europe', 'si', 'Slovenia', 'subterranea', 'Gorenjska', 46.241384, 14.354425);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Krompirjeva Jama', '/english/si/caves/Krompirjeva.html', 'Krompirjeva', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.836406, 13.670487);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lojzova Jama', '/english/si/caves/Lojze.html', 'Lojze', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.851600, 13.657900);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jama Pečinka', '/english/si/caves/Pecina.html', 'Pecina', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.862537, 13.617826);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','St. Lampertus Fundgrube', '/english/de/mines/StLampertus.html', 'StLampertus', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.805472, 12.726041);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Saratlı Kırkgöz Yeraltı Şehri', '/english/tr/subterranea/SaratliKirkgoz.html', 'SaratliKirkgoz', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.445023, 34.234785);
