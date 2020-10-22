@@ -16,6 +16,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Buffalo Bayou Park Cistern', '/english/usa/subterranea/BuffaloBayou.html', 'BuffaloBayou', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'tx', 29.7624, -95.3764);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cisternerne', '/english/other/subterranea/Cisternerne.html', 'Cisternerne', 'Europe', 'dk', 'Denmark', 'subterranea', 'dk', 'other', 55.669462, 12.524940);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cricova Galeriile Subterane', '/english/other/subterranea/Cricova.html', 'Cricova', 'Europe', 'md', 'Moldova', 'subterranea', 'md', 'other', 47.1382, 28.8554);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','St. Lampertus Fundgrube', '/english/de/mines/StLampertus.html', 'StLampertus', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.805472, 12.726041);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
