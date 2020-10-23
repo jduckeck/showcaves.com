@@ -26,6 +26,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Amir Chakhmaq Complex', '/english/ir/subterranea/AmirChakhmaq.html', 'AmirChakhmaq', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Yazd', 31.893494, 54.369749);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Nakilbent Sarnıcı', '/english/tr/subterranea/Nakilbent.html', 'Nakilbent', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.0041, 28.9751);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Portuguese Cistern', '/english/other/subterranea/Portuguese.html', 'Portuguese', 'Africa', 'ma', 'Morocco', 'subterranea', 'ma', 'other', 33.2566, -8.5024);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','St. Lampertus Fundgrube', '/english/de/mines/StLampertus.html', 'StLampertus', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.805472, 12.726041);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
