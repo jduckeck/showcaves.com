@@ -25,13 +25,13 @@ VALUES('yes','Cisternerne', '/english/other/subterranea/Cisternerne.html', 'Cist
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cricova Galeriile Subterane', '/english/other/subterranea/Cricova.html', 'Cricova', 'Europe', 'md', 'Moldova', 'subterranea', 'md', 'other', 47.1382, 28.8554);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Şerefiye Sarnıcı', '/english/tr/subterranea/Serefiye.html', 'Serefiye', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.00725, 28.9726);
+VALUES('yes','Şerefiye Sarnıçı', '/english/tr/subterranea/Serefiye.html', 'Serefiye', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.00725, 28.9726);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Binbirdirek Sarnıcı', '/english/tr/subterranea/Binbirdirek.html', 'Binbirdirek', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.00757475139001, 28.97432953119278);
+VALUES('yes','Binbirdirek Sarnıçı', '/english/tr/subterranea/Binbirdirek.html', 'Binbirdirek', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.00757475139001, 28.97432953119278);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Amir Chakhmaq Complex', '/english/ir/subterranea/AmirChakhmaq.html', 'AmirChakhmaq', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Yazd', 31.893494, 54.369749);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Nakilbent Sarnıcı', '/english/tr/subterranea/Nakilbent.html', 'Nakilbent', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.0041, 28.9751);
+VALUES('yes','Nakilbent Sarnıçı', '/english/tr/subterranea/Nakilbent.html', 'Nakilbent', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.0041, 28.9751);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Portuguese Cistern', '/english/other/subterranea/Portuguese.html', 'Portuguese', 'Africa', 'ma', 'Morocco', 'subterranea', 'ma', 'other', 33.2566, -8.5024);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
