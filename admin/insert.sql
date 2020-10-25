@@ -1,4 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Aihole', '/english/in/subterranea/Aihole.html', 'Aihole', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 16.018889, 75.881944);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Huligemmana Kolla', '/english/in/subterranea/HuligemmanaKolla.html', 'HuligemmanaKolla', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 15.972426, 75.775622);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Setenil de las Bodegas', '/english/es/subterranea/Setenil.html', 'Setenil', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 36.862284, -5.178956);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Blair Street Underground Vaults', '/english/gb/subterranea/BlairStreet.html', 'BlairStreet', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Edinburgh', 55.949444, -3.187222);
