@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Centre for International Light Art', '/english/de/subterranea/Unna.html', 'Unna', 'Europe', 'de', 'Germany', 'subterranea', 'Ruhrgebiet', 51.534562, 7.685786);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cisterne Romane Fermo', '/english/it/subterranea/Fermo.html', 'Fermo', 'Europe', 'it', 'Italy', 'subterranea', 'Marche', 43.161180, 13.719197);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Centro de Interpretación de la minería en Extremadura', '/english/es/mines/Extremadura.html', 'Extremadura', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 39.449594, -6.393754);
