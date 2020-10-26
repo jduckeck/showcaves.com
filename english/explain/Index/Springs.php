@@ -40,7 +40,7 @@
 
 
         <h1 class="center">All Springs</h1>
-        <h2 class="center"><? print $count ?> Springs are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><? print $count ?> springs are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
 
         <br class="clear">
 
