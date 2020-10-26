@@ -9,6 +9,8 @@ VALUES('yes','Gadara', '/english/other/subterranea/Gadara.html', 'Gadara', 'Midd
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Shesh Badgir Ab Anbar', '/english/ir/subterranea/SheshBadgir.html', 'SheshBadgir', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Yazd', 31.887453, 54.367653);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','House on Fire', '/english/usa/subterranea/HouseOnFire.html', 'HouseOnFire', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ut', 37.5006, -109.6662);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Aihole', '/english/in/subterranea/Aihole.html', 'Aihole', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 16.018889, 75.881944);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Huligemmana Kolla', '/english/in/subterranea/HuligemmanaKolla.html', 'HuligemmanaKolla', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 15.972426, 75.775622);
