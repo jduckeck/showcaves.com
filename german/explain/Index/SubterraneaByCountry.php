@@ -40,7 +40,7 @@
 
 
         <h1 class="center">Alle künstlichen Hohlräume nach Ländern gruppiert</h1>
-        <h2 class="center"><? print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h2 class="center"><? print $count ?> künstliche Hohlräume werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br class="clear">
 

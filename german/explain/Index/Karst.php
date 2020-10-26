@@ -31,7 +31,7 @@
     ?>
 
 
-    <title>Alphabethisches Register: All Karst Features</title>
+    <title>Alphabethisches Register: Alle Karsterscheinungen</title>
 </head>
 
 <body>
@@ -39,8 +39,8 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">All Karst Features</h1>
-        <h2 class="center"><? print $count ?> Karst Features werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h1 class="center">Alle Karsterscheinungen</h1>
+        <h2 class="center"><? print $count ?> Karsterscheinungen werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br class="clear">
 
