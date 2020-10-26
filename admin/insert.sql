@@ -4,6 +4,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Centro de Interpretación de la minería en Extremadura', '/english/es/mines/Extremadura.html', 'Extremadura', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 39.449594, -6.393754);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mina Costanaza Logrosán', '/english/es/mines/Costanaza.html', 'Costanaza', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 39.335419, -5.484636);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Gadara', '/english/other/subterranea/Gadara.html', 'Gadara', 'MiddleEast', 'jo', 'Jordan', 'subterranea', 'jo', 'other', 32.654252, 35.679548);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Aihole', '/english/in/subterranea/Aihole.html', 'Aihole', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 16.018889, 75.881944);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
