@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas de la Villa Requena', '/english/es/subterranea/Requena.html', 'Requena', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 39.485701, -1.101110);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Dupont Underground', '/english/usa/subterranea/Dupont.html', 'Dupont', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'dc', 38.910450, -77.043591);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Centre for International Light Art', '/english/de/subterranea/Unna.html', 'Unna', 'Europe', 'de', 'Germany', 'subterranea', 'Ruhrgebiet', 51.534562, 7.685786);
