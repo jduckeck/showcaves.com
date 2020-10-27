@@ -3,6 +3,8 @@ VALUES('yes','Cuevas de la Villa Requena', '/english/es/subterranea/Requena.html
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tonkararin', '/english/jp/subterranea/Tonkararin.html', 'Tonkararin', 'Asia', 'jp', 'Japan', 'subterranea', 'Kumamoto', 32.968237, 130.603508);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','La Crypte Archéologique de Nice', '/english/fr/subterranea/Nice.html', 'Nice', 'Europe', 'fr', 'France', 'subterranea', 'PACA', 43.700495, 7.278650);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Dupont Underground', '/english/usa/subterranea/Dupont.html', 'Dupont', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'dc', 38.910450, -77.043591);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Centre for International Light Art', '/english/de/subterranea/Unna.html', 'Unna', 'Europe', 'de', 'Germany', 'subterranea', 'Ruhrgebiet', 51.534562, 7.685786);
