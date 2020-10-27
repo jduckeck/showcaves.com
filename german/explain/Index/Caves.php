@@ -40,7 +40,7 @@
 
 
         <h1 class="center">Alle unausgebauten Höhlen</h1>
-        <h2 class="center"><? print $count ?> unausgebauten Höhlen werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h2 class="center"><? print $count ?> unausgebaute Höhlen werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br class="clear">
 

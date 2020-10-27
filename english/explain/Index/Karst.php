@@ -40,7 +40,7 @@
 
 
         <h1 class="center">All Karst Features</h1>
-        <h2 class="center"><? print $count ?> Karst Features are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><? print $count ?> karst features are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
 
         <br class="clear">
 

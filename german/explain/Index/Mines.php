@@ -31,7 +31,7 @@
     ?>
 
 
-    <title>Alphabethisches Register: All Mines</title>
+    <title>Alphabethisches Register: Alle Schaubergwerke</title>
 </head>
 
 <body>
@@ -39,8 +39,8 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">All Mines</h1>
-        <h2 class="center"><? print $count ?> Mines werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h1 class="center">Alle Schaubergwerke</h1>
+        <h2 class="center"><? print $count ?> Schaubergwerke werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br class="clear">
 

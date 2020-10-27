@@ -1,4 +1,66 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas de la Villa Requena', '/english/es/subterranea/Requena.html', 'Requena', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 39.485701, -1.101110);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tonkararin', '/english/jp/subterranea/Tonkararin.html', 'Tonkararin', 'Asia', 'jp', 'Japan', 'subterranea', 'Kumamoto', 32.968237, 130.603508);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','La Crypte Archéologique de Nice', '/english/fr/subterranea/Nice.html', 'Nice', 'Europe', 'fr', 'France', 'subterranea', 'PACA', 43.700495, 7.278650);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Dupont Underground', '/english/usa/subterranea/Dupont.html', 'Dupont', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'dc', 38.910450, -77.043591);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Centre for International Light Art', '/english/de/subterranea/Unna.html', 'Unna', 'Europe', 'de', 'Germany', 'subterranea', 'Ruhrgebiet', 51.534562, 7.685786);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cisterne Romane Fermo', '/english/it/subterranea/Fermo.html', 'Fermo', 'Europe', 'it', 'Italy', 'subterranea', 'Marche', 43.161180, 13.719197);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Centro de Interpretación de la minería en Extremadura', '/english/es/mines/Extremadura.html', 'Extremadura', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 39.449594, -6.393754);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mina Costanaza Logrosán', '/english/es/mines/Costanaza.html', 'Costanaza', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 39.335419, -5.484636);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Gadara', '/english/other/subterranea/Gadara.html', 'Gadara', 'MiddleEast', 'jo', 'Jordan', 'subterranea', 'jo', 'other', 32.654252, 35.679548);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shesh Badgir Ab Anbar', '/english/ir/subterranea/SheshBadgir.html', 'SheshBadgir', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Yazd', 31.887453, 54.367653);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','House on Fire', '/english/usa/subterranea/HouseOnFire.html', 'HouseOnFire', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ut', 37.5006, -109.6662);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','El Búnker del Capricho', '/english/es/subterranea/Capricho.html', 'Capricho', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.454424, -3.600427);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Aihole', '/english/in/subterranea/Aihole.html', 'Aihole', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 16.018889, 75.881944);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Huligemmana Kolla', '/english/in/subterranea/HuligemmanaKolla.html', 'HuligemmanaKolla', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 15.972426, 75.775622);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Setenil de las Bodegas', '/english/es/subterranea/Setenil.html', 'Setenil', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 36.862284, -5.178956);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Blair Street Underground Vaults', '/english/gb/subterranea/BlairStreet.html', 'BlairStreet', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Edinburgh', 55.949444, -3.187222);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gaziemir Yer Altı Şehri', '/english/tr/subterranea/Gaziemir.html', 'Gaziemir', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.352466, 34.388674);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rovi pod starim Kranjem', '/english/si/subterranea/Kranj.html', 'Kranj', 'Europe', 'si', 'Slovenia', 'subterranea', 'Gorenjska', 46.241384, 14.354425);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Krompirjeva Jama', '/english/si/caves/Krompirjeva.html', 'Krompirjeva', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.836406, 13.670487);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lojzova Jama', '/english/si/caves/Lojze.html', 'Lojze', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.851600, 13.657900);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jama Pečinka', '/english/si/caves/Pecina.html', 'Pecina', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.862537, 13.617826);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Buffalo Bayou Park Cistern', '/english/usa/subterranea/BuffaloBayou.html', 'BuffaloBayou', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'tx', 29.7624, -95.3764);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cisternerne', '/english/other/subterranea/Cisternerne.html', 'Cisternerne', 'Europe', 'dk', 'Denmark', 'subterranea', 'dk', 'other', 55.669462, 12.524940);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cricova Galeriile Subterane', '/english/other/subterranea/Cricova.html', 'Cricova', 'Europe', 'md', 'Moldova', 'subterranea', 'md', 'other', 47.1382, 28.8554);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Şerefiye Sarnıçı', '/english/tr/subterranea/Serefiye.html', 'Serefiye', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.00725, 28.9726);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Binbirdirek Sarnıçı', '/english/tr/subterranea/Binbirdirek.html', 'Binbirdirek', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.00757475139001, 28.97432953119278);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Amir Chakhmaq Complex', '/english/ir/subterranea/AmirChakhmaq.html', 'AmirChakhmaq', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Yazd', 31.893494, 54.369749);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Nakilbent Sarnıçı', '/english/tr/subterranea/Nakilbent.html', 'Nakilbent', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.0041, 28.9751);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Portuguese Cistern', '/english/other/subterranea/Portuguese.html', 'Portuguese', 'Africa', 'ma', 'Morocco', 'subterranea', 'ma', 'other', 33.2566, -8.5024);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Aljibe Andalusí', '/english/es/subterranea/Aljibe.html', 'Aljibe', 'Europe', 'es', 'Spain', 'subterranea', 'Extremadura', 39.472716, -6.370277);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','St. Lampertus Fundgrube', '/english/de/mines/StLampertus.html', 'StLampertus', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.805472, 12.726041);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Saratlı Kırkgöz Yeraltı Şehri', '/english/tr/subterranea/SaratliKirkgoz.html', 'SaratliKirkgoz', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.445023, 34.234785);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Aziz Mercurius Yeraltı Şehri ve Kilisesi', '/english/tr/subterranea/StMercurius.html', 'StMercurius', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.451211, 34.231508);

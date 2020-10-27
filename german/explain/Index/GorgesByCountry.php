@@ -39,8 +39,8 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">All Schluchten nach Ländern gruppiert</h1>
-        <h2 class="center"><? print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h1 class="center">Alle Schluchten nach Ländern gruppiert</h1>
+        <h2 class="center"><? print $count ?> Schluchten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
 
         <br class="clear">
 
