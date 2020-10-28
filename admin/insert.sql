@@ -4,3 +4,12 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Euston Lost Tunnels', '/english/gb/subterranea/Euston.html', 'Euston', 'Europe', 'gb', 'Great Britain', 'subterranea', 'London', 51.525335, -0.135580);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Underground City of Nushabad', '/english/ir/subterranea/Nushabad.html', 'Nushabad', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Isfahan', 34.080000, 51.437500);
+
+UPDATE sights
+SET
+    countrycode='ru',
+    country='Russia',
+    continent='Asia',
+    filename = REPLACE(filename, '/ua/', '/ru/')
+WHERE region = 'Crimea';
+
