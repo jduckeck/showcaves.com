@@ -4,6 +4,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Euston Lost Tunnels', '/english/gb/subterranea/Euston.html', 'Euston', 'Europe', 'gb', 'Great Britain', 'subterranea', 'London', 51.525335, -0.135580);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Underground City of Nushabad', '/english/ir/subterranea/Nushabad.html', 'Nushabad', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'Isfahan', 34.080000, 51.437500);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Hilehvar Buried Village', '/english/ir/subterranea/Hilehvar.html', 'Hilehvar', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'EastAzerbaijan', 37.810239, 46.229544);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kandovan', '/english/ir/subterranea/Kandovan.html', 'Kandovan', 'MiddleEast', 'ir', 'Iran', 'subterranea', 'EastAzerbaijan', 37.795169, 46.248046);
 
 
 UPDATE sights
