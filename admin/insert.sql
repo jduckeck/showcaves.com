@@ -18,3 +18,7 @@ SET
     filename = REPLACE(filename, '/ua/', '/ru/')
 WHERE region = 'Crimea';
 
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tsar\'s Mound', '/english/ru/subterranea/TsarsMound.html', 'TsarsMound', 'Asia', 'ru', 'Russia', 'subterranea', 'Crimea', 45.3739, 36.526);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Demeter\'s Crypt', '/english/ru/subterranea/Demeter.html', 'Demeter', 'Asia', 'ru', 'Russia', 'subterranea', 'Crimea', 45.351064, 36.473381);
