@@ -394,6 +394,19 @@ table.withBorder {
     margin: 1em auto;
 }
 
+table.dl {
+    border: 0.5em;
+    border-collapse: collapse;
+    font-size: 100%;
+    background-color: transparent;
+}
+
+table.dl td {
+    text-align: justify;
+    vertical-align: top;
+    padding: 0.2em;
+}
+
 table.withBorder th {
     border: 1px solid black;
     border-collapse: collapse;
