@@ -551,7 +551,13 @@ TABLE.centerImg {
     background-color: transparent;
 }
 
-
+hr {
+    width: 50%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    background: #000000;
+}
 @media print {
 
     .newPage {
