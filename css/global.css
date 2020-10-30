@@ -133,7 +133,7 @@ table.language th {
 .foreign {
     font-family: sans-serif;
     color: #400000;
-    margin: 1.5em 1em 1em 1em;
+    margin: 0.5em;
     padding: 0.5em;
     background-color: #D6D6D6;
     overflow:hidden;
@@ -426,6 +426,10 @@ table.right {
     float: right;
 }
 
+table.tdLeft {
+    text-align: left;
+}
+
 figure {
     display: table;
     padding: 0;
@@ -536,6 +540,10 @@ TABLE.centerImg {
 
 .italic {
     font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .mySiteName {
