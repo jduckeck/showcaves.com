@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Palombaro Lungo', '/english/it/subterranea/PalombaroLungo.html', 'PalombaroLungo', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.666871, 16.606484);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Reservatório da Patriarcal', '/english/pt/subterranea/Patriarcal.html', 'Patriarcal', 'Europe', 'pt', 'Portugal', 'subterranea', 'Lisboa', 38.716173, -9.148729);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museo Faggiano', '/english/it/subterranea/Faggiano.html', 'Faggiano', 'Europe', 'it', 'Italy', 'subterranea', 'Puglia', 40.350117, 18.172360);
