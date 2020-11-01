@@ -200,7 +200,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cross-hairs">
+	<StyleMap id="cross-hairs">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cross-hairs</styleUrl>
