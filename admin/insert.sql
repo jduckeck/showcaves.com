@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Eski-Kermen', '/english/ru/subterranea/EskiKermen.html', 'EskiKermen', 'Asia', 'ru', 'Russia', 'subterranea', 'Crimea', 44.608668, 33.740215);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Atlantida', '/english/ua/caves/Atlantida.html', 'Atlantida', 'Europe', 'ua', 'Ukraine', 'caves', 'Khmelnytskyi', 48.59925, 26.345111);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas Walichu', '/english/ar/showcaves/Walichu.html', 'Walichu', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'SantaCruz', -50.294672, -72.202293);
