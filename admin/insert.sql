@@ -21,4 +21,8 @@ VALUES('yes','Eski-Kermen', '/english/ru/subterranea/EskiKermen.html', 'EskiKerm
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Atlantida', '/english/ua/caves/Atlantida.html', 'Atlantida', 'Europe', 'ua', 'Ukraine', 'caves', 'Khmelnytskyi', 48.59925, 26.345111);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Cuevas Walichu', '/english/ar/showcaves/Walichu.html', 'Walichu', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'SantaCruz', -50.294672, -72.202293);
+VALUES('yes','Skalen Manastir Shashkanite', '/english/bg/subterranea/Shashkanite.html', 'Shashkunite', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Varna', 43.1921, 27.4545);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Batteri Landsort', '/english/se/subterranea/Landsort.html', 'Landsort', 'Europe', 'se', 'Sweden', 'subterranea', 'Soedermanland', 58.764903, 17.863644);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Puente del Diablo', '/english/ar/caves/PuenteDiablo.html', 'PuenteDiablo', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'Salta', -24.767006, -66.187403);
