@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Batteri Landsort', '/english/se/subterranea/Landsort.html', 'Landsort', 'Europe', 'se', 'Sweden', 'subterranea', 'Soedermanland', 58.764903, 17.863644);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Puente del Diablo', '/english/ar/caves/PuenteDiablo.html', 'PuenteDiablo', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'Salta', -24.767006, -66.187403);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas de Waira', '/english/ar/caves/Waira.html', 'Waira', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'Jujuy', -23.565402, -65.411028);
