@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ice Age Glacial Exhibit', '/english/usa/subterranea/IceAge.html', 'IceAge', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny', 42.4665, -76.5359);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Inca Cueva', '/english/ar/showcaves/IncaCueva.html', 'IncaCueva', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Jujuy', -23.002001, -65.461978);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Las grutas de Ongamira', '/english/ar/showcaves/Ongamira.html', 'Ongamira', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Cordoba', -30.774584, -64.406051);
