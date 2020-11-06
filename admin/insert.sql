@@ -28,3 +28,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Puente del Diablo', '/english/ar/caves/PuenteDiablo.html', 'PuenteDiablo', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'Salta', -24.767006, -66.187403);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cuevas de Waira', '/english/ar/caves/Waira.html', 'Waira', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'Jujuy', -23.565402, -65.411028);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cavernas El Sauce', '/english/ar/caves/ElSauce.html', 'ElSauce', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'Cordoba', -31.080316, -64.546164);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ice Age Glacial Exhibit', '/english/usa/subterranea/IceAge.html', 'IceAge', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny', 42.4665, -76.5359);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Inca Cueva', '/english/ar/showcaves/IncaCueva.html', 'IncaCueva', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Jujuy', -23.002001, -65.461978);
