@@ -38,3 +38,4 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Las grutas de Ongamira', '/english/ar/showcaves/Ongamira.html', 'Ongamira', 'SouthAmerica', 'ar', 'Argentina', 'showcaves', 'Cordoba', -30.774584, -64.406051);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Finnich Glen', '/english/gb/gorges/Finnich.html', 'Finnich', 'Europe', 'gb', 'Great Britain', 'gorges', 'Stirlingshire', 56.031566, -4.417717);
+UPDATE sights SET category='showcaves',filename = REPLACE(filename, '/caves/', '/showcaves/') WHERE sortby = 'LasManos';
