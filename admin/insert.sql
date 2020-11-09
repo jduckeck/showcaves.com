@@ -39,3 +39,7 @@ VALUES('yes','Las grutas de Ongamira', '/english/ar/showcaves/Ongamira.html', 'O
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Finnich Glen', '/english/gb/gorges/Finnich.html', 'Finnich', 'Europe', 'gb', 'Great Britain', 'gorges', 'Stirlingshire', 56.031566, -4.417717);
 UPDATE sights SET category='showcaves',filename = REPLACE(filename, '/caves/', '/showcaves/') WHERE sortby = 'LasManos';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cavernas del Viejo Volcan Parque Cerro Leones', '/english/ar/caves/CerroLeones.html', 'CerroLeones', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'RioNegro', -41.076902, -71.144970);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cisternas Romanas de Monturque', '/english/es/subterranea/Monturque.html', 'Monturque', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.473693, -4.579230);
