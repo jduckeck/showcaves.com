@@ -45,3 +45,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cisternas Romanas de Monturque', '/english/es/subterranea/Monturque.html', 'Monturque', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.473693, -4.579230);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Benshoof Cistern Museum', '/english/il/subterranea/Benshoof.html', 'Benshoof', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.787651, 35.229030);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Emmaville Mining Museum', '/english/au/mines/Emmaville.html', 'Emmaville', 'Oceania', 'au', 'Australia', 'mines', 'nsw', -29.445127, 151.598021);
