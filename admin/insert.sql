@@ -43,3 +43,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cavernas del Viejo Volcan Parque Cerro Leones', '/english/ar/caves/CerroLeones.html', 'CerroLeones', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'RioNegro', -41.076902, -71.144970);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cisternas Romanas de Monturque', '/english/es/subterranea/Monturque.html', 'Monturque', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.473693, -4.579230);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Benshoof Cistern Museum', '/english/il/subterranea/Benshoof.html', 'Benshoof', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.787651, 35.229030);
