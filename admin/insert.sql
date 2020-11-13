@@ -47,3 +47,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Benshoof Cistern Museum', '/english/il/subterranea/Benshoof.html', 'Benshoof', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.787651, 35.229030);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Emmaville Mining Museum', '/english/au/mines/Emmaville.html', 'Emmaville', 'Oceania', 'au', 'Australia', 'mines', 'nsw', -29.445127, 151.598021);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Son Bhandar Caves', '/english/in/subterranea/SonBhandar.html', 'SonBhandar', 'Asia', 'in', 'India', 'subterranea', 'Bihar', 25.003830, 85.417062);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Nahal Me’arot Caves', '/english/il/showcaves/NahalMearot.html', 'NahalMearot', 'MiddleEast', 'il', 'Israel', 'showcaves', 'Haifa', 32.671025, 34.965552);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cueva del Indio', '/english/car/showcaves/Indio.html', 'Indio', 'Caribbean Islands', 'pr', 'Puerto Rico', 'showcaves', 'pr', 'car', 18.492687, -66.641573);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bufador de Peñiscola', '/english/es/karst/Peniscola.html', 'Peniscola', 'Europe', 'es', 'Spain', 'karst', 'Valenciana', 40.3570, 0.4073);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cuevas las Cabachuelas', '/english/car/caves/Cabachuelas.html', 'Cabachuelas', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.349119, -66.450097);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cueva del Lucero', '/english/car/caves/Lucero.html', 'Lucero', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.080278, -66.478296);
