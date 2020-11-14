@@ -59,3 +59,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cuevas las Cabachuelas', '/english/car/caves/Cabachuelas.html', 'Cabachuelas', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.349119, -66.450097);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cueva del Lucero', '/english/car/caves/Lucero.html', 'Lucero', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.080278, -66.478296);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Padah-Lin Caves', '/english/mm/showcaves/Padalin.html', 'Padalin', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan', 21.132300, 96.340400);
