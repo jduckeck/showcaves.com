@@ -43,3 +43,25 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cavernas del Viejo Volcan Parque Cerro Leones', '/english/ar/caves/CerroLeones.html', 'CerroLeones', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'RioNegro', -41.076902, -71.144970);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cisternas Romanas de Monturque', '/english/es/subterranea/Monturque.html', 'Monturque', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.473693, -4.579230);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Benshoof Cistern Museum', '/english/il/subterranea/Benshoof.html', 'Benshoof', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.787651, 35.229030);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Emmaville Mining Museum', '/english/au/mines/Emmaville.html', 'Emmaville', 'Oceania', 'au', 'Australia', 'mines', 'nsw', -29.445127, 151.598021);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Son Bhandar Caves', '/english/in/subterranea/SonBhandar.html', 'SonBhandar', 'Asia', 'in', 'India', 'subterranea', 'Bihar', 25.003830, 85.417062);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Nahal Me’arot Caves', '/english/il/showcaves/NahalMearot.html', 'NahalMearot', 'MiddleEast', 'il', 'Israel', 'showcaves', 'Haifa', 32.671025, 34.965552);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cueva del Indio', '/english/car/showcaves/Indio.html', 'Indio', 'Caribbean Islands', 'pr', 'Puerto Rico', 'showcaves', 'pr', 'car', 18.492687, -66.641573);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bufador de Peñiscola', '/english/es/karst/Peniscola.html', 'Peniscola', 'Europe', 'es', 'Spain', 'karst', 'Valenciana', 40.3570, 0.4073);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cuevas las Cabachuelas', '/english/car/caves/Cabachuelas.html', 'Cabachuelas', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.349119, -66.450097);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cueva del Lucero', '/english/car/caves/Lucero.html', 'Lucero', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.080278, -66.478296);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Padah-Lin Caves', '/english/mm/showcaves/Padalin.html', 'Padalin', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan', 21.132300, 96.340400);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mendenhall Ice Caves', '/english/usa/caves/Mendenhall.html', 'Mendenhall', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ak', 58.4172, -134.5457);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Byron Glacier Ice Caves', '/english/usa/caves/ByronGlacier.html', 'ByronGlacier', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ak', 60.773398, -148.843852);
