@@ -61,3 +61,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva del Lucero', '/english/car/caves/Lucero.html', 'Lucero', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.080278, -66.478296);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Padah-Lin Caves', '/english/mm/showcaves/Padalin.html', 'Padalin', 'Asia', 'mm', 'Myanmar', 'showcaves', 'Shan', 21.132300, 96.340400);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mendenhall Ice Caves', '/english/usa/caves/Mendenhall.html', 'Mendenhall', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ak', 58.4172, -134.5457);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Byron Glacier Ice Caves', '/english/usa/caves/ByronGlacier.html', 'ByronGlacier', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ak', 60.773398, -148.843852);
