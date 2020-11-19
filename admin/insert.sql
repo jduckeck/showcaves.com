@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bruce Peninsula Grotto', '/english/ca/caves/BrucePeninsula.html', 'BrucePeninsula', 'NorthAmerica', 'ca', 'Canada', 'caves', 'Ontario', 45.2452, -81.5243);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Caverna Janelão', '/english/br/showcaves/Janelao.html', 'Janelao', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'MinasGerais', -15.111328, -44.243053);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Purgatory Chasm', '/english/usa/gorges/Purgatory.html', 'Purgatory', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ma', 42.129040, -71.714988);
