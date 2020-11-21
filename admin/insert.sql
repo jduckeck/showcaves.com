@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gruta São Mateus', '/english/br/showcaves/SaoMateus.html', 'SaoMateus', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'MatoGrosso', -21.134327, -56.454231);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grutas de São Miguel', '/english/br/showcaves/SaoMiguel.html', 'SaoMiguel', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'MatoGrosso', -21.107342, -56.581070);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta do Bacaetava', '/english/br/showcaves/Bacaetava.html', 'Bacaetava', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Parana', -25.231831, -49.206713);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Buraco das Araras', '/english/br/karst/BuracoAraras.html', 'BuracoAraras', 'SouthAmerica', 'br', 'Brazil', 'karst', 'MatoGrosso', -21.491828, -56.403233);
