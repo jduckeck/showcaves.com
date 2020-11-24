@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Caverna do Maroaga', '/english/br/caves/Maroaga.html', 'Maroaga', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Amazonas', -2.0506543767569463, -59.97069807912053);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Caverna Aroe Jari', '/english/br/caves/AroeJari.html', 'AroeJari', 'SouthAmerica', 'br', 'Brazil', 'caves', 'MatoGrosso', -15.60004901706398, -55.477026602830406);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta da Glória', '/english/br/caves/Gloria.html', 'Gloria', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo', -23.283943, -47.187875);
