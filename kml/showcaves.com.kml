@@ -2,17 +2,17 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>showcaves.com.kml</name>
-	<StyleMap id="msn_karst">
+	<StyleMap id="msn_mine41">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_karst</styleUrl>
+			<styleUrl>#sn_mine13</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_karst0</styleUrl>
+			<styleUrl>#sh_mine43</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_mine">
+	<Style id="sh_mine21">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -20,17 +20,75 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_mine">
+	<StyleMap id="msn_mine24">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine27</styleUrl>
+			<styleUrl>#sn_mine15</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine3</styleUrl>
+			<styleUrl>#sh_mine30</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine">
+	<Style id="sh_mine6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed15">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed16">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_subterranea2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine6">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -38,52 +96,34 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="failed">
+	<StyleMap id="msn_mine36">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed6</styleUrl>
+			<styleUrl>#sn_mine34</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed7</styleUrl>
+			<styleUrl>#sh_mine10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_cave">
+	<Style id="sn_mine21">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sh_subterranea">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_subterranea0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
+	<StyleMap id="msn_subterranea3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_showcave">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -96,15 +136,60 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_mine0">
+	<Style id="sh_showcave0">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed1">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_mine1">
+	<Style id="sn_showcave3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_mine11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine14">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -112,7 +197,155 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cave0">
+	<Style id="sh_subterranea1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_showcave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="failed0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine40">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_karst">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed14">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine29">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine31">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine43">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cave7">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -131,17 +364,29 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_cave2">
+	<Style id="sh_subterranea6">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_gorge0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave7">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_mine0">
 		<IconStyle>
@@ -151,27 +396,31 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_mine0">
+	<Style id="sh_showcave5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine37">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine33</styleUrl>
+			<styleUrl>#sn_mine20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine15</styleUrl>
+			<styleUrl>#sh_mine6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cave">
+	<Style id="sh_cave10">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.4</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_mine2">
 		<IconStyle>
@@ -181,27 +430,163 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_cave0">
+	<Style id="failed7">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine33">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine38">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine29">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine39</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_subterranea2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed11">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_gorge">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave1">
+		<IconStyle>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_showcave0">
+	<Style id="sh_mine5">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine17">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_showcave4">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sh_mine3">
+	<Style id="sn_mine30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine16">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -217,32 +602,63 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_showcave_25">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave_25</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave_25</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_subterranea0">
+	<Style id="sn_cave10">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_cave1">
+	<StyleMap id="karst">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_subterranea0">
 		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine27">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -256,13 +672,6 @@
 			<styleUrl>#sh_cave6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cave2">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<Style id="sh_showcave1">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -270,844 +679,6 @@
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_spring">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="cross-hairs">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cross-hairs</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cross-hairs</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_subterranea">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_subterranea6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_subterranea1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine5">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_showcave">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_gorge">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_gorge</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_gorge</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine32</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine6">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_subterranea1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine7">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine42</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine26</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_cross-hairs">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_showcave_25">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>files/showcave_25.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_showcave_250">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>files/showcave_25.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine26</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine33</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_showcave2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_gorge">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_subterranea2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine8">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine9">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="showcave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_subterranea1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_mine4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine38</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="gorge">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_gorge0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_gorge0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine6">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine7">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine10">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave3">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_karst">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_mine5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine29</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine14</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_showcave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine8">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine17</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine19</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine9">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>1.1</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sh_mine11">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine35</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine9</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine12">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_showcave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_showcave0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine13">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_subterranea0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_subterranea2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_subterranea6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine14">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine15">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine16">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine39</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine23</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine11">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine36</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="spring">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_spring</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_spring</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine17">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine25</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine29</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine12">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine25</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine18">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>1.1</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_cross-hairs">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="failed0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_cave4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_showcave_250">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave_250</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave_250</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_showcave1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine13">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_showcave1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_mine14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine19</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine14">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine15">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave14</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine16">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_subterranea3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine19">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine15">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine17</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_cave5">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine17">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed1">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_cave5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave6">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<StyleMap id="msn_mine16">
 		<Pair>
@@ -1119,104 +690,7 @@
 			<styleUrl>#sh_mine27</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cave6">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine20">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_showcave2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_cave7">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed2">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="failed3">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_mine17">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine35</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="subterranea">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_subterranea</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_subterranea4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine18">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine22</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed4">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine21">
+	<Style id="sh_mine32">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1234,33 +708,7 @@
 			<styleUrl>#sh_mine5</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_karst">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine28</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine22">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine18">
+	<Style id="sn_mine41">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1268,16 +716,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_mine21">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine31</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="sn_mine7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<StyleMap id="failed5">
 		<Pair>
 			<key>normal</key>
@@ -1288,11 +734,11 @@
 			<styleUrl>#failed2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine19">
+	<Style id="sh_cave">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -1300,17 +746,54 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_cave5">
+	<Style id="sn_cave3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_subterranea">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave1</styleUrl>
+			<styleUrl>#sn_subterranea6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave1</styleUrl>
+			<styleUrl>#sh_subterranea1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine20">
+	<StyleMap id="msn_mine5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine35</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine22">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1318,19 +801,47 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_mine22">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine38</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine23">
+	<Style id="sn_cave6">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave15">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine1">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine28">
+		<IconStyle>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
@@ -1346,25 +857,91 @@
 			<styleUrl>#sh_mine24</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine21">
+	<Style id="sh_mine11">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave6">
+	<StyleMap id="msn_showcave_250">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave_250</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave_250</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave13">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave8</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave15</styleUrl>
+			<styleUrl>#sh_cave9</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_cave8">
+	<StyleMap id="failed10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="subterranea">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine42">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cave12">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1372,31 +949,383 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_showcave3">
+	<Style id="sn_showcave0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_showcave1</styleUrl>
+			<styleUrl>#sn_cave11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave3</styleUrl>
+			<styleUrl>#sh_cave0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_subterranea2">
+	<Style id="sn_showcave_25">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>C:/Users/Jochen/AppData/LocalLow/Google/GoogleEarth/showcave_25.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine23">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine34">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine39</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cave2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_showcave2">
+	<StyleMap id="msn_cave7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave90</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_karst0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine43</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_spring">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine15">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine11">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine26">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine26">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine41">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_gorge">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine38">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="gorge">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine8">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_showcave00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed6">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine37">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine43">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine42</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine29">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave2">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
@@ -1406,6 +1335,60 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="spring">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_spring</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_spring</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine19">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_subterranea0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea6</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_subterranea1">
 		<Pair>
 			<key>normal</key>
@@ -1416,11 +1399,29 @@
 			<styleUrl>#sh_subterranea3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_subterranea3">
+	<Style id="sh_mine39">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cave3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -1428,21 +1429,376 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_mine22">
+	<Style id="sn_cave0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_mine24">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave15">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
+	</Style>
+	<Style id="sn_showcave4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave_250">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>C:/Users/Jochen/AppData/LocalLow/Google/GoogleEarth/showcave_25_0.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine35">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed9">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave11">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave5">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave2">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine25">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_showcave000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine38</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_gorge">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_showcave3">
+	<Style id="sh_mine9">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine27">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_subterranea4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_showcave4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_mine42">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine34</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine36">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine42">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine18">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_cave5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine26">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine34">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_showcave_25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave_25</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave_25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine16">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave2">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
@@ -1462,17 +1818,101 @@
 			<styleUrl>#sh_mine13</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_cave7">
+	<StyleMap id="msn_mine">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave6</styleUrl>
+			<styleUrl>#sn_mine27</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave9</styleUrl>
+			<styleUrl>#sh_mine3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine23">
+	<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_mine13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave_25">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>C:/Users/Jochen/AppData/LocalLow/Google/GoogleEarth/showcave_25.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_karst0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_karst">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine17">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1480,16 +1920,32 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave8">
+	<StyleMap id="msn_cave6">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave14</styleUrl>
+			<styleUrl>#sn_cave80</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave8</styleUrl>
+			<styleUrl>#sh_cave15</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_cave8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine33">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_gorge0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1497,56 +1953,148 @@
 				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine24">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine24">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine25">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_subterranea2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_subterranea5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_subterranea2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed6">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_mine24">
+	<Style id="sn_cave12">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_showcave3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_mine14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_gorge1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine18">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_gorge1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave80">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine19">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
@@ -1562,18 +2110,185 @@
 			<styleUrl>#sh_mine37</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_showcave3">
+	<StyleMap id="msn_mine34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine41</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_subterranea1">
 		<IconStyle>
 			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_showcave30">
+		<IconStyle>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
+	<Style id="sh_cave30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_gorge0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cave14">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine37</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine23">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine31">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed13">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_mine25">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1582,21 +2297,11 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="failed7">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_subterranea4">
+	<Style id="sn_showcave7">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -1604,33 +2309,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="failed8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine26">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave7">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine26">
+	<Style id="sn_mine36">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1638,38 +2317,45 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_mine26">
+	<StyleMap id="msn_mine35">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine12</styleUrl>
+			<styleUrl>#sn_mine16</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine</styleUrl>
+			<styleUrl>#sh_mine40</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl">
+	<StyleMap id="msn_mine39">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine24">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.2</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="msn_mine27">
+	<StyleMap id="msn_mine7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine1</styleUrl>
+			<styleUrl>#sn_mine7</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine42</styleUrl>
+			<styleUrl>#sh_mine11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_gorge">
+	<Style id="sh_gorge2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1681,140 +2367,81 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_mine27">
+	<Style id="sn_mine40">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.2</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_showcave4">
+	<Style id="sn_karst0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_karst00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_subterranea5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_subterranea4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_subterranea5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_cave8">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine27">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_subterranea6">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_showcave_25">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>files/showcave_25.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_subterranea3">
+	<StyleMap id="showcave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_subterranea3</styleUrl>
+			<styleUrl>#sn_showcave4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea</styleUrl>
+			<styleUrl>#sh_showcave20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine28">
+	<Style id="sh_cave8">
 		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine15">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_spring">
+	<StyleMap id="msn_karst1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_showcave10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cave9">
+	<Style id="sh_mine22">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
-		<LabelStyle>
-			<scale>1.1</scale>
-		</LabelStyle>
 	</Style>
 	<Style id="sh_mine28">
 		<IconStyle>
@@ -1824,27 +2451,47 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="cave">
+	<Style id="sh_karst1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="cross-hairs">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave12</styleUrl>
+			<styleUrl>#sn_cross-hairs</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave5</styleUrl>
+			<styleUrl>#sh_cross-hairs</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="karst">
+	<StyleMap id="msn_mine2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_karst0</styleUrl>
+			<styleUrl>#sn_mine42</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_karst</styleUrl>
+			<styleUrl>#sh_mine26</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_mine29">
+	<Style id="sn_cave16">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_mine3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1852,19 +2499,59 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_showcave4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine29">
+	<Style id="sn_mine10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed4">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_gorge00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="failed3">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed2">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1878,17 +2565,173 @@
 			<styleUrl>#sh_mine4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_mine29">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine8</styleUrl>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine39</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_mine30">
+	<StyleMap id="msn_mine22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine38</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine39">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine38">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave_250">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>C:/Users/Jochen/AppData/LocalLow/Google/GoogleEarth/showcave_25_0.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine37">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_cave9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_gorge1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine35">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1896,42 +2739,75 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cave10">
+	<Style id="sh_cave90">
 		<IconStyle>
-			<scale>1.4</scale>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_spring">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mine20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave130">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_mine30">
+	<Style id="sn_mine32">
+		<IconStyle>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_cave30">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine43</styleUrl>
+			<styleUrl>#sn_cave130</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine16</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave11</styleUrl>
+			<styleUrl>#sh_cave13</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_mine31">
@@ -1944,333 +2820,6 @@
 			<styleUrl>#sh_mine1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_mine31">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed9">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine30">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_karst0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_karst0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine31">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_showcave5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine32">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine32">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave11">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave12">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine33">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="failed10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_cave9">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_cave10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_mine32">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine14</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine33">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine32</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine41</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine34">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine41</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_cave11">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed11">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine33">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="failed12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed16</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed15</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed13">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine34">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed14">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_mine35">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine16</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine34">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave12">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine35">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine35">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_subterranea4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_subterranea0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_subterranea5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine36">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine36">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine37">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<Style id="sh_cave13">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2278,339 +2827,16 @@
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="msn_mine36">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine34</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine38">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave13">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_mine39">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_showcave4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine40">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave14">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine37">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine38">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine39">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_gorge0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/gorge.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_mine37">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_subterranea6">
+	<Style id="sh_subterranea3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<StyleMap id="msn_mine38">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine28</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine18</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_subterranea5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_subterranea4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_subterranea0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine40">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed15">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_cave15">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_cave14">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave15">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine41">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>1.1</scale>
-		</LabelStyle>
-	</Style>
-	<Style id="sn_mine41">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine39">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine31</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine21</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine37</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_mine42">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_showcave5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_showcave_250">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>files/showcave_25.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="failed16">
-		<IconStyle>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine43">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine41">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine43</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine42">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine34</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine42">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine43">
+	<Style id="sn_mine4">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2985,7 +3211,7 @@
 						<range>1000.000087130366</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave3</styleUrl>
+					<styleUrl>#msn_cave30</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-64.54616400185849,-31.08031600083734,0</coordinates>
@@ -3128,7 +3354,7 @@
 						<range>1000.000151673812</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave3</styleUrl>
+					<styleUrl>#msn_cave30</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-71.14496999971091,-41.07690199969687,0</coordinates>
@@ -5910,7 +6136,7 @@
 						<range>1000.000157019741</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave3</styleUrl>
+					<styleUrl>#msn_showcave30</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>144.3921489983363,-17.08976200181873,0</coordinates>
@@ -7737,7 +7963,7 @@
 						<range>670.9900723145298</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_gorge0</styleUrl>
+					<styleUrl>#sn_gorge00</styleUrl>
 					<Point>
 						<coordinates>22.64959499974477,42.86144310211323,0</coordinates>
 					</Point>
@@ -7987,7 +8213,7 @@
 						<range>2656.199423447151</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_gorge0</styleUrl>
+					<styleUrl>#sn_gorge00</styleUrl>
 					<Point>
 						<coordinates>24.37981321677427,41.61668681327743,0</coordinates>
 					</Point>
@@ -8446,130 +8672,237 @@
 				</Point>
 			</Placemark>
 			<Folder>
-				<name>São Paulo</name>
+				<name>Amazonas</name>
+				<open>1</open>
 				<Placemark>
-					<name>São Paulo</name>
+					<name>Abismo Guy Collet</name>
 					<LookAt>
-						<longitude>-48.64572488170096</longitude>
-						<latitude>-22.47464124344965</latitude>
+						<longitude>-63.3833014469777</longitude>
+						<latitude>0.8684745747727571</latitude>
 						<altitude>0</altitude>
-						<heading>0.7630948662589947</heading>
+						<heading>0.006033940759154682</heading>
 						<tilt>0</tilt>
-						<range>937429.7869477465</range>
+						<range>18038.52099504167</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-63.37138888895519,0.856111111111111,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna do Maroaga</name>
+					<LookAt>
+						<longitude>-59.97069807909995</longitude>
+						<latitude>-2.050654376851173</latitude>
+						<altitude>0</altitude>
+						<heading>-7.580653298600699e-13</heading>
+						<tilt>0</tilt>
+						<range>1000.000222233294</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-59.97069807909995,-2.050654376851173,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bahia</name>
+				<open>1</open>
+				<Placemark>
+					<name>Bahia</name>
+					<LookAt>
+						<longitude>-41.70072676921267</longitude>
+						<latitude>-12.57973815519499</latitude>
+						<altitude>0</altitude>
+						<heading>-5.026504170333269e-08</heading>
+						<tilt>0</tilt>
+						<range>1536272.460274459</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
 					<styleUrl>#cross-hairs</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.64572488170095,-22.47464124344966,0</coordinates>
+						<coordinates>-41.70072676921267,-12.57973815519499,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Casa de Pedra</name>
+					<name>Gruta Pratinha</name>
 					<LookAt>
-						<longitude>-48.58738098052933</longitude>
-						<latitude>-24.48231212320554</latitude>
+						<longitude>-41.48643713877354</longitude>
+						<latitude>-12.41664287147016</latitude>
 						<altitude>0</altitude>
-						<heading>0.7316236133287808</heading>
+						<heading>0.02040648882509407</heading>
 						<tilt>0</tilt>
-						<range>4548.196328767563</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						<range>6100.109781797678</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
-						<coordinates>-48.59069465178451,-24.48226026842501,0</coordinates>
+						<coordinates>-41.48405833333333,-12.41916111111111,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Caverna Chapéu Mirim</name>
+					<name>Gruta Lapa Doce</name>
 					<LookAt>
-						<longitude>-48.56258482435262</longitude>
-						<latitude>-24.47017387155556</latitude>
+						<longitude>-41.62663006193193</longitude>
+						<latitude>-12.42148397863649</latitude>
 						<altitude>0</altitude>
-						<heading>0.7213500468605182</heading>
+						<heading>0.05058398126509866</heading>
 						<tilt>0</tilt>
-						<range>17663.01199339214</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						<range>10581.96990611053</range>
+						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.58543483734262,-24.43408034591513,0</coordinates>
+						<coordinates>-41.64001268802885,-12.43711626740294,0</coordinates>
 					</Point>
 				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Mato Grosso do Sol</name>
+				<open>1</open>
 				<Placemark>
-					<name>Caverna Teminina</name>
+					<name>Buraco das Araras</name>
 					<LookAt>
-						<longitude>-48.60779007197099</longitude>
-						<latitude>-24.41897593681643</latitude>
+						<longitude>-56.40323300196866</longitude>
+						<latitude>-21.49182799914334</latitude>
 						<altitude>0</altitude>
-						<heading>0.7400960438468794</heading>
+						<heading>7.212607462248447e-10</heading>
 						<tilt>0</tilt>
-						<range>17031.13104144517</range>
+						<range>1000.000139131082</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.56430109265561,-24.39062395903606,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Caverna Desmoronada</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-48.56909653833465</longitude>
-						<latitude>-24.40287734598388</latitude>
-						<altitude>0</altitude>
-						<heading>0.7241180552076441</heading>
-						<tilt>0</tilt>
-						<range>17243.70753758433</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#msn_karst1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.54617744060207,-24.4071278081475,0</coordinates>
+						<coordinates>-56.40323300196867,-21.49182799914334,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Grutas de Intervales</name>
+					<name>Mato Grosso do Sol</name>
 					<LookAt>
-						<longitude>-48.30204544925665</longitude>
-						<latitude>-24.32245388488101</latitude>
+						<longitude>-54.78515301254554</longitude>
+						<latitude>-20.77222910714369</latitude>
 						<altitude>0</altitude>
-						<heading>0.01175768825246895</heading>
+						<heading>4.449309749446127e-09</heading>
 						<tilt>0</tilt>
-						<range>55708.38420723944</range>
+						<range>968968.5554729989</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cross-hairs</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-54.78515301254554,-20.77222910714369,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta do Lago Azul</name>
+					<LookAt>
+						<longitude>-56.51531409695803</longitude>
+						<latitude>-21.10600371872236</latitude>
+						<altitude>0</altitude>
+						<heading>5.411246641431565</heading>
+						<tilt>0</tilt>
+						<range>24073.51949020076</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
+						<coordinates>-56.59370294494969,-21.1379272709758,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Gruta Dos Paiva</name>
+					<name>Abismo Anhumas</name>
 					<LookAt>
-						<longitude>-48.30204544925665</longitude>
-						<latitude>-24.32245388488101</latitude>
+						<longitude>-56.60019564555449</longitude>
+						<latitude>-21.14506180176334</latitude>
 						<altitude>0</altitude>
-						<heading>0.01175768825246895</heading>
+						<heading>-2.763324429461642e-08</heading>
 						<tilt>0</tilt>
-						<range>55708.38420723944</range>
+						<range>1028.488087333947</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
+						<coordinates>-56.60019564555449,-21.14506180176334,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Aroe Jari</name>
+					<LookAt>
+						<longitude>-55.47702660343258</longitude>
+						<latitude>-15.60004901746346</latitude>
+						<altitude>0</altitude>
+						<heading>1.619474832707593e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00016012059</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-55.47702660343258,-15.60004901746346,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta São Mateus</name>
+					<LookAt>
+						<longitude>-56.45423099857621</longitude>
+						<latitude>-21.13432699932501</latitude>
+						<altitude>0</altitude>
+						<heading>-5.133335742015079e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000151707024</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-56.45423099857621,-21.13432699932501,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grutas de São Miguel</name>
+					<LookAt>
+						<longitude>-56.5810672592072</longitude>
+						<latitude>-21.10734258023839</latitude>
+						<altitude>0</altitude>
+						<heading>-1.176598496087206e-10</heading>
+						<tilt>0</tilt>
+						<range>1042.621912873855</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-56.5810672592072,-21.10734258023839,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Minas Gerais</name>
+				<open>1</open>
+				<Placemark>
+					<name>Caverna Janelão</name>
+					<LookAt>
+						<longitude>-44.24305299993827</longitude>
+						<latitude>-15.11132800016625</latitude>
+						<altitude>0</altitude>
+						<heading>-1.608565530150174e-11</heading>
+						<tilt>0</tilt>
+						<range>999.2096606596842</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-44.24305299993827,-15.11132800016625,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Minas Gerais</name>
 					<LookAt>
@@ -8742,96 +9075,61 @@
 						<coordinates>-43.44028333333334,-20.39119166666667,0</coordinates>
 					</Point>
 				</Placemark>
-			</Folder>
-			<Folder>
-				<name>Bahia</name>
 				<Placemark>
-					<name>Bahia</name>
+					<name>Gruta da Lapa Grande</name>
 					<LookAt>
-						<longitude>-41.70072676921267</longitude>
-						<latitude>-12.57973815519499</latitude>
+						<longitude>-43.94092200053981</longitude>
+						<latitude>-16.70711700095614</latitude>
 						<altitude>0</altitude>
-						<heading>-5.026504170333269e-08</heading>
+						<heading>1.551919851273308e-10</heading>
 						<tilt>0</tilt>
-						<range>1536272.460274459</range>
+						<range>1000.000236790451</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cross-hairs</styleUrl>
+					<styleUrl>#msn_showcave3</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-41.70072676921267,-12.57973815519499,0</coordinates>
+						<coordinates>-43.94092200053981,-16.70711700095614,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Gruta Pratinha</name>
+					<name>Gruta da Lapinha</name>
 					<LookAt>
-						<longitude>-41.48643713877354</longitude>
-						<latitude>-12.41664287147016</latitude>
+						<longitude>-43.95973897994733</longitude>
+						<latitude>-19.56201500732825</latitude>
 						<altitude>0</altitude>
-						<heading>0.02040648882509407</heading>
+						<heading>-6.714179557561617e-09</heading>
 						<tilt>0</tilt>
-						<range>6100.109781797678</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-41.48405833333333,-12.41916111111111,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta Lapa Doce</name>
-					<LookAt>
-						<longitude>-41.62663006193193</longitude>
-						<latitude>-12.42148397863649</latitude>
-						<altitude>0</altitude>
-						<heading>0.05058398126509866</heading>
-						<tilt>0</tilt>
-						<range>10581.96990611053</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-41.64001268802885,-12.43711626740294,0</coordinates>
-					</Point>
-				</Placemark>
-			</Folder>
-			<Folder>
-				<name>Mato Grosso do Sol</name>
-				<Placemark>
-					<name>Mato Grosso do Sol</name>
-					<LookAt>
-						<longitude>-54.78515301254554</longitude>
-						<latitude>-20.77222910714369</latitude>
-						<altitude>0</altitude>
-						<heading>4.449309749446127e-09</heading>
-						<tilt>0</tilt>
-						<range>968968.5554729989</range>
+						<range>999.9999234831989</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cross-hairs</styleUrl>
+					<styleUrl>#msn_showcave3</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-54.78515301254554,-20.77222910714369,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta do Lago Azul</name>
-					<LookAt>
-						<longitude>-56.51531409695803</longitude>
-						<latitude>-21.10600371872236</latitude>
-						<altitude>0</altitude>
-						<heading>5.411246641431565</heading>
-						<tilt>0</tilt>
-						<range>24073.51949020076</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-56.59370294494969,-21.1379272709758,0</coordinates>
+						<coordinates>-43.95973897994733,-19.56201500732825,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Paraná</name>
+				<open>1</open>
+				<Placemark>
+					<name>Gruta da Lancinha</name>
+					<LookAt>
+						<longitude>-49.28641099785234</longitude>
+						<latitude>-25.16810099944237</latitude>
+						<altitude>0</altitude>
+						<heading>-9.133439851024708e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000147217792</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-49.28641099785233,-25.16810099944237,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Paraná</name>
 					<LookAt>
@@ -8865,9 +9163,61 @@
 						<coordinates>-49.96851099996596,-25.17175799991173,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Gruta do Bacaetava</name>
+					<LookAt>
+						<longitude>-49.20671299988511</longitude>
+						<latitude>-25.2318310013759</latitude>
+						<altitude>0</altitude>
+						<heading>-4.898213237187888e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000207112393</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave00</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-49.20671299988511,-25.2318310013759,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna da Mandaçaia</name>
+					<LookAt>
+						<longitude>-50.6495584084626</longitude>
+						<latitude>-24.36527513564036</latitude>
+						<altitude>0</altitude>
+						<heading>6.320923054526742e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000199181588</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-50.64955840846259,-24.36527513564036,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Santa Catarina</name>
+				<open>1</open>
+				<Placemark>
+					<name>Gruta de Botuverá</name>
+					<LookAt>
+						<longitude>-49.15795208355433</longitude>
+						<latitude>-27.22525352990766</latitude>
+						<altitude>0</altitude>
+						<heading>7.131503317871125e-10</heading>
+						<tilt>0</tilt>
+						<range>1068.281845869546</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave00</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-49.15795208355433,-27.22525352990766,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Santa Catarina</name>
 					<LookAt>
@@ -8887,7 +9237,166 @@
 				</Placemark>
 			</Folder>
 			<Folder>
+				<name>São Paulo</name>
+				<open>1</open>
+				<Placemark>
+					<name>Gruta da Glória</name>
+					<LookAt>
+						<longitude>-47.18787500115435</longitude>
+						<latitude>-23.28394300110322</latitude>
+						<altitude>0</altitude>
+						<heading>4.562966870988227e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000220198863</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-47.18787500115435,-23.28394300110323,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>São Paulo</name>
+					<LookAt>
+						<longitude>-48.64572488170096</longitude>
+						<latitude>-22.47464124344965</latitude>
+						<altitude>0</altitude>
+						<heading>0.7630948662589947</heading>
+						<tilt>0</tilt>
+						<range>937429.7869477465</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cross-hairs</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.64572488170095,-22.47464124344966,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Casa de Pedra</name>
+					<LookAt>
+						<longitude>-48.58738098052933</longitude>
+						<latitude>-24.48231212320554</latitude>
+						<altitude>0</altitude>
+						<heading>0.7316236133287808</heading>
+						<tilt>0</tilt>
+						<range>4548.196328767563</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+						<coordinates>-48.59069465178451,-24.48226026842501,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Chapéu Mirim</name>
+					<LookAt>
+						<longitude>-48.56258482435262</longitude>
+						<latitude>-24.47017387155556</latitude>
+						<altitude>0</altitude>
+						<heading>0.7213500468605182</heading>
+						<tilt>0</tilt>
+						<range>17663.01199339214</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.58543483734262,-24.43408034591513,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Teminina</name>
+					<LookAt>
+						<longitude>-48.60779007197099</longitude>
+						<latitude>-24.41897593681643</latitude>
+						<altitude>0</altitude>
+						<heading>0.7400960438468794</heading>
+						<tilt>0</tilt>
+						<range>17031.13104144517</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.56430109265561,-24.39062395903606,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Desmoronada</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-48.56909653833465</longitude>
+						<latitude>-24.40287734598388</latitude>
+						<altitude>0</altitude>
+						<heading>0.7241180552076441</heading>
+						<tilt>0</tilt>
+						<range>17243.70753758433</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.54617744060207,-24.4071278081475,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grutas de Intervales</name>
+					<LookAt>
+						<longitude>-48.30204544925665</longitude>
+						<latitude>-24.32245388488101</latitude>
+						<altitude>0</altitude>
+						<heading>0.01175768825246895</heading>
+						<tilt>0</tilt>
+						<range>55708.38420723944</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta Dos Paiva</name>
+					<LookAt>
+						<longitude>-48.30204544925665</longitude>
+						<latitude>-24.32245388488101</latitude>
+						<altitude>0</altitude>
+						<heading>0.01175768825246895</heading>
+						<tilt>0</tilt>
+						<range>55708.38420723944</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Ouro Grosso</name>
+					<LookAt>
+						<longitude>-48.68202799945534</longitude>
+						<latitude>-24.54568700032119</latitude>
+						<altitude>0</altitude>
+						<heading>-2.262662503166553e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000190047442</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.68202799945534,-24.54568700032119,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
 				<name>Tocantins</name>
+				<open>1</open>
 				<Placemark>
 					<name>Tocantins</name>
 					<LookAt>
@@ -8920,27 +9429,6 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-46.66707523336901,-10.18386325138117,0</coordinates>
-					</Point>
-				</Placemark>
-			</Folder>
-			<Folder>
-				<name>Amazonas</name>
-				<open>1</open>
-				<Placemark>
-					<name>Abismo Guy Collet</name>
-					<LookAt>
-						<longitude>-63.3833014469777</longitude>
-						<latitude>0.8684745747727571</latitude>
-						<altitude>0</altitude>
-						<heading>0.006033940759154682</heading>
-						<tilt>0</tilt>
-						<range>18038.52099504167</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#karst</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-63.37138888895519,0.856111111111111,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -10780,6 +11268,23 @@
 					<styleUrl>#sn_cave12</styleUrl>
 					<Point>
 						<coordinates>-78.12787638617029,44.46288626380848,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>The Grotto</name>
+					<LookAt>
+						<longitude>-81.524299997833</longitude>
+						<latitude>45.24519999993048</latitude>
+						<altitude>0</altitude>
+						<heading>1.538813580569668e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000059200386</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-81.524299997833,45.24519999993047,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -14015,7 +14520,7 @@
 						<range>999.9998944829554</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave</styleUrl>
+					<styleUrl>#msn_showcave5</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>103.8326640003608,32.7269399995404,0</coordinates>
@@ -26325,7 +26830,7 @@
 						<range>1000.000007020098</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst</styleUrl>
+					<styleUrl>#msn_karst0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>0.4072999994643789,40.35699999968679,0</coordinates>
@@ -35179,7 +35684,7 @@
 						<tilt>1.713904179687507e-09</tilt>
 						<range>3874.626498840898</range>
 					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
+					<styleUrl>#default_copy0+nicon=http://maps.google.com/mapfiles/kml/pal3/icon60.png+hicon=http://maps.google.com/mapfiles/kml/pal3/icon52.png_copy1</styleUrl>
 					<Point>
 						<coordinates>-1.590341666666667,54.97240277777778,0</coordinates>
 					</Point>
@@ -36116,7 +36621,7 @@
 							<range>1006.458714618708</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_gorge</styleUrl>
+						<styleUrl>#msn_gorge0</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-4.417716988862761,56.03156596821322,0</coordinates>
@@ -43900,9 +44405,26 @@
 						<tilt>5.204363313138086e-12</tilt>
 						<range>5127.594083290401</range>
 					</LookAt>
-					<styleUrl>#karst</styleUrl>
+					<styleUrl>#msn_karst</styleUrl>
 					<Point>
 						<coordinates>16.57605,41.19476944444445,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Museo Faggiano</name>
+					<LookAt>
+						<longitude>18.17236000018712</longitude>
+						<latitude>40.35011700072067</latitude>
+						<altitude>0</altitude>
+						<heading>1.211632305903527e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00003084156</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>18.17236000018713,40.35011700072067,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -49719,7 +50241,7 @@
 						<range>830.8805023646565</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave0</styleUrl>
+					<styleUrl>#msn_showcave000</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>96.34010518072846,21.13269262948143,0</coordinates>
@@ -56377,7 +56899,7 @@
 						<range>999.9999487968387</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave0</styleUrl>
+					<styleUrl>#msn_showcave000</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.77445799932495,50.19386300347542,0</coordinates>
@@ -56673,7 +57195,7 @@
 					<range>1001.595192082366</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_showcave</styleUrl>
+				<styleUrl>#msn_showcave5</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-66.6415730009719,18.49268699128721,0</coordinates>
@@ -57350,6 +57872,26 @@
 				<name>0unused</name>
 			</Folder>
 			<Folder>
+				<name>Brasov</name>
+				<Placemark>
+					<name>Pestera Valea Cetatii</name>
+					<LookAt>
+						<longitude>25.4963979558245</longitude>
+						<latitude>45.58227298178333</latitude>
+						<altitude>0</altitude>
+						<heading>-3.155265137024796e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9992847668516</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>25.4963979558245,45.58227298178333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
 				<name>Cluj</name>
 				<Placemark>
 					<name>Muzeul de Speologie &quot;Emil Racoviţă&quot;</name>
@@ -57392,6 +57934,43 @@
 				<Folder>
 					<name>Carpaṭii Meridionali</name>
 				</Folder>
+			</Folder>
+			<Folder>
+				<name>Hunedoara</name>
+				<Placemark>
+					<name>Peștera Bolii</name>
+					<LookAt>
+						<longitude>23.3184300022217</longitude>
+						<latitude>45.45345199657346</latitude>
+						<altitude>0</altitude>
+						<heading>1.583286481541902e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000144192625</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>23.31843000222169,45.45345199657346,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cheile Băniței - Bănița Gorge</name>
+					<LookAt>
+						<longitude>23.31117399872734</longitude>
+						<latitude>45.45017200038833</latitude>
+						<altitude>0</altitude>
+						<heading>-9.069478896380475e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000179302288</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_gorge</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>23.31117399872734,45.45017200038832,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Mehedinti</name>
@@ -57720,26 +58299,6 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>23.77637903636212,46.58408753334854,0</coordinates>
-					</Point>
-				</Placemark>
-			</Folder>
-			<Folder>
-				<name>Hunedoara</name>
-				<Placemark>
-					<name>Peștera Bolii</name>
-					<LookAt>
-						<longitude>23.3184300022217</longitude>
-						<latitude>45.45345199657346</latitude>
-						<altitude>0</altitude>
-						<heading>1.583286481541902e-09</heading>
-						<tilt>0</tilt>
-						<range>1000.000144192625</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>23.31843000222169,45.45345199657346,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -59300,7 +59859,7 @@
 						<tilt>0</tilt>
 						<range>17001.52124449757</range>
 					</LookAt>
-					<styleUrl>#msn_cave4</styleUrl>
+					<styleUrl>#msn_cave40</styleUrl>
 					<Point>
 						<coordinates>18.68298833375762,68.40592536266536,0</coordinates>
 					</Point>
@@ -61712,7 +62271,7 @@
 						<range>432.3907087279851</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst</styleUrl>
+					<styleUrl>#msn_karst0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.40330579607,49.12950865090582,0</coordinates>
@@ -61830,7 +62389,7 @@
 						<range>4693.924882118696</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge</styleUrl>
+					<styleUrl>#msn_gorge0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.07312371055058,49.25076846811551,0</coordinates>
@@ -66459,6 +67018,23 @@
 						<coordinates>-71.59714342130179,42.17527921263054,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Purgatory Chasm</name>
+					<LookAt>
+						<longitude>-71.71498800139439</longitude>
+						<latitude>42.12903999768255</latitude>
+						<altitude>0</altitude>
+						<heading>-9.353597846075608e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000042680932</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_gorge1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-71.71498800139439,42.12903999768255,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>mn</name>
@@ -68168,6 +68744,23 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-109.6661999998585,37.50060000037215,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Mesa Arch</name>
+					<LookAt>
+						<longitude>-109.8636640021538</longitude>
+						<latitude>38.38785999356297</latitude>
+						<altitude>0</altitude>
+						<heading>-1.337467771320949e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000113150353</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-109.8636640021538,38.38785999356297,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
