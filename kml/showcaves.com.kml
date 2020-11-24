@@ -2,6 +2,15 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>showcaves.com.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="msn_mine41">
 		<Pair>
 			<key>normal</key>
@@ -38,6 +47,28 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_spring">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_spring1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_spring0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_karst">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="failed15">
 		<IconStyle>
 			<Icon>
@@ -46,6 +77,16 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave3</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_cave14">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -88,6 +129,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_mine6">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -168,6 +219,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_spring">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -220,7 +279,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave2</styleUrl>
+			<styleUrl>#sh_showcave3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="failed0">
@@ -256,17 +315,17 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_karst</styleUrl>
+			<styleUrl>#sh_karst1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
+			<styleUrl>#s_ylw-pushpin10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="failed14">
@@ -342,7 +401,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave8</styleUrl>
+			<styleUrl>#sh_cave80</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_cave7">
@@ -438,7 +497,7 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -528,6 +587,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_cave0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_mine5">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -555,7 +624,7 @@
 	<StyleMap id="cave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave12</styleUrl>
+			<styleUrl>#sn_cave120</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -621,7 +690,7 @@
 	<StyleMap id="karst">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_karst0</styleUrl>
+			<styleUrl>#sn_karst00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -662,7 +731,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave">
+	<StyleMap id="msn_cave1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave10</styleUrl>
@@ -774,7 +843,7 @@
 			<styleUrl>#sh_mine14</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -808,6 +877,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_spring0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_spring</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_spring</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_cave15">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -865,6 +944,22 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sh_cave0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<StyleMap id="msn_showcave_250">
 		<Pair>
 			<key>normal</key>
@@ -875,6 +970,18 @@
 			<styleUrl>#sh_showcave_250</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_showcave2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_showcave1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -896,11 +1003,11 @@
 	<StyleMap id="msn_cave13">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave8</styleUrl>
+			<styleUrl>#sn_cave12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave9</styleUrl>
+			<styleUrl>#sh_cave16</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="failed10">
@@ -931,10 +1038,10 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave1">
+	<StyleMap id="msn_cave10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave4</styleUrl>
+			<styleUrl>#sn_cave40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -957,14 +1064,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave0">
+	<StyleMap id="msn_cave00">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave0</styleUrl>
+			<styleUrl>#sh_cave00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_showcave_25">
@@ -1011,6 +1118,15 @@
 			<styleUrl>#sh_mine23</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_cave2">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1029,6 +1145,14 @@
 			<styleUrl>#sh_cave90</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_cave3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<StyleMap id="msn_karst0">
 		<Pair>
 			<key>normal</key>
@@ -1059,11 +1183,19 @@
 			<styleUrl>#sh_showcave10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_spring">
+	<Style id="sn_spring0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1073,6 +1205,15 @@
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
 	<Style id="sh_mine8">
@@ -1119,6 +1260,16 @@
 			<styleUrl>#sh_mine25</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_mine26">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1147,7 +1298,7 @@
 			<styleUrl>#sh_mine35</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin1">
+	<Style id="s_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1281,6 +1432,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_cave0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_cave9">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1315,7 +1474,15 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cave0">
+	<Style id="sn_spring1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1323,7 +1490,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_showcave2">
+	<Style id="sh_showcave3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1338,11 +1505,11 @@
 	<StyleMap id="spring">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring</styleUrl>
+			<styleUrl>#sn_spring0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_spring</styleUrl>
+			<styleUrl>#sh_spring1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_mine9">
@@ -1353,6 +1520,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_cave2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_mine19">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1361,7 +1538,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave10">
+	<StyleMap id="msn_cave100">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave5</styleUrl>
@@ -1376,6 +1553,14 @@
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -1410,14 +1595,14 @@
 	<StyleMap id="msn_cave12">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave0</styleUrl>
+			<styleUrl>#sn_cave00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_cave7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_cave3">
+	<Style id="sh_cave8">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1429,7 +1614,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_cave0">
+	<Style id="sn_cave00">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1437,7 +1622,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cave5">
+	<Style id="sh_cave9">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1489,7 +1674,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1522,6 +1707,16 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_cave11">
 		<IconStyle>
 			<scale>1.4</scale>
@@ -1538,7 +1733,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_cave2">
+	<Style id="sn_cave20">
 		<IconStyle>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
@@ -1661,7 +1856,7 @@
 			<styleUrl>#sh_cave2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cave">
+	<Style id="sn_cave4">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1717,6 +1912,15 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_mine18">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1738,6 +1942,14 @@
 			<styleUrl>#sh_cave1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_cave8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_mine26">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1762,12 +1974,21 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_cave4">
+	<Style id="sn_cave40">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
 	<StyleMap id="msn_showcave_25">
@@ -1838,6 +2059,18 @@
 			<styleUrl>#failed7</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_showcave6">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1850,6 +2083,16 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_showcave3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_mine13">
 		<Pair>
 			<key>normal</key>
@@ -1876,7 +2119,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_showcave3">
+	<Style id="sh_showcave6">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1904,7 +2147,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_karst">
+	<Style id="sh_karst1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1930,7 +2173,7 @@
 			<styleUrl>#sh_cave15</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cave8">
+	<Style id="sn_cave12">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1958,7 +2201,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_cave12">
+	<Style id="sn_cave120">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1966,14 +2209,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_showcave3">
+	<StyleMap id="msn_showcave5">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_showcave2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave3</styleUrl>
+			<styleUrl>#sh_showcave6</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_cave13">
@@ -2068,7 +2311,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_karst">
+	<Style id="sn_karst0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2138,10 +2381,10 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave2">
+	<StyleMap id="msn_cave20">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave2</styleUrl>
+			<styleUrl>#sn_cave20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -2175,6 +2418,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sh_cave13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sh_mine">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2194,11 +2445,11 @@
 	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_mine3">
@@ -2229,6 +2480,14 @@
 			<styleUrl>#sh_gorge</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_spring">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sh_cave14">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2242,6 +2501,14 @@
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_spring0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -2282,11 +2549,21 @@
 	<StyleMap id="msn_cave3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave</styleUrl>
+			<styleUrl>#sn_cave4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave5</styleUrl>
+			<styleUrl>#sh_cave9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave13</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_mine25">
@@ -2337,14 +2614,6 @@
 			<styleUrl>#sh_mine21</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_mine24">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_mine7">
 		<Pair>
 			<key>normal</key>
@@ -2355,6 +2624,14 @@
 			<styleUrl>#sh_mine11</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_mine24">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sh_gorge2">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -2375,7 +2652,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_karst0">
+	<Style id="sn_karst00">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2401,7 +2678,7 @@
 			<styleUrl>#sh_showcave20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_cave8">
+	<Style id="sh_cave80">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2420,11 +2697,11 @@
 	<StyleMap id="msn_karst1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_karst</styleUrl>
+			<styleUrl>#sn_karst0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_karst1</styleUrl>
+			<styleUrl>#sh_karst10</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_showcave10">
@@ -2451,7 +2728,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_karst1">
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_karst10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2499,6 +2785,16 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_karst2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_mine10">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -2565,14 +2861,14 @@
 			<styleUrl>#sh_mine4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="m_ylw-pushpin01">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_mine22">
@@ -2619,7 +2915,7 @@
 			<styleUrl>#sh_mine32</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="m_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
@@ -2629,7 +2925,7 @@
 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_showcave5">
+	<StyleMap id="msn_showcave6">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_showcave00</styleUrl>
@@ -2647,14 +2943,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_cave4">
+	<StyleMap id="msn_cave15">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave16</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave3</styleUrl>
+			<styleUrl>#sh_cave8</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_showcave30">
@@ -2685,7 +2981,7 @@
 			<styleUrl>#sh_mine31</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_cave15">
+	<StyleMap id="msn_cave16">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave13</styleUrl>
@@ -2713,13 +3009,25 @@
 			<styleUrl>#sh_cave14</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_cave9">
+	<Style id="sh_cave16">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
+	</Style>
+	<Style id="sn_showcave8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<StyleMap id="msn_gorge1">
 		<Pair>
@@ -2750,7 +3058,7 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_spring">
+	<Style id="sh_spring1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2783,7 +3091,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl00">
+	<Style id="s_ylw-pushpin_hl000">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2807,7 +3115,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave13</styleUrl>
+			<styleUrl>#sh_cave130</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_mine31">
@@ -2820,7 +3128,7 @@
 			<styleUrl>#sh_mine1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_cave13">
+	<Style id="sh_cave130">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -4952,7 +5260,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Puxer Lueg</name>
-					<address>+47° 8&apos; 16.00&quot;, +14° 20&apos; 54.00&quot;</address>
+					<address>+47° 8&apos; 16.00", +14° 20&apos; 54.00"</address>
 					<LookAt>
 						<longitude>14.348333</longitude>
 						<latitude>47.137778</latitude>
@@ -5376,7 +5684,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Schaubergwerk &quot;Glück Auf&quot; Ulpenalpe</name>
+					<name>Schaubergwerk "Glück Auf" Ulpenalpe</name>
 					<LookAt>
 						<longitude>11.80673720939232</longitude>
 						<latitude>47.33038677975066</latitude>
@@ -5774,7 +6082,7 @@
 						<range>2848.979138889017</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>148.9377874587354,-33.25419797018684,0</coordinates>
 					</Point>
@@ -5797,7 +6105,7 @@
 				</Placemark>
 				<Placemark>
 					<name>George&apos;s Gold Mine</name>
-					<address>929 Bushman Range Rd&lt;br/&gt;Moleton NSW 2450, Australia</address>
+					<address>929 Bushman Range Rd<br/>Moleton NSW 2450, Australia</address>
 					<snippet><![CDATA[929 Bushman Range Rd, Moleton NSW 2450, Australia<br/>(02) 6654 5355]]></snippet>
 					<Snippet maxLines="2"><![CDATA[929 Bushman Range Rd, Moleton NSW 2450, Australia<br/>(02) 6654 5355]]></Snippet>
 					<LookAt>
@@ -5983,7 +6291,7 @@
 				<Folder>
 					<name>White Cliffs</name>
 					<Placemark>
-						<name>PJ&apos;s Underground Bed &amp; Breakfast</name>
+						<name>PJ&apos;s Underground Bed & Breakfast</name>
 						<LookAt>
 							<longitude>143.0981317805532</longitude>
 							<latitude>-30.85258108827581</latitude>
@@ -6225,7 +6533,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Riba&apos;s Underground Camping &amp; Caravan Park</name>
+						<name>Riba&apos;s Underground Camping & Caravan Park</name>
 						<LookAt>
 							<longitude>134.8055027108969</longitude>
 							<latitude>-29.03580762342767</latitude>
@@ -8023,7 +8331,7 @@
 						<range>6029.820306075894</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>26.75020430470211,43.73809305280143,0</coordinates>
 					</Point>
@@ -8267,7 +8575,7 @@
 						<range>2292.10591013127</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<coordinates>23.38881639028489,43.08821082966279,0</coordinates>
 					</Point>
@@ -8332,7 +8640,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Пещера &quot;Венеца&quot; - Venetsa Cave</name>
+					<name>Пещера "Венеца" - Venetsa Cave</name>
 					<LookAt>
 						<longitude>22.73588699545391</longitude>
 						<latitude>43.63049769607214</latitude>
@@ -8673,7 +8981,6 @@
 			</Placemark>
 			<Folder>
 				<name>Amazonas</name>
-				<open>1</open>
 				<Placemark>
 					<name>Abismo Guy Collet</name>
 					<LookAt>
@@ -8702,7 +9009,7 @@
 						<range>1000.000222233294</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave4</styleUrl>
+					<styleUrl>#msn_cave15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-59.97069807909995,-2.050654376851173,0</coordinates>
@@ -8711,7 +9018,6 @@
 			</Folder>
 			<Folder>
 				<name>Bahia</name>
-				<open>1</open>
 				<Placemark>
 					<name>Bahia</name>
 					<LookAt>
@@ -8730,6 +9036,40 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Poço Azul</name>
+					<LookAt>
+						<longitude>-41.1527368301988</longitude>
+						<latitude>-12.78207295489337</latitude>
+						<altitude>0</altitude>
+						<heading>-13.90228268376593</heading>
+						<tilt>0</tilt>
+						<range>8422.71548176844</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_spring</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-41.14936306801125,-12.78201888672344,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Poço Encantado</name>
+					<LookAt>
+						<longitude>-41.10579724288574</longitude>
+						<latitude>-12.94626317432086</latitude>
+						<altitude>0</altitude>
+						<heading>-13.91281320972094</heading>
+						<tilt>0</tilt>
+						<range>2924.639047898497</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_spring0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-41.10491843944488,-12.94536526946201,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Gruta Pratinha</name>
 					<LookAt>
 						<longitude>-41.48643713877354</longitude>
@@ -8742,6 +9082,23 @@
 					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>-41.48405833333333,-12.41916111111111,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta da Torrinha</name>
+					<LookAt>
+						<longitude>-41.61029401792047</longitude>
+						<latitude>-12.34308774326455</latitude>
+						<altitude>0</altitude>
+						<heading>-13.80206743229452</heading>
+						<tilt>0</tilt>
+						<range>8088.684509867763</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-41.60258250967532,-12.34121167447696,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8760,27 +9117,26 @@
 						<coordinates>-41.64001268802885,-12.43711626740294,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Gruta do Lapão</name>
+					<LookAt>
+						<longitude>-41.3927261479506</longitude>
+						<latitude>-12.54865688324652</latitude>
+						<altitude>0</altitude>
+						<heading>-13.84903828904769</heading>
+						<tilt>0</tilt>
+						<range>7272.27383264692</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-41.40190210661157,-12.54049305080456,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Mato Grosso do Sol</name>
-				<open>1</open>
-				<Placemark>
-					<name>Buraco das Araras</name>
-					<LookAt>
-						<longitude>-56.40323300196866</longitude>
-						<latitude>-21.49182799914334</latitude>
-						<altitude>0</altitude>
-						<heading>7.212607462248447e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000139131082</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_karst1</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-56.40323300196867,-21.49182799914334,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark>
 					<name>Mato Grosso do Sol</name>
 					<LookAt>
@@ -8796,6 +9152,57 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-54.78515301254554,-20.77222910714369,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Abismo Anhumas</name>
+					<LookAt>
+						<longitude>-56.60019564555449</longitude>
+						<latitude>-21.14506180176334</latitude>
+						<altitude>0</altitude>
+						<heading>-2.763324429461642e-08</heading>
+						<tilt>0</tilt>
+						<range>1028.488087333947</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-56.60019564555449,-21.14506180176334,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Aroe Jari</name>
+					<LookAt>
+						<longitude>-55.47702660343258</longitude>
+						<latitude>-15.60004901746346</latitude>
+						<altitude>0</altitude>
+						<heading>1.619474832707593e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00016012059</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-55.47702660343258,-15.60004901746346,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Buraco das Araras</name>
+					<LookAt>
+						<longitude>-56.40323300196866</longitude>
+						<latitude>-21.49182799914334</latitude>
+						<altitude>0</altitude>
+						<heading>7.212607462248447e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000139131082</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_karst1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-56.40323300196867,-21.49182799914334,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8815,37 +9222,20 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Abismo Anhumas</name>
+					<name>Nascente Azul</name>
 					<LookAt>
-						<longitude>-56.60019564555449</longitude>
-						<latitude>-21.14506180176334</latitude>
+						<longitude>-56.53018199918895</longitude>
+						<latitude>-20.89405499996016</latitude>
 						<altitude>0</altitude>
-						<heading>-2.763324429461642e-08</heading>
+						<heading>-2.892539552283588e-10</heading>
 						<tilt>0</tilt>
-						<range>1028.488087333947</range>
+						<range>1000.00012129685</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#msn_karst2</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-56.60019564555449,-21.14506180176334,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Caverna Aroe Jari</name>
-					<LookAt>
-						<longitude>-55.47702660343258</longitude>
-						<latitude>-15.60004901746346</latitude>
-						<altitude>0</altitude>
-						<heading>1.619474832707593e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.00016012059</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin1</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-55.47702660343258,-15.60004901746346,0</coordinates>
+						<coordinates>-56.53018199918895,-20.89405499996016,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8859,7 +9249,7 @@
 						<range>1000.000151707024</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave3</styleUrl>
+					<styleUrl>#msn_showcave5</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-56.45423099857621,-21.13432699932501,0</coordinates>
@@ -8876,7 +9266,7 @@
 						<range>1042.621912873855</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave3</styleUrl>
+					<styleUrl>#msn_showcave5</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-56.5810672592072,-21.10734258023839,0</coordinates>
@@ -8885,24 +9275,6 @@
 			</Folder>
 			<Folder>
 				<name>Minas Gerais</name>
-				<open>1</open>
-				<Placemark>
-					<name>Caverna Janelão</name>
-					<LookAt>
-						<longitude>-44.24305299993827</longitude>
-						<latitude>-15.11132800016625</latitude>
-						<altitude>0</altitude>
-						<heading>-1.608565530150174e-11</heading>
-						<tilt>0</tilt>
-						<range>999.2096606596842</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_showcave0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-44.24305299993827,-15.11132800016625,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark>
 					<name>Minas Gerais</name>
 					<LookAt>
@@ -8918,53 +9290,6 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-44.55503105795945,-18.51217788365768,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta Rei do Mato</name>
-					<LookAt>
-						<longitude>-44.28238591724534</longitude>
-						<latitude>-19.49543655288026</latitude>
-						<altitude>0</altitude>
-						<heading>0.01158092199328278</heading>
-						<tilt>0</tilt>
-						<range>8539.374424742329</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-44.28297458257858,-19.49555657149335,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta da Lapa</name>
-					<LookAt>
-						<longitude>-43.47440313174968</longitude>
-						<latitude>-20.30418906778386</latitude>
-						<altitude>0</altitude>
-						<heading>-0.005970492726926536</heading>
-						<tilt>8.780826687954858e-12</tilt>
-						<range>1380.909195595739</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-43.47255,-20.30521666666667,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta de Maquine</name>
-					<LookAt>
-						<longitude>-44.35323556854014</longitude>
-						<latitude>-19.12494651077102</latitude>
-						<altitude>0</altitude>
-						<heading>0.289403848476697</heading>
-						<tilt>0</tilt>
-						<range>806.3855034060208</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-44.35323611111111,-19.12494722222222,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8984,95 +9309,20 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Antonio Pereira Imperial Topaz Mine</name>
+					<name>Caverna Janelão</name>
 					<LookAt>
-						<longitude>-43.47440313174968</longitude>
-						<latitude>-20.30418906778386</latitude>
+						<longitude>-44.24305299993827</longitude>
+						<latitude>-15.11132800016625</latitude>
 						<altitude>0</altitude>
-						<heading>-0.005970492726926536</heading>
-						<tilt>8.780826687949295e-12</tilt>
-						<range>1380.909195597154</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>-43.47645,-20.30383333333333,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Minas Fonte Meu Bem Querer</name>
-					<LookAt>
-						<longitude>-43.49238955395393</longitude>
-						<latitude>-20.38742532025545</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01556632116739032</heading>
-						<tilt>7.197032857000058e-12</tilt>
-						<range>212.1046320224647</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>-43.49226744885858,-20.38746415723486,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Capão Mine</name>
-					<LookAt>
-						<longitude>-43.62063103017281</longitude>
-						<latitude>-20.42013805589713</latitude>
-						<altitude>0</altitude>
-						<heading>0.003592490769393545</heading>
+						<heading>-1.608565530150174e-11</heading>
 						<tilt>0</tilt>
-						<range>1189.527706283119</range>
+						<range>999.2096606596842</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mine</styleUrl>
+					<styleUrl>#msn_showcave0</styleUrl>
 					<Point>
-						<coordinates>-43.62063103017281,-20.42013805589713,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Minas Chico Rei</name>
-					<LookAt>
-						<longitude>-43.4997911664567</longitude>
-						<latitude>-20.38622989089898</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01298795095011882</heading>
-						<tilt>4.790691915506189e-11</tilt>
-						<range>166.6607059526926</range>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>-43.49979166666667,-20.38623055555556,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Minas Velha</name>
-					<LookAt>
-						<longitude>-43.48959058921956</longitude>
-						<latitude>-20.38725860716505</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01654135306851595</heading>
-						<tilt>0</tilt>
-						<range>1747.495731624167</range>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>-43.48959058921956,-20.38725860716506,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Minas de Passagem</name>
-					<LookAt>
-						<longitude>-43.44028444177926</longitude>
-						<latitude>-20.39119156401571</latitude>
-						<altitude>0</altitude>
-						<heading>-0.06993295555680555</heading>
-						<tilt>0</tilt>
-						<range>1317.337933260512</range>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>-43.44028333333334,-20.39119166666667,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-44.24305299993827,-15.11132800016625,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9086,7 +9336,7 @@
 						<range>1000.000236790451</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave3</styleUrl>
+					<styleUrl>#msn_showcave5</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-43.94092200053981,-16.70711700095614,0</coordinates>
@@ -9103,33 +9353,157 @@
 						<range>999.9999234831989</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave3</styleUrl>
+					<styleUrl>#msn_showcave5</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-43.95973897994733,-19.56201500732825,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Gruta de Maquine</name>
+					<LookAt>
+						<longitude>-44.35323556854014</longitude>
+						<latitude>-19.12494651077102</latitude>
+						<altitude>0</altitude>
+						<heading>0.289403848476697</heading>
+						<tilt>0</tilt>
+						<range>806.3855034060208</range>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<coordinates>-44.35323611111111,-19.12494722222222,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta Rei do Mato</name>
+					<LookAt>
+						<longitude>-44.28238591724534</longitude>
+						<latitude>-19.49543655288026</latitude>
+						<altitude>0</altitude>
+						<heading>0.01158092199328278</heading>
+						<tilt>0</tilt>
+						<range>8539.374424742329</range>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<coordinates>-44.28297458257858,-19.49555657149335,0</coordinates>
+					</Point>
+				</Placemark>
+				<Folder>
+					<name>Ouro Prêto</name>
+					<Placemark>
+						<name>Antonio Pereira Imperial Topaz Mine</name>
+						<LookAt>
+							<longitude>-43.47440313174968</longitude>
+							<latitude>-20.30418906778386</latitude>
+							<altitude>0</altitude>
+							<heading>-0.005970492726926536</heading>
+							<tilt>8.780826687949295e-12</tilt>
+							<range>1380.909195597154</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-43.47645,-20.30383333333333,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Capão Mine</name>
+						<LookAt>
+							<longitude>-43.62063103017281</longitude>
+							<latitude>-20.42013805589713</latitude>
+							<altitude>0</altitude>
+							<heading>0.003592490769393545</heading>
+							<tilt>0</tilt>
+							<range>1189.527706283119</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-43.62063103017281,-20.42013805589713,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Minas Chico Rei</name>
+						<LookAt>
+							<longitude>-43.4997911664567</longitude>
+							<latitude>-20.38622989089898</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01298795095011882</heading>
+							<tilt>4.790691915506189e-11</tilt>
+							<range>166.6607059526926</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-43.49979166666667,-20.38623055555556,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Minas Fonte Meu Bem Querer</name>
+						<LookAt>
+							<longitude>-43.49238955395393</longitude>
+							<latitude>-20.38742532025545</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01556632116739032</heading>
+							<tilt>7.197032857000058e-12</tilt>
+							<range>212.1046320224647</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-43.49226744885858,-20.38746415723486,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Minas de Passagem</name>
+						<LookAt>
+							<longitude>-43.44028444177926</longitude>
+							<latitude>-20.39119156401571</latitude>
+							<altitude>0</altitude>
+							<heading>-0.06993295555680555</heading>
+							<tilt>0</tilt>
+							<range>1317.337933260512</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-43.44028333333334,-20.39119166666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Minas Velha</name>
+						<LookAt>
+							<longitude>-43.48959058921956</longitude>
+							<latitude>-20.38725860716505</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01654135306851595</heading>
+							<tilt>0</tilt>
+							<range>1747.495731624167</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-43.48959058921956,-20.38725860716506,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Gruta da Lapa</name>
+						<LookAt>
+							<longitude>-43.47440313174968</longitude>
+							<latitude>-20.30418906778386</latitude>
+							<altitude>0</altitude>
+							<heading>-0.005970492726926536</heading>
+							<tilt>8.780826687954858e-12</tilt>
+							<range>1380.909195595739</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#showcave</styleUrl>
+						<Point>
+							<coordinates>-43.47255,-20.30521666666667,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 			</Folder>
 			<Folder>
 				<name>Paraná</name>
-				<open>1</open>
-				<Placemark>
-					<name>Gruta da Lancinha</name>
-					<LookAt>
-						<longitude>-49.28641099785234</longitude>
-						<latitude>-25.16810099944237</latitude>
-						<altitude>0</altitude>
-						<heading>-9.133439851024708e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000147217792</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_cave4</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-49.28641099785233,-25.16810099944237,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark>
 					<name>Paraná</name>
 					<LookAt>
@@ -9145,22 +9519,6 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-52.02154210132267,-25.25208925699299,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Furna do Buraco do Padre</name>
-					<LookAt>
-						<longitude>-49.96851099996596</longitude>
-						<latitude>-25.17175799991173</latitude>
-						<altitude>0</altitude>
-						<heading>-1.446834324597754e-11</heading>
-						<tilt>0</tilt>
-						<range>1000.000040784908</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-49.96851099996596,-25.17175799991173,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9181,6 +9539,39 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Furna do Buraco do Padre</name>
+					<LookAt>
+						<longitude>-49.96851099996596</longitude>
+						<latitude>-25.17175799991173</latitude>
+						<altitude>0</altitude>
+						<heading>-1.446834324597754e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000040784908</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>-49.96851099996596,-25.17175799991173,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta da Lancinha</name>
+					<LookAt>
+						<longitude>-49.28641099785234</longitude>
+						<latitude>-25.16810099944237</latitude>
+						<altitude>0</altitude>
+						<heading>-9.133439851024708e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000147217792</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-49.28641099785233,-25.16810099944237,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Caverna da Mandaçaia</name>
 					<LookAt>
 						<longitude>-50.6495584084626</longitude>
@@ -9191,7 +9582,7 @@
 						<range>1000.000199181588</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave4</styleUrl>
+					<styleUrl>#msn_cave15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-50.64955840846259,-24.36527513564036,0</coordinates>
@@ -9200,24 +9591,6 @@
 			</Folder>
 			<Folder>
 				<name>Santa Catarina</name>
-				<open>1</open>
-				<Placemark>
-					<name>Gruta de Botuverá</name>
-					<LookAt>
-						<longitude>-49.15795208355433</longitude>
-						<latitude>-27.22525352990766</latitude>
-						<altitude>0</altitude>
-						<heading>7.131503317871125e-10</heading>
-						<tilt>0</tilt>
-						<range>1068.281845869546</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_showcave00</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-49.15795208355433,-27.22525352990766,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark>
 					<name>Santa Catarina</name>
 					<LookAt>
@@ -9235,10 +9608,43 @@
 						<coordinates>-50.8097969281261,-27.40755025383767,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Gruta de Botuverá</name>
+					<LookAt>
+						<longitude>-49.15795208355433</longitude>
+						<latitude>-27.22525352990766</latitude>
+						<altitude>0</altitude>
+						<heading>7.131503317871125e-10</heading>
+						<tilt>0</tilt>
+						<range>1068.281845869546</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave00</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-49.15795208355433,-27.22525352990766,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>São Paulo</name>
-				<open>1</open>
+				<Placemark>
+					<name>Caverna do Diabo - Gruta da Tapagem</name>
+					<LookAt>
+						<longitude>-48.40717478456071</longitude>
+						<latitude>-24.63677954949955</latitude>
+						<altitude>0</altitude>
+						<heading>0.299964987649301</heading>
+						<tilt>0</tilt>
+						<range>5316.684511999163</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.40438492956534,-24.63660181613491,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Gruta da Glória</name>
 					<LookAt>
@@ -9250,10 +9656,27 @@
 						<range>1000.000220198863</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-47.18787500115435,-23.28394300110323,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruta Dos Paiva</name>
+					<LookAt>
+						<longitude>-48.30204544925665</longitude>
+						<latitude>-24.32245388488101</latitude>
+						<altitude>0</altitude>
+						<heading>0.01175768825246895</heading>
+						<tilt>0</tilt>
+						<range>55708.38420723944</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9274,6 +9697,108 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Caverna Água Suja</name>
+					<LookAt>
+						<longitude>-48.67762536742331</longitude>
+						<latitude>-24.53394200982185</latitude>
+						<altitude>0</altitude>
+						<heading>0.07440837038218119</heading>
+						<tilt>0</tilt>
+						<range>15365.33135339651</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.70886596162263,-24.52605052085613,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna do Alambari de Baixo</name>
+					<LookAt>
+						<longitude>-48.68703885269453</longitude>
+						<latitude>-24.55140549310316</latitude>
+						<altitude>0</altitude>
+						<heading>0.1911023801903524</heading>
+						<tilt>0</tilt>
+						<range>7177.120970058951</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.66483027921122,-24.5544276696247,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grutas de Intervales</name>
+					<LookAt>
+						<longitude>-48.30204544925665</longitude>
+						<latitude>-24.32245388488101</latitude>
+						<altitude>0</altitude>
+						<heading>0.01175768825246895</heading>
+						<tilt>0</tilt>
+						<range>55708.38420723944</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna do Morro do Couto</name>
+					<LookAt>
+						<longitude>-48.69626277025611</longitude>
+						<latitude>-24.53644562818818</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001230289001647668</heading>
+						<tilt>0</tilt>
+						<range>2712.212778686456</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.69859526291954,-24.53475717236579,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna do Morro Preto</name>
+					<LookAt>
+						<longitude>-48.699071800159</longitude>
+						<latitude>-24.53286289869622</latitude>
+						<altitude>0</altitude>
+						<heading>6.602513463250115e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000030614356</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.699071800159,-24.53286289869622,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Caverna Ouro Grosso</name>
+					<LookAt>
+						<longitude>-48.68202799945534</longitude>
+						<latitude>-24.54568700032119</latitude>
+						<altitude>0</altitude>
+						<heading>-2.262662503166553e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000190047442</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.68202799945534,-24.54568700032119,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Casa de Pedra</name>
 					<LookAt>
 						<longitude>-48.58738098052933</longitude>
@@ -9290,6 +9815,46 @@
 						<coordinates>-48.59069465178451,-24.48226026842501,0</coordinates>
 					</Point>
 				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Tocantins</name>
+				<Placemark>
+					<name>Tocantins</name>
+					<LookAt>
+						<longitude>-48.15872450612369</longitude>
+						<latitude>-9.340869002177993</latitude>
+						<altitude>0</altitude>
+						<heading>0.05494926857977855</heading>
+						<tilt>0</tilt>
+						<range>1339786.362789896</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cross-hairs</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-48.15872450612368,-9.340869002177994,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Poço Fervedouro</name>
+					<LookAt>
+						<longitude>-46.66717201782227</longitude>
+						<latitude>-10.18382612809534</latitude>
+						<altitude>0</altitude>
+						<heading>1.093077385948091e-05</heading>
+						<tilt>0</tilt>
+						<range>212.1310975909604</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#spring</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-46.66707523336901,-10.18386325138117,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>0unused</name>
 				<Placemark>
 					<name>Caverna Chapéu Mirim</name>
 					<LookAt>
@@ -9340,95 +9905,6 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-48.54617744060207,-24.4071278081475,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grutas de Intervales</name>
-					<LookAt>
-						<longitude>-48.30204544925665</longitude>
-						<latitude>-24.32245388488101</latitude>
-						<altitude>0</altitude>
-						<heading>0.01175768825246895</heading>
-						<tilt>0</tilt>
-						<range>55708.38420723944</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta Dos Paiva</name>
-					<LookAt>
-						<longitude>-48.30204544925665</longitude>
-						<latitude>-24.32245388488101</latitude>
-						<altitude>0</altitude>
-						<heading>0.01175768825246895</heading>
-						<tilt>0</tilt>
-						<range>55708.38420723944</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.30204544925666,-24.32245388488101,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Caverna Ouro Grosso</name>
-					<LookAt>
-						<longitude>-48.68202799945534</longitude>
-						<latitude>-24.54568700032119</latitude>
-						<altitude>0</altitude>
-						<heading>-2.262662503166553e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000190047442</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#msn_cave4</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.68202799945534,-24.54568700032119,0</coordinates>
-					</Point>
-				</Placemark>
-			</Folder>
-			<Folder>
-				<name>Tocantins</name>
-				<open>1</open>
-				<Placemark>
-					<name>Tocantins</name>
-					<LookAt>
-						<longitude>-48.15872450612369</longitude>
-						<latitude>-9.340869002177993</latitude>
-						<altitude>0</altitude>
-						<heading>0.05494926857977855</heading>
-						<tilt>0</tilt>
-						<range>1339786.362789896</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cross-hairs</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-48.15872450612368,-9.340869002177994,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Poço Fervedouro</name>
-					<LookAt>
-						<longitude>-46.66717201782227</longitude>
-						<latitude>-10.18382612809534</latitude>
-						<altitude>0</altitude>
-						<heading>1.093077385948091e-05</heading>
-						<tilt>0</tilt>
-						<range>212.1310975909604</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#spring</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-46.66707523336901,-10.18386325138117,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -10749,7 +11225,7 @@
 						<range>40423.42322231526</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-126.2534477915236,49.80584092322368,0</coordinates>
 					</Point>
@@ -10839,7 +11315,7 @@
 						<range>1000.000080667592</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-64.64480000000759,45.9223166668035,0</coordinates>
 					</Point>
@@ -11265,7 +11741,7 @@
 						<range>1396.006471243683</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-78.12787638617029,44.46288626380848,0</coordinates>
 					</Point>
@@ -11281,7 +11757,7 @@
 						<range>1000.000059200386</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave15</styleUrl>
+					<styleUrl>#msn_cave16</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-81.524299997833,45.24519999993047,0</coordinates>
@@ -11384,7 +11860,7 @@
 						<tilt>0</tilt>
 						<range>6608.876877689406</range>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-76.01392182131192,45.61814146084596,0</coordinates>
 					</Point>
@@ -13672,7 +14148,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Butterfly Cave &amp; Spring Park</name>
+					<name>Butterfly Cave & Spring Park</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>110.4783249962854</longitude>
@@ -14520,7 +14996,7 @@
 						<range>999.9998944829554</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave5</styleUrl>
+					<styleUrl>#msn_showcave6</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>103.8326640003608,32.7269399995404,0</coordinates>
@@ -17925,7 +18401,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Besucherbergwerk &quot;Drei Kronen &amp; Ehrt&quot;</name>
+					<name>Besucherbergwerk "Drei Kronen & Ehrt"</name>
 					<LookAt>
 						<longitude>10.82753585176846</longitude>
 						<latitude>51.76337311460635</latitude>
@@ -18293,7 +18769,7 @@
 						<range>2118.75324281317</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>10.5290971172199,51.56968704519982,0</coordinates>
@@ -18309,7 +18785,7 @@
 						<tilt>0</tilt>
 						<range>213.5267406188859</range>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<coordinates>10.31024982678227,51.5909265404086,0</coordinates>
 					</Point>
@@ -18324,7 +18800,7 @@
 						<tilt>0</tilt>
 						<range>533.3638651984214</range>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point id="khPoint700">
 						<coordinates>10.76096797496838,51.5305230770153,0</coordinates>
 					</Point>
@@ -18410,7 +18886,7 @@
 						<range>444.4694008232363</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.216633835969382,51.48883553753903,0</coordinates>
@@ -18641,7 +19117,7 @@
 							<range>1128.667904022181</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#sn_spring</styleUrl>
+						<styleUrl>#sn_spring0</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>8.322152896308356,51.42610994729635,0</coordinates>
@@ -19671,7 +20147,7 @@
 						<styleUrl>#trackStyle1</styleUrl>
 						<LineString>
 							<coordinates>
-								8.219461000000001,50.689198,0 8.219196999999999,50.689135,0 8.218780000000001,50.689074,0 8.218403,50.688799,0 8.218099,50.688684,0 8.217892000000001,50.68855599999999,0 8.217790000000001,50.688429,0 8.217427000000001,50.688222,0 8.216934,50.687996,0 8.216205,50.68759699999999,0 8.215448,50.687157,0 8.215017,50.686929,0 8.214276999999999,50.68652599999999,0 8.213749,50.68615800000001,0 8.213592999999999,50.68613100000001,0 8.213151,50.68627599999999,0 8.212785,50.686395,0 8.211912,50.68660300000001,0 8.211771000000001,50.68664699999999,0 8.211439,50.68667,0 8.209967000000001,50.68656,0 8.209859,50.686578,0 8.209644000000001,50.686688,0 8.208365000000001,50.686891,0 8.208361999999999,50.686891,0 8.207908,50.686972,0 8.206085,50.687015,0 8.205087000000001,50.68695200000001,0 8.204832,50.686921,0 8.204295999999999,50.686794,0 8.202921,50.686605,0 8.201499999999999,50.68642200000001,0 8.200519,50.686307,0 8.199138,50.686118,0 8.198689999999999,50.686061,0 8.197493,50.68589200000001,0 8.19679,50.685788,0 8.195918000000001,50.685681,0 8.195036,50.685616,0 8.195921,50.685681,0 8.196790999999999,50.685791,0 8.196292,50.68637,0 8.195504,50.687247,0 8.195029999999999,50.68778399999999,0 8.195864,50.68806200000001,0 8.196292,50.688237,0 8.196723,50.688388,0 8.196033999999999,50.68909,0 8.195864,50.689018,0 8.195347999999999,50.688808,0 8.195874999999999,50.68902,0 8.19604,50.689088,0 8.196723,50.688388,0 8.196278,50.688233,0 8.195847000000001,50.688057,0 8.195028000000001,50.68778399999999,0 8.195513,50.687234,0 8.196324000000001,50.686334,0 8.196794000000001,50.685788,0 8.196873999999999,50.68556699999999,0 8.196831,50.685398,0 8.196749000000001,50.685263,0 8.196440000000001,50.684877,0 8.196396999999999,50.684742,0 8.196417,50.6846,0 8.196502000000001,50.684286,0 8.19665,50.683751,0 8.196828,50.68300099999999,0 8.196825,50.682462,0 8.196811,50.681907,0 8.196811,50.681325,0 8.196726,50.680986,0 8.196349,50.680365,0 8.197302000000001,50.680139,0 8.198681000000001,50.67977400000001,0 8.199261999999999,50.679616,0 8.199838,50.679972,0 8.200422,50.67960599999999,0 8.201618,50.67888,0 8.202040999999999,50.678626,0 8.202154,50.67874,0 8.202287999999999,50.679201,0 8.202406999999999,50.679625,0 8.203355999999999,50.680682,0 8.204001999999999,50.681462,0 8.20415,50.68169400000001,0 8.203996,50.681454,0 8.203358,50.680677,0 8.203996,50.68019099999999,0 8.204224,50.680077,0 8.204314,50.67989500000001,0 8.204174999999999,50.679681,0 8.203946,50.679405,0 8.20351,50.67899,0 8.203113,50.678581,0 8.2029,50.67815,0 8.203018999999999,50.678197,0 8.203084,50.678244,0 8.203856,50.678558,0 8.205133999999999,50.679028,0 8.205871,50.679159,0 8.206334,50.679312,0 8.206939999999999,50.679587,0 8.207309,50.679751,0 8.207703,50.67988400000001,0 8.208565,50.680171,0 8.209262000000001,50.680295,0 8.209262000000001,50.680297,0 8.209835,50.68050700000001,0 8.210144,50.68073199999999,0 8.210331,50.68097399999999,0 8.210419,50.68107300000001,0 8.210523999999999,50.68117699999999,0 8.211031999999999,50.681522,0 8.211565,50.68182,0 8.211907999999999,50.68191,0 8.212075,50.682034,0 8.212509000000001,50.682451,0 8.213456000000001,50.68325399999999,0 8.21368,50.68348199999999,0 8.214136999999999,50.684,0 8.214195999999999,50.68417,0 8.214213000000001,50.684278,0 8.214338,50.684567,0 8.214385999999999,50.684747,0 8.214340999999999,50.685063,0 8.214361,50.685236,0 8.214575999999999,50.685651,0 8.214769,50.68578700000001,0 8.214828000000001,50.68592,0 8.214840000000001,50.686324,0 8.214928,50.68648200000001,0 8.215203000000001,50.686624,0 8.215358999999999,50.686824,0 8.215458,50.687158,0 8.216208999999999,50.68759699999999,0 8.216961,50.68801,0 8.217420000000001,50.68822,0 8.217789,50.688426,0 8.217789,50.688428,0 8.217898999999999,50.688563,0 8.217902,50.688565,0 8.218106000000001,50.688683,0 8.218413,50.688804,0 8.218783999999999,50.68907300000001,0 8.219201,50.689138,0 8.219471,50.689197,0 
+								8.219461000000001,50.689198,0 8.219196999999999,50.689135,0 8.218780000000001,50.689074,0 8.218403,50.688799,0 8.218099,50.688684,0 8.217892000000001,50.68855599999999,0 8.217790000000001,50.688429,0 8.217427000000001,50.688222,0 8.216934,50.687996,0 8.216205,50.68759699999999,0 8.215448,50.687157,0 8.215017,50.686929,0 8.214276999999999,50.68652599999999,0 8.213749,50.68615800000001,0 8.213592999999999,50.68613100000001,0 8.213151,50.68627599999999,0 8.212785,50.686395,0 8.211912,50.68660300000001,0 8.211771000000001,50.68664699999999,0 8.211439,50.68667,0 8.209967000000001,50.68656,0 8.209859,50.686578,0 8.209644000000001,50.686688,0 8.208365000000001,50.686891,0 8.208361999999999,50.686891,0 8.207908,50.686972,0 8.206085,50.687015,0 8.205087000000001,50.68695200000001,0 8.204832,50.686921,0 8.204295999999999,50.686794,0 8.202921,50.686605,0 8.201499999999999,50.68642200000001,0 8.200519,50.686307,0 8.199138,50.686118,0 8.198689999999999,50.686061,0 8.197493,50.68589200000001,0 8.19679,50.685788,0 8.195918000000001,50.685681,0 8.195036,50.685616,0 8.195921,50.685681,0 8.196790999999999,50.685791,0 8.196292,50.68637,0 8.195504,50.687247,0 8.195029999999999,50.68778399999999,0 8.195864,50.68806200000001,0 8.196292,50.688237,0 8.196723,50.688388,0 8.196033999999999,50.68909,0 8.195864,50.689018,0 8.195347999999999,50.688808,0 8.195874999999999,50.68902,0 8.19604,50.689088,0 8.196723,50.688388,0 8.196278,50.688233,0 8.195847000000001,50.688057,0 8.195028000000001,50.68778399999999,0 8.195513,50.687234,0 8.196324000000001,50.686334,0 8.196794000000001,50.685788,0 8.196873999999999,50.68556699999999,0 8.196831,50.685398,0 8.196749000000001,50.685263,0 8.196440000000001,50.684877,0 8.196396999999999,50.684742,0 8.196417,50.6846,0 8.196502000000001,50.684286,0 8.19665,50.683751,0 8.196828,50.68300099999999,0 8.196825,50.682462,0 8.196811,50.681907,0 8.196811,50.681325,0 8.196726,50.680986,0 8.196349,50.680365,0 8.197302000000001,50.680139,0 8.198681000000001,50.67977400000001,0 8.199261999999999,50.679616,0 8.199838,50.679972,0 8.200422,50.67960599999999,0 8.201618,50.67888,0 8.202040999999999,50.678626,0 8.202154,50.67874,0 8.202287999999999,50.679201,0 8.202406999999999,50.679625,0 8.203355999999999,50.680682,0 8.204001999999999,50.681462,0 8.20415,50.68169400000001,0 8.203996,50.681454,0 8.203358,50.680677,0 8.203996,50.68019099999999,0 8.204224,50.680077,0 8.204314,50.67989500000001,0 8.204174999999999,50.679681,0 8.203946,50.679405,0 8.20351,50.67899,0 8.203113,50.678581,0 8.2029,50.67815,0 8.203018999999999,50.678197,0 8.203084,50.678244,0 8.203856,50.678558,0 8.205133999999999,50.679028,0 8.205871,50.679159,0 8.206334,50.679312,0 8.206939999999999,50.679587,0 8.207309,50.679751,0 8.207703,50.67988400000001,0 8.208565,50.680171,0 8.209262000000001,50.680295,0 8.209262000000001,50.680297,0 8.209835,50.68050700000001,0 8.210144,50.68073199999999,0 8.210331,50.68097399999999,0 8.210419,50.68107300000001,0 8.210523999999999,50.68117699999999,0 8.211031999999999,50.681522,0 8.211565,50.68182,0 8.211907999999999,50.68191,0 8.212075,50.682034,0 8.212509000000001,50.682451,0 8.213456000000001,50.68325399999999,0 8.21368,50.68348199999999,0 8.214136999999999,50.684,0 8.214195999999999,50.68417,0 8.214213000000001,50.684278,0 8.214338,50.684567,0 8.214385999999999,50.684747,0 8.214340999999999,50.685063,0 8.214361,50.685236,0 8.214575999999999,50.685651,0 8.214769,50.68578700000001,0 8.214828000000001,50.68592,0 8.214840000000001,50.686324,0 8.214928,50.68648200000001,0 8.215203000000001,50.686624,0 8.215358999999999,50.686824,0 8.215458,50.687158,0 8.216208999999999,50.68759699999999,0 8.216961,50.68801,0 8.217420000000001,50.68822,0 8.217789,50.688426,0 8.217789,50.688428,0 8.217898999999999,50.688563,0 8.217902,50.688565,0 8.218106000000001,50.688683,0 8.218413,50.688804,0 8.218783999999999,50.68907300000001,0 8.219201,50.689138,0 8.219471,50.689197,0
 							</coordinates>
 						</LineString>
 					</Placemark>
@@ -20165,7 +20641,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Schaubergwerk &quot;Finstertal&quot; Asbach</name>
+						<name>Schaubergwerk "Finstertal" Asbach</name>
 						<LookAt>
 							<longitude>10.49956403621474</longitude>
 							<latitude>50.73198950934327</latitude>
@@ -20785,7 +21261,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Schachtanlage &quot;Alte Elisabeth&quot;</name>
+						<name>Schachtanlage "Alte Elisabeth"</name>
 						<LookAt>
 							<longitude>13.35398228359171</longitude>
 							<latitude>50.91729150161314</latitude>
@@ -20911,7 +21387,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Besucherbergwerk &quot;Markus-Röhling-Stolln&quot;</name>
+						<name>Besucherbergwerk "Markus-Röhling-Stolln"</name>
 						<LookAt>
 							<longitude>12.9957020883017</longitude>
 							<latitude>50.59928466511603</latitude>
@@ -20991,7 +21467,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Grubenanlage &quot;St. Briccius&quot;</name>
+						<name>Grubenanlage "St. Briccius"</name>
 						<LookAt>
 							<longitude>13.04644108995162</longitude>
 							<latitude>50.57517469454845</latitude>
@@ -21039,7 +21515,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Schaubergwerk &quot;Herkules-Frisch-Glück&quot; Waschleithe</name>
+						<name>Schaubergwerk "Herkules-Frisch-Glück" Waschleithe</name>
 						<LookAt>
 							<longitude>12.82418909368201</longitude>
 							<latitude>50.55200191844561</latitude>
@@ -23253,7 +23729,7 @@
 						<LineString>
 							<tessellate>1</tessellate>
 							<coordinates>
-								9.472134845457123,48.47865567133706,0 9.474513718500175,48.47906321572366,0 9.475836643503959,48.47890596833065,0 9.475667767634949,48.48323124156092,0 9.475863718536834,48.48406853689775,0 9.474992236031934,48.48548750452249,0 9.478846701343199,48.48634047241255,0 9.482225990501261,48.48811154889832,0 9.482091829562842,48.48870328622281,0 9.483020995976531,48.4891973282205,0 9.483130749838132,48.49135232260583,0 9.483058031089149,48.49155912571237,0 9.483116836968914,48.49178893482207,0 9.483156878667591,48.49201928246223,0 9.483179006642084,48.4922129401054,0 9.482178030353808,48.49343271532784,0 9.482368355496153,48.49374585458427,0 9.482615809454538,48.49376701584717,0 9.482388667587163,48.49391303283523,0 9.481953614861677,48.49492684282415,0 9.482137770039266,48.49587695211442,0 9.482589118229008,48.49657692854818,0 9.480650821901147,48.4964994521665,0 9.480829962879557,48.49874693423171,0 9.476691005821511,48.49653323670956,0 9.471121026001137,48.4931655992556,0 9.470443410467054,48.4924625500184,0 9.471049806370264,48.49196167314715,0 9.471583645641392,48.49181683501612,0 9.471721684936327,48.49163415124234,0 9.471819379799086,48.49090473486078,0 9.471801054051546,48.49044884946027,0 9.47182099287356,48.4903577011412,0 9.472335871041921,48.48961614895239,0 9.472348273262213,48.48957512255524,0 9.472353954112442,48.48957134584239,0 9.472348273262213,48.48957512255524,0 9.47234259211392,48.48957889957153,0 9.472345226309681,48.48957689664612,0 9.470144557020962,48.4895498843298,0 9.469985684690771,48.48943228824318,0 9.469390066822125,48.48965460712523,0 9.468532083342144,48.48962849257556,0 9.468131682655835,48.4900084172478,0 9.467955014009025,48.49049328805083,0 9.468434095140349,48.49057130054549,0 9.469093751809879,48.49041336264661,0 9.469773591954018,48.49025568773082,0 9.470148766175448,48.49002032783699,0 9.470154449198141,48.48956779110654,0 9.472240343501063,48.48960900814641,0 9.471752166907594,48.49041397406994,0 9.47198161039922,48.49053140129796,0 9.47198943973582,48.49122952403314,0 9.472281962154806,48.49144864817583,0 9.476365006881728,48.49153283969149,0 9.476881882897656,48.49140094748767,0 9.477442503269643,48.49155081351377,0 9.477608631979011,48.49160063754987,0 9.477850453293604,48.4915798646976,0 9.478052052833746,48.49115762179769,0 9.476761131485208,48.49031088729015,0 9.476284855222799,48.48961560781062,0 9.475811541881377,48.48924382040847,0 9.476854440810794,48.48778713332871,0 9.477888806359028,48.48850992401957,0 9.478114212665186,48.48838035067089,0 9.477704201187018,48.48812916468303,0 9.474388780110282,48.48607635719122,0 9.474439091938544,48.48592187316602,0 9.474937480883838,48.48545603925262,0 9.475749645242804,48.48402131089542,0 9.47574951040764,48.48395513637464,0 9.475749398136688,48.48390000053672,0 9.475765922587376,48.48385591304309,0 9.475765808997018,48.48380079088721,0 9.475765672655839,48.48373465581303,0 9.475765581824017,48.48369057248698,0 9.4757488369876,48.48362444822679,0 9.475715403058835,48.48351427264205,0 9.47571527141384,48.48344819518773,0 9.475681872091233,48.4833381331197,0 9.475648567007703,48.4832502208208,0 9.475631905292055,48.48319528390156,0 9.475615251940336,48.48315132440355,0 9.475615228040596,48.48312934597777,0 9.475615156686212,48.48306339434441,0 9.475615073580631,48.48298642081657,0 9.475614978048108,48.48289841038261,0 9.475614918678779,48.48284338158171,0 9.475614823335425,48.48275530027402,0 9.475614787441618,48.48272225887582,0 9.475614718675125,48.4826561580179,0 9.475614682246025,48.48261207044806,0 9.475614591103831,48.4825017808442,0 9.475614536359743,48.48243555797513,0 9.475631140524065,48.48238031764824,0 9.475664397077656,48.48230291132591,0 9.475664335404749,48.48220338424798,0 9.475680941454744,48.48209266167776,0 9.475680898908358,48.48201511950577,0 9.475680874302361,48.48197078671383,0 9.475697449444899,48.48190444237478,0 9.475713943329717,48.48179392289183,0 9.475713714674782,48.48165025368191,0 9.475680193152606,48.48153976678346,0 9.475680070000676,48.48146240692755,0 9.475680017203809,48.48142925253606,0 9.475679911545827,48.48136294426194,0 9.475679841023199,48.48131873830147,0 9.475679746064339,48.481252368556,0 9.475696250629714,48.48118640442776,0 9.475695994237226,48.48107640681455,0 9.475695943190118,48.48105441544858,0 9.475745742069419,48.48098856750658,0 9.475745660512898,48.48095560125395,0 9.475745551773521,48.48091165534376,0 9.475761985052218,48.48082378408518,0 9.475761791384656,48.48074694263289,0 9.475761680719778,48.48070304754498,0 9.47576157001931,48.48065916343045,0 9.475761348989376,48.48057142696057,0 9.475777650086428,48.48043989156671,0 9.475777312643194,48.48030846383636,0 9.475777228496824,48.48027562226341,0 9.475777172184669,48.4802537306528,0 9.475776947512928,48.4801661926398,0 9.475776694842944,48.48006776300608,0 9.475776666755051,48.48005682956126,0 9.475792966836616,48.4799700265212,0 9.47582573776009,48.47987297669182,0 9.475825650367897,48.47981797210519,0 9.47584202292081,48.479708296898,0 9.475841918160491,48.47964229854381,0 9.475841760852504,48.4795433009696,0 9.475841655911708,48.47947730169675,0 9.475841603351052,48.47944430240371,0 9.475841469184195,48.47935625688159,0 9.475841447009232,48.47933415306586,0 9.475841402108969,48.47928994084586,0 9.475841383849035,48.47917858411204,0 9.475841424400297,48.479122436318,0 9.475841473211513,48.47905501289069,0 9.475841522029043,48.47898753849536,0 9.475808374138509,48.47895309721772,0 9.475775185148834,48.47896366895471,0 9.475658987784383,48.4789945452116,0 9.475609151657338,48.47899300165229,0 9.475459372527359,48.47897708001448,0 9.475342617741859,48.47897345204995,0 9.475225722748394,48.47899298682713,0 9.4751086984305,48.47899124826844,0 9.47504170508131,48.47895685139502,0 9.474991559549403,48.47895672279312,0 9.474824660066449,48.47897997647778,0 9.474741201663221,48.47898039652647,0 9.474674446171846,48.4789917160427,0 9.474591006068479,48.47900308969045,0 9.474507576796348,48.47901446126453,0 9.474407445870979,48.47901478714662,0 9.474257412116538,48.47899368047944,0 9.474174228419168,48.47899459759987,0 9.474091027959645,48.47897333281129,0 9.47407440312206,48.47897351712921,0 9.473824711410053,48.47897510377891,0 9.473740621762728,48.47895159692733,0 9.473673223623617,48.47895025343293,0 9.473588959326937,48.4789376450923,0 9.473487907103229,48.47889189546443,0 9.473403554255661,48.47886831894548,0 9.473352961087846,48.47884541699332,0 9.473167337854582,48.47880939163019,0 9.473083146691341,48.47878641579041,0 9.473066253498097,48.47878616126322,0 9.472981768471962,48.47876277429016,0 9.472845783725738,48.47875970527056,0 9.472709464480047,48.47875646159319,0 9.472607073753869,48.47875402525322,0 9.472487510546355,48.47872904097962,0 9.472196571582375,48.47862229027935,0 
+								9.472134845457123,48.47865567133706,0 9.474513718500175,48.47906321572366,0 9.475836643503959,48.47890596833065,0 9.475667767634949,48.48323124156092,0 9.475863718536834,48.48406853689775,0 9.474992236031934,48.48548750452249,0 9.478846701343199,48.48634047241255,0 9.482225990501261,48.48811154889832,0 9.482091829562842,48.48870328622281,0 9.483020995976531,48.4891973282205,0 9.483130749838132,48.49135232260583,0 9.483058031089149,48.49155912571237,0 9.483116836968914,48.49178893482207,0 9.483156878667591,48.49201928246223,0 9.483179006642084,48.4922129401054,0 9.482178030353808,48.49343271532784,0 9.482368355496153,48.49374585458427,0 9.482615809454538,48.49376701584717,0 9.482388667587163,48.49391303283523,0 9.481953614861677,48.49492684282415,0 9.482137770039266,48.49587695211442,0 9.482589118229008,48.49657692854818,0 9.480650821901147,48.4964994521665,0 9.480829962879557,48.49874693423171,0 9.476691005821511,48.49653323670956,0 9.471121026001137,48.4931655992556,0 9.470443410467054,48.4924625500184,0 9.471049806370264,48.49196167314715,0 9.471583645641392,48.49181683501612,0 9.471721684936327,48.49163415124234,0 9.471819379799086,48.49090473486078,0 9.471801054051546,48.49044884946027,0 9.47182099287356,48.4903577011412,0 9.472335871041921,48.48961614895239,0 9.472348273262213,48.48957512255524,0 9.472353954112442,48.48957134584239,0 9.472348273262213,48.48957512255524,0 9.47234259211392,48.48957889957153,0 9.472345226309681,48.48957689664612,0 9.470144557020962,48.4895498843298,0 9.469985684690771,48.48943228824318,0 9.469390066822125,48.48965460712523,0 9.468532083342144,48.48962849257556,0 9.468131682655835,48.4900084172478,0 9.467955014009025,48.49049328805083,0 9.468434095140349,48.49057130054549,0 9.469093751809879,48.49041336264661,0 9.469773591954018,48.49025568773082,0 9.470148766175448,48.49002032783699,0 9.470154449198141,48.48956779110654,0 9.472240343501063,48.48960900814641,0 9.471752166907594,48.49041397406994,0 9.47198161039922,48.49053140129796,0 9.47198943973582,48.49122952403314,0 9.472281962154806,48.49144864817583,0 9.476365006881728,48.49153283969149,0 9.476881882897656,48.49140094748767,0 9.477442503269643,48.49155081351377,0 9.477608631979011,48.49160063754987,0 9.477850453293604,48.4915798646976,0 9.478052052833746,48.49115762179769,0 9.476761131485208,48.49031088729015,0 9.476284855222799,48.48961560781062,0 9.475811541881377,48.48924382040847,0 9.476854440810794,48.48778713332871,0 9.477888806359028,48.48850992401957,0 9.478114212665186,48.48838035067089,0 9.477704201187018,48.48812916468303,0 9.474388780110282,48.48607635719122,0 9.474439091938544,48.48592187316602,0 9.474937480883838,48.48545603925262,0 9.475749645242804,48.48402131089542,0 9.47574951040764,48.48395513637464,0 9.475749398136688,48.48390000053672,0 9.475765922587376,48.48385591304309,0 9.475765808997018,48.48380079088721,0 9.475765672655839,48.48373465581303,0 9.475765581824017,48.48369057248698,0 9.4757488369876,48.48362444822679,0 9.475715403058835,48.48351427264205,0 9.47571527141384,48.48344819518773,0 9.475681872091233,48.4833381331197,0 9.475648567007703,48.4832502208208,0 9.475631905292055,48.48319528390156,0 9.475615251940336,48.48315132440355,0 9.475615228040596,48.48312934597777,0 9.475615156686212,48.48306339434441,0 9.475615073580631,48.48298642081657,0 9.475614978048108,48.48289841038261,0 9.475614918678779,48.48284338158171,0 9.475614823335425,48.48275530027402,0 9.475614787441618,48.48272225887582,0 9.475614718675125,48.4826561580179,0 9.475614682246025,48.48261207044806,0 9.475614591103831,48.4825017808442,0 9.475614536359743,48.48243555797513,0 9.475631140524065,48.48238031764824,0 9.475664397077656,48.48230291132591,0 9.475664335404749,48.48220338424798,0 9.475680941454744,48.48209266167776,0 9.475680898908358,48.48201511950577,0 9.475680874302361,48.48197078671383,0 9.475697449444899,48.48190444237478,0 9.475713943329717,48.48179392289183,0 9.475713714674782,48.48165025368191,0 9.475680193152606,48.48153976678346,0 9.475680070000676,48.48146240692755,0 9.475680017203809,48.48142925253606,0 9.475679911545827,48.48136294426194,0 9.475679841023199,48.48131873830147,0 9.475679746064339,48.481252368556,0 9.475696250629714,48.48118640442776,0 9.475695994237226,48.48107640681455,0 9.475695943190118,48.48105441544858,0 9.475745742069419,48.48098856750658,0 9.475745660512898,48.48095560125395,0 9.475745551773521,48.48091165534376,0 9.475761985052218,48.48082378408518,0 9.475761791384656,48.48074694263289,0 9.475761680719778,48.48070304754498,0 9.47576157001931,48.48065916343045,0 9.475761348989376,48.48057142696057,0 9.475777650086428,48.48043989156671,0 9.475777312643194,48.48030846383636,0 9.475777228496824,48.48027562226341,0 9.475777172184669,48.4802537306528,0 9.475776947512928,48.4801661926398,0 9.475776694842944,48.48006776300608,0 9.475776666755051,48.48005682956126,0 9.475792966836616,48.4799700265212,0 9.47582573776009,48.47987297669182,0 9.475825650367897,48.47981797210519,0 9.47584202292081,48.479708296898,0 9.475841918160491,48.47964229854381,0 9.475841760852504,48.4795433009696,0 9.475841655911708,48.47947730169675,0 9.475841603351052,48.47944430240371,0 9.475841469184195,48.47935625688159,0 9.475841447009232,48.47933415306586,0 9.475841402108969,48.47928994084586,0 9.475841383849035,48.47917858411204,0 9.475841424400297,48.479122436318,0 9.475841473211513,48.47905501289069,0 9.475841522029043,48.47898753849536,0 9.475808374138509,48.47895309721772,0 9.475775185148834,48.47896366895471,0 9.475658987784383,48.4789945452116,0 9.475609151657338,48.47899300165229,0 9.475459372527359,48.47897708001448,0 9.475342617741859,48.47897345204995,0 9.475225722748394,48.47899298682713,0 9.4751086984305,48.47899124826844,0 9.47504170508131,48.47895685139502,0 9.474991559549403,48.47895672279312,0 9.474824660066449,48.47897997647778,0 9.474741201663221,48.47898039652647,0 9.474674446171846,48.4789917160427,0 9.474591006068479,48.47900308969045,0 9.474507576796348,48.47901446126453,0 9.474407445870979,48.47901478714662,0 9.474257412116538,48.47899368047944,0 9.474174228419168,48.47899459759987,0 9.474091027959645,48.47897333281129,0 9.47407440312206,48.47897351712921,0 9.473824711410053,48.47897510377891,0 9.473740621762728,48.47895159692733,0 9.473673223623617,48.47895025343293,0 9.473588959326937,48.4789376450923,0 9.473487907103229,48.47889189546443,0 9.473403554255661,48.47886831894548,0 9.473352961087846,48.47884541699332,0 9.473167337854582,48.47880939163019,0 9.473083146691341,48.47878641579041,0 9.473066253498097,48.47878616126322,0 9.472981768471962,48.47876277429016,0 9.472845783725738,48.47875970527056,0 9.472709464480047,48.47875646159319,0 9.472607073753869,48.47875402525322,0 9.472487510546355,48.47872904097962,0 9.472196571582375,48.47862229027935,0
 							</coordinates>
 						</LineString>
 					</Placemark>
@@ -23467,7 +23943,7 @@
 						<LineString>
 							<tessellate>1</tessellate>
 							<coordinates>
-								9.692443465988337,48.4788337759477,0 9.692461094944171,48.47875996571638,0 9.686853427790343,48.48201155188065,0 9.685738517955089,48.48342585784336,0 9.685531593577338,48.48342560061283,0 9.685486279346929,48.48274248811369,0 9.678133844203874,48.48327397311408,0 9.67349385661864,48.48111467669054,0 9.669950175307049,48.47857419071092,0 9.666543512324521,48.4801198272148,0 9.660758833505207,48.48147091484128,0 9.659036428784297,48.48163752962085,0 9.656764229580508,48.48157252383263,0 9.652739806985016,48.4810268593026,0 9.653387461644058,48.48022936839546,0 9.654256224158546,48.48022813357409,0 9.653425455744244,48.48019527664273,0 9.654208923742402,48.479377608113,0 9.656402970130713,48.47786490150348,0 9.656201325672601,48.47776476162148,0 9.656986393240816,48.47708470079739,0 9.657099471602411,48.47691627224694,0 9.656195985203436,48.47650957375434,0 9.656076228419126,48.47628072298303,0 9.657012165798523,48.47463134623384,0 9.657654303330393,48.47405296695268,0 9.657657986167386,48.47360810617022,0 9.660885884826991,48.47161468824014,0 9.660747716007364,48.47142442164413,0 9.662187167926886,48.47119259730896,0 9.662477817820879,48.47070001094606,0 9.663015069909216,48.47055479534091,0 9.664765897942189,48.47062810510372,0 9.666997464883703,48.47034802285366,0 9.668422649465793,48.47137656903006,0 9.668801995908352,48.47193588224544,0 9.674280264969319,48.47181019245136,0 9.678738298683102,48.47517965196064,0 9.684222391495931,48.47320533152529,0 9.688016277630322,48.4724386696919,0 9.690993950817084,48.4709462733385,0 9.695692011982882,48.47067256310488,0 9.696079947382705,48.47355580292166,0 9.694951960138397,48.47652890988055,0 9.695390205916063,48.47705482405353,0 9.695504616732384,48.47733440842875,0 9.694478024773943,48.47860006330932,0 
+								9.692443465988337,48.4788337759477,0 9.692461094944171,48.47875996571638,0 9.686853427790343,48.48201155188065,0 9.685738517955089,48.48342585784336,0 9.685531593577338,48.48342560061283,0 9.685486279346929,48.48274248811369,0 9.678133844203874,48.48327397311408,0 9.67349385661864,48.48111467669054,0 9.669950175307049,48.47857419071092,0 9.666543512324521,48.4801198272148,0 9.660758833505207,48.48147091484128,0 9.659036428784297,48.48163752962085,0 9.656764229580508,48.48157252383263,0 9.652739806985016,48.4810268593026,0 9.653387461644058,48.48022936839546,0 9.654256224158546,48.48022813357409,0 9.653425455744244,48.48019527664273,0 9.654208923742402,48.479377608113,0 9.656402970130713,48.47786490150348,0 9.656201325672601,48.47776476162148,0 9.656986393240816,48.47708470079739,0 9.657099471602411,48.47691627224694,0 9.656195985203436,48.47650957375434,0 9.656076228419126,48.47628072298303,0 9.657012165798523,48.47463134623384,0 9.657654303330393,48.47405296695268,0 9.657657986167386,48.47360810617022,0 9.660885884826991,48.47161468824014,0 9.660747716007364,48.47142442164413,0 9.662187167926886,48.47119259730896,0 9.662477817820879,48.47070001094606,0 9.663015069909216,48.47055479534091,0 9.664765897942189,48.47062810510372,0 9.666997464883703,48.47034802285366,0 9.668422649465793,48.47137656903006,0 9.668801995908352,48.47193588224544,0 9.674280264969319,48.47181019245136,0 9.678738298683102,48.47517965196064,0 9.684222391495931,48.47320533152529,0 9.688016277630322,48.4724386696919,0 9.690993950817084,48.4709462733385,0 9.695692011982882,48.47067256310488,0 9.696079947382705,48.47355580292166,0 9.694951960138397,48.47652890988055,0 9.695390205916063,48.47705482405353,0 9.695504616732384,48.47733440842875,0 9.694478024773943,48.47860006330932,0
 							</coordinates>
 						</LineString>
 					</Placemark>
@@ -23618,7 +24094,7 @@
 								<range>5172.170358580174</range>
 								<altitudeMode>relativeToGround</altitudeMode>
 							</LookAt>
-							<styleUrl>#sn_cave12</styleUrl>
+							<styleUrl>#sn_cave120</styleUrl>
 							<Point>
 								<coordinates>10.17243055555556,48.549325,0</coordinates>
 							</Point>
@@ -23684,7 +24160,7 @@
 								<tilt>0.08650659970610543</tilt>
 								<range>193.8743856048268</range>
 							</LookAt>
-							<styleUrl>#sn_cave12</styleUrl>
+							<styleUrl>#sn_cave120</styleUrl>
 							<Point>
 								<coordinates>10.19413492908804,48.55877608015935,0</coordinates>
 							</Point>
@@ -23719,7 +24195,7 @@
 							<tilt>0</tilt>
 							<range>1987.189397037656</range>
 						</LookAt>
-						<styleUrl>#sn_cave12</styleUrl>
+						<styleUrl>#sn_cave120</styleUrl>
 						<Point>
 							<coordinates>8.90018170765569,48.03884031087503,0</coordinates>
 						</Point>
@@ -24161,7 +24637,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Besucherbergwerk &quot;Heilige Drei Könige&quot;</name>
+					<name>Besucherbergwerk "Heilige Drei Könige"</name>
 					<LookAt>
 						<longitude>8.40951148935936</longitude>
 						<latitude>48.45826105703151</latitude>
@@ -24194,7 +24670,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Grube &quot;Himmlisch Heer&quot; - Bergwerk Hallwangen</name>
+					<name>Grube "Himmlisch Heer" - Bergwerk Hallwangen</name>
 					<LookAt>
 						<longitude>8.503030485958266</longitude>
 						<latitude>48.48953874777397</latitude>
@@ -25209,7 +25685,7 @@
 					<tilt>0</tilt>
 					<range>1955.084616600865</range>
 				</LookAt>
-				<styleUrl>#sn_spring</styleUrl>
+				<styleUrl>#sn_spring0</styleUrl>
 				<Point>
 					<coordinates>24.96679793087861,59.2019095703762,0</coordinates>
 				</Point>
@@ -25546,7 +26022,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Museo Minero de Riotinto &quot;Ernest Lluch&quot;</name>
+					<name>Museo Minero de Riotinto "Ernest Lluch"</name>
 					<LookAt>
 						<longitude>-6.596317417921633</longitude>
 						<latitude>37.69312987629263</latitude>
@@ -27123,7 +27599,7 @@
 							<range>995.1045125110714</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#sn_cave12</styleUrl>
+						<styleUrl>#sn_cave120</styleUrl>
 						<Point>
 							<coordinates>-13.43147727406295,29.15729415278297,0</coordinates>
 						</Point>
@@ -30102,7 +30578,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Launois Père &amp; Fils</name>
+					<name>Launois Père & Fils</name>
 					<LookAt>
 						<longitude>4.02498976209037</longitude>
 						<latitude>48.94867276762552</latitude>
@@ -30183,7 +30659,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Moët &amp; Chandon</name>
+					<name>Moët & Chandon</name>
 					<LookAt>
 						<longitude>3.963491452227285</longitude>
 						<latitude>49.04304801830153</latitude>
@@ -32630,7 +33106,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Les Maisons Troglodytes de &quot;La Fosse&quot;</name>
+					<name>Les Maisons Troglodytes de "La Fosse"</name>
 					<LookAt>
 						<longitude>-0.249964810933879</longitude>
 						<latitude>47.22769759594958</latitude>
@@ -32901,7 +33377,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Troglodytes &amp; Sarcophages</name>
+					<name>Troglodytes & Sarcophages</name>
 					<LookAt>
 						<longitude>-0.2601307985819734</longitude>
 						<latitude>47.18348174738562</latitude>
@@ -36987,7 +37463,7 @@
 					<range>10879.07652479117</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_cave12</styleUrl>
+				<styleUrl>#sn_cave120</styleUrl>
 				<Point>
 					<coordinates>40.30230617476566,43.41977792767703,0</coordinates>
 				</Point>
@@ -37113,7 +37589,7 @@
 						<range>371.8252454541363</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>25.29729871651539,35.30502591098418,0</coordinates>
 					</Point>
@@ -37146,7 +37622,7 @@
 						<range>1398.271776143096</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>24.14611242504589,35.59030776461682,0</coordinates>
 					</Point>
@@ -37163,7 +37639,7 @@
 						<range>1398.271776143096</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>24.14363952684701,35.58901183783176,0</coordinates>
 					</Point>
@@ -37241,7 +37717,7 @@
 						<range>750.4901655840349</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>24.4064767261992,35.35866467859743,0</coordinates>
 					</Point>
@@ -37258,7 +37734,7 @@
 						<range>1499.522580972293</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>24.82909792403464,35.20842346275353,0</coordinates>
 					</Point>
@@ -37497,7 +37973,7 @@
 						<tilt>0</tilt>
 						<range>239.7257855419109</range>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>26.26802860990411,39.25078982214921,0</coordinates>
 					</Point>
@@ -37614,7 +38090,7 @@
 						<tilt>6.99750674108286e-10</tilt>
 						<range>306.3638531515718</range>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point>
 						<coordinates>20.47391048649392,38.19391943870058,0</coordinates>
 					</Point>
@@ -37834,7 +38310,7 @@
 						<tilt>1.470549567290243e-10</tilt>
 						<range>5157.561439560252</range>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>23.13380915779612,37.42106932916303,0</coordinates>
 					</Point>
@@ -37849,7 +38325,7 @@
 						<tilt>9.160348562656773e-11</tilt>
 						<range>1858.059837354785</range>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point>
 						<coordinates>23.16393280042181,37.47282874500497,0</coordinates>
 					</Point>
@@ -37864,7 +38340,7 @@
 						<tilt>9.160348562656773e-11</tilt>
 						<range>1858.059837354785</range>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point id="khPoint680">
 						<coordinates>23.16787713134405,37.46991415134529,0</coordinates>
 					</Point>
@@ -37894,7 +38370,7 @@
 						<tilt>0</tilt>
 						<range>158.3780779748722</range>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point>
 						<coordinates>22.35214040640398,37.63006299472661,0</coordinates>
 					</Point>
@@ -38101,7 +38577,7 @@
 						<range>594.90153015668</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>20.90855336869369,39.62216459739171,0</coordinates>
 					</Point>
@@ -39756,7 +40232,7 @@
 					<range>991.4251243568981</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_karst0</styleUrl>
+				<styleUrl>#sn_karst00</styleUrl>
 				<Point>
 					<coordinates>-6.108587693605817,55.15570453102205,0</coordinates>
 				</Point>
@@ -40108,7 +40584,7 @@
 						<range>1000.000157666082</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#msn_cave1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>35.45995700430976,31.74158400232555,0</coordinates>
@@ -41156,7 +41632,7 @@
 						<range>4140.395805697555</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-21.8432386763998,63.98464980866641,0</coordinates>
 					</Point>
@@ -42795,7 +43271,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Museo dei Minerali Elbani &quot;Alfeo Ricci&quot;</name>
+					<name>Museo dei Minerali Elbani "Alfeo Ricci"</name>
 					<LookAt>
 						<longitude>10.37749350261837</longitude>
 						<latitude>42.74541182607238</latitude>
@@ -44086,7 +44562,7 @@
 							<tilt>0.1038654915307981</tilt>
 							<range>3028.374323854322</range>
 						</LookAt>
-						<styleUrl>#sn_cave12</styleUrl>
+						<styleUrl>#sn_cave120</styleUrl>
 						<Point>
 							<coordinates>15.61439769073704,41.65308296250846,0</coordinates>
 						</Point>
@@ -44101,7 +44577,7 @@
 							<tilt>0.1038654744051943</tilt>
 							<range>721.4726485960276</range>
 						</LookAt>
-						<styleUrl>#sn_cave12</styleUrl>
+						<styleUrl>#sn_cave120</styleUrl>
 						<Point>
 							<coordinates>15.742225,41.8403,0</coordinates>
 						</Point>
@@ -44116,7 +44592,7 @@
 							<tilt>0.10386481825726</tilt>
 							<range>2937.478342379783</range>
 						</LookAt>
-						<styleUrl>#sn_cave12</styleUrl>
+						<styleUrl>#sn_cave120</styleUrl>
 						<Point>
 							<coordinates>15.62303333333334,41.91768055555556,0</coordinates>
 						</Point>
@@ -44163,7 +44639,7 @@
 							<tilt>0.1038568820292212</tilt>
 							<range>735.3696352871741</range>
 						</LookAt>
-						<styleUrl>#sn_karst0</styleUrl>
+						<styleUrl>#sn_karst00</styleUrl>
 						<Point>
 							<coordinates>15.59726420639962,41.70025365818287,0</coordinates>
 						</Point>
@@ -44178,7 +44654,7 @@
 							<tilt>0.1038608217021726</tilt>
 							<range>1040.534342483901</range>
 						</LookAt>
-						<styleUrl>#sn_karst0</styleUrl>
+						<styleUrl>#sn_karst00</styleUrl>
 						<Point>
 							<coordinates>15.56266023563788,41.78394845391907,0</coordinates>
 						</Point>
@@ -44373,7 +44849,7 @@
 						<tilt>0.1038588591243738</tilt>
 						<range>2242.163880805458</range>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point>
 						<coordinates>16.56957406820864,40.88729486477934,0</coordinates>
 					</Point>
@@ -45133,7 +45609,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Centro documentazione Castel di Pietra &quot;Davide Manni&quot;</name>
+					<name>Centro documentazione Castel di Pietra "Davide Manni"</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>10.9061578027211</longitude>
@@ -51689,7 +52165,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Alux Restaurant &amp; Lounge</name>
+					<name>Alux Restaurant & Lounge</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>-87.08733737439162</longitude>
@@ -54904,7 +55380,7 @@
 					<range>349.1674518708043</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_spring</styleUrl>
+				<styleUrl>#sn_spring0</styleUrl>
 				<Point>
 					<coordinates>-169.8364114165435,-19.13549466027364,0</coordinates>
 				</Point>
@@ -54920,7 +55396,7 @@
 					<range>1163.578231942646</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_cave12</styleUrl>
+				<styleUrl>#sn_cave120</styleUrl>
 				<Point>
 					<coordinates>-169.7995666367863,-18.99717803691528,0</coordinates>
 				</Point>
@@ -54936,7 +55412,7 @@
 					<range>768.9634040799428</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_cave12</styleUrl>
+				<styleUrl>#sn_cave120</styleUrl>
 				<Point>
 					<coordinates>-169.9096936322345,-18.99625954554725,0</coordinates>
 				</Point>
@@ -54952,7 +55428,7 @@
 					<range>1190.167146183107</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_spring</styleUrl>
+				<styleUrl>#sn_spring0</styleUrl>
 				<Point>
 					<coordinates>-169.8821470953678,-18.96239399008326,0</coordinates>
 				</Point>
@@ -54968,7 +55444,7 @@
 					<range>768.9634040799428</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_cave12</styleUrl>
+				<styleUrl>#sn_cave120</styleUrl>
 				<Point>
 					<coordinates>-169.9109754455322,-18.99757718766524,0</coordinates>
 				</Point>
@@ -54984,7 +55460,7 @@
 					<range>1190.167146183107</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_karst0</styleUrl>
+				<styleUrl>#sn_karst00</styleUrl>
 				<Point>
 					<coordinates>-169.8777930670555,-18.9595433838627,0</coordinates>
 				</Point>
@@ -55000,7 +55476,7 @@
 					<range>1000.000184365926</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_karst0</styleUrl>
+				<styleUrl>#sn_karst00</styleUrl>
 				<Point>
 					<coordinates>-169.8085784999538,-19.10702320006712,0</coordinates>
 				</Point>
@@ -55016,7 +55492,7 @@
 					<range>1228.938869250462</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_cave12</styleUrl>
+				<styleUrl>#sn_cave120</styleUrl>
 				<Point>
 					<coordinates>-169.7986603582194,-19.02293707993028,0</coordinates>
 				</Point>
@@ -55032,7 +55508,7 @@
 					<range>4493.515696791111</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_karst0</styleUrl>
+				<styleUrl>#sn_karst00</styleUrl>
 				<Point>
 					<coordinates>-169.791445035715,-19.08931705756071,0</coordinates>
 				</Point>
@@ -56708,7 +57184,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Podziemne Muzeum &quot;Kopalnia Zlota&quot; w Zlotym Stoku</name>
+					<name>Podziemne Muzeum "Kopalnia Zlota" w Zlotym Stoku</name>
 					<LookAt>
 						<longitude>16.87447011748889</longitude>
 						<latitude>50.43992160493829</latitude>
@@ -56724,7 +57200,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Podziemny kompleks &quot;Włodarz&quot;</name>
+					<name>Podziemny kompleks "Włodarz"</name>
 					<LookAt>
 						<longitude>16.44140120137633</longitude>
 						<latitude>50.69730141110892</latitude>
@@ -57016,7 +57492,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Skansen Podziemny &quot;Guido&quot; w Zabrzu</name>
+					<name>Skansen Podziemny "Guido" w Zabrzu</name>
 					<LookAt>
 						<longitude>18.79163993182581</longitude>
 						<latitude>50.28975032989429</latitude>
@@ -57195,7 +57671,7 @@
 					<range>1001.595192082366</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_showcave5</styleUrl>
+				<styleUrl>#msn_showcave6</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-66.6415730009719,18.49268699128721,0</coordinates>
@@ -57285,7 +57761,7 @@
 						<range>635.2464211846274</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-28.45522243375867,38.49420671031028,0</coordinates>
 					</Point>
@@ -57307,7 +57783,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Museu Vulcanoespeleológico &quot;Machado Fagundes&quot;</name>
+					<name>Museu Vulcanoespeleológico "Machado Fagundes"</name>
 					<LookAt>
 						<longitude>-27.21988282378962</longitude>
 						<latitude>38.6542374231875</latitude>
@@ -57563,7 +58039,7 @@
 						<range>313.4880707877383</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>-9.39871736858764,39.35584856305614,0</coordinates>
 					</Point>
@@ -57894,7 +58370,7 @@
 			<Folder>
 				<name>Cluj</name>
 				<Placemark>
-					<name>Muzeul de Speologie &quot;Emil Racoviţă&quot;</name>
+					<name>Muzeul de Speologie "Emil Racoviţă"</name>
 					<LookAt>
 						<longitude>23.58765803593513</longitude>
 						<latitude>46.77115993088134</latitude>
@@ -57910,7 +58386,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Institutul de Speologie &quot;Emil Racoviţă&quot;</name>
+					<name>Institutul de Speologie "Emil Racoviţă"</name>
 					<LookAt>
 						<longitude>23.57959685992893</longitude>
 						<latitude>46.76410523320399</latitude>
@@ -57948,7 +58424,7 @@
 						<range>1000.000144192625</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<styleUrl>#m_ylw-pushpin01</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>23.31843000222169,45.45345199657346,0</coordinates>
@@ -59769,7 +60245,7 @@
 						<range>12318.73121287593</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#msn_cave20</styleUrl>
 					<Point>
 						<coordinates>12.9286,63.46410000000001,0</coordinates>
 					</Point>
@@ -59785,7 +60261,7 @@
 						<range>293387.0186318985</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave10</styleUrl>
+					<styleUrl>#msn_cave100</styleUrl>
 					<Point>
 						<coordinates>14.12821292023693,64.88717452021716,0</coordinates>
 					</Point>
@@ -60240,7 +60716,7 @@
 						<tilt>0</tilt>
 						<range>17630.14678631201</range>
 					</LookAt>
-					<styleUrl>#msn_cave0</styleUrl>
+					<styleUrl>#msn_cave00</styleUrl>
 					<Point>
 						<coordinates>19.33381314199532,63.54988609198917,0</coordinates>
 					</Point>
@@ -60288,7 +60764,7 @@
 						<range>11906.14965359902</range>
 						<altitudeMode>relativeToGround</altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave1</styleUrl>
+					<styleUrl>#msn_cave10</styleUrl>
 					<Point>
 						<coordinates>19.38585530245855,63.59028420219991,0</coordinates>
 					</Point>
@@ -60927,7 +61403,7 @@
 						<range>10508.75657626312</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point>
 						<coordinates>14.25800558392113,45.83573124711801,0</coordinates>
 					</Point>
@@ -60975,7 +61451,7 @@
 						<range>4439.066602976272</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_karst0</styleUrl>
+					<styleUrl>#sn_karst00</styleUrl>
 					<Point>
 						<coordinates>14.29419492493999,45.79166133752232,0</coordinates>
 					</Point>
@@ -61074,7 +61550,7 @@
 							<range>506.5971561634672</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#sn_karst0</styleUrl>
+						<styleUrl>#sn_karst00</styleUrl>
 						<Point>
 							<coordinates>14.20485417704604,45.78227527040531,0</coordinates>
 						</Point>
@@ -61195,7 +61671,7 @@
 						<range>922.1019432987821</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<coordinates>14.7700135543035,45.88871292655028,0</coordinates>
 					</Point>
@@ -63075,7 +63551,7 @@
 						<tilt>2.489661226260173e-10</tilt>
 						<range>1474.695872319003</range>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>31.63207252590844,37.03823521233326,0</coordinates>
 					</Point>
@@ -63105,7 +63581,7 @@
 						<tilt>0.4362076412158377</tilt>
 						<range>468.361295607099</range>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>30.72656111111111,36.96386944444444,0</coordinates>
 					</Point>
@@ -63151,7 +63627,7 @@
 						<tilt>0.4361547382544722</tilt>
 						<range>176.3050804360393</range>
 					</LookAt>
-					<styleUrl>#sn_cave12</styleUrl>
+					<styleUrl>#sn_cave120</styleUrl>
 					<Point>
 						<coordinates>30.71138333333334,37.2326,0</coordinates>
 					</Point>
@@ -63325,7 +63801,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Cappadocia Cave Resort &amp; Spa</name>
+					<name>Cappadocia Cave Resort & Spa</name>
 					<LookAt>
 						<longitude>34.80721508330757</longitude>
 						<latitude>38.63196746886991</latitude>
@@ -63583,7 +64059,7 @@
 						<tilt>8.294029282705772e-09</tilt>
 						<range>1341.259141005278</range>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<coordinates>29.12393328497832,37.92365457936761,0</coordinates>
 					</Point>
@@ -63948,7 +64424,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Tamana Caves</name>
-				<address>+10° 20&apos; 60.00&quot;, -61° 10&apos; 60.00&quot;</address>
+				<address>+10° 20&apos; 60.00", -61° 10&apos; 60.00"</address>
 				<LookAt>
 					<longitude>-61.18333299968536</longitude>
 					<latitude>10.34999999984645</latitude>
@@ -64759,7 +65235,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Coleman Rock Shop &amp; Crystal Mines</name>
+					<name>Coleman Rock Shop & Crystal Mines</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>-93.07389491165699</longitude>
@@ -65281,7 +65757,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Gold King Mine &amp; Ghost Town</name>
+					<name>Gold King Mine & Ghost Town</name>
 					<LookAt>
 						<longitude>-112.1303923974778</longitude>
 						<latitude>34.75585029824842</latitude>
@@ -65503,7 +65979,7 @@
 						<tilt>3.551264312759684e-11</tilt>
 						<range>1703.103981797255</range>
 					</LookAt>
-					<styleUrl>#sn_spring</styleUrl>
+					<styleUrl>#sn_spring0</styleUrl>
 					<Point>
 						<coordinates>-111.7523162059361,34.64910277777778,0</coordinates>
 					</Point>
@@ -68014,7 +68490,7 @@
 						<range>1000.00038573136</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#msn_cave1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-77.55978898335248,40.69658699828067,0</coordinates>
@@ -69592,7 +70068,7 @@
 					<range>1436.946651134611</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#sn_cave12</styleUrl>
+				<styleUrl>#sn_cave120</styleUrl>
 				<Point>
 					<coordinates>22.56001515702885,-33.99825799437597,0</coordinates>
 				</Point>
