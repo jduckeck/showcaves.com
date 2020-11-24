@@ -25,60 +25,67 @@
     <!-- end responsive -->
 
 
-    <title>Caves of Brazil</title>
+    <title>Map of Brazil</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../br/caves/AbismoAnhumas.html">Abismo Anhumas</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/AguaSuja.html">Caverna Água Suja</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Alambari.html">Gruta Alambari de Baixo</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/AroeJari.html">Caverna Aroe Jari</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/BoaVista.html">Toca da Boa Vista</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/BuracoDoPadre.html">Furna do Buraco do Padre</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Cascata.html">Parque da Cascata</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Centenario.html">Gruta do Centenário</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Gloria.html">Gruta da Glória</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/LageBranca.html">Gruta da Lage Branca</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Lancinha.html">Gruta da Lancinha</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Lapa.html">Virgem da Lapa</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Lapao.html">Gruta do Lapão</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Mandacaia.html">Caverna da Mandaçaia</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Maroaga.html">Caverna do Maroaga</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/MorroCouto.html">Caverna do Morro do Couto</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/MorroPreto.html">Caverna do Morro Preto</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/OuroGrosso.html">Caverna Ouro Grosso</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/PadreCaio.html">Gruta do Padre Caio</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Paiva.html">Gruta Dos Paiva</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Pedra.html">Gruta Casa de Pedra</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Santana.html">Caverna Santana</a></li>
-                <li><a data-ajax="false" target="_top" href="../../br/caves/Torrinha.html">Gruta da Torrinha</a></li>
-            </ul>
+
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/SouthAmerica.html"><img alt="South America Map" src="../../../maps/SouthAmerica.gif" class="mapIconSouthAmerica"></a>
+            <figcaption class="center">South America Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/SouthAmerica.html"><img alt="South America Map" src="../../../maps/SouthAmerica.gif" class="mapIconSouthAmerica"></a>
+            <figcaption class="center">South America Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of Brazil</h1>
+
+        <div class="center">
+            <map name="BrazilMap">
+                <area shape="rect" alt="Bahia" coords="626,343,659,355" href="../region/Bahia.html">
+                <area shape="rect" alt="Minas Gerais" coords="568,449,646,461" href="../region/MinasGerais.html">
+                <area shape="rect" alt="São Paulo" coords="462,532,523,545" href="../region/SaoPaulo.html">
+                <area shape="rect" alt="Paraná" coords="415,591,459,604" href="../region/Parana.html">
+                <area shape="rect" alt="Mato Grosso do Sul" coords="330,503,448,517" href="../region/MatoGrosso.html">
+                <area shape="rect" alt="Goiás" coords="484,393,519,407" href="../region/Goias.html">
+                <area shape="rect" alt="Ceará" coords="675,214,709,227" href="../region/Ceara.html">
+                <area shape="rect" alt="Venezuela" coords="148,3,244,20" href="../../other/region/veMap.html">
+                <area shape="rect" alt="Colombia" coords="16,44,101,63" href="../../other/region/coMap.html">
+                <area shape="rect" alt="Peru" coords="9,183,55,202" href="../../pe/Maps/index.html">
+                <area shape="rect" alt="Peru" coords="17,380,64,399" href="../../pe/Maps/index.html">
+                <area shape="rect" alt="Bolivia" coords="180,426,244,445" href="../../other/region/boMap.html">
+                <area shape="rect" alt="Argentina" coords="175,653,266,673" href="../../ar/Maps/index.html">
+                <area shape="rect" alt="Chile" coords="103,583,153,602" href="../../cl/Maps/index.html">
+                <area shape="rect" alt="Paraguay" coords="272,566,365,587">
+                <area shape="rect" alt="Uruguay" coords="331,763,409,784" href="../../other/region/uy.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Brazil.gif" USEMAP="#BrazilMap" class="map">
         </div>
 
     </div>
 
+    <!-- Path Begin -->
     <div data-role="header" data-position="fixed">
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Brazil</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by State</a></li>
             </ul>
         </div>
-
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
-            <a data-ajax="false" href="../caves/index.html" data-role="button" class="ui-btn-active">Caves</a>
-            <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
-            <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
-            <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
-            <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">By State</a>
+            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
+    <!-- Path End -->
 
     <!-- Navigation Bar Begin -->
     <div data-role="footer" data-position="fixed">
