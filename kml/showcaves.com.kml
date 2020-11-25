@@ -6291,7 +6291,7 @@
 				<Folder>
 					<name>White Cliffs</name>
 					<Placemark>
-						<name>PJ&apos;s Underground Bed & Breakfast</name>
+						<name>PJ&apos;s Underground Bed &amp; Breakfast</name>
 						<LookAt>
 							<longitude>143.0981317805532</longitude>
 							<latitude>-30.85258108827581</latitude>
@@ -6533,7 +6533,7 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Riba&apos;s Underground Camping & Caravan Park</name>
+						<name>Riba&apos;s Underground Camping &amp; Caravan Park</name>
 						<LookAt>
 							<longitude>134.8055027108969</longitude>
 							<latitude>-29.03580762342767</latitude>
@@ -14148,7 +14148,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Butterfly Cave & Spring Park</name>
+					<name>Butterfly Cave &amp; Spring Park</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>110.4783249962854</longitude>
@@ -18401,7 +18401,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Besucherbergwerk "Drei Kronen & Ehrt"</name>
+					<name>Besucherbergwerk "Drei Kronen &amp; Ehrt"</name>
 					<LookAt>
 						<longitude>10.82753585176846</longitude>
 						<latitude>51.76337311460635</latitude>
@@ -30578,7 +30578,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Launois Père & Fils</name>
+					<name>Launois Père &amp; Fils</name>
 					<LookAt>
 						<longitude>4.02498976209037</longitude>
 						<latitude>48.94867276762552</latitude>
@@ -30659,7 +30659,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Moët & Chandon</name>
+					<name>Moët &amp; Chandon</name>
 					<LookAt>
 						<longitude>3.963491452227285</longitude>
 						<latitude>49.04304801830153</latitude>
@@ -33377,7 +33377,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Troglodytes & Sarcophages</name>
+					<name>Troglodytes &amp; Sarcophages</name>
 					<LookAt>
 						<longitude>-0.2601307985819734</longitude>
 						<latitude>47.18348174738562</latitude>
@@ -52165,7 +52165,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Alux Restaurant & Lounge</name>
+					<name>Alux Restaurant &amp; Lounge</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>-87.08733737439162</longitude>
@@ -63801,7 +63801,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Cappadocia Cave Resort & Spa</name>
+					<name>Cappadocia Cave Resort &amp; Spa</name>
 					<LookAt>
 						<longitude>34.80721508330757</longitude>
 						<latitude>38.63196746886991</latitude>
@@ -65235,7 +65235,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Coleman Rock Shop & Crystal Mines</name>
+					<name>Coleman Rock Shop &amp; Crystal Mines</name>
 					<open>1</open>
 					<LookAt>
 						<longitude>-93.07389491165699</longitude>
@@ -65757,7 +65757,7 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Gold King Mine & Ghost Town</name>
+					<name>Gold King Mine &amp; Ghost Town</name>
 					<LookAt>
 						<longitude>-112.1303923974778</longitude>
 						<latitude>34.75585029824842</latitude>
