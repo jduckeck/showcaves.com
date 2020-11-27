@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Trollkyrkja', '/english/no/caves/Trollkyrkja.html', 'Trollkyrkja', 'Europe', 'no', 'Norway', 'caves', 'MoreOgRomsdal', 62.8887917, 7.2678054);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta das Encantadas', '/english/br/caves/Encantadas.html', 'Encantadas', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Parana', -25.574160, -48.311815);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta do Tatu', '/english/br/caves/Tatu.html', 'Tatu', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo', -24.271550, -48.418050);
