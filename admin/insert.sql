@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Museu Mina Modelo Caetano Sonego', '/english/br/mines/CaetanoSonego.html', 'CaetanoSonego', 'SouthAmerica', 'br', 'Brazil', 'mines', 'SantaCatarina', -28.664632, -49.355208);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mina de Visitação Octávio Fontana', '/english/br/mines/OctavioFontana.html', 'OctavioFontana', 'SouthAmerica', 'br', 'Brazil', 'mines', 'SantaCatarina', -28.653679, -49.368913);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museu Estadual do Carvão', '/english/br/mines/Carvao.html', 'Carvao', 'SouthAmerica', 'br', 'Brazil', 'mines', 'RioGrandeSul', -30.091781, -51.722689);
