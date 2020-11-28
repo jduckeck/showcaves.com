@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gruta da Fada', '/english/br/caves/Fada.html', 'Fada', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Parana', -25.0376952, -49.0895477);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta dos Jesuítas', '/english/br/caves/Jesuítas.html', 'Jesuítas', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Parana', -25.0376952, -49.0895477);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museu Mina Modelo Caetano Sonego', '/english/br/mines/CaetanoSonego.html', 'CaetanoSonego', 'SouthAmerica', 'br', 'Brazil', 'mines', 'SantaCatarina', -28.664632, -49.355208);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mina de Visitação Octávio Fontana', '/english/br/mines/OctavioFontana.html', 'OctavioFontana', 'SouthAmerica', 'br', 'Brazil', 'mines', 'SantaCatarina', -28.653679, -49.368913);
