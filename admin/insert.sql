@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gruta do Fendão', '/english/br/caves/Fendao.html', 'Fendao', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo', -24.2728657, -48.4477544);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta Luminosa', '/english/br/caves/Luminosa.html', 'Luminosa', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SaoPaulo', -24.2877744, -48.4395328);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta da Fada', '/english/br/caves/Fada.html', 'Fada', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Parana', -25.0376952, -49.0895477);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta dos Jesuítas', '/english/br/caves/Jesuítas.html', 'Jesuítas', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Parana', -25.0376952, -49.0895477);
