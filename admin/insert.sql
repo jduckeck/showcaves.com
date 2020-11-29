@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mina de Visitação Octávio Fontana', '/english/br/mines/OctavioFontana.html', 'OctavioFontana', 'SouthAmerica', 'br', 'Brazil', 'mines', 'SantaCatarina', -28.653679, -49.368913);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Museu Estadual do Carvão', '/english/br/mines/Carvao.html', 'Carvao', 'SouthAmerica', 'br', 'Brazil', 'mines', 'RioGrandeSul', -30.091781, -51.722689);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Caverna Rio dos Bugres', '/english/br/caves/RioDosBugres.html', 'RioDosBugres', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SantaCatarina', -27.9656396769425, -49.50934020602771);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Inscrições Rupestres', '/english/br/caves/InscricoesRupestres.html', 'InscricoesRupestres', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SantaCatarina', -28.028216620558542, -49.61222029335253);
