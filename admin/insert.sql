@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Caverna Rio dos Bugres', '/english/br/caves/RioDosBugres.html', 'RioDosBugres', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SantaCatarina', -27.9656396769425, -49.50934020602771);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Inscrições Rupestres', '/english/br/caves/InscricoesRupestres.html', 'InscricoesRupestres', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SantaCatarina', -28.028216620558542, -49.61222029335253);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Baños de Doña María de Padilla', '/english/es/subterranea/MariaDePadilla.html', 'MariaDePadilla', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.38382161179711, -5.990887762277369);
