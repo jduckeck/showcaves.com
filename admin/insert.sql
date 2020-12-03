@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Inscrições Rupestres', '/english/br/caves/InscricoesRupestres.html', 'InscricoesRupestres', 'SouthAmerica', 'br', 'Brazil', 'caves', 'SantaCatarina', -28.028216620558542, -49.61222029335253);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Baños de Doña María de Padilla', '/english/es/subterranea/MariaDePadilla.html', 'MariaDePadilla', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.38382161179711, -5.990887762277369);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Peștera Porțile Bihorului', '/english/ro/caves/PortileBihorului.html', 'PortileBihorului', 'Europe', 'ro', 'Romania', 'caves', 'Apuseni', 46.50079810471438, 22.625002140326142);
