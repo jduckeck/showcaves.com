@@ -30,3 +30,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Baños de Doña María de Padilla', '/english/es/subterranea/MariaDePadilla.html', 'MariaDePadilla', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.38382161179711, -5.990887762277369);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Peștera Porțile Bihorului', '/english/ro/caves/PortileBihorului.html', 'PortileBihorului', 'Europe', 'ro', 'Romania', 'caves', 'Apuseni', 46.50079810471438, 22.625002140326142);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kaaterskill Falls', '/english/usa/caves/KaaterskillFalls.html', 'KaaterskillFalls', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ny', 42.193234, -74.063044);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Noccalula Falls', '/english/usa/caves/NoccalulaFalls.html', 'NoccalulaFalls', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'al', 34.0412854357172, -86.02141979667644);
