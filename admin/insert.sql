@@ -48,3 +48,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','La\'auolola Caves', '/english/other/caves/Laauolola.html', 'Laauolola', 'Oceania', 'ws', 'Samoa', 'caves', 'ws', 'other', -13.538862, -172.529741);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','House of Rock', '/english/other/caves/HouseRock.html', 'HouseRock', 'Oceania', 'ws', 'Samoa', 'caves', 'ws', 'other', -13.502372, -172.768169);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Mapu’a a Vaea', '/english/other/karst/MapuaaVaea.html', 'MapuaaVaea', 'Oceania', 'to', 'Tonga', 'karst', 'to', 'other', -21.174228, -175.308312);
