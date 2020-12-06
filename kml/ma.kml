@@ -1,114 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-    <Document>
-        <atom:author>
-            <atom:name>Jochen Duckeck</atom:name>
-        </atom:author>
-        <atom:link href="http://www.showcaves.com" />
-        <Style id="showcave">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="cave">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="subterranea">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="mine">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="karst">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="spring">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="gorge">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <name>Morocco</name>
-        <Placemark>
-            <name>Gouffre Friouato</name>
-            <description>
-                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../other/showcaves/Friouato.html"          >Gouffre Friouato</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-4.075321830755868</longitude>
-                <latitude>34.10130572438369</latitude>
-                <altitude>0</altitude>
-                <range>7124.479794430857</range>
-                <tilt>0</tilt>
-                <heading>-0.02891609053373649</heading>
-            </LookAt>
-            <styleUrl>#showcave</styleUrl>
-            <Point>
-                <coordinates>-4.075321830755868,34.10130572438369,0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark>
-            <name>Grottes d&apos;Hercules - The Caves of Hercules</name>
-            <description>
-                <![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../other/showcaves/Hercules.html"          >Grottes d'Hercules</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-5.939155893476982</longitude>
-                <latitude>35.75976249514557</latitude>
-                <altitude>0</altitude>
-                <range>468.3642026038475</range>
-                <tilt>12.43202212134103</tilt>
-                <heading>-1.948303950832268e-014</heading>
-            </LookAt>
-            <styleUrl>#subterranea</styleUrl>
-            <Point>
-                <coordinates>-5.939265792143203,35.7602547207968,0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark>
-            <name>Bhalil Cave Dwellings</name>
-            <description>
-                <![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../other/subterranea/Bhalil.html"                 >Bhalil Cave Dwellings</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-4.873231553399918</longitude>
-                <latitude>33.84864983646171</latitude>
-                <altitude>0</altitude>
-                <range>6630.704408537801</range>
-                <tilt>0</tilt>
-                <heading>0.0504915671812189</heading>
-                <altitudeMode>relativeToGround</altitudeMode>
-            </LookAt>
-            <styleUrl>#subterranea</styleUrl>
-            <Point>
-                <coordinates>-4.872110492374787,33.85027582415479,0</coordinates>
-            </Point>
-        </Placemark>
-    </Document>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ma.kml</name>
+	<Style id="sh_karst">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="subterranea">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="cross-hairs">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_subterranea">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_karst">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave1200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="showcave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave1200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>ma</name>
+		<open>1</open>
+		<Placemark>
+			<name>Morocco</name>
+			<LookAt>
+				<longitude>-7.503417283522659</longitude>
+				<latitude>31.44368992292554</latitude>
+				<altitude>0</altitude>
+				<heading>-10.08536158482371</heading>
+				<tilt>0</tilt>
+				<range>1453545.084836207</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cross-hairs</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-7.50341728352266,31.44368992292554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bhalil Cave Dwellings</name>
+			<LookAt>
+				<longitude>-4.873231553399918</longitude>
+				<latitude>33.84864983646171</latitude>
+				<altitude>0</altitude>
+				<heading>0.0504915671812189</heading>
+				<tilt>0</tilt>
+				<range>6630.704408537801</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#subterranea</styleUrl>
+			<Point>
+				<coordinates>-4.872110492374787,33.85027582415479,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gouffre Friouato</name>
+			<LookAt>
+				<longitude>-4.075321830755868</longitude>
+				<latitude>34.10130572438369</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02891609053373649</heading>
+				<tilt>0</tilt>
+				<range>7124.479794430857</range>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>-4.075321830755868,34.10130572438369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grottes d&apos;Hercules - The Caves of Hercules</name>
+			<LookAt id="khLookAt527">
+				<longitude>-5.939155893476982</longitude>
+				<latitude>35.75976249514557</latitude>
+				<altitude>0</altitude>
+				<heading>-1.948303950832268e-14</heading>
+				<tilt>12.43202212134103</tilt>
+				<range>468.3642026038475</range>
+			</LookAt>
+			<styleUrl>#subterranea</styleUrl>
+			<Point id="khPoint528">
+				<coordinates>-5.939265792143203,35.7602547207968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Knadel Cave</name>
+			<LookAt>
+				<longitude>-5.26876540032533</longitude>
+				<latitude>35.1690946996786</latitude>
+				<altitude>0</altitude>
+				<heading>-1.873028651913864e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.000181275883</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.26876540032533,35.1690946996786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Portuguese Cistern</name>
+			<LookAt>
+				<longitude>-8.50240000021882</longitude>
+				<latitude>33.2566000001617</latitude>
+				<altitude>0</altitude>
+				<heading>-1.199776788328371e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.00019148065</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#subterranea</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-8.50240000021882,33.2566000001617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prison de Kara</name>
+			<LookAt>
+				<longitude>-5.564990999592317</longitude>
+				<latitude>33.89095200031679</latitude>
+				<altitude>0</altitude>
+				<heading>2.274215868046969e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.000186110459</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#subterranea</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-5.564990999592317,33.8909520003168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Imi n’Ifri</name>
+			<LookAt>
+				<longitude>-6.97161294975272</longitude>
+				<latitude>31.72394485032136</latitude>
+				<altitude>0</altitude>
+				<heading>1.301753322802795e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.000172854488</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_karst</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-6.97161294975272,31.72394485032135,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
 </kml>

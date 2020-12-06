@@ -1,243 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-    <Document>
-        <atom:author>             
-          <atom:name>Jochen Duckeck</atom:name>         
-        </atom:author>         
-        <atom:link href="http://www.showcaves.com" />
-        <Style id="showcave">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="cave">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="subterranea">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="mine">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="karst">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="spring">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="gorge">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-    	<name>South Africa</name>
-<!--
-    		<styleUrl>#cave</styleUrl>
-    		<styleUrl>#showcave</styleUrl>
-    		<styleUrl>#subterranea</styleUrl>
-    		<styleUrl>#mine</styleUrl>
-    		<styleUrl>#karst</styleUrl>
-    		<styleUrl>#spring</styleUrl>
-    		<styleUrl>#gorge</styleUrl>
-
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Beatrix.html"                 >Beatrix Mine</a>]]></description>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Joel.html"                    >Joel Mine</a>]]></description>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Koffiefontein.html"           >De Beers Open Mine</a>]]></description>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/StHelena.html"                >St. Helena Gold Mine</a>]]></description>
-
--->
-		<Placemark>
-			<name>Burke&apos;s Luck Potholes</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Gorge.png"    width="12" height="12">&nbsp;<a href="../../za/gorges/BurkesLuck.html"             >Burke's Luck Potholes</a>]]></description>
-			<LookAt>
-				<longitude>30.81484511698824</longitude>
-				<latitude>-24.67258088678553</latitude>
-				<altitude>0</altitude>
-				<range>1751.19604526817</range>
-				<tilt>0</tilt>
-				<heading>0.1641077403925435</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#gorge</styleUrl>
-			<Point>
-				<coordinates>30.81136573483095,-24.67429857655557,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Blyde River Canyon</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Gorge.png"    width="12" height="12">&nbsp;<a href="../../za/gorges/BlydeRiver.html"             >Blyde River Canyon</a>]]></description>
-			<LookAt>
-				<longitude>30.82052010710291</longitude>
-				<latitude>-24.60362728616133</latitude>
-				<altitude>0</altitude>
-				<range>4121.504788894453</range>
-				<tilt>0</tilt>
-				<heading>0.1617359958776739</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#gorge</styleUrl>
-			<Point>
-				<coordinates>30.81544279198338,-24.60475272973348,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Blyde River Canyon</name>
-            <description><![CDATA[<img vspace="0" hspace="0" src="../../../graphics/symbol/Gorge.png"    width="12" height="12">&nbsp;<a href="../../za/gorges/BlydeRiver.html"             >Blyde River Canyon</a>]]></description>
-			<LookAt>
-				<longitude>30.80007979912942</longitude>
-				<latitude>-24.57260179853334</latitude>
-				<altitude>0</altitude>
-				<range>4007.914857600859</range>
-				<tilt>0</tilt>
-				<heading>0.1702470696293309</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#gorge</styleUrl>
-			<Point>
-				<coordinates>30.79870281920306,-24.57247877224661,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Echo Caves</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Echo.html"                >Echo Caves</a>]]></description>
-			<LookAt>
-				<longitude>30.60210864802036</longitude>
-				<latitude>-24.56300630048789</latitude>
-				<altitude>0</altitude>
-				<range>2180.458261330803</range>
-				<tilt>0</tilt>
-				<heading>0.2524573264149509</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#showcave</styleUrl>
-			<Point>
-				<coordinates>30.60317823679605,-24.56240841084964,0</coordinates>
-			</Point>
-		</Placemark>
-    	<Placemark>
-    		<name>Sudwala Cave</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Sudwala.html"             >Sudwala Caves</a>]]></description>
-    		<LookAt>
-    			<longitude>30.69968398822673</longitude>
-    			<latitude>-25.37009214238318</latitude>
-    			<altitude>0</altitude>
-    			<range>4741.2312775085</range>
-    			<tilt>2.647680389478603e-012</tilt>
-    			<heading>0.0002150868206448957</heading>
-    			<altitudeMode>relativeToGround</altitudeMode>
-    		</LookAt>
-    		<styleUrl>#showcave</styleUrl>
-    		<Point>
-    			<coordinates>30.69983860059651,-25.37079453887444,0</coordinates>
-    		</Point>
-    	</Placemark>
-    	<Placemark>
-    		<name>St Blaize Cave</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/StBlaize.html"            >St Blaize Cave</a>]]></description>
-    		<LookAt>
-    			<longitude>22.15651811187099</longitude>
-    			<latitude>-34.1861846494283</latitude>
-    			<altitude>0</altitude>
-    			<range>241.2403031740125</range>
-    			<tilt>0</tilt>
-    			<heading>0.03009654545369636</heading>
-    		</LookAt>
-    		<styleUrl>#showcave</styleUrl>
-    		<Point>
-    			<coordinates>22.15664944819908,-34.18620244150358,0</coordinates>
-    		</Point>
-    	</Placemark>
-    	<Placemark>
-    		<name>Wonderwerk Caves</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Wonderwerk.html"          >Wonderwerk Cave</a>]]></description>
-    		<LookAt>
-    			<longitude>23.55879651081971</longitude>
-    			<latitude>-27.83927332752057</latitude>
-    			<altitude>0</altitude>
-    			<range>18227.97537661489</range>
-    			<tilt>0</tilt>
-    			<heading>8.24974240281773e-005</heading>
-    			<altitudeMode>relativeToGround</altitudeMode>
-    		</LookAt>
-    		<styleUrl>#showcave</styleUrl>
-    		<Point>
-    			<coordinates>23.55896231311608,-27.83945135513948,0</coordinates>
-    		</Point>
-    	</Placemark>
-    	<Placemark>
-    		<name>Kaaiman&apos;s Grotto</name>
-            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Kaaiman.html"                 >Kaaiman's Grotto</a>]]></description>
-    		<LookAt>
-    			<longitude>22.55742040189781</longitude>
-    			<latitude>-33.99767871951782</latitude>
-    			<altitude>0</altitude>
-    			<range>1436.946651134611</range>
-    			<tilt>0</tilt>
-    			<heading>-0.003586828280756695</heading>
-    			<altitudeMode>relativeToGround</altitudeMode>
-    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-    		</LookAt>
-    		<styleUrl>#cave</styleUrl>
-    		<Point>
-    			<coordinates>22.56001515702885,-33.99825799437597,0</coordinates>
-    		</Point>
-    	</Placemark>
-    	<Placemark>
-    		<name>Swartkrans Cave</name>
-            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Swartkrans.html"              >Swartkrans Cave</a>]]></description>
-    		<LookAt>
-    			<longitude>27.72241365809851</longitude>
-    			<latitude>-26.01484739071412</latitude>
-    			<altitude>0</altitude>
-    			<range>587.9980554251019</range>
-    			<tilt>0</tilt>
-    			<heading>0.02997851474374928</heading>
-    			<altitudeMode>relativeToGround</altitudeMode>
-    			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-    		</LookAt>
-    		<styleUrl>#cave</styleUrl>
-    		<Point>
-    			<coordinates>27.72257284989246,-26.01481567737522,0</coordinates>
-    		</Point>
-    	</Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>za.kml</name>
+	<StyleMap id="mine">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="subterranea">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_subterranea">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine210">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave1200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave120">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="showcave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="gorge">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave50">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave1200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_gorge000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_gorge0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>za</name>
 		<Placemark>
 			<name>Cullinan Mine</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Cullinan.html"                >Cullinan Mine</a>]]></description>
+			<open>1</open>
 			<LookAt>
 				<longitude>28.51637102046527</longitude>
 				<latitude>-25.67338855172696</latitude>
 				<altitude>0</altitude>
-				<range>3009.442222074003</range>
-				<tilt>0</tilt>
 				<heading>0.006424422409111588</heading>
+				<tilt>0</tilt>
+				<range>3009.442222074003</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
 			<styleUrl>#mine</styleUrl>
@@ -246,181 +160,32 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Blaauwbank Historic Gold Mine</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Blaauwbank.html"              >Blaauwbank Mine</a>]]></description>
+			<name>Coopers Cave</name>
+			<open>1</open>
 			<LookAt>
-				<longitude>27.53886767780609</longitude>
-				<latitude>-25.9981466447617</latitude>
+				<longitude>27.74524649442488</longitude>
+				<latitude>-26.01237534037903</latitude>
 				<altitude>0</altitude>
-				<range>4947.529158824263</range>
+				<heading>-0.1936818386726714</heading>
 				<tilt>0</tilt>
-				<heading>0.439648247410121</heading>
+				<range>595.1862032308283</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#mine</styleUrl>
+			<styleUrl>#cave</styleUrl>
 			<Point>
-				<coordinates>27.53293519555212,-26.00225595802918,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Sterkfontein Caves</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Sterkfontein.html"        >Sterkfontein Caves</a>]]></description>
-			<LookAt>
-				<longitude>27.73379645653446</longitude>
-				<latitude>-26.01570864586412</latitude>
-				<altitude>0</altitude>
-				<range>334.354886886507</range>
-				<tilt>0</tilt>
-				<heading>-0.1911784661971369</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-			</LookAt>
-			<styleUrl>#showcave</styleUrl>
-			<Point>
-				<coordinates>27.73433111496441,-26.01566365108378,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Wonder Cave</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Wondercave.html"          >Wondercave</a>]]></description>
-			<LookAt>
-				<longitude>27.78210682993798</longitude>
-				<latitude>-25.98263610571579</latitude>
-				<altitude>0</altitude>
-				<range>359.7041285340401</range>
-				<tilt>1.143482865245813e-011</tilt>
-				<heading>-0.2123290511335816</heading>
-			</LookAt>
-			<styleUrl>#showcave</styleUrl>
-			<Point>
-				<coordinates>27.78210682993798,-25.98263610571579,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Maropeng</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a href="../../za/misc/Maropeng.html"                 >Maropeng</a>]]></description>
-			<LookAt>
-				<longitude>27.66175340777413</longitude>
-				<latitude>-25.96848714967497</latitude>
-				<altitude>0</altitude>
-				<range>1733.115454033095</range>
-				<tilt>0</tilt>
-				<heading>-0.1595989981230196</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>27.66191052326632,-25.968330535967,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Kromdraai Gold Mine</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Kromdraai.html"               >Kromdraai Gold Mine</a>]]></description>
-			<LookAt>
-				<longitude>27.84889737707245</longitude>
-				<latitude>-26.00195870735008</latitude>
-				<altitude>0</altitude>
-				<range>29977.72777355958</range>
-				<tilt>1.173286832945478e-024</tilt>
-				<heading>0.08362376392636282</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-			</LookAt>
-			<styleUrl>#mine</styleUrl>
-			<Point>
-				<coordinates>27.84898807654564,-26.0027403395024,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Gold Reef City</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/GoldReef.html"                >Gold Reef City</a>]]></description>
-			<LookAt>
-				<longitude>28.01136725975239</longitude>
-				<latitude>-26.23722725786747</latitude>
-				<altitude>0</altitude>
-				<range>1181.596496892912</range>
-				<tilt>3.503682664117293e-012</tilt>
-				<heading>0.01211903813819635</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-			</LookAt>
-			<styleUrl>#mine</styleUrl>
-			<Point>
-				<coordinates>28.01099477091817,-26.23666615375257,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Ferreira&apos;s Mine</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Ferreira.html"                >Ferreira's Mine</a>]]></description>
-			<LookAt>
-				<longitude>28.03887136577102</longitude>
-				<latitude>-26.20108789705988</latitude>
-				<altitude>0</altitude>
-				<range>4640.661259375459</range>
-				<tilt>0</tilt>
-				<heading>-5.597847733019456e-005</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-			</LookAt>
-			<styleUrl>#mine</styleUrl>
-			<Point>
-				<coordinates>28.03888740240484,-26.20030127318741,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Jagersfontein Mine</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Jagersfontein.html"           >Jagersfontein Mine</a>]]></description>
-			<LookAt>
-				<longitude>25.4269878084538</longitude>
-				<latitude>-29.77259108884589</latitude>
-				<altitude>0</altitude>
-				<range>6235.818830702553</range>
-				<tilt>4.558210954145007e-012</tilt>
-				<heading>0.007517052716013052</heading>
-			</LookAt>
-			<styleUrl>#mine</styleUrl>
-			<Point>
-				<coordinates>25.41908611111111,-29.76541666666667,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Big Hole</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Kimberley.html"               >Kimberley Mine - Big Hole</a>]]></description>
-			<LookAt>
-				<longitude>24.75810033823057</longitude>
-				<latitude>-28.73808085898107</latitude>
-				<altitude>0</altitude>
-				<range>798.7843394980374</range>
-				<tilt>0</tilt>
-				<heading>0.00573727163940414</heading>
-			</LookAt>
-			<styleUrl>#mine</styleUrl>
-			<Point>
-				<coordinates>24.7549638888889,-28.73855,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Bultfontein Mine</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../za/mines/Bultfontein.html"             >Bultfontein Mine</a>]]></description>
-			<LookAt>
-				<longitude>24.72492097863605</longitude>
-				<latitude>-28.69252522144974</latitude>
-				<altitude>0</altitude>
-				<range>8445.825364677499</range>
-				<tilt>1.162938805289983e-012</tilt>
-				<heading>-0.6049665830016087</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-			</LookAt>
-			<styleUrl>#mine</styleUrl>
-			<Point>
-				<coordinates>24.72492097863605,-28.69252522144975,0</coordinates>
+				<coordinates>27.74584378791081,-26.01281854448153,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Cango Caves</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../za/showcaves/Cango.html"               >Cango Caves</a>]]></description>
+			<open>1</open>
 			<LookAt>
 				<longitude>22.21248401609856</longitude>
 				<latitude>-33.39797402129807</latitude>
 				<altitude>0</altitude>
-				<range>33371.50756136354</range>
-				<tilt>9.772709044022934e-013</tilt>
 				<heading>0.04361190819401175</heading>
+				<tilt>9.772709044022934e-13</tilt>
+				<range>33371.50756136354</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
 			<styleUrl>#showcave</styleUrl>
@@ -429,15 +194,66 @@
 			</Point>
 		</Placemark>
 		<Placemark>
+			<name>Echo Caves</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.60210864802036</longitude>
+				<latitude>-24.56300630048789</latitude>
+				<altitude>0</altitude>
+				<heading>0.2524573264149509</heading>
+				<tilt>0</tilt>
+				<range>2180.458261330803</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>30.60317823679605,-24.56240841084964,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Burke&apos;s Luck Potholes</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.81484511698824</longitude>
+				<latitude>-24.67258088678553</latitude>
+				<altitude>0</altitude>
+				<heading>0.1641077403925435</heading>
+				<tilt>0</tilt>
+				<range>1751.19604526817</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#gorge</styleUrl>
+			<Point>
+				<coordinates>30.81136573483095,-24.67429857655557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bultfontein Mine</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>24.72492097863605</longitude>
+				<latitude>-28.69252522144974</latitude>
+				<altitude>0</altitude>
+				<heading>-0.6049665830016087</heading>
+				<tilt>1.162938805289983e-12</tilt>
+				<range>8445.825364677499</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>24.72492097863605,-28.69252522144975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>Border Cave</name>
-            <description><![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../za/caves/Border.html"                  >Border Cave</a>]]></description>
+			<open>1</open>
 			<LookAt>
 				<longitude>32.41866992315804</longitude>
 				<latitude>-27.04520045152413</latitude>
 				<altitude>0</altitude>
-				<range>122196.1911534936</range>
-				<tilt>0</tilt>
 				<heading>-1.219376720756962</heading>
+				<tilt>0</tilt>
+				<range>122196.1911534936</range>
 				<altitudeMode>relativeToGround</altitudeMode>
 			</LookAt>
 			<styleUrl>#cave</styleUrl>
@@ -445,5 +261,393 @@
 				<coordinates>32.42405237606062,-27.04159130201692,0</coordinates>
 			</Point>
 		</Placemark>
-    </Document>
+		<Placemark>
+			<name>Blyde River Canyon</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.80007979912942</longitude>
+				<latitude>-24.57260179853334</latitude>
+				<altitude>0</altitude>
+				<heading>0.1702470696293309</heading>
+				<tilt>0</tilt>
+				<range>4007.914857600859</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#gorge</styleUrl>
+			<Point>
+				<coordinates>30.79870281920306,-24.57247877224661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Blyde River Canyon</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.82052010710291</longitude>
+				<latitude>-24.60362728616133</latitude>
+				<altitude>0</altitude>
+				<heading>0.1617359958776739</heading>
+				<tilt>0</tilt>
+				<range>4121.504788894453</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#gorge</styleUrl>
+			<Point>
+				<coordinates>30.81544279198338,-24.60475272973348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Komati Gorge</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.30410946921016</longitude>
+				<latitude>-25.8726878679305</latitude>
+				<altitude>0</altitude>
+				<heading>0.0150894259129406</heading>
+				<tilt>0</tilt>
+				<range>6492.408945940416</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#gorge</styleUrl>
+			<Point>
+				<coordinates>30.30410946921016,-25.87268786793051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lanner Gorge</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>31.13271295049296</longitude>
+				<latitude>-22.44226236575931</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0368506833829662</heading>
+				<tilt>0</tilt>
+				<range>11997.42564079891</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#gorge</styleUrl>
+			<Point>
+				<coordinates>31.13271295049295,-22.44226236575931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oribi Gorge</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.26613420281832</longitude>
+				<latitude>-30.71068563168947</latitude>
+				<altitude>0</altitude>
+				<heading>0.02946785227669762</heading>
+				<tilt>0</tilt>
+				<range>8581.942092823962</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#gorge</styleUrl>
+			<Point>
+				<coordinates>30.2692054020575,-30.71149263899465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Blaauwbank Historic Gold Mine</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.53886767780609</longitude>
+				<latitude>-25.9981466447617</latitude>
+				<altitude>0</altitude>
+				<heading>0.439648247410121</heading>
+				<tilt>0</tilt>
+				<range>4947.529158824263</range>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>27.53293519555212,-26.00225595802918,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Matobo National Park</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>28.47625574593823</longitude>
+				<latitude>-20.41220256827495</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01961146399692502</heading>
+				<tilt>0</tilt>
+				<range>2598.301856926982</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<coordinates>28.47893319052844,-20.41296118529679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ferreira&apos;s Mine</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>28.03887136577102</longitude>
+				<latitude>-26.20108789705988</latitude>
+				<altitude>0</altitude>
+				<heading>-5.597847733019456e-05</heading>
+				<tilt>0</tilt>
+				<range>4640.661259375459</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>28.03888740240484,-26.20030127318741,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gold Reef City</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>28.01136725975239</longitude>
+				<latitude>-26.23722725786747</latitude>
+				<altitude>0</altitude>
+				<heading>0.01211903813819635</heading>
+				<tilt>3.503682664117293e-12</tilt>
+				<range>1181.596496892912</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>28.01099477091817,-26.23666615375257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Jagersfontein Mine</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>25.4269878084538</longitude>
+				<latitude>-29.77259108884589</latitude>
+				<altitude>0</altitude>
+				<heading>0.007517052716013052</heading>
+				<tilt>4.558210954145007e-12</tilt>
+				<range>6235.818830702553</range>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>25.41908611111111,-29.76541666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kaaiman&apos;s Grotto</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>22.55742040189781</longitude>
+				<latitude>-33.99767871951782</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003586828280756695</heading>
+				<tilt>0</tilt>
+				<range>1436.946651134611</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#sn_cave120</styleUrl>
+			<Point>
+				<coordinates>22.56001515702885,-33.99825799437597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Plovers Lake Cave</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.77630681027643</longitude>
+				<latitude>-25.97550790100899</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2072834680201131</heading>
+				<tilt>0</tilt>
+				<range>1976.685756843912</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<coordinates>27.77673301624205,-25.97757770089962,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Swartkrans Cave</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.72349813494963</longitude>
+				<latitude>-26.01693744752754</latitude>
+				<altitude>0</altitude>
+				<heading>0.02592229469181467</heading>
+				<tilt>0</tilt>
+				<range>679.3375585903273</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<coordinates>27.72367314995762,-26.01731540025587,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Big Hole</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>24.75810033823057</longitude>
+				<latitude>-28.73808085898107</latitude>
+				<altitude>0</altitude>
+				<heading>0.00573727163940414</heading>
+				<tilt>0</tilt>
+				<range>798.7843394980374</range>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>24.7549638888889,-28.73855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kromdraai Gold Mine</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.84889737707245</longitude>
+				<latitude>-26.00195870735008</latitude>
+				<altitude>0</altitude>
+				<heading>0.08362376392636282</heading>
+				<tilt>1.173286832945478e-24</tilt>
+				<range>29977.72777355958</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>27.84898807654564,-26.0027403395024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maropeng</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.66175340777413</longitude>
+				<latitude>-25.96848714967497</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1595989981230196</heading>
+				<tilt>0</tilt>
+				<range>1733.115454033095</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#subterranea</styleUrl>
+			<Point>
+				<coordinates>27.66191052326632,-25.968330535967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wonder Cave</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.7707599198708</longitude>
+				<latitude>-25.96958716451304</latitude>
+				<altitude>0</altitude>
+				<heading>0.007923356466994783</heading>
+				<tilt>0</tilt>
+				<range>1047.582708205501</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>27.77119926887706,-25.97071309299219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sudwala Cave</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>30.69968398822673</longitude>
+				<latitude>-25.37009214238318</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002150868206448957</heading>
+				<tilt>2.647680389478603e-12</tilt>
+				<range>4741.2312775085</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>30.69983860059651,-25.37079453887444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sterkfontein Caves</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>27.73379645653446</longitude>
+				<latitude>-26.01570864586412</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1911784661971369</heading>
+				<tilt>0</tilt>
+				<range>334.354886886507</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>27.73433111496441,-26.01566365108378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St Blaize Cave</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>22.15651811187099</longitude>
+				<latitude>-34.1861846494283</latitude>
+				<altitude>0</altitude>
+				<heading>0.03009654545369636</heading>
+				<tilt>0</tilt>
+				<range>241.2403031740125</range>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>22.15664944819908,-34.18620244150358,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wonderwerk Caves</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>23.55879651081971</longitude>
+				<latitude>-27.83927332752057</latitude>
+				<altitude>0</altitude>
+				<heading>8.24974240281773e-05</heading>
+				<tilt>0</tilt>
+				<range>18227.97537661489</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<coordinates>23.55896231311608,-27.83945135513948,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bushmans Kloof Lodge</name>
+			<LookAt>
+				<longitude>19.10766472167052</longitude>
+				<latitude>-32.11611035588478</latitude>
+				<altitude>0</altitude>
+				<heading>0.01930804298496147</heading>
+				<tilt>0</tilt>
+				<range>992.2935708506226</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#showcave</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>19.10755304002595,-32.11634660234967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Palabora Copper Mine</name>
+			<LookAt>
+				<longitude>31.15197989908503</longitude>
+				<latitude>-23.9687465025273</latitude>
+				<altitude>0</altitude>
+				<heading>3.716987034039153e-10</heading>
+				<tilt>0</tilt>
+				<range>1010.020609156678</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>31.15197989908503,-23.9687465025273,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
 </kml>
