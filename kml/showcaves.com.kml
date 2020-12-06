@@ -2,11 +2,63 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>showcaves.com.kml</name>
-	<Style id="sh_mine13">
+	<Style id="sh_showcave20">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_gorge00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_subterranea">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave1200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -20,21 +72,27 @@
 			<styleUrl>#sh_cave50</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="spring">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_spring00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_spring1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_subterranea4">
+	<Style id="sn_karst00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_spring1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cross-hairs">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -43,68 +101,6 @@
 			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_showcave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_cave">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_karst0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_showcave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_showcave4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_showcave0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -118,37 +114,11 @@
 			<styleUrl>#sh_cross-hairs</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="parks">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parks</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parks</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_subterranea">
+	<Style id="sn_cave120">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_showcave0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_parks">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -160,100 +130,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cross-hairs">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_showcave">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_showcave">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_cave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_mine210">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_showcave20">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_showcave40">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="mine">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine210</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_cave1200">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="gorge">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_gorge000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_gorge0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_cave50">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -262,63 +138,19 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="showcave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_spring0">
+	<Style id="sh_subterranea4">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="karst">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_karst00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_karst0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_karst00">
+	<Style id="sh_karst0">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_gorge0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_spring1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -332,37 +164,65 @@
 			<styleUrl>#sh_karst</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_spring00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="subterranea">
+	<StyleMap id="spring">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_subterranea</styleUrl>
+			<styleUrl>#sn_spring00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea4</styleUrl>
+			<styleUrl>#sh_spring1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cross-hairs">
+	<Style id="sn_showcave4">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="showcave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mine">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_gorge0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine210">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -374,11 +234,19 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_gorge00">
+	<Style id="sn_spring00">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_parks">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -394,34 +262,62 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_karst">
+	<StyleMap id="parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="gorge">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_spring0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_cave120">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_parks">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
+	<StyleMap id="subterranea">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="karst">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>showcaves.com</name>
 		<open>1</open>
@@ -55926,7 +55822,6 @@
 		</Folder>
 		<Folder>
 			<name>ro</name>
-			<open>1</open>
 			<Folder>
 				<name>0unused</name>
 			</Folder>
@@ -61275,6 +61170,23 @@
 					<coordinates>-174.9414647667464,-21.39859183027001,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark>
+				<name>Mapu’a a Vaea Blowholes</name>
+				<LookAt>
+					<longitude>-175.3083117999236</longitude>
+					<latitude>-21.17422790032537</latitude>
+					<altitude>0</altitude>
+					<heading>-2.761099154378756e-11</heading>
+					<tilt>0</tilt>
+					<range>1038.790947056434</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_karst</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-175.3083117999236,-21.17422790032537,0</coordinates>
+				</Point>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>tr</name>
@@ -62571,6 +62483,23 @@
 		</Folder>
 		<Folder>
 			<name>us</name>
+			<Placemark>
+				<name>U.S.A.</name>
+				<LookAt>
+					<longitude>-95.71289098008324</longitude>
+					<latitude>37.09024019417966</latitude>
+					<altitude>0</altitude>
+					<heading>1.20112204368783e-08</heading>
+					<tilt>0</tilt>
+					<range>4113228.020780026</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#cross-hairs</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-95.71289098008324,37.09024019417966,0</coordinates>
+				</Point>
+			</Placemark>
 			<Folder>
 				<name>ak</name>
 				<Placemark>
@@ -64568,38 +64497,7 @@
 			<Folder>
 				<name>hi</name>
 				<Placemark>
-					<name>Fern Grotto</name>
-					<LookAt>
-						<longitude>-159.3569653851161</longitude>
-						<latitude>22.03926817952537</latitude>
-						<altitude>0</altitude>
-						<heading>-14.05000201497228</heading>
-						<tilt>0</tilt>
-						<range>1433.908892340447</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-159.3593071310942,22.03877342407332,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Hana Lava Tube - Ka&apos;eleku Cavern</name>
-					<LookAt>
-						<longitude>-156.0327320425285</longitude>
-						<latitude>20.79289232493857</latitude>
-						<altitude>0</altitude>
-						<heading>-0.007469582714307036</heading>
-						<tilt>2.167603419450467e-11</tilt>
-						<range>8791.486878610211</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>-156.0321130303371,20.79183170445538,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>Hawai&apos;i</name>
-					<open>1</open>
 					<LookAt>
 						<longitude>-157.6650809308583</longitude>
 						<latitude>20.62372236351625</latitude>
@@ -64615,221 +64513,278 @@
 						<coordinates>-157.6650809308583,20.62372236351625,0</coordinates>
 					</Point>
 				</Placemark>
-				<Placemark>
-					<name>Kaumana Cave</name>
-					<LookAt>
-						<longitude>-155.1317757567805</longitude>
-						<latitude>19.68725667176025</latitude>
-						<altitude>0</altitude>
-						<heading>0.01869260714848965</heading>
-						<tilt>0</tilt>
-						<range>996.565022450029</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-155.1305670152057,19.68699568681231,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Kazumura Cave</name>
-					<LookAt>
-						<longitude>-155.1014870106171</longitude>
-						<latitude>19.62495901685357</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01909261181496643</heading>
-						<tilt>8.311548476284203</tilt>
-						<range>32618.68358053481</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-155.101757,19.625,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Makauwahi Cave</name>
-					<LookAt>
-						<longitude>-159.4188319011604</longitude>
-						<latitude>21.88810864177016</latitude>
-						<altitude>0</altitude>
-						<heading>0.02642588907934155</heading>
-						<tilt>0</tilt>
-						<range>1027.466322172654</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-159.4189602530639,21.88835253760815,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Mauna Loa Tree Molds</name>
+				<Folder>
+					<name>Maui</name>
 					<open>1</open>
-					<LookAt>
-						<longitude>-155.2823416897504</longitude>
-						<latitude>19.43387948290739</latitude>
-						<altitude>0</altitude>
-						<heading>0.06332259433635266</heading>
-						<tilt>0</tilt>
-						<range>2046.081399829892</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-155.2822843791089,19.43353247853064,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Mokolea Lava Pools</name>
-					<LookAt>
-						<longitude>-159.3821463449792</longitude>
-						<latitude>22.22361503684589</latitude>
-						<altitude>0</altitude>
-						<heading>5.350350556771991</heading>
-						<tilt>0</tilt>
-						<range>132.9454105907353</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-159.3821137189308,22.22360095024393,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Puna Tree Molds - Lava Tree State Monument</name>
+					<Placemark>
+						<name>Wai&apos;anapanapa Cave</name>
+						<LookAt>
+							<longitude>-155.9977419538811</longitude>
+							<latitude>20.78101012840876</latitude>
+							<altitude>0</altitude>
+							<heading>-0.003717129172569375</heading>
+							<tilt>4.919602959404837e-12</tilt>
+							<range>3595.589457241702</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-156.0001130522973,20.78562459981119,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Hana Lava Tube - Ka&apos;eleku Cavern</name>
+						<LookAt>
+							<longitude>-156.0327320425285</longitude>
+							<latitude>20.79289232493857</latitude>
+							<altitude>0</altitude>
+							<heading>-0.007469582714307036</heading>
+							<tilt>2.167603419450467e-11</tilt>
+							<range>8791.486878610211</range>
+						</LookAt>
+						<styleUrl>#showcave</styleUrl>
+						<Point>
+							<coordinates>-156.0321130303371,20.79183170445538,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Nakalele Blowhole</name>
+						<LookAt>
+							<longitude>-156.5885569034866</longitude>
+							<latitude>21.02713969528116</latitude>
+							<altitude>0</altitude>
+							<heading>-1.251077545063037e-09</heading>
+							<tilt>0</tilt>
+							<range>1039.820769261507</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_karst</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-156.5885569034866,21.02713969528116,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>Big Island</name>
 					<open>1</open>
-					<LookAt>
-						<longitude>-154.9029795898468</longitude>
-						<latitude>19.48290365358376</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0002258701431736903</heading>
-						<tilt>0</tilt>
-						<range>1038.762870531828</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-154.9041580415614,19.48287948773638,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Spouting Horn</name>
-					<LookAt>
-						<longitude>-159.4927735471625</longitude>
-						<latitude>21.88455939959568</latitude>
-						<altitude>0</altitude>
-						<heading>0.0001615139312082799</heading>
-						<tilt>0</tilt>
-						<range>177.4180941120604</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-159.4929622964966,21.88460318739441,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Wai&apos;anapanapa Cave</name>
-					<LookAt>
-						<longitude>-155.9977419538811</longitude>
-						<latitude>20.78101012840876</latitude>
-						<altitude>0</altitude>
-						<heading>-0.003717129172569375</heading>
-						<tilt>4.919602959404837e-12</tilt>
-						<range>3595.589457241702</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-156.0001130522973,20.78562459981119,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Waikanaloa Caves - Dry Cave</name>
-					<LookAt>
-						<longitude>-159.5811625662125</longitude>
-						<latitude>22.22073428540542</latitude>
-						<altitude>0</altitude>
-						<heading>11.93863769525146</heading>
-						<tilt>2.729440520837289e-11</tilt>
-						<range>2641.750418350926</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-159.5826972222222,22.22024444444444,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Waikanaloa Caves - Waikapala&apos;e Cave</name>
-					<LookAt>
-						<longitude>-159.5812747620914</longitude>
-						<latitude>22.2197049228583</latitude>
-						<altitude>0</altitude>
-						<heading>161.9169352920565</heading>
-						<tilt>44.14759118335578</tilt>
-						<range>550.6823249879272</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-159.5809956096869,22.21995463554583,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Waikanaloa Caves - Wet Cave</name>
-					<LookAt>
-						<longitude>-159.5807453744283</longitude>
-						<latitude>22.22045051458658</latitude>
-						<altitude>0</altitude>
-						<heading>11.93879546605605</heading>
-						<tilt>0</tilt>
-						<range>63.04738720281389</range>
-						<altitudeMode>relativeToGround</altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>-159.58077210867,22.22044405586514,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Waimea Canyon</name>
-					<LookAt>
-						<longitude>-159.6381249903832</longitude>
-						<latitude>22.04253472519616</latitude>
-						<altitude>0</altitude>
-						<heading>0.0103255325883096</heading>
-						<tilt>0</tilt>
-						<range>31045.62139054704</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#gorge</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-159.6623661724364,22.07037191154751,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Kula Kai Caverns</name>
-					<LookAt>
-						<longitude>-155.7991853967661</longitude>
-						<latitude>19.06712919759864</latitude>
-						<altitude>0</altitude>
-						<heading>1.056413286061403e-09</heading>
-						<tilt>0</tilt>
-						<range>1044.694764431442</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-155.7991853967661,19.06712919759865,0</coordinates>
-					</Point>
-				</Placemark>
+					<Placemark>
+						<name>Kula Kai Caverns</name>
+						<LookAt>
+							<longitude>-155.7991853967661</longitude>
+							<latitude>19.06712919759864</latitude>
+							<altitude>0</altitude>
+							<heading>1.056413286061403e-09</heading>
+							<tilt>0</tilt>
+							<range>1044.694764431442</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-155.7991853967661,19.06712919759865,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Kaumana Cave</name>
+						<LookAt>
+							<longitude>-155.1317757567805</longitude>
+							<latitude>19.68725667176025</latitude>
+							<altitude>0</altitude>
+							<heading>0.01869260714848965</heading>
+							<tilt>0</tilt>
+							<range>996.565022450029</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-155.1305670152057,19.68699568681231,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Kazumura Cave</name>
+						<LookAt>
+							<longitude>-155.1014870106171</longitude>
+							<latitude>19.62495901685357</latitude>
+							<altitude>0</altitude>
+							<heading>-0.01909261181496643</heading>
+							<tilt>8.311548476284203</tilt>
+							<range>32618.68358053481</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-155.101757,19.625,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Puna Tree Molds - Lava Tree State Monument</name>
+						<LookAt>
+							<longitude>-154.9029795898468</longitude>
+							<latitude>19.48290365358376</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0002258701431736903</heading>
+							<tilt>0</tilt>
+							<range>1038.762870531828</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-154.9041580415614,19.48287948773638,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Mauna Loa Tree Molds</name>
+						<LookAt>
+							<longitude>-155.2823416897504</longitude>
+							<latitude>19.43387948290739</latitude>
+							<altitude>0</altitude>
+							<heading>0.06332259433635266</heading>
+							<tilt>0</tilt>
+							<range>2046.081399829892</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-155.2822843791089,19.43353247853064,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>Kauai</name>
+					<open>1</open>
+					<Placemark>
+						<name>Fern Grotto</name>
+						<LookAt>
+							<longitude>-159.3569653851161</longitude>
+							<latitude>22.03926817952537</latitude>
+							<altitude>0</altitude>
+							<heading>-14.05000201497228</heading>
+							<tilt>0</tilt>
+							<range>1433.908892340447</range>
+						</LookAt>
+						<styleUrl>#showcave</styleUrl>
+						<Point>
+							<coordinates>-159.3593071310942,22.03877342407332,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Makauwahi Cave</name>
+						<LookAt>
+							<longitude>-159.4188319011604</longitude>
+							<latitude>21.88810864177016</latitude>
+							<altitude>0</altitude>
+							<heading>0.02642588907934155</heading>
+							<tilt>0</tilt>
+							<range>1027.466322172654</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-159.4189602530639,21.88835253760815,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Mokolea Lava Pools</name>
+						<LookAt>
+							<longitude>-159.3821463449792</longitude>
+							<latitude>22.22361503684589</latitude>
+							<altitude>0</altitude>
+							<heading>5.350350556771991</heading>
+							<tilt>0</tilt>
+							<range>132.9454105907353</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-159.3821137189308,22.22360095024393,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Spouting Horn</name>
+						<LookAt>
+							<longitude>-159.4927735471625</longitude>
+							<latitude>21.88455939959568</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001615139312082799</heading>
+							<tilt>0</tilt>
+							<range>177.4180941120604</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-159.4929622964966,21.88460318739441,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Waikanaloa Caves - Dry Cave</name>
+						<LookAt>
+							<longitude>-159.5811625662125</longitude>
+							<latitude>22.22073428540542</latitude>
+							<altitude>0</altitude>
+							<heading>11.93863769525146</heading>
+							<tilt>2.729440520837289e-11</tilt>
+							<range>2641.750418350926</range>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-159.5826972222222,22.22024444444444,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Waikanaloa Caves - Waikapala&apos;e Cave</name>
+						<LookAt>
+							<longitude>-159.5812747620914</longitude>
+							<latitude>22.2197049228583</latitude>
+							<altitude>0</altitude>
+							<heading>161.9169352920565</heading>
+							<tilt>44.14759118335578</tilt>
+							<range>550.6823249879272</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-159.5809956096869,22.21995463554583,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Waikanaloa Caves - Wet Cave</name>
+						<LookAt>
+							<longitude>-159.5807453744283</longitude>
+							<latitude>22.22045051458658</latitude>
+							<altitude>0</altitude>
+							<heading>11.93879546605605</heading>
+							<tilt>0</tilt>
+							<range>63.04738720281389</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>-159.58077210867,22.22044405586514,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Waimea Canyon</name>
+						<LookAt>
+							<longitude>-159.6381249903832</longitude>
+							<latitude>22.04253472519616</latitude>
+							<altitude>0</altitude>
+							<heading>0.0103255325883096</heading>
+							<tilt>0</tilt>
+							<range>31045.62139054704</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#gorge</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-159.6623661724364,22.07037191154751,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 			</Folder>
 			<Folder>
 				<name>ia</name>
@@ -66691,23 +66646,6 @@
 					</Point>
 				</Placemark>
 			</Folder>
-			<Placemark>
-				<name>U.S.A.</name>
-				<LookAt>
-					<longitude>-95.71289098008324</longitude>
-					<latitude>37.09024019417966</latitude>
-					<altitude>0</altitude>
-					<heading>1.20112204368783e-08</heading>
-					<tilt>0</tilt>
-					<range>4113228.020780026</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#cross-hairs</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-95.71289098008324,37.09024019417966,0</coordinates>
-				</Point>
-			</Placemark>
 			<Folder>
 				<name>ut</name>
 				<Placemark>
