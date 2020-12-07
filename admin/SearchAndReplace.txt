@@ -32,8 +32,8 @@ KML
 \<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
 <styleUrl>#$1</styleUrl>
 
-<a data-lightbox="page" data-title="$3" href="../../../foreign/Big/$1.jpg"><img alt="" src="../../../foreign/$2.jpg"></a>
-            <figcaption>$3</figcaption>
+<a data-lightbox="page" data-title="" href="../../../foreign/Big/(.+?).jpg"><img alt="" src="../../../foreign/(.+?).jpg"></a>
+            <figcaption>([^']+?)</figcaption>
 <a data-lightbox="page" data-title="$3" href="../../../foreign/Big/$1.jpg"><img alt="" src="../../../foreign/$2.jpg"></a>
             <figcaption>$3</figcaption>
 
