@@ -2,14 +2,31 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>za.kml</name>
-	<StyleMap id="mine">
+	<Style id="sn_cave">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kml/cave.png</href>
+			</Icon>
+	        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kml/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="gorge">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine210</styleUrl>
+			<styleUrl>#sn_gorge</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine13</styleUrl>
+			<styleUrl>#sh_gorge</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="subterranea">
@@ -19,124 +36,101 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea4</styleUrl>
+			<styleUrl>#sh_subterranea</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_mine">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kml/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kml/cave.png</href>
+			</Icon>
+	        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_subterranea">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+				<href>https://www.showcaves.com/graphics/kml/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_mine210">
+	<Style id="sn_gorge">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+				<href>https://www.showcaves.com/graphics/kml/gorge.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<StyleMap id="cave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave1200</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave50</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_showcave40">
+	<Style id="sh_gorge">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>0.7</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave120">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kml/gorge.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<StyleMap id="showcave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_showcave40</styleUrl>
+			<styleUrl>#sn_showcave</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave20</styleUrl>
+			<styleUrl>#sh_showcave</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="gorge">
+	<Style id="sh_mine">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kml/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kml/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="mine">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_gorge000</styleUrl>
+			<styleUrl>#sn_mine</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_gorge0</styleUrl>
+			<styleUrl>#sh_mine</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_mine13">
+	<StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_cave50">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_showcave20">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_subterranea4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_cave1200">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_gorge000">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_gorge0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+				<href>https://www.showcaves.com/graphics/kml/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -441,7 +435,7 @@
 				<range>1436.946651134611</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#sn_cave120</styleUrl>
+			<styleUrl>#cave</styleUrl>
 			<Point>
 				<coordinates>22.56001515702885,-33.99825799437597,0</coordinates>
 			</Point>
