@@ -4,17 +4,17 @@
 	<name>showcaves.com.kml</name>
 	<Style id="sn_karst00">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/karst.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_showcave4">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -28,7 +28,7 @@
 	</Style>
 	<Style id="sn_parks">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
@@ -56,7 +56,7 @@
 	</StyleMap>
 	<Style id="sn_showcave005">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
@@ -64,17 +64,17 @@
 	</Style>
 	<Style id="sn_spring00">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_showcave40">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -90,65 +90,65 @@
 	</StyleMap>
 	<Style id="sn_mine210">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/mine.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_mine13">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/mine.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_showcave20">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_gorge000">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/gorge.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_gorge0">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/gorge.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_gorge00">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/gorge.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_cave120">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_karst0">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/karst.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -164,9 +164,9 @@
 	</StyleMap>
 	<Style id="sn_karst000">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/karst.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -192,9 +192,9 @@
 	</StyleMap>
 	<Style id="sn_subterranea">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/subterranea.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -220,17 +220,17 @@
 	</StyleMap>
 	<Style id="sn_spring0">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_spring1">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -246,7 +246,7 @@
 	</StyleMap>
 	<Style id="sh_showcave1242">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
 				<href>http://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
@@ -254,33 +254,33 @@
 	</Style>
 	<Style id="sh_cave50">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_cave1200">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_mine21">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/mine.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_subterranea4">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/subterranea.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -304,9 +304,9 @@
 	</StyleMap>
 	<Style id="sh_karst">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/karst.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -316,9 +316,9 @@
 	</Style>
 	<Style id="sn_karst">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kml/karst.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
@@ -338,7 +338,7 @@
 	</StyleMap>
 	<Style id="sh_parks">
 		<IconStyle>
-			<scale>0.7</scale>
+			<scale>1.0</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
