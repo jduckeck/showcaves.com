@@ -25,40 +25,49 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="New Hampshire America States of the United States showcaves.com">
-    <title>States of the United States of America: New Hampshire</title>
+    <title>Maps of U.S.A.: Wyoming</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../usa/Maps/wy.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Wyoming</a></li>
+        -->
 
-        <h1 class="center">New Hampshire</h1>
+        <figure class="right">
+            <a target="_top" href="../../usa/Maps/index.html"><img alt="U.S.A. Map" src="../../../maps/usa.png" class="mapIconWorld"></a>
+            <figcaption class="center">U.S.A. Map</figcaption>
+        </figure>
+
+        <figure class="left">
+            <a target="_top" href="../../usa/Maps/index.html"><img alt="U.S.A. Map" src="../../../maps/usa.png" class="mapIconWorld"></a>
+            <figcaption class="center">U.S.A. Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Wyoming</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-
-
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../usa/caves/Boulder.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Boulder Caves</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/gorges/Flume.html"><img alt="Gorge" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Gorge.png">Flume Gorge</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/showcaves/Polar.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Polar Caves Park</a></li>
-            <li><a data-ajax="false" target="_top" href="../../usa/mines/Ruggles.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png"><span class="closed">Ruggles Mine</span></a></li>
-        </ul>
-
-        <br>
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=New+Hampshire"><img class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png" alt="Google"><b>Search Google for "New Hampshire"</b></a></li>
-        </ul>
-
+        <div class="center">
+            <map name="wyMap">
+                <area shape="circle" coords="186,38,16" alt="Mammoth Hot Springs" target="_top" href="../../usa/springs/MammothHot.html" />
+                <area shape="circle" coords="349,105,14" alt="Spirit Mountain Cave" target="_top" href="../../usa/caves/SpiritMountain.html" />
+                <area shape="circle" coords="445,226,20" alt="Thermopolis Hot Springs" target="_top" href="../../usa/springs/Thermopolis.html" />
+                <area shape="circle" coords="382,350,19" alt="Sinks Canyon State Park" target="_top" href="../../usa/karst/SinksCanyon.html" />
+                <area shape="circle" coords="172,354,18" alt="Intermittent Spring" target="_top" href="../../usa/springs/Intermittent.html" />
+                <area shape="rect" coords="192,345,315,364" alt="Intermittent Spring" target="_top" href="../../usa/springs/Intermittent.html" />
+                <area shape="rect" coords="401,345,557,361" alt="Sinks Canyon State Park" target="_top" href="../../usa/karst/SinksCanyon.html" />
+                <area shape="rect" coords="463,218,610,237" alt="Thermopolis Hot Springs" target="_top" href="../../usa/springs/Thermopolis.html" />
+                <area shape="rect" coords="203,26,353,49" alt="Mammoth Hot Springs" target="_top" href="../../usa/springs/MammothHot.html" />
+                <area shape="rect" coords="364,100,495,121" alt="Spirit Mountain Cave" target="_top" href="../../usa/caves/SpiritMountain.html" />
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/wy.png" USEMAP="#wyMap" class="map">
+        </div>
+        
     </div>
 
     <!-- Path Begin -->
@@ -67,8 +76,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">U.S.A.</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by State</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/wy.html" data-role="button" class="">By State</a>
+            <a data-ajax="false" href="../Maps/wy.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

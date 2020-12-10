@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>wy.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_karst">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave1200">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_karst">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_cave50">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_karst0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_karst0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave1200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>wy</name>
+		<open>1</open>
+		<Placemark>
+			<name>Intermittent Spring</name>
+			<LookAt>
+				<longitude>-110.8489489498707</longitude>
+				<latitude>42.74443605346922</latitude>
+				<altitude>0</altitude>
+				<heading>0.05739657327721282</heading>
+				<tilt>0</tilt>
+				<range>917.078443569904</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_karst0</styleUrl>
+			<Point>
+				<coordinates>-110.8490539088664,42.74490140688432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mammoth Hot Springs</name>
+			<LookAt>
+				<longitude>-110.7042534603884</longitude>
+				<latitude>44.97113833510932</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003620955554457789</heading>
+				<tilt>0</tilt>
+				<range>3176.047162610921</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-110.7042534603884,44.97113833510933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hot Springs State Park</name>
+			<LookAt>
+				<longitude>-108.1965088079937</longitude>
+				<latitude>43.65374449369319</latitude>
+				<altitude>0</altitude>
+				<heading>-5.518020650183412e-09</heading>
+				<tilt>0</tilt>
+				<range>1000.000106916175</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-108.1965088079937,43.65374449369319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sinks Canyon State Park</name>
+			<LookAt>
+				<longitude>-108.8048662067592</longitude>
+				<latitude>42.752721393836</latitude>
+				<altitude>0</altitude>
+				<heading>-4.588419259826638e-09</heading>
+				<tilt>0</tilt>
+				<range>999.9999720603009</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_karst</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-108.8048662067592,42.75272139383601,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spirit Mountain Cave</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-109.1306025082223</longitude>
+				<latitude>44.50806951300547</latitude>
+				<altitude>0</altitude>
+				<heading>-0.05189091934366175</heading>
+				<tilt>0</tilt>
+				<range>9148.792013602892</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<coordinates>-109.1456303674809,44.50542925242025,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

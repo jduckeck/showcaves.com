@@ -37,3 +37,6 @@ KML
 <a data-lightbox="page" data-title="$3" href="../../../foreign/Big/$1.jpg"><img alt="" src="../../../foreign/$2.jpg"></a>
             <figcaption>$3</figcaption>
 
+<li><a data-ajax="false" target="_top" href="(.+)">[^>]+>([^<]+)</a></li>
+<area shape="circle" coords="267,94,17" alt="$2" target="_top" href="$1" />
+<area shape="rect" coords="287,86,369,104" alt="$2" target="_top" href="$1" />
