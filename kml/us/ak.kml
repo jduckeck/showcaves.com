@@ -1,169 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-    <Document>
-        <atom:author>
-            <atom:name>Jochen Duckeck</atom:name>
-        </atom:author>
-        <atom:link href="http://www.showcaves.com" />
-        <Style id="showcave">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="cave">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="subterranea">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="mine">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="karst">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="spring">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="gorge">
-            <IconStyle>
-                <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <name></name>
-        <Placemark>
-            <name>Cavern Lake Cave</name>
-            <description>
-                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../usa/caves/CavernLake.html"             >Cavern Lake Cave</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-133.1743977300417</longitude>
-                <latitude>56.15618228994004</latitude>
-                <altitude>0</altitude>
-                <range>4218.312184138357</range>
-                <tilt>8.800689233609182e-012</tilt>
-                <heading>2.101150714041413</heading>
-                <altitudeMode>relativeToGround</altitudeMode>
-            </LookAt>
-            <styleUrl>#cave</styleUrl>
-            <Point>
-                <coordinates>-133.1726020555943,56.15709081545086,0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark>
-            <name>El Capitan Cave</name>
-            <description>
-                <![CDATA[<img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png"><a href="../../usa/caves/ElCapitan.html"              >El Capitan Cave</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-133.3101052024187</longitude>
-                <latitude>56.16558802734831</latitude>
-                <altitude>0</altitude>
-                <range>4139.419386627201</range>
-                <tilt>7.419844848044669e-012</tilt>
-                <heading>1.988433278328769</heading>
-            </LookAt>
-            <styleUrl>#cave</styleUrl>
-            <Point>
-                <coordinates>-133.307907474181,56.16299585108609,0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark>
-            <name>Big Nugget Mine</name>
-            <description>
-                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/BigNugget.html"              >Big Nugget Mine</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-135.8749594701639</longitude>
-                <latitude>59.34983343799151</latitude>
-                <altitude>0</altitude>
-                <range>2397.231364925809</range>
-                <tilt>4.055677225729885e-011</tilt>
-                <heading>-0.005772775660068582</heading>
-            </LookAt>
-            <styleUrl>#mine</styleUrl>
-            <Point>
-                <coordinates>-135.8740916666667,59.34645,0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark>
-            <name>Kennecott Mine</name>
-            <description>
-                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/Kennecott.html"              >Kennecott Mine</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-142.8895126764425</longitude>
-                <latitude>61.48522680808641</latitude>
-                <altitude>0</altitude>
-                <range>1328.838377980006</range>
-                <tilt>0</tilt>
-                <heading>0.01025153389633226</heading>
-                <altitudeMode>relativeToGround</altitudeMode>
-            </LookAt>
-            <styleUrl>#mine</styleUrl>
-            <Point>
-                <coordinates>-142.8881960002889,61.48539036862152,0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark>
-            <name>Crow Creek Mine</name>
-            <description>
-                <![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a href="../../usa/mines/CrowCreek.html"              >Crow Creek Mine</a>]]>
-            </description>
-            <LookAt>
-                <longitude>-149.0861116885319</longitude>
-                <latitude>60.99999126692859</latitude>
-                <altitude>0</altitude>
-                <range>4544.664510983914</range>
-                <tilt>2.123659120274041e-012</tilt>
-                <heading>0.07620764538627868</heading>
-                <altitudeMode>relativeToGround</altitudeMode>
-            </LookAt>
-            <styleUrl>#mine</styleUrl>
-            <Point>
-                <coordinates>-149.083191618101,60.99812937015441,0</coordinates>
-            </Point>
-        </Placemark>
-    	<Placemark>
-    		<name>Old Spanish Treasure Cave</name>
-            <description><![CDATA[<img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png"><a href="../../usa/showcaves/OldSpanishTreasure.html" >Old Spanish Treasure Cave</a>]]></description>
-    		<LookAt>
-    			<longitude>-94.44494206552633</longitude>
-    			<latitude>36.44875268464577</latitude>
-    			<altitude>0</altitude>
-    			<range>1040.284893182697</range>
-    			<tilt>0</tilt>
-    			<heading>-0.05456559080028535</heading>
-    			<altitudeMode>relativeToGround</altitudeMode>
-    		</LookAt>
-    		<styleUrl>#showcave</styleUrl>
-    		<Point>
-    			<coordinates>-94.44416231216221,36.4481527325613,0</coordinates>
-    		</Point>
-    	</Placemark>
-    </Document>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ak.kml</name>
+	<StyleMap id="mine">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine13">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave1200">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave50">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave1200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine210">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>ak</name>
+		<Placemark>
+			<name>Big Nugget Mine</name>
+			<LookAt>
+				<longitude>-135.8749594701639</longitude>
+				<latitude>59.34983343799151</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005772775660068582</heading>
+				<tilt>4.055677225729885e-11</tilt>
+				<range>2397.231364925809</range>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>-135.8740916666667,59.34645,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Byron Glacier Ice Caves</name>
+			<LookAt>
+				<longitude>-148.8438519866206</longitude>
+				<latitude>60.77339799973726</latitude>
+				<altitude>0</altitude>
+				<heading>4.128356795984963e-09</heading>
+				<tilt>0</tilt>
+				<range>1004.366868751952</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-148.8438519866205,60.77339799973726,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cavern Lake Cave</name>
+			<LookAt>
+				<longitude>-133.1743977300417</longitude>
+				<latitude>56.15618228994004</latitude>
+				<altitude>0</altitude>
+				<heading>2.101150714041413</heading>
+				<tilt>8.800689233609182e-12</tilt>
+				<range>4218.312184138357</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<coordinates>-133.1726020555943,56.15709081545086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Crow Creek Mine</name>
+			<LookAt>
+				<longitude>-149.0861116885319</longitude>
+				<latitude>60.99999126692859</latitude>
+				<altitude>0</altitude>
+				<heading>0.07620764538627868</heading>
+				<tilt>2.123659120274041e-12</tilt>
+				<range>4544.664510983914</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>-149.083191618101,60.99812937015441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>El Capitan Cave</name>
+			<LookAt>
+				<longitude>-133.3101052024187</longitude>
+				<latitude>56.16558802734831</latitude>
+				<altitude>0</altitude>
+				<heading>1.988433278328769</heading>
+				<tilt>7.419844848044669e-12</tilt>
+				<range>4139.419386627201</range>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<coordinates>-133.307907474181,56.16299585108609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kennecott Mine</name>
+			<LookAt>
+				<longitude>-142.8895126764425</longitude>
+				<latitude>61.48522680808641</latitude>
+				<altitude>0</altitude>
+				<heading>0.01025153389633226</heading>
+				<tilt>0</tilt>
+				<range>1328.838377980006</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<coordinates>-142.8881960002889,61.48539036862152,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Last Chance Mining Museum</name>
+			<LookAt>
+				<longitude>-134.4004890019983</longitude>
+				<latitude>58.30971233779903</latitude>
+				<altitude>0</altitude>
+				<heading>-2.75021927195214e-09</heading>
+				<tilt>45.00125995562075</tilt>
+				<range>3871.329142740332</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#mine</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-134.4003470996125,58.30747530455276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mendenhall Glacier Cave</name>
+			<LookAt>
+				<longitude>-134.5457000024728</longitude>
+				<latitude>58.41720000176122</latitude>
+				<altitude>0</altitude>
+				<heading>-2.10653225440819e-09</heading>
+				<tilt>0</tilt>
+				<range>1000.000114387004</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#cave</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-134.5457000024728,58.41720000176122,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
 </kml>

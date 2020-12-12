@@ -54,3 +54,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Nakalele Blowhole', '/english/usa/karst/Nakalele.html', 'Nakalele', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'hi', 21.027140, -156.588557);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Wannian Ice Cave', '/english/cn/showcaves/Wannian.html', 'Wannian', 'Asia', 'cn', 'China', 'showcaves', 'Shanxi', 38.947794171986764, 112.16773135360965);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Deer Creek Narrows', '/english/usa/gorges/DeerCreekNarrows.html', 'DeerCreekNarrows', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'az', 36.389427, -112.508356);
