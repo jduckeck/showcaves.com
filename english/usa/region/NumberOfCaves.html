@@ -48,14 +48,22 @@
                     y = rows[i + 1].getElementsByTagName("TD")[n];
                     /* Check if the two rows should switch place,
                     based on the direction, asc or desc: */
+                    let left = x.innerHTML.toLowerCase().trim();
+                    if (!isNaN(Number(left))) {
+                        left = Number(left);
+                    }
+                    let right = y.innerHTML.toLowerCase().trim();
+                    if (!isNaN(Number(right))) {
+                        right = Number(right);
+                    }
                     if (dir === "asc") {
-                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        if (left > right) {
                             // If so, mark as a switch and break the loop:
                             shouldSwitch = true;
                             break;
                         }
                     } else if (dir === "desc") {
-                        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        if (left < right) {
                             // If so, mark as a switch and break the loop:
                             shouldSwitch = true;
                             break;
@@ -90,17 +98,22 @@
     <div data-role="main" class="ui-content">
 
 
-        <li><a data-ajax="false" target="_top" href="../../usa/region/NumberOfCaves.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">Number of Known Caves by State</a></li>
-
         <h1 class="center">Number of Known Caves by State</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
+        <p>
+            Cave registries or cadastres are maintained on grotto level in the U.S.A..
+            Unfortunately the current numbers are not collected officially and so there are no reliable numbers.
+            This is a rather old count of caves listed in the cave archives of the NSS.
+            It does not give reliable numbers, but at least it is possible to see where most of the caves are located.
+            The table is sortable, click on the heading.
+        </p>
 
         <br>
 
-        <table class="table-stripe center statistics">
+        <table id="myTable2" class="table-stripe center statistics">
             <thead>
             <tr>
                 <th onclick="sortTable(0)" class="">State</th>
