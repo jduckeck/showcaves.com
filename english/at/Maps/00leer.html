@@ -25,36 +25,34 @@
     <!-- end responsive -->
 
 
-    <title>Karst Areas of the Czech Republic</title>
+    <title>Maps of $Country$: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Czech.html">Český Kras</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Moravsky.html">Moravský Kras</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Krusnohori.html">Krušnohoří</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Brno.html">Brno</a></li>
-                <li></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Jihocesky.html">Jihočeský kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Jihomoravsky.html">Jihomoravský kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Karlovarsky.html">Karlovarský kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Kralovehradecky.html">Královéhradecký kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Liberec.html">Liberecký kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Moravskoslezsky.html">Moravskoslezský kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Olomoucky.html">Olomoucký kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Pardubicky.html">Pardubický kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Plzen.html">Plzeňský kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Praha.html">Praha</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Stredocesky.html">Středočeský kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Ustecky.html">Ústecký kraj</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Vysocina.html">Kraj Vysočina</a></li>
-                <li><a data-ajax="false" target="_top" href="../../cz/region/Zlinsky.html">Zlínský kraj</a></li>
-            </ul>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
+
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
+
+        <br>
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+        </ul>
 
     </div>
 
@@ -63,12 +61,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Czech Republic</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">$Country$</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="ui-btn-active">By Region</a>
-            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="">Maps</a>
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
