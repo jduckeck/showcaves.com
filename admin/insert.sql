@@ -9,3 +9,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Broumovské stěny', '/english/cz/gorges/BroumovskeSteny.html', 'BroumovskeSteny', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Kralovehradecky', 50.564791, 16.266911);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Skalní město Ostaš', '/english/cz/gorges/Ostas.html', 'Ostas', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Kralovehradecky', 50.558262, 16.207577);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Pusté Kostely', '/english/cz/subterranea/PusteKostely.html', 'PusteKostely', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Liberec', 50.727481, 14.641603);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Modlivý důl', '/english/cz/subterranea/ModlivyDul.html', 'ModlivyDul', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Liberec', 50.726201, 14.604815);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ledová Jeskyně Naděje', '/english/cz/caves/Nadeje.html', 'Nadeje', 'Europe', 'cz', 'Czech Republic', 'caves', 'Liberec', 50.821451, 14.641687);
