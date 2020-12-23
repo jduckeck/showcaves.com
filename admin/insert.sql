@@ -15,3 +15,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Modlivý důl', '/english/cz/subterranea/ModlivyDul.html', 'ModlivyDul', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Liberec', 50.726201, 14.604815);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ledová Jeskyně Naděje', '/english/cz/caves/Nadeje.html', 'Nadeje', 'Europe', 'cz', 'Czech Republic', 'caves', 'Liberec', 50.821451, 14.641687);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jeskyně Blanických rytířů', '/english/cz/subterranea/BlanickychRytiru.html', 'BlanickychRytiru', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 49.517383, 16.511064);
