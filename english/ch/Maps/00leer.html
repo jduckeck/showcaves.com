@@ -25,36 +25,34 @@
     <!-- end responsive -->
 
 
-    <title>Cantons of Switzerland</title>
+    <title>Maps of Switzerland: Switzerland</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Aargau.html">Aargau</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Bern.html">Bern</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Glarus.html">Glarus</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Graubuenden.html">Graubünden</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Jura.html">Jura</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Luzern.html">Luzern</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Neuchatel.html">Neuch&acirc;tel</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Nidwalden.html">Nidwalden</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Obwalden.html">Obwalden</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Schaffhausen.html">Schaffhausen</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Schwyz.html">Schwyz</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Solothurn.html">Solothurn</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/StGallen.html">St. Gallen</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Ticino.html">Ticino</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Uri.html">Uri</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Vaud.html">Vaud</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Wallis.html">Wallis</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Zuerich.html">Zürich</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ch/region/Zug.html">Zug</a></li>
-            </ul>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../ch/Maps/$FileName$.html">Switzerland</a></li>
+            <li><a data-ajax="false" target="_top" href="../../ch/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Switzerland</a></li>
+        -->
+
+        <h1 class="center">Map of Switzerland</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
+
+        <br>
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+        </ul>
 
     </div>
 
@@ -64,12 +62,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Switzerland</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="ui-btn-active">Kantone</a>
-            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="">Maps</a>
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
