@@ -25,25 +25,22 @@
     <!-- end responsive -->
 
 
-    <title>Map of Australia</title>
+    <title>Maps of Australia</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
         <figure class="right">
             <a target="_top" href="../../explain/Maps/index.html"><img alt="World Map" src="../../../maps/World.png" class="mapIconWorld"></a>
             <figcaption class="center">World Map</figcaption>
         </figure>
 
-
         <figure class="left">
             <a target="_top" href="../../explain/Maps/index.html"><img alt="World Map" src="../../../maps/World.png" class="mapIconWorld"></a>
             <figcaption class="center">World Map</figcaption>
         </figure>
-
 
         <h1 class="center">Map of Australia</h1>
 
@@ -79,39 +76,38 @@
                 <area shape="rect" alt="Gunns Plains Caves" coords="497,670,610,683" href="../showcaves/GunnsPlains.html">
                 <area shape="rect" alt="Hastings Caves" coords="533,709,618,722" href="../region/Hastings.html">
                 <area shape="rect" alt="Mole Creek Caves" coords="605,679,707,690" href="../region/MoleCreek.html">
-                <area shape="rect" alt="Northern Territory" coords="360,140,460,156" href="../../au/region/nt.html">
-                <area shape="rect" alt="New South Wales" coords="561,424,662,441" href="../../au/region/nsw.html">
-                <area shape="rect" alt="Queensland" coords="521,294,591,308" href="../../au/region/qld.html">
-                <area shape="rect" alt="South Australia" coords="381,370,464,384" href="../../au/region/sa.html">
-                <area shape="rect" alt="Tasmania" coords="527,689,587,705" href="../../au/region/tas.html">
-                <area shape="rect" alt="Western Australia" coords="122,324,218,340" href="../../au/region/wa.html">
-                <area shape="rect" alt="Victoria" coords="538,537,582,553" href="../../au/region/vic.html">
-                <area shape="rect" alt="The Crystal Caves" coords="642,149,744,164" href="../../au/subterranea/Crystal.html">
-                <area shape="rect" alt="Caves of the Uluru" coords="348,302,450,314" nohref>
-                <area shape="rect" alt="Cooper Pedy" coords="423,389,503,404" href="../../au/region/CooberPedy.html">
-                <area shape="rect" alt="Tantanoola Cave" coords="437,583,526,596" href="../../au/showcaves/Tantanoola.html">
-                <area shape="rect" alt="Harman 1" coords="543,575,594,585" href="../../au/caves/Hartmans1.html">
-                <area shape="rect" alt="Englebrecht Cave" coords="527,583,616,595" href="../../au/showcaves/Englebrecht.html">
-                <area shape="rect" alt="Undara Lava Tubes" coords="625,171,733,183" href="../../au/showcaves/Undara.html">
+                <area shape="rect" alt="Northern Territory" coords="360,140,460,156" href="../region/nt.html">
+                <area shape="rect" alt="New South Wales" coords="561,424,662,441" href="../region/nsw.html">
+                <area shape="rect" alt="Queensland" coords="521,294,591,308" href="../region/qld.html">
+                <area shape="rect" alt="South Australia" coords="381,370,464,384" href="../region/sa.html">
+                <area shape="rect" alt="Tasmania" coords="527,689,587,705" href="../region/tas.html">
+                <area shape="rect" alt="Western Australia" coords="122,324,218,340" href="../region/wa.html">
+                <area shape="rect" alt="Victoria" coords="538,537,582,553" href="../Maps/vic.html">
+                <area shape="rect" alt="The Crystal Caves" coords="642,149,744,164" href="../subterranea/Crystal.html">
+                <area shape="rect" alt="Caves of the Uluru" coords="348,302,450,314" href="../caves/Uluru.html">
+                <area shape="rect" alt="Cooper Pedy" coords="423,389,503,404" href="../region/CooberPedy.html">
+                <area shape="rect" alt="Tantanoola Cave" coords="437,583,526,596" href="../showcaves/Tantanoola.html">
+                <area shape="rect" alt="Harman 1" coords="543,575,594,585" href="../caves/Hartmans1.html">
+                <area shape="rect" alt="Englebrecht Cave" coords="527,583,616,595" href="../showcaves/Englebrecht.html">
+                <area shape="rect" alt="Undara Lava Tubes" coords="625,171,733,183" href="../showcaves/Undara.html">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Australia.gif" USEMAP="#AustraliaMap" border="1" width="800" height="737">
+            <img alt="" src="../../../maps/Australia.gif" USEMAP="#AustraliaMap" class="map" width="800" height="737">
         </div>
 
         <br>
 
-        <ul class="linklist" data-role="listview" data-inset="true">
-        </ul>
-
         <p>
             Above map shows limestone (karst) areas in yellow.
-            The location of karst areas is based on a map by <b class="smallCaps">Paul
-            Ballard</b>,
-            Department of Geography &amp; Oceanography, University College, Australian
-            Defence Force Academy, Canberra.
+            The location of karst areas is based on a map by <b class="smallCaps">Paul Ballard</b>, Department of Geography & Oceanography, University College, Australian Defence Force Academy, Canberra.
         </p>
 
-        <br class="clear">
+        <!--        <figure class="center">-->
+<!--            <map name="$CountryTwoLetter$Map">-->
+<!--                <area shape="default" alt="">-->
+<!--            </map>-->
+<!--            <img alt="" src="../../../maps/Big/$CountryTwoLetter$.png" USEMAP="#$CountryTwoLetter$Map" border="1">-->
+<!--        </figure>-->
 
     </div>
 
@@ -121,8 +117,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Australia</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">By Region</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
+            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

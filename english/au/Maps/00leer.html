@@ -25,51 +25,33 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Lightning Ridge Australia Regions showcaves.com">
-    <title>Regions of Australia: Lightning Ridge</title>
+    <title>Maps of Australia: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../au/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../au/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <h1 class="center">Lightning Ridge</h1>
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
-            Lightning Ridge in New South Wales is a small mining town, 75km north of Walgett on the rim of the Outback.
-            The surrounding hills are full of gtemstones, and there are the famous opal fields of <b>Grawin</b>, <b>Glengarry</b> and <b>Sheepyard</b>.
-            The opal is found in a certain clay, so this is the only place on Earth where the opal is separated from the surrounding rock in a process called <b>wet pudding</b>.
-            This area is world famous for its black and blue opals.
-            Black opal is set apart by the presence of carbon and iron oxide trace elements which produce a very dark stone, flecked with the traditional blue, green and red flashes.
-        </p>
-
-        <p class="indentedText">
-            Today the village of 6,000 inhabitants depends as much torism as it does on opals.
-            There are numerous gem shops, museums and show mines.
-            The tourist center is called <b>Opal Cave Tourist Centre</b>.
-            Visitors can explore the mining fields and fossick for opal, but - as always in Australia - you have to obtain a permit first.
-        </p>
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
+        </div>
 
         <br>
 
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../au/mines/BigOpal.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">Big Opal Mine</a></li>
-            <li><a data-ajax="false" target="_top" href="../../au/mines/ChambersBlackHand.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">Chambers of the Black Hand</a></li>
-            <li><a data-ajax="false" target="_top" href="../../au/mines/Drive-in.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png"><span class="closed">Drive-in Mine</span></a></li>
-            <li><a data-ajax="false" target="_top" href="../../au/mines/Spectrum.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">Spectrum Opal Mines</a></li>
-            <li><a data-ajax="false" target="_top" href="../../au/mines/Walk-in.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">Walk-in Mine</a></li>
-        </ul>
-
-        <br class="clear">
-
         <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Lightning+Ridge+new+south+wales"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Lightning Ridge, New South Wales"</a></li>
-            <li><a target="_blank" href="http://www.travelmate.com.au/Places/Places.asp?TownName=Lightning+Ridge_%5C_NSW"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Lightning Ridge, New South Wales</a></li>
         </ul>
 
     </div>
@@ -80,8 +62,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Australia</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/nsw.html">New South Wales</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Region</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
@@ -110,4 +96,3 @@
 </div>
 </body>
 </html>
-
