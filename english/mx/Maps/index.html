@@ -32,10 +32,31 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../mx/Maps/Map.html"> Map of México</a></li>
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/MiddleAmerica.html"><img alt="Middle America Map" src="../../../maps/MiddleAmerica.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Middle America Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/MiddleAmerica.html"><img alt="Middle America Map" src="../../../maps/MiddleAmerica.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Middle America Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of México</h1>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="MexicoMap">
+                <area shape="rect" alt="United States of America" coords="128,16,161,28" href="../../usa/Maps/index.html">
+                <area shape="rect" alt="United States of America" coords="334,62,367,75" href="../../usa/Maps/index.html">
+                <area shape="rect" alt="United States of America" coords="460,145,492,160" href="../../usa/Maps/index.html">
+                <area shape="rect" alt="Guatemala" coords="667,512,729,526" href="../../gt/region/Map.html">
+                <area shape="rect" alt="Belize" coords="737,476,775,491" href="../../bz/Maps/index.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Mexico.gif" usemap="#MexicoMap" class="map">
         </div>
 
     </div>
@@ -48,7 +69,8 @@
                 <li><a data-ajax="false" target="_top" href="../index.html">México</a></li>
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Region</a>
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Estados</a>
                 <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
             </div>
         </div>
