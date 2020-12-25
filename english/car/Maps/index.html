@@ -25,13 +25,12 @@
     <!-- end responsive -->
 
 
-    <title>Map of the Caribbean Islands</title>
+    <title>Maps of Caribbean Islands</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
-
 
         <figure class="left">
             <a target="_top" href="../../explain/Maps/MiddleAmerica.html"><img alt="Middle America Map" src="../../../maps/MiddleAmerica.gif" border="1" hspace="0" width="80" height="64"></a>
@@ -85,14 +84,19 @@
                 <area shape="poly" alt="Aruba" coords="447,488,452,494,456,495,457,491,452,488,448,487" href="../region/aw.html">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Big/Caribbean.png" USEMAP="#CaribbeanMap" border="1" width="800" height="575">
+            <img alt="" src="../../../maps/Big/Caribbean.png" USEMAP="#CaribbeanMap" class="map">
         </div>
 
         <div class="center">
             Dark grey coloured islands have their own page, light grey coloured islands have no subterranean sights listed yet.
         </div>
 
-        <br>
+<!--        <figure class="center">-->
+<!--            <map name="carMap">-->
+<!--                <area shape="default" alt="">-->
+<!--            </map>-->
+<!--            <img alt="" src="../../../maps/Big/car.png" USEMAP="#carMap" class="map">-->
+<!--        </figure>-->
 
     </div>
 
@@ -102,8 +106,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Caribbean Islands</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">By Region</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Islands</a>
+            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

@@ -25,41 +25,29 @@
     <!-- end responsive -->
 
 
-    <title>Map of $Country$</title>
+    <title>Maps of Belize: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../bz/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../bz/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <figure class="left">
-            <a data-ajax="false" target="_top" href="../../car/region/Map.html"><img alt="Caribbean Islands Map" src="../../../maps/Caribbean.png" border="1" hspace="0" width="100" height="72"></a>
-            <figcaption class="center">Caribbean Islands Map</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a data-ajax="false" target="_top" href="../../car/region/Map.html"><img alt="Caribbean Islands Map" src="../../../maps/Caribbean.png" border="1" hspace="0" width="100" height="72"></a>
-            <figcaption class="center">Caribbean Islands Map</figcaption>
-        </figure>
-
-        <li><a data-ajax="false" target="_top" href="../region/$CountryTwoLetter$Map.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Map of $Country$</a></li>
-
-        <h1 class="center">Map of $Country$</h1>
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            We are sorry, this map is not yet drawn....
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
-
-        <br>
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-        </ul>
-
-        <br>
-
 
     </div>
 
@@ -68,9 +56,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Caribbean Islands</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/$Country$.html">$Country$</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Belize</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">Region</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Map</a>
         </div>
     </div>
     <!-- Path End -->
