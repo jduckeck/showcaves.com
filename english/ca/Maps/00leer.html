@@ -25,29 +25,28 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Canada Map showcaves.com">
-    <title>Map of Canada: $CaveName$</title>
+    <title>Maps of Canada: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <!-- copy to Menu
-        <a   href="../../ca/Maps/$CaveName$.html">$CaveName$</a><br>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../ca/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../ca/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
         -->
 
-        <h1 class="center">Map of Canada</h1>
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="CanadaMap">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../Bilder/ca/Maps/Canada.gif" USEMAP="#CanadaMap" border="1" width="780" height="460">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -58,8 +57,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Canada</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/byProvinces.html">by Provinces</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

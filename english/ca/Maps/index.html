@@ -25,32 +25,97 @@
     <!-- end responsive -->
 
 
-    <title>Maps of Canada</title>
+    <title>Maps of $Country$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-            </ul>
-        </div>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/index.html"><img alt="World Map" src="../../../maps/World.png" class="mapIconWorld"></a>
+            <figcaption class="center">World Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/index.html"><img alt="World Map" src="../../../maps/World.png" class="mapIconWorld"></a>
+            <figcaption class="center">World Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Canada</h1>
+
+        <br class="clear">
+
+        <figure class="center">
+            <map name="CanadaMap">
+                <area shape="rect" alt="Cave and Basin" coords="131,483,238,496" href="../../ca/showcaves/CaveAndBasin.html">
+                <area shape="rect" alt="Scenic Caves" coords="504,643,598,655" href="../../ca/showcaves/Scenic.html">
+                <area shape="rect" alt="Saint-Elzéar" coords="658,540,745,551" href="../../ca/showcaves/Saint-Elzear.html">
+                <area shape="rect" alt="Caverne Laflèche Caves" coords="549,608,703,618" href="../../ca/showcaves/LaFleche.html">
+                <area shape="rect" alt="Bonnechere Caves" coords="545,620,668,631" href="../../ca/showcaves/Bonnechere.html">
+                <area shape="rect" alt="Alberta" coords="163,404,212,419" href="../../ca/region/Alberta.html">
+                <area shape="rect" alt="British Columbia" coords="57,368,101,381" href="../../ca/region/BritishColumbia.html">
+                <area shape="rect" alt="British Columbia" coords="56,384,121,398" href="../../ca/region/BritishColumbia.html">
+                <area shape="rect" coords="213,275,339,292"  alt="">
+                <area shape="rect" alt="New Brunswick" coords="639,558,743,571" href="../../ca/region/NewBrunswick.html">
+                <area shape="rect" alt="Newfoundland" coords="612,443,706,458" href="../../ca/region/Newfoundland.html">
+                <area shape="rect" alt="Nova Scotia" coords="713,585,795,602" href="../../ca/region/NovaScotia.html">
+                <area shape="rect" alt="Ontario" coords="399,479,450,494" href="../../ca/region/Ontario.html">
+                <area shape="rect" alt="Quebec" coords="525,493,580,507" href="../../ca/region/Quebec.html">
+                <area shape="rect" alt="United States of America" coords="14,115,61,133" href="../../../english/usa/Maps/index.html">
+                <area shape="rect" alt="United States of America" coords="61,594,109,612" href="../../../english/usa/Maps/index.html">
+                <area shape="rect" alt="United States of America" coords="148,623,193,642" href="../../../english/usa/Maps/index.html">
+                <area shape="rect" alt="United States of America" coords="542,680,588,698" href="../../../english/usa/Maps/index.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Canada.gif" USEMAP="#CanadaMap" class="map">
+        </figure>
+
+<!--        <figure class="center">-->
+<!--            <map name="$CountryTwoLetter$Map">-->
+<!--                <area shape="default" alt="">-->
+<!--            </map>-->
+<!--            <img alt="" src="../../../maps/Big/$CountryTwoLetter$.png" USEMAP="#$CountryTwoLetter$Map" class="map">-->
+<!--        </figure>-->
 
     </div>
 
+    <!-- Path Begin -->
     <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">$Country$</a></li>
+            </ul>
+        </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
-            <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Provinces</a>
-            <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
-            <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
-            <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
-            <a data-ajax="false" href="../../ca/subterranea/index.html" data-role="button" class="">Subterranea</a>
+            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
             <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
+    <!-- Path End -->
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a target="_top" href="../../explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
+                <li><a target="_top" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Topics</a></li>
+                <li><a target="_top" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchical</a></li>
+                <li><a target="_top" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Countries</a></li>
+                <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Maps</a></li>
+            </ul>
+            <ul>
+                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Search</a></li>
+                <li><a target="_top" href="../../explain/index.html">General Information</a></li>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
 
 </div>
 </body>
