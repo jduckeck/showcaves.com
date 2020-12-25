@@ -25,36 +25,33 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Luxembourg Province Belgium showcaves.com">
-    <title>Belgium by Province: Luxembourg</title>
+    <title>Maps of Belgium: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../be/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../be/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <h1 class="center">Luxembourg</h1>
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
+        </div>
 
-        </p>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../be/mines/Bertrix.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">Bertrix Slate Mine</a></li>
-            <li><a data-ajax="false" target="_top" href="../../be/showcaves/Hotton.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Grottes de Hotton - Grottes de 1001 Nuit</a></li>
-            <li><a data-ajax="false" target="_top" href="../../be/subterranea/SaintRemacle.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Grotte Saint-Remacle</a></li>
-        </ul>
-
-        <br class="clear">
+        <br>
 
         <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Luxembourg"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Luxembourg"</a></li>
-            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Luxembourg_%28Belgium%29"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">Luxembourg (Belgium) - Wikipedia</a></li>
         </ul>
 
     </div>
@@ -65,8 +62,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Belgium</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/Wallonie.html">Walloni&euml;</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Province</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
