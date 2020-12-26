@@ -32,20 +32,29 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
         <li><a data-ajax="false" target="_top" href="../../ba/Maps/$FileName$.html">$CaveName$</a></li>
         <li><a data-ajax="false" target="_top" href="../../ba/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
 
-        <h1 class="center">Map of Bosnia and Herzegovina</h1>
+        <figure class="left">
+            <a target="_top" href="../../ba/Maps/index.html"><img alt="Bosnia and Herzegovina Map" src="../../../maps/Bosnia.png" class="mapIcon"></a>
+            <figcaption class="center">Bosnia and Herzegovina Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../ba/Maps/index.html"><img alt="Bosnia and Herzegovina Map" src="../../../maps/Bosnia.png" class="mapIcon"></a>
+            <figcaption class="center">Bosnia and Herzegovina Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="Bosnia and HerzegovinaMap">
+            <map name="$CaveName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Bosnia and Herzegovina.png" USEMAP="#Bosnia and HerzegovinaMap" border="1" width="780" height="460">
+            <img alt="" src="../../../maps/$CaveName$.png" USEMAP="#$CaveName$Map" class="map">
         </div>
 
     </div>
@@ -56,8 +65,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Bosnia and Herzegovina</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/by $Region$.html">by $Region$</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

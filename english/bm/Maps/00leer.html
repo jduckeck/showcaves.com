@@ -36,16 +36,26 @@
         <li><a data-ajax="false" target="_top" href="../../bm/Maps/$FileName$.html">$CaveName$</a></li>
         <li><a data-ajax="false" target="_top" href="../../bm/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
 
-        <h1 class="center">Map of Bermuda</h1>
+        <figure class="left">
+            <a target="_top" href="../../bm/Maps/index.html"><img alt="Bermuda Map" src="../../../maps/Big/Bermuda.png" class="mapIcon"></a>
+            <figcaption class="center">Bermuda Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../bm/Maps/index.html"><img alt="Bermuda Map" src="../../../maps/Big/Bermuda.png" class="mapIcon"></a>
+            <figcaption class="center">Bermuda Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="BermudaMap">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Bermuda.png" USEMAP="#BermudaMap" border="1" width="780" height="460">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -56,6 +66,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Bermuda</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
