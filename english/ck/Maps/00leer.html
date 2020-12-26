@@ -25,20 +25,38 @@
     <!-- end responsive -->
 
 
-    <title>Cook Islands by Island</title>
+    <title>Maps of Cook Islands: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../ck/region/Atiu.html">Atiu</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ck/region/Mangaia.html">Mangaia</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ck/region/Mauke.html">Mauke</a></li>
-                <li><a data-ajax="false" target="_top" href="../../ck/region/Mitiaro.html">Mitiaro</a></li>
-            </ul>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../ck/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../ck/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
+
+        <figure class="left">
+            <a target="_top" href="../../ck/Maps/index.html"><img alt="Cook Islands Map" src="../../../maps/Cook Islands.png" class="mapIcon"></a>
+            <figcaption class="center">Cook Islands Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../ck/Maps/index.html"><img alt="Cook Islands Map" src="../../../maps/Cook Islands.png" class="mapIcon"></a>
+            <figcaption class="center">Cook Islands Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -49,12 +67,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Cook Islands</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="ui-btn-active">Islands</a>
-            <a data-ajax="false" href="index.html" data-role="button" class="">Maps</a>
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
