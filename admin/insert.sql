@@ -23,3 +23,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mělnické Podzemí', '/english/cz/subterranea/Melnik.html', 'Melnik', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Stredocesky', 50.352311, 14.473954);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Prachovské skály', '/english/cz/gorges/Prachov.html', 'Prachov', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Kralovehradecky', 50.468431, 15.284983);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Moqui Cave', '/english/usa/caves/Moqui.html', 'Moqui', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut', 37.120778, -112.563802);
