@@ -27,3 +27,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Moqui Cave', '/english/usa/caves/Moqui.html', 'Moqui', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut', 37.120778, -112.563802);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Vodopady Rufabgo', '/english/ru/gorges/Rufabgo.html', 'Rufabgo', 'Asia', 'ru', 'Russia', 'gorges', 'Adygea', 44.267566, 40.192366);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Moqui Sand Caves', '/english/usa/subterranea/MoquiSand.html', 'MoquiSand', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ut', 37.11653115605781, -112.56029290850113);
