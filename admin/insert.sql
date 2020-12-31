@@ -29,3 +29,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Vodopady Rufabgo', '/english/ru/gorges/Rufabgo.html', 'Rufabgo', 'Asia', 'ru', 'Russia', 'gorges', 'Adygea', 44.267566, 40.192366);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Moqui Sand Caves', '/english/usa/subterranea/MoquiSand.html', 'MoquiSand', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ut', 37.11653115605781, -112.56029290850113);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Parcours Troglodytique Souzay-Champigny', '/english/fr/subterranea/SouzayChampigny.html', 'SouzayChampigny', 'Europe', 'fr', 'France', 'subterranea', 'PaysLoire', 47.237711, -0.010656);
