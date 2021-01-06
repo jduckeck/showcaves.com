@@ -32,6 +32,21 @@ KML
 \<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
 <styleUrl>#$1</styleUrl>
 
+\<Style id\=\"sh_([^\d]+)\d+\"\>
+<Style id="sh_$1">
+
+\<Style id\=\"sn_([^\d]+)\d+\"\>
+<Style id="sn_$1">
+
+	<Style id="sh_([^\d]+)\d+">
+		<IconStyle>
+			<scale>1.\d</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/$1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+
 <a data-lightbox="page" data-title="" href="../../../foreign/Big/(.+?).jpg"><img alt="" src="../../../foreign/(.+?).jpg"></a>
             <figcaption>([^']+?)</figcaption>
 <a data-lightbox="page" data-title="$3" href="../../../foreign/Big/$1.jpg"><img alt="" src="../../../foreign/$2.jpg"></a>
