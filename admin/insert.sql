@@ -1,2 +1,0 @@
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Zámecké sklepení Litomyšl', '/english/cz/subterranea/Litomysl.html', 'Litomysl', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Pardubicky', 49.873502, 16.312940);

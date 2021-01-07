@@ -7,3 +7,5 @@ UPDATE sights SET filename = REPLACE(filename, '/other/', '/lb/') WHERE countryc
 UPDATE sights SET region='MountLebanon' WHERE  countrycode = 'lb' AND sortby='Afqua';
 
 UPDATE sights SET filename = REPLACE(filename, '/ch/', '/it/'), country='it', Latitude=45.934304, Longitude=9.025211 WHERE sortby = 'Orso';
+
+UPDATE sights SET region='MidiPyrenees' WHERE  countrycode = 'fr' AND region='Midi-Pyrenees';
