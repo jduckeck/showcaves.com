@@ -25,44 +25,38 @@
     <!-- end responsive -->
 
 
-    <title>Map of Luxembourg</title>
+    <title>Maps of France: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../fr/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../fr/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
         <figure class="left">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
+            <a target="_top" href="../../fr/Maps/index.html"><img alt="France Map" src="../../../maps/France.png" class="mapIcon"></a>
+            <figcaption class="center">France Map</figcaption>
         </figure>
 
         <figure class="right">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
+            <a target="_top" href="../../fr/Maps/index.html"><img alt="France Map" src="../../../maps/France.png" class="mapIcon"></a>
+            <figcaption class="center">France Map</figcaption>
         </figure>
 
-
-        <h1 class="center">Map of Luxembourg</h1>
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="LuxembourgMap">
-                <area shape="rect" alt="La Mine de Cuivre et le Muse Koffergrouf" coords="234,231,310,244" href="../../lu/mines/Stolzembourg.html">
-                <area shape="rect" alt="City of Luxembourg" coords="207,575,307,594" href="../../lu/region/Luxembourg.html">
-                <area shape="rect" alt="Casemattes" coords="273,609,363,625" href="../subterranea/Bock.html">
-                <area shape="rect" alt="Musée National des Mines" coords="90,763,258,776" href="../../lu/mines/Kayldall.html">
-                <area shape="rect" alt="Caves St. Martin" coords="441,673,550,689" href="../subterranea/StMartin.html">
-                <area shape="rect" alt="Germany" coords="356,186,462,211" href="../../de/Maps/Showcaves.html" target="_top">
-                <area shape="rect" alt="Germany" coords="454,705,559,730" href="../../de/Maps/Showcaves.html" target="_top">
-                <area shape="rect" alt="France" coords="292,763,376,787" href="../../fr/Maps/index.html" target="_top">
-                <area shape="rect" alt="Belgium" coords="17,34,114,61" href="../../be/Maps/index.html" target="_top">
-                <area shape="rect" alt="Belgium" coords="7,561,105,586" href="../../be/Maps/index.html" target="_top">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Big/Luxembourg.png" USEMAP="#LuxembourgMap" border="1" width="566" height="800">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -72,9 +66,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Luxembourg</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by Region</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">France</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
