@@ -3,4 +3,5 @@ VALUES('yes','Ajdovska Jama', '/english/si/showcaves/Ajdovska.html', 'Ajdovska',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Citadelle de Namur', '/english/be/subterranea/CitadelleNamur.html', 'CitadelleNamur', 'Europe', 'be', 'Belgium', 'subterranea', 'Namur', 50.45948368988112, 4.861980305026423);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Fastlane - Lagang Cave', '/english/my/showcaves/Fastlane.html', 'Fastlane', 'Asia', 'my', 'Malaysia', 'showcaves', 'GunungMulu', 4.050518, 114.823741);
+VALUES('yes','Lagang Cave', '/english/my/showcaves/Lagang.html', 'Lagang', 'Asia', 'my', 'Malaysia', 'showcaves', 'GunungMulu', 4.050518, 114.823741);
+DELETE FROM sights WHERE sortby='Simon' and countrycode='my';
