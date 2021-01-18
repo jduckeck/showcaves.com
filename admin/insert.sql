@@ -5,3 +5,7 @@ VALUES('yes','Citadelle de Namur', '/english/be/subterranea/CitadelleNamur.html'
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Lagang Cave', '/english/my/showcaves/Lagang.html', 'Lagang', 'Asia', 'my', 'Malaysia', 'showcaves', 'GunungMulu', 4.050518, 114.823741);
 DELETE FROM sights WHERE sortby='Simon' and countrycode='my';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Agop Batu Tulug', '/english/my/showcaves/BatuTulug.html', 'BatuTulug', 'Asia', 'my', 'Malaysia', 'showcaves', 'Sabah', 5.415796, 117.942108);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gua Madai', '/english/my/showcaves/Madai.html', 'Madai', 'Asia', 'my', 'Malaysia', 'showcaves', 'Sabah', 4.718480, 118.153311);
