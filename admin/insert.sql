@@ -11,3 +11,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gua Madai', '/english/my/showcaves/Madai.html', 'Madai', 'Asia', 'my', 'Malaysia', 'showcaves', 'Sabah', 4.718480, 118.153311);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Wind Cave', '/english/my/showcaves/WindBau.html', 'WindBau', 'Asia', 'my', 'Malaysia', 'showcaves', 'Sarawak', 1.414450, 110.137503);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Terra Vinea', '/english/fr/subterranea/TerraVinea.html', 'TerraVinea', 'Europe', 'fr', 'France', 'subterranea', 'Languedoc',43.051575, 2.927616);
