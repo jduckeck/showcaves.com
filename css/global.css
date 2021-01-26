@@ -470,7 +470,16 @@ figure.center {
     clear: both;
     float: none;
     margin: 1em auto;
-    width: 600px;
+    width: 100%;
+}
+
+figure.center img {
+    margin-right: .2em;
+    margin-left: .2em;
+}
+
+figure.center figcaption {
+    text-align: center;
 }
 
 figcaption {

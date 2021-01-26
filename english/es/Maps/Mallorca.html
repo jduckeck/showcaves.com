@@ -25,20 +25,43 @@
     <!-- end responsive -->
 
 
-    <title>Karst Features of Spain</title>
+    <title>Maps of Spain: Mallorca</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../es/karst/Binifaldo.html">Moleta de Binifaldó</a></li>
-                <li><a data-ajax="false" target="_top" href="../../es/karst/ElTorcal.html">El Torcal de Antequera</a></li>
-                <li><a data-ajax="false" target="_top" href="../../es/karst/Peniscola.html">Bufador de Peñiscola</a></li>
-                <li><a data-ajax="false" target="_top" href="../../es/karst/Puentedey.html">Puentedey Puente Natural</a></li>
-            </ul>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../es/Maps/Mallorca.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Mallorca</a></li>
+        -->
+
+        <figure class="left">
+            <a target="_top" href="../../es/Maps/index.html"><img alt="Spain Map" src="../../../maps/Spain.png" class="mapIcon"></a>
+            <figcaption class="center">Spain Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../es/Maps/index.html"><img alt="Spain Map" src="../../../maps/Spain.png" class="mapIcon"></a>
+            <figcaption class="center">Spain Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Mallorca</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="MallorcaMap">
+                <area shape="rect" alt="Cuevas de Arta" coords="489,192,586,207" href="../showcaves/Arta.html">
+                <area shape="rect" alt="Cueva de Campanet" coords="213,131,343,145" href="../showcaves/Campanet.html">
+                <area shape="rect" alt="Cueva de Genova" coords="40,299,159,313" href="../showcaves/Genova.html">
+                <area shape="rect" alt="Cuevas dels Hams" coords="393,286,507,300" href="../showcaves/Hams.html">
+                <area shape="rect" alt="Cuevas del Drach" coords="400,306,516,319" href="../showcaves/Drac.html">
+                <area shape="rect" alt="Cueva del Pirata" coords="381,329,508,344" href="../showcaves/Pirata.html">
+                <area shape="rect" alt="" href="../Maps/index.html" coords="0,0,599,495">
+            </map>
+            <img alt="" src="../../../maps/Mallorca.gif" USEMAP="#MallorcaMap" class="map">
         </div>
 
     </div>
@@ -49,16 +72,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Spain</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
-                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
-                <a data-ajax="false" href="../karst/index.html" data-role="button" class="ui-btn-active">Karst Features</a>
-                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
-                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
-                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
-                <a data-ajax="false" href="../../es/subterranea/index.html" data-role="button" class="">Subterranea</a>
-            </div>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/Mallorca.html" data-role="button" class="">Region</a>
+            <a data-ajax="false" href="../Maps/Mallorca.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
