@@ -15,3 +15,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Terra Vinea', '/english/fr/subterranea/TerraVinea.html', 'TerraVinea', 'Europe', 'fr', 'France', 'subterranea', 'Languedoc',43.051575, 2.927616);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Worley’s Cave', '/english/usa/caves/Worleys.html', 'Worleys', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'tn', 36.456574420056455, -82.24165153037906);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cova dels Coloms', '/english/es/caves/Coloms2.html', 'Coloms2', 'Europe', 'es', 'Spain', 'caves', 'Mallorca', 39.501031, 3.301896);
