@@ -35,3 +35,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Langjökull Glacier Grotto', '/english/is/subterranea/Langjokull.html', 'Langjokull', 'Europe', 'is', 'Iceland', 'subterranea', 'Vesturland', 64.69928819120169, -20.86865499449014);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Imi n’Ifri', '/english/other/karst/IminIfri.html', 'IminIfri', 'Africa', 'ma', 'Morocco', 'karst', 'ma', 'other', 31.723945, -6.971613);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Parc Miner del Maestrat', '/english/es/mines/Maestrat.html', 'Maestrat', 'Europe', 'es', 'Spain', 'mines', 'Valenciana', 40.31008400845492, -0.09841447897859941);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Altos Hornos de Sagunt', '/english/es/mines/Sagunt.html', 'Sagunt', 'Europe', 'es', 'Spain', 'mines', 'Valenciana', 39.6545235447435, -0.2201899401639534);
