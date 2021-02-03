@@ -30,3 +30,4 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Santa Maria de Idris', '/english/it/subterranea/SantaMariaIdris.html', 'SantaMariaIdris', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.6641759808743, 16.61212807692558);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Antica Casa Grotta di Via Fiorentini', '/english/it/subterranea/CasaGrottaViaFiorentini.html', 'CasaGrottaViaFiorentini', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.66760949577639, 16.610038540081483);
+UPDATE sights SET name='Lavakeller', sortby='Lavakeller', filename = REPLACE(filename, 'Basaltkeller', 'Lavakeller') WHERE name = 'Basaltkeller';
