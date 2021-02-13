@@ -33,3 +33,9 @@ VALUES('yes','Antica Casa Grotta di Via Fiorentini', '/english/it/subterranea/Ca
 UPDATE sights SET name='Lavakeller', sortby='Lavakeller', filename = REPLACE(filename, 'Basaltkeller', 'Lavakeller') WHERE name = 'Basaltkeller';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Chiesa di Santa Lucia alle Malve', '/english/it/subterranea/SantaLuciaMalve.html', 'SantaLuciaMalve', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.663248, 16.612442);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Katouche Cave', '/english/car/caves/Katouche.html', 'Katouche', 'Caribbean Islands', 'ai', 'Anguilla', 'caves', 'ai', 'car', 18.212048, -63.067718);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Big Spring', '/english/car/karst/BigSpring.html', 'BigSpring', 'Caribbean Islands', 'ai', 'Anguilla', 'karst', 'ai', 'car',18.251485, -63.015605);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cavannagh Cave', '/english/car/caves/Cavannagh.html', 'Cavannagh', 'Caribbean Islands', 'ai', 'Anguilla', 'caves', 'ai', 'car', 18.211656, -63.070456);
