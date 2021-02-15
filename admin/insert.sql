@@ -38,4 +38,8 @@ VALUES('yes','Katouche Cave', '/english/car/caves/Katouche.html', 'Katouche', 'C
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Big Spring', '/english/car/karst/BigSpring.html', 'BigSpring', 'Caribbean Islands', 'ai', 'Anguilla', 'karst', 'ai', 'car',18.251485, -63.015605);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
-VALUES('yes','Cavannagh Cave', '/english/car/caves/Cavannagh.html', 'Cavannagh', 'Caribbean Islands', 'ai', 'Anguilla', 'caves', 'ai', 'car', 18.211656, -63.070456);
+VALUES('yes','Cavannagh Cave', '/english/car/caves/Cavannagh.html', 'Cavannagh', 'Caribbean Islands', 'ai', 'Anguilla', 'caves', 'ai', 'car', 18.2115, -63.0717);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Alum Cave', '/english/usa/caves/Alum.html', 'Alum', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'tn', 35.639665588086416, -83.44610160668115);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cuevas El Convento', '/english/car/caves/Convento.html', 'Convento', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.037925, -66.749251);
