@@ -43,3 +43,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Alum Cave', '/english/usa/caves/Alum.html', 'Alum', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'tn', 35.639665588086416, -83.44610160668115);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cuevas El Convento', '/english/car/caves/Convento.html', 'Convento', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.037925, -66.749251);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Eremo di San Cataldo', '/english/it/subterranea/SanCataldo.html', 'SanCataldo', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.410406, 12.689958);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta di San Michele Arcangelo', '/english/it/subterranea/SanMicheleArcangeloGragnano.html', 'SanMicheleArcangeloGragnano', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.306854, 12.727935);
