@@ -46,4 +46,4 @@ VALUES('yes','Cuevas El Convento', '/english/car/caves/Convento.html', 'Convento
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Eremo di San Cataldo', '/english/it/subterranea/SanCataldo.html', 'SanCataldo', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.410406, 12.689958);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Grotta di San Michele Arcangelo', '/english/it/subterranea/SanMicheleArcangeloGragnano.html', 'SanMicheleArcangeloGragnano', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.306854, 12.727935);
+VALUES('yes','Grotta di San Michele Arcangelo', '/english/it/caves/SanMicheleArcangeloTancia.html', 'SanMicheleArcangeloTancia', 'Europe', 'it', 'Italy', 'caves', 'Lazio', 42.306854, 12.727935);
