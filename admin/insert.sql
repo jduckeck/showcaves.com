@@ -1,6 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tianbao Cave', '/english/cn/showcaves/Tianbao.html', 'Tianbao', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 28.133512647319666, 106.18864076236902);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mahakali Caves', '/english/in/subterranea/Mahakali.html', 'Mahakali', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 19.1289, 72.8716);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Casa Grotta del Casalnuovo', '/english/it/subterranea/Casalnuovo.html', 'Casalnuovo', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.66243109150818, 16.612071793943233);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','La Raccolta delle Acque', '/english/it/subterranea/RaccoltaDelleAcque.html', 'RaccoltaDelleAcque', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.66353791623552, 16.61131004656782);
