@@ -25,44 +25,38 @@
     <!-- end responsive -->
 
 
-    <title>Karst Areas of Italy</title>
+    <title>Maps of Italy: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../it/region/Abruzzo.html">Abruzzo</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Aosta.html">Valle d'Aosta</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Basilicata.html">Basilicata</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Calabria.html">Calabria</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Campania.html">Campania</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Elba.html">Elba</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Emilia-Romagna.html">Emilia-Romagna</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Friuli.html">Friuli-Venezia Giulia</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Lazio.html">Lazio</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Liguria.html">Liguria</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Lombardia.html">Lombardia</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Marche.html">Marche</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Molise.html">Molise</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Piemonte.html">Piemonte</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Puglia.html">Puglia</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Sardinia.html">Sardegna</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Sicilia.html">Sicilia</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Toscana.html">Toscana</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Trentino.html">Trentino-Alto Adige</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Umbria.html">Umbria</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Veneto.html">Veneto</a></li>
-                <li></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Roma.html">Roma</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Gargano.html">Il Gargano</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Napoli.html">Napoli</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Capri.html">Capri</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Rimini.html">Rimini</a></li>
-                <li><a data-ajax="false" target="_top" href="../../it/region/Matera.html">Sassi di Matera</a></li>
-            </ul>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../it/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../it/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
+
+        <figure class="left">
+            <a target="_top" href="../../it/Maps/index.html"><img alt="Italy Map" src="../../../maps/Italy.png" class="mapIcon"></a>
+            <figcaption class="center">Italy Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../it/Maps/index.html"><img alt="Italy Map" src="../../../maps/Italy.png" class="mapIcon"></a>
+            <figcaption class="center">Italy Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -73,12 +67,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Italy</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="ui-btn-active">Regioni</a>
-            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="">Map</a>
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
