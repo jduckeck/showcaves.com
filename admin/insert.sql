@@ -55,3 +55,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','San Pietro Barisano', '/english/it/subterranea/SanPietroBarisano.html', 'SanPietroBarisano', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.668769, 16.609361);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','San Pietro Barisano Residence e Ristorante', '/english/it/subterranea/SanPietroBarisanoResidence.html', 'SanPietroBarisanoResidence', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.668343, 16.609062);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Haua Fteah Cave', '/english/other/caves/HauaFteah.html', 'HauaFteah', 'Africa', 'ly', 'Libya', 'caves', 'ly', 'other', 32.899722, 22.051389);
