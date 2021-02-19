@@ -49,3 +49,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Eremo di San Cataldo', '/english/it/subterranea/SanCataldo.html', 'SanCataldo', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.410406, 12.689958);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta di San Michele Arcangelo', '/english/it/caves/SanMicheleArcangeloTancia.html', 'SanMicheleArcangeloTancia', 'Europe', 'it', 'Italy', 'caves', 'Lazio', 42.306854, 12.727935);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cripta del Peccato Originale', '/english/it/subterranea/PeccatoOriginale.html', 'PeccatoOriginale', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.620531, 16.563204);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','San Pietro Barisano', '/english/it/subterranea/SanPietroBarisano.html', 'SanPietroBarisano', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.668769, 16.609361);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','San Pietro Barisano Residence e Ristorante', '/english/it/subterranea/SanPietroBarisanoResidence.html', 'SanPietroBarisanoResidence', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.668343, 16.609062);
