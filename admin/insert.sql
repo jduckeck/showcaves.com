@@ -71,3 +71,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Loufang Cave', '/english/cn/showcaves/Loufang.html', 'Loufang', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 32.430329, 107.184504);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Zhongfeng Cave', '/english/cn/showcaves/Zhongfeng.html', 'Zhongfeng', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 32.452807, 107.168241);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kaiyuan Cave', '/english/cn/showcaves/Kaiyuan.html', 'Kaiyuan', 'Asia', 'cn', 'China', 'showcaves', 'Shandong', 36.409273, 118.040057);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yinzi Cave', '/english/cn/showcaves/Yinzi.html', 'Yinzi', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.644230, 110.433507);
