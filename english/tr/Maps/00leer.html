@@ -25,42 +25,39 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Trabzon Turkey Karst Areas showcaves.com">
-    <title>Karst Areas of Turkey: Trabzon</title>
+    <title>Maps of Turkey: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../tr/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../tr/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <h1 class="center">Trabzon</h1>
+        <figure class="left">
+            <a target="_top" href="../../tr/Maps/index.html"><img alt="Turkey Map" src="../../../maps/Turkey.png" class="mapIcon"></a>
+            <figcaption class="center">Turkey Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../tr/Maps/index.html"><img alt="Turkey Map" src="../../../maps/Turkey.png" class="mapIcon"></a>
+            <figcaption class="center">Turkey Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
-        </p>
-
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../tr/showcaves/AkarsuKoyu.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Akarsu Köyü Mağarası</a></li>
-            <li><a data-ajax="false" target="_top" href="../../tr/showcaves/Calkoy.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Çalköy Mağarası</a></li>
-            <li><a data-ajax="false" target="_top" href="../../tr/subterranea/Sumela.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Sümela Manastırı</a></li>
-        </ul>
-
-        <br>
-
-
-        <!--  -->
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Trabzon"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Trabzon"</a></li>
-        </ul>
+        <div class="center">
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
+        </div>
 
     </div>
 
@@ -70,7 +67,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Turkey</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
