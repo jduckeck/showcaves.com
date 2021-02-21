@@ -75,3 +75,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Kaiyuan Cave', '/english/cn/showcaves/Kaiyuan.html', 'Kaiyuan', 'Asia', 'cn', 'China', 'showcaves', 'Shandong', 36.409273, 118.040057);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Yinzi Cave', '/english/cn/showcaves/Yinzi.html', 'Yinzi', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.644230, 110.433507);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Horma Kanyonu', '/english/tr/gorges/Horma.html', 'Horma', 'Europe', 'tr', 'Turkey', 'gorges', 'BlackSea', 41.633911, 33.143334);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sadağı Kanyonu', '/english/tr/gorges/Sadagi.html', 'Sadagi', 'Europe', 'tr', 'Turkey', 'gorges', 'Marmara', 39.870534, 28.906618);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Göynük Canyon', '/english/tr/gorges/Goynuk.html', 'Goynuk', 'Europe', 'tr', 'Turkey', 'gorges', 'Mediterranean', 36.682876, 30.530776);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Saklıkent Kanyonu', '/english/tr/gorges/Saklikent.html', 'Saklikent', 'Europe', 'tr', 'Turkey', 'gorges', 'Mediterranean', 36.473609, 29.403535);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Çatak Kanyonu Cam Terası', '/english/tr/gorges/Catak.html', 'Catak', 'Europe', 'tr', 'Turkey', 'gorges', 'BlackSea', 41.655880, 33.235575);
