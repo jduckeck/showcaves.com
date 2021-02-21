@@ -85,3 +85,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Saklıkent Kanyonu', '/english/tr/gorges/Saklikent.html', 'Saklikent', 'Europe', 'tr', 'Turkey', 'gorges', 'Mediterranean', 36.473609, 29.403535);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Çatak Kanyonu Cam Terası', '/english/tr/gorges/Catak.html', 'Catak', 'Europe', 'tr', 'Turkey', 'gorges', 'BlackSea', 41.655880, 33.235575);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ilgarini Mağarası', '/english/tr/caves/Ilgarini.html', 'Ilgarini', 'Europe', 'tr', 'Turkey', 'caves', 'BlackSea', 41.7520593, 33.0030668);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sarıkaya Mağarası', '/english/tr/showcaves/Sarikaya.html', 'Sarikaya', 'Europe', 'tr', 'Turkey', 'showcaves', 'BlackSea', 40.935016, 31.398246);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Buz Mağarası', '/english/tr/caves/Buz.html', 'Buz', 'Europe', 'tr', 'Turkey', 'caves', 'EasternAnatolia', 39.495945, 44.325036);
