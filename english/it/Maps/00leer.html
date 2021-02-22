@@ -25,57 +25,39 @@
     <!-- end responsive -->
 
 
-    <title>Map of Turkey</title>
+    <title>Maps of Italy: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../it/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../it/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
         <figure class="left">
-            <a target="_top" href="../../explain/Maps/MiddleEast.html"><img alt="Middle East Map" src="../../../maps/MiddleEast.gif" border="1" hspace="0" width="86" height="62"></a>
-            <figcaption class="center">Middle East Map</figcaption>
+            <a target="_top" href="../../it/Maps/index.html"><img alt="Italy Map" src="../../../maps/Italy.png" class="mapIcon"></a>
+            <figcaption class="center">Italy Map</figcaption>
         </figure>
 
         <figure class="right">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
+            <a target="_top" href="../../it/Maps/index.html"><img alt="Italy Map" src="../../../maps/Italy.png" class="mapIcon"></a>
+            <figcaption class="center">Italy Map</figcaption>
         </figure>
 
-
-        <h1 class="center">Map of Turkey</h1>
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="TurkeyMap">
-                <area shape="rect" alt="Pamukkale" coords="137,225,199,239" href="../springs/Pamukkale.html">
-                <area shape="rect" alt="Insuyu magarasin" coords="88,254,199,267" href="../showcaves/Insuyu.html">
-                <area shape="rect" alt="Karain magarasi" coords="93,295,196,307" href="../showcaves/Karain.html">
-                <area shape="rect" alt="Damlatas magarasi" coords="190,288,308,302" href="../showcaves/Damlatas.html">
-                <area shape="rect" alt="Grotto of St. Peter in Antioch" coords="374,330,435,342" href="../caves/StPeter.html">
-                <area shape="rect" alt="Bulgaria" coords="0,0,62,17" href="../../bg/Maps/index.html">
-                <area shape="rect" alt="Iran" coords="763,169,798,188" href="../../ir/region/Map.html">
-                <area shape="rect" alt="Greece" coords="1,155,17,211" href="../../gr/region/Map.html">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Turkey.gif" USEMAP="#TurkeyMap" border="1" width="800" height="356">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
-
-        <br>
-
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../showcaves/Damlatas.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Damlatas magarasi</a></li>
-            <li><a data-ajax="false" target="_top" href="../showcaves/Insuyu.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Insuyu magarasin</a></li>
-            <li><a data-ajax="false" target="_top" href="../showcaves/Karain.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Karain magarasi</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/StPeter.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Grotto of St. Peter in Antioch</a></li>
-            <li><a data-ajax="false" target="_top" href="../springs/Pamukkale.html"><img alt="Spring" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png">Pamukkale</a></li>
-        </ul>
-
-        <br>
 
     </div>
 
@@ -84,9 +66,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">Turkey</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by Region</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Italy</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

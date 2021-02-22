@@ -45,3 +45,33 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Alum Cave', '/english/usa/caves/Alum.html', 'Alum', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'tn', 35.639665588086416, -83.44610160668115);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cuevas El Convento', '/english/car/caves/Convento.html', 'Convento', 'Caribbean Islands', 'pr', 'Puerto Rico', 'caves', 'pr', 'car', 18.037925, -66.749251);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Eremo di San Cataldo', '/english/it/subterranea/SanCataldo.html', 'SanCataldo', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.410406, 12.689958);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta di San Michele Arcangelo', '/english/it/caves/SanMicheleArcangeloTancia.html', 'SanMicheleArcangeloTancia', 'Europe', 'it', 'Italy', 'caves', 'Lazio', 42.306854, 12.727935);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cripta del Peccato Originale', '/english/it/subterranea/PeccatoOriginale.html', 'PeccatoOriginale', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.620531, 16.563204);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','San Pietro Barisano', '/english/it/subterranea/SanPietroBarisano.html', 'SanPietroBarisano', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.668769, 16.609361);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','San Pietro Barisano Residence e Ristorante', '/english/it/subterranea/SanPietroBarisanoResidence.html', 'SanPietroBarisanoResidence', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.668343, 16.609062);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Haua Fteah Cave', '/english/other/caves/HauaFteah.html', 'HauaFteah', 'Africa', 'ly', 'Libya', 'caves', 'ly', 'other', 32.899722, 22.051389);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Longtan Karst Cave', '/english/cn/showcaves/Longtan.html', 'Longtan', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 27.023471, 102.192026);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lion\'s Cave', '/english/cn/showcaves/Lion.html', 'Lion', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 32.414583, 107.182904);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Luojishan Fairy Cave', '/english/cn/showcaves/Luojishan.html', 'Luojishan', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 27.7111678311962, 102.30732883068502);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Luzhou Fairy Cave', '/english/cn/showcaves/Luzhou.html', 'Luzhou', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 28.102715, 105.508806);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Nuoshui Dongtian', '/english/cn/showcaves/Nuoshui.html', 'Nuoshui', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 32.408622, 107.182926);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Loufang Cave', '/english/cn/showcaves/Loufang.html', 'Loufang', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 32.430329, 107.184504);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Zhongfeng Cave', '/english/cn/showcaves/Zhongfeng.html', 'Zhongfeng', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 32.452807, 107.168241);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kaiyuan Cave', '/english/cn/showcaves/Kaiyuan.html', 'Kaiyuan', 'Asia', 'cn', 'China', 'showcaves', 'Shandong', 36.409273, 118.040057);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yinzi Cave', '/english/cn/showcaves/Yinzi.html', 'Yinzi', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.644230, 110.433507);
