@@ -1,3 +1,5 @@
+UPDATE sights SET name='Lavakeller', sortby='Lavakeller', filename = REPLACE(filename, 'Basaltkeller', 'Lavakeller') WHERE name = 'Basaltkeller';
+
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tianbao Cave', '/english/cn/showcaves/Tianbao.html', 'Tianbao', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 28.133512647319666, 106.18864076236902);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -32,7 +34,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Santa Maria de Idris', '/english/it/subterranea/SantaMariaIdris.html', 'SantaMariaIdris', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.6641759808743, 16.61212807692558);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Antica Casa Grotta di Via Fiorentini', '/english/it/subterranea/CasaGrottaViaFiorentini.html', 'CasaGrottaViaFiorentini', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.66760949577639, 16.610038540081483);
-UPDATE sights SET name='Lavakeller', sortby='Lavakeller', filename = REPLACE(filename, 'Basaltkeller', 'Lavakeller') WHERE name = 'Basaltkeller';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Chiesa di Santa Lucia alle Malve', '/english/it/subterranea/SantaLuciaMalve.html', 'SantaLuciaMalve', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.663248, 16.612442);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
