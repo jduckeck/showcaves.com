@@ -95,3 +95,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Sipahiler Mağarası', '/english/tr/caves/Sipahiler.html', 'Sipahiler', 'Europe', 'tr', 'Turkey', 'caves', 'BlackSea', 41.630371, 32.491833);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gürcüoluk Mağarası', '/english/tr/showcaves/Gurcuoluk.html', 'Gurcuoluk', 'Europe', 'tr', 'Turkey', 'showcaves', 'BlackSea', 41.726355, 32.465184);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','İnatlı Mağarası', '/english/tr/showcaves/Inalti.html', 'Inalti', 'Europe', 'tr', 'Turkey', 'showcaves', 'BlackSea', 41.732193, 34.569028);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Köşekbükü Mağarası', '/english/tr/showcaves/Kosekbuku.html', 'Kosekbuku', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.128165, 32.759642);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mencilis Mağarası', '/english/tr/showcaves/Mencilis.html', 'Mencilis', 'Europe', 'tr', 'Turkey', 'showcaves', 'BlackSea', 41.274793, 32.624171);
