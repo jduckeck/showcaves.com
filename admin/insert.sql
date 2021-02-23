@@ -3,7 +3,7 @@ UPDATE sights SET name='Lavakeller', sortby='Lavakeller', filename = REPLACE(fil
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tianbao Cave', '/english/cn/showcaves/Tianbao.html', 'Tianbao', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 28.133512647319666, 106.18864076236902);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Mahakali Caves', '/english/in/subterranea/Mahakali.html', 'Mahakali', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 19.1289, 72.8716);
+VALUES('yes','Mahakali Caves', '/english/in/subterranea/Mahakali.html', 'Mahakali', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 19.130103, 72.873515);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Casa Grotta del Casalnuovo', '/english/it/subterranea/Casalnuovo.html', 'Casalnuovo', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.66243109150818, 16.612071793943233);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -102,3 +102,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Köşekbükü Mağarası', '/english/tr/showcaves/Kosekbuku.html', 'Kosekbuku', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.128165, 32.759642);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mencilis Mağarası', '/english/tr/showcaves/Mencilis.html', 'Mencilis', 'Europe', 'tr', 'Turkey', 'showcaves', 'BlackSea', 41.274793, 32.624171);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Azize Thecla Kutsal Alanı', '/english/tr/subterranea/AzizeThecla.html', 'AzizeThecla', 'Europe', 'tr', 'Turkey', 'subterranea', 'Mediterranean', 36.363136, 33.931041);
