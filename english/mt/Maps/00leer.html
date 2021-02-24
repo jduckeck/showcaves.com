@@ -25,28 +25,38 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Malta Map showcaves.com">
-    <title>Map of Malta: $CaveName$</title>
+    <title>Maps of Malta: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../mt/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../mt/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <li><a data-ajax="false" target="_top" href="../../mt/Maps/$FileName$.html">$CaveName$</a></li>
-        <li><a data-ajax="false" target="_top" href="../../mt/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        <figure class="left">
+            <a target="_top" href="../../mt/Maps/index.html"><img alt="Malta Map" src="../../../maps/Malta.png" class="mapIcon"></a>
+            <figcaption class="center">Malta Map</figcaption>
+        </figure>
 
-        <h1 class="center">Map of Malta</h1>
+        <figure class="right">
+            <a target="_top" href="../../mt/Maps/index.html"><img alt="Malta Map" src="../../../maps/Malta.png" class="mapIcon"></a>
+            <figcaption class="center">Malta Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="MaltaMap">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../Bilder/mt/Maps/Malta.gif" USEMAP="#MaltaMap" border="1" width="780" height="460">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -57,8 +67,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Malta</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/byIsland.html">by Island</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Island</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

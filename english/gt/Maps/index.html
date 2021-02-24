@@ -32,9 +32,53 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/MiddleAmerica.html"><img alt="Middle America Map" src="../../../maps/MiddleAmerica.gif" border="1" hspace="0" width="80" height="64"></a>
+            <figcaption class="center">Middle America Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/MiddleAmerica.html"><img alt="Middle America Map" src="../../../maps/MiddleAmerica.gif" border="1" hspace="0" width="80" height="64"></a>
+            <figcaption class="center">Middle America Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of Guatemala</h1>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="GuatemalaMap">
+                <area shape="rect" alt="Alta Verapaz" coords="379,375,438,385" href="../region/AltaVerapaz.html">
+                <area shape="rect" alt="Candelaria Caves" coords="239,406,354,419" href="../showcaves/Candelaria.html">
+                <area shape="rect" alt="Semuc Champey" coords="427,459,540,472" href="../karst/SemucChampey.html">
+                <area shape="rect" alt="Laguna Lachua" coords="322,386,426,396" href="../karst/Lachua.html">
+                <area shape="rect" alt="Lanqu&iacute;n Caves" coords="429,445,526,456" href="../showcaves/Lanquin.html">
+                <area shape="rect" alt="Grutas Rey Marcos" coords="374,473,503,488" href="../showcaves/ReyMarcos.html">
+                <!-- -->
+                <area shape="rect" alt="Baja Verapaz" coords="316,533,380,546" href="../region/BajaVerapaz.html">
+                <area shape="rect" alt="La caverna de Chicoy" coords="403,513,526,528" href="../showcaves/Chicoy.html">
+                <!-- -->
+                <area shape="rect" alt="Chiquimula" coords="532,622,583,633" href="../region/Chiquimula.html">
+                <area shape="rect" alt="Cuevas de Minas" coords="570,650,704,662" href="../caves/Minas.html">
+                <!-- -->
+                <area shape="rect" alt="El Petén" coords="372,141,402,153" href="../region/ElPeten.html">
+                <area shape="rect" alt="Jobitzinaj Cave" coords="360,194,464,209" href="../caves/Jobitzinaj.html">
+                <area shape="rect" alt="Finca Ixobel River Cave Trip" coords="467,301,554,319" href="../caves/FincaIxobel.html">
+                <area shape="rect" alt="Actun Kan Cave" coords="455,195,536,210" href="../showcaves/ActunKan.html">
+                <area shape="rect" alt="Grutas de Uaxact&uacute;n" coords="390,59,522,73" href="../caves/Uaxactun.html">
+                <!-- -->
+                <area shape="rect" alt="Quiché" coords="260,464,297,476" href="../region/Quiche.html">
+                <area shape="rect" alt="Utatlan Cave" coords="166,549,224,564" href="../subterranea/Utatlan.html">
+                <!-- -->
+                <area shape="rect" alt="Mexico" coords="56,282,144,311" href="../../mx/Maps/index.html" target="_top">
+                <area shape="rect" alt="Mexico" coords="116,11,201,39" href="../../mx/Maps/index.html" target="_top">
+                <area shape="rect" alt="Belize" coords="654,148,726,172" href="../../bz/Maps/index.html">
+                <area shape="rect" alt="Honduras" coords="681,559,798,582" href="../../other/region/hn.html">
+                <area shape="rect" alt="El Salvador" coords="473,792,611,817" href="../../other/region/sv.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/Guatemala.png" USEMAP="#GuatemalaMap" class="map" width="800" height="824">
         </div>
 
     </div>
@@ -46,11 +90,11 @@
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Guatemala</a></li>
             </ul>
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Region</a>
-                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="">Maps</a>
-
-            </div>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
+            <a data-ajax="false" href="index.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->

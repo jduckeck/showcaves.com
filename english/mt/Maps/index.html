@@ -32,9 +32,38 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of Malta</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="MaltaMap">
+                <area shape="rect" alt="Calypso Cave" coords="215,59,303,72" href="../caves/Calypso.html">
+                <area shape="rect" alt="Ghar Ninu" coords="149,53,209,67" href="../showcaves/Ninu.html">
+                <area shape="rect" alt="Ghar Xerri" coords="135,68,202,82" href="../showcaves/Xerri.html">
+                <area shape="rect" alt="Ghar Ninu" coords="198,67,210,79" href="../showcaves/Ninu.html">
+                <area shape="rect" alt="Ghar tal-Iburdan" coords="296,477,389,489" href="../subterranea/TalIburdan.html">
+                <area shape="rect" alt="Ghar il-Kbir" coords="315,513,387,527" href="../subterranea/IlKbir.html">
+                <area shape="rect" alt="Ghar Lapsi" coords="380,595,456,608" href="../caves/Lapsi.html">
+                <area shape="rect" alt="Blue Grotto" coords="498,634,573,647" href="../caves/Blue.html">
+                <area shape="rect" alt="Ghar Dalam" coords="557,596,642,610" href="../showcaves/Dalam.html">
+                <area shape="rect" alt="Ghar Hasan" coords="578,655,658,668" href="../showcaves/Hasan.html">
+                <area shape="rect" alt="Malta" coords="152,458,205,476" href="../index.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Malta.gif" USEMAP="#MaltaMap" class="map" width="800" height="680">
         </div>
 
     </div>
@@ -47,8 +76,9 @@
                 <li><a data-ajax="false" target="_top" href="../index.html">Malta</a></li>
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Island</a>
-                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Islands</a>
+                <a data-ajax="false" href="index.html" data-role="button" class="ui-btn-active">Maps</a>
             </div>
         </div>
     </div>
