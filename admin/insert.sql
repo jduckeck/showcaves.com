@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Çankırı Tuz Mağarası', '/english/tr/mines/Cankiri.html', 'Cankiri', 'Europe', 'tr', 'Turkey', 'mines', 'CentralAnatolia', 40.544362, 33.759633);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Nevşehir Yeraltı Şehri', '/english/tr/subterranea/Nevsehir.html', 'Nevsehir', 'Europe', 'tr', 'Turkey', 'subterranea', 'CentralAnatolia', 38.620618, 34.714448);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sivasa Gökçetoprak Yeraltı Şehri', '/english/tr/subterranea/SivasaGokcetoprak.html', 'SivasaGokcetoprak', 'Europe', 'tr', 'Turkey', 'subterranea', 'CentralAnatolia', 38.657904, 34.299582);
