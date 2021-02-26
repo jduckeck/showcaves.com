@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','İncirliin Mağarası', '/english/tr/showcaves/Incirliin.html', 'Incirliin', 'Europe', 'tr', 'Turkey', 'showcaves', 'Aegean', 37.189722, 27.761944);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Chiesa del Cappuccino Vecchio', '/english/it/subterranea/CappuccinoVecchio.html', 'CappuccinoVecchio', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.653980, 16.618884);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kristal Teras', '/english/tr/gorges/KristalTeras.html', 'KristalTeras', 'Europe', 'tr', 'Turkey', 'gorges', 'BlackSea', 41.279804, 32.682462);
