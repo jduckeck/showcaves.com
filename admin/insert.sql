@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Yerküpe Mağarası', '/english/tr/showcaves/Yerkupe.html', 'Yerkupe', 'Europe', 'tr', 'Turkey', 'showcaves', 'Aegean', 37.403627, 28.430115);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','İncirliin Mağarası', '/english/tr/showcaves/Incirliin.html', 'Incirliin', 'Europe', 'tr', 'Turkey', 'showcaves', 'Aegean', 37.189722, 27.761944);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Chiesa del Cappuccino Vecchio', '/english/it/subterranea/CappuccinoVecchio.html', 'CappuccinoVecchio', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.653980, 16.618884);
