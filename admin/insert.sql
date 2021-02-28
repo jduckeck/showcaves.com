@@ -20,3 +20,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Kristal Teras', '/english/tr/gorges/KristalTeras.html', 'KristalTeras', 'Europe', 'tr', 'Turkey', 'gorges', 'BlackSea', 41.279804, 32.682462);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Canadian Energy Museum', '/english/ca/mines/Leduc.html', 'Leduc', 'NorthAmerica', 'ca', 'Canada', 'mines', 'Alberta', 53.330088, -113.728871);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Vouraikos Gorge', '/english/gr/gorges/Vouraikos.html', 'Vouraikos', 'Europe', 'gr', 'Greece', 'gorges', 'Peloponnese', 38.191963, 22.197798);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Covetes dels Moros', '/english/es/subterranea/Bocairent.html', 'Bocairent', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 38.770263, -0.606882);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Don Juan', '/english/es/showcaves/DonJuan.html', 'DonJuan', 'Europe', 'es', 'Spain', 'showcaves', 'Valenciana', 39.184702, -1.143178);
