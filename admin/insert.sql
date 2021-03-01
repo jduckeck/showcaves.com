@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Museo Cueva de Dragut', '/english/es/showcaves/Dragut.html', 'Dragut', 'Europe', 'es', 'Spain', 'showcaves', 'Valenciana', 39.183987, -0.218666);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Conjunto de Cuevas de Utiel', '/english/es/subterranea/Utiel.html', 'Utiel', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 39.566712, -1.206679);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Deutsches Erdölmuseum Wietze', '/english/de/mines/Wietze.html', 'Wietze', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 52.660172, 9.833418);
