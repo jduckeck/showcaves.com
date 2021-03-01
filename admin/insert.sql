@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Covetes dels Moros', '/english/es/subterranea/Bocairent.html', 'Bocairent', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 38.770263, -0.606882);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de Don Juan', '/english/es/showcaves/DonJuan.html', 'DonJuan', 'Europe', 'es', 'Spain', 'showcaves', 'Valenciana', 39.184702, -1.143178);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museo Cueva de Dragut', '/english/es/showcaves/Dragut.html', 'Dragut', 'Europe', 'es', 'Spain', 'showcaves', 'Valenciana', 39.183987, -0.218666);
