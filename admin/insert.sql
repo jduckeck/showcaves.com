@@ -34,3 +34,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Deutsches Erdölmuseum Wietze', '/english/de/mines/Wietze.html', 'Wietze', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 52.660172, 9.833418);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Covetes del Colomer', '/english/es/subterranea/Colomer.html', 'Colomer', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 38.767657, -0.607065);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cava de Sant Blai', '/english/es/subterranea/SantBlai.html', 'SantBlai', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 38.768900, -0.607940);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Oya History Museum', '/english/jp/mines/Oya.html', 'Oya', 'Asia', 'jp', 'Japan', 'mines', 'Gunma', 36.599989, 139.824745);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Wanxiang Dong', '/english/cn/showcaves/Wanxiang.html', 'Wanxiang', 'Asia', 'cn', 'China', 'showcaves', 'Gansu', 33.328534, 105.006661);
