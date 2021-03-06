@@ -44,3 +44,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Sapadere Kanyon', '/english/tr/gorges/Sapadere.html', 'Sapadere', 'Europe', 'tr', 'Turkey', 'gorges', 'Mediterranean', 36.528019, 32.312985);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cüceler Mağarası', '/english/tr/showcaves/Cuceler.html', 'Cuceler', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.490048, 32.276473);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kirnitzschklamm', '/english/de/gorges/Kirnitzschklamm.html', 'Kirnitzschklamm', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.909668, 14.388289);
