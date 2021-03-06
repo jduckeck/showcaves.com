@@ -40,3 +40,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Oya History Museum', '/english/jp/mines/Oya.html', 'Oya', 'Asia', 'jp', 'Japan', 'mines', 'Gunma', 36.599989, 139.824745);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Wanxiang Dong', '/english/cn/showcaves/Wanxiang.html', 'Wanxiang', 'Asia', 'cn', 'China', 'showcaves', 'Gansu', 33.328534, 105.006661);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sapadere Kanyon', '/english/tr/gorges/Sapadere.html', 'Sapadere', 'Europe', 'tr', 'Turkey', 'gorges', 'Mediterranean', 36.528019, 32.312985);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cüceler Mağarası', '/english/tr/showcaves/Cuceler.html', 'Cuceler', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.490048, 32.276473);
