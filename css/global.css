@@ -115,6 +115,10 @@ ol.biglist ul li {
     margin-bottom: .5rem;
 }
 
+dl dd {
+    padding: .5rem;
+}
+
 table.language {
     padding: 0.25rem;
     margin: 0 auto;
