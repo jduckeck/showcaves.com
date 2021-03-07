@@ -57,7 +57,11 @@ p {
 }
 
 .clear {
-    clear: both
+    clear: both;
+}
+
+.clearLeft {
+    clear: left;
 }
 
 .red {
