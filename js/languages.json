@@ -1,0 +1,110 @@
+{
+   "en": {
+      "name": "English",
+      "test": "This Concept 0 is only for testing your browser's rendering of characters; all sample characters shown here should agree with their description here; character encoding is Unicode UTF-8."
+   },
+   "ar": {
+      "name": "Arabic",
+      "test": "ن = Arabic letter Noon (rounded u with 1 dot above)"
+   },
+   "bg": {
+      "name": "Bulgarian",
+      "test": "б = Cyrillic small letter be (bent-over b); й = Cyrillic small letter short i (reversed N with breve); щ = Cyrillic small letter shcha (inverted m with tail)"
+   },
+   "de": {
+      "name": "German",
+      "test": "ö = o-diaeresis; ß = sharp-s (Beta)"
+   },
+   "es": {
+      "name": "Spanish",
+      "test": "ñ = n-tilde"
+   },
+   "fa": {
+      "name": "Farsi/Persian",
+      "test": "پ = Arabic letter peh (wide u with 3 dots under); گ = Arabic letter gaf (open right-sloping b with bar above)"
+   },
+   "fr": {
+      "name": "French",
+      "test": "è = e-grave; ê = e-circumflex"
+   },
+   "gr": {
+      "name": "Greek",
+      "test": "α = Alpha; Δ = Delta"
+   },
+   "hr": {
+      "name": "Croatian",
+      "test": "š = s-caron; ž = z-caron; ć = c-acute; č = c-caron; đ = d-stroke"
+   },
+   "hu": {
+      "name": "Hungarian",
+      "test": "ő = o-double-acute; ű = u-double-acute"
+   },
+   "id": {
+      "name": "Bahasa Indonesian",
+      "test": "Uses unaccented Latin-1 characters like English."
+   },
+   "it": {
+      "name": "Italian",
+      "test": "à = a-grave"
+   },
+   "ja": {
+      "name": "Japanese",
+      "test": "ヨ = E reversed left to right; 田 = square with cross inside; ノ = right-leaning curved stroke"
+   },
+   "ko": {
+      "name": "Korean",
+      "test": "투 = E over T; 이 = 0 followed by a vertical line."
+   },
+   "la": {
+      "name": "Latin",
+      "test": "Uses unaccented Latin-1 characters like English."
+   },
+   "lt": {
+      "name": "Lithuanian",
+      "test": "ė = e with dot above; ą = a with tail (Ogonek); į = i with tail."
+   },
+   "nl": {
+      "name": "Dutch",
+      "test": "ë = e-diaeresis; ï = i-diaeresis."
+   },
+   "pl": {
+      "name": "Polish",
+      "test": "ł = small L with stroke; ę = small e with tail; ż = small z with dot above"
+   },
+   "pt": {
+      "name": "Portuguese",
+      "test": "ã = a-tilde"
+   },
+   "ro": {
+      "name": "Romanian",
+      "test": "ş = s-cedilla; ă = a-breve"
+   },
+   "ru": {
+      "name": "Russian",
+      "test": "щ = Cyrillic small letter Shcha (w with tail); я = Cyrillic small letter Ya (reversed R)"
+   },
+   "se": {
+      "name": "Swedish",
+      "test": "å = a-ring; ä = a-diaeresis; ö = o-diaeresis."
+   },
+   "sl": {
+      "name": "Slovenian",
+      "test": "š = s-caron (small v above); ž = z-caron; č = c-caron"
+   },
+   "sr": {
+      "name": "Serbian",
+      "test": "б = Cyrillic small letter be (bent-over b); и = Cyrillic small letter i (reversed N); ш = Cyrillic small letter sha (inverted m)"
+   },
+   "tr": {
+      "name": "Turkish",
+      "test": "ğ = g-breve; ş = s-cedilla; ı = i without dot"
+   },
+   "uk": {
+      "name": "Ukrainian",
+      "test": "щ = Cyrillic small letter Shcha (w with tail); я = Cyrillic small letter Ya (reversed R)"
+   },
+   "zh": {
+      "name": "Chinese",
+      "test": "古 = rectangle surmounted by +；干 = T with mid horizontal stroke；(...) = Pinyin. Jìhuà = J, i-grave, h, u, a-grave."
+   }
+}
