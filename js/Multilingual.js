@@ -14,8 +14,8 @@ function init() {
         });
     });
 
-    let $language1select = $("#language1-select");
-    $language1select.change(function() {
+    let $language1select = $("#language1\-select");
+    $language1select.on("change", function() {
         let $select = $language1select.filter("option:selected");
         $select.each(function() {
             language1 = $(this).value();
@@ -24,7 +24,7 @@ function init() {
         writeTable(language1, language2);
     });
 
-    let $language2select = $("#language2-select");
+    let $language2select = $("#language2\-select");
     $language2select.change(function() {
         let $select = $language2select.filter("option:selected");
         $select.each(function() {
