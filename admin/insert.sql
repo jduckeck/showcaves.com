@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Parco Gola del Tinazzo', '/english/it/gorges/Tinazzo.html', 'Tinazzo', 'Europe', 'it', 'Italy', 'gorges', 'Lombardia', 45.804285, 10.063910);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Santuario de la Virgen de la Balma', '/english/es/subterranea/VirgenDeLaBalma.html', 'VirgenDeLaBalma', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 40.745264, -0.176436);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Balma del Messere', '/english/it/subterranea/Messere.html', 'Messere', 'Europe', 'it', 'Italy', 'subterranea', 'Piemonte', 44.119943, 7.895399);
