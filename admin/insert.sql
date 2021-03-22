@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mina Eugènia', '/english/es/mines/Eugenia.html', 'Eugenia', 'Europe', 'es', 'Spain', 'mines', 'Cataluna', 41.161314, 0.762697);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Coves de Can Riera', '/english/es/caves/CanRiera.html', 'CanRiera', 'Europe', 'es', 'Spain', 'caves', 'Cataluna', 41.366942, 1.959568);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Parco Gola del Tinazzo', '/english/it/gorges/Tinazzo.html', 'Tinazzo', 'Europe', 'it', 'Italy', 'gorges', 'Lombardia', 45.804285, 10.063910);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Santuario de la Virgen de la Balma', '/english/es/subterranea/VirgenDeLaBalma.html', 'VirgenDeLaBalma', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 40.745264, -0.176436);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Balma del Messere', '/english/it/subterranea/Messere.html', 'Messere', 'Europe', 'it', 'Italy', 'subterranea', 'Piemonte', 44.119943, 7.895399);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Balma d\'Esplugues', '/english/es/subterranea/Esplugues.html', 'Esplugues', 'Europe', 'es', 'Spain', 'subterranea', 'Cataluna', 41.768523, 2.133471);
