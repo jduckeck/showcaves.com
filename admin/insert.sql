@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','El Puig de la Balma', '/english/es/subterranea/PuigDeLaBalma.html', 'PuigDeLaBalma', 'Europe', 'es', 'Spain', 'subterranea', 'Cataluna', 41.693848, 1.962362);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Historický důl Kovárna', '/english/cz/mines/Kovarna.html', 'Kovarna', 'Europe', 'cz', 'Czech Republic', 'mines', 'Kralovehradecky', 50.727775, 15.731211);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cave of Hira', '/english/other/showcaves/Hira.html', 'Hira', 'MiddleEast', 'sa', 'Saudi Arabia', 'showcaves', 'sa', 'other', 21.4573709, 39.8591955);
