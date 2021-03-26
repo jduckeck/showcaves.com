@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Widow Jane Mine', '/english/usa/mines/WidowJane.html', 'WidowJane', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ny', 41.8416, -74.0988);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kurasawa Shonyudo', '/english/jp/showcaves/Kurasawa.html', 'Kurasawa', 'Asia', 'jp', 'Japan', 'showcaves', 'Tokyo', 35.854457, 139.072070);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de San Ignacio', '/english/es/subterranea/SanIgnacio.html', 'SanIgnacio', 'Europe', 'es', 'Spain', 'subterranea', 'Barcelona', 41.7215, 1.8312);
