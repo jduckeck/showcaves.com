@@ -24,3 +24,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Historický důl Kovárna', '/english/cz/mines/Kovarna.html', 'Kovarna', 'Europe', 'cz', 'Czech Republic', 'mines', 'Kralovehradecky', 50.727775, 15.731211);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cave of Hira', '/english/other/showcaves/Hira.html', 'Hira', 'MiddleEast', 'sa', 'Saudi Arabia', 'showcaves', 'sa', 'other', 21.4573709, 39.8591955);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Church of the Annunciation', '/english/il/subterranea/Annunciation.html', 'Annunciation', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Northern', 32.702222, 35.297778);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','St. Joseph\'s Church', '/english/il/subterranea/StJosephs.html', 'StJosephs', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Northern', 32.703056, 35.298333);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Greek Orthodox Church of Saint Gabriel', '/english/il/subterranea/SaintGabriel.html', 'SaintGabriel', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Northern', 32.707083, 35.301583);
