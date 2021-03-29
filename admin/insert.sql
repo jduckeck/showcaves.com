@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Iwamuro Kannon', '/english/jp/subterranea/Iwamuro.html', 'Iwamuro', 'Asia', 'jp', 'Japan', 'subterranea', 'Saitama', 36.037884, 139.420441);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gankutsu Hotel', '/english/jp/subterranea/Gankutsu.html', 'Gankutsu', 'Asia', 'jp', 'Japan', 'subterranea', 'Saitama', 36.0375, 139.4201);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Piew', '/english/la/showcaves/Piew.html', 'Piew', 'Asia', 'la', 'Laos', 'showcaves', 'Xiangkhouang', 19.6747, 103.5686);
