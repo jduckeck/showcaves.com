@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gankutsu Hotel', '/english/jp/subterranea/Gankutsu.html', 'Gankutsu', 'Asia', 'jp', 'Japan', 'subterranea', 'Saitama', 36.0375, 139.4201);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Piew', '/english/la/showcaves/Piew.html', 'Piew', 'Asia', 'la', 'Laos', 'showcaves', 'Xiangkhouang', 19.6747, 103.5686);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kamenice Hřensko', '/english/cz/gorges/Kamenice.html', 'Kamenice', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.873706, 14.251920);
