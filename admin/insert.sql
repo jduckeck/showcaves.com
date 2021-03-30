@@ -38,3 +38,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tham Piew', '/english/la/showcaves/Piew.html', 'Piew', 'Asia', 'la', 'Laos', 'showcaves', 'Xiangkhouang', 19.6747, 103.5686);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kamenice Hřensko', '/english/cz/gorges/Kamenice.html', 'Kamenice', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.873706, 14.251920);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Dorfbachklamm', '/english/de/gorges/Dorfbachklamm.html', 'Dorfbachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.926357, 14.185328);
