@@ -42,3 +42,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Dorfbachklamm', '/english/de/gorges/Dorfbachklamm.html', 'Dorfbachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.926357, 14.185328);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Felslabyrinth Langenhennersdorf', '/english/de/gorges/Langenhennersdorf.html', 'Langenhennersdorf', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.887917, 14.031829);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Löwengrube', '/english/de/subterranea/Loewengrube.html', 'Loewengrube', 'Europe', 'de', 'Germany', 'subterranea', 'Franken', 49.373804, 11.354014);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Stará Plynárna', '/english/cz/gorges/StaraPlynarna.html', 'StaraPlynarna', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.873670, 14.244260);
