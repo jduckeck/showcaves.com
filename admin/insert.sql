@@ -50,3 +50,4 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Wolfsschlucht', '/english/de/gorges/Wolfsschlucht.html', 'Wolfsschlucht', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.979949, 14.103174);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Arnsteinhöhle', '/english/de/caves/Arnstein.html', 'Arnstein', 'Europe', 'de', 'Germany', 'caves', 'Sachsen', 50.929229, 14.289981);
+UPDATE sights SET filename = REPLACE(filename, '/Diebs/', '/Goetzinger/'), name='Götzingerhöhle' WHERE sortby = 'Diebs';
