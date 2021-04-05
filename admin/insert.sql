@@ -48,3 +48,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Löwengrube', '/english/de/subterranea/Loewengrube.html', 'Loewengrube', 'Europe', 'de', 'Germany', 'subterranea', 'Franken', 49.373804, 11.354014);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Stará Plynárna', '/english/cz/gorges/StaraPlynarna.html', 'StaraPlynarna', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.873670, 14.244260);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Wolfsschlucht', '/english/de/gorges/Wolfsschlucht.html', 'Wolfsschlucht', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.979949, 14.103174);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Arnsteinhöhle', '/english/de/caves/Arnstein.html', 'Arnstein', 'Europe', 'de', 'Germany', 'caves', 'Sachsen', 50.929229, 14.289981);
+UPDATE sights SET filename = REPLACE(filename, '/Diebs/', '/Goetzinger/'), name='Götzingerhöhle' WHERE sortby = 'Diebs';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Webergrotte', '/english/de/caves/Webergrotte.html', 'Webergrotte', 'Europe', 'de', 'Germany', 'caves', 'Sachsen', 50.88956429002956, 14.291539379280083);
