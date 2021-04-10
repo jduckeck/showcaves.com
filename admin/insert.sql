@@ -4,3 +4,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Jaskinia Jasna koło Smolenia', '/english/pl/caves/Jasna.html', 'Jasna', 'Europe', 'pl', 'Poland', 'caves', 'Krakow', 50.427778, 19.675722);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tulumtaş Mağarası', '/english/tr/showcaves/Tulumtas.html', 'Tulumtas', 'Europe', 'tr', 'Turkey', 'showcaves', 'CentralAnatolia', 39.774184, 32.683427);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Spilia Áyios Ioánnis at Marathokefala', '/english/gr/caves/AgiosIoannisMarathokefala.html', 'AgiosIoannisMarathokefala', 'Europe', 'gr', 'Greece', 'caves', 'Crete', 35.520005, 23.774112);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Agios Ioannis Damialis Cave', '/english/gr/caves/AgiosIoannisDamialis.html', 'AgiosIoannisDamialis', 'Europe', 'gr', 'Greece', 'caves', 'Crete', 35.5113668382637, 23.637287788542665);
