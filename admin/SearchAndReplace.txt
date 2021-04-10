@@ -10,6 +10,11 @@ Datestamp to uppercase:
 multiline:
 ((.|\n)*)
 
+linebreaks:
+.([a-z,])
+\s+
+$1
+
 incomplete:
         VALUES\('yes','[^$]
 
