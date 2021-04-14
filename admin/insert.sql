@@ -18,5 +18,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ipapanti Monastery', '/english/gr/caves/Ipapanti.html', 'Ipapanti', 'Europe', 'gr', 'Greece', 'caves', 'Crete',35.528529, 23.605067);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Monastery of the Assumption of the Lord', '/english/gr/caves/Ypapantis.html', 'Ypapantis', 'Europe', 'gr', 'Greece', 'caves', 'Thessalia', 39.73344459784543, 21.63080370437151);
+DELETE FROM sights WHERE sortby='Katafiki';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Katafiki Cave', '/english/gr/showcaves/KatafykiDriopida.html', 'Katafiki', 'Europe', 'gr', 'Greece', 'showcaves', 'Cyclades', 37.381756, 24.430072);
+UPDATE Agia Paraskevi;
