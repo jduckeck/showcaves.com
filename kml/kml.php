@@ -37,7 +37,7 @@ if ($statement->execute()) {
 
         $Placemark = $Document->addChild('Placemark');
         $Placemark->addChild('name', $name);
-        $description = '<![CDATA[<img alt="" src="https://www.showcaves.com/graphics/symbol/$category.png" class="symbol"><a href="https://www.showcaves.com$filename">$name</a>]]';
+        $description = '<![CDATA[<img alt="" src="https://www.showcaves.com/graphics/symbol/$category.png" class="symbol"><a target="_blank" href="https://www.showcaves.com$filename">$name</a>]]';
         $Placemark->addChild('description', $description);
         $LookAt = $Placemark->addChild('LookAt');
         $LookAt->addChild('latitude', $latitude);
