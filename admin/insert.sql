@@ -22,3 +22,5 @@ DELETE FROM sights WHERE sortby='Katafiki';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Katafiki Cave', '/english/gr/showcaves/KatafykiDriopida.html', 'Katafiki', 'Europe', 'gr', 'Greece', 'showcaves', 'Cyclades', 37.381756, 24.430072);
 UPDATE Agia Paraskevi;
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave of the Cyclops', '/english/cy/subterranea/Cyclops.html', 'Cyclops', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Famagusta', 34.986451, 34.076613);
