@@ -24,3 +24,5 @@ VALUES('yes','Katafiki Cave', '/english/gr/showcaves/KatafykiDriopida.html', 'Ka
 UPDATE Agia Paraskevi;
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cave of the Cyclops', '/english/cy/subterranea/Cyclops.html', 'Cyclops', 'Europe', 'cy', 'Cyprus', 'subterranea', 'Famagusta', 34.986451, 34.076613);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave of the Apocalypse', '/english/gr/caves/Apocalypse.html', 'Apocalypse', 'Europe', 'gr', 'Greece', 'caves', 'Dodecanese', 37.31449228127126, 26.544728268812165);
