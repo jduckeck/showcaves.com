@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cave of the Apocalypse', '/english/gr/caves/Apocalypse.html', 'Apocalypse', 'Europe', 'gr', 'Greece', 'caves', 'Dodecanese', 37.31449228127126, 26.544728268812165);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Elijah’s Cave', '/english/il/caves/Elijah.html', 'Elijah', 'MiddleEast', 'il', 'Israel', 'caves', 'Northern', 32.829950957276274, 34.96964876868413);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Hammam Maskhoutine', '/english/other/karst/Maskhoutine.html', 'Maskhoutine', 'Africa', 'dz', 'Algeria', 'karst', 'dz', 'other', 36.459948, 7.268995);
