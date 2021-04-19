@@ -1,8 +1,4 @@
-C:\Users\Jochen\work\showcaves.com\.gitignore
-C:\Users\Jochen\work\showcaves.com\README.md
 C:\Users\Jochen\work\showcaves.com\english\be\Maps\map.html
-C:\Users\Jochen\work\showcaves.com\english\br\explain\Monitor.html
-C:\Users\Jochen\work\showcaves.com\english\br\explain\Temporada.html
 C:\Users\Jochen\work\showcaves.com\english\ch\subterranea\ChampexLac.html
 C:\Users\Jochen\work\showcaves.com\english\cn\region\Lushan.html
 C:\Users\Jochen\work\showcaves.com\english\cn\showcaves\Boyun.html
@@ -39,15 +35,21 @@ C:\Users\Jochen\work\showcaves.com\english\fr\subterranea\SaintAntoineDeGalamus.
 C:\Users\Jochen\work\showcaves.com\english\gb\mines\Tankerville.html
 C:\Users\Jochen\work\showcaves.com\english\gb\subterranea\Burlington.html
 C:\Users\Jochen\work\showcaves.com\english\gb\subterranea\TyneTunnel.html
+C:\Users\Jochen\work\showcaves.com\english\gr\Maps\Regions.html
+C:\Users\Jochen\work\showcaves.com\english\gr\caves\Polyphemus.html
+C:\Users\Jochen\work\showcaves.com\english\gr\region\Attica.html
+C:\Users\Jochen\work\showcaves.com\english\gr\region\CentralGreece.html
+C:\Users\Jochen\work\showcaves.com\english\gr\region\CentralMacedonia.html
+C:\Users\Jochen\work\showcaves.com\english\gr\region\EastMacedonia.html
 C:\Users\Jochen\work\showcaves.com\english\il\subterranea\Temptation.html
 C:\Users\Jochen\work\showcaves.com\english\is\caves\Vatnajokull.html
+C:\Users\Jochen\work\showcaves.com\english\it\karst\Sirino.html
 C:\Users\Jochen\work\showcaves.com\english\jp\caves\Chichibu.html
 C:\Users\Jochen\work\showcaves.com\english\jp\mines\OkuboMabu.html
 C:\Users\Jochen\work\showcaves.com\english\la\showcaves\En.html
 C:\Users\Jochen\work\showcaves.com\english\la\showcaves\NangEne.html
 C:\Users\Jochen\work\showcaves.com\english\ph\caves\Callao.html
 C:\Users\Jochen\work\showcaves.com\english\pl\mines\Belchatow.html
-C:\Users\Jochen\work\showcaves.com\english\pl\region\Krakow.html
 C:\Users\Jochen\work\showcaves.com\english\pt\mines\Recheira.html
 C:\Users\Jochen\work\showcaves.com\english\tr\mines\Ladik.html
 C:\Users\Jochen\work\showcaves.com\english\tr\subterranea\Aydintepe.html
@@ -318,6 +320,7 @@ C:\Users\Jochen\work\showcaves.com\foreign\F004-006.jpg
 C:\Users\Jochen\work\showcaves.com\foreign\F004-010.jpg
 C:\Users\Jochen\work\showcaves.com\foreign\F004-020.jpg
 C:\Users\Jochen\work\showcaves.com\foreign\F004-021.jpg
+C:\Users\Jochen\work\showcaves.com\foreign\F004-027.jpg
 C:\Users\Jochen\work\showcaves.com\foreign\F004-031.jpg
 C:\Users\Jochen\work\showcaves.com\foreign\F004-049.jpg
 C:\Users\Jochen\work\showcaves.com\foreign\F004-061.jpg
@@ -620,6 +623,10 @@ C:\Users\Jochen\work\showcaves.com\historic\Big\H014-013.jpg
 C:\Users\Jochen\work\showcaves.com\historic\Big\H014-014.jpg
 C:\Users\Jochen\work\showcaves.com\historic\Big\H015-003.jpg
 C:\Users\Jochen\work\showcaves.com\historic\Big\H015-004.jpg
+C:\Users\Jochen\work\showcaves.com\historic\Big\H015-011.jpg
+C:\Users\Jochen\work\showcaves.com\historic\Big\H017-04.jpg
+C:\Users\Jochen\work\showcaves.com\historic\Big\H018-001.jpg
+C:\Users\Jochen\work\showcaves.com\historic\Big\H018-002.jpg
 C:\Users\Jochen\work\showcaves.com\historic\H007-005.jpg
 C:\Users\Jochen\work\showcaves.com\images\007-015.jpg
 C:\Users\Jochen\work\showcaves.com\images\008-008.jpg
@@ -1349,12 +1356,6 @@ C:\Users\Jochen\work\showcaves.com\images\D176-045.jpg
 C:\Users\Jochen\work\showcaves.com\images\D176-050.jpg
 C:\Users\Jochen\work\showcaves.com\images\D176-055.jpg
 C:\Users\Jochen\work\showcaves.com\images\D176-065.jpg
-C:\Users\Jochen\work\showcaves.com\images\D176-186.jpg
-C:\Users\Jochen\work\showcaves.com\images\D176-191.jpg
-C:\Users\Jochen\work\showcaves.com\images\D176-196.jpg
-C:\Users\Jochen\work\showcaves.com\images\D176-212.jpg
-C:\Users\Jochen\work\showcaves.com\images\D176-213.jpg
-C:\Users\Jochen\work\showcaves.com\images\D176-214.jpg
 C:\Users\Jochen\work\showcaves.com\images\D179-0004.jpg
 C:\Users\Jochen\work\showcaves.com\images\D179-0010.jpg
 C:\Users\Jochen\work\showcaves.com\images\D179-0021.jpg
@@ -1694,6 +1695,7 @@ C:\Users\Jochen\work\showcaves.com\kmz\cn\MoonHill.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\cn\TianE.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\cn\Zhangguan.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\cz\cz.kmz
+C:\Users\Jochen\work\showcaves.com\kmz\dz\TassiliNAjjer.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\ec\Tayos2.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\es\CastellCastells.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\es\Coloms.kmz
@@ -1706,6 +1708,8 @@ C:\Users\Jochen\work\showcaves.com\kmz\fr\Sautadet.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\fr\fr.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\gb\Burlington.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\ge\DavidGareja.kmz
+C:\Users\Jochen\work\showcaves.com\kmz\gr\GalaziaSkiathos.kmz
+C:\Users\Jochen\work\showcaves.com\kmz\gr\Polyphemus.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\hr\Cetina.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\hr\Kupa.kmz
 C:\Users\Jochen\work\showcaves.com\kmz\hu\BujoLik.kmz
@@ -1786,6 +1790,7 @@ C:\Users\Jochen\work\showcaves.com\panoramas\D219-360p.jpg
 C:\Users\Jochen\work\showcaves.com\panoramas\Wendelstein.jpg
 C:\Users\Jochen\work\showcaves.com\pd\Big\F005-007.jpg
 C:\Users\Jochen\work\showcaves.com\pd\Big\F047-005.jpg
+C:\Users\Jochen\work\showcaves.com\pd\Big\F052-007.jpg
 C:\Users\Jochen\work\showcaves.com\pd\Big\F065-003.jpg
 C:\Users\Jochen\work\showcaves.com\pd\Big\L001-001.png
 C:\Users\Jochen\work\showcaves.com\pd\F005-001.jpg
@@ -1801,4 +1806,4 @@ C:\Users\Jochen\work\showcaves.com\pd\F007-005.jpg
 C:\Users\Jochen\work\showcaves.com\pd\F007-007.jpg
 C:\Users\Jochen\work\showcaves.com\pd\F007-008.jpg
 C:\Users\Jochen\work\showcaves.com\pd\F007-009.jpg
-C:\Users\Jochen\work\showcaves.com\showcaves.com.iml
+C:\Users\Jochen\work\showcaves.com\pd\F052-007.jpg
