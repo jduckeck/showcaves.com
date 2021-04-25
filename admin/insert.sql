@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Desfiladero de la Yecla', '/english/es/gorges/Yecla.html', 'Yecla', 'Europe', 'es', 'Spain', 'gorges', 'Leon', 41.94964144182949, -3.4425464384721147);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotte de Lastournelle', '/english/fr/showcaves/Lastournelle.html', 'Lastournelle', 'Europe', 'fr', 'France', 'showcaves', 'Aquitaine', 44.3416, 0.6574);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Phosphatières du Cloup d’Aural', '/english/fr/mines/CloupDAural.html', 'CloupDAural', 'Europe', 'fr', 'France', 'mines', 'Aquitaine', 44.35215243943495, 1.690909352478695);
