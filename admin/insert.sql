@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cascada de Orbaneja del Castillo', '/english/es/karst/OrbanejaDelCastillo.html', 'OrbanejaDelCastillo', 'Europe', 'es', 'Spain', 'karst', 'Leon', 42.8345230522435, -3.7925753844575003);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Desfiladero de la Yecla', '/english/es/gorges/Yecla.html', 'Yecla', 'Europe', 'es', 'Spain', 'gorges', 'Leon', 41.94964144182949, -3.4425464384721147);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotte de Lastournelle', '/english/fr/showcaves/Lastournelle.html', 'Lastournelle', 'Europe', 'fr', 'France', 'showcaves', 'Aquitaine', 44.3416, 0.6574);
