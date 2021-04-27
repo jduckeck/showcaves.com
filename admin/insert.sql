@@ -10,3 +10,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cascada de Orbaneja del Castillo', '/english/es/karst/OrbanejaDelCastillo.html', 'OrbanejaDelCastillo', 'Europe', 'es', 'Spain', 'karst', 'Leon', 42.8345230522435, -3.7925753844575003);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Desfiladero de la Yecla', '/english/es/gorges/Yecla.html', 'Yecla', 'Europe', 'es', 'Spain', 'gorges', 'Leon', 41.94964144182949, -3.4425464384721147);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotte de Lastournelle', '/english/fr/showcaves/Lastournelle.html', 'Lastournelle', 'Europe', 'fr', 'France', 'showcaves', 'Aquitaine', 44.3416, 0.6574);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes',"Phosphatières du Cloup d'Aural", '/english/fr/mines/CloupDAural.html', 'CloupDAural', 'Europe', 'fr', 'France', 'mines', 'Aquitaine', 44.35215243943495, 1.690909352478695);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes',"Devil's Bridge", '/english/car/karst/DevilsBridge.html', 'DevilsBridge', 'Caribbean Islands', 'car', 'Antigua & Barbuda', 'karst', 'car', 'car', 17.100501, -61.678347);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Two Foot Bay Cave', '/english/car/caves/TwoFootBay.html', 'TwoFootBay', 'Caribbean Islands', 'car', 'Antigua & Barbuda', 'caves', 'car', 'car', 17.669066232058363, -61.768800935823805);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes',"Hell's Gate", '/english/car/karst/HellsGate.html', 'HellsGate', 'Caribbean Islands', 'car', 'Antigua & Barbuda', 'karst', 'car', 'car', 17.140767, -61.721750);
