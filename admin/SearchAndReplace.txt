@@ -18,6 +18,10 @@ $1
 incomplete:
         VALUES\('yes','[^$]
 
+Literature:
+([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ']+)
+<b class="smallCaps">$2 $1</b>
+
 <figure class="$1">
 $2
 <figcaption>$3</figcaption>
