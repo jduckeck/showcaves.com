@@ -1,3 +1,6 @@
+UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'fr' and sortby='PontDArc';
+UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'it' and sortby='ArcoNatura';
+UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'it' and sortby='Faraglioni';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Vari Cave', '/english/gr/caves/Vari.html', 'Vari', 'Europe', 'gr', 'Greece', 'caves', 'Attica', 37.858146558158346, 23.80184857762393);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -20,3 +23,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Two Foot Bay Cave', '/english/car/caves/TwoFootBay.html', 'TwoFootBay', 'Caribbean Islands', 'car', 'Antigua & Barbuda', 'caves', 'car', 'car', 17.669066232058363, -61.768800935823805);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Hell\'s Gate', '/english/car/karst/HellsGate.html', 'HellsGate', 'Caribbean Islands', 'car', 'Antigua & Barbuda', 'karst', 'car', 'car', 17.140767, -61.721750);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas de Ortigosa', '/english/es/showcaves/Ortigosa.html', 'Ortigosa', 'Europe', 'es', 'Spain', 'showcaves', 'LaRioja', 42.1792926, -2.7010182);

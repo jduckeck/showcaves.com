@@ -9,3 +9,5 @@ UPDATE sights SET region='MountLebanon' WHERE  countrycode = 'lb' AND sortby='Af
 UPDATE sights SET filename = REPLACE(filename, '/ch/', '/it/'), country='it', Latitude=45.934304, Longitude=9.025211 WHERE sortby = 'Orso';
 
 UPDATE sights SET region='MidiPyrenees' WHERE  countrycode = 'fr' AND region='Midi-Pyrenees';
+
+UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'fr' and sortby='PontDArc';
