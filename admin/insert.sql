@@ -25,3 +25,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Hell\'s Gate', '/english/car/karst/HellsGate.html', 'HellsGate', 'Caribbean Islands', 'car', 'Antigua & Barbuda', 'karst', 'car', 'car', 17.140767, -61.721750);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cuevas de Ortigosa', '/english/es/showcaves/Ortigosa.html', 'Ortigosa', 'Europe', 'es', 'Spain', 'showcaves', 'LaRioja', 42.1792926, -2.7010182);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Klæmintsgjógv', '/english/other/caves/Klaemintsgjogv.html', 'Klaemintsgjogv', 'Europe', 'fo', 'Faroe Islands', 'caves', 'fo', 'other', 61.9357574, -6.8778601);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Rangabotnur Coal Mine', '/english/other/mines/Rangabotnur.html', 'Rangabotnur', 'Europe', 'fo', 'Faroe Islands', 'mines', 'fo', 'other', 61.555106, -6.902478);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Munkastova Cave', '/english/other/caves/Munkastova.html', 'Munkastova', 'Europe', 'fo', 'Faroe Islands', 'caves', 'fo', 'other', 62.0605941, -7.3863737);
