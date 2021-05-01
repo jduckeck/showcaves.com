@@ -149,7 +149,25 @@ table.language th {
     margin: 0.5em;
     padding: 0.5em;
     background-color: #D6D6D6;
-    overflow:hidden;
+    overflow: hidden;
+}
+
+div.itemFlow {
+    margin: 0.5em;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+div.itemFlow ul.literature {
+    margin-top: -1em;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border: 2px solid black;
+    padding: 1em;
 }
 
 .definition {
@@ -588,6 +606,7 @@ hr {
     border: 1px solid rgb(0, 0, 0);
     background: #000000;
 }
+
 @media print {
 
     .newPage {
@@ -609,7 +628,6 @@ hr {
 
 .liBook {
     list-style-image: url("../graphics/symbol/Book.png");
-    margin-bottom: 1em;
 }
 
 .noresize {
@@ -619,4 +637,9 @@ hr {
     text-align: center;
     background-color: #ffffff;
     position: relative;
+}
+
+.verse {
+    text-align: center;
+
 }
