@@ -33,3 +33,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Rangabotnur Coal Mine', '/english/other/mines/Rangabotnur.html', 'Rangabotnur', 'Europe', 'fo', 'Faroe Islands', 'mines', 'fo', 'other', 61.555106, -6.902478);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Munkastova Cave', '/english/other/caves/Munkastova.html', 'Munkastova', 'Europe', 'fo', 'Faroe Islands', 'caves', 'fo', 'other', 62.0605941, -7.3863737);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Erdöl-Erdgas-Museum Twist', '/english/de/mines/Twist.html', 'Twist', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 52.648044051983454, 7.093602098000918);
