@@ -170,6 +170,15 @@ div.itemFlow ul.literature {
     padding: 1em;
 }
 
+.verse {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 .definition {
     font-family: serif;
     color: #404040;
@@ -639,7 +648,3 @@ hr {
     position: relative;
 }
 
-.verse {
-    text-align: center;
-
-}
