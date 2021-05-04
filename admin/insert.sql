@@ -1,6 +1,7 @@
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'fr' and sortby='PontDArc';
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'it' and sortby='ArcoNatura';
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'it' and sortby='Faraglioni';
+DELETE Demoiselle
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Aydıntepe Yeraltı Şehri', '/english/tr/subterranea/Aydintepe.html', 'Aydintepe', 'Europe', 'tr', 'Turkey', 'subterranea', 'BlackSea', 40.388556, 40.150880);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)

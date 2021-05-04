@@ -152,6 +152,15 @@ table.language th {
     overflow: hidden;
 }
 
+.indent {
+    font-family: sans-serif;
+    color: #000940;
+    margin: 1em;
+    padding: 0.5em;
+    background-color: rgba(214, 214, 214, 0.58);
+    overflow: hidden;
+}
+
 div.itemFlow {
     margin: 0.5em;
     padding: 0.5em;
@@ -179,6 +188,16 @@ div.itemFlow ul.literature {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+
+div.right {
+    text-align: left;
+    margin-left: auto;
+    display: table;
+    border: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 .definition {
     font-family: serif;
     color: #404040;
