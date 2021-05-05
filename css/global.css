@@ -495,6 +495,7 @@ table.right {
 
 table.tdLeft {
     text-align: left;
+    vertical-align: hanging;
 }
 
 figure {
