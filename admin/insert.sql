@@ -40,3 +40,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Silberkarklamm', '/english/at/gorges/Silberkar.html', 'Silberkar', 'Europe', 'at', 'Austria', 'gorges', 'Steiermark', 47.435031, 13.717279);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Nicolai-Stollen', '/english/cz/mines/Nicolai.html', 'Nicolai', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky', 50.610098, 13.434617);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Stadt- und Bergbaumuseum Freiberg', '/english/de/mines/Freiberg.html', 'Freiberg', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.920482, 13.344057);
