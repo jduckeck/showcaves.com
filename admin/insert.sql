@@ -1,7 +1,9 @@
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'fr' and sortby='PontDArc';
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'it' and sortby='ArcoNatura';
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'it' and sortby='Faraglioni';
-DELETE Demoiselle
+DELETE FROM sights WHERE countrycode = 'fr' and sortby='Demoiselle';
+UPDATE sights SET name='Zwiedzanie Kopalni Guido' WHERE countrycode = 'pl' and sortby='Guido';
+DELETE FROM sights WHERE countrycode = 'pl' and sortby='KrolowaLuiza';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Aydıntepe Yeraltı Şehri', '/english/tr/subterranea/Aydintepe.html', 'Aydintepe', 'Europe', 'tr', 'Turkey', 'subterranea', 'BlackSea', 40.388556, 40.150880);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -42,3 +44,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Nicolai-Stollen', '/english/cz/mines/Nicolai.html', 'Nicolai', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky', 50.610098, 13.434617);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Stadt- und Bergbaumuseum Freiberg', '/english/de/mines/Freiberg.html', 'Freiberg', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.920482, 13.344057);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sztolni Królowa Luiza', '/english/pl/mines/LouiseAdit.html', 'LouiseAdit', 'Europe', 'pl', 'Poland', 'mines', 'Slaskie', 50.29648448186449, 18.799051732020708);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Muzeum Górnictwa Węglowego', '/english/pl/mines/Gornictwa.html', 'Gornictwa', 'Europe', 'pl', 'Poland', 'mines', 'Slaskie', 50.30079838570014, 18.786061469063558);
