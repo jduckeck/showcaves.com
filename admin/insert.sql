@@ -48,3 +48,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Sztolni Królowa Luiza', '/english/pl/mines/LouiseAdit.html', 'LouiseAdit', 'Europe', 'pl', 'Poland', 'mines', 'Slaskie', 50.29648448186449, 18.799051732020708);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Muzeum Górnictwa Węglowego', '/english/pl/mines/Gornictwa.html', 'Gornictwa', 'Europe', 'pl', 'Poland', 'mines', 'Slaskie', 50.30079838570014, 18.786061469063558);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Abenteuer Bergwerk Bernsteinzimmer', '/english/de/mines/Deutschneudorf.html', 'Deutschneudorf', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.611558, 13.439034);
