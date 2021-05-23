@@ -1477,7 +1477,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1465, 'yes', 0, 'Spilaio Aggitis', '/english/gr/showcaves/Maara.html', NULL, 'Maara', 'Europe', 'Greece', 'gr', 'Macedonia', 'showcaves', NULL, NULL);
 INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
 (1466, 'yes', 0, 'Spilaio tou Melidoniou', '/english/gr/showcaves/Melidoni.html', NULL, 'Melidoni', 'Europe', 'Greece', 'gr', 'Crete', 'showcaves', '35.384441571993600', '24.729548433845680'),
-(1467, 'yes', 0, 'Antiparos', '/english/gr/showcaves/Antiparos.html', NULL, 'Antiparos', 'Europe', 'Greece', 'gr', 'Cyclades', 'showcaves', '36.990561401589780', '25.059372204180780'),
+(1467, 'yes', 0, 'Antiparos', '/english/gr/showcaves/KidderAntiparos.html', NULL, 'Antiparos', 'Europe', 'Greece', 'gr', 'Cyclades', 'showcaves', '36.990561401589780', '25.059372204180780'),
 (1468, 'yes', 0, 'Spilaio Sphentoni', '/english/gr/showcaves/Sentoni.html', NULL, 'Sentoni', 'Europe', 'Greece', 'gr', 'Crete', 'showcaves', NULL, NULL),
 (1469, 'yes', 0, 'Spelaio Peramatos - Perama Cave', '/english/gr/showcaves/Perama.html', NULL, 'Perama', 'Europe', 'Greece', 'gr', 'Epiros', 'showcaves', '39.695601158378020', '20.846672875310940'),
 (1470, 'yes', 0, 'A Visit of Perama Cave', '/english/gr/showcaves/PeramaJochen.html', NULL, 'PeramaJoch', 'Europe', 'Greece', 'gr', NULL, 'showcaves', NULL, NULL),
