@@ -517,6 +517,12 @@ figure.left {
     margin: 0 0.5em 0.5em 0;
 }
 
+figure.gallery {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0.5em 0.5em 0.5em;
+}
+
 figure.center {
     clear: both;
     float: none;
