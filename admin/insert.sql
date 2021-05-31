@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ayres Natural Bridge', '/english/usa/karst/Ayres.html', 'Ayres', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'wy',42.734182, -105.612070);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Chumash Painted Cave', '/english/usa/caves/Chumash.html', 'Chumash', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ca',34.504185, -119.787612);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva del Santo Hermano Pedro', '/english/es/subterranea/SantoHermanoPedro.html', 'SantoHermanoPedro', 'Europe', 'es', 'Spain', 'subterranea', 'Tenerife', 28.051159, -16.553176);
