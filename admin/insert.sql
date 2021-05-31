@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Chumash Painted Cave', '/english/usa/caves/Chumash.html', 'Chumash', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ca',34.504185, -119.787612);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva del Santo Hermano Pedro', '/english/es/subterranea/SantoHermanoPedro.html', 'SantoHermanoPedro', 'Europe', 'es', 'Spain', 'subterranea', 'Tenerife', 28.051159, -16.553176);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kırmızı Su', '/english/tr/springs/KirmiziSu.html', 'KirmiziSu', 'Europe', 'tr', 'Turkey', 'springs', 'Aegean', 37.967643454232615, 29.102507479326256);
