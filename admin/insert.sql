@@ -14,3 +14,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva del Santo Hermano Pedro', '/english/es/subterranea/SantoHermanoPedro.html', 'SantoHermanoPedro', 'Europe', 'es', 'Spain', 'subterranea', 'Tenerife', 28.051159, -16.553176);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kırmızı Su', '/english/tr/springs/KirmiziSu.html', 'KirmiziSu', 'Europe', 'tr', 'Turkey', 'springs', 'Aegean', 37.967643454232615, 29.102507479326256);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grofova Jama', '/english/si/caves/Grofova.html', 'Grofova', 'Europe', 'si', 'Slovenia', 'caves', 'Primorska', 45.79846755921161, 13.627899697927353);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta della Gavetta e Grotta del Pilone', '/english/it/caves/KarlZita.html', 'KarlZita', 'Europe', 'it', 'Italy', 'caves', 'Friuli', 45.793788739812356, 13.620877133231307);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta del Monte Ermada', '/english/it/caves/MonteErmada.html', 'MonteErmada', 'Europe', 'it', 'Italy', 'caves', 'Friuli', 45.79521421336915, 13.628204031601944);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta del Monte Querceto', '/english/it/caves/MonteQuerceto.html', 'MonteQuerceto', 'Europe', 'it', 'Italy', 'caves', 'Friuli', 45.79567485945732, 13.63180159792729);
