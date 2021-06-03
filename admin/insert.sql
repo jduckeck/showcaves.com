@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotta del Monte Ermada', '/english/it/caves/MonteErmada.html', 'MonteErmada', 'Europe', 'it', 'Italy', 'caves', 'Friuli', 45.79521421336915, 13.628204031601944);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta del Monte Querceto', '/english/it/caves/MonteQuerceto.html', 'MonteQuerceto', 'Europe', 'it', 'Italy', 'caves', 'Friuli', 45.79567485945732, 13.63180159792729);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Entente Mine Cockerill', '/english/lu/mines/Cockerill.html', 'Cockerill', 'Europe', 'lu', 'Luxembourg', 'mines', 'Luxembourg', 49.47624380814974, 5.97634119806248);
