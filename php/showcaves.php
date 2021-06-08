@@ -73,13 +73,16 @@ function printByCountryAll($pdo)
     $entries = 0;
     $itemsText = '';
 
-    $sql = "SELECT name, filename, countrycode, country, chapter, category FROM sights WHERE visible='yes' ORDER BY country, sortby";
+    $sql = "SELECT name, filename, countrycode, country, chapter, category, closed FROM sights WHERE visible='yes' ORDER BY country, sortby";
     $statement = $pdo->prepare($sql);
 
     if ($statement->execute()) {
         while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
             $country = $row['country'];
             $name = $row['name'];
+            if($row['closed']) {
+                $name = "<span class='closed'>" . $name . "</span>";
+            }
             $filename = $row['filename'];
             $Category = getCategory($row['category']);
 
@@ -121,13 +124,16 @@ function printByCountry($pdo, $category)
     $itemsText = '';
     $Category = getCategory($category);
 
-    $sql = "SELECT name, filename, countrycode, country, chapter FROM sights WHERE visible='yes' AND category='$category' ORDER BY country, sortby";
+    $sql = "SELECT name, filename, countrycode, country, chapter, closed FROM sights WHERE visible='yes' AND category='$category' ORDER BY country, sortby";
     $statement = $pdo->prepare($sql);
 
     if ($statement->execute()) {
         while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
             $country = $row['country'];
             $name = $row['name'];
+            if($row['closed']) {
+                $name = "<span class='closed'>" . $name . "</span>";
+            }
             $filename = $row['filename'];
 
             // initialize variables with first row
@@ -179,7 +185,7 @@ function countSights($pdo, $where)
  */
 function printAllByCategory($pdo, $category)
 {
-    $sql = "SELECT name, filename, countrycode, country FROM sights WHERE visible='yes' AND category='$category' ORDER BY sortby";
+    $sql = "SELECT name, filename, countrycode, country, closed FROM sights WHERE visible='yes' AND category='$category' ORDER BY sortby";
     $filebase = "../../..";
     $Category = getCategory($category);
 
@@ -187,6 +193,9 @@ function printAllByCategory($pdo, $category)
     if ($statement->execute()) {
         while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
             $name = $row['name'];
+            if($row['closed']) {
+                $name = "<span class='closed'>" . $name . "</span>";
+            }
             $country = $row['country'];
             $filename = $row['filename'];
             print ("            <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
@@ -199,13 +208,16 @@ function printAllByCategory($pdo, $category)
  */
 function printAll($pdo)
 {
-    $sql = "SELECT name, filename, countrycode, country, category FROM sights WHERE visible='yes' ORDER BY sortby";
+    $sql = "SELECT name, filename, countrycode, country, category, closed FROM sights WHERE visible='yes' ORDER BY sortby";
     $filebase = "../../..";
 
     $statement = $pdo->prepare($sql);
     if ($statement->execute()) {
         while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
             $name = $row['name'];
+            if($row['closed']) {
+                $name = "<span class='closed'>" . $name . "</span>";
+            }
             $country = $row['country'];
             $filename = $row['filename'];
             $Category = getCategory($row['category']);
