@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gouffre du Béout', '/english/fr/showcaves/Beout.html', 'Beout', 'Europe', 'fr', 'France', 'showcaves', 'MidiPyrenees',43.082134, -0.062703, true);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Crystal Cave of Farcu Mine', '/english/ro/showcaves/Crystal.html', 'Crystal', 'Europe', 'ro', 'Romania', 'showcaves', 'Apuseni', 22.423675, 46.817243);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','La Grotte de la Vache', '/english/fr/caves/VacheHerault.html', 'VacheHerault', 'Europe', 'fr', 'France', 'caves', 'Languedoc', 43.917219637322155, 3.733106231192441);
