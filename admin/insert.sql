@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Twilight Caverne', '/english/other/caves/Twilight.html', 'Twilight', 'Africa', 'mu', 'Mauritius', 'caves', 'mu', 'other', -20.3, 57.5833);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mines de Bruoux', '/english/fr/mines/Bruoux.html', 'Bruoux', 'Europe', 'fr', 'France', 'mines', 'PACA', 43.9079890791134, 5.345497940189845);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Almyros Spring', '/english/gr/springs/Almyros.html', 'Almyros', 'Europe', 'gr', 'Greece', 'springs', 'Crete', 35.333144, 25.047112);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Voulismeno Aloni', '/english/gr/karst/VoulismenoAloni.html', 'VoulismenoAloni', 'Europe', 'gr', 'Greece', 'karst', 'Crete', 35.3300934743821, 25.01806579735044);
