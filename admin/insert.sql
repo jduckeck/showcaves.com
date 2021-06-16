@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Roche Noire Lava Tubes', '/english/other/caves/RocheNoire.html', 'RocheNoire', 'Africa', 'mu', 'Mauritius', 'caves', 'mu', 'other', -20.117219, 57.711408);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Twilight Caverne', '/english/other/caves/Twilight.html', 'Twilight', 'Africa', 'mu', 'Mauritius', 'caves', 'mu', 'other', -20.3, 57.5833);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mines de Bruoux', '/english/fr/mines/Bruoux.html', 'Bruoux', 'Europe', 'fr', 'France', 'mines', 'PACA', 43.9079890791134, 5.345497940189845);
