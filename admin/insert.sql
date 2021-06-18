@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Almyros Ag. Nikolaou', '/english/gr/springs/AlmyrosAgNikolaou.html', 'AlmyrosAgNikolaou', 'Europe', 'gr', 'Greece', 'springs', 'Crete', 35.174475, 25.706143);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Argyroupoli Springs', '/english/gr/springs/Argyroupoli.html', 'Argyroupoli', 'Europe', 'gr', 'Greece', 'springs', 'Crete', 35.286656, 24.332464);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fort Amherst Tunnel Tour', '/english/gb/subterranea/FortAmherst.html', 'FortAmherst', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Kent', 51.387383,  0.525425);
