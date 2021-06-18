@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Almyros Spring', '/english/gr/springs/Almyros.html', 'Almyros', 'Europe', 'gr', 'Greece', 'springs', 'Crete', 35.333144, 25.047112);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Voulismeno Aloni', '/english/gr/karst/VoulismenoAloni.html', 'VoulismenoAloni', 'Europe', 'gr', 'Greece', 'karst', 'Crete', 35.3300934743821, 25.01806579735044);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotte de Pair-non-Pair', '/english/fr/showcaves/PairNonPair.html', 'PairNonPair', 'Europe', 'fr', 'France', 'showcaves', 'Aquitaine', 45.039290, -0.501834);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Almyros Ag. Nikolaou', '/english/gr/springs/AlmyrosAgNikolaou.html', 'AlmyrosAgNikolaou', 'Europe', 'gr', 'Greece', 'springs', 'Crete', 35.174475, 25.706143);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Argyroupoli Springs', '/english/gr/springs/Argyroupoli.html', 'Argyroupoli', 'Europe', 'gr', 'Greece', 'springs', 'Crete', 35.286656, 24.332464);
