@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ostrovské Skály', '/english/cz/gorges/Ostrov.html', 'Ostrov', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.806170, 14.051630);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Rájecké Skály', '/english/cz/gorges/Rajeck.html', 'Rajeck', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.802502, 14.022665);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Serra da Capivara National Park', '/english/br/caves/SerraCapivara.html', 'SerraCapivara', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Piaui', -8.83661345626393, -42.55535967238924);
