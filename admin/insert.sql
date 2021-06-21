@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Pola Bełchatów', '/english/pl/mines/Belchatow.html', 'Belchatow', 'Europe', 'pl', 'Poland', 'mines', 'Lodz', 51.229438, 19.246115);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Yinhedong', '/english/cn/showcaves/YinheHebei.html', 'YinheHebei', 'Asia', 'cn', 'China', 'showcaves', 'Hebei', 38.265543409351736, 113.7236723715491);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tiské Stěny', '/english/cz/gorges/TiskeSteny.html', 'TiskeSteny', 'Europe', 'cz', 'Czech Republic', 'gorges', 'Ustecky', 50.787591, 14.028838);
