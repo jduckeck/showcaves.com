@@ -1,4 +1,12 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fun Fun Cave', '/english/do/caves/FunFun.html', 'FunFun', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'HatoMayor', 18.788796, -69.419750);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva del Puente', '/english/do/caves/Puente.html', 'Puente', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.332673, -68.811813);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Berna', '/english/do/caves/Berna.html', 'Berna', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.375682, -68.615289);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Chicho', '/english/do/caves/Chicho.html', 'Chicho', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.375868, -68.808735);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Pola Bełchatów', '/english/pl/mines/Belchatow.html', 'Belchatow', 'Europe', 'pl', 'Poland', 'mines', 'Lodz', 51.229438, 19.246115);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Hole-in-the-Wall', '/english/za/karst/HoleInTheWall.html', 'HoleInTheWall', 'Africa', 'za', 'South Africa', 'karst', 'EasternCape', -32.0411, 29.1093);
