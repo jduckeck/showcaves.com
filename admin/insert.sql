@@ -11,6 +11,8 @@ VALUES('yes','Cueva Coro Trasito', '/english/es/caves/CoroTrasito.html', 'CoroTr
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta de las Maravillas de Ibdes', '/english/es/showcaves/MaravillasIbdes.html', 'MaravillasIbdes', 'Europe', 'es', 'Spain', 'showcaves', 'Aragon', 41.211346, -1.833065);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Okubo Mabu Mine', '/english/jp/mines/OkuboMabu.html', 'OkuboMabu', 'Asia', 'jp', 'Japan', 'mines', 'Shimane', 35.096772, 132.446579);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de Chicho', '/english/do/caves/Chicho.html', 'Chicho', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.375868, -68.808735);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Pola Bełchatów', '/english/pl/mines/Belchatow.html', 'Belchatow', 'Europe', 'pl', 'Poland', 'mines', 'Lodz', 51.229438, 19.246115);
