@@ -5,6 +5,12 @@ VALUES('yes','Cueva del Puente', '/english/do/caves/Puente.html', 'Puente', 'Mid
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de Berna', '/english/do/caves/Berna.html', 'Berna', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.375682, -68.615289);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de las Güixas', '/english/es/showcaves/Guixas.html', 'Guixas', 'Europe', 'es', 'Spain', 'showcaves', 'Aragon', 42.682717, -0.532242);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva Coro Trasito', '/english/es/caves/CoroTrasito.html', 'CoroTrasito', 'Europe', 'es', 'Spain', 'caves', 'Aragon', 42.595567, 0.177975);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta de las Maravillas de Ibdes', '/english/es/showcaves/MaravillasIbdes.html', 'MaravillasIbdes', 'Europe', 'es', 'Spain', 'showcaves', 'Aragon', 41.211346, -1.833065);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de Chicho', '/english/do/caves/Chicho.html', 'Chicho', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.375868, -68.808735);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Pola Bełchatów', '/english/pl/mines/Belchatow.html', 'Belchatow', 'Europe', 'pl', 'Poland', 'mines', 'Lodz', 51.229438, 19.246115);
