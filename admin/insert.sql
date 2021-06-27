@@ -1,6 +1,8 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Monastery of the Temptation', '/english/il/subterranea/Temptation.html', 'Temptation', 'MiddleEast', 'il', 'Israel', 'subterranea', 'WestBank', 31.874722, 35.432222);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Quinta das Minas da Recheira', '/english/pt/mines/Recheira.html', 'Recheira', 'Europe', 'pt', 'Portugal', 'mines', 'CasteloBranco', 40.166468, -7.624396);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fun Fun Cave', '/english/do/caves/FunFun.html', 'FunFun', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'HatoMayor', 18.788796, -69.419750);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva del Puente', '/english/do/caves/Puente.html', 'Puente', 'MiddleAmerica', 'do', 'Dominican Republic', 'caves', 'LaAltagracia', 18.332673, -68.811813);
