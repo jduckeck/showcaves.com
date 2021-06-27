@@ -1,4 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Peštera "Biserna" - Pearl Cave', '/english/bg/showcaves/Biserna.html', 'Biserna', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Shumen', 43.267084, 26.885513);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Monastery of the Temptation', '/english/il/subterranea/Temptation.html', 'Temptation', 'MiddleEast', 'il', 'Israel', 'subterranea', 'WestBank', 31.874722, 35.432222);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Quinta das Minas da Recheira', '/english/pt/mines/Recheira.html', 'Recheira', 'Europe', 'pt', 'Portugal', 'mines', 'CasteloBranco', 40.166468, -7.624396);
