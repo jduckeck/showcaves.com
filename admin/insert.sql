@@ -1,5 +1,13 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jaskinia Obłazkowa', '/english/pl/caves/Oblazkowa.html', 'Oblazkowa', 'Europe', 'pl', 'Poland', 'caves', 'Malopolskie', 49.23956986370137, 19.862441071084945);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jaskinia Raptawicka', '/english/pl/caves/Raptawicka.html', 'Raptawicka', 'Europe', 'pl', 'Poland', 'caves', 'Malopolskie', 49.23985706984468, 19.861969011527897);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jaskinia Smocza Jama w Wąwozie Kraków', '/english/pl/caves/Smocza.html', 'Smocza', 'Europe', 'pl', 'Poland', 'caves', 'Malopolskie', 49.237832410907686, 19.868019859896084);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Peštera "Biserna" - Pearl Cave', '/english/bg/showcaves/Biserna.html', 'Biserna', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Shumen', 43.267084, 26.885513);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jaskinia Ku Dziurze', '/english/pl/caves/Dziura.html', 'Dziura', 'Europe', 'pl', 'Poland', 'caves', 'Malopolskie', 49.271862449924875, 19.943134423659185);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ekspozycja Przyrodnicza Ojców', '/english/pl/subterranea/Ojcow.html', 'Ojcow', 'Europe', 'pl', 'Poland', 'subterranea', 'Krakow', 50.20993441324084, 19.82924459856057);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
