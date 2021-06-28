@@ -7,6 +7,8 @@ VALUES('yes','Jaskinia Smocza Jama w Wąwozie Kraków', '/english/pl/caves/Smocz
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Peštera "Biserna" - Pearl Cave', '/english/bg/showcaves/Biserna.html', 'Biserna', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Shumen', 43.267084, 26.885513);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jaskinia Ku Dziurze', '/english/pl/caves/Dziura.html', 'Dziura', 'Europe', 'pl', 'Poland', 'caves', 'Malopolskie', 49.271862449924875, 19.943134423659185);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ekspozycja Przyrodnicza Ojców', '/english/pl/subterranea/Ojcow.html', 'Ojcow', 'Europe', 'pl', 'Poland', 'subterranea', 'Krakow', 50.20993441324084, 19.82924459856057);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Monastery of the Temptation', '/english/il/subterranea/Temptation.html', 'Temptation', 'MiddleEast', 'il', 'Israel', 'subterranea', 'WestBank', 31.874722, 35.432222);
