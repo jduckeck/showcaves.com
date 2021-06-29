@@ -20,9 +20,9 @@
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
     <script src="../../../js/jquery-1.11.3.min.js"></script>
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
-    -JUL-<!-- end responsive -->
+    <!-- end responsive -->
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
@@ -43,7 +43,7 @@
 
 
         <h1 class="center">All Entries of showcaves.com</h1>
-        <h2 class="center"><? print $count ?> sites are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><?php print $count ?> sites are listed on <span class="mySiteName">showcaves.com</span> on <?php print date("d-M-Y H:i:s") ?></h2>
 
         <br class="clear">
 
@@ -60,7 +60,7 @@
         <br class="clear">
 
         <label for="theList">search the list...</label>
-        <ul id="theList" data-role="listview" data-inset="true" data-filter="true"><?
+        <ul id="theList" data-role="listview" data-inset="true" data-filter="true"><?php
             printAll($pdo);
             ?>
         </ul>
