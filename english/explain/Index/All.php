@@ -28,12 +28,12 @@
     include("../../../php/showcaves.php");
     $count = countSights($pdo, "");
     ?>
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:title" content="Indexes: All Entries of showcaves.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg" />
-    <meta property="og:site_name" content="Show Caves of the World" />
-    <meta property="og:description" content="Underground tourist destinations of the World" />
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:title" content="Indexes: All Entries of showcaves.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
+    <meta property="og:site_name" content="Show Caves of the World"/>
+    <meta property="og:description" content="Underground tourist destinations of the World"/>
     <title>Indexes: All Entries of showcaves.com</title>
 </head>
 

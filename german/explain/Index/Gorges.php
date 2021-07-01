@@ -31,12 +31,12 @@
     ?>
 
 
-    <meta property="og:locale" content="de_DE" />
-    <meta property="og:title" content="Alphabethisches Register: Alle Schluchten" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg" />
-    <meta property="og:site_name" content="Schauhöhlen der Welt" />
-    <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt" />
+    <meta property="og:locale" content="de_DE"/>
+    <meta property="og:title" content="Alphabethisches Register: Alle Schluchten"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
+    <meta property="og:site_name" content="Schauhöhlen der Welt"/>
+    <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt"/>
     <title>Alphabethisches Register: Alle Schluchten</title>
 </head>
 

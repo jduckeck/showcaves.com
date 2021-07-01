@@ -29,12 +29,12 @@
     $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
     $statement->bindParam('limit', $limit, PDO::PARAM_INT);
     ?>
-    <meta property="og:locale" content="de_DE" />
-    <meta property="og:title" content="Alphabethisches Register: Statistik von showcaves.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg" />
-    <meta property="og:site_name" content="Schauhöhlen der Welt" />
-    <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt" />
+    <meta property="og:locale" content="de_DE"/>
+    <meta property="og:title" content="Alphabethisches Register: Statistik von showcaves.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
+    <meta property="og:site_name" content="Schauhöhlen der Welt"/>
+    <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt"/>
     <title>Alphabethisches Register: Statistik von showcaves.com</title>
 </head>
 
