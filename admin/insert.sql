@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Museum of Nottingham Life', '/english/gb/subterranea/NottinghamLife.html', 'NottinghamLife', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Nottinghamshire', 52.949215, -1.152980);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Burlington', '/english/gb/subterranea/Burlington.html', 'Burlington', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Wiltshire', 51.4310, -2.1858);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Dead Man\'s Cave', '/english/gb/caves/DeadMan.html', 'DeadMan', 'Europe', 'gb', 'Great Britain', 'caves', 'SouthYorkshire', 53.3459, -1.2091);
