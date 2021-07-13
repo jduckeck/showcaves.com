@@ -9,4 +9,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Holkrans at Golden Gate', '/english/za/caves/HolkransGoldenGate.html', 'Holkrans', 'Africa', 'za', 'South Africa', 'caves', 'FreeState', -28.511582, 28.610145);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Holkrans at Meiringskloof', '/english/za/caves/HolkransMeiringskloof .html', 'HolkransMeiringskloof ', 'Africa', 'za', 'South Africa', 'caves', 'FreeState', -28.599804, 28.228266);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Am Phu Cave', '/english/vn/showcaves/AmPhu.html', 'AmPhu', 'Asia', 'vn', 'Vietnam', 'showcaves', 'DaNang', 16.0027, 108.2634);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Historická Pivnica Tokaj & Co S.R.O.', '/english/sk/subterranea/Tokaj.html', 'Tokaj', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Kosice', 48.455812, 21.679332);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Historická Pivnica Zlatý Strapec', '/english/sk/subterranea/ZlatyStrapec.html', 'ZlatyStrapec', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Kosice', 48.40066, 21.7465);
 
