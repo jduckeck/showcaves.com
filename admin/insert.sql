@@ -21,4 +21,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Rhydymwyn Valley Works', '/english/gb/subterranea/Rhydymwyn.html', 'Rhydymwyn', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Wales', 53.1923, -3.1915);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tankerville Mine', '/english/gb/mines/Tankerville.html', 'Tankerville', 'Europe', 'gb', 'Great Britain', 'mines', 'Shropshire', 52.589320, -2.953868);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
+VALUES('yes','Onyx Mountain Caverns', '/english/usa/showcaves/OnyxMountain.html', 'OnyxMountain', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'mo', 37.885764, -92.031230, 1);
 
