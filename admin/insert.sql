@@ -17,4 +17,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Historická Pivnica Tokaj & Co S.R.O.', '/english/sk/subterranea/Tokaj.html', 'Tokaj', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Kosice', 48.455812, 21.679332);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Historická Pivnica Zlatý Strapec', '/english/sk/subterranea/ZlatyStrapec.html', 'ZlatyStrapec', 'Europe', 'sk', 'Slovakia', 'subterranea', 'Kosice', 48.40066, 21.7465);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rhydymwyn Valley Works', '/english/gb/subterranea/Rhydymwyn.html', 'Rhydymwyn', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Wales', 53.1923, -3.1915);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tankerville Mine', '/english/gb/mines/Tankerville.html', 'Tankerville', 'Europe', 'gb', 'Great Britain', 'mines', 'Shropshire', 52.589320, -2.953868);
 
