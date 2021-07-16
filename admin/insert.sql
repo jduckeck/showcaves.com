@@ -23,4 +23,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tankerville Mine', '/english/gb/mines/Tankerville.html', 'Tankerville', 'Europe', 'gb', 'Great Britain', 'mines', 'Shropshire', 52.589320, -2.953868);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
 VALUES('yes','Onyx Mountain Caverns', '/english/usa/showcaves/OnyxMountain.html', 'OnyxMountain', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'mo', 37.885764, -92.031230, 1);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Novomuradymovskaya Peshchera', '/english/ru/showcaves/Novomuradymovskaya.html', 'Novomuradymovskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Bashkortostan', 52.572462, 56.867621);
 
