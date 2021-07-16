@@ -25,4 +25,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Onyx Mountain Caverns', '/english/usa/showcaves/OnyxMountain.html', 'OnyxMountain', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'mo', 37.885764, -92.031230, 1);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Novomuradymovskaya Peshchera', '/english/ru/showcaves/Novomuradymovskaya.html', 'Novomuradymovskaya', 'Asia', 'ru', 'Russia', 'showcaves', 'Bashkortostan', 52.572462, 56.867621);
-
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Karlamanska Cave', '/english/ru/caves/Karlamanska.html', 'Karlamanska', 'Asia', 'ru', 'Russia', 'caves', 'Bashkortostan', 54.288667, 56.170533);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Askyn Ice Cave', '/english/ru/showcaves/AskynIce.html', 'AskynIce', 'Asia', 'ru', 'Russia', 'showcaves', 'Bashkortostan', 54.235693, 56.902795);
