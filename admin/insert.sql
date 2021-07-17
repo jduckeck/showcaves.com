@@ -29,3 +29,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Karlamanska Cave', '/english/ru/caves/Karlamanska.html', 'Karlamanska', 'Asia', 'ru', 'Russia', 'caves', 'Bashkortostan', 54.288667, 56.170533);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Askyn Ice Cave', '/english/ru/showcaves/AskynIce.html', 'AskynIce', 'Asia', 'ru', 'Russia', 'showcaves', 'Bashkortostan', 54.235693, 56.902795);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sarva Spring Lake', '/english/ru/springs/Sarva.html', 'Sarva', 'Asia', 'ru', 'Russia', 'springs', '$Region$', 55.237476, 57.065539);
