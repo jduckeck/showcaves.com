@@ -90,6 +90,11 @@ p {
     font-size: 70%;
 }
 
+.fun {
+    color: rgba(41, 69, 1, 0.92);
+    background-color: rgba(209, 223, 200, 0.03);
+}
+
 ol.biglist {
     margin-top: 2rem;
     margin-bottom: 2rem;
