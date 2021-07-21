@@ -17,4 +17,6 @@ VALUES('yes','Gruta Lapa Velha', '/english/br/showcaves/LapaVelha.html', 'LapaVe
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta dos Ecos', '/english/br/caves/Ecos.html', 'Ecos', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Goias', -15.689966, -48.406343);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Buraco das Araras', '/english/br/karst/BuracoArarasGoias.html', 'BuracoArarasGoias', 'SouthAmerica', 'br', 'Brazil', 'karst', 'Goias', -15.613183, -47.203498);
+VALUES('yes','Buraco das Araras', '/english/br/karst/BuracoArarasGoias.html', 'BuracoArarasGoias', 'SouthAmerica', 'br', 'Brazil', 'karst', 'Goias', -15.383433, -47.115018);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Buraco das Andorinhas', '/english/br/karst/Andorinhas.html', 'Andorinhas', 'SouthAmerica', 'br', 'Brazil', 'karst', 'Goias', -15.354123, -47.126493);
