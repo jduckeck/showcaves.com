@@ -541,7 +541,7 @@
             <styleUrl>#showcave</styleUrl>
             <Point>
                 <altitudeMode>clampToGround</altitudeMode>
-                <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
                 <coordinates>0.5899130509709716,50.85815977173408,0</coordinates>
             </Point>
         </Placemark>
@@ -1357,7 +1357,7 @@
             <styleUrl>#showcave</styleUrl>
             <Point>
                 <altitudeMode>clampToGround</altitudeMode>
-                <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
                 <coordinates>0.5899130509709716,50.85815977173408,0</coordinates>
             </Point>
         </Placemark>
@@ -1611,7 +1611,7 @@
             <styleUrl>#cave</styleUrl>
             <Point>
                 <altitudeMode>clampToGround</altitudeMode>
-                <gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
                 <coordinates>-2.382544568487411,54.14946067366257,0</coordinates>
             </Point>
         </Placemark>

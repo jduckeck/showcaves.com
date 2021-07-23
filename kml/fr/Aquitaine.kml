@@ -1940,7 +1940,7 @@
 				</LookAt>
 				<styleUrl>#msn_showcave001</styleUrl>
 				<Point>
-					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 					<coordinates>0.9675506311302118,44.92600507259512,0</coordinates>
 				</Point>
 			</Placemark>

@@ -252,7 +252,7 @@
 			</LookAt>
 			<styleUrl>#cave</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>-113.8027613130292,36.04788604074533,0</coordinates>
 			</Point>
 		</Placemark>
@@ -287,7 +287,7 @@
 			</LookAt>
 			<styleUrl>#mine</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>-111.948311999899,33.82886100038552,0</coordinates>
 			</Point>
 		</Placemark>
@@ -502,7 +502,7 @@
 			</LookAt>
 			<styleUrl>#cave</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>-113.8255705136703,36.03293421662946,0</coordinates>
 			</Point>
 		</Placemark>
@@ -584,7 +584,7 @@
 			</LookAt>
 			<styleUrl>#mine</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>-111.8234006022217,33.89552596072144,0</coordinates>
 			</Point>
 		</Placemark>
@@ -663,7 +663,7 @@
 			</LookAt>
 			<styleUrl>#cave</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>-110.7066872528962,32.52423847384993,0</coordinates>
 			</Point>
 		</Placemark>

@@ -621,7 +621,7 @@
 			</LookAt>
 			<styleUrl>#showcave</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>19.10755304002595,-32.11634660234967,0</coordinates>
 			</Point>
 		</Placemark>

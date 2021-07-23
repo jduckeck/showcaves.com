@@ -313,7 +313,7 @@
 			</LookAt>
 			<styleUrl>#msn_misc202</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>7.990309827759994,48.89288087403958,0</coordinates>
 			</Point>
 		</Placemark>
@@ -346,7 +346,7 @@
 			</LookAt>
 			<styleUrl>#msn_misc151</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>7.967794551880186,48.89918978220848,0</coordinates>
 			</Point>
 		</Placemark>
@@ -379,7 +379,7 @@
 			</LookAt>
 			<styleUrl>#msn_mine2210</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>7.183137000115387,48.24522400045599,0</coordinates>
 			</Point>
 		</Placemark>

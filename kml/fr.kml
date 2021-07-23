@@ -8458,7 +8458,7 @@
 				</LookAt>
 				<styleUrl>#msn_misc202</styleUrl>
 				<Point>
-					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 					<coordinates>7.990309827759994,48.89288087403958,0</coordinates>
 				</Point>
 			</Placemark>
@@ -8491,7 +8491,7 @@
 				</LookAt>
 				<styleUrl>#msn_misc151</styleUrl>
 				<Point>
-					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 					<coordinates>7.967794551880186,48.89918978220848,0</coordinates>
 				</Point>
 			</Placemark>
@@ -8524,7 +8524,7 @@
 				</LookAt>
 				<styleUrl>#msn_mine2210</styleUrl>
 				<Point>
-					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 					<coordinates>7.183137000115387,48.24522400045599,0</coordinates>
 				</Point>
 			</Placemark>
@@ -9321,7 +9321,7 @@
 					</LookAt>
 					<styleUrl>#msn_showcave001</styleUrl>
 					<Point>
-						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 						<coordinates>0.9675506311302118,44.92600507259512,0</coordinates>
 					</Point>
 				</Placemark>
@@ -11410,7 +11410,7 @@
 				</LookAt>
 				<styleUrl>#msn_misc_0</styleUrl>
 				<Point>
-					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 					<coordinates>1.523542497652246,45.11583889277965,0</coordinates>
 				</Point>
 			</Placemark>
@@ -11443,7 +11443,7 @@
 				</LookAt>
 				<styleUrl>#msn_misc_00</styleUrl>
 				<Point>
-					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 					<coordinates>1.531110852694542,45.14617182380909,0</coordinates>
 				</Point>
 			</Placemark>
@@ -14007,7 +14007,7 @@
 					</LookAt>
 					<styleUrl>#msn_cave151</styleUrl>
 					<Point>
-						<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 						<coordinates>5.43355156826816,45.05596844387615,0</coordinates>
 					</Point>
 				</Placemark>

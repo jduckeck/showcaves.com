@@ -280,7 +280,7 @@
 			</LookAt>
 			<styleUrl>#cave</styleUrl>
 			<Point>
-				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+
 				<coordinates>-86.1292234916877,34.61484121934466,0</coordinates>
 			</Point>
 		</Placemark>
