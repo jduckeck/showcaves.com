@@ -75,3 +75,11 @@ KML
 <li><a data-ajax="false" target="_top" href="(.+)">[^>]+>([^<]+)</a></li>
 <area shape="circle" coords="267,94,17" alt="$2" target="_top" href="$1" />
 <area shape="rect" coords="287,86,369,104" alt="$2" target="_top" href="$1" />
+
+
+kml
+---------------------------------------------------------------------------------------------------------------
+
+\<styleUrl\>\#(cave|showcave|gorge|spring|karst|mine|subterranea)\d+\<\/styleUrl\>
+<styleUrl>#$1</styleUrl>
+
