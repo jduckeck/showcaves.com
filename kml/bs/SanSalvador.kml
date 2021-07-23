@@ -36,7 +36,7 @@
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -47,7 +47,7 @@
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>

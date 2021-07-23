@@ -8,49 +8,49 @@
         <Style id="showcave">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/showcave.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="cave">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/cave.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="subterranea">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/misc.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="mine">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/mine.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="karst">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/karst.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="spring">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/spring.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="gorge">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/gorge.png</href>
                 </Icon>
             </IconStyle>
         </Style>

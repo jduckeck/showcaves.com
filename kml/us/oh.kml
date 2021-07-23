@@ -8,49 +8,49 @@
         <Style id="showcave">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/showcave.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/showcave.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="cave">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/cave.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/cave.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="subterranea">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/misc.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/misc.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="mine">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/mine.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/mine.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="karst">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/karst.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/karst.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="spring">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/spring.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/spring.png</href>
                 </Icon>
             </IconStyle>
         </Style>
         <Style id="gorge">
             <IconStyle>
                 <Icon>
-                    <href>http://www.showcaves.com/graphics/kml/gorge.png</href>
+                    <href>https://www.showcaves.com/graphics/kml/gorge.png</href>
                 </Icon>
             </IconStyle>
         </Style>
@@ -76,7 +76,7 @@
 		<Placemark>
 			<name>Crystal Cave - Heineman Winery</name>
 			<description><![CDATA[A small natural cave with huge crystals.<br>
-<a target="_blank" href="http://www.showcaves.com/english/usa/showcaves/HeinemanWinery.html">Show Caves of the United States: Crystal Cave - Heineman Winery</a>]]></description>
+<a target="_blank" href="https://www.showcaves.com/english/usa/showcaves/HeinemanWinery.html">Show Caves of the United States: Crystal Cave - Heineman Winery</a>]]></description>
 			<LookAt id="khLookAt648">
 				<longitude>-82.82408874605807</longitude>
 				<latitude>41.64826676571874</latitude>
