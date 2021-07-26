@@ -15,7 +15,7 @@
   </annotation>  
 
   <!-- import atom:author and atom:link -->
-  <import namespace="http://www.w3.org/2005/Atom"
+  <import namespace="atom1.xsd"
     schemaLocation="atom-author-link.xsd"/>
 
   <!-- import xAL:Address -->
