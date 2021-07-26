@@ -19,7 +19,7 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
   xmlns:gx="http://www.google.com/kml/ext/2.2"
   xmlns:kml="http://www.opengis.net/kml/2.2"
-  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:atom="atom2.xsd"
   xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"
   targetNamespace="http://www.google.com/kml/ext/2.2"
   elementFormDefault="qualified"
