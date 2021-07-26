@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Vålters Grotta', '/english/se/caves/Valters.html', 'Valters', 'Europe', 'se', 'Sweden', 'caves', 'Ostergotland', 58.72912,15.89464);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grottan vid Rövarmon', '/english/se/caves/Rovarmon.html', 'Rovarmon', 'Europe', 'se', 'Sweden', 'caves', 'Ostergotland', 58.578250, 15.750180);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Qanat Gesuitico Alto', '/english/it/subterranea/QanatGesuiticoAlto.html', 'QanatGesuiticoAlto', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 38.105636,  13.323079);
