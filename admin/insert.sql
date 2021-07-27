@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Qanat Gesuitico Alto', '/english/it/subterranea/QanatGesuiticoAlto.html', 'QanatGesuiticoAlto', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 38.105636,  13.323079);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gillberga Gryte', '/english/se/caves/Gillberga.html', 'Gillberga', 'Europe', 'se', 'Sweden', 'caves', 'Stockholm', 60.00613, 18.51453);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta da Pedra da Santa', '/english/br/caves/PedraSanta.html', 'PedraSanta', 'SouthAmerica', 'br', 'Brazil', 'caves', 'MinasGerais', -20.931499, -42.154027);
