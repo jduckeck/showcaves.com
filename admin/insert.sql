@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gruta da Pedra da Santa', '/english/br/caves/PedraSanta.html', 'PedraSanta', 'SouthAmerica', 'br', 'Brazil', 'caves', 'MinasGerais', -20.931499, -42.154027);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta dei Beati Paoli', '/english/it/subterranea/BeatiPaoli.html', 'BeatiPaoli', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 38.117048, 13.355596);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Quarzitbruch Glossen', '/english/de/mines/Glossen.html', 'Glossen', 'Europe', 'de', 'Germany', 'mines', 'Sachsen', 51.24373675524624, 12.997640711630543);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','La Mina de Daroca', '/english/es/subterranea/Daroca.html', 'Daroca', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon', 41.113600, -1.409400);
