@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Quarzitbruch Glossen', '/english/de/mines/Glossen.html', 'Glossen', 'Europe', 'de', 'Germany', 'mines', 'Sachsen', 51.24373675524624, 12.997640711630543);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','La Mina de Daroca', '/english/es/subterranea/Daroca.html', 'Daroca', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon', 41.113600, -1.409400);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bergbaumuseum "Kleiner Johannes"', '/english/de/mines/KleinerJohannes.html', 'KleinerJohannes', 'Europe', 'de', 'Germany', 'mines', 'Fichtelgebirge', 50.059140, 12.192233);
