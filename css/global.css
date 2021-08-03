@@ -148,6 +148,10 @@ table.language th {
     padding: 0.5rem;
 }
 
+table.td .nowrap {
+    white-space: nowrap;
+}
+
 .foreign {
     font-family: sans-serif;
     color: #400000;
