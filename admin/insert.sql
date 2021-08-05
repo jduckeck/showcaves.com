@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotta di Santa Ninfa', '/english/it/caves/SantaNinfa.html', 'SantaNinfa', 'Europe', 'it', 'Italy', 'caves', 'Sicilia', 37.7797, 12.8976);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cavernas del Río Nus', '/english/other/caves/RioNus.html', 'RioNus', 'SouthAmerica', 'co', 'Colombia', 'caves', 'co', 'other', 6.305833, -74.691667);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Magic White Caves of Gudvangen', '/english/no/mines/Gudvangen.html', 'Gudvangen', 'Europe', 'no', 'Norway', 'mines', 'SognOgFjordane', 60.844114, 6.726850);
