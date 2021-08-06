@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cavernas del Río Nus', '/english/other/caves/RioNus.html', 'RioNus', 'SouthAmerica', 'co', 'Colombia', 'caves', 'co', 'other', 6.305833, -74.691667);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Magic White Caves of Gudvangen', '/english/no/mines/Gudvangen.html', 'Gudvangen', 'Europe', 'no', 'Norway', 'mines', 'SognOgFjordane', 60.844114, 6.726850);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Stadshuskällaren', '/english/se/subterranea/Stadshuskallaren.html', 'Stadshuskallaren', 'Europe', 'se', 'Sweden', 'subterranea', 'Stockholm', 59.3275, 18.0543);
