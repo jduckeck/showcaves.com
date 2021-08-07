@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Stadshuskällaren', '/english/se/subterranea/Stadshuskallaren.html', 'Stadshuskallaren', 'Europe', 'se', 'Sweden', 'subterranea', 'Stockholm', 59.3275, 18.0543);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Burg Loch', '/english/at/subterranea/Loch.html', 'Loch', 'Europe', 'at', 'Austria', 'subterranea', 'Tirol', 47.5486, 10.6761);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Hell Geological Site', '/english/car/karst/Hell.html', 'Hell', 'Caribbean Islands', 'car', 'Cayman Islands', 'karst', 'car', 'car', 19.379028, -81.406765);
