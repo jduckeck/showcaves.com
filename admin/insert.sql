@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Peştera Isverna', '/english/ro/springs/Isverna.html', 'Isverna', 'Europe', 'ro', 'Romania', 'springs', 'Mehedinti', 44.980363, 22.618784);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Peştera Veterani', '/english/ro/showcaves/Veterani.html', 'Veterani', 'Europe', 'ro', 'Romania', 'showcaves', 'Mehedinti', 44.599240, 22.262961);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Peştera de la Tismana', '/english/ro/showcaves/Tismana.html', 'Tismana', 'Europe', 'ro', 'Romania', 'showcaves', 'Meridionali', 45.080708,  22.926862);
