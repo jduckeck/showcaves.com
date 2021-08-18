@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Peştera de la Tismana', '/english/ro/showcaves/Tismana.html', 'Tismana', 'Europe', 'ro', 'Romania', 'showcaves', 'Meridionali', 45.080708,  22.926862);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Belogradchik Rocks', '/english/bg/gorges/Belogradchik.html', 'Belogradchik', 'Europe', 'bg', 'Bulgaria', 'gorges', 'Vidin', 43.623763, 22.676814);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museum of Mineralogy, Petrology and Mineral Resources', '/english/bg/subterranea/Mineral.html', 'Mineral', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Sofia', 42.692804, 23.335415);
