@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Belogradchik Rocks', '/english/bg/gorges/Belogradchik.html', 'Belogradchik', 'Europe', 'bg', 'Bulgaria', 'gorges', 'Vidin', 43.623763, 22.676814);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Museum of Mineralogy, Petrology and Mineral Resources', '/english/bg/subterranea/Mineral.html', 'Mineral', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Sofia', 42.692804, 23.335415);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave of St. Ivan Rilski', '/english/bg/subterranea/Rilski.html', 'Rilski', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Kyustendil', 42.1501008, 23.3699140);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lepenitza Cave', '/english/bg/showcaves/Lepenitza.html', 'Lepenitza', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Pazardzhik', 41.954478, 24.010742);
