@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cave of St. Ivan Rilski', '/english/bg/subterranea/Rilski.html', 'Rilski', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Kyustendil', 42.1501008, 23.3699140);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Lepenitza Cave', '/english/bg/showcaves/Lepenitza.html', 'Lepenitza', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Pazardzhik', 41.954478, 24.010742);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave of St. Ivan Rilski near Skrino', '/english/bg/subterranea/RilskiSkrino.html', 'RilskiRuen', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Kyustendil', 42.175354,  22.947732);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Aladzha Monastery', '/english/bg/subterranea/Aladzha.html', 'Aladzha', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Varna', 43.277992, 28.015513);
