@@ -58,8 +58,8 @@
         <br class="clear">
 
         <?php
-printByCountryAll($pdo);
-?>
+        printByCountryAll($pdo);
+        ?>
 
     </div>
 

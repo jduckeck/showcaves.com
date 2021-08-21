@@ -19,12 +19,13 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
     $count = countSights($pdo, "");
     ?>
+
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Alle Sehenswürdigkeiten auf showcaves.com"/>
     <meta property="og:type" content="website"/>
@@ -40,7 +41,7 @@
 
 
         <h1 class="center">Alle Sehenswürdigkeiten auf showcaves.com</h1>
-        <h2 class="center"><? print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <?php print strtoupper(date("d-M-Y H:i")) ?> beschrieben</h2>
+        <h2 class="center"><?php print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <?php print strtoupper(date("d-M-Y H:i")) ?> beschrieben</h2>
 
         <br class="clear">
 
@@ -58,7 +59,7 @@
 
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-<?
+            <?php
             printAll($pdo);
 ?>
         </ul>
