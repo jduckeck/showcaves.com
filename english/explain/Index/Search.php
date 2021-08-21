@@ -19,7 +19,7 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
@@ -39,7 +39,7 @@
     <div data-role="main" class="ui-content">
 
         <label for="theList">Search the list...</label>
-        <ul id="theList" data-role="listview" data-inset="true" data-filter="true"><?
+        <ul id="theList" data-role="listview" data-inset="true" data-filter="true"><?php
             printAll($pdo);
             ?>
         </ul>

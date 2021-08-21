@@ -20,7 +20,7 @@
     <!-- end responsive -->
 
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
@@ -43,7 +43,7 @@
 
 
         <h1 class="center">All Mines By Country</h1>
-        <h2 class="center"><? print $count ?> mines are listed on <span class="mySiteName">showcaves.com</span> on <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
+        <h2 class="center"><?php print $count ?> mines are listed on <span class="mySiteName">showcaves.com</span> on <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 
@@ -57,9 +57,9 @@
 
         <br class="clear">
 
-<?
-printByCountry($pdo, 'mines');
-?>
+        <?php
+        printByCountry($pdo, 'mines');
+        ?>
 
     </div>
 

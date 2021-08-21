@@ -19,7 +19,7 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
 
@@ -70,7 +70,7 @@
             </tr>
             </thead>
             <tbody>
-            <?
+            <?php
             $oldCountry = '';
             $entries = 0;
 
