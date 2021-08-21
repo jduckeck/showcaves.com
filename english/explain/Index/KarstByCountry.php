@@ -41,7 +41,7 @@
 
 
         <h1 class="center">All Karst Features By Country</h1>
-        <h2 class="center"><? print $count ?> karst features are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><? print $count ?> karst features are listed on <span class="mySiteName">showcaves.com</span> on <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 

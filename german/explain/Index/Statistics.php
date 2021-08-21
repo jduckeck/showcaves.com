@@ -41,7 +41,7 @@
 
 
         <h1 class="center">Statistik von <span class="mySiteName">showcaves.com</span></h1>
-        <h2 class="center"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><span class="mySiteName">showcaves.com</span> entries as of <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 

@@ -43,7 +43,7 @@
 
 
         <h1 class="center">Alle Schluchten</h1>
-        <h2 class="center"><? print $count ?> Schluchten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h2 class="center"><? print $count ?> Schluchten werden auf <span class="mySiteName">showcaves.com</span> am <?php print strtoupper(date("d-M-Y H:i")) ?> beschrieben</h2>
 
         <br class="clear">
 
