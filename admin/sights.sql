@@ -2305,7 +2305,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2307, 'yes', 0, 'Baixiangdong', '/english/cn/showcaves/Baixiang.html', NULL, 'Baixiang', 'Asia', 'China', 'cn', 'Yunnan', 'showcaves', NULL, NULL),
 (2308, 'yes', 0, 'Benxi Water Cave', '/english/cn/showcaves/Benxi.html', NULL, 'Benxi', 'Asia', 'China', 'cn', 'Liaoning', 'showcaves', '41.296591944768050', '124.067537604917300'),
 (2309, 'yes', 0, 'Jiguandong', '/english/cn/showcaves/Jiguan.html', NULL, 'Jiguan', 'Asia', 'China', 'cn', NULL, 'showcaves', NULL, NULL),
-(2310, 'yes', 0, 'Longgong Caves', '/english/cn/showcaves/Longgong.html', NULL, 'Longgong', 'Asia', 'China', 'cn', NULL, 'showcaves', '26.000000045422910', '105.900000050001400'),
+(2310, 'yes', 0, 'Longgong Caves', '/english/cn/showcaves/LonggongGuizhou.html', NULL, 'Longgong', 'Asia', 'China', 'cn', NULL, 'showcaves', '26.000000045422910', '105.900000050001400'),
 (2311, 'yes', 0, 'Jing Dong Da Rong Dong', '/english/cn/showcaves/Jing.html', NULL, 'Jing', 'Asia', 'China', 'cn', 'Beijing', 'showcaves', NULL, NULL),
 (2312, 'yes', 0, 'Jiutian Dong', '/english/cn/showcaves/Jiutian.html', NULL, 'Jiutian', 'Asia', 'China', 'cn', 'Hunan', 'showcaves', '29.323586131208100', '110.119242866856600'),
 (2314, 'yes', 0, 'Liuku Show Cave', '/english/cn/showcaves/Liuku.html', NULL, 'Liuku', 'Asia', 'China', 'cn', 'Yunnan', 'showcaves', NULL, NULL),
