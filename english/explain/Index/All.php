@@ -40,7 +40,7 @@
 
 
         <h1 class="center">All Entries of showcaves.com</h1>
-        <h2 class="center"><?php print $count ?> sites are listed on <span class="mySiteName">showcaves.com</span> on <?php print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><?php print $count ?> sites are listed on <span class="mySiteName">showcaves.com</span> on <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 

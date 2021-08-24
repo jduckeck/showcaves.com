@@ -19,7 +19,7 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
 
@@ -41,7 +41,7 @@
 
 
         <h1 class="center">Statistik von <span class="mySiteName">showcaves.com</span></h1>
-        <h2 class="center"><span class="mySiteName">showcaves.com</span> entries as of <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><span class="mySiteName">showcaves.com</span> entries as of <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 
@@ -70,7 +70,7 @@
             </tr>
             </thead>
             <tbody>
-            <?
+            <?php
             $oldCountry = '';
             $entries = 0;
 

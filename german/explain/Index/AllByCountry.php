@@ -20,7 +20,7 @@
     <!-- end responsive -->
 
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
@@ -43,7 +43,7 @@
 
 
         <h1 class="center">Alle Sehenswürdigkeiten auf <span class="mySiteName">showcaves.com</span> nach Ländern gruppiert</h1>
-        <h2 class="center"><? print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <? print date("d-M-Y H:i:s") ?> beschrieben</h2>
+        <h2 class="center"><?php print $count ?> Sehenswürdigkeiten werden auf <span class="mySiteName">showcaves.com</span> am <?php print strtoupper(date("d-M-Y H:i")) ?> beschrieben</h2>
 
         <br class="clear">
 
@@ -57,9 +57,9 @@
 
         <br class="clear">
 
-<?
-printByCountryAll($pdo);
-?>
+        <?php
+        printByCountryAll($pdo);
+        ?>
 
     </div>
 

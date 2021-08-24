@@ -20,7 +20,7 @@
     <!-- end responsive -->
 
 
-    <?
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
@@ -43,7 +43,7 @@
 
 
         <h1 class="center">Alle Karstquellen</h1>
-        <h2 class="center"><? print $count ?> Karstquellen werden auf <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><?php print $count ?> Karstquellen werden auf <span class="mySiteName">showcaves.com</span> on <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 
@@ -61,7 +61,7 @@
 
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-<?
+            <?php
 printAllByCategory($pdo, 'springs');
 ?>
         </ul>

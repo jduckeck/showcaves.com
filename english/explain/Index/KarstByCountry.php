@@ -19,12 +19,14 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?
+
+    <?php
     include("../../../php/opendb.php");
     $pdo = openDB();
     include("../../../php/showcaves.php");
     $count = countSights($pdo, " AND category='karst'");
     ?>
+
 
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: All Karst Features By Country"/>
@@ -41,7 +43,7 @@
 
 
         <h1 class="center">All Karst Features By Country</h1>
-        <h2 class="center"><? print $count ?> karst features are listed on <span class="mySiteName">showcaves.com</span> on <? print date("d-M-Y H:i:s") ?></h2>
+        <h2 class="center"><?php print $count ?> karst features are listed on <span class="mySiteName">showcaves.com</span> on <?php print strtoupper(date("d-M-Y H:i")) ?></h2>
 
         <br class="clear">
 
@@ -55,9 +57,9 @@
 
         <br class="clear">
 
-<?
-printByCountry($pdo, 'karst');
-?>
+        <?php
+        printByCountry($pdo, 'karst');
+        ?>
 
     </div>
 
