@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Dolina del Revotano', '/english/it/karst/Revotano.html', 'Revotano', 'Europe', 'it', 'Italy', 'karst', 'Lazio', 42.3111, 12.6950);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Peștera Sfântului Antonie de la Iezer', '/english/ro/subterranea/StAnthonyIezer.html', 'StAnthonyIezer', 'Europe', 'ro', 'Romania', 'subterranea', 'Meridionali', 45.205839, 24.176876);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Getu River Caves', '/english/cn/showcaves/GetuRiver.html', 'GetuRiver', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 25.685038, 106.271575);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Zhijin Grand Canyon', '/english/cn/gorges/ZhijinGrandCanyon.html', 'ZhijinGrandCanyon', 'Asia', 'cn', 'China', 'gorges', 'Guizhou', 26.7793, 105.8862);
