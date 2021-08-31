@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Xixiu Guanyin Dong', '/english/cn/showcaves/GuanyinXixiu.html', 'GuanyinXixiu', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 26.115621272596055, 105.87801988055661);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Jinzhou Guanyin Dong', '/english/cn/showcaves/GuanyinJinzhou.html', 'GuanyinJinzhou', 'Asia', 'cn', 'China', 'showcaves', 'Liaoning', 41.172442, 121.044969);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shenyang Shui Dong', '/english/cn/showcaves/Shenyang.html', 'Shenyang', 'Asia', 'cn', 'China', 'showcaves', 'Liaoning', 41.591501, 123.730499);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yandang Guanyin Dong', '/english/cn/showcaves/GuanyinYandang.html', 'GuanyinYandang', 'Asia', 'cn', 'China', 'showcaves', 'Zhejiang', 28.382494, 121.106539);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Wangtian Dong Rongdong', '/english/cn/showcaves/Wangtian.html', 'Wangtian', 'Asia', 'cn', 'China', 'showcaves', 'Liaoning', 41.188847, 125.266582);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Di Shui Dong', '/english/cn/subterranea/DishuiShaoshan.html', 'DishuiHunan', 'Asia', 'cn', 'China', 'subterranea', 'Hunan', 27.923023, 112.466838);
