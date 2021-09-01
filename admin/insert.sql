@@ -32,3 +32,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Parvati Buddhist Cave', '/english/in/subterranea/Parvati.html', 'Parvati', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.496491, 73.847524);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kuda Mandad Caves', '/english/in/subterranea/KudaMandad.html', 'KudaMandad', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.285593, 73.072820);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lamgao Buddhist Caves', '/english/in/subterranea/Lamgao.html', 'Lamgao', 'Asia', 'in', 'India', 'subterranea', 'Goa', 15.595932, 73.936540);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rivona Caves', '/english/in/caves/Rivona.html', 'Rivona', 'Asia', 'in', 'India', 'caves', 'Goa', 15.164905, 74.111346);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Caves of Khandepar', '/english/in/subterranea/Khandepar.html', 'Khandepar', 'Asia', 'in', 'India', 'subterranea', 'Goa', 15.429180, 74.049822);
