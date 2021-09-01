@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Shah Allah Ditta Caves', '/english/other/subterranea/ShahAllahDitta.html', 'ShahAllahDitta', 'Asia', 'pk', 'Pakistan', 'subterranea', 'pk', 'other', 33.721889, 72.915098);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Dungeshwari', '/english/in/subterranea/Dungeshwari.html', 'Dungeshwari', 'Asia', 'in', 'India', 'subterranea', 'Bihar', 24.736625, 85.047540);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kondhane Buddhist Caves', '/english/in/subterranea/Kondhane.html', 'Kondhane', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.839505, 73.384509);
