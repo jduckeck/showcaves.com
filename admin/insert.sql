@@ -38,3 +38,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Rivona Caves', '/english/in/caves/Rivona.html', 'Rivona', 'Asia', 'in', 'India', 'caves', 'Goa', 15.164905, 74.111346);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Caves of Khandepar', '/english/in/subterranea/Khandepar.html', 'Khandepar', 'Asia', 'in', 'India', 'subterranea', 'Goa', 15.429180, 74.049822);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Pandava Caves', '/english/in/subterranea/Pandava.html', 'Pandava', 'Asia', 'in', 'India', 'subterranea', 'Goa', 15.552527,  74.023043);
