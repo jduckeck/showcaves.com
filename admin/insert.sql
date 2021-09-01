@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Perak Cave Temple', '/english/my/showcaves/Perak.html', 'Perak', 'Asia', 'my', 'Malaysia', 'showcaves', 'Perak', 4.644244, 101.099374);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Parvati Buddhist Cave', '/english/in/subterranea/Parvati.html', 'Parvati', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.496491, 73.847524);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kuda Mandad Caves', '/english/in/subterranea/KudaMandad.html', 'KudaMandad', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.285593, 73.072820);
