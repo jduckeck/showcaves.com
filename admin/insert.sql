@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Súľovské Skaly', '/english/sk/karst/Sulovske.html', 'Sulovske', 'Europe', 'sk', 'Slovakia', 'karst', 'Zilina', 49.178195, 18.589860);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Colorado School of Mines Museum', '/english/usa/mines/Colorado.html', 'Colorado', 'NorthAmerica', 'us', 'United States of America', 'mines', 'co', 39.751864, -105.224771);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cheile Oltețului', '/english/ro/gorges/Oltet.html', 'Oltet', 'Europe', 'ro', 'Romania', 'gorges', 'Meridionali', 45.202288, 23.780637);
