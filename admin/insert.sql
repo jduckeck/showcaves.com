@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cheile Oltețului', '/english/ro/gorges/Oltet.html', 'Oltet', 'Europe', 'ro', 'Romania', 'gorges', 'Meridionali', 45.202288, 23.780637);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ghorawadi Caves', '/english/in/subterranea/Ghorawadi.html', 'Ghorawadi', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.692307,  73.704069);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Farm8', '/english/kr/subterranea/Farm8.html', 'Farm8', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gyeonggi', 37.5031, 126.9478);
