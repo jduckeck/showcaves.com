@@ -1,6 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Madison Coal Museum', '/english/usa/mines/Madison.html', 'Madison', 'NorthAmerica', 'us', 'United States of America', 'mines', 'wv', 38.0646304, -81.8219515);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Haga Tingshus Jättegryta', '/english/se/gorges/HagaTingshus.html', 'HagaTingshus', 'Europe', 'se', 'Sweden', 'gorges', 'Stockholm', 59.3535, 18.0398);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jättegrytan i Skarpnäck', '/english/se/gorges/Skarpnack.html', 'Skarpnack', 'Europe', 'se', 'Sweden', 'gorges', 'Stockholm', 59.2693, 18.1442);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Lago Sfondato', '/english/it/karst/Sfondato.html', 'Sfondato', 'Europe', 'it', 'Italy', 'karst', 'Sicilia', 37.581935, 13.947483);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bhandara Buddhist Caves', '/english/in/subterranea/Bhandara.html', 'Bhandara', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.747466, 73.733530);
