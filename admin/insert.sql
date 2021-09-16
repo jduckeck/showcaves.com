@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tham Nang Ene', '/english/la/showcaves/NangEne.html', 'NangEne', 'Asia', 'la', 'Laos', 'showcaves', 'Khammouane', 17.444045, 104.948519);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Xe Bang Fai', '/english/la/showcaves/XeBangfai.html', 'XeBangfai', 'Asia', 'la', 'Laos', 'showcaves', 'Khammouane', 17.373025, 105.838874);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Vatnajökull Glacier Crystal Cave', '/english/is/caves/Vatnajokull.html', 'Vatnajokull', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland', 64.128777, -16.016966);
