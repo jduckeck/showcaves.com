@@ -14,3 +14,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Súľovské Skaly', '/english/sk/karst/Sulovske.html', 'Sulovske', 'Europe', 'sk', 'Slovakia', 'karst', 'Zilina', 49.178195, 18.589860);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Colorado School of Mines Museum', '/english/usa/mines/Colorado.html', 'Colorado', 'NorthAmerica', 'us', 'United States of America', 'mines', 'co', 39.751864, -105.224771);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cheile Oltețului', '/english/ro/gorges/Oltet.html', 'Oltet', 'Europe', 'ro', 'Romania', 'gorges', 'Meridionali', 45.202288, 23.780637);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ghorawadi Caves', '/english/in/subterranea/Ghorawadi.html', 'Ghorawadi', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.692307,  73.704069);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Farm8', '/english/kr/subterranea/Farm8.html', 'Farm8', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gyeonggi', 37.5031, 126.9478);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Nang Ene', '/english/la/showcaves/NangEne.html', 'NangEne', 'Asia', 'la', 'Laos', 'showcaves', 'Khammouane', 17.444045, 104.948519);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Xe Bang Fai', '/english/la/showcaves/XeBangfai.html', 'XeBangfai', 'Asia', 'la', 'Laos', 'showcaves', 'Khammouane', 17.373025, 105.838874);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Vatnajökull Glacier Crystal Cave', '/english/is/caves/Vatnajokull.html', 'Vatnajokull', 'Europe', 'is', 'Iceland', 'caves', 'Sudurland', 64.128777, -16.016966);
