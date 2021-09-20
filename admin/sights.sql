@@ -3255,7 +3255,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3291, 'yes', 0, 'Tham Pha Tok', '/english/la/showcaves/PhaTok.html', NULL, 'PhaTok', 'Asia', 'Laos', 'la', 'Louangphabang', 'showcaves', '20.552053618799870', '102.621060159274500'),
 (3301, 'yes', 0, 'Taldinskij', '/english/ru/caves/Taldinskij.html', NULL, 'Taldinskij', 'Asia', 'Russia', 'ru', 'AltaiRepublic', 'caves', '51.776799621173180', '85.731815063541630'),
 (3302, 'yes', 0, 'Rasboinichja', '/english/ru/caves/Rasboinichja.html', NULL, 'Rasboinich', 'Asia', 'Russia', 'ru', 'AltaiRepublic', 'caves', '51.370067470633560', '84.747122685059310'),
-(3303, 'yes', 0, 'Kapova Cave', '/english/ru/caves/Kapova.html', NULL, 'Kapova', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'caves', '53.043586111111110', '57.066936111111100'),
+(3303, 'yes', 0, 'Kapova Cave', '/english/ru/caves/ShulganTash.html', NULL, 'Kapova', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'caves', '53.043586111111110', '57.066936111111100'),
 (3304, 'yes', 0, 'Kungur ledenica pestera', '/english/ru/showcaves/Kungur.html', NULL, 'Kungur', 'Asia', 'Russia', 'ru', 'Perm', 'showcaves', '57.436784038580460', '57.010106527012990'),
 (3305, 'yes', 0, 'Abu Simbel', '/english/other/subterranea/AbuSimbel.html', 'other', 'AbuSimbel', 'Africa', 'Egypt', 'eg', 'eg', 'subterranea', '22.360881751853250', '31.598757844845270'),
 (3306, 'yes', 0, 'White\'s Mining Museum', '/english/au/mines/White.html', NULL, 'White', 'Oceania', 'Australia', 'au', 'nsw', 'mines', NULL, NULL),
