@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tomb of Seuthes III', '/english/bg/subterranea/Seuthes.html', 'Seuthes', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'StaraSagora', 42.699972, 25.333466);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Temple in the Tomb of Ostrusha', '/english/bg/subterranea/Ostrusha.html', 'Ostrusha', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'StaraSagora', 42.689932, 25.351070);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
+VALUES('yes','Minas de Burguillos del Cerro', '/english/es/mines/Burguillos.html', 'Burguillos', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 38.374280, -6.611180, true);
