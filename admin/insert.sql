@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Minas de Burguillos del Cerro', '/english/es/mines/Burguillos.html', 'Burguillos', 'Europe', 'es', 'Spain', 'mines', 'Extremadura', 38.374280, -6.611180, true);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ciudad Encantada', '/english/es/karst/CiudadEncantada.html', 'CiudadEncantada', 'Europe', 'es', 'Spain', 'karst', 'Castilla', 40.206542, -2.005614);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Instituto Geológico y Minero Español', '/english/es/subterranea/IGME.html', 'IGME', 'Europe', 'es', 'Spain', 'subterranea', '$Region$', 40.442050, -3.699703);
