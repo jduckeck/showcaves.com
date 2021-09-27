@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cuevas Romanas', '/english/es/subterranea/Romanas.html', 'Romanas', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.922277, -4.753035);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Monasterio de Piedra Natural Park', '/english/es/karst/MonasterioPiedra.html', 'MonasterioPiedra', 'Europe', 'es', 'Spain', 'karst', 'Aragon', 41.193469, -1.782325);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Regional Natural History Museum', '/english/bg/subterranea/Plovdiv.html', 'Plovdiv', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'Plovdiv', 42.149078, 24.742792);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tomb of Seuthes III', '/english/bg/subterranea/Seuthes.html', 'Seuthes', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'StaraSagora', 42.699972, 25.333466);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Temple in the Tomb of Ostrusha', '/english/bg/subterranea/Ostrusha.html', 'Ostrusha', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'StaraSagora', 42.689932, 25.351070);
