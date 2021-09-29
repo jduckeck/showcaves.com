@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ciudad Encantada', '/english/es/karst/CiudadEncantada.html', 'CiudadEncantada', 'Europe', 'es', 'Spain', 'karst', 'Castilla', 40.206542, -2.005614);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Instituto Geológico y Minero Español', '/english/es/subterranea/IGME.html', 'IGME', 'Europe', 'es', 'Spain', 'subterranea', '$Region$', 40.442050, -3.699703);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cañón de Almadenes', '/english/es/gorges/Almadenes.html', 'Almadenes', 'Europe', 'es', 'Spain', 'gorges', 'Murcia', 38.236584, -1.558926);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cova de s’Aigua', '/english/es/showcaves/SAigua.html', 'SAigua', 'Europe', 'es', 'Spain', 'showcaves', 'Menorca', 39.970878, 3.834414);
