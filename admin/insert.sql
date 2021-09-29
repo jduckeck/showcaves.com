@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cova de s’Aigua', '/english/es/showcaves/SAigua.html', 'SAigua', 'Europe', 'es', 'Spain', 'showcaves', 'Menorca', 39.970878, 3.834414);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fuente del Gorgotón', '/english/es/karst/Gorgoton.html', 'Gorgoton', 'Europe', 'es', 'Spain', 'karst', 'Murcia', 38.238886, -1.556799);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Poza de Fuente Caputa', '/english/es/springs/Caputa.html', 'Caputa', 'Europe', 'es', 'Spain', 'springs', 'Murcia', 38.085586, -1.503049);
