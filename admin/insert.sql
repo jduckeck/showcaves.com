@@ -32,3 +32,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Fuente del Gorgotón', '/english/es/karst/Gorgoton.html', 'Gorgoton', 'Europe', 'es', 'Spain', 'karst', 'Murcia', 38.238886, -1.556799);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Poza de Fuente Caputa', '/english/es/springs/Caputa.html', 'Caputa', 'Europe', 'es', 'Spain', 'springs', 'Murcia', 38.085586, -1.503049);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Santuario Virgen de la Esperanza', '/english/es/subterranea/Esperanza.html', 'Esperanza', 'Europe', 'es', 'Spain', 'subterranea', 'Murcia', 38.260627527496034, -1.7095555422439423);
