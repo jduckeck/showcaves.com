@@ -34,9 +34,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Poza de Fuente Caputa', '/english/es/springs/Caputa.html', 'Caputa', 'Europe', 'es', 'Spain', 'springs', 'Murcia', 38.085586, -1.503049);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Santuario Virgen de la Esperanza', '/english/es/subterranea/Esperanza.html', 'Esperanza', 'Europe', 'es', 'Spain', 'subterranea', 'Murcia', 38.260627527496034, -1.7095555422439423);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Sharenka Cave', '/english/bg/showcaves/Sharenka.html', 'Sharenka', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Smolyan', 41.4897963, 24.9176398);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
+VALUES('yes','Sharenka Cave', '/english/bg/showcaves/Sharenka.html', 'Sharenka', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Smolyan', 41.4897963, 24.9176398, true);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Serdika Metro Station', '/english/bg/subterranea/SerdikaMetroStation.html', 'SerdikaMetroStation', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'SofiaCity', 42.697858, 23.321145);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Archaeological Level of St. Sophia Basilica', '/english/bg/subterranea/StSophia.html', 'StSophia', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'SofiaCity', 42.696556, 23.331147);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Peștera Sfântului Grigorie Decapolitul', '/english/ro/subterranea/StGrigorieDecapolitul.html', 'StGrigorieDecapolitul', 'Europe', 'ro', 'Romania', 'subterranea', 'Meridionali', 45.191979, 24.040430);
