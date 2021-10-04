@@ -36,3 +36,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Santuario Virgen de la Esperanza', '/english/es/subterranea/Esperanza.html', 'Esperanza', 'Europe', 'es', 'Spain', 'subterranea', 'Murcia', 38.260627527496034, -1.7095555422439423);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Sharenka Cave', '/english/bg/showcaves/Sharenka.html', 'Sharenka', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Smolyan', 41.4897963, 24.9176398);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Serdika Metro Station', '/english/bg/subterranea/SerdikaMetroStation.html', 'SerdikaMetroStation', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'SofiaCity', 42.697858, 23.321145);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Archaeological Level of St. Sophia Basilica', '/english/bg/subterranea/StSophia.html', 'StSophia', 'Europe', 'bg', 'Bulgaria', 'subterranea', 'SofiaCity', 42.696556, 23.331147);
