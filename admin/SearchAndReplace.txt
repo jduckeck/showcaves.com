@@ -20,6 +20,9 @@ authors:
 (.+)[,] ([A-Z])[\.]
 <b class="smallCaps">$2. $1</b>
 
+LIVE AND DIE
+\((\d\d\d\d)\-(\d\d\d\d)\)
+
 <a data-lightbox="gallery" href="../../../(.*)/Big/(.*).jpg" data-title='(.*)'></a>
         <figure class="right">
             <a data-lightbox="page" data-title='$3' href="../../../$1/Big/$2.jpg"><img alt="photography" src="../../../$1/$2.jpg"></a>
