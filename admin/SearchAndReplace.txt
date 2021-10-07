@@ -22,6 +22,7 @@ authors:
 
 LIVE AND DIE
 \((\d\d\d\d)\-(\d\d\d\d)\)
+(*$1-✝$2)
 
 <a data-lightbox="gallery" href="../../../(.*)/Big/(.*).jpg" data-title='(.*)'></a>
         <figure class="right">
