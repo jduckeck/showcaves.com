@@ -2423,7 +2423,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2426, 'yes', 0, 'Gorges du Durnand', '/english/ch/gorges/Durnand.html', NULL, 'Durnand', 'Europe', 'Switzerland', 'ch', NULL, 'gorges', '46.070085390915180', '7.071180348706509'),
 (2427, 'yes', 0, 'Gorges de l\'Orbe', '/english/ch/gorges/Orbe.html', NULL, 'Orbe', 'Europe', 'Switzerland', 'ch', NULL, 'gorges', NULL, NULL),
 (2428, 'yes', 0, 'Schöllenenschlucht', '/english/ch/gorges/Schoellenen.html', NULL, 'Schoellene', 'Europe', 'Switzerland', 'ch', 'Uri', 'gorges', '46.650467742140850', '8.586921893318598'),
-(2429, 'yes', 0, 'Ruin Aulta', '/english/ch/gorges/Rhein.html', NULL, 'Rhein', 'Europe', 'Switzerland', 'ch', NULL, 'gorges', NULL, NULL),
+(2429, 'yes', 0, 'Ruin Aulta', '/english/ch/gorges/Ruinaulta.html', NULL, 'Rhein', 'Europe', 'Switzerland', 'ch', NULL, 'gorges', NULL, NULL),
 (2430, 'yes', 0, 'Schwarzwassergraben', '/english/ch/gorges/Schwarzwasser.html', NULL, 'Schwarzwas', 'Europe', 'Switzerland', 'ch', NULL, 'gorges', NULL, NULL),
 (2431, 'yes', 0, 'Rofflaschlucht', '/english/ch/gorges/Roffla.html', NULL, 'Roffla', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'gorges', '46.582097926180000', '9.421201856630503'),
 (2432, 'yes', 0, 'Trümmelbachschlucht', '/english/ch/gorges/Truemmelbach.html', NULL, 'Truemmelba', 'Europe', 'Switzerland', 'ch', 'Bern', 'gorges', '46.569069000025250', '7.914983000093512'),
