@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Reichenbachfall', '/english/ch/gorges/Reichenbachfall.html', 'Reichenbachfall', 'Europe', 'ch', 'Switzerland', 'gorges', 'Bern', 46.719510, 8.187535);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tiger Leaping Gorge', '/english/cn/gorges/TigerLeaping.html', 'TigerLeaping', 'Asia', 'cn', 'China', 'gorges', 'Yunnan', 27.191814, 100.113739);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Neischlhöhle', '/english/de/subterranea/Neischl.html', 'Neischl', 'Europe', 'de', 'Germany', 'subterranea', 'FraenkischeAlb', 49.599019, 11.005952);
