@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bergbaumuseum Peißenberg', '/english/de/mines/Peissenberg.html', 'Peissenberg', 'Europe', 'de', 'Germany', 'mines', 'Alpen', 47.797173961316695, 11.057896567816584);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Buco di Viso', '/english/it/subterranea/BucoDiViso.html', 'BucoDiViso', 'Europe', 'it', 'Italy', 'subterranea', 'Piemonte', 44.712211, 7.066527);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museo di Speleologia Luigi Fantini', '/english/it/subterranea/LuigiFantini.html', 'LuigiFantini', 'Europe', 'it', 'Italy', 'subterranea', 'Emilia-Romagna', 44.50229615462625, 11.333340113087555);
