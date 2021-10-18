@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Buco di Viso', '/english/it/subterranea/BucoDiViso.html', 'BucoDiViso', 'Europe', 'it', 'Italy', 'subterranea', 'Piemonte', 44.712211, 7.066527);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Museo di Speleologia Luigi Fantini', '/english/it/subterranea/LuigiFantini.html', 'LuigiFantini', 'Europe', 'it', 'Italy', 'subterranea', 'Emilia-Romagna', 44.50229615462625, 11.333340113087555);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta di Labante', '/english/it/caves/Labante.html', 'Labante', 'Europe', 'it', 'Italy', 'caves', 'Emilia-Romagna', 44.260408, 11.036073);
