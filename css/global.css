@@ -646,6 +646,17 @@ TABLE.centerImg {
     background-color: transparent;
 }
 
+.boxed {
+    border: 1px solid black ;
+    align-content: center;
+    text-align: center;
+    padding: 0.5em;
+    float: none;
+    margin: 1em;
+    display: inline-block;
+    background: rgba(255, 128, 128, 0.22);
+}
+
 hr {
     width: 50%;
     margin-bottom: 1em;
