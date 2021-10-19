@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gilfenklamm', '/english/it/gorges/Gilfenklamm.html', 'Gilfenklamm', 'Europe', 'it', 'Italy', 'gorges', 'Trentino', 46.880520, 11.376941);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta del Miracolo', '/english/it/showcaves/Miracolo.html', 'Miracolo', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia', 40.1723291792971, 9.607358384440886);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rattlesnake Saloon', '/english/usa/subterranea/RattlesnakeSaloon.html', 'RattlesnakeSaloon', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'al', 34.64877409578991, -87.90678516933814);
