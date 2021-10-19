@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Rattlesnake Saloon', '/english/usa/subterranea/RattlesnakeSaloon.html', 'RattlesnakeSaloon', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'al', 34.64877409578991, -87.90678516933814);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Longyan Cave', '/english/cn/showcaves/Longyan.html', 'Longyan', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 25.99965673156087, 111.07643313224932);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yuhuang Cave', '/english/cn/subterranea/Yuhuang.html', 'Yuhuang', 'Asia', 'cn', 'China', 'subterranea', 'Hunan', 29.130183, 110.397135);
