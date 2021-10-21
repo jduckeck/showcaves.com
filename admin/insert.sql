@@ -29,4 +29,6 @@ VALUES('yes','Longyan Cave', '/english/cn/showcaves/Longyan.html', 'Longyan', 'A
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Yuhuang Cave', '/english/cn/subterranea/Yuhuang.html', 'Yuhuang', 'Asia', 'cn', 'China', 'subterranea', 'Hunan', 29.130183, 110.397135);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Zixiadong', '/english/cn/gorges/Zixia.html', 'Zixia', 'Asia', 'cn', 'China', 'gorges', 'Hunan', 26.379652, 110.813937);
+VALUES('yes','Zixiadong Gorge', '/english/cn/gorges/ZixiaGorge.html', 'Zixia', 'Asia', 'cn', 'China', 'gorges', 'Hunan', 26.379652, 110.813937);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Zixia Cave', '/english/cn/showcaves/ZixiaCave.html', 'Zixia', 'Asia', 'cn', 'China', 'showcaves', 'Hunan', 25.350164, 111.974897);
