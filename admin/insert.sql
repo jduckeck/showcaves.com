@@ -14,4 +14,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Nanshiku Temple', '/english/cn/subterranea/Nanshiku.html', 'Nanshiku', 'Asia', 'cn', 'China', 'subterranea', 'Gansu', 35.363640, 107.448547);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Beishiku Si', '/english/cn/subterranea/Beishiku.html', 'Beishiku', 'Asia', 'cn', 'China', 'subterranea', 'Gansu', 35.611205, 107.532291);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Baishiya Karst Cave', '/english/cn/caves/Baishiya.html', 'Baishiya', 'Asia', 'cn', 'China', 'caves', 'Gansu', 35.448437, 102.570361);
 
