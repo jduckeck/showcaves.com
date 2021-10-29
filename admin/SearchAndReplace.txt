@@ -85,6 +85,11 @@ list item to link
 <li>(.+)ui-li-icon ui-corner-none (.*)</li>
 $1$2
 
+insert longdeep
+\d*\	(\d*)\	(\d*)\	(.*)\	(.*)\	(.*)\	(.*)\	(.*)\	(.*)
+INSERT INTO `longdeep` (`depth`, `length`, `kat`, `name`, `state`, `county`, `town`, `reference`, `country`, `countrycode`, `type`)
+VALUES ($1, $2, "$3", "$4", "$5", "$6", "$7", "$8", "China", "cn", "karst");
+
 kml
 ---------------------------------------------------------------------------------------------------------------
 
