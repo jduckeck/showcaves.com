@@ -16,4 +16,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Beishiku Si', '/english/cn/subterranea/Beishiku.html', 'Beishiku', 'Asia', 'cn', 'China', 'subterranea', 'Gansu', 35.611205, 107.532291);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Baishiya Karst Cave', '/english/cn/caves/Baishiya.html', 'Baishiya', 'Asia', 'cn', 'China', 'caves', 'Gansu', 35.448437, 102.570361);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Lianzhou Underground River Scenic Area', '/english/cn/showcaves/Lianzhou.html', 'Lianzhou', 'Asia', 'cn', 'China', 'showcaves', 'Guangdong', 25.006224, 112.318441);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shihaidong', '/english/cn/showcaves/Shihai.html', 'Shihai', 'Asia', 'cn', 'China', 'showcaves', 'Sichuan', 28.175871, 105.135036);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kongshan Baiyun Cave', '/english/cn/showcaves/KongshanBaiyun.html', 'KongshanBaiyun', 'Asia', 'cn', 'China', 'showcaves', 'Hebei', 37.456301, 114.431302);
 
