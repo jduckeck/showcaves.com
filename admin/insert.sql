@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Khao Chang Hai Cave', '/english/th/showcaves/KhaoChangHai.html', 'KhaoChangHai', 'Asia', 'th', 'Thailand', 'showcaves', 'Trang', 7.589960, 99.669116);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Le Stegodon', '/english/th/showcaves/Stegodon.html', 'Stegodon', 'Asia', 'th', 'Thailand', 'showcaves', 'Satun', 7.123883, 99.798487);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Piyamit Tunnel', '/english/th/subterranea/Piyamit.html', 'Piyamit', 'Asia', 'th', 'Thailand', 'subterranea', 'Yala', 5.889491, 101.048259);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Krasaeng', '/english/th/caves/Krasaeng.html', 'Krasaeng', 'Asia', 'th', 'Thailand', 'caves', 'Yala', 6.214055, 101.204095);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Hup Pa Tat', '/english/th/karst/HupPaTat.html', 'HupPaTat', 'Asia', 'th', 'Thailand', 'karst', 'UthaiThani', 15.377115, 99.630926);
