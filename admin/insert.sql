@@ -27,3 +27,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Prasat Hin Phan Yot', '/english/th/karst/PrasatHinPhanYot.html', 'PrasatHinPhanYot', 'Asia', 'th', 'Thailand', 'karst', 'Satun', 6.852997, 99.695323);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Namtok Wang Sai Thong', '/english/th/karst/WangSaiThong.html', 'WangSaiThong', 'Asia', 'th', 'Thailand', 'karst', 'Satun', 7.090043, 99.909178);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Chorakhe', '/english/th/showcaves/Chorakhe.html', 'Chorakhe', 'Asia', 'th', 'Thailand', 'showcaves', 'Satun', 6.697192, 99.651126);
