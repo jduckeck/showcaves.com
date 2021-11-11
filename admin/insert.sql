@@ -23,3 +23,7 @@ VALUES('yes','Tham Mae Nang Montho', '/english/th/caves/MaeNangMontho.html', 'Ma
 -- Krasae showcaves -> caves
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Sin', '/english/th/caves/Sin.html', 'Sin', 'Asia', 'th', 'Thailand', 'caves', 'Yala', 6.521932, 101.233231);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Prasat Hin Phan Yot', '/english/th/karst/PrasatHinPhanYot.html', 'PrasatHinPhanYot', 'Asia', 'th', 'Thailand', 'karst', 'Satun', 6.852997, 99.695323);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Namtok Wang Sai Thong', '/english/th/karst/WangSaiThong.html', 'WangSaiThong', 'Asia', 'th', 'Thailand', 'karst', 'Satun', 7.090043, 99.909178);
