@@ -20,3 +20,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Wat Khuha Phimuk', '/english/th/subterranea/KhuhaPhimuk.html', 'KhuhaPhimuk', 'Asia', 'th', 'Thailand', 'subterranea', 'Yala', 6.528671, 101.224724);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Mae Nang Montho', '/english/th/caves/MaeNangMontho.html', 'MaeNangMontho', 'Asia', 'th', 'Thailand', 'caves', 'Yala', 6.529861, 101.233417);
+-- Krasae showcaves -> caves
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Sin', '/english/th/caves/Sin.html', 'Sin', 'Asia', 'th', 'Thailand', 'caves', 'Yala', 6.521932, 101.233231);
