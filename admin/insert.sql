@@ -29,3 +29,4 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Namtok Wang Sai Thong', '/english/th/karst/WangSaiThong.html', 'WangSaiThong', 'Asia', 'th', 'Thailand', 'karst', 'Satun', 7.090043, 99.909178);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Chorakhe', '/english/th/showcaves/Chorakhe.html', 'Chorakhe', 'Asia', 'th', 'Thailand', 'showcaves', 'Satun', 6.697192, 99.651126);
+-- Kumistavi: Kumistavi -> Prometheus
