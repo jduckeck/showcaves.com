@@ -3620,7 +3620,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3680, 'yes', 0, 'Mindemoya Cave', '/english/ca/showcaves/Mindemoya.html', NULL, 'Mindemoya', 'NorthAmerica', 'Canada', 'ca', 'Ontario', 'showcaves', '45.755380413650170', '-82.245086905469020'),
 (3681, 'yes', 0, 'Cavernicole de Saint-Léonard', '/english/ca/showcaves/SaintLeonard.html', NULL, 'SaintLeona', 'NorthAmerica', 'Canada', 'ca', 'Quebec', 'showcaves', '45.587753477425310', '-73.609273444855670'),
 (3682, 'yes', 0, 'Talofofo Cave', '/english/other/caves/Talofofo.html', 'other', 'Talofofo', 'Oceania', 'Guam', 'gu', 'gu', 'caves', '13.342036663187460', '144.766444594043100'),
-(3683, 'yes', 0, 'Kumistavi Cave', '/english/ge/showcaves/Kumistavi.html', NULL, 'Kumistavi', 'Europe', 'Georgia', 'ge', 'Imereti', 'showcaves', '42.376810330921860', '42.600833713372400'),
+(3683, 'yes', 0, 'Prometheus Cave', '/english/ge/showcaves/Prometheus.html', NULL, 'Kumistavi', 'Europe', 'Georgia', 'ge', 'Imereti', 'showcaves', '42.376810330921860', '42.600833713372400'),
 (3684, 'yes', 0, 'Le Trou de la Fée', '/english/ca/showcaves/TrouDeLaFee.html', NULL, 'TrouDeLaFe', 'NorthAmerica', 'Canada', 'ca', 'Quebec', 'showcaves', '48.377353579395130', '-71.973907216547390'),
 (3685, 'yes', 0, 'Burke\'s Luck Potholes', '/english/za/gorges/BurkesLuck.html', NULL, 'BurkesLuck', 'Africa', 'South Africa', 'za', 'Limpopo', 'gorges', '-24.674298576555570', '30.811365734830950'),
 (3686, 'yes', 0, 'Blyde River Canyon', '/english/za/gorges/BlydeRiver.html', NULL, 'BlydeRiver', 'Africa', 'South Africa', 'za', 'Limpopo', 'gorges', '-24.572478772246610', '30.798702819203060'),
