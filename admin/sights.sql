@@ -4055,7 +4055,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4129, 'yes', 0, 'Indiana Caverns', '/english/usa/showcaves/Indiana.html', NULL, 'Indiana', 'NorthAmerica', 'United States of America', 'us', 'in', 'showcaves', NULL, NULL),
 (4130, 'yes', 0, 'Musanze Cave', '/english/other/showcaves/Musanze.html', 'other', 'Musanze', 'Africa', 'Rwanda', 'rw', 'rw', 'showcaves', NULL, NULL),
 (4131, 'yes', 0, 'Old Bwana Mukubwa Tourism Centre', '/english/other/mines/BwanaMukubwa.html', 'other', 'BwanaMukub', 'Africa', 'Zambia', 'zm', 'zm', 'mines', NULL, NULL),
-(4132, 'yes', 0, 'La Cueva de los Tayos', '/english/other/showcaves/Tayos.html', 'other', 'Tayos', 'SouthAmerica', 'Ecuador', 'ec', 'ec', 'showcaves', NULL, NULL),
+(4132, 'yes', 0, 'Cueva de los Tayos de Coangos', '/english/other/showcaves/Tayos.html', 'other', 'Tayos', 'SouthAmerica', 'Ecuador', 'ec', 'ec', 'showcaves', NULL, NULL),
 (4133, 'yes', 0, 'Grotta di Cocceio', '/english/it/subterranea/Cocceio.html', NULL, 'Cocceio', 'Europe', 'Italy', 'it', 'Campania', 'subterranea', NULL, NULL),
 (4134, 'yes', 0, 'Strašínská jeskyne', '/english/cz/showcaves/Strasinska.html', NULL, 'Strasinska', 'Europe', 'Czech Republic', 'cz', 'Plzen', 'showcaves', NULL, NULL),
 (4135, 'yes', 0, 'Guha Siluman', '/english/id/showcaves/Siluman.html', NULL, 'Siluman', 'Asia', 'Indonesia', 'id', 'WestJava', 'showcaves', NULL, NULL),
