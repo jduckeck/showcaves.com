@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Kaghu Waterfall', '/english/ge/karst/Kaghu.html', 'Kaghu', 'Asia', 'ge', 'Georgia', 'karst', 'Samegrelo', 42.490996, 42.425886);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Motena Cave', '/english/ge/caves/Motena.html', 'Motena', 'Asia', 'ge', 'Georgia', 'caves', 'Samegrelo', 42.476583, 42.391167);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Vettuvan Koil Temple', '/english/in/subterranea/VettuvanKoil.html', 'VettuvanKoil', 'Asia', 'in', 'India', 'subterranea', 'TamilNadu', 9.152941, 77.704293);
