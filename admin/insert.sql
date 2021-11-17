@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tham Muang On', '/english/th/showcaves/MuangOn.html', 'MuangOn', 'Asia', 'th', 'Thailand', 'showcaves', 'ChiangMai', 18.786332, 99.238074);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Keterisi Mineral Vaucluse', '/english/ge/springs/Keterisi.html', 'Keterisi', 'Asia', 'ge', 'Georgia', 'springs', 'Mtskheta', 42.594233, 44.395801);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jvari Pass Travertine', '/english/ge/karst/Jvari.html', 'Jvari', 'Asia', 'ge', 'Georgia', 'karst', 'Mtskheta', 42.531710, 44.471450);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Balda Canyon', '/english/ge/gorges/Balda.html', 'Balda', 'Asia', 'ge', 'Georgia', 'gorges', 'Samegrelo', 42.487437, 42.406825);
