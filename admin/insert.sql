@@ -28,3 +28,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Jvari Pass Travertine', '/english/ge/karst/Jvari.html', 'Jvari', 'Asia', 'ge', 'Georgia', 'karst', 'Mtskheta', 42.531710, 44.471450);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Balda Canyon', '/english/ge/gorges/Balda.html', 'Balda', 'Asia', 'ge', 'Georgia', 'gorges', 'Samegrelo', 42.487437, 42.406825);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Khomuli Cave', '/english/ge/caves/Khomuli.html', 'Khomuli', 'Asia', 'ge', 'Georgia', 'caves', 'Imereti', 42.314858, 42.635315);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Satsurblia Cave', '/english/ge/caves/Satsurblia.html', 'Satsurblia', 'Asia', 'ge', 'Georgia', 'caves', 'Imereti', 42.387795, 42.606163);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cracked Lake', '/english/ge/karst/CrackedLake.html', 'CrackedLake', 'Asia', 'ge', 'Georgia', 'karst', 'Imereti', 42.378489, 42.590751);
