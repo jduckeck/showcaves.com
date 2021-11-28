@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Box Canyon Cave', '/english/nz/caves/BoxCanyon.html', 'BoxCanyon', 'Oceania', 'nz', 'New Zealand', 'caves', 'WestCoast', -41.136052, 172.191184);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cueva de los Tayos Tayu Jee', '/english/other/caves/TayosTayuJee.html', 'TayosTayuJee', 'SouthAmerica', 'ec', 'Ecuador', 'caves', 'ec', 'other', -1.951050, -77.788145);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Zhangguan Dong', '/english/cn/showcaves/Zhangguan.html', 'Zhangguan', 'Asia', 'cn', 'China', 'showcaves', 'Chongqing', 29.757541, 106.896812);
