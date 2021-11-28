@@ -641,6 +641,10 @@ TABLE.centerImg {
     font-weight: bold;
 }
 
+.tt {
+    font-family: "Times New Roman", serif;
+}
+
 .mySiteName {
     color: #13305B;
     background-color: transparent;

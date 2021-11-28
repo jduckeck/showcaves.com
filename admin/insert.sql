@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Khareba Winery', '/english/ge/subterranea/Khareba.html', 'Khareba', 'Asia', 'ge', 'Georgia', 'subterranea', 'Kakheti', 41.936009, 45.833435);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Josef Stalin\'s Underground Printing House Museum', '/english/ge/subterranea/JosefStalin.html', 'JosefStalin', 'Asia', 'ge', 'Georgia', 'subterranea', 'Tbilisi', 41.690532, 44.830110);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
+VALUES('yes','Azokh Cave', '/english/az/caves/Azokh.html', 'Azokh', 'Asia', 'az', 'Azerbaijan', 'caves', 'NagornoKarabakh', 39.619097,  46.988569, true);

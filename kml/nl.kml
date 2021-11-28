@@ -1,360 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-    <Document>
-        <atom:author>             
-          <atom:name>Jochen Duckeck</atom:name>         
-        </atom:author>         
-        <atom:link href="http://www.showcaves.com" />
-        <Style id="showcave">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/showcave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="cave">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/cave.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="subterranea">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/misc.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="mine">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/mine.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="karst">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/karst.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="spring">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/spring.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="gorge">
-            <IconStyle>
-                <Icon>
-                    <href>https://www.showcaves.com/graphics/kml/gorge.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <name>The Netherlands</name>
-		<Placemark>
-			<name>The Vault</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Vault.html"                    >The Vault</a>]]></description>
-			<LookAt>
-				<longitude>5.68438657513567</longitude>
-				<latitude>50.83602259626915</latitude>
-				<altitude>0</altitude>
-				<range>248.3111001162267</range>
-				<tilt>0</tilt>
-				<heading>-0.207060501112151</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.68492346992016,50.83623055595543,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Duivelsgrot</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Duivelsgrot.html"              >Duivelsgrot</a>]]></description>
-			<LookAt>
-				<longitude>5.67815404496817</longitude>
-				<latitude>50.8180117026815</latitude>
-				<altitude>0</altitude>
-				<range>975.8781125362733</range>
-				<tilt>0</tilt>
-				<heading>0.003062671189307062</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.678683186445723,50.81775221163789,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Maastricht Grotten - Grotten Zonneberg</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/StPietersberg.html"            >Grotten St. Pietersberg</a>]]></description>
-			<LookAt>
-				<longitude>5.696071859099077</longitude>
-				<latitude>50.82556846107892</latitude>
-				<altitude>0</altitude>
-				<range>363.1662586142668</range>
-				<tilt>0</tilt>
-				<heading>5.351314373289922e-007</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.696071859099076,50.82556846107892,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Maastricht Grotten - Grotten Noord</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/StPietersberg.html"            >Grotten St. Pietersberg</a>]]></description>
-			<LookAt>
-				<longitude>5.68489097398218</longitude>
-				<latitude>50.83598267784428</latitude>
-				<altitude>0</altitude>
-				<range>360.8672007184894</range>
-				<tilt>0</tilt>
-				<heading>0.0001517714466884112</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.684888006581394,50.83636143569977,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Maastricht Kazematten</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/MaastrichtKazematten.html"     >Maastricht Kazematten</a>]]></description>
-			<LookAt>
-				<longitude>5.680864310458085</longitude>
-				<latitude>50.84384866928125</latitude>
-				<altitude>0</altitude>
-				<range>313.2349760731696</range>
-				<tilt>0</tilt>
-				<heading>-0.04179148315399543</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.680907180294246,50.84416342986707,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Schuilen in Maastricht</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Schuilen.html"                 >Schuilen in Maastricht</a>]]></description>
-			<LookAt>
-				<longitude>5.678347796775927</longitude>
-				<latitude>50.84445669649615</latitude>
-				<altitude>0</altitude>
-				<range>387.5851932949349</range>
-				<tilt>0</tilt>
-				<heading>-0.01435089638073745</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.678275230004674,50.84437068003968,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Dino&apos;s Monstergrot</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/DinosMonstergrot.html"         >Dino's Monstergrot</a>]]></description>
-			<LookAt>
-				<longitude>5.82730983631479</longitude>
-				<latitude>50.86439003323001</latitude>
-				<altitude>0</altitude>
-				<range>312.7088170460933</range>
-				<tilt>0</tilt>
-				<heading>3.917250659557504e-011</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.827231345006556,50.86437405243223,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Gemeentegrot</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Gemeentegrot.html"             >Gemeentegrot</a>]]></description>
-			<LookAt>
-				<longitude>5.828747314702192</longitude>
-				<latitude>50.86243435620216</latitude>
-				<altitude>0</altitude>
-				<range>98.65293606129603</range>
-				<tilt>0</tilt>
-				<heading>-0.0003117879563667925</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.828770571851898,50.86243536871023,0</coordinates>
-			</Point>
-		</Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>nl.kml</name>
+	<StyleMap id="subterranea011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea11121</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea1211</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_subterranea11121">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine01000">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_subterranea1211">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="mine001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine01000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine001000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mine001000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>nl</name>
+		<open>1</open>
 		<Placemark>
 			<name>A GoGo Valkenburg</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/AGoGo.html"                    >A GoGo Valkenburg</a>]]></description>
 			<LookAt>
 				<longitude>5.833546983491644</longitude>
 				<latitude>50.86006564077826</latitude>
 				<altitude>0</altitude>
-				<range>270.8509169659671</range>
-				<tilt>0</tilt>
 				<heading>0.002776424283346539</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<tilt>0</tilt>
+				<range>270.8509169659671</range>
 			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
 				<coordinates>5.833968138094676,50.86012470188341,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Fluweelengrot</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Fluweelengrot.html"            >Fluweelengrot</a>]]></description>
-			<LookAt>
-				<longitude>5.830044329318199</longitude>
-				<latitude>50.86029660345805</latitude>
-				<altitude>0</altitude>
-				<range>329.8186043809544</range>
-				<tilt>0</tilt>
-				<heading>0.004199601651962141</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
-			<Point>
-				<coordinates>5.830559077544944,50.86020903443837,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>De prehistorische vuursteenmijnen van Rijckholt - St. Geertruid</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a target="DigIt" href="../../nl/mines/Rijckholt.html"               >De prehistorische vuursteenmijnen van Rijckholt - St. Geertruid</a>]]></description>
 			<LookAt>
 				<longitude>5.739903380159817</longitude>
 				<latitude>50.79509622699094</latitude>
 				<altitude>0</altitude>
-				<range>2712.932314535557</range>
-				<tilt>0</tilt>
 				<heading>-0.004942025199874372</heading>
+				<tilt>0</tilt>
+				<range>2712.932314535557</range>
 			</LookAt>
-			<styleUrl>#mine</styleUrl>
+			<styleUrl>#mine001</styleUrl>
 			<Point>
 				<coordinates>5.744359178358623,50.794335178212,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Nederlands Wijnmuseum Arnhem</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Wijnmuseum.html"               >Nederlands Wijnmuseum Arnhem</a>]]></description>
+			<name>Dino&apos;s Monstergrot</name>
 			<LookAt>
-				<longitude>5.923880992834524</longitude>
-				<latitude>51.98617498991393</latitude>
+				<longitude>5.82730983631479</longitude>
+				<latitude>50.86439003323001</latitude>
 				<altitude>0</altitude>
-				<range>331.7002088238505</range>
+				<heading>3.917250659557504e-11</heading>
 				<tilt>0</tilt>
-				<heading>-1.289331878328598e-009</heading>
+				<range>312.7088170460933</range>
 			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
-				<coordinates>5.923880992834524,51.98617498991392,0</coordinates>
+				<coordinates>5.827231345006556,50.86437405243223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Duivelsgrot</name>
+			<LookAt>
+				<longitude>5.67815404496817</longitude>
+				<latitude>50.8180117026815</latitude>
+				<altitude>0</altitude>
+				<heading>0.003062671189307062</heading>
+				<tilt>0</tilt>
+				<range>975.8781125362733</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.678683186445723,50.81775221163789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fluweelengrot</name>
+			<LookAt>
+				<longitude>5.830044329318199</longitude>
+				<latitude>50.86029660345805</latitude>
+				<altitude>0</altitude>
+				<heading>0.004199601651962141</heading>
+				<tilt>0</tilt>
+				<range>329.8186043809544</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.830559077544944,50.86020903443837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gemeentegrot</name>
+			<LookAt>
+				<longitude>5.828747314702192</longitude>
+				<latitude>50.86243435620216</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003117879563667925</heading>
+				<tilt>0</tilt>
+				<range>98.65293606129603</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.828770571851898,50.86243536871023,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Historische Kelders Arnhem</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Arnhem.html"                   >Historische Kelders Arnhem</a>]]></description>
 			<LookAt>
 				<longitude>5.906459495825107</longitude>
 				<latitude>51.98250959083948</latitude>
 				<altitude>0</altitude>
-				<range>1761.194837605109</range>
-				<tilt>0</tilt>
 				<heading>-0.03458828002388663</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
+				<tilt>0</tilt>
+				<range>1761.194837605109</range>
 			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
 				<coordinates>5.904162143611416,51.98141453032327,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Steenkolenmijn Valkenburg</name>
-            <description><![CDATA[<img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png"><a target="DigIt" href="../../nl/mines/Steenkolenmijn.html"          >Steenkolenmijn Valkenburg</a>]]></description>
+			<name>Maastricht Casemates</name>
 			<LookAt>
-				<longitude>5.824318878196633</longitude>
-				<latitude>50.85604730658026</latitude>
+				<longitude>5.680864310458085</longitude>
+				<latitude>50.84384866928125</latitude>
 				<altitude>0</altitude>
-				<range>681.1766232473849</range>
+				<heading>-0.04179148315399543</heading>
 				<tilt>0</tilt>
-				<heading>-0.0002408796658416709</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<range>313.2349760731696</range>
 			</LookAt>
-			<styleUrl>#mine</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
-				<coordinates>5.82552177738441,50.85611729027676,0</coordinates>
+				<coordinates>5.680907180294246,50.84416342986707,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>Valkenburgs Grottenaquarium</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Grottenaquarium.html"          >Grottenaquarium</a>]]></description>
+			<name>Maastricht Grotten - Grotten Noord</name>
 			<LookAt>
-				<longitude>5.826569495425435</longitude>
-				<latitude>50.86108929313807</latitude>
+				<longitude>5.68489097398218</longitude>
+				<latitude>50.83598267784428</latitude>
 				<altitude>0</altitude>
-				<range>226.7592905025118</range>
+				<heading>0.0001517714466884112</heading>
 				<tilt>0</tilt>
-				<heading>-5.13665457131132e-008</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<range>360.8672007184894</range>
 			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
-				<coordinates>5.826569495425435,50.86108929313807,0</coordinates>
+				<coordinates>5.684888006581394,50.83636143569977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maastricht Grotten - Grotten Zonneberg</name>
+			<LookAt>
+				<longitude>5.696071859099077</longitude>
+				<latitude>50.82556846107892</latitude>
+				<altitude>0</altitude>
+				<heading>5.351314373289922e-07</heading>
+				<tilt>0</tilt>
+				<range>363.1662586142668</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.696071859099076,50.82556846107892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maastricht Kazematten</name>
+			<LookAt>
+				<longitude>5.680864310458085</longitude>
+				<latitude>50.84384866928125</latitude>
+				<altitude>0</altitude>
+				<heading>-0.04179148315399543</heading>
+				<tilt>0</tilt>
+				<range>313.2349760731696</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.680907180294246,50.84416342986707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nederlands Wijnmuseum Arnhem</name>
+			<LookAt>
+				<longitude>5.923880992834524</longitude>
+				<latitude>51.98617498991393</latitude>
+				<altitude>0</altitude>
+				<heading>-1.289331878328598e-09</heading>
+				<tilt>0</tilt>
+				<range>331.7002088238505</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.923880992834524,51.98617498991392,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
 			<name>Romeinse Katacomben</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/RomeinseKatacomben.html"       >Romeinse Katacomben</a>]]></description>
 			<LookAt>
 				<longitude>5.820559665538712</longitude>
 				<latitude>50.86537777084088</latitude>
 				<altitude>0</altitude>
-				<range>389.828610687082</range>
-				<tilt>0</tilt>
 				<heading>-0.002185195526305918</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<tilt>0</tilt>
+				<range>389.828610687082</range>
 			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
 				<coordinates>5.820862838855483,50.86551474474616,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
+			<name>Schuilen in Maastricht</name>
+			<LookAt>
+				<longitude>5.678347796775927</longitude>
+				<latitude>50.84445669649615</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01435089638073745</heading>
+				<tilt>0</tilt>
+				<range>387.5851932949349</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.678275230004674,50.84437068003968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Schuilen in Maastricht</name>
+			<LookAt>
+				<longitude>5.678347796775927</longitude>
+				<latitude>50.84445669649615</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01435089638073745</heading>
+				<tilt>0</tilt>
+				<range>387.5851932949349</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.678275230004674,50.84437068003968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>Sibbergroeve</name>
-            <description><![CDATA[<img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png"><a target="DigIt" href="../../nl/subterranea/Sibbergroeve.html"             >Sibbergroeve</a>]]></description>
 			<LookAt>
 				<longitude>5.817870764202262</longitude>
 				<latitude>50.84816150403593</latitude>
 				<altitude>0</altitude>
-				<range>448.0604257934224</range>
-				<tilt>0</tilt>
 				<heading>-0.006948894389284864</heading>
-				<altitudeMode>relativeToGround</altitudeMode>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<tilt>0</tilt>
+				<range>448.0604257934224</range>
 			</LookAt>
-    		<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#subterranea011</styleUrl>
 			<Point>
 				<coordinates>5.817870764202262,50.84816150403593,0</coordinates>
 			</Point>
 		</Placemark>
-    </Document>
+		<Placemark>
+			<name>Steenkolenmijn Valkenburg</name>
+			<LookAt>
+				<longitude>5.824318878196633</longitude>
+				<latitude>50.85604730658026</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002408796658416709</heading>
+				<tilt>0</tilt>
+				<range>681.1766232473849</range>
+			</LookAt>
+			<styleUrl>#mine001</styleUrl>
+			<Point>
+				<coordinates>5.82552177738441,50.85611729027676,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Vault</name>
+			<LookAt>
+				<longitude>5.68438657513567</longitude>
+				<latitude>50.83602259626915</latitude>
+				<altitude>0</altitude>
+				<heading>-0.207060501112151</heading>
+				<tilt>0</tilt>
+				<range>248.3111001162267</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.68492346992016,50.83623055595543,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Valkenburgs Grottenaquarium</name>
+			<LookAt>
+				<longitude>5.826569495425435</longitude>
+				<latitude>50.86108929313807</latitude>
+				<altitude>0</altitude>
+				<heading>-5.13665457131132e-08</heading>
+				<tilt>0</tilt>
+				<range>226.7592905025118</range>
+			</LookAt>
+			<styleUrl>#subterranea011</styleUrl>
+			<Point>
+				<coordinates>5.826569495425435,50.86108929313807,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
 </kml>
