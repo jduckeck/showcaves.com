@@ -23,45 +23,44 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of the Netherlands"/>
+    <meta property="og:title" content="Maps of New Zealand: $CaveName$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of the Netherlands</title>
+    <title>Maps of New Zealand: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../nz/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../nz/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
         <figure class="left">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
+            <a target="_top" href="../../nz/Maps/index.html"><img alt="New Zealand Map" src="../../../maps/NewZealand.png" class="mapIcon"></a>
+            <figcaption class="center">New Zealand Map</figcaption>
         </figure>
 
         <figure class="right">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
-            <figcaption class="center">Europe Map</figcaption>
+            <a target="_top" href="../../nz/Maps/index.html"><img alt="New Zealand Map" src="../../../maps/NewZealand.png" class="mapIcon"></a>
+            <figcaption class="center">New Zealand Map</figcaption>
         </figure>
 
-
-        <h1 class="center">Map of the Netherlands</h1>
+        <h1 class="center">Map of $CaveName$</h1>
+        <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-<!--            <img alt="" src="../../../maps/Big/Ne.png" USEMAP="#nlMap" class="map">-->
+            <map name="$FileName$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
-
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Netherlands"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Netherlands"</a></li>
-        </ul>
 
     </div>
 
@@ -70,13 +69,13 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">The Netherlands</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">New Zealand</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
         </div>
         <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
-            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
