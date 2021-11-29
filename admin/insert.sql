@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cunicoli di Claudio', '/english/it/subterranea/Claudius.html', 'Claudius', 'Europe', 'it', 'Italy', 'subterranea', 'Abruzzo', 41.988810, 13.434190);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fort d\'artillerie de Champex-Lac', '/english/ch/subterranea/ChampexLac.html', 'ChampexLac', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Wallis', 46.026103, 7.122381);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Burkhardklamm', '/english/it/gorges/Burkhardklamm.html', 'Burkhardklamm', 'Europe', 'it', 'Italy', 'gorges', 'Trentino', 46.936371, 11.259749);
