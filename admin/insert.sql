@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva de los Tayos Tayu Jee', '/english/other/caves/TayosTayuJee.html', 'TayosTayuJee', 'SouthAmerica', 'ec', 'Ecuador', 'caves', 'ec', 'other', -1.951050, -77.788145);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Zhangguan Dong', '/english/cn/showcaves/Zhangguan.html', 'Zhangguan', 'Asia', 'cn', 'China', 'showcaves', 'Chongqing', 29.757541, 106.896812);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cunicoli di Claudio', '/english/it/subterranea/Claudius.html', 'Claudius', 'Europe', 'it', 'Italy', 'subterranea', 'Abruzzo', 41.988810, 13.434190);
