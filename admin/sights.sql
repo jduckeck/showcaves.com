@@ -1289,7 +1289,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1275, 'yes', 0, 'Monte Sant\'Angelo sul Gargano', '/english/it/subterranea/MonteSantAngelo.html', NULL, 'MonteSantA', 'Europe', 'Italy', 'it', 'Puglia', 'subterranea', '41.706683487453620', '15.960223579877350'),
 (1276, 'yes', 0, 'Villa Torlonia', '/english/it/subterranea/VillaTorlonia.html', NULL, 'VillaTorlo', 'Europe', 'Italy', 'it', 'Lazio', 'subterranea', NULL, NULL),
 (1277, 'yes', 0, 'Ridnaun', '/english/it/mines/Ridnaun.html', NULL, 'Ridnaun', 'Europe', 'Italy', 'it', 'Trentino', 'mines', '46.930066467832930', '11.268671603417930'),
-(1278, 'yes', 0, 'Schneeberg Passeier', '/english/it/mines/Passeier.html', NULL, 'Passeier', 'Europe', 'Italy', 'it', 'Trentino', 'mines', NULL, NULL),
+(1278, 'yes', 0, 'Schneeberg Passeier', '/english/it/mines/Schneeberg.html', NULL, 'Passeier', 'Europe', 'Italy', 'it', 'Trentino', 'mines', NULL, NULL),
 (1279, 'yes', 0, 'Miniera di Raibl', '/english/it/mines/Predil.html', NULL, 'Predil', 'Europe', 'Italy', 'it', 'Friuli', 'mines', '46.442489774819460', '13.568927433452890'),
 (1280, 'yes', 0, 'Besucherbergwerk Prettau', '/english/it/mines/Prettau.html', NULL, 'Prettau', 'Europe', 'Italy', 'it', 'Trentino', 'mines', NULL, NULL),
 (1281, 'yes', 0, 'Covolo di Camposilvano', '/english/it/karst/Camposilvano.html', NULL, 'Camposilva', 'Europe', 'Italy', 'it', 'Veneto', 'karst', NULL, NULL),
