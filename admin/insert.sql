@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Yiyuan Rong Dong', '/english/cn/showcaves/Yiyuan.html', 'Rong', 'Asia', 'cn', 'China', 'showcaves', 'Shandong', 36.264330, 118.072611);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Qianren Cave', '/english/cn/showcaves/Qianren.html', 'Qianren', 'Asia', 'cn', 'China', 'showcaves', 'Shandong', 36.270216, 118.069238);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Nacimiento del Río Lanquín', '/english/gt/springs/RioLanquin.html', 'RioLanquin', 'MiddleAmerica', 'gt', 'Guatemala', 'springs', 'AltaVerapaz', 15.580562, -89.990270);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grutas el Encanto', '/english/gt/caves/ElEncanto.html', 'ElEncanto', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'Izabal', 15.755807, -89.099071);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas El Tecolote', '/english/gt/caves/ElTecolote.html', 'ElTecolote', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'ElPeten', 16.894576, -90.008148);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Los Nacimientos', '/english/gt/caves/LosNacimientos.html', 'LosNacimientos', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'AltaVerapaz', 15.866920, -90.095510);
