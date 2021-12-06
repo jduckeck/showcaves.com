@@ -20,3 +20,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cuevas de Se\'tzol', '/english/gt/caves/Setzol.html', 'Setzol', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'AltaVerapaz', 15.803258, -89.571041);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cuevas SaMucuy', '/english/gt/showcaves/SaMucuy.html', 'RioSachicha', 'MiddleAmerica', 'gt', 'Guatemala', 'showcaves', 'AltaVerapaz', 15.594955, -90.382078);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas El Resumidero', '/english/gt/caves/Resumidero.html', 'Resumidero', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'Huehuetenango', 15.692073, -91.842184);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas de Andá Mirá', '/english/gt/caves/AndaMira.html', 'AndaMira', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'Jutiapa', 14.060392, -89.942406);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas del Tigre', '/english/gt/caves/Tigre.html', 'Tigre', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'Izabal', 15.796131, -88.805889);
