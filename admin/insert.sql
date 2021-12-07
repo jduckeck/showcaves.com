@@ -26,3 +26,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cuevas de Andá Mirá', '/english/gt/caves/AndaMira.html', 'AndaMira', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'Jutiapa', 14.060392, -89.942406);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cuevas del Tigre', '/english/gt/caves/Tigre.html', 'Tigre', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'Izabal', 15.796131, -88.805889);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Laguna Brava', '/english/gt/karst/Brava.html', 'Brava', 'MiddleAmerica', 'gt', 'Guatemala', 'karst', 'Huehuetenango', 16.028899, -91.578276);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cenotes de Candelaria', '/english/gt/karst/Candelaria.html', 'Candelaria', 'MiddleAmerica', 'gt', 'Guatemala', 'karst', 'Huehuetenango', 15.939242, -91.790284);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Hoyo El Cimarrón', '/english/gt/karst/Cimarron.html', 'Cimarron', 'MiddleAmerica', 'gt', 'Guatemala', 'karst', 'Huehuetenango', 16.003808, -91.709263);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Laguna Encantada', '/english/gt/karst/Encantada.html', 'Encantada', 'MiddleAmerica', 'gt', 'Guatemala', 'karst', 'Huehuetenango', 15.574723, -91.378363);
