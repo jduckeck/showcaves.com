@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotte di Sant\'Anna Castelfidardo', '/english/it/subterranea/Castelfidardo.html', 'Castelfidardo', 'Europe', 'it', 'Italy', 'subterranea', 'Marche', 43.464795, 13.544578);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cisterna della Fontana del Calamo', '/english/it/subterranea/FontanaDelCalamo.html', 'FontanaDelCalamo', 'Europe', 'it', 'Italy', 'subterranea', 'Marche', 43.618397, 13.512971);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','La Thuile Mine', '/english/it/mines/LaThuile.html', 'LaThuile', 'Europe', 'it', 'Italy', 'mines', 'Aosta', 45.716904, 6.959407);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Criptoportico Forense', '/english/it/subterranea/CriptoporticoForense.html', 'CriptoporticoForense', 'Europe', 'it', 'Italy', 'subterranea', 'Aosta', 45.738222, 7.317595);
