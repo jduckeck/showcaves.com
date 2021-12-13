@@ -12,3 +12,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','La Thuile Mine', '/english/it/mines/LaThuile.html', 'LaThuile', 'Europe', 'it', 'Italy', 'mines', 'Aosta', 45.716904, 6.959407);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Criptoportico Forense', '/english/it/subterranea/CriptoporticoForense.html', 'CriptoporticoForense', 'Europe', 'it', 'Italy', 'subterranea', 'Aosta', 45.738222, 7.317595);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cenotes Hacienda Mucuyché', '/english/mx/karst/Mucuyche.html', 'Mucuyche', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.625485, -89.604442);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cenote Yaal Utzil', '/english/mx/karst/YaalUtzil.html', 'YaalUtzil', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.623934, -89.606693);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cenote Kankirixche', '/english/mx/karst/Kankirixche.html', 'Kankirixche', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.637301, -89.632987);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cenote Chihuo-Hol', '/english/mx/karst/ChihuoHol.html', 'ChihuoHol', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.635005, -89.611736);
