@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cenote Kankirixche', '/english/mx/karst/Kankirixche.html', 'Kankirixche', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.637301, -89.632987);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cenote Chihuo-Hol', '/english/mx/karst/ChihuoHol.html', 'ChihuoHol', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.635005, -89.611736);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shimshon Cave', '/english/il/caves/Shimshon.html', 'Shimshon', 'MiddleEast', 'il', 'Israel', 'caves', 'Jerusalem', 31.764794, 35.027722);
