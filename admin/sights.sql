@@ -1382,7 +1382,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1369, 'yes', 0, 'Deir Muqallik', '/english/il/subterranea/DeirMuqallik.html', NULL, 'DeirMuqall', 'MiddleEast', 'Israel', 'il', NULL, 'subterranea', NULL, NULL),
 (1370, 'yes', 0, 'Bell Caves', '/english/il/subterranea/Bell.html', NULL, 'Bell', 'MiddleEast', 'Israel', 'il', NULL, 'subterranea', NULL, NULL),
 (1371, 'yes', 0, 'Rosh haNikra', '/english/il/caves/RoshHaNikra.html', NULL, 'RoshHaNikr', 'MiddleEast', 'Israel', 'il', NULL, 'caves', NULL, NULL),
-(1372, 'yes', 0, 'Bnei Hezir', '/english/il/caves/BneiHezir.html', NULL, 'BneiHezir', 'MiddleEast', 'Israel', 'il', 'Jerusalem', 'caves', NULL, NULL),
+(1372, 'yes', 0, 'Bnei Hezir', '/english/il/caves/BeneiHezir.html', NULL, 'BneiHezir', 'MiddleEast', 'Israel', 'il', 'Jerusalem', 'caves', NULL, NULL),
 (1373, 'yes', 0, 'Qumran Caves', '/english/il/caves/Qumran.html', NULL, 'Qumran', 'MiddleEast', 'Israel', 'il', NULL, 'caves', NULL, NULL),
 (1374, 'yes', 0, 'Flour Cave', '/english/il/caves/Flour.html', NULL, 'Flour', 'MiddleEast', 'Israel', 'il', NULL, 'caves', NULL, NULL),
 (1375, 'yes', 0, 'Cave of Rabbi Shimon bar Yochai', '/english/il/caves/Rashbi.html', NULL, 'Rashbi', 'MiddleEast', 'Israel', 'il', NULL, 'caves', NULL, NULL),

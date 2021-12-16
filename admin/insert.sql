@@ -22,3 +22,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cenote Chihuo-Hol', '/english/mx/karst/ChihuoHol.html', 'ChihuoHol', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.635005, -89.611736);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Shimshon Cave', '/english/il/caves/Shimshon.html', 'Shimshon', 'MiddleEast', 'il', 'Israel', 'caves', 'Jerusalem', 31.764794, 35.027722);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Absalom\'s Tomb', '/english/il/subterranea/Absalom.html', 'Absalom', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.777221, 35.238856);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tomb of Zechariah', '/english/il/subterranea/Zechariah.html', 'Zechariah', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.776623, 35.238966);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tomb of the Prophets', '/english/il/subterranea/Prophets.html', 'Prophets', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.776740, 35.243150);
