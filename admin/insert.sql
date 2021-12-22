@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cove Cave', '/english/ie/caves/Cove.html', 'Cove', 'Europe', 'ie', 'Ireland', 'caves', 'Down', 54.165380, -5.954077);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mewlaghmore Dolines', '/english/ie/karst/Mewlaghmore.html', 'Mewlaghmore', 'Europe', 'ie', 'Ireland', 'karst', 'Roscommon', 53.760257, -8.397856);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Kirkilai Lakes and Observation Tower', '/english/other/karst/Kirkilai.html', 'Kirkilai', 'Europe', 'lt', 'Lithuania', 'karst', 'lt', 'other', 56.248498, 24.690612);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Karvės Ola', '/english/other/karst/Karves.html', 'Karves', 'Europe', 'lt', 'Lithuania', 'karst', 'lt', 'other', 56.206742, 24.694461);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Smardonės šaltinis', '/english/other/springs/Smardones.html', 'Smardones', 'Europe', 'lt', 'Lithuania', 'springs', 'lt', 'misc', 56.200069, 24.623546);
