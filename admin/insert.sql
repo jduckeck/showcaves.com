@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Oweynagat', '/english/ie/subterranea/Oweynagat.html', 'Oweynagat', 'Europe', 'ie', 'Ireland', 'subterranea', 'Roscommon', 53.797296, -8.310578);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cove Cave', '/english/ie/caves/Cove.html', 'Cove', 'Europe', 'ie', 'Ireland', 'caves', 'Down', 54.165380, -5.954077);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mewlaghmore Dolines', '/english/ie/karst/Mewlaghmore.html', 'Mewlaghmore', 'Europe', 'ie', 'Ireland', 'karst', 'Roscommon', 53.760257, -8.397856);
