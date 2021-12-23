@@ -17,4 +17,8 @@ VALUES('yes','Kirkilai Lakes and Observation Tower', '/english/other/karst/Kirki
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Karvės Ola', '/english/other/karst/Karves.html', 'Karves', 'Europe', 'lt', 'Lithuania', 'karst', 'lt', 'other', 56.206742, 24.694461);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
-VALUES('yes','Smardonės šaltinis', '/english/other/springs/Smardones.html', 'Smardones', 'Europe', 'lt', 'Lithuania', 'springs', 'lt', 'misc', 56.200069, 24.623546);
+VALUES('yes','Smardonės šaltinis', '/english/other/springs/Smardones.html', 'Smardones', 'Europe', 'lt', 'Lithuania', 'springs', 'lt', 'other', 56.200069, 24.623546);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Žalsvasis šaltinis', '/english/other/springs/Zalsvasis.html', 'Zalsvasis', 'Europe', 'lt', 'Lithuania', 'springs', 'lt', 'other', 56.064450, 24.400946);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Lekėčių Didysis šaltinis', '/english/other/springs/Didysis.html', 'Didysis', 'Europe', 'lt', 'Lithuania', 'springs', 'lt', 'other', 54.996705, 23.510863);
