@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Lekėčių Didysis šaltinis', '/english/other/springs/Didysis.html', 'Didysis', 'Europe', 'lt', 'Lithuania', 'springs', 'lt', 'other', 54.996705, 23.510863);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fardrum Lough, Roosky Lough, and Green Lough', '/english/ie/karst/Fardrum.html', 'Fardrum', 'Europe', 'ie', 'Ireland', 'karst', 'Fermanagh', 54.400000, -7.722744);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Castleplunkett Turlough', '/english/ie/karst/Castleplunkett.html', 'Castleplunkett', 'Europe', 'ie', 'Ireland', 'karst', 'Roscommon', 53.749876, -8.339048);
