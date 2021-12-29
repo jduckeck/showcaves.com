@@ -7,7 +7,7 @@ VALUES('yes','Rangko Cave', '/english/id/caves/Rangko.html', 'Rangko', 'Asia', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Batu Cermin Cave', '/english/id/showcaves/BatuCermin.html', 'BatuCermin', 'Asia', 'id', 'Indonesia', 'showcaves', 'EastNusaTenggara', -8.479371, 119.899196);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Oweynagat', '/english/ie/subterranea/Oweynagat.html', 'Oweynagat', 'Europe', 'ie', 'Ireland', 'subterranea', 'Roscommon', 53.797296, -8.310578);
+VALUES('yes','Oweynagat - Cave of Crúachu', '/english/ie/caves/Oweynagat.html', 'Oweynagat', 'Europe', 'ie', 'Ireland', 'caves', 'Roscommon', 53.797296, -8.310578);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cove Cave', '/english/ie/caves/Cove.html', 'Cove', 'Europe', 'ie', 'Ireland', 'caves', 'Down', 54.165380, -5.954077);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
