@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Lough Funshinagh', '/english/ie/karst/Funshinagh.html', 'Funshinagh', 'Europe', 'ie', 'Ireland', 'karst', 'Roscommon', 53.510120, -8.100231);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Brierfield Turlough', '/english/ie/karst/Brierfield.html', 'Brierfield', 'Europe', 'ie', 'Ireland', 'karst', 'Roscommon', 53.752678, -8.294251);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gort River', '/english/ie/karst/GortRiver.html', 'GortRiver', 'Europe', 'ie', 'Ireland', 'karst', 'Galway', 53.0499792, -8.8130821);
