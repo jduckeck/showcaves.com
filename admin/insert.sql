@@ -36,3 +36,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotte Célestine', '/english/fr/caves/Celestine.html', 'Celestine', 'Europe', 'fr', 'France', 'caves', 'Aquitaine', 44.777289, -0.125728);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Caves de Rauzan', '/english/fr/subterranea/Rauzan.html', 'Rauzan', 'Europe', 'fr', 'France', 'subterranea', 'Aquitaine', 44.778578, -0.116367);
+UPDATE sights SET chapter=NULL,region=NULL,continent='Africa' WHERE countrycode = 'eg';
+UPDATE sights SET filename = REPLACE(filename, '/other/', '/eg/') WHERE countrycode = 'eg';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Aquarium Grotto', '/english/eg/subterranea/AquariumGrotto.html', 'AquariumGrotto', 'Africa', 'eg', 'Egypt', 'subterranea', 'Cairo', 30.056570, 31.218614);

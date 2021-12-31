@@ -42,6 +42,9 @@
         $RegionLocal$
         $continent$
         $CountryTelPrefix$
+
+UPDATE sights SET chapter=NULL,region=NULL,continent='$continent$' WHERE countrycode = '$CountryTwoLetter$';
+UPDATE sights SET filename = REPLACE(filename, '/other/', '/$CountryTwoLetter$/') WHERE countrycode = '$CountryTwoLetter$';
         -->
 
         <img alt="$CountryTwoLetter$ national flag" class="flag" src="../../graphics/flags/$CountryTwoLetter$.png">
