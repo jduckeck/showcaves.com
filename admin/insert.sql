@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Lago di Andalo', '/english/it/karst/Andalo.html', 'Andalo', 'Europe', 'it', 'Italy', 'karst', 'Trentino', 46.175279, 11.006403);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Jezuïetenberg', '/english/nl/subterranea/Jezuietenberg.html', 'Jezuietenberg', 'Europe', 'nl', 'Netherlands', 'subterranea', 'Limburg', 50.822835, 5.664715);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Nilometer', '/english/eg/subterranea/NilometerRhoda.html', 'Nilometer', 'Africa', 'eg', 'Egypt', 'subterranea', 'Cairo', 30.006916, 31.225007);
