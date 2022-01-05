@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.3:3306
--- Generation Time: Dec 31, 2021 at 09:57 PM
+-- Generation Time: Jan 05, 2022 at 09:37 AM
 -- Server version: 5.6.19-67.0-log
 -- PHP Version: 7.3.23
 
@@ -1767,7 +1767,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1761, 'yes', 0, 'Grotte de Niaux', '/english/fr/showcaves/Niaux.html', NULL, 'Niaux', 'Europe', 'France', 'fr', 'MidiPyrenees', 'showcaves', '42.819026320004360', '1.593921611961611'),
 (1762, 'yes', 0, 'Aven d\'Orgnac', '/english/fr/showcaves/Orgnac.html', NULL, 'Orgnac', 'Europe', 'France', 'fr', 'Rhone', 'showcaves', '44.318799459118620', '4.412473643889541'),
 (1763, 'yes', 0, 'Abri Pataud', '/english/fr/showcaves/Pataud.html', NULL, 'Pataud', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', '44.937857157651430', '1.012311150394638'),
-(1764, 'yes', 0, 'Grotte de la Noré', '/english/fr/showcaves/Noree.html', NULL, 'Noree', 'Europe', 'France', 'fr', NULL, 'showcaves', NULL, NULL),
+(1764, 'yes', 0, 'Grottes de la Norée', '/english/fr/showcaves/Noree.html', NULL, 'Noree', 'Europe', 'France', 'fr', 'PoitouCharentes', 'showcaves', '46.574880408405306', '0.302345200484548'),
 (1765, 'yes', 0, 'Gouffre de Padirac', '/english/fr/showcaves/Padirac.html', NULL, 'Padirac', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', '44.858199755037900', '1.750415347934160'),
 (1766, 'yes', 0, 'Les Canalettes', '/english/fr/showcaves/Canalettes.html', NULL, 'Canalettes', 'Europe', 'France', 'fr', 'Languedoc', 'showcaves', '42.583166666666660', '2.371088888888889'),
 (1767, 'yes', 0, 'Grotte d\'Osselle', '/english/fr/showcaves/Osselle.html', NULL, 'Osselle', 'Europe', 'France', 'fr', 'FrancheComte', 'showcaves', '47.139114449756260', '5.837083781281303'),
