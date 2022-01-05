@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Jezuïetenberg', '/english/nl/subterranea/Jezuietenberg.html', 'Jezuietenberg', 'Europe', 'nl', 'Netherlands', 'subterranea', 'Limburg', 50.822835, 5.664715);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Nilometer', '/english/eg/subterranea/NilometerRhoda.html', 'Nilometer', 'Africa', 'eg', 'Egypt', 'subterranea', 'Cairo', 30.006916, 31.225007);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave of Nicanor', '/english/il/subterranea/Nicanor.html', 'Nicanor', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Jerusalem', 31.79325021930714, 35.244913458259774);
