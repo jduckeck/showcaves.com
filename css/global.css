@@ -528,6 +528,14 @@ figure.left {
     float: left;
     margin: 0 0.5em 0.5em 0;
 }
+@media print {
+
+    figure.left {
+        clear: right;
+        float: right;
+        margin: 0 0 0.5em 0.5em;
+    }
+}
 
 figure.gallery {
     width: 100%;
@@ -707,7 +715,10 @@ hr.wide {
     position: relative;
 }
 
-.linklist1 {
+@media print {
+    .linklist {
+        display: none;
+    }
 }
 
 .linklist2 {
