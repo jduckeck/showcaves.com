@@ -280,11 +280,15 @@ img.language {
     vertical-align: center;
 }
 
-img.map {
+.map {
+    font-size: 85%;
+    line-height: 1;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    position: relative;
+    text-align: left;
 }
 
 img.flag {
