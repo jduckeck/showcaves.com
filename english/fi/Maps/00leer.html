@@ -23,32 +23,43 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of Finland: $CaveName$"/>
+    <meta property="og:title" content="Maps of Finland: $CaveName$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of Finland: $CaveName$</title>
+    <title>Maps of Finland: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../fi/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../fi/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <!--<li><a data-ajax="false" target="_top" href="../../fi/Maps/$FileName$.html">$CaveName$</a></li>-->
-        <!--<li><a data-ajax="false" target="_top" href="../../fi/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>-->
+        <figure class="left">
+            <a target="_top" href="../../fi/Maps/index.html"><img alt="Finland Map" src="../../../maps/Finland.png" class="mapIcon"></a>
+            <figcaption class="center">Finland Map</figcaption>
+        </figure>
 
-        <h1 class="center">Map of Finland</h1>
+        <figure class="right">
+            <a target="_top" href="../../fi/Maps/index.html"><img alt="Finland Map" src="../../../maps/Finland.png" class="mapIcon"></a>
+            <figcaption class="center">Finland Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="FinlandMap">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Finland.png" USEMAP="#FinlandMap" border="1" width="780" height="460">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -59,8 +70,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Finland</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/by $Region$.html">by $Region$</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By Province</a>
+            <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
         </div>
     </div>
     <!-- Path End -->
