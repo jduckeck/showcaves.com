@@ -23,23 +23,39 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Maps of Great Britain"/>
+    <meta property="og:title" content="Map of Britain"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Maps of Great Britain</title>
+    <title>Map of Britain</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../gb/Maps/Map.html">Country</a></li>
-            <li><a data-ajax="false" target="_top" href="../../gb/Maps/Geology.html">Geologic Map</a></li>
-            <li><a data-ajax="false" target="_top" href="../../gb/Maps/Limestone.html">Limestone Distribution</a></li>
-        </ul>
+
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of Britain</h1>
+        <h2 class="center"></h2>
+
+        <div class="center">
+            <map name="GreatBritainMap">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/GreatBritain.png" USEMAP="#GreatBritainMap" class="map">
+        </div>
 
     </div>
 
@@ -49,12 +65,15 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Britain</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Complete List</a>
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Counties</a>
-                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
-            </div>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal" class="center">
+            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Counties</a>
+            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+            <a data-ajax="false" href="../Maps/Geology.html" data-role="button" class="">Geology Map</a>
+            <a data-ajax="false" href="../Maps/Limestone.html" data-role="button" class="">Limestone Map</a>
         </div>
     </div>
     <!-- Path End -->
