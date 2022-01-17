@@ -2842,7 +2842,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2853, 'yes', 0, 'Baima Dong', '/english/cn/showcaves/Baima.html', NULL, 'Baima', 'Asia', 'China', 'cn', 'Hubei', 'showcaves', NULL, NULL),
 (2854, 'yes', 0, 'Sanyou Dong', '/english/cn/showcaves/Sanyou.html', NULL, 'Sanyou', 'Asia', 'China', 'cn', 'Hubei', 'showcaves', NULL, NULL),
 (2856, 'yes', 0, 'Cova do Rei Cintolo', '/english/es/showcaves/ReiCintolo.html', NULL, 'ReiCintolo', 'Europe', 'Spain', 'es', 'Galicia', 'showcaves', '43.394262838793230', '-7.369580653646679'),
-(2857, 'yes', 0, 'Salt Museum', '/english/gb/mines/SaltMuseum.html', NULL, 'SaltMuseum', 'Europe', 'Great Britain', 'gb', 'Cheshire', 'mines', '53.254692117693320', '-2.513404385352008'),
+(2857, 'yes', 0, 'Salt Museum', '/english/gb/mines/WeaverHall.html', NULL, 'SaltMuseum', 'Europe', 'Great Britain', 'gb', 'Cheshire', 'mines', '53.254692117693320', '-2.513404385352008'),
 (2858, 'yes', 0, 'Lion Salt Works', '/english/gb/mines/LionSaltWorks.html', NULL, 'LionSaltWo', 'Europe', 'Great Britain', 'gb', 'Cheshire', 'mines', '53.275402001291120', '-2.495046869947458'),
 (2859, 'yes', 0, 'Curraghmore House', '/english/ie/subterranea/Curraghmore.html', NULL, 'Curraghmor', 'Europe', 'Ireland', 'ie', 'Waterford', 'subterranea', '52.287715506855460', '-7.323640501100229'),
 (2860, 'yes', 0, 'Mine Cristal', '/english/ca/mines/CristalQuebec.html', NULL, 'CristalQue', 'NorthAmerica', 'Canada', 'ca', 'Quebec', 'mines', '45.439093839385800', '-72.280069723685910'),
