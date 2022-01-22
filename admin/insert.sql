@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Wolf Rock Cave', '/english/usa/caves/WolfRock.html', 'WolfRock', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'la', 30.972277, -93.192258);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Qiliang Dong', '/english/cn/showcaves/Qiliang.html', 'Qiliang', 'Asia', 'cn', 'China', 'showcaves', 'Hunan', 27.9895706177, 109.5914535522);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Hoher Brunnen Berching', '/english/de/karst/Berching.html', 'Berching', 'Europe', 'de', 'Germany', 'karst', 'FraenkischeAlb', 49.124992, 11.406148);
