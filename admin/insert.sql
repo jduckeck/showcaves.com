@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Hoher Brunnen Berching', '/english/de/karst/Berching.html', 'Berching', 'Europe', 'de', 'Germany', 'karst', 'FraenkischeAlb', 49.124992, 11.406148);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Moonhole', '/english/car/karst/Moonhole.html', 'Moonhole', 'MiddleAmerica', 'vc', 'Saint Vincent and the Grenadines', 'karst', 'vc', 'car', 12.991820, -61.276175);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Almbachklamm', '/english/de/gorges/Almbachklamm.html', 'Almbachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Alpen', 47.670515, 13.030840);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Wimbachklamm', '/english/de/gorges/Wimbachklamm.html', 'Wimbachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Alpen', 47.596185, 12.920361);
