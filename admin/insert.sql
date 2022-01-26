@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Wimbachklamm', '/english/de/gorges/Wimbachklamm.html', 'Wimbachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Alpen', 47.596185, 12.920361);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tiefenbachklamm', '/english/at/gorges/Tiefenbachklamm.html', 'Tiefenbachklamm', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.479608, 11.865693);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fromosa Boulevard Station', '/english/cn/subterranea/FormosaBoulevardStation.html', 'FromosaBoulevardStation', 'Asia', 'cn', 'China', 'subterranea', 'Taiwan', 22.631389, 120.301913);
