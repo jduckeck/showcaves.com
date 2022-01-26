@@ -17,4 +17,4 @@ VALUES('yes','Tiefenbachklamm', '/english/at/gorges/Tiefenbachklamm.html', 'Tief
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fromosa Boulevard Station', '/english/cn/subterranea/FormosaBoulevardStation.html', 'FromosaBoulevardStation', 'Asia', 'cn', 'China', 'subterranea', 'Taiwan', 22.631389, 120.301913);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Dom Im Berg', '/english/at/subterranea/DomImBerg.html', 'DomImBerg', 'Europe', 'at', 'Austria', 'subterranea', 'Steiermark', 47.073529, 15.438076);
+VALUES('yes','Dom Im Berg', '/english/at/subterranea/DomImBerg.html', 'DomImBerg', 'Europe', 'at', 'Austria', 'subterranea', 'Steiermark', 47.073223, 15.436903);
