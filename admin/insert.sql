@@ -18,3 +18,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Fromosa Boulevard Station', '/english/cn/subterranea/FormosaBoulevardStation.html', 'FromosaBoulevardStation', 'Asia', 'cn', 'China', 'subterranea', 'Taiwan', 22.631389, 120.301913);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Dom Im Berg', '/english/at/subterranea/DomImBerg.html', 'DomImBerg', 'Europe', 'at', 'Austria', 'subterranea', 'Steiermark', 47.073223, 15.436903);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Beaver Falls Karst Trail', '/english/usa/karst/BeaverFalls.html', 'BeaverFalls', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'ak', 56.144186, -133.232991);
+UPDATE sights SET filename = REPLACE(filename, '/showcaves/Bat', '/caves/CarterBat'), category='caves', sortby='CarterBat' WHERE countrycode = 'ky' and region='ak' and sortby='Bat';
+UPDATE sights SET filename = REPLACE(filename, 'CascadeCarter', 'CarterCascade'), sortby='CarterCasc' WHERE countrycode = 'us' and region='ky' and sortby='CascadeCar';
+UPDATE sights SET filename = REPLACE(filename, 'Saltpetre', 'CarterSaltpetre'), sortby='CarterSalt' WHERE countrycode = 'us' and region='ky' and sortby='Saltpetre';
+UPDATE sights SET filename = REPLACE(filename, 'X', 'CarterX'), sortby='CarterX' WHERE countrycode = 'us' and region='ky' and sortby='X';
