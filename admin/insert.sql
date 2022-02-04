@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Air Defense Operations Center Kindsbach', '/english/de/subterranea/Kindsbach.html', 'Kindsbach', 'Europe', 'de', 'Germany', 'subterranea', 'PfaelzerBergland', 49.415491, 7.617642);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Eramosa Karst', '/english/ca/karst/Eramosa.html', 'Eramosa', 'NorthAmerica', 'ca', 'Canada', 'karst', 'Ontario', 43.187196, -79.811797);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Stick-Tomato Cave', '/english/au/showcaves/StickTomato.html', 'StickTomato', 'Oceania', 'au', 'Australia', 'showcaves', 'sa', -37.036598, 140.797604);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Wonambi Fossil Centre', '/english/au/subterranea/Wonambi.html', 'Wonambi', 'Australia', 'au', 'Australia', 'subterranea', 'sa', -37.035740, 140.795750);
