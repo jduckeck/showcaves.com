@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mary Kathleen Mine', '/english/au/mines/MaryKathleen.html', 'MaryKathleen', 'Oceania', 'au', 'Australia', 'mines', 'qld', -20.747000, 140.012300);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Hatter\'s Hideout Cave and Lodge', '/english/au/caves/Hatter.html', 'Hatter', 'Australia', 'au', 'Australia', 'caves', 'nsw', -33.497047, 150.268064);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Foros Cave', '/english/gr/showcaves/Foros.html', 'Foros', 'Europe', 'gr', 'Greece', 'showcaves', 'Cyclades', 37.806970, 24.897485);
