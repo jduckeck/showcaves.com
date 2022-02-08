@@ -635,7 +635,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (596, 'yes', 0, 'Peştera Dambovicioara', '/english/ro/showcaves/Dambovicioara.html', NULL, 'Dambovicio', 'Europe', 'Romania', 'ro', 'Meridionali', 'showcaves', NULL, NULL),
 (597, 'yes', 0, 'Peştera Ialomita', '/english/ro/showcaves/Ialomita.html', NULL, 'Ialomita', 'Europe', 'Romania', 'ro', 'Meridionali', 'showcaves', NULL, NULL),
 (598, 'yes', 0, 'Peştera Comarnic', '/english/ro/showcaves/Comarnic.html', NULL, 'Comarnic', 'Europe', 'Romania', 'ro', 'Meridionali', 'showcaves', NULL, NULL),
-(599, 'yes', 0, 'Poarta Lui Johele', '/english/ro/showcaves/Johele.html', NULL, 'Johele', 'Europe', 'Romania', 'ro', 'Apuseni', 'showcaves', '46.466762000000000', '22.838291000000000'),
+(599, 'yes', 0, 'Poarta Lui Johele', '/english/ro/showcaves/Ionele.html', NULL, 'Johele', 'Europe', 'Romania', 'ro', 'Apuseni', 'showcaves', '46.466762000000000', '22.838291000000000'),
 (600, 'yes', 0, 'Pestera Vintului', '/english/ro/showcaves/Vintului.html', NULL, 'Vintului', 'Europe', 'Romania', 'ro', 'Apuseni', 'showcaves', '46.939200000000000', '22.543600000000000'),
 (601, 'yes', 0, 'Peştera Liliecilor', '/english/ro/caves/Liliecilor.html', NULL, 'Liliecilor', 'Europe', 'Romania', 'ro', 'Meridionali', 'caves', '45.507500000000000', '25.292463000000000'),
 (603, 'yes', 0, 'Salina Praid', '/english/ro/mines/Praid.html', NULL, 'Praid', 'Europe', 'Romania', 'ro', 'TransylvanianPlateau', 'mines', '46.541856653284140', '25.111985972332080'),
