@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Foros Cave', '/english/gr/showcaves/Foros.html', 'Foros', 'Europe', 'gr', 'Greece', 'showcaves', 'Cyclades', 37.806970, 24.897485);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tinted Cave', '/english/au/caves/Tinted.html', 'Tinted', 'Australia', 'au', 'Australia', 'caves', 'nsw', -34.314488, 149.960244);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sabichi Cave', '/english/jp/showcaves/Sabichi.html', 'Sabichi', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa', 24.521261, 124.282889);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yaeyama Limestone Cave', '/english/jp/showcaves/Yaeyama.html', 'Yaeyama', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa', 24.363144, 124.153951);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ryujin Limestone Cave', '/english/jp/showcaves/Ryujin.html', 'Ryujin', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa', 24.3601658, 124.1550286);
