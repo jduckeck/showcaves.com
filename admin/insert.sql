@@ -18,3 +18,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Toriike Pond', '/english/jp/karst/Toriike.html', 'Toriike', 'Asia', 'jp', 'Japan', 'karst', 'Okinawa', 24.824011, 125.136461);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Valley of Gangala', '/english/jp/karst/Gangala.html', 'Gangala', 'Asia', 'jp', 'Japan', 'karst', 'Okinawa', 26.141304, 127.747220);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Matsuda Limestone Cave', '/english/jp/caves/Matsuda.html', 'Matsuda', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.494415, 127.993019);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave Okinawa', '/english/jp/showcaves/Okinawa.html', 'Okinawa', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa', 26.420430, 127.809372);
