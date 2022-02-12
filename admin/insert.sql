@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gruta de Arbedales', '/english/es/showcaves/Arbedales.html', 'Arbedales', 'Europe', 'es', 'Spain', 'showcaves', 'Asturias', 43.519785, -5.989899);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Osuzawa Limestone Cave', '/english/jp/caves/Osuzawa.html', 'Osuzawa', 'Asia', 'jp', 'Japan', 'caves', 'Saitama', 35.872360, 139.190898);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Benten Cave', '/english/jp/subterranea/Benten.html', 'Benten', 'Asia', 'jp', 'Japan', 'subterranea', 'Kanagawa', 35.312986, 139.533521);
