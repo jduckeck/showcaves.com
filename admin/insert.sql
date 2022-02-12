@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cave Okinawa', '/english/jp/showcaves/Okinawa.html', 'Okinawa', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa', 26.420430, 127.809372);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Shimuku Gama Cave', '/english/jp/caves/ShimukuGama.html', 'ShimukuGama', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.402460, 127.731348);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta de Arbedales', '/english/es/showcaves/Arbedales.html', 'Arbedales', 'Europe', 'es', 'Spain', 'showcaves', 'Asturias', 43.519785, -5.989899);
