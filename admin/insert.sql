@@ -13,3 +13,6 @@ VALUES('yes','Nakabari Limestone Cave', '/english/jp/showcaves/Nakabari.html', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','KGB Atominis Bunkeris', '/english/other/subterranea/AtominisBunkeris.html', 'AtominisBunkeris', 'Europe', 'lt', 'Lithuania', 'subterranea', 'lt', 'other', 54.913880, 23.842073);
 Timobo Timubo
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Muzeum Przemysłu Naftowego i Gazowniczego im. Ignacego Łukasiewicza', '/english/pl/mines/Bobrce.html', 'Bobrce', 'Europe', 'pl', 'Poland', 'mines', 'Podkarpackie', 49.616307, 21.710842);
+
