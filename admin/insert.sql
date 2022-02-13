@@ -12,3 +12,4 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Nakabari Limestone Cave', '/english/jp/showcaves/Nakabari.html', 'Nakabari', 'Asia', 'jp', 'Japan', 'showcaves', 'Okinawa', 24.733042, 125.377842);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','KGB Atominis Bunkeris', '/english/other/subterranea/AtominisBunkeris.html', 'AtominisBunkeris', 'Europe', 'lt', 'Lithuania', 'subterranea', 'lt', 'other', 54.913880, 23.842073);
+Timobo Timubo

@@ -4003,7 +4003,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4078, 'yes', 0, 'Eremo di San Bartolomeo in Legio', '/english/it/caves/SanBartolomeoLegio.html', NULL, 'SanBartolo', 'Europe', 'Italy', 'it', 'Abruzzo', 'caves', NULL, NULL),
 (4079, 'yes', 0, 'Musée de la Mine de Blanzy', '/english/fr/mines/Blanzy.html', NULL, 'Blanzy', 'Europe', 'France', 'fr', 'Bourgogne', 'mines', NULL, NULL),
 (4080, 'yes', 0, 'Musée de la Mine Couriot', '/english/fr/mines/Couriot.html', NULL, 'Couriot', 'Europe', 'France', 'fr', 'Rhone', 'mines', NULL, NULL),
-(4081, 'yes', 0, 'Timobo Cave', '/english/ph/showcaves/Timobo.html', NULL, 'Timobo', 'Asia', 'Philippines', 'ph', 'CentralVisayas', 'showcaves', NULL, NULL),
+(4081, 'yes', 0, 'Timobo Cave', '/english/ph/showcaves/Timubo.html', NULL, 'Timobo', 'Asia', 'Philippines', 'ph', 'CentralVisayas', 'showcaves', NULL, NULL),
 (4082, 'yes', 0, 'Santuario San Michele', '/english/it/caves/SanMicheleMonticchio.html', NULL, 'SanMichele', 'Europe', 'Italy', 'it', 'Basilicata', 'caves', NULL, NULL),
 (4083, 'yes', 0, 'Enoshima Iwaya Cave', '/english/jp/showcaves/EnoshimaIwaya.html', NULL, 'EnoshimaIw', 'Asia', 'Japan', 'jp', 'Kanagawa', 'showcaves', NULL, NULL),
 (4084, 'yes', 0, 'Morgia Sant\'Angelo', '/english/it/caves/MorgiaSantAngelo.html', NULL, 'MorgiaSant', 'Europe', 'Italy', 'it', 'Campania', 'caves', NULL, NULL),
