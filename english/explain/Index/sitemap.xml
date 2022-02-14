@@ -696,6 +696,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.showcaves.com/english/ph/showcaves/AmazingIsland.html</loc>
+    <lastmod>1970-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.showcaves.com/english/other/caves/Amboni.html</loc>
     <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -1283,6 +1288,11 @@
   <url>
     <loc>https://www.showcaves.com/english/ca/mines/Atlas.html</loc>
     <lastmod>2021-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.showcaves.com/english/other/subterranea/AtominisBunkeris.html</loc>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2683,6 +2693,11 @@
   <url>
     <loc>https://www.showcaves.com/english/au/mines/BobbyDazzler.html</loc>
     <lastmod>2021-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.showcaves.com/english/pl/mines/Bobrce.html</loc>
+    <lastmod>1970-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9661,6 +9676,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.showcaves.com/english/ph/showcaves/Heaven.html</loc>
+    <lastmod>1970-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.showcaves.com/english/de/mines/HeiligeDreiKoenige.html</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -10058,6 +10078,11 @@
   <url>
     <loc>https://www.showcaves.com/english/de/caves/Hollenkammer.html</loc>
     <lastmod>2021-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.showcaves.com/english/ph/showcaves/HolyCrystal.html</loc>
+    <lastmod>1970-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -16126,6 +16151,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.showcaves.com/english/jp/showcaves/Nakabari.html</loc>
+    <lastmod>2022-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.showcaves.com/english/usa/karst/Nakalele.html</loc>
     <lastmod>2021-07-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -17703,6 +17733,11 @@
   <url>
     <loc>https://www.showcaves.com/english/tr/subterranea/ParadisePansiyon.html</loc>
     <lastmod>2021-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.showcaves.com/english/ph/showcaves/Paraiso.html</loc>
+    <lastmod>1970-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -23351,8 +23386,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/other/caves/Taulabe.html</loc>
-    <lastmod>2022-01-12</lastmod>
+    <loc>https://www.showcaves.com/english/other/showcaves/Taulabe.html</loc>
+    <lastmod>1970-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -23856,11 +23891,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ph/showcaves/Timobo.html</loc>
-    <lastmod>2021-11-16</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://www.showcaves.com/english/au/caves/Timor.html</loc>
     <lastmod>2021-07-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -23868,6 +23898,11 @@
   <url>
     <loc>https://www.showcaves.com/english/usa/showcaves/Timpanogos.html</loc>
     <lastmod>2022-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.showcaves.com/english/ph/showcaves/Timubo.html</loc>
+    <lastmod>1970-01-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -26466,6 +26501,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://www.showcaves.com/english/jp/subterranea/ZeniaraiBenzaitenUgafuku.html</loc>
+    <lastmod>1970-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://www.showcaves.com/english/tr/caves/Zeus.html</loc>
     <lastmod>2021-07-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -27552,42 +27592,42 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Caves.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/CavesByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Gorges.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/GorgesByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Karst.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/KarstByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Mines.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/MinesByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27607,27 +27647,27 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Springs.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/SpringsByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Statistics.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Subterranea.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/SubterraneaByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -30017,42 +30057,42 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Caves.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/CavesByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Gorges.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/GorgesByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Karst.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/KarstByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Mines.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/MinesByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -30072,27 +30112,27 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Springs.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/SpringsByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Statistics.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Subterranea.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/SubterraneaByCountry.html</loc>
-    <lastmod>2022-02-09</lastmod>
+    <lastmod>2022-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
