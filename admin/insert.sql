@@ -15,4 +15,4 @@ VALUES('yes','KGB Atominis Bunkeris', '/english/other/subterranea/AtominisBunker
 Timobo Timubo
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Muzeum Przemysłu Naftowego i Gazowniczego im. Ignacego Łukasiewicza', '/english/pl/mines/Bobrce.html', 'Bobrce', 'Europe', 'pl', 'Poland', 'mines', 'Podkarpackie', 49.616307, 21.710842);
-
+Cuevas de Taulabé
