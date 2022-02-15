@@ -260,7 +260,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (212, 'yes', 1, 'Truitt\'s Cave', '/english/usa/showcaves/Truitts.html', NULL, 'Truitts', 'NorthAmerica', 'United States of America', 'us', 'mo', 'showcaves', '36.604833198638470', '-94.454643341404590'),
 (213, 'yes', 0, 'Natural Stone Bridge and Caves', '/english/usa/showcaves/NaturalStone.html', NULL, 'NaturalSto', 'NorthAmerica', 'United States of America', 'us', 'ny', 'showcaves', '43.747248918687020', '-73.852174680895270'),
 (214, 'yes', 0, 'Black Chasm', '/english/usa/showcaves/BlackChasm.html', NULL, 'BlackChasm', 'NorthAmerica', 'United States of America', 'us', 'ca', 'showcaves', NULL, NULL),
-(215, 'yes', 0, 'Ice Caves Mountain', '/english/usa/showcaves/IceCaves.html', NULL, 'IceCaves', 'NorthAmerica', 'United States of America', 'us', 'ny', 'showcaves', NULL, NULL),
+(215, 'yes', 0, 'Ice Caves Mountain', '/english/usa/showcaves/Ellenville.html', NULL, 'IceCaves', 'NorthAmerica', 'United States of America', 'us', 'ny', 'showcaves', NULL, NULL),
 (216, 'yes', 0, 'Ruby Falls', '/english/usa/showcaves/RubyFalls.html', NULL, 'RubyFalls', 'NorthAmerica', 'United States of America', 'us', 'tn', 'showcaves', '35.018964000496840', '-85.339402999924690'),
 (217, 'yes', 0, 'Ledge View Nature Center', '/english/usa/showcaves/LedgeViewNatureCenter.html', NULL, 'LedgeViewN', 'NorthAmerica', 'United States of America', 'us', 'wi', 'showcaves', '44.000797416851920', '-88.155168749296120'),
 (218, 'yes', 0, 'Beckham Creek Cave Haven', '/english/usa/subterranea/BeckhamCreek.html', NULL, 'BeckhamCre', 'NorthAmerica', 'United States of America', 'us', 'ar', 'subterranea', '35.955156745472940', '-93.316438196296290'),
