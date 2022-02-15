@@ -69,6 +69,11 @@ p {
     font-weight: bold;
 }
 
+.underline {
+    text-decoration: underline;
+    text-underline-position: auto;
+}
+
 .centerTable {
     margin: 0 auto;
 }
