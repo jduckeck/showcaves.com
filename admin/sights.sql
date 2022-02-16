@@ -1342,7 +1342,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1330, 'yes', 0, 'Kanheri Caves', '/english/in/subterranea/Kanheri.html', NULL, 'Kanheri', 'Asia', 'India', 'in', 'Bombay', 'subterranea', NULL, NULL),
 (1331, 'yes', 0, 'Pandavleni Caves', '/english/in/subterranea/Pandavleni.html', NULL, 'Pandavleni', 'Asia', 'India', 'in', 'Maharashtra', 'subterranea', NULL, NULL),
 (1332, 'yes', 0, 'Pitalkhora Caves', '/english/in/subterranea/Pitalkhora.html', NULL, 'Pitalkhora', 'Asia', 'India', 'in', 'Maharashtra', 'subterranea', NULL, NULL),
-(1333, 'yes', 0, 'Udayagiri Caves', '/english/in/subterranea/Udayagiri.html', NULL, 'Udayagiri', 'Asia', 'India', 'in', 'Orissa', 'subterranea', NULL, NULL),
+(1333, 'yes', 0, 'Udayagiri Caves', '/english/in/subterranea/Udaigiri.html', NULL, 'Udayagiri', 'Asia', 'India', 'in', 'Orissa', 'subterranea', NULL, NULL),
 (1334, 'yes', 0, 'Undavalli Caves', '/english/in/subterranea/Undavalli.html', NULL, 'Undavalli', 'Asia', 'India', 'in', 'AndhraPradesh', 'subterranea', NULL, NULL),
 (1336, 'yes', 0, 'Aurangabad Caves', '/english/in/subterranea/Aurangabad.html', NULL, 'Aurangabad', 'Asia', 'India', 'in', 'Maharashtra', 'subterranea', NULL, NULL),
 (1337, 'yes', 0, 'Elephanta Caves', '/english/in/subterranea/Elephanta.html', NULL, 'Elephanta', 'Asia', 'India', 'in', 'Bombay', 'subterranea', NULL, NULL),
