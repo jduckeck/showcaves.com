@@ -10,5 +10,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Goa Asri', '/english/id/caves/Asri.html', 'Asri', 'Asia', 'id', 'Indonesia', 'caves', 'Yogyakarta', -7.934300, 110.657710);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Goa Lawa Purbalingga', '/english/id/showcaves/LawaPurbalingga.html', 'LawaPurbalingga', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -7.231198, 109.318634);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Goa Watu Joglo', '/english/id/caves/WatuJoglo.html', 'WatuJoglo', 'Asia', 'id', 'Indonesia', 'caves', 'Yogyakarta', 	-7.8591529,110.5448453);
 
 
