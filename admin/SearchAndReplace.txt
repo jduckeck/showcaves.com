@@ -20,6 +20,9 @@ authors:
 (.+)[,] ([A-Z])[\.]
 <b class="smallCaps">$2. $1</b>
 
+<b class="smallCaps">([^<]+), ([^<]+)</b>
+<b class="smallCaps">$2 $1</b>
+
 LIVE AND DIE
 \((\d\d\d\d)\-(\d\d\d\d)\)
 (*$1-✝$2)
