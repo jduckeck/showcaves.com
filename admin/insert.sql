@@ -17,3 +17,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cabaret Cave', '/english/au/showcaves/Cabaret.html', 'Cabaret', 'Oceania', 'au', 'Australia', 'showcaves', 'wa', -31.541638, 115.690058);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Yonderup Cave', '/english/au/caves/Yonderup.html', 'Yonderup', 'Australia', 'au', 'Australia', 'caves', 'wa', -31.547349, 115.691400);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Brides Cave', '/english/au/karst/Brides.html', 'Brides', 'Australia', 'au', 'Australia', 'karst', 'wa', -34.086580, 115.039350);
