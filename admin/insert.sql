@@ -13,5 +13,7 @@ VALUES('yes','Iwaya shōnyūdō', '/english/jp/showcaves/Iwaya.html', 'Iwaya', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tagawa City Coal and History Museum', '/english/jp/mines/TagawaCoalMuseum.html', 'TagawaCoalMuseum', 'Asia', 'jp', 'Japan', 'mines', 'Fukuoka', 33.640830, 130.813890);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Mitsui Tagawa Mine Headframe', '/english/jp/mines/IdaShaftHeadframe.html', 'MitsuiTagawaMining', 'Asia', 'jp', 'Japan', 'mines', 'Fukuoka', 33.641430, 130.814940);
+VALUES('yes','Ida Shaft Headframe', '/english/jp/mines/IdaShaftHeadframe.html', 'IdaShaftHeadframe', 'Asia', 'jp', 'Japan', 'mines', 'Fukuoka', 33.641430, 130.814940);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kanmon Kaikyo Tunnel', '/english/jp/subterranea/KanmonKaikyo.html', 'KanmonKaikyo', 'Asia', 'jp', 'Japan', 'subterranea', 'Fukuoka', 33.960867, 130.962627);
 
