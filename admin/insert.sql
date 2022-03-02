@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ōzakai Cave Dwelling Site', '/english/jp/caves/Ozakai.html', 'Ozakai', 'Asia', 'jp', 'Japan', 'caves', 'Toyama', 36.922632, 137.030244);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kigan Yusenkyo', '/english/jp/caves/KiganYusenkyo.html', 'KiganYusenkyo', 'Asia', 'jp', 'Japan', 'caves', 'Ishikawa', 36.312042, 136.420731);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ogoya Mine Museum', '/english/jp/mines/Ogoya.html', 'Ogoya', 'Asia', 'jp', 'Japan', 'mines', 'Ishikawa', 36.296697, 136.537480);
