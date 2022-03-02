@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Fukui Cave', '/english/jp/caves/Fukui.html', 'Fukui', 'Asia', 'jp', 'Japan', 'caves', 'Nagasaki', 33.292435, 129.696769);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Salajõe Karst Area', '/english/ee/karst/Salajoe.html', 'Salajoe', 'Europe', 'ee', 'Estonia', 'karst', 'Laane', 59.021633, 23.669721);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Seppun Tunnel', '/english/jp/subterranea/Seppun.html', 'Seppun', 'Asia', 'jp', 'Japan', 'subterranea', 'Ishikawa', 37.462809, 137.081395);
