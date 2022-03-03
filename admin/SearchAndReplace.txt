@@ -41,6 +41,9 @@ Literature:
 ([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ'\- \.]+);
 <b class="smallCaps">$2 $1</b>
 
+google search with spaces:
+\"https\:\/\/www\.google\.com\/search\?q\=([^\s"]*)\s([^"]*")
+
 <figure class="$1">
 $2
 <figcaption>$3</figcaption>
