@@ -43,6 +43,10 @@ Literature:
 
 google search with spaces:
 \"https\:\/\/www\.google\.com\/search\?q\=([^\s"]*)\s([^"]*")
+"https://www.google.com/search?q=$1+$2
+
+\"https\:\/\/www\.google\.de\/search\?q\=([^\s"]*)\s([^"]*")
+"https://www.google.de/search?q=$1+$2
 
 <figure class="$1">
 $2
