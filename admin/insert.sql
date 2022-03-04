@@ -18,3 +18,19 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ogoya Mine Museum', '/english/jp/mines/Ogoya.html', 'Ogoya', 'Asia', 'jp', 'Japan', 'mines', 'Ishikawa', 36.296697, 136.537480);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Do-Ashcaft Cave', '/english/ir/caves/DoAshcaft.html', 'DoAshcaft', 'MiddleEast', 'ir', 'Iran', 'caves', 'Kermanshah', 34.400565,  47.128741);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rainbow Cave', '/english/ir/caves/Rainbow.html', 'Rainbow', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 27.041750, 56.482590);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Salt Goddess', '/english/ir/karst/SaltGoddess.html', 'SaltGoddess', 'Europe', 'ir', 'Iran', 'karst', 'Hormozgan', 27.064502, 56.436783);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Crystal Cave', '/english/ir/caves/Crystal.html', 'Crystal', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 27.062930, 56.436053);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Big Salt Cave', '/english/ir/caves/BigSalt.html', 'BigSalt', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 27.079728, 56.468939);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','3N Cave', '/english/ir/caves/3N.html', '3N', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 26.7500, 55.8167);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Namakdan Cave', '/english/ir/caves/Namakdan.html', 'Namakdan', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 26.609427, 55.513467);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Salt Cave Of Qeshm', '/english/ir/caves/Qeshm.html', 'Qeshm', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 26.612131, 55.513142);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','West Salt Cave', '/english/ir/caves/WestSalt.html', 'WestSalt', 'MiddleEast', 'ir', 'Iran', 'caves', 'Hormozgan', 27.054173, 56.425529);
