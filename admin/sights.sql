@@ -1809,7 +1809,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1804, 'yes', 0, 'Grotte de Bédeilhac', '/english/fr/showcaves/Bedeilhac.html', NULL, 'Bedeilhac', 'Europe', 'France', 'fr', 'MidiPyrenees', 'showcaves', '42.872453845385250', '1.571063528532575'),
 (1805, 'yes', 0, 'Grotte de Fontrabiouse', '/english/fr/showcaves/Fontrabiouse.html', NULL, 'Fontrabiou', 'Europe', 'France', 'fr', 'Languedoc', 'showcaves', '42.636072222222230', '2.096983333333333'),
 (1806, 'yes', 0, 'Les grottes de Bellevue', '/english/fr/showcaves/Bellevue.html', NULL, 'Bellevue', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', '44.560354583177950', '1.780124691216902'),
-(1807, 'yes', 0, 'Grottes de Betharam', '/english/fr/showcaves/Betharam.html', NULL, 'Betharam', 'Europe', 'France', 'fr', 'MidiPyrenees', 'showcaves', NULL, NULL),
+(1807, 'yes', 0, 'Grottes de Betharam', '/english/fr/showcaves/Betharram.html', NULL, 'Betharam', 'Europe', 'France', 'fr', 'MidiPyrenees', 'showcaves', NULL, NULL),
 (1808, 'yes', 0, 'Grotte de Blanot', '/english/fr/showcaves/Blanot.html', NULL, 'Blanot', 'Europe', 'France', 'fr', 'Bourgogne', 'showcaves', NULL, NULL),
 (1809, 'yes', 0, 'Grotte de Beaume Obscure', '/english/fr/showcaves/BeaumeObscure.html', NULL, 'BeaumeObsc', 'Europe', 'France', 'fr', 'Rhone', 'showcaves', NULL, NULL),
 (1810, 'yes', 0, 'Gouffre Géant de Cabrespine', '/english/fr/showcaves/Cabrespine.html', NULL, 'Cabrespine', 'Europe', 'France', 'fr', 'Languedoc', 'showcaves', '43.364036111111110', '2.459744444444445'),
