@@ -4,3 +4,5 @@ UPDATE sights SET filename = REPLACE(filename, '/showcaves/', '/caves/'), catego
 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ryukeido', '/english/jp/showcaves/Ryukei.html', 'Ryukei', 'Asia', 'jp', 'Japan', 'showcaves', 'Shimane', 35.497762, 133.175965);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ioki Cave', '/english/jp/showcaves/Ioki.html', 'Ioki', 'Asia', 'jp', 'Japan', 'showcaves', 'Kohchi', 33.491273, 133.933227);
