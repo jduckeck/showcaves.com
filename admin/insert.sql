@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ioki Cave', '/english/jp/showcaves/Ioki.html', 'Ioki', 'Asia', 'jp', 'Japan', 'showcaves', 'Kohchi', 33.491273, 133.933227);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mikurodo Cave', '/english/jp/subterranea/Mikuro.html', 'Mikurodo', 'Asia', 'jp', 'Japan', 'subterranea', 'Kohchi', 33.251646, 134.180541);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shikoku Karst Natural Park', '/english/jp/karst/Shikoku.html', 'Shikoku', 'Asia', 'jp', 'Japan', 'karst', 'Kohchi', 33.471955, 132.980926);
