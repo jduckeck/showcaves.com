@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Underground Kingdom Mikawa Mu Valley', '/english/jp/mines/MikawaMu.html', 'MikawaMu', 'Asia', 'jp', 'Japan', 'mines', 'Yamaguchi', 34.189092, 131.994904);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Iwaya Kannon Cave', '/english/jp/subterranea/IwayaKannonNekasa.html', 'IwayaKannonNekasa', 'Asia', 'jp', 'Japan', 'subterranea', 'Yamaguchi', 34.189646, 131.986960);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Osawa Limestone Cave', '/english/jp/caves/Osawa.html', 'Osawa', 'Asia', 'jp', 'Japan', 'caves', 'Niigata', 37.682692, 139.100978);
