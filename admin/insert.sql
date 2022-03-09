@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Osawa Limestone Cave', '/english/jp/caves/Osawa.html', 'Osawa', 'Asia', 'jp', 'Japan', 'caves', 'Niigata', 37.682692, 139.100978);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Iwayayama Cave', '/english/jp/subterranea/Iwayayama.html', 'Iwayayama', 'Asia', 'jp', 'Japan', 'subterranea', 'Niigata', 37.812470, 138.249210);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gujo Limestone Cave', '/english/jp/showcaves/Gujo.html', 'Gujo', 'Asia', 'jp', 'Japan', 'showcaves', 'Gifu', 35.753194, 137.044041);
