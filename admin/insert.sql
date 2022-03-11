@@ -29,3 +29,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Greeves Creek', '/english/au/gorges/GreevesCreek.html', 'GreevesCreek', 'Oceania', 'au', 'Australia', 'gorges', 'nsw', -33.656772, 150.302668);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Blackfellows Hand Cave', '/english/au/caves/BlackfellowsHand.html', 'BlackfellowsHand', 'Australia', 'au', 'Australia', 'caves', 'nsw', -33.322470, 150.117301);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Muro Iwa Cave', '/english/jp/subterranea/MuroIwa.html', 'MuroIwa', 'Asia', 'jp', 'Japan', 'subterranea', 'Shizuoka', 34.750930, 138.768870);
