@@ -8,4 +8,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Nobesawa Ginkodo', '/english/jp/mines/NobesawaGinkodo.html', 'NobesawaGinkodo', 'Asia', 'jp', 'Japan', 'mines', 'Yamagata', 38.566164, 140.532109);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Ufuyaguchi Shonyudo', '/english/jp/caves/Ufuyaguchi.html', 'Ufuyaguchi', 'Asia', 'jp', 'Japan', 'caves', 'Kagoshima', 28.320403, 129.970357);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kiyomigaoka Limestone Cave', '/english/jp/caves/Kiyomigaoka.html', 'Kiyomigaoka', 'Asia', 'jp', 'Japan', 'caves', 'Tokyo', 26.639830, 142.159200);
 
