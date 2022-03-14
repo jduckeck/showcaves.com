@@ -20,4 +20,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Former Japanese Navy Underground Headquarters', '/english/jp/subterranea/Kaigungou.html', 'Kaigungou', 'Asia', 'jp', 'Japan', 'subterranea', 'Okinawa', 26.186196, 127.676472);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Manza Onsen Kumashiro Cave', '/english/jp/caves/Kumashiro.html', 'Kumashiro', 'Asia', 'jp', 'Japan', 'caves', 'Gunma', 36.642792, 138.510462);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Janeh Cave', '/english/jp/caves/Janeh.html', 'Janeh', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.314497, 127.928546);
 
