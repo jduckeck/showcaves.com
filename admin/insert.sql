@@ -14,4 +14,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Izumizaki Cave Tomb', '/english/jp/subterranea/Izumizaki.html', 'Izumizaki', 'Asia', 'jp', 'Japan', 'subterranea', 'Fukushima', 37.152698, 140.317274);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Shobu Cave', '/english/jp/caves/Shobu.html', 'Shobu', 'Asia', 'jp', 'Japan', 'caves', 'Kochi', 33.635610, 133.564610);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Christian Cave', '/english/jp/caves/Christian.html', 'Christian', 'Asia', 'jp', 'Japan', 'caves', 'Nagasaki', 32.847120, 129.018970);
 
