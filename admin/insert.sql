@@ -24,4 +24,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Janeh Cave', '/english/jp/caves/Janeh.html', 'Janeh', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.314497, 127.928546);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Kumaya Cave', '/english/jp/caves/Kumaya.html', 'Kumaya', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 27.087754, 128.014166);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Daisekirinzan', '/english/jp/karst/Daisekirinzan.html', 'Daisekirinzan', 'Asia', 'jp', 'Japan', 'karst', 'Okinawa', 26.861379, 128.254592);
 
