@@ -30,4 +30,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Seikoen Lava Tube', '/english/jp/caves/Seikoen.html', 'Seikoen', 'Asia', 'jp', 'Japan', 'caves', 'Shizuoka', 35.298666, 138.859760);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Niya-Thiya Cave', '/english/jp/caves/NiyaThiya.html', 'NiyaThiya', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.708780, 127.771460);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mukyudou', '/english/jp/subterranea/Mukyudo.html', 'Mukyudo', 'Asia', 'jp', 'Japan', 'subterranea', 'Nagasaki', 33.086954, 129.814226);
 
