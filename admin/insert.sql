@@ -2,3 +2,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Natural History Museum Rijeka', '/english/hr/subterranea/NaturalHistoryMuseumRijeka.html', 'NaturalHistoryMuseumRijeka', 'Europe', 'hr', 'Croatia', 'subterranea', 'GorskiKotar',45.329585, 14.444206);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Slunj Rastoke', '/english/hr/karst/SlunjRastoke.html', 'SlunjRastoke', 'Europe', 'hr', 'Croatia', 'karst', 'Karlovac', 45.120386, 15.586274);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Roški Slap', '/english/hr/karst/RoskiSlap.html', 'RoskiSlap', 'Europe', 'hr', 'Croatia', 'karst', 'SibenikKnin', 43.906144, 15.975061);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Berberov Buk', '/english/hr/karst/BerberovBuk.html', 'BerberovBuk', 'Europe', 'hr', 'Croatia', 'karst', 'Dalmatia', 44.197333, 15.767713);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Oziđana pećina', '/english/hr/showcaves/Ozidana.html', 'Ozidana', 'Europe', 'hr', 'Croatia', 'showcaves', 'SibenikKnin', 43.907565, 15.980196);
