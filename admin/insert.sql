@@ -8,5 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Berberov Buk', '/english/hr/karst/BerberovBuk.html', 'BerberovBuk', 'Europe', 'hr', 'Croatia', 'karst', 'Dalmatia', 44.197333, 15.767713);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Oziđana pećina', '/english/hr/showcaves/Ozidana.html', 'Ozidana', 'Europe', 'hr', 'Croatia', 'showcaves', 'SibenikKnin', 43.907565, 15.980196);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Jama u Predolcu', '/english/hr/showcaves/Predolcu.html', 'Predolcu', 'Europe', 'hr', 'Croatia', 'showcaves', 'DubrovnikNeretva', 43.046304, 17.658494);
+INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes',1, 'Jama u Predolcu', '/english/hr/showcaves/Predolcu.html', 'Predolcu', 'Europe', 'hr', 'Croatia', 'showcaves', 'DubrovnikNeretva', 43.046304, 17.658494);
