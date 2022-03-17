@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Sokolačka Pećina', '/english/ba/showcaves/Sokolacka.html', 'Sokolacka', 'Europe', 'ba', 'Bosnia and Herzegovina', 'showcaves', 'RepublikaSrpska', 44.283724, 17.025243);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Пештера Шаркова Дупка', '/english/other/showcaves/SharkovaDupka.html', 'SharkovaDupka', 'Europe', 'mk', 'North Macedonia', 'showcaves', 'mk', 'other', 41.651208, 20.734160);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Monastery Cave Restaurant', '/english/other/subterranea/Manastirska.html', 'Manastirska', 'Europe', 'mk', 'North Macedonia', 'subterranea', 'mk', 'other', 41.961117, 21.296316);
