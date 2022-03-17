@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Špilja Strašna Peć', '/english/hr/showcaves/StrasnaPec.html', 'StrasnaPec', 'Europe', 'hr', 'Croatia', 'showcaves', 'Dalmatia', 44.004693, 15.038583);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Prekonoška Pećina', '/english/rs/caves/Prekonoska.html', 'Prekonoska', 'Europe', 'yu', 'Serbia', 'caves', 'Serbia', 43.380420, 22.102020);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Sokolačka Pećina', '/english/ba/showcaves/Sokolacka.html', 'Sokolacka', 'Europe', 'ba', 'Bosnia and Herzegovina', 'showcaves', 'RepublikaSrpska', 44.283724, 17.025243);
