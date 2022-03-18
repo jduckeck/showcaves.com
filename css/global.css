@@ -437,7 +437,7 @@ table.statistics td {
 }
 
 table.statistics tr.chapter {
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.36);
 }
 
 table.statistics td.left {
