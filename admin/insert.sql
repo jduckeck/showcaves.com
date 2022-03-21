@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','La Gruta Del Duende', '/english/mx/caves/Duende.html', 'Duende', 'MiddleAmerica', 'mx', 'México', 'caves', 'Puebla', 20.009119, -97.512883);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de la Orquidea', '/english/mx/showcaves/Orquidea.html', 'Orquidea', 'MiddleAmerica', 'mx', 'México', 'showcaves', 'VeracruzLlave', 19.545690, -96.916190);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bing Hu Dong', '/english/cn/showcaves/BingHu.html', 'BingHu', 'Asia', 'cn', 'China', 'showcaves', 'Zhejiang', 29.203488, 119.621526);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Xian Pu Dong', '/english/cn/showcaves/XianPu.html', 'XianPu', 'Asia', 'cn', 'China', 'showcaves', 'Zhejiang', 29.206132, 119.634724);
