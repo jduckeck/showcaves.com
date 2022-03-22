@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cova Del Llop Marí', '/english/es/caves/LlopMari.html', 'LlopMari', 'Europe', 'es', 'Spain', 'caves', 'Cataluna', 40.964089, 0.887235);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Son Moc Huong Cave', '/english/vn/showcaves/SonMocHuong.html', 'SonMocHuong', 'Asia', 'vn', 'Vietnam', 'showcaves', 'SonLa', 20.850061, 104.639015);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Pha Daeng', '/english/th/caves/PhaDaeng.html', 'PhaDaeng', 'Asia', 'th', 'Thailand', 'caves', 'MaeHongSon', 19.423320, 97.984160);
