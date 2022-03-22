@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Son Moc Huong Cave', '/english/vn/showcaves/SonMocHuong.html', 'SonMocHuong', 'Asia', 'vn', 'Vietnam', 'showcaves', 'SonLa', 20.850061, 104.639015);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tham Pha Daeng', '/english/th/caves/PhaDaeng.html', 'PhaDaeng', 'Asia', 'th', 'Thailand', 'caves', 'MaeHongSon', 19.423320, 97.984160);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Longxian Palace', '/english/cn/showcaves/Longxian.html', 'Longxian', 'Asia', 'cn', 'China', 'showcaves', 'Beijing', 39.665116, 115.732773);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yunshui Cave', '/english/cn/showcaves/Yunshui.html', 'Yunshui', 'Asia', 'cn', 'China', 'showcaves', 'Beijing', 39.666905, 115.807629);
