@@ -1025,7 +1025,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1009, 'yes', 0, 'Konispol Cave', '/english/other/caves/Konispol.html', 'other', 'Konispol', 'Europe', 'Albania', 'al', 'al', 'caves', '39.672761540951860', '20.173369919461000'),
 (1010, 'yes', 0, 'La Gruta', '/english/other/caves/LaGruta.html', 'other', 'LaGruta', 'MiddleAmerica', 'Panama', 'pa', 'pa', 'caves', '9.396235578285575', '-82.270935254343700'),
 (1011, 'yes', 0, 'Cueva de la Lechuzas', '/english/pe/caves/Lechuzas.html', NULL, 'Lechuzas', 'SouthAmerica', 'Perú', 'pe', NULL, 'caves', NULL, NULL),
-(3296, 'yes', 0, 'Blue Lake', '/english/ru/springs/GoluboeOzero.html', NULL, 'GoluboeOze', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'springs', '54.355728151118430', '55.874339867733990'),
+(3296, 'yes', 0, 'Blue Lake', '/english/ru/springs/GoluboeOzeroPodlubovo.html', NULL, 'GoluboeOze', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'springs', '54.355728151118430', '55.874339867733990'),
 (1013, 'yes', 0, 'Cueva de las Manos', '/english/ar/showcaves/LasManos.html', NULL, 'LasManos', 'SouthAmerica', 'Argentina', 'ar', 'SantaCruz', 'showcaves', '-47.149975458370050', '-70.666730453926190'),
 (1014, 'yes', 0, 'Mangapwani Coral Cavern', '/english/other/caves/Mangapwani.html', 'other', 'Mangapwani', 'Africa', 'Tanzania', 'tz', 'tz', 'caves', NULL, NULL),
 (1015, 'yes', 0, 'Liang Bua Cave', '/english/id/caves/LiangBua.html', NULL, 'LiangBua', 'Asia', 'Indonesia', 'id', 'EastNusaTenggara', 'caves', '-8.530596000000000', '120.443564000000000'),
