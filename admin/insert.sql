@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cave of Euripides', '/english/gr/caves/Euripedes.html', 'Euripedes', 'Europe', 'gr', 'Greece', 'caves', 'Attica', 37.881878, 23.452823);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Musée Eugène Pesch', '/english/lu/mines/EugenePesch.html', 'EugenePesch', 'Europe', 'lu', 'Luxembourg', 'mines', 'Luxembourg', 49.526261, 5.837920);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Painshill Park\'s Crystal Grotto', '/english/gb/subterranea/PainshillPark.html', 'PainshillPark', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Surrey', 51.328498, -0.430545);
