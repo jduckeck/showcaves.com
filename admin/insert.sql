@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ottensee', '/english/de/karst/Ottensee.html', 'Ottensee', 'Europe', 'de', 'Germany', 'karst', 'Bauland', 49.354867, 9.818770);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta del Re Tiberio', '/english/it/showcaves/ReTiberio.html', 'ReTiberio', 'Europe', 'it', 'Italy', 'showcaves', 'Emilia-Romagna', 44.256580, 11.664550);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cave of Euripides', '/english/gr/caves/Euripedes.html', 'Euripedes', 'Europe', 'gr', 'Greece', 'caves', 'Attica', 37.881878, 23.452823);
