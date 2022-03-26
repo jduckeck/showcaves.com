@@ -12,3 +12,17 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Musée Eugène Pesch', '/english/lu/mines/EugenePesch.html', 'EugenePesch', 'Europe', 'lu', 'Luxembourg', 'mines', 'Luxembourg', 49.526261, 5.837920);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Painshill Park\'s Crystal Grotto', '/english/gb/subterranea/PainshillPark.html', 'PainshillPark', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Surrey', 51.328498, -0.430545);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museo Cuevas del Sacromonte', '/english/es/subterranea/Sacromonte.html', 'Sacromonte', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.183298, -3.583973);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Zambra María la Canastera', '/english/es/subterranea/MaríaLaCanastera.html', 'MaríaLaCanastera', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.181957, -3.584060);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de la Rocio', '/english/es/subterranea/Rocio.html', 'Rocio', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.181544, -3.585270);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','La Chumbera', '/english/es/subterranea/Chumbera.html', 'Chumbera', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.181660, -3.583020);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva los Tarantos', '/english/es/subterranea/Tarantos.html', 'Tarantos', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.181212, -3.588174);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Abadía del Sacromonte', '/english/es/subterranea/AbadiaSacromonte.html', 'AbadiaSacromonte', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.183060, -3.576270);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','El Templo del Flamenco', '/english/es/subterranea/TemploFlamenco.html', 'TemploFlamenco', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.183337, -3.598138);
