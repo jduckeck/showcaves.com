@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Abadía del Sacromonte', '/english/es/subterranea/AbadiaSacromonte.html', 'AbadiaSacromonte', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.183060, -3.576270);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','El Templo del Flamenco', '/english/es/subterranea/TemploFlamenco.html', 'TemploFlamenco', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.183337, -3.598138);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Venta El Gallo', '/english/es/subterranea/Gallo.html', 'Gallo', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.182027, -3.583978);
