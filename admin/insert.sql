@@ -34,3 +34,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bergmagazin Marienberg', '/english/de/mines/BergmagazinMarienberg.html', 'BergmagazinMarienberg', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.649270, 13.155903);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Santa Rosa Blue Hole', '/english/usa/karst/SantaRosa.html', 'SantaRosa', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'nm', 34.940487, -104.673295);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Herkimer Diamond Mines', '/english/usa/mines/Herkimer.html', 'Herkimer', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ny', 43.128755, -74.976582);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ace of Diamonds Mine', '/english/usa/mines/AceOfDiamonds.html', 'AceOfDiamonds', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ny', 43.132631, -74.973267);
