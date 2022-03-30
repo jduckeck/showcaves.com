@@ -32,3 +32,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Peștera Hoților', '/english/ro/caves/Hotilor.html', 'Hotilor', 'Europe', 'ro', 'Romania', 'caves', 'Meridionali', 44.896503, 22.428396);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bergmagazin Marienberg', '/english/de/mines/BergmagazinMarienberg.html', 'BergmagazinMarienberg', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.649270, 13.155903);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Santa Rosa Blue Hole', '/english/usa/karst/SantaRosa.html', 'SantaRosa', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'nm', 34.940487, -104.673295);
