@@ -40,3 +40,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ace of Diamonds Mine', '/english/usa/mines/AceOfDiamonds.html', 'AceOfDiamonds', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ny', 43.132631, -74.973267);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cetățile Rădesei', '/english/ro/caves/Radeasa.html', 'Radeasa', 'Europe', 'ro', 'Romania', 'caves', 'Apuseni', 46.62987, 22.70762);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Peștera Moanei', '/english/ro/caves/Moanei.html', 'Moanei', 'Europe', 'ro', 'Romania', 'caves', '$Region$', 46.899777, 22.527759);
