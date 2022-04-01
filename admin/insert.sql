@@ -66,3 +66,39 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Gangcha Cave', '/english/cn/showcaves/Gangcha.html', 'Gangcha', 'Asia', 'cn', 'China', 'showcaves', 'Gansu', 35.068362, 103.040823);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Taohuayuan', '/english/cn/showcaves/Taohuayuan.html', 'Taohuayuan', 'Asia', 'cn', 'China', 'showcaves', 'Chongqing', 28.860712, 108.761666);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Troll Cave', '/english/nz/subterranea/Troll.html', 'Troll', 'Oceania', 'nz', 'New Zealand', 'subterranea', 'Waikato', -38.259648, 175.114305);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rastuška Pećina', '/english/ba/showcaves/Rastuska.html', 'Rastuska', 'Europe', 'ba', 'Bosnia and Herzegovina', 'showcaves', 'RepublikaSrpska', 44.696863, 17.800770);
+INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES('yes',1,'Madan Museum of Ore Mining and Mining Industry', '/english/bg/mines/Madan.html', 'Madan', 'Europe', 'bg', 'Bulgaria', 'mines', 'Smolyan');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Caverna Olhos D\'Água', '/english/br/caves/OlhosDAgua.html', 'OlhosDAgua', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Parana', -25.023272, -49.786788);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Little Huson Cave Park', '/english/ca/karst/LittleHuson.html', 'LittleHuson', 'NorthAmerica', 'ca', 'Canada', 'karst', 'BritishColumbia', 50.284824, -126.951088);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de B\'omb\'il Pek', '/english/gt/caves/BombilPek.html', 'BombilPek', 'MiddleAmerica', 'gt', 'Guatemala', 'caves', 'AltaVerapaz', 15.864252, -90.259361);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grutas de Cunén', '/english/gt/karst/Cunen.html', 'Cunen', 'MiddleAmerica', 'gt', 'Guatemala', 'karst', 'Quiche', 15.337749, -91.002746);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Goa Jepang Klungkung', '/english/id/subterranea/JepangKlungkung.html', 'JepangKlungkung', 'Asia', 'id', 'Indonesia', 'subterranea', 'Bali', -8.552598, 115.381315);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ogulla Spring', '/english/ie/springs/Ogulla.html', 'Ogulla', 'Europe', 'ie', 'Ireland', 'springs', 'Roscommon', 53.777429, -8.276881);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotta del Farneto', '/english/it/caves/Farneto.html', 'Farneto', 'Europe', 'it', 'Italy', 'caves', 'Emilia-Romagna', 44.432530, 11.404790);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fucha', '/english/jp/karst/Fucha.html', 'Fucha', 'Asia', 'jp', 'Japan', 'karst', 'Kagoshima', 27.437493, 128.687056);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Satoyama Mirai Museum', '/english/jp/mines/SatoyamaMirai.html', 'SatoyamaMirai', 'Asia', 'jp', 'Japan', 'mines', 'Ishikawa', 36.4013863193042, 136.5426795263311);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Boryeong Coal Museum', '/english/kr/mines/Boryeong.html', 'Boryeong', 'Asia', 'kr', 'South Korea', 'mines', 'Chungnam', 36.326158, 126.652744);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Rìo Subterráneo Chontalcoatlán', '/english/mx/caves/Chontalcoatlan.html', 'Chontalcoatlan', 'MiddleAmerica', 'mx', 'México', 'caves', 'Guerrero', 18.647901, -99.523813);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Barsuko Ola', '/english/other/karst/Barsuko.html', 'Barsuko', 'Europe', 'lt', 'Lithuania', 'karst', 'lt', 'other', 56.210700, 24.690510);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Goluboye Ozero Kabardino', '/english/ru/springs/GoluboyeOzeroKabardino.html', 'GoluboyeOzeroKabardino', 'Asia', 'ru', 'Russia', 'springs', 'KabardinoBalkaria', 43.232831, 43.538749);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Goluboye Ozero Samara', '/english/ru/springs/GoluboyeOzeroSamara.html', 'GoluboyeOzeroSamara', 'Asia', 'ru', 'Russia', 'springs', 'Samara', 53.912301, 51.487573);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tham Tet Toong Cave', '/english/vn/showcaves/TetToong.html', 'TetToong', 'Asia', 'vn', 'Vietnam', 'showcaves', 'SonLa', 21.347552, 103.909187);
