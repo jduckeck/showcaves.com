@@ -42,3 +42,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cetățile Rădesei', '/english/ro/caves/Radeasa.html', 'Radeasa', 'Europe', 'ro', 'Romania', 'caves', 'Apuseni', 46.62987, 22.70762);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Peștera Moanei', '/english/ro/caves/Moanei.html', 'Moanei', 'Europe', 'ro', 'Romania', 'caves', '$Region$', 46.899777, 22.527759);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shuiyuan Cave', '/english/cn/showcaves/Shuiyuan.html', 'Shuiyuan', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.366632, 106.577616);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fairy Bridge', '/english/cn/karst/XianrenBuliu.html', 'XianrenBuliu', 'Asia', 'cn', 'China', 'karst', 'Guangxi', 24.687816, 106.799717);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Moon Hill', '/english/cn/karst/MoonHill.html', 'MoonHill', 'Asia', 'cn', 'China', 'karst', 'Guangxi', 24.727918, 110.467886);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Zhongshiyuan Tiankeng', '/english/cn/karst/Zhongshiyuan.html', 'Zhongshiyuan', 'Asia', 'cn', 'China', 'karst', 'Chongqing', 29.452081, 107.820061);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Xiashiyuan Tiankeng', '/english/cn/karst/Xiashiyuan.html', 'Xiashiyuan', 'Asia', 'cn', 'China', 'karst', 'Chongqing', 29.445456, 107.821286);
