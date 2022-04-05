@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Daqikong', '/english/cn/karst/Daqikong.html', 'Yaofeng', 'Asia', 'cn', 'China', 'karst', 'Guizhou', 25.283645, 107.751905);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Zhongdong', '/english/cn/showcaves/Zhongdong.html', 'Zhongdong', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 25.687212, 106.293911);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mine de Sel Varangéville', '/english/fr/mines/Varangeville.html', 'Varangeville', 'Europe', 'fr', 'France', 'mines', 'Lorraine', 48.637454, 6.308598);
