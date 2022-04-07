@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mines de Fer de Bourbach-le-Bas', '/english/fr/mines/Bourbach-le-Bas.html', 'Bourbach-le-Bas', 'Europe', 'fr', 'France', 'mines', 'Alsace', 47.774607, 7.055540);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Mines d’Argent de Wegscheid', '/english/fr/mines/Wegscheid.html', 'Wegscheid', 'Europe', 'fr', 'France', 'mines', 'Alsace', 47.800584, 6.957250);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fort Casso', '/english/fr/subterranea/FortCasso.html', 'FortCasso', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.058738, 7.266720);
