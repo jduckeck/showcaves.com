@@ -22,3 +22,12 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Fort de Schoenenbourg', '/english/fr/subterranea/Schoenenbourg.html', 'Schoenenbourg', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.966500, 7.912370);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotte du Wolfloch', '/english/fr/caves/Wolfloch.html', 'Wolfloch', 'Europe', 'fr', 'France', 'caves', 'Alsace', 47.7611876, 7.0323577);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de los Panaderos', '/english/cu/showcaves/Panaderos.html', 'Panaderos', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'Holguin', 21.116040, -76.140010);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Sao Corona', '/english/cu/showcaves/SaoCorona.html', 'SaoCorona', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'Holguin', 20.4868585, -75.8958425);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cuevas de los Cimarrones', '/english/cu/subterranea/Cimarrones.html', 'Cimarrones', 'MiddleAmerica', 'cu', 'Cuba', 'subterranea', 'PinarDelRio', 22.652990, -83.717310);
+UPDATE sights SET filename = REPLACE(filename, '/caves/', '/showcaves/'), category='showcaves' WHERE countrycode = 'cu' and sortby='SanMiquel';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Saturno', '/english/cu/showcaves/Saturno.html', 'Saturno', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'Matanzas', 23.070850, -81.436610);
