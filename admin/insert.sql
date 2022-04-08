@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Fort Casso', '/english/fr/subterranea/FortCasso.html', 'FortCasso', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.058738, 7.266720);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Musée du Pétrole', '/english/fr/mines/Petrole.html', 'Petrole', 'Europe', 'fr', 'France', 'mines', 'Alsace', 48.936827, 7.827664);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ouvrage du Four-à-Chaux', '/english/fr/subterranea/FourAChaux.html', 'FourAChaux', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.993896, 7.795720);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fort de Schoenenbourg', '/english/fr/subterranea/Schoenenbourg.html', 'Schoenenbourg', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.966500, 7.912370);
