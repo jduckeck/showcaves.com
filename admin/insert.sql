@@ -31,3 +31,5 @@ VALUES('yes','Cuevas de los Cimarrones', '/english/cu/subterranea/Cimarrones.htm
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/showcaves/'), category='showcaves' WHERE countrycode = 'cu' and sortby='SanMiquel';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de Saturno', '/english/cu/showcaves/Saturno.html', 'Saturno', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'Matanzas', 23.070850, -81.436610);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva de Martín Infierno', '/english/cu/caves/MartinInfierno.html', 'MartinInfierno', 'MiddleAmerica', 'cu', 'Cuba', 'caves', 'Cienfuegos', 21.895111, -80.152087);
