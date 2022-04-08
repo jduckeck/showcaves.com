@@ -4454,7 +4454,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4550, 'yes', 0, 'Bryce Canyon', '/english/usa/gorges/Bryce.html', NULL, 'Bryce', 'NorthAmerica', 'United States of America', 'us', 'ut', 'gorges', NULL, NULL),
 (4551, 'yes', 0, 'Gila Cliff Dwellings', '/english/usa/caves/Gila.html', NULL, 'Gila', 'NorthAmerica', 'United States of America', 'us', 'nm', 'caves', NULL, NULL),
 (4552, 'yes', 0, 'Arches National Park', '/english/usa/caves/Arches.html', NULL, 'Arches', 'NorthAmerica', 'United States of America', 'us', 'ut', 'caves', NULL, NULL),
-(4553, 'yes', 0, 'Trinidad Mining Museum', '/english/usa/mines/Trinidad.html', NULL, 'Trinidad', 'NorthAmerica', 'United States of America', 'us', 'co', 'mines', NULL, NULL),
+(4553, 'yes', 0, 'Trinidad Mining Museum', '/english/usa/mines/SanctiSpiritus.html', NULL, 'Trinidad', 'NorthAmerica', 'United States of America', 'us', 'co', 'mines', NULL, NULL),
 (4554, 'yes', 0, 'Popovo Polje', '/english/ba/karst/Popovo.html', NULL, 'Popovo', 'Europe', 'Bosnia and Herzegovina', 'ba', 'ba', 'karst', NULL, NULL),
 (4555, 'yes', 0, 'Havasu Falls', '/english/usa/gorges/Havasu.html', NULL, 'Havasu', 'NorthAmerica', 'United States of America', 'us', 'az', 'gorges', NULL, NULL),
 (4556, 'yes', 0, 'Waimea Canyon', '/english/usa/gorges/Waimea.html', NULL, 'Waimea', 'NorthAmerica', 'United States of America', 'us', 'hi', 'gorges', NULL, NULL),
