@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Ouvrage du Four-à-Chaux', '/english/fr/subterranea/FourAChaux.html', 'FourAChaux', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.993896, 7.795720);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fort de Schoenenbourg', '/english/fr/subterranea/Schoenenbourg.html', 'Schoenenbourg', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.966500, 7.912370);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotte du Wolfloch', '/english/fr/caves/Wolfloch.html', 'Wolfloch', 'Europe', 'fr', 'France', 'caves', 'Alsace', 47.7611876, 7.0323577);
