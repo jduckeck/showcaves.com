@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Mines d’Argent de Wegscheid', '/english/fr/mines/Wegscheid.html', 'Wegscheid', 'Europe', 'fr', 'France', 'mines', 'Alsace', 47.800584, 6.957250);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Fort Casso', '/english/fr/subterranea/FortCasso.html', 'FortCasso', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.058738, 7.266720);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Musée du Pétrole', '/english/fr/mines/Petrole.html', 'Petrole', 'Europe', 'fr', 'France', 'mines', 'Alsace', 48.936827, 7.827664);
