@@ -37,3 +37,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva de la Vaca', '/english/cu/showcaves/Vaca.html', 'Vaca', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'PinarDelRio', 22.626061, -83.716382);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva del Palmarito', '/english/cu/showcaves/Palmarito.html', 'Palmarito', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'PinarDelRio', 22.643199, -83.733298);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Cueva de la Vaca', '/english/other/showcaves/Vaca.html', 'Vaca', 'SouthAmerica', 'co', 'Colombia', 'showcaves', 'co', 'other', 6.606540, -73.072088);
