@@ -39,3 +39,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva del Palmarito', '/english/cu/showcaves/Palmarito.html', 'Palmarito', 'MiddleAmerica', 'cu', 'Cuba', 'showcaves', 'PinarDelRio', 22.643199, -83.733298);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Cueva de la Vaca', '/english/other/showcaves/Vaca.html', 'Vaca', 'SouthAmerica', 'co', 'Colombia', 'showcaves', 'co', 'other', 6.606540, -73.072088);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','DOMunder', '/english/nl/subterranea/DOMunder.html', 'DOMunder', 'Europe', 'nl', 'Netherlands', 'subterranea', 'Utrecht', 52.090992, 5.121044);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Atlantikwall Museum Scheveningen', '/english/nl/subterranea/Scheveningen.html', 'Scheveningen', 'Europe', 'nl', 'Netherlands', 'subterranea', 'SouthHolland', 52.105680, 4.295375);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Forteiland', '/english/nl/subterranea/Forteiland.html', 'Forteiland', 'Europe', 'nl', 'Netherlands', 'subterranea', 'NorthHolland', 52.465278, 4.576630);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Widerstandsnest 67 HL', '/english/nl/subterranea/Kijkduin.html', 'Kijkduin', 'Europe', 'nl', 'Netherlands', 'subterranea', 'SouthHolland', 52.070828, 4.223031);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Atlantikwall-Museum Hoek van Holland', '/english/nl/subterranea/HoekVanHolland.html', 'HoekVanHolland', 'Europe', 'nl', 'Netherlands', 'subterranea', 'SouthHolland', 51.981510, 4.110066);
