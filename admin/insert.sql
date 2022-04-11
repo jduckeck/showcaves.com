@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bunkermuseum Zoutelande', '/english/nl/subterranea/Zoutelande.html', 'Zoutelande', 'Europe', 'nl', 'Netherlands', 'subterranea', 'Zeeland', 51.497243, 3.492882);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Atlantikwall Museum Noordwijk', '/english/nl/subterranea/Noordwijk.html', 'Noordwijk', 'Europe', 'nl', 'Netherlands', 'subterranea', 'SouthHolland', 52.253724, 4.439560);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Itäkeskuksen Uimahalli', '/english/fi/subterranea/Itakeskuksen.html', 'Itakeskuksen', 'Europe', 'fi', 'Finland', 'subterranea', 'SouthernFinland', 60.212709, 25.076424);
