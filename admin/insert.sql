@@ -49,3 +49,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Widerstandsnest 67 HL', '/english/nl/subterranea/Kijkduin.html', 'Kijkduin', 'Europe', 'nl', 'Netherlands', 'subterranea', 'SouthHolland', 52.070828, 4.223031);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Atlantikwall-Museum Hoek van Holland', '/english/nl/subterranea/HoekVanHolland.html', 'HoekVanHolland', 'Europe', 'nl', 'Netherlands', 'subterranea', 'SouthHolland', 51.981510, 4.110066);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Hwalok Cave', '/english/kr/mines/Hwalok.html', 'Hwalok', 'Asia', 'kr', 'South Korea', 'mines', 'Chungcheongbuk', 36.961458, 128.007032);
