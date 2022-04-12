@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Itäkeskuksen Uimahalli', '/english/fi/subterranea/Itakeskuksen.html', 'Itakeskuksen', 'Europe', 'fi', 'Finland', 'subterranea', 'SouthernFinland', 60.212709, 25.076424);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Chemin de la Mâture', '/english/fr/gorges/CheminMature.html', 'CheminMature', 'Europe', 'fr', 'France', 'gorges', 'Aquitaine', 42.888313, -0.552449);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Devil\'s Den', '/english/usa/caves/DevilsDenMA.html', 'DevilsDenMA', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ma', 42.260200, -71.447800);
