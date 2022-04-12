@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Chemin de la Mâture', '/english/fr/gorges/CheminMature.html', 'CheminMature', 'Europe', 'fr', 'France', 'gorges', 'Aquitaine', 42.888313, -0.552449);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Devil\'s Den', '/english/usa/caves/DevilsDenMA.html', 'DevilsDenMA', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ma', 42.260200, -71.447800);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Millican Daltons Cave', '/english/gb/mines/MillicanDaltons.html', 'MillicanDaltons', 'Europe', 'gb', 'Great Britain', 'mines', 'Cumbria', 54.533780, -3.158250);
