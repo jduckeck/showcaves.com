@@ -16,3 +16,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Millican Daltons Cave', '/english/gb/mines/MillicanDaltons.html', 'MillicanDaltons', 'Europe', 'gb', 'Great Britain', 'mines', 'Cumbria', 54.533780, -3.158250);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Magyar Olaj- és Gázipari Múzeum', '/english/hu/mines/MagyarOlajipari.html', 'MagyarOlajipari', 'Europe', 'hu', 'Hungary', 'mines', 'Balaton', 46.850387, 16.827509);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Balás Jenő Bauxitbányászati Múzeum', '/english/hu/mines/BalasJeno.html', 'BalasJeno', 'Europe', 'hu', 'Hungary', 'mines', 'CentralTransdanubia', 47.367816, 18.387845);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Görbehalmi Bányamúzeum', '/english/hu/mines/Gorbehalmi.html', 'Gorbehalmi', 'Europe', 'hu', 'Hungary', 'mines', 'WesternTransdanubia', 47.670010, 16.499140);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Csolnoki Bányászklub Múzeum', '/english/hu/mines/Csolnok.html', 'Csolnok', 'Europe', 'hu', 'Hungary', 'mines', 'Komarom', 47.702591, 18.705776);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sátorkőpusztai-barlang', '/english/hu/caves/Satorkopusztai.html', 'Satorkopusztai', 'Europe', 'hu', 'Hungary', 'caves', 'Komarom', 47.73306, 18.75000);
