@@ -23,4 +23,4 @@ VALUES ('yes', 'Görbehalmi Bányamúzeum', '/english/hu/mines/Gorbehalmi.html',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Csolnoki Bányászklub Múzeum', '/english/hu/mines/Csolnok.html', 'Csolnok', 'Europe', 'hu', 'Hungary', 'mines', 'Komarom', 47.702591, 18.705776);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Sátorkőpusztai-barlang', '/english/hu/caves/Satorkopusztai.html', 'Satorkopusztai', 'Europe', 'hu', 'Hungary', 'caves', 'Komarom', 47.73306, 18.75000);
+VALUES ('yes', 'Sátorkőpusztai-barlang', '/english/hu/caves/Satorkopusztai.html', 'Satorkopusztai', 'Europe', 'hu', 'Hungary', 'caves', 'Komarom', 47.741914, 18.762067);
