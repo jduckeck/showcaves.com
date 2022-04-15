@@ -23,7 +23,7 @@
     include("../../../php/opendb.php");
     $pdo = openDB();
 
-    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' and closed=0 GROUP BY countrycode, chapter, country, category ORDER BY country, category");
     $statement->bindParam('limit', $limit, PDO::PARAM_INT);
     ?>
     <meta property="og:locale" content="en_GB"/>
@@ -48,8 +48,10 @@
 
         <p>
             The following table is a statistics about the contents of <span class="mySiteName">showcaves.com</span>.
-            The site contains underground tourist sites from all over the world, which are
-            grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf..
+            The site contains underground tourist sites from all over the world, which are grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf.
+            The numbers give all listed sites, but not all of them are still open to the public.
+            <span class="mySiteName">showcaves.com</span> ist almost 30 years old, and about 75 sites were temporarily or finally closed to the public.
+            These are included in the below numbers.
         </p>
 
 

@@ -49,6 +49,9 @@
         <p>
             Die folgende Tabelle ist eine Statistik über den Inhalt von <span class="mySiteName">showcaves.com</span>.
             Die Website enthält unterirdische touristische Sehenswürdigkeiten aus der ganzen Welt, die nach politischen Einheiten, also Ländern, gruppiert sind und als Höhlen, Schauhöhlen, Bergwerke oder künstliche Hohlräume klassifiziert wurden.
+            Die Zahlen geben alle aufgelisteten Sehenswürdigkeiten an, aber nicht alle davon sind noch für die Öffentlichkeit zugänglich.
+            <span class="mySiteName">showcaves.com</span> ist fast 30 Jahre alt, und etwa 75 Standorte wurden mittelfristig oder endgültig für die Öffentlichkeit geschlossen.
+            Diese sind in den unten stehenden Zahlen allerdings enthalten.
         </p>
 
 
