@@ -35,4 +35,6 @@ VALUES ('yes', 'Schaubergwerk „Gnade Gottes Erbstollen“', '/english/de/mines
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Oljeön', '/english/se/mines/Oljeon.html', 'Oljeon', 'Europe', 'se', 'Sweden', 'mines', 'Vaestmanland', 59.957095, 16.003115);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Prehistorische Vuursteenmijnen te Valkenburg aan de Geul', '/english/nl/mines/Valkenburg.html', 'Valkenburg', 'Europe', 'nl', 'Netherlands', 'mines', 'Limburg');
+VALUES ('yes', 'Prehistorische Vuursteenmijnen te Valkenburg aan de Geul', '/english/nl/mines/Valkenburg.html', 'Valkenburg', 'Europe', 'nl', 'Netherlands', 'mines', 'Limburg', 50.865510, 5.823010);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gimhae Wine Cave', '/english/kr/subterranea/Gimhae.html', 'Gimhae', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gyeongsangnam', 35.371821, 128.820946);
