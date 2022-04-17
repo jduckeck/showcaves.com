@@ -69,6 +69,15 @@ p {
     font-weight: bold;
 }
 
+.blue {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.whiteback {
+    background-color: white;
+}
+
 .underline {
     text-decoration: underline;
     text-underline-position: auto;
