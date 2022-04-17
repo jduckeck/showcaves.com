@@ -32,3 +32,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Esztáz-kői-barlang', '/english/hu/caves/EsztazKoi.html', 'EsztazKoi', 'Europe', 'hu', 'Hungary', 'caves', 'NorthernHungary', 48.024897, 20.423876);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Schaubergwerk „Gnade Gottes Erbstollen“', '/english/de/mines/GnadeGottesErbstollen.html', 'GnadeGottesErbstollen', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.660315, 13.367145);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Oljeön', '/english/se/mines/Oljeon.html', 'Oljeon', 'Europe', 'se', 'Sweden', 'mines', 'Vaestmanland', 59.957095, 16.003115);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Prehistorische Vuursteenmijnen te Valkenburg aan de Geul', '/english/nl/mines/Valkenburg.html', 'Valkenburg', 'Europe', 'nl', 'Netherlands', 'mines', 'Limburg');
