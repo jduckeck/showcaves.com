@@ -26,3 +26,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sátorkőpusztai-barlang', '/english/hu/caves/Satorkopusztai.html', 'Satorkopusztai', 'Europe', 'hu', 'Hungary', 'caves', 'Komarom', 47.741914, 18.762067);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Jankovich-barlang', '/english/hu/caves/Jankovich.html', 'Jankovich', 'Europe', 'hu', 'Hungary', 'caves', 'Komarom', 47.7236676, 18.5753373);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Istállós-kői-barlang', '/english/hu/caves/IstallosKoi.html', 'IstallosKoi', 'Europe', 'hu', 'Hungary', 'caves', 'NorthernHungary', 48.071594, 20.417328);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Esztáz-kői-barlang', '/english/hu/caves/EsztazKoi.html', 'EsztazKoi', 'Europe', 'hu', 'Hungary', 'caves', 'NorthernHungary', 48.024897, 20.423876);
