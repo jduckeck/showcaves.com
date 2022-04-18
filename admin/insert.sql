@@ -38,3 +38,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Prehistorische Vuursteenmijnen te Valkenburg aan de Geul', '/english/nl/mines/Valkenburg.html', 'Valkenburg', 'Europe', 'nl', 'Netherlands', 'mines', 'Limburg', 50.865510, 5.823010);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gimhae Wine Cave', '/english/kr/subterranea/Gimhae.html', 'Gimhae', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gyeongsangnam', 35.371821, 128.820946);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pant y Llyn', '/english/gb/karst/PantYLlyn.html', 'PantYLlyn', 'Europe', 'gb', 'Great Britain', 'karst', 'Powys', 52.10931638969019, -3.405185862475906);
