@@ -40,3 +40,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gimhae Wine Cave', '/english/kr/subterranea/Gimhae.html', 'Gimhae', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gyeongsangnam', 35.371821, 128.820946);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pant y Llyn', '/english/gb/karst/PantYLlyn.html', 'PantYLlyn', 'Europe', 'gb', 'Great Britain', 'karst', 'Powys', 52.10931638969019, -3.405185862475906);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tusher Tunnel', '/english/usa/gorges/TusherTunnel.html', 'TusherTunnel', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut', 38.710678, -109.783427);
