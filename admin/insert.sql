@@ -42,3 +42,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pant y Llyn', '/english/gb/karst/PantYLlyn.html', 'PantYLlyn', 'Europe', 'gb', 'Great Britain', 'karst', 'Powys', 52.10931638969019, -3.405185862475906);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tusher Tunnel', '/english/usa/gorges/TusherTunnel.html', 'TusherTunnel', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut', 38.710678, -109.783427);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Reims Cryptoportique', '/english/fr/subterranea/Reims.html', 'Reims', 'Europe', 'fr', 'France', 'subterranea', 'Champagne', 49.256600, 4.033870);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Arles Cryptoportiques du Forum', '/english/fr/subterranea/Arles.html', 'Arles', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 43.676810, 4.627410);
