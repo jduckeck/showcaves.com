@@ -43,6 +43,10 @@ VALUES ('yes', 'Pant y Llyn', '/english/gb/karst/PantYLlyn.html', 'PantYLlyn', '
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tusher Tunnel', '/english/usa/gorges/TusherTunnel.html', 'TusherTunnel', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut', 38.710678, -109.783427);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Reims Cryptoportique', '/english/fr/subterranea/Reims.html', 'Reims', 'Europe', 'fr', 'France', 'subterranea', 'Champagne', 49.256600, 4.033870);
+VALUES ('yes', 'Reims Cryptoportique', '/english/fr/subterranea/ReimsCryptoporticus.html', 'ReimsCrypt', 'Europe', 'fr', 'France', 'subterranea', 'Champagne', 49.256600, 4.033870);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Arles Cryptoportiques du Forum', '/english/fr/subterranea/Arles.html', 'Arles', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 43.676810, 4.627410);
+VALUES ('yes', 'Arles Cryptoportiques du Forum', '/english/fr/subterranea/ArlesCryptoporticus.html', 'ArlesCrypt', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 43.676810, 4.627410);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Neronian Cryptoporticus', '/english/it/subterranea/NeronianCryptoporticus.html', 'NeronianCryptoporticus', 'Europe', 'it', 'Italy', 'subterranea', 'Roma', 41.889987, 12.487245);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Criptoportico Romano Vicenza', '/english/it/subterranea/VicenzaCriptoportico.html', 'VicenzaCriptoportico', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.545586, 11.544201);
