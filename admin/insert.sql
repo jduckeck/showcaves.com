@@ -14,7 +14,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Minas Do Palácio Velho', '/english/br/mines/PalacioVelho.html', 'PalacioVelho', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.386060, -43.498910);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mina de Ouro Santa Rita', '/english/br/mines/SantaRita.html', 'SantaRita', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.386580, -43.493120);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Mina Vila Rica', '/english/br/mines/VilaRica.html', 'VilaRica', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.386655, -43.493355);
+INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 1, 'Mina Vila Rica', '/english/br/mines/VilaRica.html', 'VilaRica', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.386655, -43.493355);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mina de Gramado', '/english/br/mines/Gramado.html', 'Gramado', 'SouthAmerica', 'br', 'Brazil', 'mines', 'RioGrandeSul', -29.401140, -50.911440);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mina do Bijoca', '/english/br/mines/Bijoca.html', 'Bijoca', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.385596, -43.499672);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mina 13 de Maio', '/english/br/mines/13Maio.html', '13Maio', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.385279, -43.495644);
