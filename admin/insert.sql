@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mina do Bijoca', '/english/br/mines/Bijoca.html', 'Bijoca', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.385596, -43.499672);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mina 13 de Maio', '/english/br/mines/13Maio.html', '13Maio', 'SouthAmerica', 'br', 'Brazil', 'mines', 'MinasGerais', -20.385279, -43.495644);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Saline Schweizerhalle', '/english/ch/mines/Schweizerhalle.html', 'Schweizerhalle', 'Europe', 'ch', 'Switzerland', 'mines', 'Basel', 47.531220, 7.676020);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Saline Riburg', '/english/ch/mines/Riburg.html', 'Riburg', 'Europe', 'ch', 'Switzerland', 'mines', 'Basel', 47.565815, 7.829629);
