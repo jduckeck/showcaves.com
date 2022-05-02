@@ -38,3 +38,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kaptensspelet', '/english/se/mines/Kaptensspelet.html', 'Kaptensspelet', 'Europe', 'se', 'Sweden', 'mines', 'Norrbottens', 67.178052, 20.673944);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta della Poesia', '/english/it/karst/Poesia.html', 'Poesia', 'Europe', 'it', 'Italy', 'karst', 'Puglia', 40.285922, 18.429539);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gemini Bridges', '/english/usa/caves/Gemini.html', 'Gemini', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut', 38.5860, -109.7076);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Radium Springs Gardens', '/english/usa/springs/RadiumSpringsGardens.html', 'RadiumSpringsGardens', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ga', 31.526293, -84.136534);
