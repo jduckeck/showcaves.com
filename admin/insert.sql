@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pulicchio di Gravina', '/english/it/karst/PulicchioGravina.html', 'PulicchioGravina', 'Europe', 'it', 'Italy', 'karst', 'Puglia', 40.906101, 16.423935);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gravina Sotterranea', '/english/it/subterranea/GravinaSotterranea.html', 'GravinaSotterranea', 'Europe', 'it', 'Italy', 'subterranea', 'Puglia', 40.816898, 16.415147);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kaptensspelet', '/english/se/mines/Kaptensspelet.html', 'Kaptensspelet', 'Europe', 'se', 'Sweden', 'mines', 'Norrbottens', 67.178052, 20.673944);
