@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Boyue Cave', '/english/cn/showcaves/Boyue.html', 'Boyue', 'Asia', 'cn', 'China', 'showcaves', 'Hunan', 27.706336, 111.451992);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cuevas de la Lluera', '/english/es/showcaves/Lluera.html', 'Lluera', 'Europe', 'es', 'Spain', 'showcaves', 'Asturias', 43.334700, -5.933950);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de la Olla', '/english/mx/caves/Olla.html', 'Olla', 'MiddleAmerica', 'mx', 'México', 'caves', 'Chihuahua', 30.151756, -108.324941);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Barrancas del Cobre', '/english/mx/gorges/Cobre.html', 'Cobre', 'MiddleAmerica', 'mx', 'México', 'gorges', 'Chihuahua', 27.528056, -107.756111);
