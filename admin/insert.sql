@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Minerail', '/english/fr/mines/Minerail.html', 'Minerail', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.618470, 2.558960);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mines de Vielle Aure', '/english/fr/mines/VielleAure.html', 'VielleAure', 'Europe', 'fr', 'France', 'mines', 'MidiPyrenees', 42.833354, 0.322142);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Wolframines', '/english/fr/mines/Wolframines.html', 'Wolframines', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 46.177150, 2.962660);
