@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Karstlehrpfad Kaltbrunnental-Brislachallmet', '/english/ch/karst/Kaltbrunnental.html', 'Kaltbrunnental', 'Europe', 'ch', 'Switzerland', 'karst', 'Basel', 47.436064, 7.545453);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'La Cueva del Gigante', '/english/hn/caves/Gigante.html', 'Gigante', 'MiddleAmerica', 'hn', 'Honduras', 'caves', 'LaPaz', 14.228098, -88.057318);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Natur Eis Palast Hintertuxer Gletscher', '/english/at/subterranea/NaturEisPalast.html', 'NaturEisPalast', 'Europe', 'at', 'Austria', 'subterranea', 'Tirol', 47.061781, 11.679787);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kaiser-Max-Grotte', '/english/at/caves/KaiserMax.html', 'KaiserMax', 'Europe', 'at', 'Austria', 'caves', 'Tirol', 47.269416, 11.270184);
