@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ecomuseo delle Miniere e della Val Germanasca', '/english/it/mines/ValGermanasca.html', 'ValGermanasca', 'Europe', 'it', 'Italy', 'mines', 'Piemonte', 44.925365, 7.066124);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Carrière de Bocheresse', '/english/ch/mines/Bocheresse.html', 'Bocheresse', 'Europe', 'ch', 'Switzerland', 'mines', 'Wallis', 46.014842, 7.324134);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Carrière de talc de Trimouns', '/english/fr/mines/Trimouns.html', 'Trimouns', 'Europe', 'fr', 'France', 'mines', 'MidiPyrenees', 42.799974, 1.800298);
