@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Natur Eis Palast Hintertuxer Gletscher', '/english/at/subterranea/NaturEisPalast.html', 'NaturEisPalast', 'Europe', 'at', 'Austria', 'subterranea', 'Tirol', 47.061781, 11.679787);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kaiser-Max-Grotte', '/english/at/caves/KaiserMax.html', 'KaiserMax', 'Europe', 'at', 'Austria', 'caves', 'Tirol', 47.269416, 11.270184);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ecomuseo delle Miniere e della Val Germanasca', '/english/it/mines/ValGermanasca.html', 'ValGermanasca', 'Europe', 'it', 'Italy', 'mines', 'Piemonte', 44.925365, 7.066124);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Carrière de Bocheresse', '/english/ch/mines/Bocheresse.html', 'Bocheresse', 'Europe', 'ch', 'Switzerland', 'mines', 'Wallis', 46.014842, 7.324134);
