@@ -52,6 +52,10 @@ p {
     page-break-before: auto;
 }
 
+.maxWidth {
+    width: 100%;
+}
+
 .right {
     text-align: right;
 }
