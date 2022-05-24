@@ -4,5 +4,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Barracuda Lake', '/english/ph/karst/Barracuda.html', 'Barracuda', 'Asia', 'ph', 'The Philippines', 'karst', 'Mimaropa', 11.956272, 120.216807);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Guinogo-an Cave', '/english/ph/caves/Guinogo.html', 'Guinogo', 'Asia', 'ph', 'Philippines', 'caves', 'EasternVisayas', 12.158300, 124.514064);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Tinago Falls', '/english/ph/gorges/TinagoFalls.html', 'TinagoFalls', 'Asia', 'ph', 'the Philippines', 'gorges', 'NorthernMindanao', 8.159273, 124.185998);
 
 
