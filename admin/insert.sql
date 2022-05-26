@@ -24,5 +24,7 @@ INSERT INTO sights (visible, closed, name, filename, sortby, continent, countryc
 VALUES ('yes', 1, 'Parque Minero de La Unión', '/english/es/mines/LaUnion.html', 'LaUnion', 'Europe', 'es', 'Spain', 'mines', 'Murcia', 37.615370, -0.873179);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo dell\'Oro e della Bessa', '/english/it/mines/Vermogno.html', 'Vermogno', 'Europe', 'it', 'Italy', 'mines', 'Piemonte', 45.482756, 8.023787);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Miniera di Zolfo Cabernardi', '/english/it/mines/Cabernardi.html', 'Cabernardi', 'Europe', 'it', 'Italy', 'mines', 'Marche', 43.506876, 12.866137);
 
 
