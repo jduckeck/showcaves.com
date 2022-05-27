@@ -28,5 +28,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Miniera di Zolfo Cabernardi', '/english/it/mines/Cabernardi.html', 'Cabernardi', 'Europe', 'it', 'Italy', 'mines', 'Marche', 43.506876, 12.866137);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo delle Miniere di Morgnano', '/english/it/mines/Morgnano.html', 'Morgnano', 'Europe', 'it', 'Italy', 'mines', 'Umbria', 42.769312, 12.696264);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Parco Minerario Floristella Grottacalda', '/english/it/mines/FloristellaGrottacalda.html', 'FloristellaGrottacalda', 'Europe', 'it', 'Italy', 'mines', 'Sicilia', 37.488795, 14.351535);
 
 
