@@ -30,5 +30,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museo delle Miniere di Morgnano', '/english/it/mines/Morgnano.html', 'Morgnano', 'Europe', 'it', 'Italy', 'mines', 'Umbria', 42.769312, 12.696264);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Parco Minerario Floristella Grottacalda', '/english/it/mines/FloristellaGrottacalda.html', 'FloristellaGrottacalda', 'Europe', 'it', 'Italy', 'mines', 'Sicilia', 37.488795, 14.351535);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo delle miniere di Traversella', '/english/it/mines/Traversella.html', 'Traversella', 'Europe', 'it', 'Italy', 'mines', 'Piemonte', 45.513833, 7.757507);
 
 
