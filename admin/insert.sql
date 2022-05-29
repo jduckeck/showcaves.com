@@ -32,5 +32,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Parco Minerario Floristella Grottacalda', '/english/it/mines/FloristellaGrottacalda.html', 'FloristellaGrottacalda', 'Europe', 'it', 'Italy', 'mines', 'Sicilia', 37.488795, 14.351535);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo delle miniere di Traversella', '/english/it/mines/Traversella.html', 'Traversella', 'Europe', 'it', 'Italy', 'mines', 'Piemonte', 45.513833, 7.757507);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Centro Minerario di Valle Imperina', '/english/it/mines/ValleImperina.html', 'ValleImperina', 'Europe', 'it', 'Italy', 'mines', 'Veneto', 46.258297, 12.043245);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Parco Minerario della Valle Trompia', '/english/it/mines/ValleTrompia.html', 'ValleTrompia', 'Europe', 'it', 'Italy', 'mines', 'Lombardia', 45.682427, 10.184102);
 
 
