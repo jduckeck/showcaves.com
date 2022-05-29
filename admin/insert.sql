@@ -40,5 +40,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Muzeul Petrolului', '/english/ro/mines/Petrolului.html', 'Petrolului', 'Europe', 'ro', 'Romania', 'mines', 'Meridionali', 44.939172, 26.029166);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Norsk Oljemuseum', '/english/no/mines/Oljemuseum.html', 'Oljemuseum', 'Europe', 'no', 'Norway', 'mines', 'Rogaland', 58.973464, 5.734691);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Aberdeen Maritime Museum', '/english/gb/mines/Aberdeen.html', 'Aberdeen', 'Europe', 'gb', 'Great Britain', 'mines', 'Aberdeenshire', 57.146456, -2.094881);
 
 
