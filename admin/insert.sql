@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Skansen Górnictwa Kowarskiego', '/english/pl/mines/Kowarskiego.html', 'Kowarskiego', 'Europe', 'pl', 'Poland', 'mines', 'Dolnoslaskie', 50.793108, 15.832987);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Projekt Arado', '/english/pl/subterranea/Arado.html', 'Arado', 'Europe', 'pl', 'Poland', 'subterranea', 'Dolnoslaskie', 50.779877, 16.029898);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kopalnia Szklary Huta', '/english/pl/mines/SzklaryHuta.html', 'SzklaryHuta', 'Europe', 'pl', 'Poland', 'mines', 'Dolnoslaskie', 50.645734, 16.827705);
