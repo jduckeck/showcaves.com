@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Muzeum Żup Krakowskich Wieliczka', '/english/pl/mines/ZupKrakowskich.html', 'ZupKrakowskich', 'Europe', 'pl', 'Poland', 'mines', 'Malopolskie', 49.983934, 20.060091);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kopalnia Podgórze', '/english/pl/mines/Podgorze.html', 'Podgorze', 'Europe', 'pl', 'Poland', 'mines', 'Dolnoslaskie', 50.759287, 15.840196);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Skansen Górnictwa Kowarskiego', '/english/pl/mines/Kowarskiego.html', 'Kowarskiego', 'Europe', 'pl', 'Poland', 'mines', 'Dolnoslaskie', 50.793108, 15.832987);
