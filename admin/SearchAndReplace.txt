@@ -58,6 +58,10 @@ $1
 <figcaption>$2</figcaption>
 </figure>
 
+convert listitem to inline link:
+<li>(.+)ui-li-icon ui-corner-none (.+))</li>
+$1$2
+
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\.(\d+)
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t(.+)
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t([^\t]+)$
