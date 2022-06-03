@@ -23,6 +23,9 @@ authors:
 <b class="smallCaps">([^<]+), ([^<]+)</b>
 <b class="smallCaps">$2 $1</b>
 
+closed mines
+<span class="closed"></span>
+
 LIVE AND DIE
 \(\*(\d\d\d\d)\-(\d\d\d\d)\)
 (*$1-✝$2)
