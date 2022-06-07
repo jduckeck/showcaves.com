@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Zhaishan Tunnel', '/english/cn/subterranea/Zhaishan.html', 'Zhaishan', 'Asia', 'cn', 'China', 'subterranea', 'Taiwan', 24.390301, 118.320617);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Taroko Gorge', '/english/cn/gorges/Taroko.html', 'Taroko', 'Asia', 'cn', 'China', 'gorges', 'Taiwan', 24.171662, 121.529175);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Yuedong', '/english/cn/showcaves/Yue.html', 'Yue', 'Asia', 'cn', 'China', 'showcaves', 'Taiwan', 23.480459, 121.507800);
