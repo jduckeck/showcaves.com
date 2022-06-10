@@ -18,13 +18,13 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
 
-    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' and closed=0 GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-    $statement->bindParam('limit', $limit, PDO::PARAM_INT);
-    ?>
+$statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' and closed=0 GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+$statement->bindParam('limit', $limit, PDO::PARAM_INT);
+?>
 
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: Statistics of showcaves.com"/>
@@ -73,7 +73,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php
+<?php
             $oldCountry = '';
             $entries = 0;
 

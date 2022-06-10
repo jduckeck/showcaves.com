@@ -17,12 +17,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
-    include("../../../php/showcaves.php");
-    $count = countSights($pdo, " AND category='springs'");
-    ?>
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
+include("../../../php/showcaves.php");
+$count = countSights($pdo, " AND category='springs'");
+?>
 
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: All Springs"/>
@@ -57,7 +57,7 @@
 
         <label for="theList">search the list...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-            <?php
+<?php
 printAllByCategory($pdo, 'springs');
 ?>
         </ul>
