@@ -23,6 +23,7 @@
     include("../../../php/showcaves.php");
     $count = countSights($pdo, "");
     ?>
+
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Suchen auf showcaves.com"/>
     <meta property="og:type" content="website"/>

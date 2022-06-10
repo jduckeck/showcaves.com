@@ -25,6 +25,7 @@
     $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' and closed=0 GROUP BY countrycode, chapter, country, category ORDER BY country, category");
     $statement->bindParam('limit', $limit, PDO::PARAM_INT);
     ?>
+
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: Statistics of showcaves.com"/>
     <meta property="og:type" content="website"/>

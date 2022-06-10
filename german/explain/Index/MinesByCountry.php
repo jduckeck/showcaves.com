@@ -16,8 +16,7 @@
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
     <script src="../../../js/jquery-1.11.3.min.js"></script>
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
-    -JUL-<!-- end responsive -->
-
+    <!-- end responsive -->
 
     <?php
     include("../../../php/opendb.php");
@@ -25,7 +24,6 @@
     include("../../../php/showcaves.php");
     $count = countSights($pdo, " AND category='mines'");
     ?>
-
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Alle Schaubergwerke nach Ländern gruppiert"/>

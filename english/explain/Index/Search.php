@@ -24,6 +24,7 @@
     include("../../../php/showcaves.php");
     $count = countSights($pdo, "");
     ?>
+
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: Search showcaves.com"/>
     <meta property="og:type" content="website"/>
