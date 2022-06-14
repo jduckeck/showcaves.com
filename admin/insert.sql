@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Festungsmuseum Magletsch', '/english/ch/subterranea/Magletsch.html', 'Magletsch', 'Europe', 'ch', 'Switzerland', 'subterranea', 'StGallen', 47.104012, 9.484540);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Festungsmuseum Sperre Trin', '/english/ch/subterranea/SperreTrin.html', 'SperreTrin', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Graubuenden', 46.827786, 9.349815);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Petit Ouvrage du Bois de Bousse A24', '/english/fr/subterranea/BoisDeBousse.html', 'BoisDeBousse', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.265700, 6.445720);
+INSERT INTO static (path)
+VALUES('/german/de/topics/Westwall.html');
+INSERT INTO static (path)
+VALUES('/english/de/topics/Westwall.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bunker WH-767 “Erlkönig”', '/english/de/subterranea/Erlkoenig.html', 'Erlkoenig', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.384180, 6.703600);
