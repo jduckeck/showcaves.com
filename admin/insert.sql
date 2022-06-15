@@ -16,3 +16,7 @@ INSERT INTO static (path)
 VALUES('/english/de/topics/Westwall.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bunker WH-767 “Erlkönig”', '/english/de/subterranea/Erlkoenig.html', 'Erlkoenig', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.384180, 6.703600);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kasematte Edling Süd', '/english/fr/subterranea/EdlingSud.html', 'EdlingSud', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.274998,  6.436742);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Emilianusstollen', '/english/de/mines/Emilianusstollen.html', 'Emilianusstollen', 'Europe', 'de', 'Germany', 'mines', 'Saarland', 49.330378, 6.679802);
