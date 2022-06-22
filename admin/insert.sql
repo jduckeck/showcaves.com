@@ -20,3 +20,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Kasematte Edling Süd', '/english/fr/subterranea/EdlingSud.html', 'EdlingSud', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.274998,  6.436742);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Emilianusstollen', '/english/de/mines/Emilianusstollen.html', 'Emilianusstollen', 'Europe', 'de', 'Germany', 'mines', 'Saarland', 49.330378, 6.679802);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Estación de Chamberí', '/english/es/subterranea/Chamberi.html', 'Chamberi', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.432275, -3.697730);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Los Caños del Peral', '/english/es/subterranea/CanosDelPeral.html', 'CanosDelPeral', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.418132, -3.708993);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Estación de Pacífico', '/english/es/subterranea/Pacifico.html', 'Pacifico', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.402214, -3.676260);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Estación de Carpetana', '/english/es/subterranea/Carpetana.html', 'Carpetana', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.392700, -3.740990);
