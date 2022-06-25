@@ -25,12 +25,14 @@ VALUES('yes','Estación de Chamberí', '/english/es/subterranea/Chamberi.html', 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Los Caños del Peral', '/english/es/subterranea/CanosDelPeral.html', 'CanosDelPeral', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.418132, -3.708993);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Estación de Pacífico', '/english/es/subterranea/Pacifico.html', 'Pacifico', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.402214, -3.676260);
+VALUES ('yes', 'Estación de Pacífico', '/english/es/subterranea/Pacifico.html', 'Pacifico', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.402214, -3.676260);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Estación de Carpetana', '/english/es/subterranea/Carpetana.html', 'Carpetana', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.392700, -3.740990);
+VALUES ('yes', 'Estación de Carpetana', '/english/es/subterranea/Carpetana.html', 'Carpetana', 'Europe', 'es', 'Spain', 'subterranea', 'Madrid', 40.392700, -3.740990);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Cementiri de Palma', '/english/es/subterranea/PalmaCemetery.html', 'PalmaCemetery', 'Europe', 'es', 'Spain', 'subterranea', 'Mallorca', 39.587225, 2.639240);
+VALUES ('yes', 'Cementiri de Palma', '/english/es/subterranea/PalmaCemetery.html', 'PalmaCemetery', 'Europe', 'es', 'Spain', 'subterranea', 'Mallorca', 39.587225, 2.639240);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','il-Barri Restaurant', '/english/mt/subterranea/ilBarri.html', 'ilBarri', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.919538, 14.366922);
+VALUES ('yes', 'il-Barri Restaurant', '/english/mt/subterranea/ilBarri.html', 'ilBarri', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.919538, 14.366922);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Couvre Porte', '/english/mt/subterranea/CouvrePorte.html', 'CouvrePorte', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.885373, 14.522608);
+VALUES ('yes', 'Couvre Porte', '/english/mt/subterranea/CouvrePorte.html', 'CouvrePorte', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.885373, 14.522608);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Besucherbergwerk Graf Wittekind', '/english/de/mines/GrafWittekind.html', 'GrafWittekind', 'Europe', 'de', 'Germany', 'mines', 'Ruhrgebiet', 51.421142, 7.480724);
