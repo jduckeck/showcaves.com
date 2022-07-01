@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Besucherbergwerk Ypsilanta', '/english/de/mines/Ypsilanta.html', 'Ypsilanta', 'Europe', 'de', 'Germany', 'mines', 'Westerwald', 50.741520, 8.368320);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grube Marie in der Kohlbach', '/english/de/mines/Kohlbach.html', 'Kohlbach', 'Europe', 'de', 'Germany', 'mines', 'Odenwald', 49.515640, 8.680440);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Aqueduc Souterrain de Briord', '/english/fr/subterranea/Briord.html', 'Briord', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 45.787300, 5.465126);
