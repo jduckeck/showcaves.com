@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Labyrinthe', '/english/lu/gorges/Labyrinthe.html', 'Labyrinthe', 'Europe', 'lu', 'Luxembourg', 'gorges', 'Grevenmacher', 49.816790, 6.380310);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hohllay', '/english/lu/subterranea/Hohllay.html', 'Hohllay', 'Europe', 'lu', 'Luxembourg', 'subterranea', 'Grevenmacher', 49.815089, 6.359489);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tunnel von Bech', '/english/lu/subterranea/Bech.html', 'Bech', 'Europe', 'lu', 'Luxembourg', 'subterranea', 'Grevenmacher', 49.751467, 6.353549);
