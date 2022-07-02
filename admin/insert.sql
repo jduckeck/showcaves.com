@@ -14,3 +14,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grube Marie in der Kohlbach', '/english/de/mines/Kohlbach.html', 'Kohlbach', 'Europe', 'de', 'Germany', 'mines', 'Odenwald', 49.515640, 8.680440);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Aqueduc Souterrain de Briord', '/english/fr/subterranea/Briord.html', 'Briord', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 45.787300, 5.465126);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Geolandschaft Wanterbaach-Siweschlëff', '/english/lu/gorges/WanterbaachSiweschleff.html', 'WanterbaachSiweschleff', 'Europe', 'lu', 'Luxembourg', 'gorges', 'Grevenmacher', 49.832146, 6.344257);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Räuberhöhle', '/english/lu/caves/Rauber.html', 'Rauber', 'Europe', 'lu', 'Luxembourg', 'caves', 'Grevenmacher', 49.825840, 6.338810);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Wolfsschlucht', '/english/lu/gorges/Wolfsschlucht.html', 'Wolfsschlucht', 'Europe', 'lu', 'Luxembourg', 'gorges', 'Grevenmacher', 49.815650, 6.402420);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte Piteschkummer', '/english/lu/caves/Piteschkummer.html', 'Piteschkummer', 'Europe', 'lu', 'Luxembourg', 'caves', 'Grevenmacher', 49.816090, 6.360310);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Labyrinthe', '/english/lu/gorges/Labyrinthe.html', 'Labyrinthe', 'Europe', 'lu', 'Luxembourg', 'gorges', 'Grevenmacher', 49.816790, 6.380310);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hohllay', '/english/lu/subterranea/Hohllay.html', 'Hohllay', 'Europe', 'lu', 'Luxembourg', 'subterranea', 'Grevenmacher', 49.815089, 6.359489);
