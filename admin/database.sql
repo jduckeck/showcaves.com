@@ -11,3 +11,5 @@ UPDATE sights SET filename = REPLACE(filename, '/ch/', '/it/'), country='it', La
 UPDATE sights SET region='MidiPyrenees' WHERE  countrycode = 'fr' AND region='Midi-Pyrenees';
 
 UPDATE sights SET filename = REPLACE(filename, '/caves/', '/karst/'), category='karst' WHERE countrycode = 'fr' and sortby='PontDArc';
+
+DELETE FROM sights WHERE countrycode = 'ee' AND sortby='';

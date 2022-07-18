@@ -3,15 +3,14 @@
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="keywords" content="Schauhöhle Schaubergwerk Grotte Schlucht Quelle Bergwerk Höhle Sehenswürdigkeit Führung Tourismus">
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
+    <link rel="alternate" hreflang="en" href="../../../english/explain/Index/CavesByCountry.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -19,14 +18,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
-    include("../../../php/showcaves.php");
-    $count = countSights($pdo, " AND category='caves'");
-    ?>
-
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
+include("../../../php/showcaves.php");
+$count = countSights($pdo, " AND category='caves'");
+?>
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Alle unausgebauten Höhlen nach Ländern gruppiert"/>
@@ -57,7 +54,7 @@
 
         <br class="clear">
 
-        <?php
+<?php
 printByCountry($pdo, 'caves');
 ?>
 

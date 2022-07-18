@@ -7,11 +7,10 @@
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
+    <link rel="alternate" hreflang="de" href="../../../german/explain/Index/Statistics.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -19,13 +18,14 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
 
-    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-    $statement->bindParam('limit', $limit, PDO::PARAM_INT);
-    ?>
+$statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' and closed=0 GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+$statement->bindParam('limit', $limit, PDO::PARAM_INT);
+?>
+
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: Statistics of showcaves.com"/>
     <meta property="og:type" content="website"/>
@@ -48,8 +48,10 @@
 
         <p>
             The following table is a statistics about the contents of <span class="mySiteName">showcaves.com</span>.
-            The site contains underground tourist sites from all over the world, which are
-            grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf..
+            The site contains underground tourist sites from all over the world, which are grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf.
+            The numbers give all listed sites, but not all of them are still open to the public.
+            <span class="mySiteName">showcaves.com</span> ist almost 30 years old, and about 75 sites were temporarily or finally closed to the public.
+            These are included in the below numbers.
         </p>
 
 
@@ -71,7 +73,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php
+<?php
             $oldCountry = '';
             $entries = 0;
 

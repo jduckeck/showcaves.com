@@ -7,8 +7,6 @@
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
@@ -35,10 +33,30 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../Maps/Map.html">Map of Norway</a></li>
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" class="mapIconEurope"></a>
+            <figcaption class="center">Europe Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of Norway</h1>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="NorwayMap">
+                <area shape="rect" coords="666,615,791,670" alt="Finland" target="_top" href="../../fi/Maps/index.html"/>
+                <area shape="rect" coords="313,617,440,653" alt="Sweden" target="_top" href="../../se/Maps/index.html"/>
+                <area shape="rect" coords="676,906,804,947" alt="Estonia" target="_top" href="../../ee/Maps/index.html"/>
+                <area shape="rect" coords="844,902,953,945" alt="Russia" target="_top" href="../../ru/Maps/index.html"/>
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/Norway.png" USEMAP="#NorwayMap">
         </div>
 
     </div>
@@ -51,7 +69,8 @@
                 <li><a data-ajax="false" target="_top" href="../index.html">Norway</a></li>
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="">By Fylke</a>
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Fylke</a>
                 <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
             </div>
         </div>

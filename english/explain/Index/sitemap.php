@@ -17,7 +17,19 @@ if ($statement->execute()) {
         $filename = $row['filename'];
         $url = $xml->addChild('url');
         $url->addChild('loc', "https://www.showcaves.com$filename");
-        $url->addChild('lastmod', date ("Y-m-d", filemtime($filebase.$filename)));
+        $url->addChild('lastmod', date("Y-m-d", filemtime($filebase . $filename)));
+        $url->addChild('changefreq', "monthly");
+    }
+}
+
+$sql = "SELECT filename FROM sights WHERE visible='yes' AND countrycode='de' ORDER BY sortby";
+$statement = $pdo->prepare($sql);
+if ($statement->execute()) {
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+        $filename = str_replace("/english/", "/german/", $row['filename']);
+        $url = $xml->addChild('url');
+        $url->addChild('loc', "https://www.showcaves.com$filename");
+        $url->addChild('lastmod', date("Y-m-d", filemtime($filebase . $filename)));
         $url->addChild('changefreq', "monthly");
     }
 }
@@ -29,7 +41,7 @@ if ($statement->execute()) {
         $filename = $row['path'];
         $url = $xml->addChild('url');
         $url->addChild('loc', "https://www.showcaves.com$filename");
-        $url->addChild('lastmod', date ("Y-m-d", filemtime($filebase.$filename)));
+        $url->addChild('lastmod', date("Y-m-d", filemtime($filebase . $filename)));
         $url->addChild('changefreq', "monthly");
     }
 }

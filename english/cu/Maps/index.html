@@ -7,8 +7,6 @@
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
@@ -35,10 +33,43 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-            </ul>
+        <figure class="left">
+            <a data-ajax="false" target="_top" href="../../car/Maps/index.html"><img alt="Caribbean Islands Map" src="../../../maps/Caribbean.png" class="mapIcon"></a>
+            <figcaption class="center">Caribbean Islands Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a data-ajax="false" target="_top" href="../../car/Maps/index.html"><img alt="Caribbean Islands Map" src="../../../maps/Caribbean.png" class="mapIcon"></a>
+            <figcaption class="center">Caribbean Islands Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of Cuba</h1>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="CubaMap">
+                <area shape="rect" coords="98,163,211,179" alt="Pinar del Rio Province" target="_top" href="../../cu/region/PinarDelRio.html"/>
+                <area shape="rect" coords="390,137,474,157" alt="Matanzas Province" target="_top" href="../../cu/region/Matanzas.html"/>
+                <area shape="rect" coords="574,209,637,253" alt="Sancti Spíritus Province" target="_top" href="../../cu/region/SanctiSpiritus.html"/>
+                <!--                <area shape="rect" coords="210,285,366,303" alt="Isla de la Juventud" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="214,81,279,98" alt="Artemisa" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="279,37,331,87" alt="La Habana" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="293,121,369,135" alt="Mayabeque" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="495,132,589,150" alt="Villa Clara" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="448,182,533,200" alt="Cienfuegos" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="655,199,723,248" alt="Ciego de Ávila" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="722,290,815,312" alt="Camagüey" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="802,334,888,354" alt="Las Tunas" target="_top" nohref="nohref"/>-->
+                <area shape="rect" coords="918,344,990,366" alt="Holguín" target="_top" href="../../cu/region/Holguin.html"/>
+                <!--                <area shape="rect" coords="846,408,920,427" alt="Granma" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="945,401,1019,442" alt="Santiago de Cuba" target="_top" nohref="nohref"/>-->
+                <!--                <area shape="rect" coords="1044,399,1155,421" alt="Guantánamo" target="_top" nohref="nohref"/>-->
+            </map>
+            <img alt="" src="../../../maps/Big/Cuba.png" USEMAP="#CubaMap" class="map">
         </div>
+
 
     </div>
 
@@ -50,13 +81,8 @@
                 <li><a data-ajax="false" target="_top" href="../index.html">Cuba</a></li>
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
-                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
-                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
-                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
-                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
-                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
-                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
                 <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
             </div>
         </div>

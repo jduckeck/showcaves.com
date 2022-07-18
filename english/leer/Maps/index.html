@@ -7,8 +7,6 @@
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
@@ -35,13 +33,28 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <figure class="left">
+            <a target="_top" href="../../explain/Maps/$continent$.html"><img alt="$continent$ Map" src="../../../maps/$continent$.png" class="mapIcon$continent$"></a>
+            <figcaption class="center">$continent$ Map</figcaption>
+        </figure>
 
-<!--        <figure class="center">-->
-<!--            <map name="$CountryTwoLetter$Map">-->
-<!--                <area shape="default" alt="">-->
-<!--            </map>-->
-<!--            <img alt="" src="../../../maps/Big/$CountryTwoLetter$.png" USEMAP="#$CountryTwoLetter$Map" class="map">-->
-<!--        </figure>-->
+        <figure class="right">
+            <a target="_top" href="../../explain/Maps/$continent$.html"><img alt="$continent$ Map" src="../../../maps/$continent$.png" class="mapIcon$continent$"></a>
+            <figcaption class="center">$continent$ Map</figcaption>
+        </figure>
+
+
+        <h1 class="center">Map of $Country$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="$CountryTwoLetter$Map">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/$Country$.png" USEMAP="#$CountryTwoLetter$Map" class="map">
+        </div>
 
     </div>
 
@@ -52,11 +65,12 @@
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">$Country$</a></li>
             </ul>
-        </div>
-        <div data-role="controlgroup" data-type="horizontal" class="center">
-            <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-            <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
-            <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regions</a>
+                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="ui-btn-active">Maps</a>
+                <a data-ajax="false" href="../topics/index.html" data-role="button" class="">Topics</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->

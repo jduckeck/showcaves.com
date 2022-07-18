@@ -52,6 +52,10 @@ p {
     page-break-before: auto;
 }
 
+.maxWidth {
+    max-width: 100%;
+}
+
 .right {
     text-align: right;
 }
@@ -67,6 +71,20 @@ p {
 .red {
     color: #FF0000;
     font-weight: bold;
+}
+
+.blue {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-position: auto;
 }
 
 .centerTable {
@@ -280,11 +298,19 @@ img.language {
     vertical-align: center;
 }
 
-img.map {
+.map {
+    font-size: 85%;
+    line-height: 1;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+    position: relative;
+    text-align: left;
+}
+
+.fullscreen {
+    width: 100%;
 }
 
 img.flag {
@@ -372,6 +398,7 @@ table.standard th {
     padding: 0.5em;
     text-align: left;
     background-color: white;
+    white-space: nowrap;
 }
 
 table.standard td {
@@ -427,7 +454,7 @@ table.statistics td {
 }
 
 table.statistics tr.chapter {
-    background-color: silver;
+    background-color: rgba(192, 192, 192, 0.36);
 }
 
 table.statistics td.left {
@@ -527,6 +554,14 @@ figure.left {
     clear: left;
     float: left;
     margin: 0 0.5em 0.5em 0;
+}
+@media print {
+
+    figure.left {
+        clear: right;
+        float: right;
+        margin: 0 0 0.5em 0.5em;
+    }
 }
 
 figure.gallery {
@@ -641,6 +676,10 @@ TABLE.centerImg {
     font-weight: bold;
 }
 
+.tt {
+    font-family: "Times New Roman", serif;
+}
+
 .mySiteName {
     color: #13305B;
     background-color: transparent;
@@ -703,7 +742,16 @@ hr.wide {
     position: relative;
 }
 
-.linklist1 {
+@media print {
+    .linklist {
+        display: none;
+    }
+    div[data-role~="header"] {
+        display: none;
+    }
+    div[data-role~="footer"] {
+        display: none;
+    }
 }
 
 .linklist2 {

@@ -7,26 +7,23 @@
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
+    <link rel="alternate" hreflang="de" href="../../../german/explain/Index/ShowcavesByCountry.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
     <script src="../../../js/jquery-1.11.3.min.js"></script>
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
-    -JUL-<!-- end responsive -->
+    <!-- end responsive -->
 
-
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
-    include("../../../php/showcaves.php");
-    $count = countSights($pdo, " AND category='showcaves'");
-    ?>
-
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
+include("../../../php/showcaves.php");
+$count = countSights($pdo, " AND category='showcaves'");
+?>
 
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: All Show Caves By Country"/>
@@ -57,7 +54,7 @@
 
         <br class="clear">
 
-        <?php
+<?php
 printByCountry($pdo, 'showcaves');
 ?>
 

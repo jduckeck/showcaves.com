@@ -3,15 +3,14 @@
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="keywords" content="Schauhöhle Schaubergwerk Grotte Schlucht Quelle Bergwerk Höhle Sehenswürdigkeit Führung Tourismus">
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
-    <meta http-equiv="content-language" content="en">
-    <meta name="language" content="en">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
+    <link rel="alternate" hreflang="en" href="../../../english/explain/Index/Statistics.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -19,13 +18,14 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
 
-    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-    $statement->bindParam('limit', $limit, PDO::PARAM_INT);
-    ?>
+$statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+$statement->bindParam('limit', $limit, PDO::PARAM_INT);
+?>
+
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Statistik von showcaves.com"/>
     <meta property="og:type" content="website"/>
@@ -49,6 +49,9 @@
         <p>
             Die folgende Tabelle ist eine Statistik über den Inhalt von <span class="mySiteName">showcaves.com</span>.
             Die Website enthält unterirdische touristische Sehenswürdigkeiten aus der ganzen Welt, die nach politischen Einheiten, also Ländern, gruppiert sind und als Höhlen, Schauhöhlen, Bergwerke oder künstliche Hohlräume klassifiziert wurden.
+            Die Zahlen geben alle aufgelisteten Sehenswürdigkeiten an, aber nicht alle davon sind noch für die Öffentlichkeit zugänglich.
+            <span class="mySiteName">showcaves.com</span> ist fast 30 Jahre alt, und etwa 75 Standorte wurden mittelfristig oder endgültig für die Öffentlichkeit geschlossen.
+            Diese sind in den unten stehenden Zahlen allerdings enthalten.
         </p>
 
 
@@ -70,7 +73,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php
+<?php
             $oldCountry = '';
             $entries = 0;
 

@@ -20,8 +20,14 @@ authors:
 (.+)[,] ([A-Z])[\.]
 <b class="smallCaps">$2. $1</b>
 
+<b class="smallCaps">([^<]+), ([^<]+)</b>
+<b class="smallCaps">$2 $1</b>
+
+closed mines
+<span class="closed"></span>
+
 LIVE AND DIE
-\((\d\d\d\d)\-(\d\d\d\d)\)
+\(\*(\d\d\d\d)\-(\d\d\d\d)\)
 (*$1-✝$2)
 
 <a data-lightbox="gallery" href="../../../(.*)/Big/(.*).jpg" data-title='(.*)'></a>
@@ -38,6 +44,13 @@ Literature:
 ([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ'\- \.]+);
 <b class="smallCaps">$2 $1</b>
 
+google search with spaces:
+\"https\:\/\/www\.google\.com\/search\?q\=([^\s"]*)\s([^"]*")
+"https://www.google.com/search?q=$1+$2
+
+\"https\:\/\/www\.google\.de\/search\?q\=([^\s"]*)\s([^"]*")
+"https://www.google.de/search?q=$1+$2
+
 <figure class="$1">
 $2
 <figcaption>$3</figcaption>
@@ -48,9 +61,20 @@ $1
 <figcaption>$2</figcaption>
 </figure>
 
+convert listitem to inline link:
+<li>(.+)ui-li-icon ui-corner-none (.+))</li>
+$1$2
+
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\.(\d+)
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t(.+)
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t([^\t]+)$
+
+hist table
+        (.+?) (.+)
+        <tr>
+            <td>$1</td>
+            <td>$2</td>
+        </tr>
 
 KML
 
