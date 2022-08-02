@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tunnel von Bech', '/english/lu/subterranea/Bech.html', 'Bech', 'Europe', 'lu', 'Luxembourg', 'subterranea', 'Grevenmacher', 49.751467, 6.353549);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta di Ciccio Felice', '/english/it/caves/CiccioFelice.html', 'CiccioFelice', 'Europe', 'it', 'Italy', 'caves', 'Abruzzo', 41.99250465439154, 13.428239943353828);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Jaskinia Ostrężnicka', '/english/pl/caves/Ostreznicka.html', 'Ostreznicka', 'Europe', 'pl', 'Poland', 'caves', 'Slaskie', 50.67485920716, 19.40070069145);
