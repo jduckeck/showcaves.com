@@ -1421,7 +1421,7 @@
 						<range>1000.000009310189</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine220</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.738588,48.38730300000001,0</coordinates>
@@ -2813,7 +2813,7 @@
 						<range>999.8063372966531</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>11.270184,47.26941600000001,0</coordinates>
@@ -2894,7 +2894,7 @@
 						<range>1000.000258988437</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave02</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>11.679787,47.061781,0</coordinates>
@@ -2992,7 +2992,7 @@
 						<tilt>0</tilt>
 						<range>189.8178958018643</range>
 					</LookAt>
-					<styleUrl>#msn_showcave02</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>11.671564,47.07987499999999,0</coordinates>
 					</Point>
@@ -7644,7 +7644,7 @@
 						<range>6011.490874428049</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst11</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-44.24076297793017,-15.12159079228761,0</coordinates>
@@ -7661,7 +7661,7 @@
 						<range>6011.491449227919</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst11</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-44.24189204717401,-15.12768723978012,0</coordinates>
@@ -7950,7 +7950,7 @@
 							<range>1000.000112318714</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine30</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-43.49891,-20.38606,0</coordinates>
@@ -7966,7 +7966,7 @@
 							<tilt>7.197032857000058e-12</tilt>
 							<range>212.1046320224647</range>
 						</LookAt>
-						<styleUrl>#msn_mine30</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>-43.492267,-20.387464,0</coordinates>
 						</Point>
@@ -8173,7 +8173,7 @@
 						<range>2049.81358847696</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-50.041339,-25.22345899999999,0</coordinates>
@@ -10519,7 +10519,7 @@
 						<range>1003.248089387883</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst3</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.545453,47.436064,0</coordinates>
@@ -10679,7 +10679,7 @@
 						<tilt>0</tilt>
 						<range>694.7208045236764</range>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>7.833916999999999,46.757309,0</coordinates>
 					</Point>
@@ -10857,7 +10857,7 @@
 						<range>1000.000350380846</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea01</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>9.10159,46.7698,0</coordinates>
@@ -11547,7 +11547,7 @@
 						<range>3074.897759784699</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave03</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>8.527089999999999,46.6639,0</coordinates>
@@ -11678,7 +11678,7 @@
 						<range>1149.853400507469</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine21</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.324134000000001,46.014842,0</coordinates>
@@ -11711,7 +11711,7 @@
 						<tilt>0</tilt>
 						<range>2924.914658415033</range>
 					</LookAt>
-					<styleUrl>#msn_subterranea4</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>8.387945,46.57715900000001,0</coordinates>
 					</Point>
@@ -11834,7 +11834,7 @@
 						<range>1000.0000949744</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine01</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>8.140046999999999,46.195895,0</coordinates>
@@ -11913,7 +11913,7 @@
 						<range>999.9998332602902</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave03</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.975041901104677,46.07445419854191,0</coordinates>
@@ -12005,7 +12005,7 @@
 						<range>1000.000512275553</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine12</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.62994,46.10636,0</coordinates>
@@ -12054,7 +12054,7 @@
 						<range>14045.18552490417</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst3</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>7.088722499999999,46.1579433,0</coordinates>
@@ -12343,7 +12343,7 @@
 						<range>1000.000144105717</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst4</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-157.3414529991867,-20.14662200057392,0</coordinates>
@@ -12364,7 +12364,7 @@
 						<range>1000.000073132159</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst4</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-157.6826989001878,-19.86472990094457,0</coordinates>
@@ -12381,7 +12381,7 @@
 						<roll>-28.3865330438103</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#msn_karst4</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-157.712802,-19.864986,0</coordinates>
@@ -12398,7 +12398,7 @@
 						<roll>-28.44410934978398</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#msn_karst4</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-157.687852,-19.873344,0</coordinates>
@@ -12824,7 +12824,7 @@
 						<range>1595.1733870955</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea00</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>115.767801,40.465018,0</coordinates>
@@ -14297,7 +14297,7 @@
 						<range>1462.04209766977</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave0</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>113.72272,38.262154,0</coordinates>
 					</Point>
@@ -14330,7 +14330,7 @@
 						<range>1000.000115908067</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave1</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>113.75799,38.204772,0</coordinates>
@@ -14536,7 +14536,7 @@
 							<range>423.6866554099304</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_subterranea3</styleUrl>
+						<styleUrl>#subterranea</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>110.319138,26.35102,0</coordinates>
@@ -14553,7 +14553,7 @@
 							<range>4029.082352999466</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_showcave2</styleUrl>
+						<styleUrl>#showcave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>110.58304,26.55581,0</coordinates>
@@ -14802,7 +14802,7 @@
 						<range>1590.451216797367</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave01</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>111.451992,27.706336,0</coordinates>
@@ -15564,7 +15564,7 @@
 						<range>1124.438613061733</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea1</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>119.953247,26.160305,0</coordinates>
@@ -15627,7 +15627,7 @@
 						<range>999.9996619319712</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave6</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.350274,24.838144,0</coordinates>
@@ -15661,7 +15661,7 @@
 						<range>1150.216200304848</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea1</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>120.301913,22.631389,0</coordinates>
@@ -15678,7 +15678,7 @@
 						<range>1047.003932791136</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea1</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>119.928953,26.142495,0</coordinates>
@@ -15695,7 +15695,7 @@
 						<range>1000.000306353086</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea1</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>119.92907,26.14063000000001,0</coordinates>
@@ -15712,7 +15712,7 @@
 						<range>1062.22681926385</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea1</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>118.320617,24.390301,0</coordinates>
@@ -15729,7 +15729,7 @@
 						<range>1171.593563922052</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea1</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>118.406514,24.453703,0</coordinates>
@@ -15746,7 +15746,7 @@
 						<range>1153.820822580602</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.529175,24.171662,0</coordinates>
@@ -15763,7 +15763,7 @@
 						<range>1000.000654949538</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave1</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>121.5078,23.480459,0</coordinates>
@@ -16049,7 +16049,7 @@
 							<range>1000.000180645757</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_showcave00</styleUrl>
+						<styleUrl>#showcave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>103.352219999097,25.07003999918354,0</coordinates>
@@ -16072,7 +16072,7 @@
 							<range>694.9629806163988</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_subterranea20</styleUrl>
+						<styleUrl>#subterranea</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>121.5207130367816,28.81670816406255,0</coordinates>
@@ -16106,7 +16106,7 @@
 						<tilt>0</tilt>
 						<range>1845.90088956127</range>
 					</LookAt>
-					<styleUrl>#msn_showcave01</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>119.5274963619991,29.92796013218195,0</coordinates>
 					</Point>
@@ -16425,7 +16425,7 @@
 					<range>20684.59540315748</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave120</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-72.633748,1.291716,0</coordinates>
@@ -16459,7 +16459,7 @@
 					<range>33562.98350154597</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave4</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<coordinates>-76.12666875651917,1.588900101156046,0</coordinates>
 				</Point>
@@ -16475,7 +16475,7 @@
 					<range>1589.772551117512</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave002</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-74.849823,5.887323,0</coordinates>
@@ -16492,7 +16492,7 @@
 					<range>403.1077961236191</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave4</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<coordinates>-81.729354,12.542607,0</coordinates>
 				</Point>
@@ -16523,7 +16523,7 @@
 					<range>1246.790766854997</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave5</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-75.81438900000001,5.598045,0</coordinates>
@@ -16540,7 +16540,7 @@
 					<range>1563.855730013173</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave120</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-72.686329,2.496572,0</coordinates>
@@ -16572,7 +16572,7 @@
 					<range>1115.821077927722</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_subterranea6</styleUrl>
+				<styleUrl>#subterranea</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-74.072013,4.601739,0</coordinates>
@@ -16589,7 +16589,7 @@
 					<range>1003.969490669166</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave120</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-72.753196,2.462356,0</coordinates>
@@ -16606,7 +16606,7 @@
 					<range>1000.000187399398</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_karst00</styleUrl>
+				<styleUrl>#karst</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-72.7073169998277,2.510835399967264,0</coordinates>
@@ -16614,7 +16614,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Tierradentro Rock Tombs</name>
-				<styleUrl>#msn_subterranea000</styleUrl>
+				<styleUrl>#subterranea</styleUrl>
 				<Point>
 					<coordinates>-76.03333333333333,2.583333333333334,0</coordinates>
 				</Point>
@@ -16630,7 +16630,7 @@
 					<range>1113.677360987579</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave002</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-73.95866100000001,5.811162,0</coordinates>
@@ -16739,7 +16739,7 @@
 					<tilt>0</tilt>
 					<range>1000.000052683011</range>
 				</LookAt>
-				<styleUrl>#msn_subterranea002</styleUrl>
+				<styleUrl>#subterranea</styleUrl>
 				<Point>
 					<coordinates>-83.5614629999841,9.260245000017584,0</coordinates>
 				</Point>
@@ -16755,7 +16755,7 @@
 					<range>1099.041739479047</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_subterranea002</styleUrl>
+				<styleUrl>#subterranea</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-84.07680000000001,9.933524,0</coordinates>
@@ -17196,7 +17196,7 @@
 					<tilt>0</tilt>
 					<range>1000.000138101466</range>
 				</LookAt>
-				<styleUrl>#msn_karst3</styleUrl>
+				<styleUrl>#karst</styleUrl>
 				<Point>
 					<coordinates>34.07538315007118,34.97174579815042,0</coordinates>
 				</Point>
@@ -18207,7 +18207,7 @@
 						<range>1978.307195998962</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave11</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>17.01573779568119,49.70644233345779,0</coordinates>
 					</Point>
@@ -18905,7 +18905,7 @@
 						<tilt>0</tilt>
 						<range>1000.000127119845</range>
 					</LookAt>
-					<styleUrl>#msn_subterranea60</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>13.60000000002565,52.71770999997845,0</coordinates>
 					</Point>
@@ -18921,7 +18921,7 @@
 						<tilt>1.440925611779336e-11</tilt>
 						<range>2417.348389645615</range>
 					</LookAt>
-					<styleUrl>#failed0</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>13.96028333333333,52.74043055555556,0</coordinates>
 					</Point>
@@ -19048,7 +19048,7 @@
 						<tilt>4.34237433384988e-11</tilt>
 						<range>458.9416039404224</range>
 					</LookAt>
-					<styleUrl>#msn_mine3</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>10.670564,52.129691,0</coordinates>
 					</Point>
@@ -19978,7 +19978,7 @@
 						<tilt>0</tilt>
 						<range>444.4694008232363</range>
 					</LookAt>
-					<styleUrl>#msn_mine9</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>7.216633999999999,51.48883599999999,0</coordinates>
 					</Point>
@@ -20176,7 +20176,7 @@
 							<range>1000.000076018911</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine22</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>8.82497,51.24919100000001,0</coordinates>
 						</Point>
@@ -20272,7 +20272,7 @@
 							<range>861.2069483069415</range>
 							<altitudeMode>relativeToGround</altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>7.642445,50.82310500000001,0</coordinates>
 						</Point>
@@ -20304,7 +20304,7 @@
 							<tilt>0</tilt>
 							<range>2615.005603108757</range>
 						</LookAt>
-						<styleUrl>#msn_karst20</styleUrl>
+						<styleUrl>#karst</styleUrl>
 						<Point>
 							<coordinates>7.781918328889868,51.38032523346107,0</coordinates>
 						</Point>
@@ -21144,7 +21144,7 @@
 							<range>999.9999777820793</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine1</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>8.368320000000001,50.74152,0</coordinates>
@@ -21600,7 +21600,7 @@
 							<range>999.9999363686474</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine6</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>11.73483709772959,50.52066590424707,0</coordinates>
@@ -22806,7 +22806,7 @@
 						<range>1000.00001521064</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#failed</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>12.99763959900036,51.24373910279935,0</coordinates>
@@ -23039,7 +23039,7 @@
 						<range>611.7072575300011</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine04</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>6.834239,49.21614399999999,0</coordinates>
 					</Point>
@@ -23105,7 +23105,7 @@
 						<range>1000.000024649809</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine04</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.679802,49.330378,0</coordinates>
@@ -23886,7 +23886,7 @@
 							<range>1000.00002764338</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_subterranea21</styleUrl>
+						<styleUrl>#subterranea</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>9.306990000000001,48.742116,0</coordinates>
@@ -25567,7 +25567,7 @@
 						<tilt>0</tilt>
 						<range>1000.000350567798</range>
 					</LookAt>
-					<styleUrl>#msn_mine0</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>8.219259999938945,48.31541999996417,0</coordinates>
 					</Point>
@@ -25615,7 +25615,7 @@
 						<tilt>0</tilt>
 						<range>315.7637804907499</range>
 					</LookAt>
-					<styleUrl>#msn_mine40</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>8.168115999999999,48.580295,0</coordinates>
 					</Point>
@@ -29328,7 +29328,7 @@
 						<range>1000.000018365419</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave30</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-0.1229416997071331,40.41874280040145,0</coordinates>
@@ -29686,7 +29686,7 @@
 						<range>594.599607056932</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine4</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-5.928459,38.120129,0</coordinates>
@@ -30814,7 +30814,7 @@
 					<range>1000.000360354184</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_subterranea21</styleUrl>
+				<styleUrl>#subterranea</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>25.076424,60.212709,0</coordinates>
@@ -33665,7 +33665,7 @@
 						<tilt>0</tilt>
 						<range>6264.036819691577</range>
 					</LookAt>
-					<styleUrl>#msn_showcave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>0.5318079999999999,49.815709,0</coordinates>
 					</Point>
@@ -33783,7 +33783,7 @@
 							<tilt>0</tilt>
 							<range>565.7759897041819</range>
 						</LookAt>
-						<styleUrl>#msn_mine8</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>4.067064,44.132212,0</coordinates>
 						</Point>
@@ -34065,7 +34065,7 @@
 						<range>1283.032374534873</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave12</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>2.412736,43.342345,0</coordinates>
 					</Point>
@@ -36914,7 +36914,7 @@
 						<range>1000.00005317553</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave0020</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.168857,46.13163,0</coordinates>
@@ -36979,7 +36979,7 @@
 						<roll>-75.10359898619902</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#msn_cave010</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.91018,46.020363,0</coordinates>
@@ -37303,7 +37303,7 @@
 						<range>1000.000225480528</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea9</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.465126,45.7873,0</coordinates>
@@ -37687,7 +37687,7 @@
 							<range>999.999972519274</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine7</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-5.243746,50.13859500000001,0</coordinates>
@@ -37769,7 +37769,7 @@
 							<tilt>6.812873816248294e-12</tilt>
 							<range>231.0555264817864</range>
 						</LookAt>
-						<styleUrl>#msn_mine100</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>-3.137093,54.602177,0</coordinates>
 						</Point>
@@ -37785,7 +37785,7 @@
 							<range>1000.000126290423</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine100</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-3.15825049966063,54.53378039922917,0</coordinates>
@@ -37801,7 +37801,7 @@
 							<tilt>7.122209798225685e-12</tilt>
 							<range>746.3498306199874</range>
 						</LookAt>
-						<styleUrl>#msn_mine100</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>-3.043957787210914,54.61059487310392,0</coordinates>
 						</Point>
@@ -39923,7 +39923,7 @@
 							<range>1000.000127260865</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave7</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-4.9845,55.14609999999999,0</coordinates>
@@ -39940,7 +39940,7 @@
 							<range>1000.000139818817</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave7</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-6.145606,56.87369,0</coordinates>
@@ -40588,7 +40588,7 @@
 							<tilt>0</tilt>
 							<range>2752.027963205641</range>
 						</LookAt>
-						<styleUrl>#msn_karst000</styleUrl>
+						<styleUrl>#karst</styleUrl>
 						<Point>
 							<coordinates>-4.044317,51.827144,0</coordinates>
 						</Point>
@@ -40894,7 +40894,7 @@
 							<range>1000.000136528436</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_karst000</styleUrl>
+						<styleUrl>#karst</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-3.405185862475906,52.1093163896902,0</coordinates>
@@ -40929,7 +40929,7 @@
 							<range>593.7790292967652</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine20</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-3.386635,51.610435,0</coordinates>
@@ -40950,7 +40950,7 @@
 							<range>1000.000017390644</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine20</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>-3.759374,51.715251,0</coordinates>
 						</Point>
@@ -44358,7 +44358,7 @@
 					<range>761.0645843222222</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave20</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-88.057318,14.228098,0</coordinates>
@@ -44396,7 +44396,7 @@
 						<tilt>0</tilt>
 						<range>2168.941765522005</range>
 					</LookAt>
-					<styleUrl>#msn_karst20</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<coordinates>17.19907378087573,43.4545641315417,0</coordinates>
 					</Point>
@@ -44609,7 +44609,7 @@
 						<range>4795.362114631111</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst20</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>14.915941,44.737965,0</coordinates>
@@ -45261,7 +45261,7 @@
 						<range>1000.000050262209</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine10</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>18.387845,47.367816,0</coordinates>
@@ -45281,7 +45281,7 @@
 							<range>1000.000104480594</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine10</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>16.827509,46.850387,0</coordinates>
@@ -45347,7 +45347,7 @@
 							<range>999.999966523176</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine11</styleUrl>
+						<styleUrl>#mine</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>18.705776,47.70259099999999,0</coordinates>
@@ -45379,7 +45379,7 @@
 							<range>5710.106466301866</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave001</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>18.762067,47.74191399999999,0</coordinates>
@@ -45426,7 +45426,7 @@
 							<range>999.9988044607317</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave000</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>18.5753373,47.72366759999999,0</coordinates>
@@ -45569,7 +45569,7 @@
 							<range>1000.000147025084</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave00000</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>20.423876,48.024897,0</coordinates>
@@ -45601,7 +45601,7 @@
 							<range>1000.000123231516</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave0000</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>20.417328,48.071594,0</coordinates>
@@ -45824,7 +45824,7 @@
 						<range>999.9999940041583</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine11</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.49913999747475,47.67000999752472,0</coordinates>
@@ -45841,7 +45841,7 @@
 						<range>999.9998602185927</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine11</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.49679124702961,47.65084195579287,0</coordinates>
@@ -47336,7 +47336,7 @@
 						<range>947.4452672958489</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave110</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>35.235337,31.77801,0</coordinates>
@@ -49988,7 +49988,7 @@
 						<range>1000.000055182747</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave1</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>13.42824110137756,41.99251359961161,0</coordinates>
@@ -53097,7 +53097,7 @@
 						<range>1000.000012945041</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst01</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.415147,40.816898,0</coordinates>
@@ -53179,7 +53179,7 @@
 						<tilt>0</tilt>
 						<range>1013.215624274166</range>
 					</LookAt>
-					<styleUrl>#msn_cave11</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>16.07648067666717,41.09433971579058,0</coordinates>
 					</Point>
@@ -53375,7 +53375,7 @@
 						<tilt>0.1038588591243738</tilt>
 						<range>2242.163880805458</range>
 					</LookAt>
-					<styleUrl>#msn_karst10</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<coordinates>16.569574,40.887295,0</coordinates>
 					</Point>
@@ -56045,7 +56045,7 @@
 						<range>999.9999042132065</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine2</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>140.136549,39.729167,0</coordinates>
@@ -59645,7 +59645,7 @@
 						<range>1000.189660749577</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine00</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>128.007032,36.961458,0</coordinates>
@@ -59686,7 +59686,7 @@
 						<range>1000.000192118642</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea210</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>128.1105240004112,38.31950680049142,0</coordinates>
@@ -59942,7 +59942,7 @@
 						<range>1000.000091458181</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea5</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>128.820946,35.371821,0</coordinates>
@@ -59980,7 +59980,7 @@
 							<tilt>0</tilt>
 							<range>996.2097016132403</range>
 						</LookAt>
-						<styleUrl>#msn_showcave10</styleUrl>
+						<styleUrl>#showcave</styleUrl>
 						<Point>
 							<coordinates>126.7456333456161,33.53734890022666,0</coordinates>
 						</Point>
@@ -61046,7 +61046,7 @@
 						<range>999.9999889400226</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea0</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>6.356668,49.815295,0</coordinates>
 					</Point>
@@ -61092,7 +61092,7 @@
 						<range>1000.000090075312</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge1</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.344257000000001,49.832146,0</coordinates>
@@ -61109,7 +61109,7 @@
 						<range>999.9999889400226</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave0</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.36031,49.81609,0</coordinates>
@@ -61126,7 +61126,7 @@
 						<range>1000.00007346101</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave0</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.359489,49.815089,0</coordinates>
@@ -61143,7 +61143,7 @@
 						<range>1000.000048992442</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge2</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.38031,49.81678999999999,0</coordinates>
@@ -61160,7 +61160,7 @@
 						<range>1000.000089098901</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave12</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.33881,49.82584,0</coordinates>
@@ -61177,7 +61177,7 @@
 						<range>999.9999462339928</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge0</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.40242,49.81564999999999,0</coordinates>
@@ -61194,7 +61194,7 @@
 						<range>999.9998819762542</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>6.353549,49.751467,0</coordinates>
@@ -63197,7 +63197,7 @@
 						<range>1756.488050993614</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave200</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-108.324941,30.151756,0</coordinates>
@@ -65509,7 +65509,7 @@
 					<range>1000.000187132749</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave20</styleUrl>
+				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-86.654792,13.373284,0</coordinates>
@@ -65562,7 +65562,7 @@
 						<range>1000.000014289874</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea21</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.693339,50.847778,0</coordinates>
@@ -65716,7 +65716,7 @@
 						<range>257.338853163177</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea02</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>5.821536000000001,50.865544,0</coordinates>
 					</Point>
@@ -65822,7 +65822,7 @@
 						<range>1000.000013918349</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine02</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.82301,50.86551000000001,0</coordinates>
@@ -65839,7 +65839,7 @@
 						<range>999.9999282249013</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea02</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.783518,50.86705,0</coordinates>
@@ -65856,7 +65856,7 @@
 						<range>999.9997413816695</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea02</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.789389998836121,50.8672399968227,0</coordinates>
@@ -65910,7 +65910,7 @@
 						<range>999.9999958859426</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea21</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.439560099172406,52.25372449844527,0</coordinates>
@@ -65944,7 +65944,7 @@
 						<range>1000.000019066994</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea10</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.110066,51.98151,0</coordinates>
@@ -65961,7 +65961,7 @@
 						<range>1000.000020529832</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea10</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.46809,51.89747999999999,0</coordinates>
@@ -65978,7 +65978,7 @@
 						<range>610.726572689991</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea0000</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.223031,52.070828,0</coordinates>
@@ -65998,7 +65998,7 @@
 						<range>1000.000003517264</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea0000</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>5.121044,52.090992,0</coordinates>
@@ -66018,7 +66018,7 @@
 						<range>1000.000016509548</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea11</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>4.57663,52.46527799999999,0</coordinates>
@@ -66038,7 +66038,7 @@
 						<range>1000.000005700869</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea21</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>3.492882,51.497243,0</coordinates>
@@ -66128,7 +66128,7 @@
 						<range>557.0274241889276</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine13</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>9.600609,59.630388,0</coordinates>
 					</Point>
@@ -66402,7 +66402,7 @@
 						<range>3711.218745485288</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine13</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>16.088251,67.131728,0</coordinates>
 					</Point>
@@ -66653,7 +66653,7 @@
 						<range>320.3798051351948</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine13</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>15.444501,78.237538,0</coordinates>
 					</Point>
@@ -68877,7 +68877,7 @@
 						<range>1000.000164931995</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave02000</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>125.0583276002355,11.64470030005781,0</coordinates>
@@ -68896,7 +68896,7 @@
 							<range>988.7878050142051</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_karst12</styleUrl>
+						<styleUrl>#karst</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>125.1641177261679,11.36529279486948,0</coordinates>
@@ -68913,7 +68913,7 @@
 							<range>1000.000210591188</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave01</styleUrl>
+						<styleUrl>#cave</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>125.1587486003052,11.35881560026921,0</coordinates>
@@ -68946,7 +68946,7 @@
 						<range>1000.000170218221</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave00</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>124.514064,12.1583,0</coordinates>
@@ -69062,7 +69062,7 @@
 						<range>1000.000079416425</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge00</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>124.1859978998288,8.159273499951134,0</coordinates>
@@ -69115,7 +69115,7 @@
 						<range>1000.000042595505</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave121</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>144.753423901072,13.27583740012459,0</coordinates>
@@ -69132,7 +69132,7 @@
 						<range>1000.000103877396</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave13</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>124.736727,10.46056,0</coordinates>
@@ -69149,7 +69149,7 @@
 						<range>1000.000211953875</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave121</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>125.4113340998193,11.61964249959389,0</coordinates>
@@ -69166,7 +69166,7 @@
 						<range>1000.000056698427</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave01</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>125.038816400611,11.93245800198873,0</coordinates>
@@ -69183,7 +69183,7 @@
 						<range>1000.000188876132</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave121</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>125.8290157004244,10.94896730045367,0</coordinates>
@@ -69200,7 +69200,7 @@
 						<range>1000.000046458139</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave121</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>124.7957865993865,10.61084139909026,0</coordinates>
@@ -69217,7 +69217,7 @@
 						<range>1000.000189485221</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave121</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>125.4676246002708,11.56640749980362,0</coordinates>
@@ -69234,7 +69234,7 @@
 						<range>1000.000223988594</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave121</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>125.163437499919,11.25920249977175,0</coordinates>
@@ -69314,7 +69314,7 @@
 						<range>1225.586950615719</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst1</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>120.216807,11.956272,0</coordinates>
@@ -69452,7 +69452,7 @@
 						<range>1000.000062132254</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine5</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>15.840196,50.759287,0</coordinates>
@@ -69469,7 +69469,7 @@
 						<range>2466.912444041999</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine5</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>16.844549,50.247932,0</coordinates>
 					</Point>
@@ -69575,7 +69575,7 @@
 						<range>1000.000036927986</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea8</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.02989759849556,50.77987660781461,0</coordinates>
@@ -69592,7 +69592,7 @@
 						<range>999.9999349084277</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine5</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>15.832987,50.793108,0</coordinates>
@@ -69624,7 +69624,7 @@
 						<range>508.010997625356</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine5</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>15.847441,50.758994,0</coordinates>
 					</Point>
@@ -69655,7 +69655,7 @@
 						<range>1000.000069629384</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine03</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.827705,50.645734,0</coordinates>
@@ -69706,7 +69706,7 @@
 						<range>1002.347164716718</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.40114680643631,50.67498978161424,0</coordinates>
@@ -70038,7 +70038,7 @@
 						<range>2450.737463778677</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea7</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>21.65056,54.180859,0</coordinates>
@@ -70077,7 +70077,7 @@
 						<range>1000.000007862133</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea2</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.121541,53.956314,0</coordinates>
@@ -70304,7 +70304,7 @@
 					<range>2167.916492573352</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_showcave20</styleUrl>
+				<styleUrl>#showcave</styleUrl>
 				<Point>
 					<coordinates>-66.81983099999999,18.345178,0</coordinates>
 				</Point>
@@ -70396,7 +70396,7 @@
 					<range>2167.916492573352</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_karst11</styleUrl>
+				<styleUrl>#karst</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-66.82406484170829,18.3430059615952,0</coordinates>
@@ -71194,7 +71194,7 @@
 						<range>1000.00014888917</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst20</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>25.20363,45.52569,0</coordinates>
@@ -71225,7 +71225,7 @@
 						<tilt>0</tilt>
 						<range>1000.000050660434</range>
 					</LookAt>
-					<styleUrl>#msn_cave02</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>25.292463,45.5075,0</coordinates>
 					</Point>
@@ -71364,7 +71364,7 @@
 						<range>1000.000098365947</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine22</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>22.790963,46.128931,0</coordinates>
@@ -73711,7 +73711,7 @@
 						<range>1957.200737762024</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine010</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>13.208097,63.40437699999999,0</coordinates>
 					</Point>
@@ -73756,7 +73756,7 @@
 						<tilt>1.302297652888759e-13</tilt>
 						<range>293387.0186318985</range>
 					</LookAt>
-					<styleUrl>#msn_cave3</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>14.155783,64.8873418,0</coordinates>
 					</Point>
@@ -73783,7 +73783,7 @@
 						<range>10486.20864397632</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine60</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>15.259134,57.45757100000001,0</coordinates>
 					</Point>
@@ -73849,7 +73849,7 @@
 						<range>1020.717108859556</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine60</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>20.225635,67.856307,0</coordinates>
 					</Point>
@@ -73895,7 +73895,7 @@
 						<range>12248.68495020869</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine60</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>20.705665,67.19588899999999,0</coordinates>
 					</Point>
@@ -73911,7 +73911,7 @@
 						<range>782.7421463570871</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine60</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>20.673944,67.17805199999999,0</coordinates>
@@ -74277,7 +74277,7 @@
 						<range>460.0731556357581</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine4</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>18.574837,65.061735,0</coordinates>
 					</Point>
@@ -74322,7 +74322,7 @@
 						<tilt>0</tilt>
 						<range>2796.870323009558</range>
 					</LookAt>
-					<styleUrl>#msn_cave3</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>18.93325,63.500605,0</coordinates>
 					</Point>
@@ -74389,7 +74389,7 @@
 						<tilt>0</tilt>
 						<range>4727.682470513128</range>
 					</LookAt>
-					<styleUrl>#msn_mine010</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>15.589132,59.846863,0</coordinates>
 					</Point>
@@ -74435,7 +74435,7 @@
 						<range>1000.000026096447</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine100</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.003115,59.957095,0</coordinates>
@@ -74549,7 +74549,7 @@
 						<range>515.5078757941773</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine60</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>15.006519,59.494478,0</coordinates>
 					</Point>
@@ -75456,7 +75456,7 @@
 						<range>7017.043835637105</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine4</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>14.857412,46.512047,0</coordinates>
 					</Point>
@@ -79699,7 +79699,7 @@
 						<range>1000.000092510377</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst2</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>34.0103,36.4482,0</coordinates>
@@ -79911,7 +79911,7 @@
 						<range>1001.131498038556</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_karst2</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>34.17962,36.525311,0</coordinates>
@@ -80417,7 +80417,7 @@
 						<tilt>0</tilt>
 						<range>833.2690438524105</range>
 					</LookAt>
-					<styleUrl>#msn_mine50</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>23.87308122725361,47.96046377280532,0</coordinates>
 					</Point>
@@ -83328,7 +83328,7 @@
 						<range>706.6248912271138</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_spring</styleUrl>
+					<styleUrl>#spring</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-84.136534,31.526293,0</coordinates>
@@ -84799,7 +84799,7 @@ Carter Caves State Resort Park</name>
 						<range>207.9596496070176</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine20</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>-82.951267,36.964103,0</coordinates>
 					</Point>
@@ -88549,7 +88549,7 @@ Carter Caves State Resort Park</name>
 						<range>1000.000013943211</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave4</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-85.82496500000001,35.331693,0</coordinates>
@@ -88582,7 +88582,7 @@ Carter Caves State Resort Park</name>
 						<tilt>0</tilt>
 						<range>722.1142744164472</range>
 					</LookAt>
-					<styleUrl>#msn_showcave4</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>-83.77410597113474,35.65805311968548,0</coordinates>
 					</Point>
@@ -88777,7 +88777,7 @@ Carter Caves State Resort Park</name>
 						<tilt>0</tilt>
 						<range>359.2942837492208</range>
 					</LookAt>
-					<styleUrl>#msn_karst2</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<coordinates>-100.109152,30.05755,0</coordinates>
 					</Point>
@@ -89086,7 +89086,7 @@ Carter Caves State Resort Park</name>
 						<range>178.2933582100979</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave10</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-109.7075996593774,38.58600469350634,0</coordinates>
@@ -89279,7 +89279,7 @@ Carter Caves State Resort Park</name>
 						<range>655.511966430615</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge01</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-109.783427,38.710678,0</coordinates>
@@ -90501,7 +90501,7 @@ Carter Caves State Resort Park</name>
 					<range>3119.207078531034</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_showcave3</styleUrl>
+				<styleUrl>#showcave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>106.117839,21.779442,0</coordinates>

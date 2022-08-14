@@ -123,3 +123,5 @@ kml
 \<styleUrl\>\#(cave|showcave|gorge|spring|karst|mine|subterranea)\d+\<\/styleUrl\>
 <styleUrl>#$1</styleUrl>
 
+\<styleUrl\>\#msn_(cave|showcave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
+
