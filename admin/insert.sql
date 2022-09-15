@@ -6,4 +6,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bunker Eichenthal', '/english/de/subterranea/Eichenthal.html', 'Eichenthal', 'Europe', 'de', 'Germany', 'subterranea', 'Norddeutschland', 54.062736, 12.724632);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cincinnati Museum Center', '/english/usa/subterranea/CincinnatiMuseumCenter.html', 'CincinnatiMuseumCenter', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'oh', 39.109932, -84.537275);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chapel Cave', '/english/usa/caves/Chapel.html', 'Chapel', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'oh', 39.467850, -82.558260);
 
