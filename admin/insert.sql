@@ -12,4 +12,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kachargadh Caves', '/english/in/caves/Kachargadh.html', 'Kachargadh', 'Asia', 'in', 'India', 'caves', 'Maharashtra', 21.287352, 80.602354);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Akka Mahadevi Guhalu', '/english/in/caves/AkkaMahadevi.html', 'AkkaMahadevi', 'Asia', 'in', 'India', 'caves', 'AndhraPradesh', 16.156899, 78.835697);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Shivthar Ghal', '/english/in/caves/ShivtharGhal.html', 'ShivtharGhal', 'Asia', 'in', 'India', 'caves', 'Maharashtra', 18.147868, 73.622301);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lenyadri Caves', '/english/in/subterranea/Lenyadri.html', 'Lenyadri', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 19.243448, 73.887419);
 
