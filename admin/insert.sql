@@ -16,4 +16,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Shivthar Ghal', '/english/in/caves/ShivtharGhal.html', 'ShivtharGhal', 'Asia', 'in', 'India', 'caves', 'Maharashtra', 18.147868, 73.622301);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Lenyadri Caves', '/english/in/subterranea/Lenyadri.html', 'Lenyadri', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 19.243448, 73.887419);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bagni San Filippo', '/english/it/springs/BagniSanFilippo.html', 'BagniSanFilippo', 'Europe', 'it', 'Italy', 'springs', 'Toscana', 42.929221, 11.703004);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grand Staircase – Escalante National Monument', '/english/usa/gorges/GrandStaircaseEscalante.html', 'GrandStaircaseEscalante', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ut', 37.47675455958949, -111.2203613885679);
 
