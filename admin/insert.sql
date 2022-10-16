@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Five Dragon Pool', '/english/cn/springs/FiveDragon.html', 'FiveDragon', 'Asia', 'cn', 'China', 'springs', 'Shandong', 36.665160, 117.008589);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'L\'Orrido di Osteno', '/english/it/gorges/Osteno.html', 'Osteno', 'Europe', 'it', 'Italy', 'gorges', 'Lombardia', 46.005563, 9.084802);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Zammer Lochputz', '/english/at/gorges/ZammerLochputz.html', 'ZammerLochputz', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.160961, 10.577230);
