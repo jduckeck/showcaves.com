@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'L\'Orrido di Osteno', '/english/it/gorges/Osteno.html', 'Osteno', 'Europe', 'it', 'Italy', 'gorges', 'Lombardia', 46.005563, 9.084802);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Zammer Lochputz', '/english/at/gorges/ZammerLochputz.html', 'ZammerLochputz', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.160961, 10.577230);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Raggaschlucht', '/english/at/gorges/Raggaschlucht.html', 'Raggaschlucht', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 46.928912, 13.141134);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Möllschlucht', '/english/at/gorges/Moellschlucht.html', 'Moellschlucht', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 47.030666, 12.852401);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Groppenstein- und Rabisch-Schlucht', '/english/at/gorges/Groppenstein.html', 'Groppenstein', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 46.940190, 13.185120);
