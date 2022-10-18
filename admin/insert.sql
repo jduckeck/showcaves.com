@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Möllschlucht', '/english/at/gorges/Moellschlucht.html', 'Moellschlucht', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 47.030666, 12.852401);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Groppenstein- und Rabisch-Schlucht', '/english/at/gorges/Groppenstein.html', 'Groppenstein', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 46.940190, 13.185120);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pirkner Klamm', '/english/at/gorges/Pirkner.html', 'Pirkner', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 46.756972, 12.919108);
