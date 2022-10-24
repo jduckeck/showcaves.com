@@ -20,3 +20,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Groppenstein- und Rabisch-Schlucht', '/english/at/gorges/Groppenstein.html', 'Groppenstein', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 46.940190, 13.185120);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pirkner Klamm', '/english/at/gorges/Pirkner.html', 'Pirkner', 'Europe', 'at', 'Austria', 'gorges', 'Kaernten', 46.756972, 12.919108);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Themenweg Unterirdische Schandtauber', '/english/de/karst/Schandtauber.html', 'Schandtauber', 'Europe', 'de', 'Germany', 'karst', 'Bauland', 49.346849, 9.974799);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kaiserklamm', '/english/at/gorges/Kaiserklamm.html', 'Kaiserklamm', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.538683, 11.916289);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kundler Klamm', '/english/at/gorges/Kundler.html', 'Kundler', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.463048, 11.987908);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Neubeurer Wolfsschlucht', '/english/de/gorges/NeubeurerWolfsschlucht.html', 'NeubeurerWolfsschlucht', 'Europe', 'de', 'Germany', 'gorges', 'Bayern', 47.777918, 12.137551);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Wutachschlucht', '/english/de/gorges/Wutachschlucht.html', 'Wutachschlucht', 'Europe', 'de', 'Germany', 'gorges', 'Schwarzwald', 47.842715, 8.319094);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gorge de Hourat', '/english/fr/gorges/Hourat.html', 'Hourat', 'Europe', 'fr', 'France', 'gorges', 'Aquitaine', 42.980210, -0.420970);
