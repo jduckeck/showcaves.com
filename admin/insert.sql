@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gorge de Hourat', '/english/fr/gorges/Hourat.html', 'Hourat', 'Europe', 'fr', 'France', 'gorges', 'Aquitaine', 42.980210, -0.420970);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ehnbachklamm', '/english/at/gorges/Ehnbachklamm.html', 'Ehnbachklamm', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.274888, 11.251263);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Reynard’s Cave', '/english/gb/caves/Reynards.html', 'Reynards', 'Europe', 'gb', 'Great Britain', 'caves', 'Derbyshire', 53.069607, -1.784959);
