@@ -219,6 +219,13 @@ div.itemFlow ul.literature {
     margin: 1em auto;
 }
 
+.invisibleBox {
+    text-align: left;
+    display: table;
+    border: 0;
+    margin: 0;
+}
+
 div.right {
     text-align: left;
     margin-left: auto;
