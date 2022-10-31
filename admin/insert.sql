@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Villa Pliniana Spring', '/english/it/springs/VillaPliniana.html', 'VillaPliniana', 'Europe', 'it', 'Italy', 'springs', 'Piemonte', 45.857707, 9.139600);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Parco Museo del Petrolio e delle Energie', '/english/it/mines/Petrolio.html', 'Petrolio', 'Europe', 'it', 'Italy', 'mines', 'Emilia-Romagna', 44.689615, 10.099015);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tyne Tunnel', '/english/gb/subterranea/TyneTunnel.html', 'TyneTunnel', 'Europe', 'gb', 'Great Britain', 'subterranea', 'TyneWear', 54.988863, -1.487428);
