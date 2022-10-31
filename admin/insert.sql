@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Dunning\'s Spring', '/english/usa/springs/Dunning.html', 'Dunning', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ia', 43.311793, -91.790144);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Malanaphy Springs', '/english/usa/springs/Malanaphy.html', 'Malanaphy', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ia', 43.355248, -91.834877);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Villa Pliniana Spring', '/english/it/springs/VillaPliniana.html', 'VillaPliniana', 'Europe', 'it', 'Italy', 'springs', 'Piemonte', 45.857707, 9.139600);
