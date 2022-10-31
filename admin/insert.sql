@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ffynnon Leinw', '/english/gb/springs/Leinw.html', 'Leinw', 'Europe', 'gb', 'Great Britain', 'springs', 'Flintshire', 53.20002821, -3.2186363);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Laywell', '/english/gb/springs/Laywell.html', 'Laywell', 'Europe', 'gb', 'Great Britain', 'springs', 'Devon', 50.383987, -3.5246634);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museum of Mineral Resources', '/english/jp/mines/Akita.html', 'Akita', 'Asia', 'jp', 'Japan', 'mines', 'Akita', 39.729167, 140.136549);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ecomuseo delle miniere di Valtoppa', '/english/it/mines/ValToppa.html', 'ValToppa', 'Europe', 'it', 'Italy', 'mines', 'Piemonte', 45.99264, 8.25427);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Dunning\'s Spring', '/english/usa/springs/Dunning.html', 'Dunning', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ia', 43.311793, -91.790144);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Malanaphy Springs', '/english/usa/springs/Malanaphy.html', 'Malanaphy', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ia', 43.355248, -91.834877);
