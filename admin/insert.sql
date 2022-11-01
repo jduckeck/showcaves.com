@@ -22,3 +22,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Parco Museo del Petrolio e delle Energie', '/english/it/mines/Petrolio.html', 'Petrolio', 'Europe', 'it', 'Italy', 'mines', 'Emilia-Romagna', 44.689615, 10.099015);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tyne Tunnel', '/english/gb/subterranea/TyneTunnel.html', 'TyneTunnel', 'Europe', 'gb', 'Great Britain', 'subterranea', 'TyneWear', 54.988863, -1.487428);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Natural Arch Scenic Area', '/english/usa/karst/NaturalArchSA.html', 'NaturalArchSA', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'ky', 36.841018, -84.512125);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Natural Bridge State Resort Park', '/english/usa/karst/NaturalBridgeSRP.html', 'NaturalBridgeSRP', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'ky', 37.773185, -83.685509);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gorge Underground', '/english/usa/subterranea/GorgeUnderground.html', 'GorgeUnderground', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ky', 37.759860, -83.664730);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Red River Gorge', '/english/usa/gorges/RedRiver.html', 'RedRiver', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ky', 37.833889, -83.607778);
