@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gorge Underground', '/english/usa/subterranea/GorgeUnderground.html', 'GorgeUnderground', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ky', 37.759860, -83.664730);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Red River Gorge', '/english/usa/gorges/RedRiver.html', 'RedRiver', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ky', 37.833889, -83.607778);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grottes troglodytes de la Jaubernie', '/english/fr/subterranea/Jaubernie.html', 'Jaubernie', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 44.74878094294701, 4.627037275473354);
