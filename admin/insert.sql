@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grottes troglodytes de la Jaubernie', '/english/fr/subterranea/Jaubernie.html', 'Jaubernie', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 44.74878094294701, 4.627037275473354);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grottes de Lamberta', '/english/ch/subterranea/Lamberta.html', 'Lamberta', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Freiburg', 46.953790, 7.086583);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Brûly-de-Pesche 1940', '/english/be/subterranea/BrulyDePesche1940.html', 'BrulyDePesche1940', 'Europe', 'be', 'Belgium', 'subterranea', 'Namur', 50.001618, 4.459093);
