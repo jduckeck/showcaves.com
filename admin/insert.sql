@@ -46,3 +46,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Piripiri Cave', '/english/nz/caves/Piripiri.html', 'Piripiri', 'Oceania', 'nz', 'New Zealand', 'caves', 'Waikato', -38.254980, 174.863290);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mangapohue Natural Bridge', '/english/nz/karst/Mangapohue.html', 'Mangapohue', 'Oceania', 'nz', 'New Zealand', 'karst', 'Waikato', -38.260257, 174.900565);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cirque de Consolation', '/english/fr/karst/Consolation.html', 'Consolation', 'Europe', 'fr', 'France', 'karst', 'Jura', 47.157456, 6.604846);
