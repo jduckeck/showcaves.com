@@ -41,6 +41,8 @@ VALUES ('yes', 'Rhummel Gorge', '/english/other/gorges/Rhummel.html', 'Rhummel',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'La Grotte de Gaulier', '/english/fr/subterranea/Gaulier.html', 'Gaulier', 'Europe', 'fr', 'France', 'subterranea', 'Champagne', 49.711158, 4.928399);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kaniwhaniwha Caves', '/english/nz/caves/Kaniwhaniwha.html', 'Kaniwhaniwha', 'Oceania', 'nz', 'New Zealand', 'caves', 'Waikato', -37.940130, 175.069610);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Piripiri Cave', '/english/nz/caves/Piripiri.html', 'Piripiri', 'Oceania', 'nz', 'New Zealand', 'caves', 'Waikato', -38.254980, 174.863290);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mangapohue Natural Bridge', '/english/nz/karst/Mangapohue.html', 'Mangapohue', 'Oceania', 'nz', 'New Zealand', 'karst', 'Waikato', -38.260257, 174.900565);
