@@ -52,3 +52,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Starzlachklamm', '/english/de/gorges/Starzlachklamm.html', 'Starzlachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Alpen', 47.531715, 10.309503);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ritterschlucht', '/english/de/gorges/Ritterschlucht.html', 'Ritterschlucht', 'Europe', 'de', 'Germany', 'gorges', 'Sachsen', 50.843694, 14.739728);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Schwedenlöcher', '/english/de/gorges/Schwedenlocher.html', 'Schwedenlocher', 'Europe', 'de', 'Germany', 'gorges', 'Elbsandsteingebirge', 50.969517, 14.072237);
