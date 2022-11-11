@@ -4,6 +4,14 @@ body {
     font-family: sans-serif;
 }
 
+.darkMode {
+    color: #EDEDED;
+    background-color: #000000;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
 A:hover {
     color: #FF0000;
     background-color: transparent;
