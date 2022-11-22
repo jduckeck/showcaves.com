@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Funtana Chistagna', '/english/ch/springs/FuntanaChistagna.html', 'FuntanaChistagna', 'Europe', 'ch', 'Switzerland', 'springs', 'Graubuenden', 46.8139289, 10.4254275);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Le Puits de la Brême', '/english/fr/karst/PuitsBreme.html', 'PuitsBreme', 'Europe', 'fr', 'France', 'karst', 'Jura', 47.119300, 6.11992);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Source du Verneau', '/english/fr/springs/Verneau.html', 'Verneau', 'Europe', 'fr', 'France', 'springs', 'Jura', 46.978427, 6.005368);
