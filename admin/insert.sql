@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Le Puits de la Brême', '/english/fr/karst/PuitsBreme.html', 'PuitsBreme', 'Europe', 'fr', 'France', 'karst', 'Jura', 47.119300, 6.11992);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Source du Verneau', '/english/fr/springs/Verneau.html', 'Verneau', 'Europe', 'fr', 'France', 'springs', 'Jura', 46.978427, 6.005368);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta del Buontalenti', '/english/it/subterranea/Buontalenti.html', 'Buontalenti', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.766210, 11.251911);
