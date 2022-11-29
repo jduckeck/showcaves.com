@@ -3,8 +3,7 @@
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="keywords"
-          content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
+    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
