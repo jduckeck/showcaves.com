@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bogovinska pećina', '/english/rs/showcaves/Bogovina.html', 'Bogovina', 'Europe', 'yu', 'Serbia', 'showcaves', 'EasternSerbia', 43.897073, 21.925374);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Prekonoška Pećina', '/english/rs/caves/Prekonoska.html', 'Prekonoska', 'Europe', 'yu', 'Serbia', 'caves', 'EasternSerbia', 43.380420, 22.102020);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Belgrade Underground Tour', '/english/rs/subterranea/Belgrade.html', 'Belgrade', 'Europe', 'rs', 'Serbia', 'subterranea', 'Belgrade', 44.820038, 20.453475);
