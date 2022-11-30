@@ -14,3 +14,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotta del Buontalenti', '/english/it/subterranea/Buontalenti.html', 'Buontalenti', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.766210, 11.251911);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Blue Spring', '/english/usa/springs/BlueSpringAR.html', 'BlueSpringAR', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ar', 36.4657, -93.8130);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hadži-Prodanova Pecina', '/english/rs/caves/HadziProdan.html', 'HadziProdan', 'Europe', 'yu', 'Serbia', 'caves', 'WesternSerbia', 43.6335, 20.242306);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bogovinska pećina', '/english/rs/showcaves/Bogovina.html', 'Bogovina', 'Europe', 'yu', 'Serbia', 'showcaves', 'EasternSerbia', 43.897073, 21.925374);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Prekonoška Pećina', '/english/rs/caves/Prekonoska.html', 'Prekonoska', 'Europe', 'yu', 'Serbia', 'caves', 'EasternSerbia', 43.380420, 22.102020);
