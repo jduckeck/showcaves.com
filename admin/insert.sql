@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Petrovaradin Fortress Underground', '/english/rs/subterranea/Petrovaradin.html', 'Petrovaradin', 'Europe', 'rs', 'Serbia', 'subterranea', 'Vojvodina', 45.248282, 19.869521);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Innocent Railway Tunnel', '/english/gb/subterranea/Innocent.html', 'Innocent', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Edinburgh', 55.941436, -3.172151);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de las Serpientes Colgantes', '/english/mx/caves/SerpientesColgantes.html', 'SerpientesColgantes', 'MiddleAmerica', 'mx', 'México', 'caves', 'QuintanaRoo', 19.929707459630734, -88.80616021696483);
