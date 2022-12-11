@@ -28,3 +28,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Innocent Railway Tunnel', '/english/gb/subterranea/Innocent.html', 'Innocent', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Edinburgh', 55.941436, -3.172151);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva de las Serpientes Colgantes', '/english/mx/caves/SerpientesColgantes.html', 'SerpientesColgantes', 'MiddleAmerica', 'mx', 'México', 'caves', 'QuintanaRoo', 19.929707459630734, -88.80616021696483);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentiero e gallerie minerarie del Cornacchino', '/english/it/mines/Cornacchino.html', 'Cornacchino', 'Europe', 'it', 'Italy', 'mines', 'Toscana', 42.7643431, 11.6778660);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta del Sassocolato', '/english/it/caves/Sassocolato.html', 'Sassocolato', 'Europe', 'it', 'Italy', 'caves', 'Toscana', 42.772480, 11.693480);
