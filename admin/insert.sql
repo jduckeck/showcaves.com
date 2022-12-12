@@ -32,3 +32,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sentiero e gallerie minerarie del Cornacchino', '/english/it/mines/Cornacchino.html', 'Cornacchino', 'Europe', 'it', 'Italy', 'mines', 'Toscana', 42.7643431, 11.6778660);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta del Sassocolato', '/english/it/caves/Sassocolato.html', 'Sassocolato', 'Europe', 'it', 'Italy', 'caves', 'Toscana', 42.772480, 11.693480);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bartholomäusschacht', '/english/de/mines/Bartholomaeusschacht.html', 'Bartholomaeusschacht', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.860274, 13.319493);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Westwallmuseum Bad Bergzabern', '/english/de/subterranea/WestwallmuseumBadBergzabern.html', 'WestwallmuseumBadBergzabern', 'Europe', 'de', 'Germany', 'subterranea', 'PfaelzerBergland', 49.107908, 8.005685);
