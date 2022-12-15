@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bartholomäusschacht', '/english/de/mines/Bartholomaeusschacht.html', 'Bartholomaeusschacht', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.860274, 13.319493);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Westwallmuseum Bad Bergzabern', '/english/de/subterranea/WestwallmuseumBadBergzabern.html', 'WestwallmuseumBadBergzabern', 'Europe', 'de', 'Germany', 'subterranea', 'PfaelzerBergland', 49.107908, 8.005685);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Rothschönberger Stolln', '/english/de/mines/Rothschoenberger.html', 'Rothschoenberger', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 51.006790, 13.366710);
