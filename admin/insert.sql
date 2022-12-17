@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wolfsschlucht Porta Westfalica', '/english/de/mines/WolfsschluchtPortaWestfalica.html', 'WolfsschluchtPortaWestfalica', 'Europe', 'de', 'Germany', 'mines', 'Weserbergland', 52.244541, 8.896018);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Silberseestollen', '/english/de/mines/Silberseestollen.html', 'Silberseestollen', 'Europe', 'de', 'Germany', 'mines', 'Weserbergland', 52.217885, 7.970924);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kanehon Quarry', '/english/jp/mines/Kanehon.html', 'Kanehon', 'Asia', 'jp', 'Japan', 'mines', 'Gunma', 36.604056, 139.829676);
