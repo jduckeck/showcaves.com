@@ -6,3 +6,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Silberseestollen', '/english/de/mines/Silberseestollen.html', 'Silberseestollen', 'Europe', 'de', 'Germany', 'mines', 'Weserbergland', 52.217885, 7.970924);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kanehon Quarry', '/english/jp/mines/Kanehon.html', 'Kanehon', 'Asia', 'jp', 'Japan', 'mines', 'Gunma', 36.604056, 139.829676);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Anavalos Spring', '/english/gr/springs/Anavalos.html', 'Anavalos', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.516347, 22.738666);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lerna', '/english/gr/springs/Lerna.html', 'Lerna', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.552887, 22.717401);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kefalari', '/english/gr/springs/Kefalari.html', 'Kefalari', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.596186, 22.687963);
