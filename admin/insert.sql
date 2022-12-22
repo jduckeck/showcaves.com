@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Lerna', '/english/gr/springs/Lerna.html', 'Lerna', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.552887, 22.717401);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kefalari', '/english/gr/springs/Kefalari.html', 'Kefalari', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.596186, 22.687963);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kefalari Spring', '/english/gr/springs/KefalariStymfalia.html', 'KefalariStymfalia', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.92134081094571, 22.534009867956836);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sintzi Spring', '/english/gr/springs/Sintzi.html', 'Sintzi', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.761681, 22.341144);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Elos Fokianou', '/english/gr/springs/Fokiano.html', 'Fokiano', 'Europe', 'gr', 'Greece', 'springs', 'Peloponnese', 37.074323, 22.969732);
