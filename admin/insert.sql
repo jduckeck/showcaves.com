@@ -22,3 +22,5 @@ INSERT INTO static (path)
 VALUES ('/english/explain/Topic/LivingIsolatedUnderground.html');
 INSERT INTO static (path)
 VALUES ('/german/explain/Topic/LivingIsolatedUnderground.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Homosassa Springs', '/english/usa/springs/Homosassa.html', 'Homosassa', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl', 28.799302, -82.588269);
