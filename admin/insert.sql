@@ -24,3 +24,7 @@ INSERT INTO static (path)
 VALUES ('/german/explain/Topic/LivingIsolatedUnderground.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Homosassa Springs', '/english/usa/springs/Homosassa.html', 'Homosassa', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl', 28.799302, -82.588269);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bányászati és Ipari Skanzen', '/english/hu/mines/Tatabanya.html', 'Tatabanya', 'Europe', 'hu', 'Hungary', 'mines', 'CentralTransdanubia', 47.561361, 18.394195);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tihanyi barátlakások', '/english/hu/subterranea/Tihany.html', 'Tihany', 'Europe', 'hu', 'Hungary', 'subterranea', 'CentralTransdanubia', 46.922866, 17.879085);
