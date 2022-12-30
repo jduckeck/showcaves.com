@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tihanyi barátlakások', '/english/hu/subterranea/Tihany.html', 'Tihany', 'Europe', 'hu', 'Hungary', 'subterranea', 'CentralTransdanubia', 46.922866, 17.879085);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Törley Pezsgőmanufaktúra', '/english/hu/subterranea/Torley.html', 'Torley', 'Europe', 'hu', 'Hungary', 'subterranea', 'Budapest', 47.430455, 19.035540);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Budai Váralagút', '/english/hu/subterranea/BudaTunnel.html', 'BudaTunnel', 'Europe', 'hu', 'Hungary', 'subterranea', 'Budapest', 47.498193, 19.039607);
