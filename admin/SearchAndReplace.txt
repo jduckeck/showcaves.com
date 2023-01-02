@@ -82,6 +82,7 @@ hist table
 KML
 
 \<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
+\<styleUrl\>\#([a-zA-Z]+)_?\d+\<\/styleUrl\>
 <styleUrl>#$1</styleUrl>
 
 \<Style id\=\"sh_([^\d]+)\d+\"\>
