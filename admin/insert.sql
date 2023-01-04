@@ -48,3 +48,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Los Riscos', '/english/es/karst/Riscos.html', 'Riscos', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 36.649100, -5.157070);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Fuente de los Cien Caños', '/english/es/springs/CienCanos.html', 'CienCanos', 'Europe', 'es', 'Spain', 'springs', 'Andalucia', 37.030147, -4.279933);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'El Pou Clar', '/english/es/springs/PouClar.html', 'PouClar', 'Europe', 'es', 'Spain', 'springs', 'Valenciana', 38.798751, -0.612748);
