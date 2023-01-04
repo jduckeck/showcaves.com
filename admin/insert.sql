@@ -32,3 +32,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Törley Pezsgőmanufaktúra', '/english/hu/subterranea/Torley.html', 'Torley', 'Europe', 'hu', 'Hungary', 'subterranea', 'Budapest', 47.430455, 19.035540);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Budai Váralagút', '/english/hu/subterranea/BudaTunnel.html', 'BudaTunnel', 'Europe', 'hu', 'Hungary', 'subterranea', 'Budapest', 47.498193, 19.039607);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Nacimiento del Río Genal', '/english/es/springs/RioGenal.html', 'RioGenal', 'Europe', 'es', 'Spain', 'springs', 'Andalucia', 36.632621, -5.117504);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fonte Aretusa', '/english/it/springs/Aretusa.html', 'Aretusa', 'Europe', 'it', 'Italy', 'springs', 'Sicilia', 37.057298, 15.292928);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta a Male', '/english/it/caves/Male.html', 'Male', 'Europe', 'it', 'Italy', 'caves', 'Abruzzo', 42.4300586, 13.4838566);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta Monello', '/english/it/caves/Monello.html', 'Monello', 'Europe', 'it', 'Italy', 'caves', 'Sicilia', 37.0177657, 15.1656409);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Boggle Hole', '/english/gb/caves/BoggleHole.html', 'BoggleHole', 'Europe', 'gb', 'Great Britain', 'caves', 'NorthYorkshire', 54.4229333, -0.5297227);
