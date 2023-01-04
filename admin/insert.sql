@@ -44,3 +44,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Boggle Hole', '/english/gb/caves/BoggleHole.html', 'BoggleHole', 'Europe', 'gb', 'Great Britain', 'caves', 'NorthYorkshire', 54.4229333, -0.5297227);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva del Hundidero', '/english/es/caves/Hundidero.html', 'Hundidero', 'Europe', 'es', 'Spain', 'caves', 'Andalucia', 36.751714, -5.237317);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Los Riscos', '/english/es/karst/Riscos.html', 'Riscos', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 36.649100, -5.157070);
