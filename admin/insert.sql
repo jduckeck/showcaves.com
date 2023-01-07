@@ -16,3 +16,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sentier karstique de Saint-Pé-de-Bigorre', '/english/fr/karst/SaintPeDeBigorre.html', 'SaintPeDeBigorre', 'Europe', 'fr', 'France', 'karst', 'Rhone', 43.085470, -0.139540);
 INSERT INTO static (path)
 VALUES ('/english/fr/topics/SentierKarstique.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Source Bleue Montperreux', '/english/fr/springs/BleueMontperreux.html', 'BleueMontperreux', 'Europe', 'fr', 'France', 'springs', 'Jura', 46.809100, 6.324140);
+INSERT INTO static (path)
+VALUES ('/german/explain/Topic/BlueSpring.html');
+INSERT INTO static (path)
+VALUES ('/english/explain/Topic/BlueSpring.html');
