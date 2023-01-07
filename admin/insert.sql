@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tannes et glacières du Margériaz', '/english/fr/karst/Margeriaz.html', 'Margeriaz', 'Europe', 'fr', 'France', 'karst', 'Rhone', 45.634878, 6.067296);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Speleo Rando de la Tanne du Neve', '/english/fr/caves/Neve.html', 'Neve', 'Europe', 'fr', 'France', 'caves', 'Rhone', 45.633920, 6.059250);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier karstique de Saint-Pé-de-Bigorre', '/english/fr/karst/SaintPeDeBigorre.html', 'SaintPeDeBigorre', 'Europe', 'fr', 'France', 'karst', 'Rhone', 43.085470, -0.139540);
+INSERT INTO static (path)
+VALUES ('/english/fr/topics/SentierKarstique.html');
