@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Caverne Gendarme', '/english/fr/caves/Gendarme.html', 'Gendarme', 'Europe', 'fr', 'France', 'caves', 'Reunion', -21.340202, 55.803468);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tunnel du Bassin Bleu', '/english/fr/caves/BassinBleu.html', 'BassinBleu', 'Europe', 'fr', 'France', 'caves', 'Reunion', -21.047600, 55.257021);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tannes et glacières du Margériaz', '/english/fr/karst/Margeriaz.html', 'Margeriaz', 'Europe', 'fr', 'France', 'karst', 'Rhone', 45.634878, 6.067296);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Speleo Rando de la Tanne du Neve', '/english/fr/caves/Neve.html', 'Neve', 'Europe', 'fr', 'France', 'caves', 'Rhone', 45.633920, 6.059250);
