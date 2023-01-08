@@ -22,3 +22,5 @@ INSERT INTO static (path)
 VALUES ('/german/explain/Topic/BlueSpring.html');
 INSERT INTO static (path)
 VALUES ('/english/explain/Topic/BlueSpring.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bétoire de la Risle', '/english/fr/karst/Risle.html', 'Risle', 'Europe', 'fr', 'France', 'karst', 'Normandie', 48.978756, 0.783229);
