@@ -26,3 +26,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bétoire de la Risle', '/english/fr/karst/Risle.html', 'Risle', 'Europe', 'fr', 'France', 'karst', 'Normandie', 48.978756, 0.783229);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Fosse Dionne', '/english/fr/springs/Dionne.html', 'Dionne', 'Europe', 'fr', 'France', 'springs', 'Bourgogne', 47.856596, 3.970641);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'La Cité du Volcan', '/english/fr/subterranea/CiteDuVulcan.html', 'CiteDuVulcan', 'Europe', 'fr', 'France', 'subterranea', 'Reunion', -21.202922, 55.574485);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Caverne des Lataniers', '/english/fr/caves/Lataniers.html', 'Lataniers', 'Europe', 'fr', 'France', 'caves', 'Reunion', -21.205669, 55.651406);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tunnel de lave Citron Galets', '/english/fr/caves/CitronGalets.html', 'CitronGalets', 'Europe', 'fr', 'France', 'caves', 'Reunion', -21.2983236, 55.7998972);
