@@ -32,3 +32,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Caverne des Lataniers', '/english/fr/caves/Lataniers.html', 'Lataniers', 'Europe', 'fr', 'France', 'caves', 'Reunion', -21.205669, 55.651406);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tunnel de lave Citron Galets', '/english/fr/caves/CitronGalets.html', 'CitronGalets', 'Europe', 'fr', 'France', 'caves', 'Reunion', -21.2983236, 55.7998972);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Third Man Tour', '/english/at/subterranea/3rdMan.html', '3rdMan', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.200877, 16.367617);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Herzgruft', '/english/at/subterranea/Herzgruft.html', 'Herzgruft', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.205817, 16.367789);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Virgilkapelle', '/english/at/subterranea/Virgilkapelle.html', 'Virgilkapelle', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.208345, 16.372304);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kaiserliche Schatzkammer', '/english/at/subterranea/KaiserlicheSchatzkammer.html', 'KaiserlicheSchatzkammer', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.206999, 16.366133);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kapuzinergruft', '/english/at/subterranea/Kapuzinergruft.html', 'Kapuzinergruft', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.205671, 16.370164);
