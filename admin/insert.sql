@@ -42,3 +42,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kaiserliche Schatzkammer', '/english/at/subterranea/KaiserlicheSchatzkammer.html', 'KaiserlicheSchatzkammer', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.206999, 16.366133);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kapuzinergruft', '/english/at/subterranea/Kapuzinergruft.html', 'Kapuzinergruft', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.205671, 16.370164);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kellergasse Purbach', '/english/at/subterranea/Purbach.html', 'Purbach', 'Europe', 'at', 'Austria', 'subterranea', 'Burgenland', 47.915506, 16.691751);
