@@ -118,6 +118,9 @@ insert longdeep
 INSERT INTO `longdeep` (`depth`, `length`, `kat`, `name`, `state`, `county`, `town`, `reference`, `country`, `countrycode`, `type`)
 VALUES ($1, $2, "$3", "$4", "$5", "$6", "$7", "$8", "China", "cn", "karst");
 
+<img class="([^\"]*)" src="([^\"]*)" alt="([^\"]*)">
+<img alt="$3" class="$1" src="$2">
+
 kml
 ---------------------------------------------------------------------------------------------------------------
 
