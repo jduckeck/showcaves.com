@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bat Bar (Lost Canyon Cave)', '/english/usa/showcaves/BatBar.html', 'BatBar', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'mo', 36.530649, -93.253027);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Water Holes Cave', '/english/bg/caves/WaterHoles.html', 'WaterHoles', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 42.733653, 24.900148);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bridge of God', '/english/bg/caves/BridgeOfGod.html', 'BridgeOfGod', 'Europe', 'bg', 'Bulgaria', 'caves', 'Vratsa', 43.315179, 23.552064);

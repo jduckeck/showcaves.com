@@ -20,41 +20,64 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Khaskovo Province Region Bulgaria showcaves.com">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Bulgaria by Region: Khaskovo Province"/>
+    <meta property="og:title" content="Maps of Bulgaria: $CaveName$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Bulgaria by Region: Khaskovo Province</title>
+    <title>Maps of Bulgaria: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../bg/Maps/$FileName$.html">$CaveName$</a></li>
+            <li><a data-ajax="false" target="_top" href="../../bg/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <h1 class="center">Khaskovo Province</h1>
+        <figure class="left">
+            <a target="_top" href="../../bg/Maps/index.html"><img alt="Bulgaria Map" src="../../../maps/Bulgaria.png" class="mapIcon"></a>
+            <figcaption class="center">Bulgaria Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../bg/Maps/index.html"><img alt="Bulgaria Map" src="../../../maps/Bulgaria.png" class="mapIcon"></a>
+            <figcaption class="center">Bulgaria Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
-        </p>
-
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../../bg/subterranea/Aleksandrovo.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Aleksandrovo Thracian Tomb</a></li>
-        </ul>
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Khaskovo+Province"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Khaskovo Province"</a></li>
-        </ul>
+        <div class="center">
+            <map name="BulgariaMap">
+                <area shape="rect" alt="Orlova Čuka" coords="459,125,545,140" href="../../bg/showcaves/OrlovaTschuka.html">
+                <area shape="rect" alt="Devataška peštera" coords="268,182,340,196" href="../../bg/showcaves/Devataska.html">
+                <area shape="rect" alt="Temnata dupka" coords="221,187,235,200" href="../caves/Temnata.html">
+                <area shape="rect" alt="Temnata dupka" coords="215,199,306,213" href="../caves/Temnata.html">
+                <area shape="rect" alt="Sueva Dupka" coords="243,216,331,231" href="../../bg/showcaves/SuevaDupka.html">
+                <area shape="rect" alt="Ledenika" coords="89,185,158,199" href="../../bg/showcaves/Ledenika.html">
+                <area shape="rect" alt="Magura" coords="40,92,99,106" href="../../bg/showcaves/Magura.html">
+                <area shape="rect" alt="Snežanka" coords="251,387,321,400" href="../../bg/showcaves/Snezhanka.html">
+                <area shape="rect" alt="Bacho Kiro" coords="404,228,484,240" href="../../bg/showcaves/BachoKiro.html">
+                <area shape="rect" alt="Iagodinska Peštera" coords="253,451,373,467" href="../../bg/showcaves/Iagodinska.html">
+                <area shape="rect" alt="Ivanovo Rock Churches" coords="460,108,600,123" href="../../bg/subterranea/Ivanovo.html">
+                <area shape="rect" alt="Greece" coords="203,500,267,518" href="../../gr/Maps/index.html">
+                <area shape="rect" alt="Greece" coords="412,523,478,543" href="../../gr/Maps/index.html">
+                <area shape="rect" alt="Turkey" coords="558,424,621,445" href="../../tr/Maps/index.html">
+                <area shape="rect" alt="Romania" coords="206,59,281,76" href="../../ro/Maps/index.html">
+                <area shape="rect" alt="Romania" coords="413,23,488,39" href="../../ro/Maps/index.html">
+                <area shape="rect" alt="Romania" coords="685,16,758,32" href="../../ro/Maps/index.html">
+                <area shape="rect" alt="Serbia" coords="7,183,65,203" href="../../rs/Maps/index.html">
+                <area shape="rect" alt="North Macedonia" coords="0,431,92,447" href="../../other/region/mkMap.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/BulgariaOld.png" USEMAP="#BulgariaMap" class="map">
+        </div>
 
     </div>
 
@@ -64,7 +87,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Bulgaria</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">List</a>
+                <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Map</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
