@@ -6,3 +6,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Water Holes Cave', '/english/bg/caves/WaterHoles.html', 'WaterHoles', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 42.733653, 24.900148);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bridge of God', '/english/bg/caves/BridgeOfGod.html', 'BridgeOfGod', 'Europe', 'bg', 'Bulgaria', 'caves', 'Vratsa', 43.315179, 23.552064);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Stalbitsata Cave', '/english/bg/caves/Stalbitsata.html', 'Stalbitsata', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 43.217700, 24.973178);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Liar\'s Cave', '/english/bg/caves/LiarsCave.html', 'LiarsCave', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 43.242010, 24.967250);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Boninska Peshtera', '/english/bg/caves/Boninska.html', 'Boninska', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 43.2400000, 25.0466667);
