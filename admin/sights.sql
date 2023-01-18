@@ -2575,7 +2575,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2584, 'yes', 0, 'Djavolskoto Garlo Cave', '/english/bg/showcaves/Djavolskoto.html', NULL, 'Djavolskot', 'Europe', 'Bulgaria', 'bg', 'Smolyan', 'showcaves', '41.614414022649150', '24.380026172807220'),
 (2586, 'yes', 0, 'Bacho Kiro', '/english/bg/showcaves/BachoKiro.html', NULL, 'BachoKiro', 'Europe', 'Bulgaria', 'bg', 'Gabrovo', 'showcaves', '42.948335406828260', '25.427706179992970'),
 (2587, 'yes', 0, 'Magura', '/english/bg/showcaves/Magura.html', NULL, 'Magura', 'Europe', 'Bulgaria', 'bg', 'Vidin', 'showcaves', '43.727491525170120', '22.579816281834780'),
-(2588, 'yes', 0, 'Devataška peštera', '/english/bg/showcaves/Devataska.html', NULL, 'Devataska', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'showcaves', '43.233492000000000', '24.885477000000000'),
+(2588, 'yes', 0, 'Devetashka peshtera', '/english/bg/showcaves/Devataska.html', NULL, 'Devataska', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'showcaves', '43.233492000000000', '24.885477000000000'),
 (2589, 'yes', 0, 'Orlova Čuka', '/english/bg/showcaves/OrlovaTschuka.html', NULL, 'OrlovaTsch', 'Europe', 'Bulgaria', 'bg', 'Rousse', 'showcaves', '43.593260000000000', '25.960200000000000'),
 (2590, 'yes', 0, 'Iagodinska Peštera', '/english/bg/showcaves/Iagodinska.html', NULL, 'Iagodinska', 'Europe', 'Bulgaria', 'bg', 'Smolyan', 'showcaves', '41.593549021585790', '24.323736995371510'),
 (3370, 'yes', 0, 'Cenote Ponderosa', '/english/mx/karst/Ponderosa.html', NULL, 'Ponderosa', 'MiddleAmerica', 'México', 'mx', 'QuintanaRoo', 'karst', '20.490091026884540', '-87.266742386808100'),

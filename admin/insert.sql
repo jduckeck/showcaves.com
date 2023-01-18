@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tabashka Cave', '/english/bg/caves/Tabashka.html', 'Tabashka', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 43.127524, 24.712272);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Garvanitsa', '/english/bg/caves/Garvanitsa.html', 'Garvanitsa', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 43.2116528, 25.0476341);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maarata Cave', '/english/bg/caves/Maarata.html', 'Maarata', 'Europe', 'bg', 'Bulgaria', 'caves', 'Lovech', 43.242320, 25.034150);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tsar Asen Mine', '/english/bg/mines/TsarAsen.html', 'TsarAsen', 'Europe', 'bg', 'Bulgaria', 'mines', 'Pazardzhik', 42.355484, 24.340703);
