@@ -21,54 +21,21 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of Montenegro"/>
+    <meta property="og:title" content="Show Mines of Montenegro"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of Montenegro</title>
+    <title>Show Mines of Montenegro</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <figure class="left">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" border="1" hspace="0" width="100" height="68"></a>
-            <figcaption class="center">Europe Map</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a target="_top" href="../../explain/Maps/Europe.html"><img alt="Europe Map" src="../../../maps/Europe.gif" border="1" hspace="0" width="100" height="68"></a>
-            <figcaption class="center">Europe Map</figcaption>
-        </figure>
-
-
-        <h1 class="center">Map of Montenegro</h1>
-        <h2 class="center"></h2>
-
-        <br class="clear">
-
-        <div class="center">
-            <map name="MontenegroMap">
-                <area shape="rect" coords="655,289,816,332" alt="Đalovića Pećina" target="_top" href="../../other/caves/Djalovica.html"/>
-                <area shape="rect" coords="273,191,424,234" alt="Crvena Stijena" target="_top" href="../../other/caves/CrvenaStijena.html"/>
-                <area shape="rect" coords="76,644,215,691" alt="Lipci Cave" target="_top" href="../../other/caves/Lipci.html"/>
-                <area shape="circle" coords="262,757,18" alt="Obodska Cave" target="_top" href="../../other/caves/Obodska.html"/>
-                <area shape="rect" coords="244,780,364,801" alt="Obodska Cave" target="_top" href="../../other/caves/Obodska.html"/>
-                <area shape="circle" coords="239,744,17" alt="Lipska Cave" target="_top" href="../../other/showcaves/Lipska.html"/>
-                <area shape="rect" coords="138,757,241,774" alt="Lipska Cave" target="_top" href="../../other/showcaves/Lipska.html"/>
-                <area shape="circle" coords="225,739,18" alt="Cetinjska Pećina" target="_top" href="../../other/caves/Cetinjska.html"/>
-                <area shape="rect" coords="247,729,362,747" alt="Cetinjska Pećina" target="_top" href="../../other/caves/Cetinjska.html"/>
-                <area shape="rect" coords="252,539,425,578" alt="Ostrog Monastery" target="_top" href="../../other/subterranea/Ostrog.html"/>
-                <area shape="rect" coords="39,51,201,108" alt="Bosnia and Herzegovina" target="_top" href="../../ba/Maps/index.html"/>
-                <area shape="rect" coords="703,108,802,145" alt="Serbia" target="_top" href="../../rs/Maps/index.html"/>
-                <area shape="rect" coords="772,575,869,615" alt="Kosovo" target="_top" href="../../../english/rs/Maps/index.html"/>
-                <area shape="rect" coords="534,828,636,859" alt="Albania" target="_top" href="../../other/region/alMap.html"/>
-                <area shape="default" alt="">
-            </map>
-            <img alt="" src="../../../maps/Big/Montenegro.png" USEMAP="#MontenegroMap" class="map">
+        <div id="MenueEntries">
+            <ul class="linklist" data-role="listview" data-inset="true">
+            </ul>
         </div>
 
     </div>
@@ -78,8 +45,17 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/me.html">Montenegro</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Montenegro</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
+                <a data-ajax="false" href="../caves/index.html" data-role="button" class="">Caves</a>
+                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
+                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
+                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
+                <a data-ajax="false" href="../mines/index.html" data-role="button" class="ui-btn-active">Mines</a>
+                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
