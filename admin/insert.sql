@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tunel Ponikve', '/english/ba/showcaves/Ponikve.html', 'Ponikve', 'Europe', 'ba', 'Bosnia and Herzegovina', 'showcaves', 'Federation', 44.179669, 18.337533);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Strada della Forra', '/english/it/gorges/Forra.html', 'Forra', 'Europe', 'it', 'Italy', 'gorges', 'Piemonte', 45.774120, 10.766001);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jelovačka Pećina', '/english/me/caves/Jelovacka.html', 'Jelovacka', 'Europe', 'me', 'Montenegro', 'caves', NULL, 43.1531093, 19.0526336);
