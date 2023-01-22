@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Unška koliševka', '/english/si/karst/Unec.html', 'Unec', 'Europe', 'si', 'Slovenia', 'karst', 'Notranjska', 45.815450, 14.265500);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'The Secret Rooms of Hotel Jama', '/english/si/subterranea/HotelJama.html', 'HotelJama', 'Europe', 'si', 'Slovenia', 'subterranea', 'Notranjska', 45.781236, 14.205748);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Predjamska Jama', '/english/si/showcaves/Predjamska.html', 'Predjamska', 'Europe', 'si', 'Slovenia', 'showcaves', 'Notranjska', 45.815709, 14.127313);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Expo Cave Karst', '/english/si/subterranea/Expo.html', 'Expo', 'Europe', 'si', 'Slovenia', 'subterranea', 'Notranjska', 45.781626, 14.205390);
