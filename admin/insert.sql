@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Predjamska Jama', '/english/si/showcaves/Predjamska.html', 'Predjamska', 'Europe', 'si', 'Slovenia', 'showcaves', 'Notranjska', 45.815709, 14.127313);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Expo Cave Karst', '/english/si/subterranea/Expo.html', 'Expo', 'Europe', 'si', 'Slovenia', 'subterranea', 'Notranjska', 45.781626, 14.205390);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Giant Springs', '/english/usa/springs/Giant.html', 'Giant', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mt', 47.534314, -111.230138);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'McGregor\'s Cave', '/english/gb/subterranea/McGregor.html', 'McGregor', 'Europe', 'gb', 'Great Britain', 'subterranea', 'PerthKinross', 56.700833, -4.098889);
