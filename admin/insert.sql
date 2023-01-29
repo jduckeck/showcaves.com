@@ -17,6 +17,12 @@ VALUES ('yes', 'Grotte de Saint-Antoine', '/english/fr/caves/SaintAntoine.html',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte de Brando', '/english/fr/caves/Brando.html', 'Brando', 'Europe', 'fr', 'France', 'caves', 'Corse', 42.768279, 9.468197);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cisternone', '/english/it/subterranea/Cisternone.html', 'Cisternone', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.552692, 10.319513);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo civico "La Città Sotterranea"', '/english/it/subterranea/Chiusi.html', 'Chiusi', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.016950, 11.948060);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cisternone Romano', '/english/it/subterranea/CisternoneRomano.html', 'CisternoneRomano', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 41.255591, 13.601127);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Expo Cave Karst', '/english/si/subterranea/Expo.html', 'Expo', 'Europe', 'si', 'Slovenia', 'subterranea', 'Notranjska', 45.781626, 14.205390);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Giant Springs', '/english/usa/springs/Giant.html', 'Giant', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mt', 47.534314, -111.230138);
