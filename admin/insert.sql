@@ -11,6 +11,12 @@ VALUES ('yes', 'The Secret Rooms of Hotel Jama', '/english/si/subterranea/HotelJ
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Predjamska Jama', '/english/si/showcaves/Predjamska.html', 'Predjamska', 'Europe', 'si', 'Slovenia', 'showcaves', 'Notranjska', 45.815709, 14.127313);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte du Puits Saint Barthélémy', '/english/fr/caves/PuitsSaintBarthelemy.html', 'PuitsSaintBarthelemy', 'Europe', 'fr', 'France', 'caves', 'Corse', 41.3866463, 9.1534201);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte de Saint-Antoine', '/english/fr/caves/SaintAntoine.html', 'SaintAntoine', 'Europe', 'fr', 'France', 'caves', 'Corse', 41.3856084, 9.1488004);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte de Brando', '/english/fr/caves/Brando.html', 'Brando', 'Europe', 'fr', 'France', 'caves', 'Corse', 42.768279, 9.468197);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Expo Cave Karst', '/english/si/subterranea/Expo.html', 'Expo', 'Europe', 'si', 'Slovenia', 'subterranea', 'Notranjska', 45.781626, 14.205390);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Giant Springs', '/english/usa/springs/Giant.html', 'Giant', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mt', 47.534314, -111.230138);
