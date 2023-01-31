@@ -46,3 +46,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sentier karstique de Saint-Paul', '/english/fr/karst/SaintPaul.html', 'SaintPaul', 'Europe', 'fr', 'France', 'karst', 'MidiPyrenees', 43.024736, 0.795140);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Sentier karstique de Sorèze', '/english/fr/karst/Soreze.html', 'Soreze', 'Europe', 'fr', 'France', 'karst', 'MidiPyrenees', 43.4456522, 2.0847132);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier karstique de Rioz', '/english/fr/karst/Rioz.html', 'Rioz', 'Europe', 'fr', 'France', 'karst', 'FrancheComte', 47.411987, 6.062455);
