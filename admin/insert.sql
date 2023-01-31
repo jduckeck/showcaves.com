@@ -34,3 +34,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Giant Springs', '/english/usa/springs/Giant.html', 'Giant', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mt', 47.534314, -111.230138);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'McGregor\'s Cave', '/english/gb/subterranea/McGregor.html', 'McGregor', 'Europe', 'gb', 'Great Britain', 'subterranea', 'PerthKinross', 56.700833, -4.098889);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier karstique de Beurey-sur-Saulx', '/english/fr/karst/BeureySurSaulx.html', 'BeureySurSaulx', 'Europe', 'fr', 'France', 'karst', 'Lorraine', 48.745083, 5.025106);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier karstique de La Romieu-Gazaupouy', '/english/fr/karst/LaRomieu.html', 'LaRomieu – Gazaupouy', 'Europe', 'fr', 'France', 'karst', 'MidiPyrenees', 43.982451, 0.497971);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier Karstique Gouffres d\'Harizpé', '/english/fr/karst/Harizpe.html', 'Harizpe', 'Europe', 'fr', 'France', 'karst', 'Aquitaine', 43.181671, -0.675003);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier karstique de Crégols', '/english/fr/karst/Cregols.html', 'Cregols', 'Europe', 'fr', 'France', 'karst', 'Lot', 44.457270, 1.699745);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sentier karstique de Saint-Paul', '/english/fr/karst/SaintPaul.html', 'SaintPaul', 'Europe', 'fr', 'France', 'karst', 'MidiPyrenees', 43.024736, 0.795140);
