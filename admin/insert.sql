@@ -23,6 +23,8 @@ VALUES ('yes', 'Museo civico "La Città Sotterranea"', '/english/it/subterranea/
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cisternone Romano', '/english/it/subterranea/CisternoneRomano.html', 'CisternoneRomano', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 41.255591, 13.601127);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte di Falvaterra', '/english/it/showcaves/Falvaterra.html', 'Falvaterra', 'Europe', 'it', 'Italy', 'showcaves', 'Lazio', 41.511312, 13.498763);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta Marina di Bergeggi', '/english/it/caves/Bergeggi.html', 'Bergeggi', 'Europe', 'it', 'Italy', 'caves', 'Liguria', 44.242293, 8.445219);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta della Galleria Ferroviaria', '/english/it/caves/GalleriaFerroviaria.html', 'GalleriaFerroviaria', 'Europe', 'it', 'Italy', 'caves', 'Liguria', 44.2382761, 8.4383692);
