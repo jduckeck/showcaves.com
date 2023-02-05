@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Horreum de Narbonne', '/english/fr/subterranea/Narbonne.html', 'Narbonne', 'Europe', 'fr', 'France', 'subterranea', 'Languedoc', 43.185570, 3.004670);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Castello di Otranto', '/english/it/subterranea/Otranto.html', 'Otranto', 'Europe', 'it', 'Italy', 'subterranea', 'Puglia', 40.144506, 18.492404);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gorges de la Langouette', '/english/fr/gorges/Langouette.html', 'Langouette', 'Europe', 'fr', 'France', 'gorges', 'Jura', 46.655856, 6.005067);
