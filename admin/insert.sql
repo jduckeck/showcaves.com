@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Source de l\'Ain', '/english/fr/springs/Ain.html', 'Ain', 'Europe', 'fr', 'France', 'springs', 'Jura', 46.749634, 6.023257);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Pertes de l\'Ain', '/english/fr/gorges/PertesAin.html', 'PertesAin', 'Europe', 'fr', 'France', 'gorges', 'Jura', 46.724638,   5.956160);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Champagne Alfred Gratien', '/english/fr/subterranea/Gratien.html', 'Gratien', 'Europe', 'fr', 'France', 'subterranea', 'Champagne', 49.038869, 3.961058);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Fort de la Grande Haye', '/english/fr/subterranea/GrandeHaye.html', 'GrandeHaye', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 48.206653, 6.415436);
