@@ -15,8 +15,6 @@ VALUES ('yes', 'Pertes de l\'Ain', '/english/fr/gorges/PertesAin.html', 'PertesA
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Champagne Alfred Gratien', '/english/fr/subterranea/Gratien.html', 'Gratien', 'Europe', 'fr', 'France', 'subterranea', 'Champagne', 49.038869, 3.961058);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Fort de la Grande Haye', '/english/fr/subterranea/GrandeHaye.html', 'GrandeHaye', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 48.206653, 6.415436);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Horreum de Narbonne', '/english/fr/subterranea/Narbonne.html', 'Narbonne', 'Europe', 'fr', 'France', 'subterranea', 'Languedoc', 43.185570, 3.004670);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Castello di Otranto', '/english/it/subterranea/Otranto.html', 'Otranto', 'Europe', 'it', 'Italy', 'subterranea', 'Puglia', 40.144506, 18.492404);
