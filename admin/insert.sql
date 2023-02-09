@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'La Grotte de Glace Les 2 Alpes', '/english/fr/subterranea/LesDeuxAlpes.html', 'LesDeuxAlpes', 'Europe', 'fr', 'France', 'subterranea', 'Rhone', 44.9973390, 6.2059965);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kitch-iti-kipi', '/english/usa/springs/KitchItiKipi.html', 'KitchItiKipi', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mi', 46.0042, -86.3820);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tašmajdanska pećina', '/english/rs/subterranea/Tasmajdanska.html', 'Tasmajdanska', 'Europe', 'rs', 'Serbia', 'subterranea', 'Belgrade', 44.810714, 20.470552);
