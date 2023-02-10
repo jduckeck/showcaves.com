@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kitch-iti-kipi', '/english/usa/springs/KitchItiKipi.html', 'KitchItiKipi', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mi', 46.0042, -86.3820);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tašmajdanska pećina', '/english/rs/subterranea/Tasmajdanska.html', 'Tasmajdanska', 'Europe', 'rs', 'Serbia', 'subterranea', 'Belgrade', 44.810714, 20.470552);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pas de Roland', '/english/fr/karst/PasDeRoland.html', 'PasDeRoland', 'Europe', 'fr', 'France', 'karst', 'Aquitaine', 43.314150, -1.400277);
