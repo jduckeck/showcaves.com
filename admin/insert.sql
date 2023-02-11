@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Petroșani Mining Museum', '/english/ro/mines/Petrosani.html', 'Petrosani', 'Europe', 'ro', 'Romania', 'mines', 'Hunedoara', 45.416488, 23.371152);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Zonguldak Mining Museum', '/english/tr/mines/Zonguldak.html', 'Zonguldak', 'Europe', 'tr', 'Turkey', 'mines', 'BlackSea', 41.447376, 31.814613);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'The Channel Island Military Museum', '/english/gb/subterranea/ChannelIslandMilitaryMuseum.html', 'ChannelIslandMilitaryMuseum', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Jersey', 49.229254, -2.234286);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tham Urai Thong', '/english/th/showcaves/UraiThong.html', 'UraiThong', 'Asia', 'th', 'Thailand', 'showcaves', 'Satun', 6.937487, 99.764489);
