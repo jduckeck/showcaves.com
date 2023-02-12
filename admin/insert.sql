@@ -32,3 +32,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Dobrostan Pearl Cave', '/english/bg/showcaves/Dobrostan.html', 'Dobrostan', 'Europe', 'bg', 'Bulgaria', 'showcaves', 'Plovdiv', 41.891456, 24.872879);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Vale of Tempe', '/english/gr/gorges/Tempe.html', 'Tempe', 'Europe', 'gr', 'Greece', 'gorges', 'Thessaly', 39.885574, 22.598542);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gimnyeongsagul', '/english/kr/caves/Gimnyeong.html', 'Gimnyeong', 'Asia', 'kr', 'South Korea', 'caves', 'Jeju', 33.543730, 126.775660);
