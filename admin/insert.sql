@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'The Channel Island Military Museum', '/english/gb/subterranea/ChannelIslandMilitaryMuseum.html', 'ChannelIslandMilitaryMuseum', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Jersey', 49.229254, -2.234286);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tham Urai Thong', '/english/th/showcaves/UraiThong.html', 'UraiThong', 'Asia', 'th', 'Thailand', 'showcaves', 'Satun', 6.937487, 99.764489);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Novakova pećina', '/english/ba/caves/Novak.html', 'Novak', 'Europe', 'ba', 'Bosnia and Herzegovina', 'caves', 'Federation', 43.8448232, 18.6383250);
