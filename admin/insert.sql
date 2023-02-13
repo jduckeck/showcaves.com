@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tham Phet', '/english/th/caves/Phet.html', 'Phet', 'Asia', 'th', 'Thailand', 'caves', 'Krabi', 8.012537, 98.841405);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', '4th Infiltration Tunnel', '/english/kr/subterranea/Infiltration4.html', 'Infiltration4', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gangwon', 38.319507, 128.110524);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', '2nd Infiltration Tunnel', '/english/kr/subterranea/Infiltration2.html', 'Infiltration2', 'Asia', 'kr', 'South Korea', 'subterranea', 'Gangwon', 38.3095446, 127.3112641);
