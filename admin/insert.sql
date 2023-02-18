@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte di Luppa', '/english/it/caves/Luppa.html', 'Luppa', 'Europe', 'it', 'Italy', 'caves', 'Abruzzo', 42.120812, 13.157237);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Riserva Naturale Grotte di Pietrasecca', '/english/it/karst/Pietrasecca.html', 'Pietrasecca', 'Europe', 'it', 'Italy', 'karst', 'Abruzzo', 42.137232, 13.128676);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sorgenti Su Gologone', '/english/it/springs/Gologone.html', 'Gologone', 'Europe', 'it', 'Italy', 'springs', 'Sardinia', 40.288910, 9.494350);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte di Cala Luna', '/english/it/caves/CalaLuna.html', 'CalaLuna', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.227187, 9.625904);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sa Oche \'e Su Bentu', '/english/it/springs/Oche.html', 'Oche', 'Europe', 'it', 'Italy', 'springs', 'Sardinia', 40.256867, 9.485504);
