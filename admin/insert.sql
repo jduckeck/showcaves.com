@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sa Oche \'e Su Bentu', '/english/it/springs/Oche.html', 'Oche', 'Europe', 'it', 'Italy', 'springs', 'Sardinia', 40.256867, 9.485504);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Břidlicové podzemí Raabova štola', '/english/cz/mines/Raab.html', 'Raab', 'Europe', 'cz', 'Czech Republic', 'mines', 'Moravskoslezsky', 49.816400, 17.710703);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hohler Stein', '/english/de/caves/HohlerSteinLaichingen.html', 'HohlerSteinLaichingen', 'Europe', 'de', 'Germany', 'caves', 'SchwaebischeAlb', 48.4798994, 9.6542406);
