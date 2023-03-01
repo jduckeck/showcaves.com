@@ -8,7 +8,7 @@ Datestamp to uppercase:
 (\d\d-\p{Upper}\p{Lower}\p{Lower}).?(-\d\d\d\d)
 \U$1\E$2
 
-                    \[19\d\d\]
+                    \[200\d\]
 
 multiline:
 ((.|\n)*)
