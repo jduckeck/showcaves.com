@@ -26,7 +26,7 @@ authors:
 <b class="smallCaps">$2 $1</b>
 
 closed mines
-<span class="closed">$1</span>
+><span class="closed">$1</span><
 
 LIVE AND DIE
 \(\*(\d\d\d\d)\-(\d\d\d\d)\)
