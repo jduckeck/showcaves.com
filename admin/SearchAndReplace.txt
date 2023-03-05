@@ -46,6 +46,9 @@ Literature:
 ([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ'\- \.]+);
 <b class="smallCaps">$2 $1</b>
 
+>([^<]+), ([^<]+)<
+>$2 $1<
+
 <b class="smallCaps">(\w*), (.*?)</b>
 <b class="smallCaps">$2 $1</b>
 
