@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Erdölmuseum Reinkenhagen', '/english/de/mines/Reinkenhagen.html', 'Reinkenhagen', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 54.191150, 13.177060);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Montepulciano La Città Sotterranea', '/english/it/subterranea/Montepulciano.html', 'Montepulciano', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.095943, 11.784824);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de las dos Puertas', '/english/es/karst/DosPuertas.html', 'DosPuertas', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 36.750766, -5.365532);
