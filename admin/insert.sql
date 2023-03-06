@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sources de l\'Huveaune', '/english/fr/karst/Huveaune.html', 'Huveaune', 'Europe', 'fr', 'France', 'karst', 'PACA', 43.3461795, 5.7626384);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte Saint-Vincent', '/english/fr/caves/SaintVincent.html', 'SaintVincent', 'Europe', 'fr', 'France', 'caves', 'PACA', 44.219053, 6.126064);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte du Trou de l\'Argent', '/english/fr/caves/TrouArgent.html', 'TrouArgent', 'Europe', 'fr', 'France', 'caves', 'PACA', 44.198394, 5.973591);
