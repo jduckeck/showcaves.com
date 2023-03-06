@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Montepulciano La Città Sotterranea', '/english/it/subterranea/Montepulciano.html', 'Montepulciano', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.095943, 11.784824);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva de las dos Puertas', '/english/es/karst/DosPuertas.html', 'DosPuertas', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 36.750766, -5.365532);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte du Lazaret', '/english/fr/showcaves/Lazaret.html', 'Lazaret', 'Europe', 'fr', 'France', 'showcaves', 'PACA', 43.690384, 7.294823);
