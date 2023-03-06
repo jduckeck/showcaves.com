@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva de las dos Puertas', '/english/es/karst/DosPuertas.html', 'DosPuertas', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 36.750766, -5.365532);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte du Lazaret', '/english/fr/showcaves/Lazaret.html', 'Lazaret', 'Europe', 'fr', 'France', 'showcaves', 'PACA', 43.690384, 7.294823);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sources de l\'Huveaune', '/english/fr/karst/Huveaune.html', 'Huveaune', 'Europe', 'fr', 'France', 'karst', 'PACA', 43.3461795, 5.7626384);
