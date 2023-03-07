@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Catacomba di Santa Mustiola', '/english/it/subterranea/SantaMustiola.html', 'SantaMustiola', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.022359, 11.959940);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo Nazionale Etrusco', '/english/it/subterranea/Etrusco.html', 'Etrusco', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 43.016006, 11.949306);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas del Gigante', '/english/es/subterranea/Gigante.html', 'Gigante', 'Europe', 'es', 'Spain', 'subterranea', 'GranCanaria', 27.897840, -15.506920);
