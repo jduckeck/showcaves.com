@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte Saint-Vincent', '/english/fr/caves/SaintVincent.html', 'SaintVincent', 'Europe', 'fr', 'France', 'caves', 'PACA', 44.219053, 6.126064);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte du Trou de l\'Argent', '/english/fr/caves/TrouArgent.html', 'TrouArgent', 'Europe', 'fr', 'France', 'caves', 'PACA', 44.198394, 5.973591);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Doseongul', '/english/kr/caves/Doseon.html', 'Doseon', 'Asia', 'kr', 'South Korea', 'caves', 'Gyeongsangbuk', 36.1049298, 128.2972157);
