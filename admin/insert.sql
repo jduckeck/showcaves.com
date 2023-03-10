@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Barranco de las Vacas', '/english/es/gorges/Vacas.html', 'Vacas', 'Europe', 'es', 'Spain', 'gorges', 'GranCanaria', 27.912783, -15.474675);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte del Lago Grande', '/english/it/subterranea/LagoGrande.html', 'LagoGrande', 'Europe', 'it', 'Italy', 'subterranea', 'Liguria', 44.425837, 8.817248);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Orridi di Uriezzo', '/english/it/gorges/Uriezzo.html', 'Uriezzo', 'Europe', 'it', 'Italy', 'gorges', 'Piemonte', 46.255351, 8.328585);
