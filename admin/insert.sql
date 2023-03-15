@@ -22,3 +22,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Goa Pancur', '/english/id/showcaves/Pancur.html', 'Pancur', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -6.926136, 110.979301);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Goa Putri Kencono', '/english/id/showcaves/PutriKencono.html', 'PutriKencono', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -8.019481, 110.793165);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museum Karst Indonesia', '/english/id/karst/MuseumKarst.html', 'MuseumKarst', 'Asia', 'id', 'Indonesia', 'karst', 'CentralJava', -8.041460, 110.783170);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Goa Potro Bunder', '/english/id/caves/PotroBunder.html', 'PotroBunder', 'Asia', 'id', 'Indonesia', 'caves', 'CentralJava', -8.044190, 110.780110);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Goa Tembus Pracimantoro', '/english/id/caves/TembusPracimantoro.html', 'TembusPracimantoro', 'Asia', 'id', 'Indonesia', 'caves', 'CentralJava', -8.039943, 110.783729);
