@@ -14,3 +14,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Goa Petruk', '/english/id/showcaves/Petruk.html', 'Petruk', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -7.704610, 109.398640);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Goa Seplawan', '/english/id/showcaves/Seplawan.html', 'Seplawan', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -7.772978, 110.110251);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Goa Terawang', '/english/id/caves/Terawang.html', 'Terawang', 'Asia', 'id', 'Indonesia', 'caves', 'CentralJava', -6.961572, 111.195129);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gua Wareh', '/english/id/showcaves/Wareh.html', 'Wareh', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -6.927989, 110.960340);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Goa Pancur', '/english/id/showcaves/Pancur.html', 'Pancur', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -6.926136, 110.979301);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Goa Putri Kencono', '/english/id/showcaves/PutriKencono.html', 'PutriKencono', 'Asia', 'id', 'Indonesia', 'showcaves', 'CentralJava', -8.019481, 110.793165);
