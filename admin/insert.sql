@@ -28,3 +28,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Goa Potro Bunder', '/english/id/caves/PotroBunder.html', 'PotroBunder', 'Asia', 'id', 'Indonesia', 'caves', 'CentralJava', -8.044190, 110.780110);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Goa Tembus Pracimantoro', '/english/id/caves/TembusPracimantoro.html', 'TembusPracimantoro', 'Asia', 'id', 'Indonesia', 'caves', 'CentralJava', -8.039943, 110.783729);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Paleo Stone Age Gunungkidul', '/english/id/subterranea/PaleoStoneAgeGunungkidul.html', 'PaleoStoneAgeGunungkidul', 'Asia', 'id', 'Indonesia', 'subterranea', 'Yogyakarta', -7.993320, 110.736411);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gua Lebar', '/english/id/subterranea/Lebar.html', 'Lebar', 'Asia', 'id', 'Indonesia', 'subterranea', 'EastJava', -7.195150, 113.255445);
