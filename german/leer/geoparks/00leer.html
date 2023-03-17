@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
-    <link rel="alternate" hreflang="en" href="../../../english/de/topics/index.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -22,24 +21,47 @@
 
 
     <meta property="og:locale" content="de_DE"/>
-    <meta property="og:title" content="Deutschland thematisch"/>
+    <meta property="og:title" content="$Country$ GeoParks: $Topic$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Schauhöhlen der Welt"/>
     <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt"/>
-    <title>Deutschland thematisch</title>
+    <title>$Country$ GeoParks: $Topic$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../de/topics/Genoveva.html">Genovevahöhlen</a></li>
-                <li><a data-ajax="false" target="_top" href="../../de/topics/Westwall.html">Westwall</a></li>
-            </ul>
-        </div>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/geoparks/$FileName$.html">$Topic$</a></li>
+            <a target="_top" href="../../../german/$CountryTwoLetter$/geoparks/$FileName$.html"><img alt="Topic" class="symbol" src="../../../graphics/symbol/Topic.png">$Topic$</a>
+        INSERT INTO static (path)
+        VALUES('/german/$CountryTwoLetter$/geoparks/$FileName$.html');
+       -->
+
+        <h1 class="center">$Topic$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <p>
+        </p>
+
+
+        <br>
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+        </ul>
+
+
+        <br class="clear">
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$Topic$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Auf Google nach "$Topic$" suchen</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/$CaveName$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$CaveName$ - Wikipedia</a></li>
+        </ul>
 
     </div>
 
@@ -48,15 +70,10 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
-                <li><a data-ajax="false" target="_top" href="../../explain/index.html">Deutschland</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">$Country$</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Themen</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/$CountryTwoLetter$/geoparks/$FileName$.html"><img alt="English" src="../../../graphics/language/gb.png" class="language"></a></li>
             </ul>
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="">Regionen</a>
-                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="">Landkarten</a>
-                <a data-ajax="false" href="../geoparks/index.html" data-role="button" class="">GeoParks</a>
-                <a data-ajax="false" href="../topics/index.html" data-role="button" class="ui-btn-active">Themen</a>
-            </div>
         </div>
     </div>
     <!-- Path End -->
