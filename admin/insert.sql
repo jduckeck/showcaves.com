@@ -4,3 +4,5 @@ INSERT INTO static (path)
 VALUES ('/german/de/geoparks/GrenzWelten.html');
 INSERT INTO static (path)
 VALUES ('/english/de/geoparks/GrenzWelten.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Werra-Kalibergbau-Museum Heringen', '/english/de/mines/Heringen.html', 'Heringen', 'Europe', 'de', 'Germany', 'mines', 'Bergland', 50.886852, 10.006635);
