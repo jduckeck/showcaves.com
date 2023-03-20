@@ -21,27 +21,43 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Puerto Rico by Region"/>
+    <meta property="og:title" content="Maps of Puerto Rico: Southern Karst"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Puerto Rico by Region</title>
+    <title>Maps of Puerto Rico: Southern Karst</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <p>
-            Puerto Rico is an unincorporated territory of the United States and does not have any first-order administrative divisions.
-        </p>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../pr/Maps/Southern.html">Southern Karst</a></li>
+            <li><a data-ajax="false" target="_top" href="../../pr/Maps/Southern.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Southern Karst</a></li>
+        -->
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../pr/region/Northern.html">Northern Karst Region</a></li>
-                <li><a data-ajax="false" target="_top" href="../../pr/region/Southern.html">Southern Karst Region</a></li>
-            </ul>
+        <figure class="left">
+            <a target="_top" href="../../pr/Maps/index.html"><img alt="Puerto Rico Map" src="../../../maps/PuertoRico.png" class="mapIcon"></a>
+            <figcaption class="center">Puerto Rico Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../pr/Maps/index.html"><img alt="Puerto Rico Map" src="../../../maps/PuertoRico.png" class="mapIcon"></a>
+            <figcaption class="center">Puerto Rico Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Southern Karst</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <div class="center">
+            <map name="SouthernMap">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Southern.png" USEMAP="#SouthernMap" class="map">
         </div>
 
     </div>
@@ -52,12 +68,11 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Puerto Rico</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
             <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
-                <a data-ajax="false" href="../region/index.html" data-role="button" class="ui-btn-active">Regions</a>
-                <a data-ajax="false" href="../Maps/index.html" data-role="button" class="">Maps</a>
-                <!--                <a data-ajax="false" href="../topics/index.html" data-role="button" class="">Topics</a>-->
+                <a data-ajax="false" href="../region/Southern.html" data-role="button" class="">By Region</a>
+                <a data-ajax="false" href="../Maps/Southern.html" data-role="button" class="ui-btn-active">Maps</a>
             </div>
         </div>
     </div>
