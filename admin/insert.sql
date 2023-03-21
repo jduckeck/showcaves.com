@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva Golondrinas', '/english/pr/caves/GolondrinasIsabela.html', 'GolondrinasIsabela', 'MiddleAmerica', 'pr', 'Puerto Rico', 'caves', 'CoastalPlains', 18.496290, -66.987200);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva Arenales', '/english/pr/gorges/Arenales.html', 'Arenales', 'MiddleAmerica', 'pr', 'Puerto Rico', 'gorges', 'Northern', 18.362830, -66.389212);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Black-Coffey Caverns', '/english/usa/showcaves/BlackCoffey.html', 'BlackCoffey', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'pa', 39.841033, -77.803620);
