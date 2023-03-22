@@ -3,7 +3,7 @@ VALUES ('yes', 'Bergbau-Schaustollen Max', '/english/de/mines/Max.html', 'Max', 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bergbaumuseum Maffeischächte', '/english/de/mines/Maffei.html', 'Maffei', 'Europe', 'de', 'Germany', 'mines', 'Oberpfalz', 49.679499, 11.649373);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Cueva Balcones', '/english/pr/caves/Balcones.html', 'Balcones', 'MiddleAmerica', 'pr', 'Puerto Rico', 'caves', 'pr', 18.332923, -66.525246);
+VALUES ('yes', 'Cueva Balcones', '/english/pr/caves/Balcones.html', 'Balcones', 'MiddleAmerica', 'pr', 'Puerto Rico', 'caves', 'Northern', 18.332923, -66.525246);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva del Viento', '/english/pr/caves/Viento.html', 'Viento', 'MiddleAmerica', 'pr', 'Puerto Rico', 'caves', 'Northern', 18.411348, -66.976736);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -16,3 +16,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva Arenales', '/english/pr/gorges/Arenales.html', 'Arenales', 'MiddleAmerica', 'pr', 'Puerto Rico', 'gorges', 'Northern', 18.362830, -66.389212);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Black-Coffey Caverns', '/english/usa/showcaves/BlackCoffey.html', 'BlackCoffey', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'pa', 39.841033, -77.803620);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region)
+VALUES ('yes', 'Cueva Yuyu', '/english/car/caves/Yuyu.html', 'Yuyu', 'MiddleAmerica', 'pr', 'Puerto Rico', 'caves', 'Northern');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Stollenanlagen am Stephansberg', '/english/de/subterranea/Stephansberg.html', 'Stephansberg', 'Europe', 'de', 'Germany', 'subterranea', 'KeuperLias');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva Juan Nieves', '/english/car/caves/JuanNieves.html', 'JuanNieves', 'MiddleAmerica', 'pr', 'Puerto Rico', 'caves', 'Northern', 18.335168, -66.504579);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Howard Springs', '/english/au/springs/Howard.html', 'Howard', 'Oceania', 'au', 'Australia', 'springs', 'nt', -12.456453, 131.052419);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lumiang Cave', '/english/ph/caves/Lumiang.html', 'Lumiang', 'Asia', 'ph', 'The Philippines', 'caves', 'Cordillera', 17.068969, 120.903553);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Balangagan Cave', '/english/ph/caves/Balangagan.html', 'Balangagan', 'Asia', 'ph', 'The Philippines', 'caves', 'Cordillera', 17.046850, 120.913222);
