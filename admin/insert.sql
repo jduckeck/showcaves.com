@@ -32,3 +32,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cova de Bolumini', '/english/es/caves/Bolumini.html', 'Bolumini', 'Europe', 'es', 'Spain', 'caves', 'Valenciana', 38.7596708, -0.5527566);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cova de les Finestres', '/english/es/subterranea/Finestres.html', 'Finestres', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 38.794050, -0.565170);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Shilin Zhiyun Cave', '/english/cn/showcaves/Zhiyun.html', 'Zhiyun', 'Asia', 'cn', 'China', 'showcaves', 'Yunnan', 24.851171, 103.292959);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Naigu Stone Forest', '/english/cn/karst/NaiguShilin.html', 'NaiguShilin', 'Asia', 'cn', 'China', 'karst', 'Yunnan', 24.894535, 103.351852);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Qifeng Cave', '/english/cn/karst/Qifeng.html', 'Qifeng', 'Asia', 'cn', 'China', 'karst', 'Yunnan', 24.815560, 103.325260);
