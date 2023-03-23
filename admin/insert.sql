@@ -28,3 +28,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Lumiang Cave', '/english/ph/caves/Lumiang.html', 'Lumiang', 'Asia', 'ph', 'The Philippines', 'caves', 'Cordillera', 17.068969, 120.903553);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Balangagan Cave', '/english/ph/caves/Balangagan.html', 'Balangagan', 'Asia', 'ph', 'The Philippines', 'caves', 'Cordillera', 17.046850, 120.913222);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cova de Bolumini', '/english/es/caves/Bolumini.html', 'Bolumini', 'Europe', 'es', 'Spain', 'caves', 'Valenciana', 38.7596708, -0.5527566);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cova de les Finestres', '/english/es/subterranea/Finestres.html', 'Finestres', 'Europe', 'es', 'Spain', 'subterranea', 'Valenciana', 38.794050, -0.565170);
