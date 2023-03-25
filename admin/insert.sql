@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mount Suswa Caves', '/english/ke/caves/MountSuswa.html', 'MountSuswa', 'Africa', 'ke', 'Kenya', 'caves', 'Kajiado', -1.131759, 36.404696);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mau Mau Cave Nairobi', '/english/ke/caves/MauMauNairobi.html', 'MauMauNairobi', 'Africa', 'ke', 'Kenya', 'caves', 'Nairobi', -1.236271, 36.829156);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','The Grotto', '/english/th/caves/TheGrotto.html', 'TheGrotto', 'Asia', 'th', 'Thailand', 'caves', 'Krabi', 8.005589,  98.838837);
