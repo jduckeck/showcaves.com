@@ -16,7 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotta Taquisara', '/english/it/showcaves/Taquisara.html', 'Taquisara', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia', 39.857810, 9.460160);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Spiaggia della Grotta Verde', '/english/it/caves/VerdeLecce.html', 'VerdeLecce', 'Europe', 'it', 'Italy', 'caves', 'Puglia', 39.963517, 18.404647);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Grotta Verde', '/english/it/caves/VerdeSardinia.html', 'VerdeSardinia', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.564898,   8.164972);
+INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes',1,'Grotta Verde', '/english/it/caves/VerdeSardinia.html', 'VerdeSardinia', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.564898,   8.164972);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta dei Palombi', '/english/it/caves/Palombi.html', 'Palombi', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.570832, 8.151937);
