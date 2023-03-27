@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Oloolua Cave', '/english/ke/caves/Oloolua.html', 'Oloolua', 'Africa', 'ke', 'Kenya', 'caves', 'Nairobi', -1.359760769484824, 36.71240621903533);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta Taquisara', '/english/it/showcaves/Taquisara.html', 'Taquisara', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia', 39.857810, 9.460160);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Spiaggia della Grotta Verde', '/english/it/caves/VerdeLecce.html', 'VerdeLecce', 'Europe', 'it', 'Italy', 'caves', 'Puglia', 39.963517, 18.404647);
