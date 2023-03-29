@@ -20,3 +20,5 @@ INSERT INTO sights (visible, closed, name, filename, sortby, continent, countryc
 VALUES('yes',1,'Grotta Verde', '/english/it/caves/VerdeSardinia.html', 'VerdeSardinia', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.564898,   8.164972);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta dei Palombi', '/english/it/caves/Palombi.html', 'Palombi', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.570832, 8.151937);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Longmendong', '/english/cn/caves/LongmenBaoji.html', 'LongmenBaoji', 'Asia', 'cn', 'China', 'caves', 'Shaanxi', 35.038369, 106.671533);
