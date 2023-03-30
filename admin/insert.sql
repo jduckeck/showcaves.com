@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Longmendong', '/english/cn/caves/LongmenBaoji.html', 'LongmenBaoji', 'Asia', 'cn', 'China', 'caves', 'Shaanxi', 35.038369, 106.671533);
 INSERT INTO `static` (`path`) VALUES ('/german/explain/Misc/Aftermath.html');
 INSERT INTO `static` (`path`) VALUES ('/english/explain/Misc/Aftermath.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Dean Heritage Centre', '/english/gb/mines/DeanHeritageCentre.html', 'DeanHeritageCentre', 'Europe', 'gb', 'Great Britain', 'mines', 'Gloucestershire', 51.793370,  -2.488570);

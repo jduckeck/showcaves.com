@@ -10,6 +10,9 @@ Datestamp to uppercase:
 
                     \[200\d\]
 
+-MÄRZ-
+-MAR-
+
 multiline:
 ((.|\n)*)
 
