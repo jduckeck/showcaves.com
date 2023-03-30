@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotta dei Palombi', '/english/it/caves/Palombi.html', 'Palombi', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 40.570832, 8.151937);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Longmendong', '/english/cn/caves/LongmenBaoji.html', 'LongmenBaoji', 'Asia', 'cn', 'China', 'caves', 'Shaanxi', 35.038369, 106.671533);
+INSERT INTO `static` (`path`) VALUES ('/german/explain/Misc/Aftermath.html');
+INSERT INTO `static` (`path`) VALUES ('/english/explain/Misc/Aftermath.html');
