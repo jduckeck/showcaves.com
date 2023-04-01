@@ -21,12 +21,12 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="More Countries: Middle-Earth"/>
+    <meta property="og:title" content="Map of Middle-Earth"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>More Countries: Middle-Earth</title>
+    <title>Map of Middle-Earth</title>
 </head>
 
 <body>
@@ -34,40 +34,21 @@
     <div data-role="main" class="ui-content">
 
 
-        <!--img src="../../../graphics/flags/me.png" class="flag"-->
-        <h1 class="center">Middle-Earth</h1>
+        <h1 class="center">Map of Middle-Earth</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
-            Middle-earth is the human-inhabited world, that is, the central continent of the Earth.
-            We do not know many underground site but at least we have listed four of them.
-            This is a short list, and so we listed them all on this page, and not each country separately.
-        </p>
-
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">Sights of Middle-Earth</li>
-            <li><a data-ajax="false" target="_top" href="../caves/Aglarond.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">The Glittering Caves of Aglarond</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/BagEnd.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Bag End</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/HennethAnnun.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Henneth Annûn</a></li>
-            <li><a data-ajax="false" target="_top" href="../mines/Moria.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">Khazad-dûm</a></li>
-        </ul>
-
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">Additional Information about Middle-Earth</li>
-            <li><a data-ajax="false" target="_top" href="../region/MiddleEarthMap.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Map of Middle-Earth</a></li>
-            <li><a target="_blank" href="https://www.google.com/search?q=Middle-Earth"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Middle-Earth"</a></li>
-            <li><a target="_blank" href="https://en.wikipedia.org/wiki/Middle-Earth"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">Middle-Earth - Wikipedia</a></li>
-            <li><a target="_blank" href="http://www.theonering.net/"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">TheOneRing.net</a></li>
-            <li><a target="_blank" href="http://www.lordoftherings.net/"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">The Lord of the Rings</a></li>
-        </ul>
+        <div class="center">
+            <map name="Middle-EarthMap">
+                <area shape="rect" alt="Bag End, Hobbiton" coords="125,158,188,173" href="../subterranea/BagEnd.html">
+                <area shape="rect" alt="Black Pit - Black Chasm - Mines of Moria - Dwarrowdelf - Hadhodrond - Phurunargian" coords="333,212,422,229" href="../mines/Moria.html">
+                <area shape="rect" alt="Henneth Annûn" coords="452,369,540,380" href="../caves/HennethAnnun.html">
+                <area shape="rect" alt="The Glittering Caves of Aglarond" coords="164,337,327,349" href="../caves/Aglarond.html">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Big/Middle-Earth.gif" USEMAP="#Middle-EarthMap" class="map">
+        </div>
 
     </div>
 
@@ -76,8 +57,8 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">More Countries</a></li>
                 <li><a data-ajax="false" target="_top" href="../region/Outside.html">Outside Earth</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/MiddleEarth.html">Middle-Earth</a></li>
             </ul>
         </div>
     </div>

@@ -19,7 +19,7 @@ multiline:
 linebreaks:
 ([a-z0-9,])
 \s\s\s+([a-zA-Z0-9,])
-$1
+$1 $2
 
 authors:
 (.+)[,] ([A-Z])[\.]
@@ -136,4 +136,19 @@ kml
 <styleUrl>#$1</styleUrl>
 
 \<styleUrl\>\#msn_(cave|showcave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
+
+
+    \<\!\-\- Path Begin \-\-\>\n    \<div data\-role\=\"header\" data\-position\=\"fixed\"\>\n        \<div data\-role\=\"navbar\"\>\n            \<ul\>\n                \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/index\.html\"\>Main Index\<\/a\>\<\/li\>\n((.|\n)*)\n            \<\/ul\>\n        \<\/div\>\n    \<\/div\>\n    \<\!\-\- Path End \-\-\>\n
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+$1
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
 
