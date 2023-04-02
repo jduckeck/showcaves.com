@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Dean Heritage Centre', '/english/gb/mines/DeanHeritageCentre.html', 'DeanHeritageCentre', 'Europe', 'gb', 'Great Britain', 'mines', 'Gloucestershire', 51.793370,  -2.488570);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Lee Ice House', '/english/gb/subterranea/Lee.html', 'Lee', 'Europe', 'gb', 'Great Britain', 'subterranea', 'London', 51.456402, 0.003863);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Petersfriedhof Katakomben', '/english/at/subterranea/Petersfriedhof.html', 'Petersfriedhof', 'Europe', 'at', 'Austria', 'subterranea', 'Salzburg', 47.796505, 13.044905);
