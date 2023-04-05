@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotte du Sergent', '/english/fr/caves/Sergent.html', 'Sergent', 'Europe', 'fr', 'France', 'caves', 'Languedoc', 43.752360, 3.555374);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Small Dragon Cave', '/english/kr/showcaves/SmallDragon.html', 'SmallDragon', 'Asia', 'kr', 'South Korea', 'showcaves', 'Chungcheongbuk', 36.502813, 127.518169);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Gruta Santa Rita', '/english/br/caves/SantaRita.html', 'SantaRita', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -12.294042, -41.040139);
