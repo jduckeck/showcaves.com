@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Meishan Longgong Karst Cave', '/english/cn/showcaves/MeishanLonggong.html', 'MeishanLonggong', 'Asia', 'cn', 'China', 'showcaves', 'Hunan', 27.953192, 111.287588);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotte des Résistants', '/english/fr/caves/Resistants.html', 'Resistants', 'Europe', 'fr', 'France', 'caves', 'PACA', 43.4315741, 6.1595025);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grottes de Saint-Maurin', '/english/fr/subterranea/SaintMaurin.html', 'SaintMaurin', 'Europe', 'fr', 'France', 'subterranea', 'PACA', 43.7987488, 6.2631893);
