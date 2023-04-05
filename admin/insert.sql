@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Grotte des Résistants', '/english/fr/caves/Resistants.html', 'Resistants', 'Europe', 'fr', 'France', 'caves', 'PACA', 43.4315741, 6.1595025);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grottes de Saint-Maurin', '/english/fr/subterranea/SaintMaurin.html', 'SaintMaurin', 'Europe', 'fr', 'France', 'subterranea', 'PACA', 43.7987488, 6.2631893);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Grotte de la Baumelle', '/english/fr/caves/Baumelle.html', 'Baumelle', 'Europe', 'fr', 'France', 'caves', 'GrandsCausses', 44.2214927, 3.2615853);
