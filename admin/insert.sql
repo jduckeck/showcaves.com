@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Small Dragon Cave', '/english/kr/showcaves/SmallDragon.html', 'SmallDragon', 'Asia', 'kr', 'South Korea', 'showcaves', 'Chungcheongbuk', 36.502813, 127.518169);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Gruta Santa Rita', '/english/br/caves/SantaRita.html', 'SantaRita', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -12.294042, -41.040139);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Badab Soort', '/english/ir/karst/BadabSoort.html', 'BadabSoort', 'Europe', 'ir', 'Iran', 'karst', 'Mazandaran', 36.355145, 53.856450);
