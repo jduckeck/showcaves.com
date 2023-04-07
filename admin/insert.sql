@@ -21,12 +21,18 @@ VALUES('yes','Grotte de la Baumelle', '/english/fr/caves/Baumelle.html', 'Baumel
 INSERT INTO static (path)
 VALUES('/german/explain/Topic/Sacrifice.html');
 INSERT INTO static (path)
-VALUES('/english/explain/Topic/Sacrifice.html');
+VALUES ('/english/explain/Topic/Sacrifice.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Grotte du Sergent', '/english/fr/caves/Sergent.html', 'Sergent', 'Europe', 'fr', 'France', 'caves', 'Languedoc', 43.752360, 3.555374);
+VALUES ('yes', 'Grotte du Sergent', '/english/fr/caves/Sergent.html', 'Sergent', 'Europe', 'fr', 'France', 'caves', 'Languedoc', 43.752360, 3.555374);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Small Dragon Cave', '/english/kr/showcaves/SmallDragon.html', 'SmallDragon', 'Asia', 'kr', 'South Korea', 'showcaves', 'Chungcheongbuk', 36.502813, 127.518169);
+VALUES ('yes', 'Small Dragon Cave', '/english/kr/showcaves/SmallDragon.html', 'SmallDragon', 'Asia', 'kr', 'South Korea', 'showcaves', 'Chungcheongbuk', 36.502813, 127.518169);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Gruta Santa Rita', '/english/br/caves/SantaRita.html', 'SantaRita', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -12.294042, -41.040139);
+VALUES ('yes', 'Gruta Santa Rita', '/english/br/caves/SantaRita.html', 'SantaRita', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -12.294042, -41.040139);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Badab Soort', '/english/ir/karst/BadabSoort.html', 'BadabSoort', 'Europe', 'ir', 'Iran', 'karst', 'Mazandaran', 36.355145, 53.856450);
+VALUES ('yes', 'Badab Soort', '/english/ir/karst/BadabSoort.html', 'BadabSoort', 'Europe', 'ir', 'Iran', 'karst', 'Mazandaran', 36.355145, 53.856450);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Acequia del Toril', '/english/es/karst/AcequiaDelToril.html', 'AcequiaDelToril', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 37.508928, -3.107808);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de la Vieja', '/english/es/caves/Vieja.html', 'Vieja', 'Europe', 'es', 'Spain', 'caves', 'Castilla', 39.001534, -1.242534);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Abrigo de Tortosilla', '/english/es/caves/Tortosilla.html', 'Tortosilla', 'Europe', 'es', 'Spain', 'caves', 'Valenciana', 39.021371, -1.220262);
