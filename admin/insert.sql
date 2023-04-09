@@ -42,3 +42,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Slavinjsko Grlo', '/english/rs/gorges/SlavinjskoGrlo.html', 'SlavinjskoGrlo', 'Europe', 'rs', 'Serbia', 'gorges', 'EasternSerbia', 43.151050, 22.855750);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Jelovičko vrelo', '/english/rs/springs/Jelovicko.html', 'Jelovicko', 'Europe', 'rs', 'Serbia', 'springs', 'EasternSerbia', 43.1834067, 22.8335452);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Centro de Interpretación Hábitat Troglodita Almagruz', '/english/es/subterranea/Almagruz.html', 'Almagruz', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.333859, -3.225219);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Los Callejones de Las Majadas', '/english/es/karst/LasMajadas.html', 'LasMajadas', 'Europe', 'es', 'Spain', 'karst', 'Castilla', 40.283814, -2.003362);
