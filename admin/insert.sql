@@ -36,3 +36,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva de la Vieja', '/english/es/caves/Vieja.html', 'Vieja', 'Europe', 'es', 'Spain', 'caves', 'Castilla', 39.001534, -1.242534);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Abrigo de Tortosilla', '/english/es/caves/Tortosilla.html', 'Tortosilla', 'Europe', 'es', 'Spain', 'caves', 'Valenciana', 39.021371, -1.220262);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Crkve Sv. Petra i Pavla', '/english/rs/caves/PetraPavla.html', 'PetraPavla', 'Europe', 'rs', 'Serbia', 'caves', 'EasternSerbia', 43.176371, 22.774405);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Slavinjsko Grlo', '/english/rs/gorges/SlavinjskoGrlo.html', 'SlavinjskoGrlo', 'Europe', 'rs', 'Serbia', 'gorges', 'EasternSerbia', 43.151050, 22.855750);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jelovičko vrelo', '/english/rs/springs/Jelovicko.html', 'Jelovicko', 'Europe', 'rs', 'Serbia', 'springs', 'EasternSerbia', 43.1834067, 22.8335452);
