@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Quebrada del Toro', '/english/es/gorges/Toro.html', 'Toro', 'Europe', 'es', 'Spain', 'gorges', 'Castilla', 38.938703, -2.833529);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ojos de Valdeminguete', '/english/es/springs/Valdeminguete.html', 'Valdeminguete', 'Europe', 'es', 'Spain', 'springs', 'Castilla', 40.373440, -1.829410);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hänigser Teerkuhlen', '/english/de/mines/Haenigsen.html', 'Haenigsen', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 52.494411, 10.089323);
