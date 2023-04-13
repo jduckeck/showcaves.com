@@ -18,3 +18,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hänigser Teerkuhlen', '/english/de/mines/Haenigsen.html', 'Haenigsen', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 52.494411, 10.089323);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Optimisticheskaya', '/english/ua/caves/Optimisticheskaya.html', 'Optimisticheskaya', 'Europe', 'ua', 'Ukraine', 'caves', 'Ternopil', 48.734960, 25.973481);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kantakuzen’s Catacomb', '/english/ua/subterranea/Kantakuzen.html', 'Kantakuzen', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Odessa', 46.479991, 30.746385);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museum of Partisan Glory', '/english/ua/subterranea/PartisanGlory.html', 'PartisanGlory', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Odessa', 46.537797, 30.627682);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Caves and Labyrinths', '/english/ua/subterranea/Labyrinths.html', 'Labyrinths', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Odessa', 46.468285, 30.708061);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Secrets of Underground Odessa', '/english/ua/subterranea/Secrets.html', 'Secrets', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Odessa', 46.474201, 30.712920);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museum of Strategic Rocket Forces', '/english/ua/subterranea/Pobuzke.html', 'Pobuzke', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Kirovohrad', 48.186561, 30.665079);
