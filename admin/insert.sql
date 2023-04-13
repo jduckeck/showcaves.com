@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museum of Strategic Rocket Forces', '/english/ua/subterranea/Pobuzke.html', 'Pobuzke', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Kirovohrad', 48.186561, 30.665079);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Urbex', '/english/ua/subterranea/Urbex.html', 'Urbex', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Kiev', 50.451689, 30.505543);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bunker Mooseum', '/english/it/subterranea/Mooseum.html', 'Bunker Mooseum', 'Europe', 'it', 'Italy', 'subterranea', 'Trentino', 46.832570, 11.165513);
