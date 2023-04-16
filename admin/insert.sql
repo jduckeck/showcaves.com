@@ -40,3 +40,5 @@ INSERT INTO sights (visible, closed, name, filename, sortby, continent, countryc
 VALUES ('yes', 1, 'Ozernaya Cave', '/english/ua/caves/Ozernaya.html', 'Ozernaya', 'Europe', 'ua', 'Ukraine', 'caves', 'Ternopil', 48.769974, 25.989261);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Unterirdische Gänge Kaiserslautern', '/english/de/subterranea/Kaiserslautern.html', 'Kaiserslautern', 'Europe', 'de', 'Germany', 'subterranea', 'PfaelzerBergland', 49.445494, 7.769082);
+INSERT INTO static (path)
+VALUES ('/english/ua/topics/OdessaCatacombs.html');
