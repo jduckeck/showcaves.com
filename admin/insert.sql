@@ -42,3 +42,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Unterirdische Gänge Kaiserslautern', '/english/de/subterranea/Kaiserslautern.html', 'Kaiserslautern', 'Europe', 'de', 'Germany', 'subterranea', 'PfaelzerBergland', 49.445494, 7.769082);
 INSERT INTO static (path)
 VALUES ('/english/ua/topics/OdessaCatacombs.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Rynek Podziemny', '/english/pl/subterranea/Rynek.html', 'Rynek', 'Europe', 'pl', 'Poland', 'subterranea', 'Malopolskie', 50.061471, 19.936510);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jaskinia Krowia', '/english/pl/caves/Krowia.html', 'Krowia', 'Europe', 'pl', 'Poland', 'caves', 'Krakow', 50.197039, 19.828858);
