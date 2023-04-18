@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Våde Ovn', '/english/dk/caves/VadeOvn.html', 'VadeOvn', 'Europe', 'dk', 'Denmark', 'caves', 'Hovedstaden', 55.2745095, 14.7544201);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Moseløkken Stenbrudsmuseum', '/english/dk/mines/Moselokken.html', 'Moselokken', 'Europe', 'dk', 'Denmark', 'mines', 'Hovedstaden', 55.273732, 14.776744);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Kælderhalsen', '/english/dk/karst/Kaelderhalsen.html', 'Kaelderhalsen', 'Europe', 'dk', 'Denmark', 'karst', 'Hovedstaden', 55.286071, 14.752025);
