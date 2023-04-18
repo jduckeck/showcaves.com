@@ -1,4 +1,4 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'M/S Museet for Søfart', '/english/dk/subterranea/Sofart.html', 'Sofart', 'Europe', 'dk', 'Denmark', 'subterranea', 'Hovedstaden', 56.039022, 12.616078);
+VALUES('yes','Skt. Laurentius', '/english/dk/subterranea/SktLaurentius.html', 'SktLaurentius', 'Europe', 'dk', 'Denmark', 'subterranea', 'Sjaelland', 55.641154, 12.080372);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Kronborg Slot', '/english/dk/subterranea/Kronborg.html', 'Kronborg', 'Europe', 'dk', 'Denmark', 'subterranea', 'Hovedstaden', 56.039078, 12.621699);
+VALUES('yes','Frihedsmuseet', '/english/dk/subterranea/Frihedsmuseet.html', 'Frihedsmuseet', 'Europe', 'dk', 'Denmark', 'subterranea', 'Hovedstaden', 55.68819256, 12.59587308 );
