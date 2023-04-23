@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Shishi Gongen', '/english/jp/caves/ShishiGongen.html', 'ShishiGongen', 'Asia', 'jp', 'Japan', 'caves', 'Oita', 33.03380978904808, 131.76433464227296);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hakusan Shrine', '/english/jp/gorges/HakusanShrineIchinoo.html', 'HakusanShrine', 'Asia', 'jp', 'Japan', 'gorges', 'Oita', 33.182278754291474, 131.76321577035114);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sumiyoshi Ankawa', '/english/jp/caves/Sumiyoshi.html', 'Sumiyoshi', 'Asia', 'jp', 'Japan', 'caves', 'Kagoshima', 27.363760, 128.533870);
