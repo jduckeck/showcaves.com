@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Salto Suizo', '/english/other/caves/SaltoSuizo.html', 'SaltoSuizo', 'SouthAmerica', 'py', 'Paraguay', 'caves', 'py', 'other', -25.7732048, -56.2278011);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Caverna Kambá Hópo', '/english/other/caves/KambaHopo.html', 'KambaHopo', 'SouthAmerica', 'py', 'Paraguay', 'caves', 'py', 'other', -22.190028, -57.969470);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Subterráneos de Toledo', '/english/es/subterranea/Toledo.html', 'Toledo', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.857778, -4.022500);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de Hércules', '/english/es/subterranea/Hercules.html', 'Hercules', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.858688, -4.024322);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mazmorras de la Posada de la Santa Hermandad', '/english/es/subterranea/SantaHermandad.html', 'SantaHermandad', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.857286, -4.022576);
