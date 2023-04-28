@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mazmorras de la Posada de la Santa Hermandad', '/english/es/subterranea/SantaHermandad.html', 'SantaHermandad', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.857286, -4.022576);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Las Termas Romanas', '/english/es/subterranea/TermasRomanas.html', 'TermasRomanas', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.858484, -4.025242);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Eckley Miners’ Village', '/english/usa/mines/Eckley.html', 'Eckley', 'NorthAmerica', 'us', 'United States of America', 'mines', 'pa', 40.995174, -75.856060);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Brooks Drift Mine', '/english/usa/mines/BrooksDrift.html', 'BrooksDrift', 'NorthAmerica', 'us', 'United States of America', 'mines', 'pa', 41.400615, -75.643290);
