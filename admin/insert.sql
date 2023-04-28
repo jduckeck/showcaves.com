@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva de Hércules', '/english/es/subterranea/Hercules.html', 'Hercules', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.858688, -4.024322);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mazmorras de la Posada de la Santa Hermandad', '/english/es/subterranea/SantaHermandad.html', 'SantaHermandad', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.857286, -4.022576);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Las Termas Romanas', '/english/es/subterranea/TermasRomanas.html', 'TermasRomanas', 'Europe', 'es', 'Spain', 'subterranea', 'Castilla', 39.858484, -4.025242);
