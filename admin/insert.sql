@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Brooks Drift Mine', '/english/usa/mines/BrooksDrift.html', 'BrooksDrift', 'NorthAmerica', 'us', 'United States of America', 'mines', 'pa', 41.400615, -75.643290);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Archbald Pothole', '/english/usa/karst/ArchbaldPothole.html', 'ArchbaldPothole', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'pa', 41.512130, -75.574290);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Old Cardinal Gem Mine', '/english/usa/mines/OldCardinal.html', 'OldCardinal', 'NorthAmerica', 'us', 'United States of America', 'mines', 'nc', 35.245490, -83.391220);
