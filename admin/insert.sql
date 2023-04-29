@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Archbald Pothole', '/english/usa/karst/ArchbaldPothole.html', 'ArchbaldPothole', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'pa', 41.512130, -75.574290);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Old Cardinal Gem Mine', '/english/usa/mines/OldCardinal.html', 'OldCardinal', 'NorthAmerica', 'us', 'United States of America', 'mines', 'nc', 35.245490, -83.391220);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Missouri Mines State Historic Site', '/english/usa/mines/Missouri.html', 'Missouri', 'NorthAmerica', 'us', 'United States of America', 'mines', 'mo', 37.837804, -90.509215);
