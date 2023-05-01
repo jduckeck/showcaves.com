@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wolf Cave', '/english/gb/caves/Wolf.html', 'Wolf', 'Europe', 'gb', 'Great Britain', 'caves', 'Jersey', 49.253406, -2.128942);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'La Cotte de St Brelade', '/english/gb/gorges/Cotte.html', 'Cotte', 'Europe', 'gb', 'Great Britain', 'gorges', 'Jersey', 49.175563, -2.188237);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'La Hougue Bie', '/english/gb/subterranea/HougueBie.html', 'HougueBie', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Jersey', 49.200321, -2.063608);
