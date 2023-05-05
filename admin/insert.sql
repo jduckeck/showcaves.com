@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Potkop Parja', '/english/hr/subterranea/Parja.html', 'Parja', 'Europe', 'hr', 'Croatia', 'subterranea', 'Dalmatia', 43.078253, 16.181335);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Potkop Krušica', '/english/hr/subterranea/Krusica.html', 'Krusica', 'Europe', 'hr', 'Croatia', 'subterranea', 'Dalmatia', 43.2813980, 16.5076201);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Altes Kalkbergwerk Miltitz', '/english/de/mines/Miltitz.html', 'Miltitz', 'Europe', 'de', 'Germany', 'mines', '13.415140', 51.103460, 13.415140);
