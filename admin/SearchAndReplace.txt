@@ -13,6 +13,9 @@ Datestamp to uppercase:
 -MÄRZ-
 -MAR-
 
+-MAI-
+-MAY-
+
 multiline:
 ((.|\n)*)
 
@@ -22,10 +25,10 @@ linebreaks:
 $1 $2
 
 authors:
-(.+)[,] ([A-Z])[\.]
+(.+?)[,] ([A-Z])[\.]
 <b class="smallCaps">$2 $1</b>
 
-<b class="smallCaps">([^<]+), ([^<]+)</b>
+<b class="smallCaps">([^<]+?), ([^<]+?)</b>
 <b class="smallCaps">$2 $1</b>
 
 closed mines
