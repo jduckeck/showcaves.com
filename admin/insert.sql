@@ -18,3 +18,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Altes Kalkbergwerk Miltitz', '/english/de/mines/Miltitz.html', 'Miltitz', 'Europe', 'de', 'Germany', 'mines', '13.415140', 51.103460, 13.415140);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Trau auf Gott Erbstolln Lichtenberg', '/english/de/mines/Lichtenberg.html', 'Lichtenberg', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.826393, 13.434907);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pozo de las Ánimas', '/english/ar/karst/Animas.html', 'Animas', 'SouthAmerica', 'ar', 'Argentina', 'karst', 'Mendoza', -35.189912, -70.001870);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Laguna de la Niña Encantada', '/english/ar/springs/NinaEncantada.html', 'NinaEncantada', 'SouthAmerica', 'ar', 'Argentina', 'springs', 'Mendoza', -35.159938, -69.869927);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva del Tigre', '/english/ar/caves/TigreQuequenSalado.html', 'TigreQuequenSalado', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'BuenosAires', -38.834142, -60.535271);
