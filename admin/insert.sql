@@ -24,3 +24,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Laguna de la Niña Encantada', '/english/ar/springs/NinaEncantada.html', 'NinaEncantada', 'SouthAmerica', 'ar', 'Argentina', 'springs', 'Mendoza', -35.159938, -69.869927);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva del Tigre', '/english/ar/caves/TigreQuequenSalado.html', 'TigreQuequenSalado', 'SouthAmerica', 'ar', 'Argentina', 'caves', 'BuenosAires', -38.834142, -60.535271);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pasaje Belgrano', '/english/ar/subterranea/Belgrano.html', 'Belgrano', 'SouthAmerica', 'ar', 'Argentina', 'subterranea', 'BuenosAires', -34.612169, -58.373414);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Túnel de la Iglesia San Ignacio de Loyola', '/english/ar/subterranea/SanIgnacioLoyola.html', 'SanIgnacioLoyola', 'SouthAmerica', 'ar', 'Argentina', 'subterranea', 'BuenosAires', -34.610556, -58.373611);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Túneles de Buenos Aires', '/english/ar/subterranea/TunelesBuenosAires.html', 'TunelesBuenosAires', 'SouthAmerica', 'ar', 'Argentina', 'subterranea', 'BuenosAires', -34.610512, -58.374770);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo Paseo de la Cisterna', '/english/ar/subterranea/Cisterna.html', 'Cisterna', 'SouthAmerica', 'ar', 'Argentina', 'subterranea', 'BuenosAires', -34.611460, -58.373900);
