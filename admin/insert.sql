@@ -40,3 +40,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'God\'s Bridge', '/english/gb/karst/GodsIngleton.html', 'GodsIngleton', 'Europe', 'gb', 'Great Britain', 'karst', 'NorthYorkshire', 54.183075, -2.410823);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'God\'s Bridge', '/english/gb/karst/GodsHighBirkwith.html', 'GodsHighBirkwith', 'Europe', 'gb', 'Great Britain', 'karst', 'NorthYorkshire', 54.193573, -2.310687);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Daraja la Mungu Kiwira', '/english/other/karst/GodsKiwira.html', 'GodsKiwira', 'Africa', 'tz', 'Tanzania', 'karst', 'tz', 'other', -9.276996, 33.553988);
