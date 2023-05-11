@@ -44,3 +44,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Daraja la Mungu Kiwira', '/english/other/karst/GodsKiwira.html', 'GodsKiwira', 'Africa', 'tz', 'Tanzania', 'karst', 'tz', 'other', -9.276996, 33.553988);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Daraja la Mungu', '/english/ke/karst/Gods.html', 'Gods', 'Africa', 'ke', 'Kenya', 'karst', 'Kirinyaga', -0.554936, 37.388450);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'El Puente de Dios', '/english/mx/karst/PuenteDios.html', 'PuenteDios', 'MiddleAmerica', 'mx', 'México', 'karst', 'NuevoLeon', 24.88467, -100.094468);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pozo del Gavilán', '/english/mx/karst/Gavilan.html', 'Gavilan', 'MiddleAmerica', 'mx', 'México', 'karst', 'NuevoLeon', 24.816199, -100.132254);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Laguna de Kaan Luum', '/english/mx/karst/KaanLuum.html', 'KaanLuum', 'MiddleAmerica', 'mx', 'México', 'karst', 'QuintanaRoo', 20.162766, -87.553744);
