@@ -32,3 +32,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Túneles de Buenos Aires', '/english/ar/subterranea/TunelesBuenosAires.html', 'TunelesBuenosAires', 'SouthAmerica', 'ar', 'Argentina', 'subterranea', 'BuenosAires', -34.610512, -58.374770);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo Paseo de la Cisterna', '/english/ar/subterranea/Cisterna.html', 'Cisterna', 'SouthAmerica', 'ar', 'Argentina', 'subterranea', 'BuenosAires', -34.611460, -58.373900);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Pont de Dieu', '/english/other/karst/PontDeDieu.html', 'PontDeDieu', 'Africa', 'ma', 'Morocco', 'karst', 'ma', 'other', 35.228377, -5.175592);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'God\'s Bridge', '/english/gb/karst/Gods.html', 'Gods', 'Europe', 'gb', 'Great Britain', 'karst', 'NorthYorkshire', 54.508600, -2.067811);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'God\'s Bridge', '/english/gb/karst/GodsIngleton.html', 'GodsIngleton', 'Europe', 'gb', 'Great Britain', 'karst', 'NorthYorkshire', 54.183075, -2.410823);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'God\'s Bridge', '/english/gb/karst/GodsHighBirkwith.html', 'GodsHighBirkwith', 'Europe', 'gb', 'Great Britain', 'karst', 'NorthYorkshire', 54.193573, -2.310687);
