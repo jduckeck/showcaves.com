@@ -1,12 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Circ romà', '/english/es/subterranea/CircRoma.html', 'CircRoma', 'Europe', 'es', 'Spain', 'subterranea', 'Cataluna', 41.115822, 1.256902);
-UPDATE sights
-SET chapter=NULL,
-    region=NULL,
-    continent='Africa'
-WHERE countrycode = 'tz';
-UPDATE sights
-SET filename = REPLACE(filename, '/other/', '/tz/')
-WHERE countrycode = 'tz';
+VALUES ('yes', 'Congoman Cave and Restaurant', '/english/tz/showcaves/Congoman.html', 'Congoman', 'Africa', 'tz', 'Tanzania', 'showcaves', 'Zanzibar', -6.3027208400321335, 39.533949693257796);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Kuza Cave', '/english/tz/showcaves/Kuza.html', 'Kuza', 'Africa', 'tz', 'Tanzania', 'showcaves', 'Zanzibar', -6.303449, 39.533965);
+VALUES ('yes', 'Kuumbi Cave', '/english/tz/showcaves/Kuumbi.html', 'Kuumbi', 'Africa', 'tz', 'Tanzania', 'showcaves', 'Zanzibar', -6.362490346263445, 39.542857745780445);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Swahili Cave', '/english/tz/showcaves/Swahili.html', 'Swahili', 'Africa', 'tz', 'Tanzania', 'showcaves', 'Zanzibar', -6.29677030222008, 39.53202923338771);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fukuchani Ruins & Cave', '/english/tz/showcaves/Fukuchani.html', 'Fukuchani', 'Africa', 'tz', 'Tanzania', 'showcaves', 'Zanzibar', -5.829394, 39.291880);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tazari Caves', '/english/tz/showcaves/Tazari.html', 'Tazari', 'Africa', 'tz', 'Tanzania', 'showcaves', 'Zanzibar', -5.776414, 39.304133);
