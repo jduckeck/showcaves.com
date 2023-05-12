@@ -21,57 +21,46 @@
 
 
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of Mauritius"/>
+    <meta property="og:title" content="Tanzania by Topic: $Topic$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of Mauritius</title>
+    <title>Tanzania by Topic: $Topic$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../tz/topics/$FileName$.html">$Topic$</a></li>
+            <a target="_top" href="../../../english/tz/topics/$FileName$.html"><img alt="Topic" class="symbol" src="../../../graphics/symbol/Topic.png">$Topic$</a>
+        INSERT INTO static (path)
+        VALUES('/english/tz/topics/$FileName$.html');
+       -->
 
-        <figure class="left">
-            <a target="_top" href="../../explain/Maps/Africa.html"><img alt="Africa Map" src="../../../maps/Africa.png" class="mapIcon"></a>
-            <figcaption class="center">Africa Map</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a target="_top" href="../../explain/Maps/Africa.html"><img alt="Africa Map" src="../../../maps/Africa.png" class="mapIcon"></a>
-            <figcaption class="center">Africa Map</figcaption>
-        </figure>
-
-
-        <h1 class="center">Map of Mauritius</h1>
+        <h1 class="center">$Topic$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <div class="center">
-            <map name="MauritiusMap">
-                <area shape="rect" alt="Caverne Patate" coords="469,103,589,121" href="../showcaves/Patate.html">
-                <area shape="rect" alt="Pont Bon Dieu Jardin Cave" coords="322,345,519,359" href="../showcaves/PontBonDieuJardin.html">
-                <area shape="rect" alt="Kenya" coords="10,3,45,15" href="../../ke/Maps/index.html">
-                <area shape="rect" alt="Tanzania" coords="2,41,49,54" href="../../tz/Maps/index.html">
-                <area shape="rect" alt="Madagascar" coords="63,99,126,111" href="../region/mgMap.html">
-                <area shape="default" alt="">
-            </map>
-            <img alt="" src="../../../maps/Big/Mauritius.gif" USEMAP="#MauritiusMap" class="map">
-        </div>
+        <p>
+        </p>
+
 
         <br>
 
-        <br>
-
-        <ul class="linklist2" data-role="listview" data-inset="true">
-            <li><a data-ajax="false" target="_top" href="../showcaves/Patate.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Caverne Patate</a></li>
-            <li><a data-ajax="false" target="_top" href="../showcaves/PontBonDieuJardin.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Pont Bon Dieu Jardin Cave</a></li>
+        <ul class="linklist" data-role="listview" data-inset="true">
         </ul>
 
-        <br>
+        <br class="clear">
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$Topic$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$Topic$"</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/$Topic$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$Topic$ - Wikipedia</a></li>
+        </ul>
 
     </div>
 
@@ -80,7 +69,9 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/mu.html">Mauritius</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Tanzania</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Topics</a></li>
+                <!--                <li><a data-ajax="false" target="_top" href="../../../german/tz/topics/$FileName$.html"><img alt="Deutsch" src="../../../graphics/language/de.png" class="language"></a></li>-->
             </ul>
         </div>
     </div>
