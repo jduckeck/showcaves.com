@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ha Baroana', '/english/other/caves/HaBaroana.html', 'HaBaroana', 'Africa', 'ls', 'Lesotho', 'caves', 'ls', 'other', -29.362900, 27.787600);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Ngwenya Mine', '/english/other/mines/Ngwenya.html', 'Ngwenya', '$continent$', 'sz', 'Eswatini', 'mines', 'sz', 'other', -26.195130, 31.031990);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Eisenbergwerk Herznach', '/english/ch/mines/Herznach.html', 'Herznach', 'Europe', 'ch', 'Switzerland', 'mines', 'Aargau', 47.473897, 8.042453);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Ngalue Cave', '/english/other/caves/Ngalue.html', 'Ngalue', 'Africa', 'mz', 'Mozambique', 'caves', 'mz', 'other', -12.858617, 35.198367);
