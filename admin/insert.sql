@@ -14,3 +14,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ngalue Cave', '/english/other/caves/Ngalue.html', 'Ngalue', 'Africa', 'mz', 'Mozambique', 'caves', 'mz', 'other', -12.858617, 35.198367);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Grutas do Khodzue', '/english/other/caves/Khodzue.html', 'Khodzue', 'Africa', 'mz', 'Mozambique', 'caves', 'mz', 'other', -18.560250, 34.873190);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Royal Peacock Opal Mines', '/english/usa/mines/RoyalPeacock.html', 'RoyalPeacock', 'NorthAmerica', 'us', 'United States of America', 'mines', 'nv', 41.78602889558286, -119.10024313229533);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cathedral Gorge', '/english/usa/gorges/CathedralGorge.html', 'Cathedral', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'nv', 37.818962, -114.409930);
