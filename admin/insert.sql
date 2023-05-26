@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Silathoranam', '/english/in/karst/Silathoranam.html', 'Silathoranam', 'Asia', 'in', 'India', 'karst', 'AndhraPradesh', 13.687394, 79.339958);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Saoner Mine No 1', '/english/in/mines/Saoner.html', 'Saoner', 'Asia', 'in', 'India', 'mines', 'Maharashtra', 21.357858, 78.930968);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lastiver Cave', '/english/am/subterranea/Lastiver.html', 'Lastiver', 'Asia', 'am', 'Armenia', 'subterranea', 'Tavush', 40.904093, 45.061621);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Zarni-Parni Cave Fortress', '/english/am/subterranea/ZarniParni.html', 'ZarniParni', 'Asia', 'am', 'Armenia', 'subterranea', 'Lori', 41.0963829, 44.7040062);
