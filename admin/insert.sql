@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hollombuwa Sthreepura Cave Temple', '/english/lk/subterranea/Hollombuwa.html', 'Hollombuwa', 'Asia', 'lk', 'Sri Lanka', 'subterranea', 'Sabaragamuwa', 7.198020, 80.274291);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Samangala Ancient Cave Temple', '/english/lk/subterranea/Samangala.html', 'Samangala', 'Asia', 'lk', 'Sri Lanka', 'subterranea', 'Eastern', 7.410817, 81.581059);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hulimev Cave Temple', '/english/in/subterranea/Hulimev.html', 'Hulimev', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 12.877101, 77.599337);
