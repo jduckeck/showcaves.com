@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Samangala Ancient Cave Temple', '/english/lk/subterranea/Samangala.html', 'Samangala', 'Asia', 'lk', 'Sri Lanka', 'subterranea', 'Eastern', 7.410817, 81.581059);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hulimev Cave Temple', '/english/in/subterranea/Hulimev.html', 'Hulimev', 'Asia', 'in', 'India', 'subterranea', 'Karnataka', 12.877101, 77.599337);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Silathoranam', '/english/in/karst/Silathoranam.html', 'Silathoranam', 'Asia', 'in', 'India', 'karst', 'AndhraPradesh', 13.687394, 79.339958);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Western Coalfields Coal Mine', '/english/in/mines/WesternCoalfields.html', 'WesternCoalfields', 'Asia', 'in', 'India', 'mines', 'Maharashtra', 21.367798, 78.909871);
