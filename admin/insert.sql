@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gornjepoljski Vir', '/english/me/springs/Gornjepolje.html', 'Gornjepolje', 'Europe', 'me', 'Montenegro', 'springs', NULL, 42.846318, 18.917533);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mandarado Yagura Caves', '/english/jp/subterranea/MandaradoYagura.html', 'MandaradoYagura', 'Asia', 'jp', 'Japan', 'subterranea', 'Kanagawa', 35.308121, 139.565031);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tamagawa Daishi', '/english/jp/subterranea/TamagawaDaishi.html', 'TamagawaDaishi', 'Asia', 'jp', 'Japan', 'subterranea', 'Tokyo', 35.618702, 139.627194);
