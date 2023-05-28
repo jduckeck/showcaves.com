@@ -12,3 +12,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cave Dwellings of Tegh', '/english/am/subterranea/Tegh.html', 'Tegh', 'Asia', 'am', 'Armenia', 'subterranea', 'Syunik', 39.564363, 46.471861);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Caves of Khnatsakh', '/english/am/subterranea/Khnatsakh.html', 'Khnatsakh', 'Asia', 'am', 'Armenia', 'subterranea', 'Syunik', 39.605866, 46.391863);
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='$continent$'
+WHERE countrycode = 'cr';
+UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/cr/')
+WHERE countrycode = 'cr';
