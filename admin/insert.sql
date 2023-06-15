@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Garden Of Caves', '/english/in/karst/GardenOfCaves.html', 'GardenOfCaves', 'Asia', 'in', 'India', 'karst', 'Meghalaya', 25.31244321314026, 91.7605034277269);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Dover Stone Church', '/english/usa/gorges/Dover.html', 'Dover', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ny', 41.738075, -73.588971);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Les Mines d\'Améthystes d\'Auvergne', '/english/fr/mines/AmethystesAuvergne.html', 'AmethystesAuvergne', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.46833, 3.41250);
