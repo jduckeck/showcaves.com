@@ -7,4 +7,8 @@ VALUES ('yes', 'Garden Of Caves', '/english/in/karst/GardenOfCaves.html', 'Garde
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Dover Stone Church', '/english/usa/gorges/Dover.html', 'Dover', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'ny', 41.738075, -73.588971);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Les Mines d\'Améthystes d\'Auvergne', '/english/fr/mines/AmethystesAuvergne.html', 'AmethystesAuvergne', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.46833, 3.41250);
+VALUES ('yes', 'Les Mines d\'Améthystes d\'Auvergne', '/english/fr/mines/AmethystesAuvergne.html', 'AmethystesAuvergne', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.46833, 3.41250);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Les Terrils Jumeaux du 11/19', '/english/fr/mines/TerrilsJumeaux.html', 'TerrilsJumeaux', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.442412, 2.786556);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'C-Mine', '/english/be/mines/CMine.html', 'CMine', 'Europe', 'be', 'Belgium', 'mines', 'Limburg', 50.982592, 5.490530);
