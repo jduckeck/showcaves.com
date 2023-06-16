@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Les Terrils Jumeaux du 11/19', '/english/fr/mines/TerrilsJumeaux.html', 'TerrilsJumeaux', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.442412, 2.786556);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'C-Mine', '/english/be/mines/CMine.html', 'CMine', 'Europe', 'be', 'Belgium', 'mines', 'Limburg', 50.982592, 5.490530);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Centre Minier de Faymoreau', '/english/fr/mines/Faymoreau.html', 'Faymoreau', 'Europe', 'fr', 'France', 'mines', 'PaysLoire', 46.555091, -0.631010);
