@@ -1,7 +1,6 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Église troglodytique Saint-Christophe', '/english/fr/subterranea/SaintChristophe.html', 'SaintChristophe', 'Europe', 'fr', 'France', 'subterranea', 'MidiPyrenees', 44.091561, 2.998862);
+VALUES ('yes', 'Musée de la Mine Noeux-les-Mines', '/english/fr/mines/NoeuxLesMines.html', 'NoeuxLesMines', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.472504, 2.669821);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Bunker Ilbenstadt', '/english/de/subterranea/Ilbenstadt.html', 'Ilbenstadt', 'Europe', 'de', 'Germany', 'subterranea', 'Oberrhein', 50.272833, 8.808367);
+VALUES ('yes', 'Musée du Patrimoine Industriel et Minier', '/english/fr/mines/Decazeville.html', 'Decazeville', 'Europe', 'fr', 'France', 'mines', 'Lot', 44.556863, 2.258103);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Bunker Eichenthal', '/english/de/subterranea/Eichenthal.html', 'Eichenthal', 'Europe', 'de', 'Germany', 'subterranea', 'Norddeutschland', 54.062736, 12.724632);
-
+VALUES ('yes', 'Musée de la Mine d\'Aubin', '/english/fr/mines/Aubin.html', 'Aubin', 'Europe', 'fr', 'France', 'mines', 'Lot', 44.526700, 2.246392);

@@ -33,15 +33,16 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <!--<li><a data-ajax="false" target="_top" href="../../fr/region/$FileName$.html">$CaveName$</a></li>-->
-        <!--<li><a data-ajax="false" target="_top" href="../../fr/region/$FileName$.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">$CaveName$</a></li>-->
+        <!--
+        <li><a data-ajax="false" target="_top" href="../region/$FileName$.html">$CaveName$</a></li>
+        -->
+        <li><a data-ajax="false" target="_top" href="../../fr/region/$FileName$.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">$CaveName$</a></li>
+        <li><a data-ajax="false" target="_top" href="../../fr/region/$FileName$.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">$CaveName$</a></li>
 
         <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
-
 
         <p>
         </p>
@@ -50,7 +51,7 @@
         <br class="clear">
 
         <ul class="linklist" data-role="listview" data-inset="true">
-             <li data-role="list-divider">Sights of This Région</li>
+            <li data-role="list-divider">Sights of This Région</li>
         </ul>
 
 
@@ -69,7 +70,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">France</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/index.html">Régions</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="ui-btn-active">Index</a>
+                <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="">Map</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->

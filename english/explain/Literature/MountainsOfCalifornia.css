@@ -7,11 +7,13 @@
     margin-right: auto;
     margin-top: 0;
     text-indent: 0
-    }
+}
+
 .c1 {
     height: auto;
     width: 100%
-    }
+}
+
 .c2 {
     display: block;
     font-size: 1.125em;
@@ -23,7 +25,8 @@
     margin-right: 0;
     margin-top: 0.5em;
     text-align: center
-    }
+}
+
 .c3 {
     border-collapse: separate;
     border-spacing: 2px;
@@ -32,7 +35,8 @@
     margin-left: 3em;
     margin-top: 0;
     text-indent: 0
-    }
+}
+
 .c4 {
     display: table-cell;
     font-style: italic;
@@ -42,10 +46,12 @@
     padding-top: 1px;
     text-align: inherit;
     vertical-align: inherit
-    }
+}
+
 .calibre {
     display: block
-    }
+}
+
 .calibre1 {
     display: block;
     font-size: 1.5em;
@@ -60,7 +66,8 @@
     text-align: center;
     text-indent: 0;
     word-spacing: 0.2em
-    }
+}
+
 .calibre2 {
     display: block;
     font-size: 1.375em;
@@ -74,7 +81,8 @@
     padding-top: 1em;
     page-break-before: always;
     text-align: center
-    }
+}
+
 .calibre3 {
     border-bottom-color: currentColor;
     border-bottom-style: inset;
@@ -96,15 +104,18 @@
     margin-right: auto;
     margin-top: 2em;
     width: 80%
-    }
+}
+
 .calibre4 {
     display: table-row-group;
     vertical-align: middle
-    }
+}
+
 .calibre5 {
     display: table-row;
     vertical-align: inherit
-    }
+}
+
 .calibre6 {
     display: table-cell;
     padding-bottom: 1px;
@@ -113,7 +124,8 @@
     padding-top: 1px;
     text-align: inherit;
     vertical-align: inherit
-    }
+}
+
 .calibre7 {
     border-collapse: separate;
     border-spacing: 2px;
@@ -121,7 +133,8 @@
     margin-bottom: 0;
     margin-top: 0;
     text-indent: 0
-    }
+}
+
 .calibre8 {
     display: block;
     margin-bottom: 0.25em;
@@ -129,10 +142,12 @@
     margin-right: 0;
     margin-top: 0.25em;
     text-indent: 1em
-    }
+}
+
 .calibre9 {
     font-style: italic
-    }
+}
+
 .calibre10 {
     display: block;
     font-size: 1.125em;
@@ -144,24 +159,29 @@
     margin-right: 0;
     margin-top: 0.5em;
     text-align: center
-    }
+}
+
 .calibre11 {
     font-size: 1em
-    }
+}
+
 .calibre12 {
     display: block;
     margin-left: 0;
     margin-right: 0;
     page-break-after: always
-    }
+}
+
 .calibre13 {
     font-size: 0.90909em
-    }
+}
+
 .calibre14 {
     font-size: 0.75em;
     line-height: 1.2;
     vertical-align: top
-    }
+}
+
 .center {
     display: block;
     margin-bottom: 1em;
@@ -170,14 +190,16 @@
     margin-top: 1em;
     text-align: center;
     text-indent: 0
-    }
+}
+
 .chapter {
     display: block;
     margin-left: 0;
     margin-right: 0;
     margin-top: 4em;
     page-break-before: always
-    }
+}
+
 .fig {
     display: block;
     margin-bottom: 0;
@@ -186,7 +208,8 @@
     margin-top: 0;
     text-align: center;
     width: 60%
-    }
+}
+
 .fig1 {
     display: block;
     margin-bottom: 0;
@@ -195,7 +218,8 @@
     margin-top: 0;
     text-align: center;
     width: 50%
-    }
+}
+
 .fig2 {
     display: block;
     margin-bottom: 0;
@@ -204,7 +228,8 @@
     margin-top: 0;
     text-align: center;
     width: 20%
-    }
+}
+
 .fig3 {
     display: block;
     margin-bottom: 0;
@@ -213,7 +238,8 @@
     margin-top: 0;
     text-align: center;
     width: 30%
-    }
+}
+
 .fig4 {
     display: block;
     margin-bottom: 0;
@@ -222,7 +248,8 @@
     margin-top: 0;
     text-align: center;
     width: 40%
-    }
+}
+
 .footnote {
     display: block;
     font-size: 0.875em;
@@ -232,7 +259,8 @@
     margin-right: 10%;
     margin-top: 1em;
     text-indent: 0%
-    }
+}
+
 .letter {
     display: block;
     margin-bottom: 1em;
@@ -240,7 +268,8 @@
     margin-right: 5%;
     margin-top: 1em;
     text-indent: 0%
-    }
+}
+
 .noindent {
     display: block;
     margin-bottom: 0.25em;
@@ -248,7 +277,8 @@
     margin-right: 0;
     margin-top: 0.25em;
     text-indent: 0%
-    }
+}
+
 .poem {
     display: block;
     font-size: 0.875em;
@@ -258,7 +288,8 @@
     margin-right: 0;
     margin-top: 1em;
     text-indent: 0%
-    }
+}
+
 .x-ebookmaker {
     background-color: white;
     border-bottom-color: currentColor;
@@ -287,21 +318,24 @@
     padding-top: 0;
     text-align: justify;
     width: auto
-    }
+}
+
 .pcalibre:link {
     color: blue;
     text-decoration: none
-    }
+}
+
 .pcalibre1:visited {
     color: blue;
     text-decoration: none
-    }
+}
+
 .pcalibre2:hover {
     color: red
-    }
+}
 
 @page {
     margin-bottom: 5pt;
     margin-top: 5pt
-    }
+}
 

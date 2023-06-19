@@ -8,23 +8,34 @@ Datestamp to uppercase:
 (\d\d-\p{Upper}\p{Lower}\p{Lower}).?(-\d\d\d\d)
 \U$1\E$2
 
+                    \[200\d\]
+
+-MÄRZ-
+-MAR-
+
+-MAI-
+-MAY-
+
+-JUNI-
+-JUN-
+
 multiline:
 ((.|\n)*)
 
 linebreaks:
 ([a-z0-9,])
-\s+
-$1
+\s\s\s+([a-zA-Z0-9,])
+$1 $2
 
 authors:
-(.+)[,] ([A-Z])[\.]
-<b class="smallCaps">$2. $1</b>
+(.+?)[,] ([A-Z])[\.]
+<b class="smallCaps">$2 $1</b>
 
-<b class="smallCaps">([^<]+), ([^<]+)</b>
+<b class="smallCaps">([^<]+?), ([^<]+?)</b>
 <b class="smallCaps">$2 $1</b>
 
 closed mines
-<span class="closed"></span>
+><span class="closed">$1</span><
 
 LIVE AND DIE
 \(\*(\d\d\d\d)\-(\d\d\d\d)\)
@@ -43,6 +54,9 @@ Literature:
 ([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ']+)
 ([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ'\- \.]+);
 <b class="smallCaps">$2 $1</b>
+
+>([^<]+), ([^<]+)<
+>$2 $1<
 
 <b class="smallCaps">(\w*), (.*?)</b>
 <b class="smallCaps">$2 $1</b>
@@ -73,7 +87,7 @@ $1$2
 (\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t([^\t]+)$
 
 hist table
-        (.+?) (.+)
+        (\S+?)\s(.+)
         <tr>
             <td>$1</td>
             <td>$2</td>
@@ -82,6 +96,7 @@ hist table
 KML
 
 \<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
+\<styleUrl\>\#([a-zA-Z]+)_?\d+\<\/styleUrl\>
 <styleUrl>#$1</styleUrl>
 
 \<Style id\=\"sh_([^\d]+)\d+\"\>
@@ -117,6 +132,9 @@ insert longdeep
 INSERT INTO `longdeep` (`depth`, `length`, `kat`, `name`, `state`, `county`, `town`, `reference`, `country`, `countrycode`, `type`)
 VALUES ($1, $2, "$3", "$4", "$5", "$6", "$7", "$8", "China", "cn", "karst");
 
+<img class="([^\"]*)" src="([^\"]*)" alt="([^\"]*)">
+<img alt="$3" class="$1" src="$2">
+
 kml
 ---------------------------------------------------------------------------------------------------------------
 
@@ -124,4 +142,19 @@ kml
 <styleUrl>#$1</styleUrl>
 
 \<styleUrl\>\#msn_(cave|showcave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
+
+
+    \<\!\-\- Path Begin \-\-\>\n    \<div data\-role\=\"header\" data\-position\=\"fixed\"\>\n        \<div data\-role\=\"navbar\"\>\n            \<ul\>\n                \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/index\.html\"\>Main Index\<\/a\>\<\/li\>\n((.|\n)*)\n            \<\/ul\>\n        \<\/div\>\n    \<\/div\>\n    \<\!\-\- Path End \-\-\>\n
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+$1
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
 

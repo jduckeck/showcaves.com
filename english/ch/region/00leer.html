@@ -34,9 +34,9 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <li><a data-ajax="false" target="_top" href="../../ch/region/$CaveName$.html">$CaveName$</a></li>
-
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../ch/region/$CaveName$.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">$CaveName$</a></li>
+        -->
 
         <h1 class="center">Kanton $CaveName$</h1>
         <h2 class="center"></h2>
@@ -46,9 +46,18 @@
         <p>
         </p>
 
+
         <br class="clear">
 
         <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">Sights</li>
+        </ul>
+
+
+        <br class="clear">
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li><a target="_blank" href="https://www.google.com/search?q=Kanton+$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "Kanton $CaveName$"</a></li>
         </ul>
 
     </div>

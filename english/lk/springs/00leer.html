@@ -20,7 +20,6 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Sri Lanka Springs showcaves.com">
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Springs of Sri Lanka: $CaveName$"/>
     <meta property="og:type" content="website"/>
@@ -34,9 +33,11 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
-        <li><a data-ajax="false" target="_top" href="../../lk/springs/$FileName$.html">$CaveName$</a></li>
-        <li><a data-ajax="false" target="_top" href="../../lk/springs/$FileName$.html"><img alt="Spring" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png">$CaveName$</a></li>
+        <!--
+                <li><a data-ajax="false" target="_top" href="../../lk/springs/$FileName$.html"><img alt="Spring" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Spring.png">$CaveName$</a></li>
+        INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+        VALUES('yes','$CaveName$', '/english/lk/springs/$FileName$.html', '$FileName$', 'Asia', 'lk', 'Sri Lanka', 'springs', '$Region$', );
+        -->
 
         <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
@@ -58,49 +59,63 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/open.html">Open:</a></td>
                 <td>
-
+                    no restrictions.<br>
+                    [2023]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/fees.html">Fee:</a></td>
                 <td>
-
+                    free.<br>
+                    [2023]
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/geology.html">Classification:</a></td>
                 <td>
-
+                    <a target="_top" href="../../../english/explain/Karst/KarstSpring.html"><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karst Spring</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
+                <td>
+                    n/a
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/dimension.html">Dimension:</a></td>
                 <td>
-
+                     
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_top" href="../../explain/Info/tours.html">Guided tours:</a></td>
+                <td>
+                    self guided
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/photo.html">Photography:</a></td>
                 <td>
-
+                    allowed
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/accessibility.html">Accessibility:</a></td>
                 <td>
-
+                    no
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/literature.html">Bibliography:</a></td>
                 <td>
-
+                     
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    $CaveName$, Tel: +94-, Fax: +94-,
+                    $CaveName$, Tel: +94-.
                 </td>
             </tr>
             <tr>
@@ -111,17 +126,23 @@
 
         <h2>History</h2>
 
-
         <br class="clear">
 
 
         <h2>Description</h2>
 
         <p>
+            <b></b> ($CaveName$)
         </p>
 
 
+        <br class="clear">
 
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/lk/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
+        </ul>
 
     </div>
 
@@ -131,6 +152,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Sri Lanka</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$ Province</a></li>
             </ul>
         </div>
     </div>

@@ -102,7 +102,7 @@ $statement->bindParam('limit', $limit, PDO::PARAM_INT);
                 $filebase = "../../../english";
 
                 if ($countrycode == 'XX') {
-                    $countrycell = $country;
+                    $countrycell = "<a data-ajax=\"false\" href=\"$filebase/$chapter/region/$country.html\" id=\"$country\">$country</a>";
                     $cellatts = "";
                 } else if ($countrycode == 'us') {
                     $countrycell = "<a data-ajax=\"false\" href=\"$filebase/usa/index.html\" id=\"usa\">$country</a>";

@@ -36,14 +36,13 @@
 
 
         <!--
-                <li><a data-ajax="false" target="_top" href="../../ua/subterranea/$FileName$.html">$CaveName$</a></li>
                 <li><a data-ajax="false" target="_top" href="../../ua/subterranea/$FileName$.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">$CaveName$</a></li>
         INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-        VALUES('yes','$CaveName$', '/english/ua/subterranea/$FileName$.html', '$FileName$', 'Europe', 'ua', 'Ukraine', 'subterranea', '$region$');
+        VALUES('yes','$CaveName$', '/english/ua/subterranea/$FileName$.html', '$FileName$', 'Europe', 'ua', 'Ukraine', 'subterranea', '$Region$', );
         -->
 
-        <h1 class="center">$CaveName$</h1>
-        <h2 class="center"></h2>
+        <h1 class="center"></h1>
+        <h2 class="center">$CaveName$</h2>
 
         <br class="clear">
 
@@ -55,6 +54,8 @@
                 <td><a target="_top" href="../../explain/Info/location.html">Location:</a></td>
                 <td>
 
+                    <br>
+                    ()
                 </td>
             </tr>
             <tr>
@@ -78,7 +79,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
                 <td>
-
+                    <a target="_top" href="../../../english/explain/Light/Incandescent.html"><img alt="Light" class="symbol" src="../../../graphics/symbol/Light.png">Incandescent Electric Light System</a>
                 </td>
             </tr>
             <tr>
@@ -132,9 +133,8 @@
         <h2>Description</h2>
 
         <p>
+            <b></b> ($CaveName$)
         </p>
-
-
 
 
         <br class="clear">
@@ -153,7 +153,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Ukraine</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/$region$.html">$region$</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$ Oblast</a></li>
             </ul>
         </div>
     </div>

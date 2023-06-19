@@ -35,14 +35,13 @@
     <div data-role="main" class="ui-content">
 
         <!--
-                <li><a data-ajax="false" target="_top" href="../../lk/showcaves/$FileName$.html">$CaveName$</a></li>
                 <li><a data-ajax="false" target="_top" href="../../lk/showcaves/$FileName$.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">$CaveName$</a></li>
         INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-        VALUES('yes','$CaveName$', '/english/lk/showcaves/$FileName$.html', '$FileName$', 'Asia', 'lk', 'Sri Lanka', 'showcaves', '$Region$');
+        VALUES('yes','$CaveName$', '/english/lk/showcaves/$FileName$.html', '$FileName$', 'Asia', 'lk', 'Sri Lanka', 'showcaves', '$Region$', );
         -->
 
-        <h1 class="center">$CaveName$</h1>
-        <h2 class="center"></h2>
+        <h1 class="center"></h1>
+        <h2 class="center">$CaveName$</h2>
 
         <br class="clear">
 
@@ -79,7 +78,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/light.html">Light:</a></td>
                 <td>
-
+                    <a target="_top" href="../../../english/explain/Light/Incandescent.html"><img alt="Light" class="symbol" src="../../../graphics/symbol/Light.png">Incandescent Electric Light System</a>
                 </td>
             </tr>
             <tr>
@@ -115,7 +114,7 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/adress.html">Address:</a></td>
                 <td>
-                    $CaveName$, Tel: +$CountryTelPrefix$-, Fax: +$CountryTelPrefix$-,
+                    $CaveName$, Tel: +94-.
                 </td>
             </tr>
             <tr>
@@ -133,9 +132,8 @@
         <h2>Description</h2>
 
         <p>
+            <b></b> ($CaveName$)
         </p>
-
-
 
 
         <br class="clear">
@@ -143,7 +141,7 @@
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
             <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
-            <li><a target="_blank" href=""><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">$CaveName$</a></li>
+            <li><a target="_blank" href="../../../kmz/lk/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
     </div>
@@ -154,6 +152,7 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Sri Lanka</a></li>
+                <li><a data-ajax="false" target="_top" href="../region/$Region$.html">$Region$ Province</a></li>
             </ul>
         </div>
     </div>

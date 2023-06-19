@@ -34,12 +34,10 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
         <!--
-                <li><a data-ajax="false" target="_top" href="../../np/karst/$FileName$.html">$CaveName$</a></li>
                 <li><a data-ajax="false" target="_top" href="../../np/karst/$FileName$.html"><img alt="Karst" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Karst.png">$CaveName$</a></li>
         INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-        VALUES('yes','$CaveName$', '/english/np/karst/$FileName$.html', '$FileName$', 'Asia', 'np', 'Nepal', 'karst', '$Region$');
+        VALUES('yes','$CaveName$', '/english/np/karst/$FileName$.html', '$FileName$', 'Asia', 'np', 'Nepal', 'karst', '$Region$', );
         -->
 
         <h1 class="center">$CaveName$</h1>
@@ -127,17 +125,23 @@
 
         <h2>History</h2>
 
-
         <br class="clear">
 
 
         <h2>Description</h2>
 
         <p>
+            <b>$CaveName$</b> is
         </p>
 
 
+        <br class="clear">
 
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$CaveName$"</a></li>
+            <li><a target="_blank" href="../../../kmz/np/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
+        </ul>
 
     </div>
 
