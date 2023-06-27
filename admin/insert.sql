@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Maison de la Mine d’Argent de <b class="smallCaps">Jacques Cœur</b> Brussieu', '/english/fr/mines/Brussieu.html', 'Brussieu', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.746701, 4.523166);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée de la Mine de Saint Pierre La Palud', '/english/fr/mines/SaintPierreLaPalud.html', 'SaintPierreLaPalud', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.792893, 4.610517);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mine d\'Or de Salsigne', '/english/fr/mines/Salsigne.html', 'Salsigne', 'Europe', 'fr', 'France', 'mines', 'Languedoc', 43.339435, 2.361164);
