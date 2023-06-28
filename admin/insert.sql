@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mines de Fer du Salver sur le Canigou à Taurinya', '/english/fr/mines/Taurinya.html', 'Taurinya', 'Europe', 'fr', 'France', 'mines', 'Languedoc', 42.569646, 2.427491);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Le Grand Filon', '/english/fr/mines/GrandFilon.html', 'GrandFilon', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.510636, 6.280494);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maison du Mineur et des Énergies', '/english/fr/mines/Energie.html', 'Energie', 'Europe', 'fr', 'France', 'mines', 'PaysLoire', 47.097064, -1.186287);
