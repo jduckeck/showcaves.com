@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mine d\'Or de Salsigne', '/english/fr/mines/Salsigne.html', 'Salsigne', 'Europe', 'fr', 'France', 'mines', 'Languedoc', 43.339435, 2.361164);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mines De Pont-Péan', '/english/fr/mines/PontPean.html', 'PontPean', 'Europe', 'fr', 'France', 'mines', 'Bretagne', 48.013114, -1.711155);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mines de Fer du Salver sur le Canigou à Taurinya', '/english/fr/mines/Taurinya.html', 'Taurinya', 'Europe', 'fr', 'France', 'mines', 'Languedoc', 42.569646, 2.427491);
