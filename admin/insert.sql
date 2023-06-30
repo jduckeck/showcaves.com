@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Le Grand Filon', '/english/fr/mines/GrandFilon.html', 'GrandFilon', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.510636, 6.280494);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Maison du Mineur et des Énergies', '/english/fr/mines/Energie.html', 'Energie', 'Europe', 'fr', 'France', 'mines', 'PaysLoire', 47.097064, -1.186287);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Les Carrières du Bon Temps', '/english/fr/mines/BonTemps.html', 'BonTemps', 'Europe', 'fr', 'France', 'mines', 'Languedoc', 43.773840, 4.119858);
