@@ -20,3 +20,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Maison du Mineur et des Énergies', '/english/fr/mines/Energie.html', 'Energie', 'Europe', 'fr', 'France', 'mines', 'PaysLoire', 47.097064, -1.186287);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Les Carrières du Bon Temps', '/english/fr/mines/BonTemps.html', 'BonTemps', 'Europe', 'fr', 'France', 'mines', 'Languedoc', 43.773840, 4.119858);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pivnice Pegas Jakubská', '/english/cz/subterranea/PegasJakubska.html', 'PegasJakubska', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Brno', 49.196237, 16.607109);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Moravská Banka Vín', '/english/cz/subterranea/MoravskaBankaVin.html', 'MoravskaBankaVin', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Brno', 49.190055, 16.583277);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Restaurant Železná Růže', '/english/cz/subterranea/ZeleznaRuze.html', 'ZeleznaRuze', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Brno', 49.189680, 16.587525);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Středověká Krčma', '/english/cz/subterranea/StredovekaKrcma.html', 'StredovekaKrcma', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Brno', 49.194393, 16.608433);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vinárna U Královny Elišky', '/english/cz/subterranea/KralovnyElisky.html', 'KralovnyElisky', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Brno', 49.192500, 16.594269);
