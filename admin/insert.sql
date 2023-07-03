@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pivnice U Šneka', '/english/cz/subterranea/Sneka.html', 'Sneka', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Jihomoravsky', 48.854742, 16.048985);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'U Krále Brabantského', '/english/cz/subterranea/$FileName$.html', '$FileName$', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Praha', 50.089020, 14.401547);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Folkklubs Ala Pagrabs', '/english/other/subterranea/AlaPagrabs.html', 'AlaPagrabs', '$continent$', 'lv', 'Latvia', 'subterranea', 'lv', 'other', 56.946105, 24.107788);
