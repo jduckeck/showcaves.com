@@ -1,2 +1,4 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Zum Turm', '/english/it/subterranea/ZumTurm.html', 'ZumTurm', 'Europe', 'it', 'Italy', 'subterranea', 'Trentino', 46.413664, 11.246132);
+VALUES ('yes', 'Zum Turm', '/english/it/subterranea/ZumTurm.html', 'ZumTurm', 'Europe', 'it', 'Italy', 'subterranea', 'Trentino', 46.413664, 11.246132);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mine de la Rodde', '/english/fr/mines/Rodde.html', 'Rodde', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.1534894, 3.3289368);
