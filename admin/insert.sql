@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mine de la Rodde', '/english/fr/mines/Rodde.html', 'Rodde', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.1534894, 3.3289368);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Maison de l\'Or en Limousin', '/english/fr/mines/Limousin.html', 'Limousin', 'Europe', 'fr', 'France', 'mines', 'Limousin', 45.5496209, 1.1304960);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Eisenbahn- und Bergbaumuseum Ampfelwang', '/english/at/mines/Ampfelwang.html', 'Ampfelwang', 'Europe', 'at', 'Austria', 'mines', 'Ober', 48.087252, 13.560608);
