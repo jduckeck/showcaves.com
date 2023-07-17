@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Maison de l\'Or en Limousin', '/english/fr/mines/Limousin.html', 'Limousin', 'Europe', 'fr', 'France', 'mines', 'Limousin', 45.5496209, 1.1304960);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Eisenbahn- und Bergbaumuseum Ampfelwang', '/english/at/mines/Ampfelwang.html', 'Ampfelwang', 'Europe', 'at', 'Austria', 'mines', 'Ober', 48.087252, 13.560608);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
+VALUES ('yes', 'Grands Goulets', '/english/fr/gorges/GrandsGoulets.html', 'GrandsGoulets', 'Europe', 'fr', 'France', 'gorges', 'Vercors', 45.002128, 5.421605, 1);
