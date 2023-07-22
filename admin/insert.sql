@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grands Goulets', '/english/fr/gorges/GrandsGoulets.html', 'GrandsGoulets', 'Europe', 'fr', 'France', 'gorges', 'Vercors', 45.002128, 5.421605, 1);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kaneana Cave', '/english/usa/caves/Kaneana.html', 'Kaneana', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'hi', 21.519772, -158.227565);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave of the Winds', '/english/usa/showcaves/CaveOfTheWinds.html', 'CaveOfTheWinds', 'NorthAmerica', 'usa', 'United States of America', 'showcaves', 'ny', 43.083691, -79.071135);
