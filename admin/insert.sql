@@ -18,3 +18,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'La Ventana Natural Arch', '/english/usa/karst/VentanaNM.html', 'VentanaNM', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'nm', 34.869246, -107.888919);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Last Chance Mine', '/english/usa/mines/LastChanceCO.html', 'LastChanceCO', 'NorthAmerica', 'us', 'United States of America', 'mines', 'co', 37.883917, -106.936644);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bottomless Lakes', '/english/usa/karst/BottomlessLakes.html', 'BottomlessLakes', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'nm', 33.338451, -104.334780);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Teakettle Rock', '/english/usa/caves/TeakettleRock.html', 'TeakettleRock', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'nm', 36.047518, -106.688982);
