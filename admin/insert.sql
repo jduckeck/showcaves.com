@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bottomless Lakes', '/english/usa/karst/BottomlessLakes.html', 'BottomlessLakes', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'nm', 33.338451, -104.334780);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Teakettle Rock', '/english/usa/caves/TeakettleRock.html', 'TeakettleRock', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'nm', 36.047518, -106.688982);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Walatowa Slot Canyon', '/english/usa/gorges/Walatowa.html', 'Walatowa', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'nm', 35.6494, -106.7184);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jemez Soda Dam', '/english/usa/karst/Jemez.html', 'Jemez', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'nm', 35.7920, -106.6865);
