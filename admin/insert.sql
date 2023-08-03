@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Site Du 9-9bis', '/english/fr/mines/99bis.html', '99bis', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.461452, 2.988528);
 INSERT INTO static (path)
 VALUES ('/english/fr/topics/Ecomusee.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mine d\'Argent Romaine de Cénomes', '/english/fr/mines/Cenomes.html', 'Cenomes', 'Europe', 'fr', 'France', 'mines', 'GrandsCausses', 43.806358, 3.021818);
