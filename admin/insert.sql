@@ -8,3 +8,7 @@ INSERT INTO static (path)
 VALUES ('/english/fr/topics/Ecomusee.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mine d\'Argent Romaine de Cénomes', '/english/fr/mines/Cenomes.html', 'Cenomes', 'Europe', 'fr', 'France', 'mines', 'GrandsCausses', 43.806358, 3.021818);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cascade des Baumes', '/english/fr/karst/Baumes.html', 'Baumes', 'Europe', 'fr', 'France', 'karst', 'GrandsCausses', 44.051510, 2.894483);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée de la Vigne et de la Mine Saint-Rome-de-Tarn', '/english/fr/mines/SaintRomeDeTarn.html', 'SaintRomeDeTarn', 'Europe', 'fr', 'France', 'mines', 'GrandsCausses', 44.04822742752151, 2.8982993595142528);
