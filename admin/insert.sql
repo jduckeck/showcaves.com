@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cascade des Baumes', '/english/fr/karst/Baumes.html', 'Baumes', 'Europe', 'fr', 'France', 'karst', 'GrandsCausses', 44.051510, 2.894483);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée de la Vigne et de la Mine Saint-Rome-de-Tarn', '/english/fr/mines/SaintRomeDeTarn.html', 'SaintRomeDeTarn', 'Europe', 'fr', 'France', 'mines', 'GrandsCausses', 44.04822742752151, 2.8982993595142528);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée de la Mine du Livet', '/english/fr/mines/Livet.html', 'Livet', 'Europe', 'fr', 'France', 'mines', 'Normandie', 49.004073, -0.318466);
