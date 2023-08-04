@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Musée de la Mine du Livet', '/english/fr/mines/Livet.html', 'Livet', 'Europe', 'fr', 'France', 'mines', 'Normandie', 49.004073, -0.318466);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée de la mine de Champagnac', '/english/fr/mines/Champagnac.html', 'Champagnac', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.355449, 2.399795);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Darwin WWII Oil Storage Tunnels', '/english/au/subterranea/Darwin.html', 'Darwin', 'Australia', 'au', 'Australia', 'subterranea', 'nt', -12.467528, 130.845157);
