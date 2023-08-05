@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Darwin WWII Oil Storage Tunnels', '/english/au/subterranea/Darwin.html', 'Darwin', 'Australia', 'au', 'Australia', 'subterranea', 'nt', -12.467528, 130.845157);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Palais de la Mine', '/english/fr/mines/PalaisMine.html', 'PalaisMine', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.525183, 6.784790);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée de la Mine de Bosmoreau', '/english/fr/mines/Bosmoreau.html', 'Bosmoreau', 'Europe', 'fr', 'France', 'mines', 'Limousin', 46.001851, 1.757546);
