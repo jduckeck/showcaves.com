@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Palais de la Mine', '/english/fr/mines/PalaisMine.html', 'PalaisMine', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.525183, 6.784790);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée de la Mine de Bosmoreau', '/english/fr/mines/Bosmoreau.html', 'Bosmoreau', 'Europe', 'fr', 'France', 'mines', 'Limousin', 46.001851, 1.757546);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée de la mine de Noyant-d\'Allier', '/english/fr/mines/NoyantAllier.html', 'NoyantAllier', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 46.482714, 3.129203);
