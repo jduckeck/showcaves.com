@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Besucherbergwerk Wodanstolln', '/english/de/mines/Wodanstolln.html', 'Wodanstolln', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 50.7982869, 8.0187729);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kupferbergwerk Grube Wilhelmine Sommerkahl', '/english/de/mines/Sommerkahl.html', 'Sommerkahl', 'Europe', 'de', 'Germany', 'mines', 'Spessart', 50.069122, 9.271612);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Siegfriedhöhle', '/english/de/caves/Siegfried.html', 'Siegfried', 'Europe', 'de', 'Germany', 'caves', 'Bergland', 51.2311814, 8.8998609);
