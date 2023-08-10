@@ -126,27 +126,26 @@ p {
     background-color: rgba(209, 223, 200, 0.03);
 }
 
-ol.biglist {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+ol {
+    text-align: left;
+    display: table;
+    border: 0;
+    margin: 1rem .2rem;
 }
 
-ol.biglist li {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+ol li {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
-ul.literature {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+ul.biglist {
+    text-align: left;
+    display: table;
+    border: 0;
+    margin: 1rem .2rem;
 }
 
-ul.literature li {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-ol.biglist ul li {
+ul.biglist li {
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
@@ -241,6 +240,7 @@ ol.invisibleBox li {
     margin-top: .3rem;
     margin-bottom: .3rem;
 }
+
 ul.invisibleBox li {
     margin-top: .3rem;
     margin-bottom: .3rem;
@@ -261,7 +261,7 @@ div.right {
     margin: 0 1em 1em;
     padding: 0.5em;
     background-color: #e6F6e6;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .symbol {
@@ -501,7 +501,6 @@ table.classification th {
     border-collapse: collapse;
     background-color: #bac9dd;
     padding: 0.4em;
-    alignment: left;
 }
 
 table.classification td {
@@ -582,6 +581,7 @@ figure.left {
     float: left;
     margin: 0 0.5em 0.5em 0;
 }
+
 @media print {
 
     figure.left {
@@ -627,6 +627,7 @@ figure.panorama {
 figure.panorama img {
     max-width: 100%;
 }
+
 figure.panorama figcaption {
     text-align: center;
 }
@@ -638,6 +639,7 @@ div.panorama {
     height: 78px;
     overflow: hidden;
 }
+
 div.panorama img {
     width: 3000px;
     height: 78px;
@@ -713,7 +715,7 @@ TABLE.centerImg {
 }
 
 .boxed {
-    border: 1px solid black ;
+    border: 1px solid black;
     align-content: center;
     text-align: center;
     padding: 0.5em;
@@ -773,9 +775,11 @@ hr.wide {
     .linklist {
         display: none;
     }
+
     div[data-role~="header"] {
         display: none;
     }
+
     div[data-role~="footer"] {
         display: none;
     }
@@ -784,9 +788,11 @@ hr.wide {
 .linklist2 {
 
 }
+
 .linklist3 {
 
 }
+
 .linklist4 {
     margin: 0;
 }
@@ -825,7 +831,7 @@ ul.breadcrumb li {
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     margin: 5px;
     padding: 0 20px;
     cursor: pointer;
