@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Brotschgrotte', '/english/fr/caves/Brotschgrotte.html', 'Brotschgrotte', 'Europe', 'fr', 'France', 'caves', 'Alsace', 48.702598, 7.325729);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gautschgrotte', '/english/de/caves/Gautschgrotte.html', 'Gautschgrotte', 'Europe', 'de', 'Germany', 'caves', 'Elbsandsteingebirge', 50.976913, 14.105559);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Erzweg Gersdorf', '/english/de/mines/Gersdorf.html', 'Gersdorf', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 51.060903, 13.217516);
