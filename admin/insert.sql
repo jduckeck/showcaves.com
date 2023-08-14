@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotta di Chitaridd', '/english/it/subterranea/Chitaridd.html', 'Chitaridd', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.677680, 16.610200);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Magdalena-Einsiedelei', '/english/ch/subterranea/Magdalena.html', 'Magdalena', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Bern', 46.833160, 7.152893);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Eisstollen Dornburg', '/english/de/subterranea/Dornburg.html', 'Dornburg', 'Europe', 'de', 'Germany', 'subterranea', 'Westerwald', 50.519723, 8.024994);
