@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Chiesa Rupestre della Madonna della Croce', '/english/it/subterranea/MadonnaDellaCroce.html', 'MadonnaDellaCroce', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.659110, 16.620540, 1;
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta di Chitaridd', '/english/it/subterranea/Chitaridd.html', 'Chitaridd', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.677680, 16.610200);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Magdalena-Einsiedelei', '/english/ch/subterranea/Magdalena.html', 'Magdalena', 'Europe', 'ch', 'Switzerland', 'subterranea', 'Bern', 46.833160, 7.152893);
