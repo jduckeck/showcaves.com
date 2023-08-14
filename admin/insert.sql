@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Eisstollen Dornburg', '/english/de/subterranea/Dornburg.html', 'Dornburg', 'Europe', 'de', 'Germany', 'subterranea', 'Westerwald', 50.519723, 8.024994);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Brotschgrotte', '/english/fr/caves/Brotschgrotte.html', 'Brotschgrotte', 'Europe', 'fr', 'France', 'caves', 'Alsace', 48.702598, 7.325729);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gautschgrotte', '/english/de/caves/Gautschgrotte.html', 'Gautschgrotte', 'Europe', 'de', 'Germany', 'caves', 'Elbsandsteingebirge', 50.976913, 14.105559);
