@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Heritage Blinman Mine', '/english/au/mines/Blinman.html', 'Blinman', 'Oceania', 'au', 'Australia', 'mines', 'sa', -31.094057, 138.678290);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ferropolis', '/english/de/mines/Ferropolis.html', 'Ferropolis', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 51.758696, 12.446327);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée Minier et Métallurgique de Musson-Halanzy', '/english/be/mines/Halanzy.html', 'Halanzy', 'Europe', 'be', 'Belgium', 'mines', 'Luxembourg', 49.553837, 5.710392);
