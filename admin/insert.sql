@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Maison de la Mine à Locmaria-Berrien', '/english/fr/mines/LocmariaBerrien.html', 'LocmariaBerrien', 'Europe', 'fr', 'France', 'mines', 'Bretagne', 48.353695, -3.694910);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Capital Prize Gold Mine Tours', '/english/usa/mines/CapitalPrize.html', 'CapitalPrize', 'NorthAmerica', 'us', 'United States of America', 'mines', 'co', 39.709552, -105.692469);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Albarracín-Cella Roman Aqueduct', '/english/es/subterranea/AlbarracinCella.html', 'AlbarracinCella', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon', 40.4115, -1.3395);
