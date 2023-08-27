@@ -13,4 +13,4 @@ VALUES ('yes', 'Capital Prize Gold Mine Tours', '/english/usa/mines/CapitalPrize
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Albarracín-Cella Roman Aqueduct', '/english/es/subterranea/AlbarracinCella.html', 'AlbarracinCella', 'Europe', 'es', 'Spain', 'subterranea', 'Aragon', 40.4115, -1.3395);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', '$CaveName$', '/english/cz/karst/Moravski.html', 'Moravski', 'Europe', 'cz', 'Czech Republic', 'karst', 'Jihomoravsky', 49.3630679, 16.7102593);
+VALUES ('yes', 'Dům přírody Moravského krasu', '/english/cz/karst/Moravski.html', 'Moravski', 'Europe', 'cz', 'Czech Republic', 'karst', 'Jihomoravsky', 49.3630679, 16.7102593);
