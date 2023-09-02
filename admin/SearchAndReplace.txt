@@ -19,6 +19,9 @@ Datestamp to uppercase:
 -JUNI-
 -JUN-
 
+-JULI-
+-JUL-
+
 multiline:
 ((.|\n)*)
 
