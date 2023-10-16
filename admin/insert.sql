@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cava Valsora', '/english/it/mines/Valsora.html', 'Valsora', 'Europe', 'it', 'Italy', 'mines', 'Toscana', 44.066350,  10.222314);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Grotta di Curtomartino', '/english/it/showcaves/Curtomartino.html', 'Curtomartino', 'Europe', 'it', 'Italy', 'showcaves', 'Puglia', 40.864473, 16.809641);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maison du Mineur Grand-Combe', '/english/fr/mines/GrandCombe.html', 'GrandCombe', 'Europe', 'fr', 'France', 'mines', 'Occitanie', 44.2208509, 4.0344966);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée des Mines de la Brutz', '/english/fr/mines/Brutz.html', 'Brutz', 'Europe', 'fr', 'France', 'mines', 'Bretagne', 47.8096078, -1.4683432);
