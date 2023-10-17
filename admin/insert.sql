@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Musée des Mines de la Brutz', '/english/fr/mines/Brutz.html', 'Brutz', 'Europe', 'fr', 'France', 'mines', 'Bretagne', 47.8096078, -1.4683432);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'La Mine Image', '/english/fr/mines/Image.html', 'Image', 'Europe', 'fr', 'France', 'mines', 'Rhone', 44.9606530, 5.7423668);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gyurkó-lápai-barlang', '/english/hu/caves/GyurkoLapai.html', 'GyurkoLapai', 'Europe', 'hu', 'Hungary', 'caves', 'Bukk', 48.1357080, 20.5508630);
