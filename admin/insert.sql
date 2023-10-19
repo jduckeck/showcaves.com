@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Travnik Plava Voda', '/english/ba/springs/PlavaVoda.html', 'PlavaVoda', 'Europe', 'ba', 'Bosnia and Herzegovina', 'springs', 'Federation', 44.2307943, 17.6714485);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée de la Mine Saint-Lon-les-Mines', '/english/fr/mines/SaintLonLesMines.html', 'SaintLonLesMines', 'Europe', 'fr', 'France', 'mines', 'Aquitaine', 43.6141972, -1.1269201);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ancienne Mine d' Or et d'Antimoine', '/english/fr/mines/Bissieux.html', 'Bissieux', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.568820, 4.621933);
