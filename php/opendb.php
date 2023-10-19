@@ -20,7 +20,7 @@ function openDB()
     try {
         $pdo = new PDO("mysql:host=$server;dbname=$dbname;charset=utf8", $user, $pass);
     } catch (PDOException $e) {
-        echo "$e->errorInfo";
+        echo $e->getMessage();
     }
 
     return $pdo;
