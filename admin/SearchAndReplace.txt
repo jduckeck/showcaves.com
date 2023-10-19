@@ -22,6 +22,9 @@ Datestamp to uppercase:
 -JULI-
 -JUL-
 
+-OKT-
+-OCT-
+
 multiline:
 ((.|\n)*)
 
