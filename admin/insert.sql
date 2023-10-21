@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte a Sapara di Circinellu', '/english/fr/caves/SaparaDiCircinellu.html', 'SaparaDiCircinellu', 'Europe', 'fr', 'France', 'caves', 'Corse', 41.9678056, 9.2818831);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Oriu di i Canni', '/english/fr/subterranea/Canni.html', 'Canni', 'Europe', 'fr', 'France', 'subterranea', 'Corse', 41.5089009, 9.1982445);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Oriu de Chera', '/english/fr/subterranea/Chera.html', 'Chera', 'Europe', 'fr', 'France', 'subterranea', 'Corse', 41.5008361, 9.1944324);
