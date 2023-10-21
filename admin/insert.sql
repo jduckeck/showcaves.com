@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Oriu de Chera', '/english/fr/subterranea/Chera.html', 'Chera', 'Europe', 'fr', 'France', 'subterranea', 'Corse', 41.5008361, 9.1944324);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée de la Sidérurgie, de la Mines et la Minéralogie', '/english/fr/mines/Siderurgie.html', 'Siderurgie', 'Europe', 'fr', 'France', 'mines', 'Nord', 51.0125280, 2.2859100);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo de la Siderurgia y la Minería', '/english/es/mines/Sabero.html', 'Sabero', 'Europe', 'es', 'Spain', 'mines', 'Leon', 42.83825, -5.15384);
