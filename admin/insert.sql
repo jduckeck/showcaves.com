@@ -7,4 +7,6 @@ VALUES ('yes', "Mines de Fer d\'Anjou", '/english/fr/mines/Anjou.html', 'Anjou',
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Sapara Altagna', '/english/fr/caves/SaparaAltagna.html', 'SaparaAltagna', 'Europe', 'fr', 'France', 'caves', 'Corse', 41.9132867, 9.2577509);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Grotte a Sapara di Circinellu', '/english/fr/caves/SaparaDiCircinellu.html', 'SaparaDiCircinellu', 'Europe', 'fr', 'France', 'caves', 'Corse', 41.971798, 9.283804);
+VALUES ('yes', 'Grotte a Sapara di Circinellu', '/english/fr/caves/SaparaDiCircinellu.html', 'SaparaDiCircinellu', 'Europe', 'fr', 'France', 'caves', 'Corse', 41.9678056, 9.2818831);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Oriu di i Canni', '/english/fr/subterranea/Canni.html', 'Canni', 'Europe', 'fr', 'France', 'subterranea', 'Corse', 41.5089009, 9.1982445);
