@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museo de la Siderurgia y la Minería', '/english/es/mines/Sabero.html', 'Sabero', 'Europe', 'es', 'Spain', 'mines', 'Leon', 42.83825, -5.15384);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Musée de la Mine Thio', '/english/other/mines/Thio.html', 'Thio', 'Oceania', 'nc', 'New Caledonia', 'mines', 'nc', 'other', -21.612945, 166.214759);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maison du Fer à Dompierre', '/english/fr/mines/Dompierre.html', 'Dompierre', 'Europe', 'fr', 'France', 'mines', 'Normandie', 48.6325345, -0.5511747);
