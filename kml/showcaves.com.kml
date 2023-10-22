@@ -5,11 +5,11 @@
 	<StyleMap id="cave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave</styleUrl>
+			<styleUrl>#sn_cave0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave3</styleUrl>
+			<styleUrl>#sh_cave2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="gorge">
@@ -22,16 +22,6 @@
 			<styleUrl>#sh_gorge</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="karst0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_karst00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_karst</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="karst">
 		<Pair>
 			<key>normal</key>
@@ -42,7 +32,27 @@
 			<styleUrl>#sh_karst1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="karst0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="mine">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="mine0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_mine00</styleUrl>
@@ -52,36 +62,6 @@
 			<styleUrl>#sh_mine00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="mine0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave1</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_cave">
 		<Pair>
 			<key>normal</key>
@@ -89,17 +69,37 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave2</styleUrl>
+			<styleUrl>#sh_cave0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_cave2">
+	<StyleMap id="msn_cave0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave0</styleUrl>
+			<styleUrl>#sh_cave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_karst">
@@ -112,27 +112,17 @@
 			<styleUrl>#sh_karst0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_mine0">
+	<StyleMap id="msn_mine">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_mine2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine3</styleUrl>
+			<styleUrl>#sh_mine0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_mine2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_mine1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_mine2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_mine">
+	<StyleMap id="msn_mine0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_mine</styleUrl>
@@ -145,21 +135,31 @@
 	<StyleMap id="msn_mine1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine3</styleUrl>
+			<styleUrl>#sn_mine0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_mine1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_showcave">
+	<StyleMap id="msn_mine2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_showcave20</styleUrl>
+			<styleUrl>#sn_mine1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave21</styleUrl>
+			<styleUrl>#sh_mine2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_showcave0">
@@ -169,37 +169,27 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave</styleUrl>
+			<styleUrl>#sh_showcave1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_showcave1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_showcave00">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_showcave1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave1</styleUrl>
+			<styleUrl>#sh_showcave0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_spring0">
+	<StyleMap id="msn_showcave2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring1</styleUrl>
+			<styleUrl>#sn_showcave3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_spring2</styleUrl>
+			<styleUrl>#sh_showcave3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_spring">
@@ -210,6 +200,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_spring</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_spring0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_spring0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_spring3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_subterranea">
@@ -234,15 +234,19 @@
 	</StyleMap>
 	<Style id="sh_cave">
 		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave0">
+		<IconStyle>
 			<scale>1.18182</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_cave1">
 		<IconStyle>
@@ -251,10 +255,6 @@
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_cave2">
 		<IconStyle>
@@ -263,8 +263,6 @@
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
 	<Style id="sh_cave3">
 		<IconStyle>
@@ -274,29 +272,11 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_cave0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
 	<Style id="sh_gorge">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_karst1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -308,10 +288,16 @@
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_karst0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_karst1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -326,38 +312,6 @@
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sh_mine1">
-		<IconStyle>
-			<scale>1.18182</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_mine3">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_mine2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
 	<Style id="sh_mine0">
 		<IconStyle>
@@ -373,40 +327,50 @@
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_showcave3">
+	<Style id="sh_mine1">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
-	<Style id="sh_showcave2">
+	<Style id="sh_mine2">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.18182</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_showcave">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave0">
 		<IconStyle>
 			<scale>1.18182</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sh_showcave0">
+	<Style id="sh_showcave00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -422,7 +386,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_showcave21">
+	<Style id="sh_showcave2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -439,25 +403,13 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_spring1">
+	<Style id="sh_showcave3">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
-	</Style>
-	<Style id="sh_spring2">
-		<IconStyle>
-			<scale>1.18182</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_spring">
 		<IconStyle>
@@ -466,10 +418,6 @@
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_spring0">
 		<IconStyle>
@@ -478,6 +426,22 @@
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_spring1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_spring3">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sh_subterranea">
@@ -519,7 +483,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave0</styleUrl>
+			<styleUrl>#sh_showcave00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="showcave0">
@@ -539,32 +503,32 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave2</styleUrl>
+			<styleUrl>#sh_showcave</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_cave">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_cave0">
 		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_cave2">
+	<Style id="sn_cave1">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_cave">
+	<Style id="sn_cave2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -579,18 +543,6 @@
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sn_cave1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
 	<Style id="sn_gorge">
 		<IconStyle>
@@ -608,17 +560,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_karst00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sn_karst0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -627,16 +568,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_mine3">
+	<Style id="sn_karst00">
 		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_mine">
 		<IconStyle>
@@ -645,26 +584,6 @@
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sn_mine2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_mine1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
 	<Style id="sn_mine0">
 		<IconStyle>
@@ -680,31 +599,33 @@
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_showcave">
-		<IconStyle>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_showcave2">
+	<Style id="sn_mine000">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine1">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 	</Style>
-	<Style id="sn_showcave1">
+	<Style id="sn_mine2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -720,9 +641,8 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_showcave11">
+	<Style id="sn_showcave1">
 		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
@@ -737,7 +657,7 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_showcave20">
+	<Style id="sn_showcave11">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -745,16 +665,21 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_spring1">
+	<Style id="sn_showcave2">
 		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
+	</Style>
+	<Style id="sn_showcave3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
 	</Style>
 	<Style id="sn_spring">
 		<IconStyle>
@@ -762,26 +687,29 @@
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
-	<Style id="sn_spring2">
+	<Style id="sn_spring0">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_spring00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_spring1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_spring0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
-			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_subterranea">
@@ -819,7 +747,7 @@
 	<StyleMap id="spring">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring2</styleUrl>
+			<styleUrl>#sn_spring1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -829,7 +757,7 @@
 	<StyleMap id="spring1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring0</styleUrl>
+			<styleUrl>#sn_spring00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -6488,7 +6416,7 @@
 					<tilt>0</tilt>
 					<range>730.2301597316219</range>
 				</LookAt>
-				<styleUrl>#msn_spring0</styleUrl>
+				<styleUrl>#msn_spring</styleUrl>
 				<Point>
 					<coordinates>17.00832758911912,43.83234215100779,0</coordinates>
 				</Point>
@@ -6504,7 +6432,7 @@
 					<range>1000.000156849594</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_spring0</styleUrl>
+				<styleUrl>#msn_spring</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>17.18649799990044,43.6760331006719,0</coordinates>
@@ -6521,7 +6449,7 @@
 					<range>6714.43298934795</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave0</styleUrl>
+				<styleUrl>#msn_cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>18.5953481,43.9252286,0</coordinates>
@@ -6537,14 +6465,14 @@
 					<tilt>0</tilt>
 					<range>1212.034990297498</range>
 				</LookAt>
-				<styleUrl>#msn_showcave0</styleUrl>
+				<styleUrl>#msn_showcave1</styleUrl>
 				<Point>
 					<coordinates>18.50328948164233,44.09465314493195,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
 				<name>Pećina Orlovača</name>
-				<styleUrl>#msn_showcave0</styleUrl>
+				<styleUrl>#msn_showcave1</styleUrl>
 				<Point>
 					<coordinates>18.58408333333333,43.88352777777778,0</coordinates>
 				</Point>
@@ -6654,7 +6582,7 @@
 					<range>1000.000072529626</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_spring</styleUrl>
+				<styleUrl>#msn_spring0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>17.67144850129834,44.23079430215508,0</coordinates>
@@ -19709,7 +19637,7 @@
 						<tilt>0</tilt>
 						<range>931.277061431697</range>
 					</LookAt>
-					<styleUrl>#msn_showcave1</styleUrl>
+					<styleUrl>#msn_showcave2</styleUrl>
 					<Point>
 						<coordinates>16.64027300375646,48.8162853218299,0</coordinates>
 					</Point>
@@ -19724,7 +19652,7 @@
 						<tilt>2.422787319120706e-12</tilt>
 						<range>3818.868947558647</range>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#msn_cave0</styleUrl>
 					<Point>
 						<coordinates>16.41511058304562,49.36111198395273,0</coordinates>
 					</Point>
@@ -20024,7 +19952,7 @@
 						<tilt>0</tilt>
 						<range>999.9999987502322</range>
 					</LookAt>
-					<styleUrl>#msn_mine</styleUrl>
+					<styleUrl>#msn_mine1</styleUrl>
 					<Point>
 						<coordinates>12.83133749614722,50.38605159265308,0</coordinates>
 					</Point>
@@ -35338,7 +35266,7 @@
 							<range>1000.00000350154</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine1</styleUrl>
+						<styleUrl>#msn_mine2</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>4.621933000158989,45.56882000064091,0</coordinates>
@@ -35630,7 +35558,7 @@
 							<range>1000.000145380569</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine2</styleUrl>
+						<styleUrl>#msn_mine0</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>5.742366799502139,44.9606529993539,0</coordinates>
@@ -36838,7 +36766,7 @@
 						<range>1000.000000073979</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine1</styleUrl>
+					<styleUrl>#msn_mine2</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-1.468343200721927,47.80960779985503,0</coordinates>
@@ -38781,7 +38709,7 @@
 							<range>1000.00000895274</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine2</styleUrl>
+						<styleUrl>#msn_mine0</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>-1.126920099990211,43.61419719996544,0</coordinates>
@@ -39923,7 +39851,7 @@
 							<range>1000.000016944654</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_mine2</styleUrl>
+						<styleUrl>#msn_mine0</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>4.034496600013679,44.22085089976225,0</coordinates>
@@ -42449,7 +42377,7 @@
 						<tilt>0</tilt>
 						<range>2525.346451858075</range>
 					</LookAt>
-					<styleUrl>#msn_mine2</styleUrl>
+					<styleUrl>#msn_mine0</styleUrl>
 					<Point>
 						<coordinates>5.919844999999999,43.411069,0</coordinates>
 					</Point>
@@ -42533,7 +42461,7 @@
 						<range>2120.320546347027</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#msn_cave1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>55.7943015,-21.3343558,0</coordinates>
@@ -42635,7 +42563,7 @@
 						<range>996.8672490237815</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#msn_cave1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>55.8025589,-21.237346,0</coordinates>
@@ -42669,7 +42597,7 @@
 						<range>4342.560119215919</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#msn_cave1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>55.7998972,-21.298324,0</coordinates>
@@ -52068,7 +51996,7 @@
 							<range>1000.00015578677</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave1</styleUrl>
+						<styleUrl>#msn_cave2</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>20.55086299911197,48.13570800095187,0</coordinates>
@@ -61763,7 +61691,7 @@
 						<range>374.6516443544024</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_mine0</styleUrl>
+					<styleUrl>#msn_mine</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>10.22231396180431,44.06635010191759,0</coordinates>
@@ -61892,7 +61820,7 @@
 						<tilt>1.458565753251417e-10</tilt>
 						<range>2308.425687587997</range>
 					</LookAt>
-					<styleUrl>#msn_showcave00</styleUrl>
+					<styleUrl>#msn_showcave0</styleUrl>
 					<Point>
 						<coordinates>10.35810833333333,44.03346666666667,0</coordinates>
 					</Point>
