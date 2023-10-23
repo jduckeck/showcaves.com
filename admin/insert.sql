@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Crypte du Bayaà', '/english/fr/subterranea/Bayaa.html', 'Bayaa', 'Europe', 'fr', 'France', 'subterranea', 'Aquitaine', 43.470670, -0.925190);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée du Sel et des Traditions Béarnaises', '/english/fr/mines/Salies.html', 'Salies', 'Europe', 'fr', 'France', 'mines', 'Aquitaine', 43.471630, -0.925300);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Centre de la mine et du chemin de Fer Oignies', '/english/fr/mines/Oignies.html', 'Oignies', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.472563, 2.996442);
