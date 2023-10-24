@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gorges de la Poëta-Raisse', '/english/ch/gorges/PoetaRaisse.html', 'PoetaRaisse', 'Europe', 'ch', 'Switzerland', 'gorges', 'Neuchatel', 46.88724338566905, 6.608230266296368);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grande Saline de Salins-les-Bains', '/english/fr/mines/Salins.html', 'Salins', 'Europe', 'fr', 'France', 'mines', 'Jura', 46.937457, 5.876554);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', "Musée de l'Ecole et de la Mine", '/english/fr/mines/Harnes.html', 'Harnes', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.446148, 2.906045);
