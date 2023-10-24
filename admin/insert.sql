@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grande Saline de Salins-les-Bains', '/english/fr/mines/Salins.html', 'Salins', 'Europe', 'fr', 'France', 'mines', 'Jura', 46.937457, 5.876554);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', "Musée de l'Ecole et de la Mine", '/english/fr/mines/Harnes.html', 'Harnes', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.446148, 2.906045);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ny-Ålesund By- og Gruvemuseum', '/english/no/mines/NyAlesund.html', 'NyAlesund', 'Europe', 'no', 'Norway', 'mines', 'Svalbard', 78.925407, 11.930215);
