@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Centre de la mine et du chemin de Fer Oignies', '/english/fr/mines/Oignies.html', 'Oignies', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.472563, 2.996442);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée La Mémoire du Sel Buttes', '/english/ch/mines/Buttes.html', 'Buttes', 'Europe', 'ch', 'Switzerland', 'mines', 'Neuchatel', 46.888188, 6.550693);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gorges de la Poëta-Raisse', '/english/ch/gorges/PoetaRaisse.html', 'PoetaRaisse', 'Europe', 'ch', 'Switzerland', 'gorges', 'Neuchatel', 46.88724338566905, 6.608230266296368);
