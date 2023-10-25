@@ -23,7 +23,6 @@ include("../../../php/opendb.php");
 $pdo = openDB();
 
 $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-$statement->bindParam('limit', $limit, PDO::PARAM_INT);
 ?>
 
     <meta property="og:locale" content="de_DE"/>
