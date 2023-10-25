@@ -46,3 +46,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cold Water Spring', '/english/usa/springs/ColdWater.html', 'ColdWater', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ia', 43.4415356, -91.9551408);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grandfontaine Musée Minéralogique et  Minier', '/english/fr/mines/Grandfontaine.html', 'Grandfontaine', 'Europe', 'fr', 'France', 'mines', 'Alsace', 48.49332026425569, 7.149981160534763);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', "Mines de l'Argentière", '/english/fr/mines/Argentiere.html', 'Argentiere', 'Europe', 'fr', 'France', 'mines', 'PACA', 43.121439, 6.266096);
