@@ -42,3 +42,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', "Musée de l'Ardoise et de la Géologie", '/english/fr/mines/Renaze.html', 'Renaze', 'Europe', 'fr', 'France', 'mines', 'PaysLoire', 47.794513, -1.040373);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', "Musée de l'Ardoise à Trélazé", '/english/fr/mines/Trelaze.html', 'Trelaze', 'Europe', 'fr', 'France', 'mines', 'PaysLoire', 47.446820, -0.489180);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cold Water Spring', '/english/usa/springs/ColdWater.html', 'ColdWater', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'ia', 43.4415356, -91.9551408);
