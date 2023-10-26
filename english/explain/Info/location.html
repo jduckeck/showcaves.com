@@ -28,7 +28,9 @@
             obj.kilometre.value = eval(obj.Miles.value) * 1.609;
         }
         else {
-            if (eval(obj.kilometre.value) !== 0) obj.Miles.value = eval(obj.kilometre.value) / 1.609;
+            if (eval(obj.kilometre.value) !== 0) {
+                obj.Miles.value = eval(obj.kilometre.value) / 1.609;
+            }
         }
     }
 
@@ -38,7 +40,9 @@
             obj.Meter.value = eval(obj.Foot.value) * 0.3048;
         }
         else {
-            if (eval(obj.Meter.value) !== 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
+            if (eval(obj.Meter.value) !== 0) {
+                obj.Foot.value = eval(obj.Meter.value) / 0.3048;
+            }
         }
     }
 
@@ -87,52 +91,97 @@
 
         <p>
             The location of the cave or mine, and how to get there.
-            Nearest highway, exit number or name, description of the route to the object.
-            Sometimes coordinates in a map, GPS coordinates or link to an online map.
-            Distance to some bigger cities around.
+            The older pages just have a description of how to get there.
+            But times change, and we added two more things to support modern navigation devices.
+            Most allow destinations using street address and latitude/longitude coordinates.
+            So all pages which were created or updated during the last years have actually three lines:
         </p>
 
-        <p class="indentedText">
-            All distances are given in the metric system.
-            If you have difficulties with it, here is a litte tranformation tool.
-            It works in both directions!
+        <ol>
+            <li>the street address, if available. Many sites unfortunately do not have one, due to the remoteness or country-specific restrictions.</li>
+            <li>A description how to get there from the nearest big city or motorway.
+                Typically, that starts with the motorway or highway, exit number and/or name, description of the route to the object.
+                This text is formulated in keywords and kept as short as possible.
+            </li>
+            <li>coordinates given in a decimal <span class="typewriter">(lat, long)</span> notation. If you copy and paste the numbers into Google Maps, Google Earth, OpenStreetMap or any other mapping tool it should work immediately.</li>
+        </ol>
+
+        <p class="">
+            <span class="mySiteName">showcaves.com</span> exists for 30 years now, and at the beginning of the internet in the early 1990s there was no mapping tool available.
+            So we added the country-specific coordinate system, e.g. Gauß/Krüger in Germany, or we used different systems, which were offered by the most commonly used map or atlas.
+            When the first mapping sites started, we added links to them, the most notable was <b>MapQuest</b> for Great Britain.
+            Many of them collapsed over the years, some changed their interface, so it was necessary to maintain the links continually.
+            All those systems work only for the respective country, and some require paper maps, so we replace then one by one with the upper system.
+            We have coordinates and descriptions in the <i>Location</i> section of <i>Useful Information</i>, and we have links to a Google kmz POI and to OpenStreetMap in the link section at the bottom.
+            We hope they will be more stable than other systems, so far they have been.
         </p>
 
         <br>
 
+        <p class="">
+            All distances are given in the metric system.
+            If you have difficulties with it, here is a little transformation tool.
+            It works in both directions!
+        </p>
 
         <form>
-
-            <label>
-                <input type="text" name="Miles" size=20>
-                miles
-            </label>
-            <b> <-> </b>
-            <label>
-                <input type="text" name="kilometre" size=20>
-                kilometers
-            </label>
-            <input type="reset" value="Reset">
-            <input type="button" value="Transform" onClick="Compute(this.form)">
-
+            <table class="foreign center">
+                <thead>
+                <tr>
+                    <th>miles</th>
+                    <th></th>
+                    <th>kilometers</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><label>
+                        <input type="text" name="Miles" size=20>
+                    </label></td>
+                    <td><b> <-> </b></td>
+                    <td><label>
+                        <input type="text" name="kilometre" size=20>
+                    </label></td>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="button" value="Transform" onClick="Compute(this.form)"></td>
+                </tr>
+                </tbody>
+            </table>
         </form>
 
         <form>
-
-            <label>
-                <input type="text" name="Foot" size=20>
-                feet
-            </label>
-            <b> <-> </b>
-            <label>
-                <input type="text" name="Meter" size=20>
-                meters
-            </label>
-            <input type="reset" value="Reset">
-            <input type="button" value="Transform" onClick="Compute2(this.form)">
-
+            <table class="foreign center">
+                <thead>
+                <tr>
+                    <th>feet</th>
+                    <th></th>
+                    <th>meters</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><label>
+                        <input type="text" name="Foot" size=20>
+                    </label></td>
+                    <td><b> <-> </b></td>
+                    <td><label>
+                        <input type="text" name="Meter" size=20>
+                    </label></td>
+                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
+                </tr>
+                </tbody>
+            </table>
         </form>
 
+        <br class="clear">
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/maps"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Google Maps (visited: 26-OKT-2023)</a></li>
+            <li><a target="_blank" href="https://www.openstreetmap.org/"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">OpenStreetMap (visited: 26-OKT-2023)</a></li>
+            <li><a target="_blank" href="https://www.mapcoordinates.net/en"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Find Google Maps coordinates - fast and easy! (visited: 26-OKT-2023)</a></li>
+        </ul>
 
     </div>
 
