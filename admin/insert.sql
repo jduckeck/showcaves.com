@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Musée Somme 1916', '/english/fr/subterranea/Somme1916.html', 'Somme1916', 'Europe', 'fr', 'France', 'subterranea', 'Picardie', 50.003818, 2.648375);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Parc des Titans', '/english/fr/mines/ParcDesTitans.html', 'ParcDesTitans', 'Europe', 'fr', 'France', 'mines', 'MidiPyrenees', 44.016382, 2.136137);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée de la mine Jean-Marie Somet', '/english/fr/mines/JeanMarieSomet.html', 'JeanMarieSomet', 'Europe', 'fr', 'France', 'mines', 'Rhone', 45.464278, 4.355426);
