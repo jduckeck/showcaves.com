@@ -14,3 +14,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', "Musée des Mines d'Argent à Pontgibaud", '/english/fr/mines/Pontgibaud.html', 'Pontgibaud', 'Europe', 'fr', 'France', 'mines', 'Auvergne', 45.834435, 2.854429);
 INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 1, 'Musée de la Mine et des Techniques Minière de Giromagny', '/english/fr/mines/Giromagny.html', 'Giromagny', 'Europe', 'fr', 'France', 'mines', 'FrancheComte', 47.743703, 6.824972);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', "Maison de l'ardoise de Rimogne", '/english/fr/mines/Rimogne.html', 'Rimogne', 'Europe', 'fr', 'France', 'mines', 'Ardennes', 49.840813, 4.540557);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', "Musée de l'ardoise de Fumay", '/english/fr/mines/Fumay.html', 'Fumay', 'Europe', 'fr', 'France', 'mines', 'Ardennes', 49.995191, 4.706905);
+INSERT INTO static (path)
+VALUES ('/german/explain/Topic/Ardoise.html');
+INSERT INTO static (path)
+VALUES ('/english/explain/Topic/Ardoise.html');
