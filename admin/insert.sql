@@ -30,3 +30,5 @@ INSERT INTO static (path)
 VALUES ('/german/explain/Mining/Headframe.html');
 INSERT INTO static (path)
 VALUES ('/english/explain/Mining/Headframe.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée de May-sur-Orne', '/english/fr/mines/MaySurOrne.html', 'MaySurOrne', 'Europe', 'fr', 'France', 'mines', 'Normandie', 49.099474, -0.376856);
