@@ -26,3 +26,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', "Musée de la mine et des traditions populaires d'Escaudain", '/english/fr/mines/Escaudain.html', 'Escaudain', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.332962, 3.344324);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Chevalement du Vieux II', '/english/fr/mines/VieuxII.html', 'VieuxII', 'Europe', 'fr', 'France', 'mines', 'Nord', 50.5035859, 2.5067793);
+INSERT INTO static (path)
+VALUES ('/german/explain/Mining/Headframe.html');
+INSERT INTO static (path)
+VALUES ('/english/explain/Mining/Headframe.html');
