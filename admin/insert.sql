@@ -10,3 +10,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gießenbachklamm', '/english/de/gorges/Giessenbachklamm.html', 'Gießenbachklamm', 'Europe', 'de', 'Germany', 'gorges', 'Alpen', 47.6120181, 12.1463993);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pskov-Pechory Monastery', '/english/ru/subterranea/Pechory.html', 'Pechory', 'Asia', 'ru', 'Russia', 'subterranea', 'Pskov', 57.8094377, 27.6146563);
+UPDATE `sights`
+SET `Latitude`='-35.800719',
+    `Longitude`='-69.820506'
+WHERE `filename` = 'english/ar/showcaves/Brujas.html';
