@@ -13,4 +13,16 @@ VALUES ('yes', 'Pskov-Pechory Monastery', '/english/ru/subterranea/Pechory.html'
 UPDATE `sights`
 SET `Latitude`='-35.800719',
     `Longitude`='-69.820506'
-WHERE `filename` = 'english/ar/showcaves/Brujas.html';
+WHERE `filename` = '/english/ar/showcaves/Brujas.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Nacedero del Larráun', '/english/es/springs/Larraun.html', 'Larraun', 'Europe', 'es', 'Spain', 'springs', 'Navarra', 42.9767335, -1.9176393);
+UPDATE `sights`
+SET `Latitude`='43.268099',
+    `Longitude`='-1.549402'
+WHERE `filename` = '/english/es/showcaves/Brujas.html';
+UPDATE `sights`
+SET `Latitude`='42.9737848',
+    `Longitude`='-1.8969241'
+WHERE `filename` = '/english/es/showcaves/Mendukilo.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Nacimiento Río Urederra', '/english/es/springs/Urederra.html', 'Urederra', 'Europe', 'es', 'Spain', 'springs', 'Navarra', 42.8046460, -2.1364276);
