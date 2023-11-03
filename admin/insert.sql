@@ -26,3 +26,7 @@ SET `Latitude`='42.9737848',
 WHERE `filename` = '/english/es/showcaves/Mendukilo.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Nacimiento Río Urederra', '/english/es/springs/Urederra.html', 'Urederra', 'Europe', 'es', 'Spain', 'springs', 'Navarra', 42.8046460, -2.1364276);
+UPDATE `sights`
+SET `Latitude`='48.4258740',
+    `Longitude`='7.4017117'
+WHERE `filename` = '/english/de/caves/Druides.html';
