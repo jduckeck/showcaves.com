@@ -30,3 +30,5 @@ UPDATE `sights`
 SET `Latitude`='48.4258740',
     `Longitude`='7.4017117'
 WHERE `filename` = '/english/de/caves/Druides.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte des Druides', '/english/fr/caves/Druides.html', 'Druides', 'Europe', 'fr', 'France', 'caves', 'Alsace', 48.4258740, 7.4017117);
