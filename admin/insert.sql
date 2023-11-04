@@ -48,3 +48,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Casemate de Neunhoffen', '/english/fr/subterranea/Neunhoffen.html', 'Neunhoffen', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 49.0109510, 7.6252650);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gros Ouvrage A19 Hackenberg', '/english/fr/subterranea/Hackenberg.html', 'Hackenberg', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3415213, 6.3655276);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Le Fort Wagner', '/english/fr/subterranea/Wagner.html', 'Wagner', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.014867, 6.199838);
