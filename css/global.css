@@ -725,6 +725,17 @@ TABLE.centerImg {
     background: rgba(255, 128, 128, 0.22);
 }
 
+.boxed2 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    background: rgba(255, 128, 128, 0.22);
+}
+
 hr {
     width: 50%;
     margin-bottom: 1em;

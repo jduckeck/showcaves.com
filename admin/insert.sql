@@ -32,3 +32,17 @@ SET `Latitude`='48.4258740',
 WHERE `filename` = '/english/de/caves/Druides.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte des Druides', '/english/fr/caves/Druides.html', 'Druides', 'Europe', 'fr', 'France', 'caves', 'Alsace', 48.4258740, 7.4017117);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée Mémorial de la Ligne Maginot du Rhin', '/english/fr/subterranea/Marckolsheim.html', 'Marckolsheim', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.1579643, 7.5559686);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Casemate Rieffel', '/english/fr/subterranea/Rieffel.html', 'Rieffel', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.9203494, 7.9816950);
+UPDATE `sights`
+SET `Latitude`='29.5567298',
+    `Longitude`='107.5074325'
+WHERE `filename` = '/english/cn/subterranea/816.html';
+UPDATE `sights`
+SET `Latitude`='48.5140433',
+    `Longitude`='9.4527559'
+WHERE `filename` = '/english/de/caves/Falkensteiner.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Casemate de Neunhoffen', '/english/fr/subterranea/Neunhoffen.html', 'Neunhoffen', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 49.0109510, 7.6252650);
