@@ -46,3 +46,5 @@ SET `Latitude`='48.5140433',
 WHERE `filename` = '/english/de/caves/Falkensteiner.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Casemate de Neunhoffen', '/english/fr/subterranea/Neunhoffen.html', 'Neunhoffen', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 49.0109510, 7.6252650);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gros Ouvrage A19 Hackenberg', '/english/fr/subterranea/Hackenberg.html', 'Hackenberg', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3415213, 6.3655276);
