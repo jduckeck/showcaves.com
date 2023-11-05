@@ -74,3 +74,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Fort de Douaumont', '/english/fr/subterranea/Douaumont.html', 'Douaumont', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.2164312, 5.4388476);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Fort de Vaux', '/english/fr/subterranea/Vaux.html', 'Vaux', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.2000015, 5.4704415);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ouvrage Sainte-Agnès', '/english/fr/subterranea/SainteAgnes.html', 'SainteAgnes', 'Europe', 'fr', 'France', 'subterranea', 'PACA', 43.799153, 7.462431);
