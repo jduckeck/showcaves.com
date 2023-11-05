@@ -50,3 +50,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gros Ouvrage A19 Hackenberg', '/english/fr/subterranea/Hackenberg.html', 'Hackenberg', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3415213, 6.3655276);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Le Fort Wagner', '/english/fr/subterranea/Wagner.html', 'Wagner', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.014867, 6.199838);
+INSERT INTO static (path)
+VALUES ('/english/fr/topics/RFE.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Feste Kaiser Wilhelm II', '/english/fr/subterranea/KaiserWilhelmII.html', 'KaiserWilhelmII', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.5586972, 7.4571909);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fort de Villey-le-Sec', '/english/fr/subterranea/VilleyLeSec.html', 'VilleyLeSec', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 48.6612526, 5.9759006);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Feste Obergentringen', '/english/fr/subterranea/Obergentringen.html', 'Obergentringen', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3754518, 6.1329766);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fort d’Uxegney', '/english/fr/subterranea/Uxegney.html', 'Uxegney', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 48.2014909, 6.3841719);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ouvrage du Michelsberg', '/english/fr/subterranea/Michelsberg.html', 'Michelsberg', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.2997614, 6.4126727);
