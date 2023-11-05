@@ -62,3 +62,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Fort d’Uxegney', '/english/fr/subterranea/Uxegney.html', 'Uxegney', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 48.2014909, 6.3841719);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ouvrage du Michelsberg', '/english/fr/subterranea/Michelsberg.html', 'Michelsberg', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.2997614, 6.4126727);
+UPDATE `sights`
+SET `Latitude`='49.6094287',
+    `Longitude`='6.1299324'
+WHERE `filename` = '/english/lu/subterranea/Petruss.html';
