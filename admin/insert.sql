@@ -34,3 +34,17 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Musée départemental du Sel de Marsal', '/english/fr/mines/Marsal.html', 'Marsal', 'Europe', 'fr', 'France', 'mines', 'Lorraine', 48.788330, 6.605730);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Odisejeva Špilja', '/english/hr/caves/Odisejeva.html', 'Odisejeva', 'Europe', 'hr', 'Croatia', 'caves', 'DubrovnikNeretva', 42.729668, 17.543190);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Khambhalida Buddhist Caves', '/english/in/subterranea/Khambhalida.html', 'Khambhalida', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 21.775260, 70.708180);
+UPDATE `sights`
+SET `Latitude`='21.519894104469916',
+    `Longitude`='70.47011362092617'
+WHERE `filename` = '/english/in/subterranea/BavaPyara.html';
+UPDATE `sights`
+SET `Latitude`='21.525914',
+    `Longitude`='70.469639'
+WHERE `filename` = '/english/in/subterranea/Uperkot.html';
+UPDATE `sights`
+SET `Latitude`='21.529778',
+    `Longitude`='70.468249'
+WHERE `filename` = '/english/in/subterranea/KhapraKodiya.html';
