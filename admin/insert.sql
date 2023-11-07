@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Jeskyně Pekárna', '/english/cz/caves/Pekarna.html', 'Pekarna', 'Europe', 'cz', 'Czech Republic', 'caves', 'Jihomoravsky', 49.2420229, 16.7461318);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Jeskyně Švédův Stůl', '/english/cz/caves/SveduvStul.html', 'SveduvStul', 'Europe', 'cz', 'Czech Republic', 'caves', 'Jihomoravsky', 49.2451183, 16.7478525);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grosser Atomschutz-Bunker in Güdingen', '/english/de/subterranea/Guedingen.html', 'Guedingen', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.206946, 7.034252);
