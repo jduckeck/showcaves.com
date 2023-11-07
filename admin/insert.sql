@@ -16,3 +16,7 @@ SET `Latitude`='53.3661967',
 WHERE `filename` = '/english/de/subterranea/BunkermuseumEmden.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museumsbunker Düppenweiler', '/english/de/subterranea/Dueppenweiler.html', 'Dueppenweiler', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.4093355, 6.7638500);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Westwallmuseum Wiltingen', '/english/de/subterranea/WestwallmuseumWiltingen.html', 'WestwallmuseumWiltingen', 'Europe', 'de', 'Germany', 'subterranea', 'Hunsrueck', 49.6463644, 6.5938514);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Westwallmuseum Konz', '/english/de/subterranea/WestwallmuseumKonz.html', 'WestwallmuseumKonz', 'Europe', 'de', 'Germany', 'subterranea', 'Hunsrueck', 49.6993037, 6.5720220);
