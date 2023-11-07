@@ -14,3 +14,5 @@ UPDATE `sights`
 SET `Latitude`='53.3661967',
     `Longitude`='7.2038765'
 WHERE `filename` = '/english/de/subterranea/BunkermuseumEmden.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museumsbunker Düppenweiler', '/english/de/subterranea/Dueppenweiler.html', 'Dueppenweiler', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.4093355, 6.7638500);
