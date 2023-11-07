@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'B-Werk Besseringen', '/english/de/subterranea/Besseringen.html', 'Besseringen', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.4651159, 6.6210796);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Jeskyně Pekárna', '/english/cz/caves/Pekarna.html', 'Pekarna', 'Europe', 'cz', 'Czech Republic', 'caves', 'Jihomoravsky', 49.2420229, 16.7461318);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jeskyně Švédův Stůl', '/english/cz/caves/SveduvStul.html', 'SveduvStul', 'Europe', 'cz', 'Czech Republic', 'caves', 'Jihomoravsky', 49.2451183, 16.7478525);
