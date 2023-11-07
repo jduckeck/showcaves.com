@@ -32,3 +32,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mineralienhöhler', '/english/de/subterranea/Mineralienhoehler.html', 'Mineralienhoehler', 'Europe', 'de', 'Germany', 'subterranea', 'ThueringerBecken', 50.877582, 12.085883);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Musée départemental du Sel de Marsal', '/english/fr/mines/Marsal.html', 'Marsal', 'Europe', 'fr', 'France', 'mines', 'Lorraine', 48.788330, 6.605730);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Odisejeva Špilja', '/english/hr/caves/Odisejeva.html', 'Odisejeva', 'Europe', 'hr', 'Croatia', 'caves', 'DubrovnikNeretva', 42.729668, 17.543190);
