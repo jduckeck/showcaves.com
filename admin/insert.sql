@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grosser Atomschutz-Bunker in Güdingen', '/english/de/subterranea/Guedingen.html', 'Guedingen', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.206946, 7.034252);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mineralienhöhler', '/english/de/subterranea/Mineralienhoehler.html', 'Mineralienhoehler', 'Europe', 'de', 'Germany', 'subterranea', 'ThueringerBecken', 50.877582, 12.085883);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musée départemental du Sel de Marsal', '/english/fr/mines/Marsal.html', 'Marsal', 'Europe', 'fr', 'France', 'mines', 'Lorraine', 48.788330, 6.605730);
