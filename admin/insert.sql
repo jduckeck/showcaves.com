@@ -48,3 +48,5 @@ UPDATE `sights`
 SET `Latitude`='21.529778',
     `Longitude`='70.468249'
 WHERE `filename` = '/english/in/subterranea/KhapraKodiya.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Alte Saline', '/english/de/mines/AlteSaline.html', 'AlteSaline', 'Europe', 'de', 'Germany', 'mines', 'Alpen', 47.720981, 12.877408);
