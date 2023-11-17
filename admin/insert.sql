@@ -12,3 +12,7 @@ UPDATE `sights`
 SET `Latitude`='3.900341734223693',
     `Longitude`='102.47298515471287'
 WHERE `filename` = '/english/my/showcaves/TerangBulan.html';
+UPDATE `sights`
+SET `Latitude`='57.7383631',
+    `Longitude`='18.4062135'
+WHERE `filename` = '/english/se/showcaves/Lummelundagrottan.html';
