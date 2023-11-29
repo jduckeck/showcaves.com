@@ -16,3 +16,10 @@ UPDATE `sights`
 SET `Latitude`='57.7383631',
     `Longitude`='18.4062135'
 WHERE `filename` = '/english/se/showcaves/Lummelundagrottan.html';
+UPDATE `sights`
+SET `Latitude`='38.8699822',`Longitude`='-92.3267152'
+WHERE `filename`='/english/usa/caves/DevilsIcebox.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Deer Lick Cave', '/english/usa/caves/DeerLick.html', 'DeerLick', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'oh', 41.3053583, -81.6103685);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Devil\'s Ice Box', '/english/usa/caves/DevilsIceBoxOH.html', 'DevilsIceBoxOH', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'oh', 41.3257894, -81.0381460);
