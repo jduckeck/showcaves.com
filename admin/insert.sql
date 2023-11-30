@@ -25,3 +25,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Devil\'s Ice Box', '/english/usa/caves/DevilsIceBoxOH.html', 'DevilsIceBoxOH', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'oh', 41.3257894, -81.0381460);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta dei Frati', '/english/it/caves/Frati.html', 'Frati', 'Europe', 'it', 'Italy', 'caves', 'Marche', 43.0748362, 13.2105452);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Rock House', '/english/usa/caves/RockHouse.html', 'RockHouse', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'oh', 39.4975460, -82.6135909);
