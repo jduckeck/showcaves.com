@@ -27,3 +27,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotta dei Frati', '/english/it/caves/Frati.html', 'Frati', 'Europe', 'it', 'Italy', 'caves', 'Marche', 43.0748362, 13.2105452);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Rock House', '/english/usa/caves/RockHouse.html', 'RockHouse', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'oh', 39.4975460, -82.6135909);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta Entella', '/english/it/caves/Entella.html', 'Entella', 'Europe', 'it', 'Italy', 'caves', 'Sicilia', 37.7788219, 13.1132474);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta Mangiapane', '/english/it/caves/Mangiapane.html', 'Mangiapane', 'Europe', 'it', 'Italy', 'caves', 'Sicilia', 38.0933025, 12.6708723);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Battistero Neoniano', '/english/it/subterranea/BattisteroNeoniano.html', 'BattisteroNeoniano', 'Europe', 'it', 'Italy', 'subterranea', 'Emilia-Romagna', 44.41588309972946, 12.200943580216602);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta della Cala', '/english/it/showcaves/Cala.html', 'Cala', 'Europe', 'it', 'Italy', 'showcaves', 'Campania', 40.000955, 15.381176);
