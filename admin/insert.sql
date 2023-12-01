@@ -37,3 +37,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotta della Cala', '/english/it/showcaves/Cala.html', 'Cala', 'Europe', 'it', 'Italy', 'showcaves', 'Campania', 40.000955, 15.381176);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte d\'Harpea', '/english/fr/caves/Harpea.html', 'Harpea', 'Europe', 'fr', 'France', 'caves', 'Aquitaine', 43.0331022, -1.1799978);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Réservoir de Montsouris', '/english/fr/subterranea/Montsouris.html', 'Montsouris', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance', 48.824690, 2.333430);
