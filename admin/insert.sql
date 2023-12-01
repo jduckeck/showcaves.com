@@ -47,3 +47,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Adalaj Stepwell', '/english/in/subterranea/Adalaj.html', 'Adalaj', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 23.166696, 72.580156);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Chand Baori', '/english/in/subterranea/ChandBaori.html', 'ChandBaori', 'Asia', 'in', 'India', 'subterranea', 'Rajasthan', 27.007270, 76.606480);
+UPDATE `sights`
+SET `Latitude`='40.6226666',
+    `Longitude`='17.5329833'
+WHERE `filename` = '/english/it/caves/CriptaSanMichele.html';
+UPDATE `sights`
+SET `Latitude`='41.2801742',
+    `Longitude`='14.6007832'
+WHERE `filename` = '/english/it/caves/MorgiaSantAngelo.html';
+UPDATE `sights`
+SET `Latitude`='39.787604',
+    `Longitude`='16.309700'
+WHERE `filename` = '/english/it/showcaves/SantAngelo.html';
