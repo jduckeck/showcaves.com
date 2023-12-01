@@ -39,3 +39,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte d\'Harpea', '/english/fr/caves/Harpea.html', 'Harpea', 'Europe', 'fr', 'France', 'caves', 'Aquitaine', 43.0331022, -1.1799978);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Réservoir de Montsouris', '/english/fr/subterranea/Montsouris.html', 'Montsouris', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance', 48.824690, 2.333430);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Amer Stepwell', '/english/in/subterranea/Amer.html', 'Amer', 'Asia', 'in', 'India', 'subterranea', 'Rajasthan', 26.9910485, 75.8511522);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Toorji Ka Jhalra Bavdi', '/english/in/subterranea/ToorjiKaJhalra.html', 'ToorjiKaJhalra', 'Asia', 'in', 'India', 'subterranea', 'Rajasthan', 26.297126, 73.023075);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Adalaj Stepwell', '/english/in/subterranea/Adalaj.html', 'Adalaj', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 23.166696, 72.580156);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chand Baori', '/english/in/subterranea/ChandBaori.html', 'ChandBaori', 'Asia', 'in', 'India', 'subterranea', 'Rajasthan', 27.007270, 76.606480);
