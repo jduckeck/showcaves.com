@@ -59,3 +59,11 @@ UPDATE `sights`
 SET `Latitude`='39.787604',
     `Longitude`='16.309700'
 WHERE `filename` = '/english/it/showcaves/SantAngelo.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Navghan Kuvo', '/english/in/subterranea/Navghan.html', 'Navghan', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 21.523824, 70.471450);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Adi Kadi Vav', '/english/in/subterranea/AdiKadi.html', 'AdiKadi', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 21.526830, 70.471820);
+UPDATE `sights`
+SET `Latitude`='49.9199383',
+    `Longitude`='11.0869647'
+WHERE `filename` = '/english/de/caves/Jungfern.html';
