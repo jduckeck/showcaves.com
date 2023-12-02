@@ -67,3 +67,5 @@ UPDATE `sights`
 SET `Latitude`='49.9199383',
     `Longitude`='11.0869647'
 WHERE `filename` = '/english/de/caves/Jungfern.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Agrasen ki Baoli', '/english/in/subterranea/Agrasen.html', 'Agrasen', 'Asia', 'in', 'India', 'subterranea', 'Delhi', 28.625851, 77.225049);
