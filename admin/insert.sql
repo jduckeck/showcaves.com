@@ -71,3 +71,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Agrasen ki Baoli', '/english/in/subterranea/Agrasen.html', 'Agrasen', 'Asia', 'in', 'India', 'subterranea', 'Delhi', 28.625851, 77.225049);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Rani Ki Vav', '/english/in/subterranea/Rani.html', 'Rani', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 23.858934, 72.102092);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta Remeron', '/english/it/showcaves/Remeron.html', 'Remeron', 'Europe', 'it', 'Italy', 'showcaves', 'Lombardia', 45.8598088, 8.7462772);
