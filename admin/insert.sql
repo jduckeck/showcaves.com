@@ -69,3 +69,5 @@ SET `Latitude`='49.9199383',
 WHERE `filename` = '/english/de/caves/Jungfern.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Agrasen ki Baoli', '/english/in/subterranea/Agrasen.html', 'Agrasen', 'Asia', 'in', 'India', 'subterranea', 'Delhi', 28.625851, 77.225049);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Rani Ki Vav', '/english/in/subterranea/Rani.html', 'Rani', 'Asia', 'in', 'India', 'subterranea', 'Gujarat', 23.858934, 72.102092);
