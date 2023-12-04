@@ -6,3 +6,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Crypte archéologique de l’île de la Cité', '/english/fr/subterranea/Crypte.html', 'Crypte', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance', 48.85365040000545, 2.347720164418369);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Medieval Louvre Underground', '/english/fr/subterranea/MedievalLouvre.html', 'MedievalLouvre', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance', 48.86060404156743, 2.337627906749093);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Valea Sighiştelului', '/english/ro/gorges/Sighistel.html', 'Sighistel', 'Europe', 'ro', 'Romania', 'gorges', 'Apuseni', 46.525459, 22.556513);
+UPDATE `sights`
+SET `Latitude`='31.253503',`Longitude`='119.780219'
+WHERE `filename`='/english/cn/showcaves/Zhanggong.html';
