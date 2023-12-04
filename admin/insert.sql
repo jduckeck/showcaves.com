@@ -1,4 +1,10 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Shuanghe Water Cave', '/english/cn/showcaves/Shuanghe.html', 'Shuanghe', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 28.243466, 107.274991);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Yinhe Dong', '/english/cn/caves/Yinhe.html', 'Yinhe', 'Asia', 'cn', 'China', 'caves', 'Guizhou', 28.2394098, 107.2925678);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Xiangshui Dong', '/english/cn/showcaves/Xiangshui.html', 'Xiangshui', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 28.2416968, 107.3000832);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Catacombe ebraiche di Venosa', '/english/it/subterranea/Venosa.html', 'Venosa', 'Europe', 'it', 'Italy', 'subterranea', 'Calabria', 40.978263, 15.839754);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Carrières des Capucins', '/english/fr/subterranea/CarrieresCapucins.html', 'CarrieresCapucins', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance', 48.83736682233963, 2.3388313490967367);
