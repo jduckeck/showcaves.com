@@ -3,7 +3,7 @@ VALUES('yes','Shuanghe Water Cave', '/english/cn/showcaves/Shuanghe.html', 'Shua
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Yinhe Dong', '/english/cn/caves/Yinhe.html', 'Yinhe', 'Asia', 'cn', 'China', 'caves', 'Guizhou', 28.2394098, 107.2925678);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Xiangshui Dong', '/english/cn/showcaves/Xiangshui.html', 'Xiangshui', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 28.2416968, 107.3000832);
+VALUES('yes','Dixia Liefeng', '/english/cn/showcaves/DixiaLiefeng.html', 'Xiangshui', 'Asia', 'cn', 'China', 'showcaves', 'Guizhou', 28.2416968, 107.3000832);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Catacombe ebraiche di Venosa', '/english/it/subterranea/Venosa.html', 'Venosa', 'Europe', 'it', 'Italy', 'subterranea', 'Calabria', 40.978263, 15.839754);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -17,3 +17,6 @@ VALUES('yes','Valea Sighiştelului', '/english/ro/gorges/Sighistel.html', 'Sighi
 UPDATE `sights`
 SET `Latitude`='31.253503',`Longitude`='119.780219'
 WHERE `filename`='/english/cn/showcaves/Zhanggong.html';
+UPDATE `sights`
+SET `Latitude`='37.561364',`Longitude`='102.742959'
+WHERE `filename`='/english/cn/subterranea/Tianti.html';
