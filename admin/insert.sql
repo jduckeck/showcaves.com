@@ -20,3 +20,5 @@ WHERE `filename`='/english/cn/showcaves/Zhanggong.html';
 UPDATE `sights`
 SET `Latitude`='37.561364',`Longitude`='102.742959'
 WHERE `filename`='/english/cn/subterranea/Tianti.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jizhou Dong', '/english/cn/showcaves/Jizhou.html', 'Jizhou', 'Asia', 'cn', 'China', 'showcaves', 'Beijing', 40.130009, 117.372650);
