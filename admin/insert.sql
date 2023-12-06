@@ -26,3 +26,7 @@ UPDATE `sights`
 SET `Latitude`='25.071452',
     `Longitude`='103.382554'
 WHERE `filename` = '/english/cn/karst/Yincuixia.html';
+UPDATE `sights`
+SET `Latitude`='25.0708159',
+    `Longitude`='103.3820471'
+WHERE `filename` = '/english/cn/karst/Jiuxiang.html';
