@@ -14,3 +14,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Cueva de los Peces', '/english/cu/karst/Peces.html', 'Peces', 'MiddleAmerica', 'cu', 'Cuba', 'karst', 'Matanzas', 22.1665982, -81.1365015);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','L-għar ta´ Mixta', '/english/mt/caves/Mixta.html', 'Mixta', 'Europe', 'mt', 'Malta', 'caves', 'Gozo', 36.0633299, 14.2895832);
+UPDATE `sights`
+SET `Latitude`='36.0606740',`Longitude`='14.2794941'
+WHERE `filename`='/english/mt/caves/Calypso.html';
