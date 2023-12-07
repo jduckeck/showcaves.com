@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','El Nicho Waterfall & Cave', '/english/cu/caves/ElNicho.html', 'ElNicho', 'MiddleAmerica', 'cu', 'Cuba', 'caves', 'Cienfuegos', 22.0234642, -80.1334192);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Cueva de los Peces', '/english/cu/karst/Peces.html', 'Peces', 'MiddleAmerica', 'cu', 'Cuba', 'karst', 'Matanzas', 22.1665982, -81.1365015);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','L-għar ta´ Mixta', '/english/mt/caves/Mixta.html', 'Mixta', 'Europe', 'mt', 'Malta', 'caves', 'Gozo', 36.0633299, 14.2895832);
