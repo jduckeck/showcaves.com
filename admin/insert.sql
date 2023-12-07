@@ -17,3 +17,6 @@ VALUES('yes','L-għar ta´ Mixta', '/english/mt/caves/Mixta.html', 'Mixta', 'Eur
 UPDATE `sights`
 SET `Latitude`='36.0606740',`Longitude`='14.2794941'
 WHERE `filename`='/english/mt/caves/Calypso.html';
+UPDATE `sights`
+SET `Latitude`='42.0025902',`Longitude`='24.2774606'
+WHERE `filename`='/english/bg/showcaves/Snezhanka.html';
