@@ -20,3 +20,11 @@ WHERE `filename`='/english/mt/caves/Calypso.html';
 UPDATE `sights`
 SET `Latitude`='42.0025902',`Longitude`='24.2774606'
 WHERE `filename`='/english/bg/showcaves/Snezhanka.html';
+INSERT INTO static (path)
+VALUES('/german/explain/Mining/Venediger.html');
+INSERT INTO static (path)
+VALUES('/english/explain/Mining/Venediger.html');
+INSERT INTO static (path)
+VALUES('/german/explain/Mining/CompanyStore.html');
+INSERT INTO static (path)
+VALUES('/english/explain/Mining/CompanyStore.html');
