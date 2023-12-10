@@ -28,3 +28,5 @@ INSERT INTO static (path)
 VALUES('/german/explain/Mining/CompanyStore.html');
 INSERT INTO static (path)
 VALUES('/english/explain/Mining/CompanyStore.html');
+INSERT INTO static (path)
+VALUES ('/english/es/geoparks/VilluercasIboresJara.html');
