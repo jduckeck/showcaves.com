@@ -32,3 +32,5 @@ INSERT INTO static (path)
 VALUES ('/english/es/geoparks/VilluercasIboresJara.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mina La Dificultad', '/english/mx/mines/Dificultad.html', 'Dificultad', 'MiddleAmerica', 'mx', 'México', 'mines', 'Hidalgo', 20.145413, -98.671832);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Nanjing Ape Man Cave', '/english/cn/showcaves/NanjingMan.html', 'NanjingMan', 'Asia', 'cn', 'China', 'showcaves', 'Jiangsu', 32.0581432, 119.0385336);
