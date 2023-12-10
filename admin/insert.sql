@@ -30,3 +30,5 @@ INSERT INTO static (path)
 VALUES('/english/explain/Mining/CompanyStore.html');
 INSERT INTO static (path)
 VALUES ('/english/es/geoparks/VilluercasIboresJara.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mina La Dificultad', '/english/mx/mines/Dificultad.html', 'Dificultad', 'MiddleAmerica', 'mx', 'México', 'mines', 'Hidalgo', 20.145413, -98.671832);
