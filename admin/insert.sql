@@ -36,3 +36,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Nanjing Ape Man Cave', '/english/cn/showcaves/NanjingMan.html', 'NanjingMan', 'Asia', 'cn', 'China', 'showcaves', 'Jiangsu', 32.0581432, 119.0385336);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Lumingsen Valley Tourist Resort', '/english/cn/showcaves/Lumingsen.html', 'Lumingsen', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.712477, 107.936119);
+UPDATE `sights`
+SET `Latitude`='26.7677404',
+    `Longitude`='105.8930268'
+WHERE `filename` = '/english/cn/showcaves/Zhijin.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cotton Sinkhole', '/english/cn/karst/Cotton.html', 'Cotton', 'Asia', 'cn', 'China', 'karst', 'Guangxi', 24.791586, 108.785711);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Changsheng Dong', '/english/cn/showcaves/Changsheng.html', 'Changsheng', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.796577, 108.780004);
