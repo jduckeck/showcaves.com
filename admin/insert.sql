@@ -44,3 +44,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cotton Sinkhole', '/english/cn/karst/Cotton.html', 'Cotton', 'Asia', 'cn', 'China', 'karst', 'Guangxi', 24.791586, 108.785711);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Changsheng Dong', '/english/cn/showcaves/Changsheng.html', 'Changsheng', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.796577, 108.780004);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Cueva Alfredo Jahn', '/english/other/caves/AlfredoJahn.html', 'AlfredoJahn', 'SouthAmerica', 've', 'Venezuela', 'caves', 've', 'other', 10.4761257, -66.2708004);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Puye Cliff Dwellings', '/english/usa/subterranea/Puye.html', 'Puye', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nm', 35.972752, -106.229153);
