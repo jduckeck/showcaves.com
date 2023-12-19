@@ -50,3 +50,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Puye Cliff Dwellings', '/english/usa/subterranea/Puye.html', 'Puye', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nm', 35.972752, -106.229153);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Cuevas de Semán', '/english/other/caves/Seman.html', 'Seman', 'SouthAmerica', 've', 'Venezuela', 'caves', 've', 'other', 10.798, -72.431);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Cuevas de Kavac', '/english/other/gorges/Kavac.html', 'Kavac', 'SouthAmerica', 've', 'Venezuela', 'gorges', 've', 'other', 5.7170578, -62.4263903);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Salto El Sapo', '/english/other/caves/SaltoElSapo.html', 'SaltoElSapo', 'SouthAmerica', 've', 'Venezuela', 'caves', 've', 'other', 6.2544749, -62.8376942);
