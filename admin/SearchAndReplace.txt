@@ -25,6 +25,9 @@ Datestamp to uppercase:
 -OKT-
 -OCT-
 
+-DEZ-
+-DEC-
+
 multiline:
 ((.|\n)*)
 
