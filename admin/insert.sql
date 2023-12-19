@@ -9,3 +9,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Sima Humboldt', '/english/ve/karst/Humboldt.html', 'Humboldt', 'SouthAmerica', 've', 'Venezuela', 'karst', 'Bolivar', 4.685503, -64.218624);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Sima Martel', '/english/ve/karst/Martel.html', 'Martel', 'SouthAmerica', 've', 'Venezuela', 'karst', 'Bolivar', 4.677700, -64.222039);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Cueva del Indio de Chichiriviche', '/english/ve/caves/Chichiriviche.html', 'Chichiriviche', 'SouthAmerica', 've', 'Venezuela', 'caves', 'Falcon', 10.893502, -68.256704);
