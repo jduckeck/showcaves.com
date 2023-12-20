@@ -43,6 +43,9 @@ authors:
 <b class="smallCaps">([^<]+?), ([^<]+?)</b>
 <b class="smallCaps">$2 $1</b>
 
+ &
+</b>, <b class="smallCaps">
+
 closed mines
 ><span class="closed">$1</span><
 
