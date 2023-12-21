@@ -8,3 +8,5 @@ UPDATE `sights`
 SET `Latitude`='42.7711770',
     `Longitude`='13.4097421'
 WHERE `filename` = '/english/it/caves/Acquasanta.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lu Vurghe', '/english/it/springs/Vurghe.html', 'Vurghe', 'Europe', 'it', 'Italy', 'springs', 'Marche', 42.779694, 13.413842);
