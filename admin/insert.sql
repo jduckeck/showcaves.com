@@ -10,3 +10,7 @@ SET `Latitude`='42.7711770',
 WHERE `filename` = '/english/it/caves/Acquasanta.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Lu Vurghe', '/english/it/springs/Vurghe.html', 'Vurghe', 'Europe', 'it', 'Italy', 'springs', 'Marche', 42.779694, 13.413842);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gole del Garrafo', '/english/it/gorges/Garrafo.html', 'Garrafo', 'Europe', 'it', 'Italy', 'gorges', 'Marche', 42.7599573, 13.4070033);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gola del Furlo', '/english/it/gorges/Furlo.html', 'Furlo', 'Europe', 'it', 'Italy', 'gorges', 'Marche', 43.6461857, 12.7228071);
