@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bruedertöbeli', '/english/ch/caves/Bruedertobeli.html', 'Bruedertobeli', 'Europe', 'ch', 'Switzerland', 'caves', 'StGallen', 47.3616736, 9.0919404);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Diamante Falls', '/english/cr/subterranea/Diamante.html', 'Diamante', 'MiddleAmerica', 'cr', 'Costa Rica', 'subterranea', 'SanJose', 9.257533, -83.774658);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta del Sasso Petruccio', '/english/it/caves/SassoPetruccio.html', 'SassoPetruccio', 'Europe', 'it', 'Italy', 'caves', 'Marche', 42.7381876, 13.3744878);
