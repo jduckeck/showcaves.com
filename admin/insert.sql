@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gole del Garrafo', '/english/it/gorges/Garrafo.html', 'Garrafo', 'Europe', 'it', 'Italy', 'gorges', 'Marche', 42.7599573, 13.4070033);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gola del Furlo', '/english/it/gorges/Furlo.html', 'Furlo', 'Europe', 'it', 'Italy', 'gorges', 'Marche', 43.6461857, 12.7228071);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bruedertöbeli', '/english/ch/caves/Bruedertobeli.html', 'Bruedertobeli', 'Europe', 'ch', 'Switzerland', 'caves', 'StGallen', 47.3616736, 9.0919404);
