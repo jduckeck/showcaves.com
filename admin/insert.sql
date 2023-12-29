@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Aynalıgöl Mağarası', '/english/tr/showcaves/Aynaligol.html', 'Aynaligol', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.1310710, 33.4024889);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Taşkuyu Mağarası', '/english/tr/showcaves/Taskuyu.html', 'Taskuyu', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.949358, 34.788215);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Marneef Cave', '/english/om/caves/Marneef.html', 'Marneef', 'MiddleEast', 'om', 'Oman', 'caves', 'Dhofar', 16.875849, 53.766651);
