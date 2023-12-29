@@ -12,3 +12,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kapilikaya Rock Tomb', '/english/tr/subterranea/Kapilikaya.html', 'Kapilikaya', 'Europe', 'tr', 'Turkey', 'subterranea', 'BlackSea', 40.754317, 34.912595);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Aynalı Mağara', '/english/tr/subterranea/Aynali.html', 'Aynali', 'Europe', 'tr', 'Turkey', 'subterranea', 'BlackSea', 40.672490, 35.849250);
+UPDATE `sights`
+SET `Latitude`='36.9578770',
+    `Longitude`='34.7969284'
+WHERE `filename` = '/english/tr/caves/AshabIKehf.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Aynalıgöl Mağarası', '/english/tr/showcaves/Aynaligol.html', 'Aynaligol', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.1310710, 33.4024889);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Taşkuyu Mağarası', '/english/tr/showcaves/Taskuyu.html', 'Taskuyu', 'Europe', 'tr', 'Turkey', 'showcaves', 'Mediterranean', 36.949358, 34.788215);
