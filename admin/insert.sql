@@ -29,3 +29,5 @@ VALUES('yes','Ağırnas Yeraltı Şehri', '/english/tr/subterranea/Agirnas.html'
 UPDATE `sights`
 SET `Latitude`='38.634459',`Longitude`='34.481276'
 WHERE `filename`='/english/tr/subterranea/Tatlarin.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Santika', '/english/jp/subterranea/Santika.html', 'Santika', 'Asia', 'jp', 'Japan', 'subterranea', 'Hyogo', 34.692573, 135.194851);
