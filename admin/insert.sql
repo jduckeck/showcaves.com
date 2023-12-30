@@ -24,3 +24,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Marneef Cave', '/english/om/caves/Marneef.html', 'Marneef', 'MiddleEast', 'om', 'Oman', 'caves', 'Dhofar', 16.875849, 53.766651);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bu Haban Cave', '/english/om/caves/BuHaban.html', 'BuHaban', 'MiddleEast', 'om', 'Oman', 'caves', 'AshSharqiyahNorth', 23.048578, 58.691566);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Ağırnas Yeraltı Şehri', '/english/tr/subterranea/Agirnas.html', 'Agirnas', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.8136402, 35.7166846);
+UPDATE `sights`
+SET `Latitude`='38.634459',`Longitude`='34.481276'
+WHERE `filename`='/english/tr/subterranea/Tatlarin.html';
