@@ -35,3 +35,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yaechika', '/english/jp/subterranea/Yaechika.html', 'Yaechika', 'Asia', 'jp', 'Japan', 'subterranea', 'Tokyo', 35.680224, 139.769435);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Umeda', '/english/jp/subterranea/Umeda.html', 'Umeda', 'Asia', 'jp', 'Japan', 'subterranea', 'Osaka', 34.70297343675863, 135.49953110933208);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jungang Underground Shopping Center', '/english/kr/subterranea/Jungang.html', 'Jungang', 'Asia', 'kr', 'South Korea', 'subterranea', 'Jeju', 33.51317337848118, 126.52469743854982);
