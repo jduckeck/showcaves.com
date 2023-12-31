@@ -30,7 +30,7 @@ UPDATE `sights`
 SET `Latitude`='38.634459',`Longitude`='34.481276'
 WHERE `filename`='/english/tr/subterranea/Tatlarin.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Santika', '/english/jp/subterranea/Santika.html', 'Santika', 'Asia', 'jp', 'Japan', 'subterranea', 'Hyogo', 34.692573, 135.194851);
+VALUES ('yes', 'Santica', '/english/jp/subterranea/Santica.html', 'Santica', 'Asia', 'jp', 'Japan', 'subterranea', 'Hyogo', 34.692573, 135.194851);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Yaechika', '/english/jp/subterranea/Yaechika.html', 'Yaechika', 'Asia', 'jp', 'Japan', 'subterranea', 'Tokyo', 35.680224, 139.769435);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
