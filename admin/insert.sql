@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Peralassery Subrahmanya Temple Pond', '/english/in/subterranea/PeralasserySubrahmanya.html', 'PeralasserySubrahmanya', 'Asia', 'in', 'India', 'subterranea', 'Kerala', 11.832742, 75.485602);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kottukal Cave Temple', '/english/in/subterranea/Kottukal.html', 'Kottukal', 'Asia', 'in', 'India', 'subterranea', 'Kerala', 8.8894728, 76.9052679);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Swiftlet Cave Munnar', '/english/in/caves/Swiftlet.html', 'Swiftlet', 'Asia', 'in', 'India', 'caves', 'Kerala', 10.043031, 77.124673);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Malayil Kallan Guha', '/english/in/caves/MalayilKallan.html', 'MalayilKallan', 'Asia', 'in', 'India', 'caves', 'Kerala', 10.037010, 77.129190);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kalladanthy Natural Cave', '/english/in/caves/Kalladanthy.html', 'Kalladanthy', 'Asia', 'in', 'India', 'caves', 'Kerala', 10.011975, 77.078785);
