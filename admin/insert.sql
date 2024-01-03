@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Malayil Kallan Guha', '/english/in/caves/MalayilKallan.html', 'MalayilKallan', 'Asia', 'in', 'India', 'caves', 'Kerala', 10.037010, 77.129190);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kalladanthy Natural Cave', '/english/in/caves/Kalladanthy.html', 'Kalladanthy', 'Asia', 'in', 'India', 'caves', 'Kerala', 10.011975, 77.078785);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Natural Cave Koovapara', '/english/in/showcaves/Koovapara.html', 'Koovapara', 'Asia', 'in', 'India', 'showcaves', 'Kerala', 12.304788, 75.279023);
