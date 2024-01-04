@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Batadomba Lena', '/english/lk/caves/Batadombalena.html', 'Batadombalena', 'Asia', 'lk', 'Sri Lanka', 'caves', 'Sabaragamuwa', 6.77654, 80.39622);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva de Urallaga', '/english/es/caves/Urallaga.html', 'Urallaga', 'Europe', 'es', 'Spain', 'caves', 'PaisVasco', 43.2738804, -3.0977442);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo de la Minería del País Vasco', '/english/es/mines/Meatzaldea.html', 'Meatzaldea', 'Europe', 'es', 'Spain', 'mines', 'PaisVasco', 43.311436, -3.070209);
