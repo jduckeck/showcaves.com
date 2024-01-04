@@ -20,3 +20,5 @@ INSERT INTO static (path)
 VALUES ('/english/es/geoparks/SierrasSubbeticas.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Batadomba Lena', '/english/lk/caves/Batadombalena.html', 'Batadombalena', 'Asia', 'lk', 'Sri Lanka', 'caves', 'Sabaragamuwa', 6.77654, 80.39622);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de Urallaga', '/english/es/caves/Urallaga.html', 'Urallaga', 'Europe', 'es', 'Spain', 'caves', 'PaisVasco', 43.2738804, -3.0977442);
