@@ -254,7 +254,7 @@
         <p>
             If you followed a link from a foreign page, please tell me where the broken link was (the page you where coming from).
             Just paste its URL/title into an email and send it to
-            E-mail: <img onClick="xemhid('octavian','showcaves','com')" style="cursor: pointer;" src="https://www.showcaves.com/xemhid.php?p1=octavian&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0">.
+            E-mail: <img onClick="xemhid('soylentgreen','showcaves','com')" style="cursor: pointer;" src="https://www.showcaves.com/xemhid.php?p1=soylentgreen&p2=showcaves&p3=com" vspace="0" alt="contact" title="contact" border="0">.
             We will do the best to give you the new address of the page.
         </p>
 
@@ -291,7 +291,7 @@
                 <li><a target="_top" href="../english/explain/index.html">General Information</a></li>
                 <li><a data-ajax="false" target="_top" href="../english/TermsOfUse.html">Terms of Use</a></li>
                 <li><a data-ajax="false" target="_top" href="../english/Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid" src="../xemhid.php?p1=octavian&p2=showcaves&p3=com"></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid" src="../xemhid.php?p1=soylentgreen&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
     </div>

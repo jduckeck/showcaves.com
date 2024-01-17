@@ -294,7 +294,7 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
                 <li><a target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Änderungen und Kritik</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Änderungen und Kritik</a></li>
             </ul>
         </div>
     </div>
