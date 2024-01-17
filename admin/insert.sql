@@ -20,3 +20,11 @@ SET `Latitude`='42.9802120',
 WHERE `filename` = '/english/hr/showcaves/Modra.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Vela Špilja', '/english/hr/showcaves/Vela.html', 'Vela', 'Europe', 'hr', 'Croatia', 'showcaves', 'Split', 42.9697318, 16.7183568);
+INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 1, 'Cave Bar More', '/english/hr/subterranea/More.html', 'More', 'Europe', 'hr', 'Croatia', 'subterranea', 'DubrovnikNeretva', 42.6567748, 18.0659281);
+UPDATE `sights`
+SET `Latitude`='43.8051495',
+    `Longitude`='15.9639962'
+WHERE `filename` = '/english/hr/karst/Krka.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vražji Prolaz', '/english/hr/gorges/VrazjiProlaz.html', 'VrazjiProlaz', 'Europe', 'hr', 'Croatia', 'gorges', 'GorskiKotar', 45.4257056, 14.8925037);
