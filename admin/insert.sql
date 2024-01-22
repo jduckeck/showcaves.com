@@ -34,3 +34,5 @@ UPDATE `sights`
 SET `Latitude`='-33.2389218',
     `Longitude`='150.2253201'
 WHERE `filename` = '/english/au/subterranea/Newnes.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Helensburgh Glowworm Tunnel', '/english/au/subterranea/Helensburgh.html', 'Helensburgh', 'Australia', 'au', 'Australia', 'subterranea', 'nsw', -34.1796072, 150.9929895);
