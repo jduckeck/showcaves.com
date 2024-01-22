@@ -28,3 +28,5 @@ SET `Latitude`='43.8051495',
 WHERE `filename` = '/english/hr/karst/Krka.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Vražji Prolaz', '/english/hr/gorges/VrazjiProlaz.html', 'VrazjiProlaz', 'Europe', 'hr', 'Croatia', 'gorges', 'GorskiKotar', 45.4257056, 14.8925037);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maria im Stein', '/english/de/subterranea/MariaImStein.html', 'MariaImStein', 'Europe', 'de', 'Germany', 'subterranea', 'Oberschwaben', 47.8193365, 9.2240105);
