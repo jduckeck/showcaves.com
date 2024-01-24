@@ -20,34 +20,44 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Cuba Map showcaves.com">
+    <meta name="description" content="$CaveName$ Cuba Maps showcaves.com">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of Cuba: $CaveName$"/>
+    <meta property="og:title" content="Maps of Cuba: $CaveName$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of Cuba: $CaveName$</title>
+    <title>Maps of Cuba: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../cu/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <li><a data-ajax="false" target="_top" href="../../cu/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
-        <li><a data-ajax="false" target="_top" href="../../cu/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        <figure class="left">
+            <a target="_top" href="../../cu/Maps/index.html"><img alt="Cuba Map" src="../../../maps/Cuba.png" class="mapIcon"></a>
+            <figcaption class="center">Cuba Map</figcaption>
+        </figure>
 
-        <h1 class="center">Map of Cuba</h1>
+        <figure class="right">
+            <a target="_top" href="../../cu/Maps/index.html"><img alt="Cuba Map" src="../../../maps/Cuba.png" class="mapIcon"></a>
+            <figcaption class="center">Cuba Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="CubaMap">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/cu/Cuba.gif" USEMAP="#CubaMap" class="map">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -58,8 +68,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Cuba</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">ByProvince</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+                <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
@@ -79,7 +93,7 @@
                 <li><a target="_top" href="../../explain/index.html">General Information</a></li>
                 <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span></a></li>
             </ul>
         </div>
     </div>

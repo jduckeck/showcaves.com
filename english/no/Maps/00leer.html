@@ -20,34 +20,44 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Norway Map showcaves.com">
+    <meta name="description" content="$CaveName$ Norway Maps showcaves.com">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of Norway: $CaveName$"/>
+    <meta property="og:title" content="Maps of Norway: $CaveName$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of Norway: $CaveName$</title>
+    <title>Maps of Norway: $CaveName$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../no/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
 
-        <li><a data-ajax="false" target="_top" href="../../no/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
-        <li><a data-ajax="false" target="_top" href="../../no/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        <figure class="left">
+            <a target="_top" href="../../no/Maps/index.html"><img alt="Norway Map" src="../../../maps/Norway.png" class="mapIcon"></a>
+            <figcaption class="center">Norway Map</figcaption>
+        </figure>
 
-        <h1 class="center">Map of Norway</h1>
+        <figure class="right">
+            <a target="_top" href="../../no/Maps/index.html"><img alt="Norway Map" src="../../../maps/Norway.png" class="mapIcon"></a>
+            <figcaption class="center">Norway Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="NorwayMap">
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Norway.png" USEMAP="#NorwayMap" border="1" width="780" height="460">
+            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">
         </div>
 
     </div>
@@ -58,8 +68,12 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Norway</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/byFylke.html">by Fylke</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">By $RegionLocal$</a>
+                <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
@@ -79,7 +93,7 @@
                 <li><a target="_top" href="../../explain/index.html">General Information</a></li>
                 <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('octavian','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span></a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span></a></li>
             </ul>
         </div>
     </div>
