@@ -9,3 +9,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Podzemni grad Paklenice', '/english/hr/subterranea/Paklenica.html', 'Paklenica', 'Europe', 'hr', 'Croatia', 'subterranea', 'Zadar', 44.3056353, 15.4725513);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Dva Oka', '/english/hr/springs/DvaOka.html', 'DvaOka', 'Europe', 'hr', 'Croatia', 'springs', 'Split', 43.456720, 17.174996);
+UPDATE `sights`
+SET `Latitude`='43.454564',
+    `Longitude`='17.199074'
+WHERE `filename` = '/english/hr/karst/CrvenoJezero.html';
