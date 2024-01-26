@@ -5,3 +5,5 @@ VALUES('yes','Izvor rijeke Bijele', '/english/hr/springs/Bijela.html', 'Bijela',
 UPDATE `sights`
 SET `Latitude`='44.3143024',`Longitude`='15.4750108'
 WHERE `filename`='/english/hr/showcaves/ManitaPec.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Podzemni grad Paklenice', '/english/hr/subterranea/Paklenica.html', 'Paklenica', 'Europe', 'hr', 'Croatia', 'subterranea', 'Zadar', 44.3056353, 15.4725513);
