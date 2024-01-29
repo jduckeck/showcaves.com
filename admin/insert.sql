@@ -12,3 +12,7 @@ UPDATE `sights`
 SET `Latitude`='46.1654269',
     `Longitude`='15.8632177'
 WHERE `filename` = '/english/hr/showcaves/Krapina.html';
+UPDATE `sights`
+SET `Latitude`='46.3017576',
+    `Longitude`='16.0798704'
+WHERE `filename` = '/english/hr/caves/Vindija.html';
