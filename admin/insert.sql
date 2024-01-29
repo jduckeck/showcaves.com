@@ -16,3 +16,5 @@ UPDATE `sights`
 SET `Latitude`='46.3017576',
     `Longitude`='16.0798704'
 WHERE `filename` = '/english/hr/caves/Vindija.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Horvatove Stube', '/english/hr/caves/HorvatoveStube.html', 'HorvatoveStube', 'Europe', 'hr', 'Croatia', 'caves', 'KrapinaZagorje', 45.9189687, 15.9649405);
