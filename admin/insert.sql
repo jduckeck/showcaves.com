@@ -8,3 +8,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Dva Oka', '/english/hr/springs/DvaOka.html', 'DvaOka', 'Europe', 'hr', 'Croatia', 'springs', 'Split', 43.456720, 17.174996);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Rattlesnake Canyon', '/english/usa/gorges/RattlesnakeCanyon.html', 'RattlesnakeCanyon', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'co', 39.137128, -108.833471);
+UPDATE `sights`
+SET `Latitude`='46.1654269',
+    `Longitude`='15.8632177'
+WHERE `filename` = '/english/hr/showcaves/Krapina.html';
