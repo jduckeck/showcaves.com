@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Dabarska pećina', '/english/ba/caves/Dabar.html', 'Dabar', 'Europe', 'ba', 'Bosnia and Herzegovina', 'caves', 'Federation', 44.7098185, 16.6386699);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pećina Badanj', '/english/ba/caves/Badanj.html', 'Badanj', 'Europe', 'ba', 'Bosnia and Herzegovina', 'caves', 'Federation', 43.08126337059447, 17.885451212299774);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pećina Megara', '/english/rs/caves/Megara.html', 'Megara', 'Europe', 'rs', 'Serbia', 'caves', 'WesternSerbia', 43.8569184, 19.7333540);
