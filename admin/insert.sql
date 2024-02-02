@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pećina Badanj', '/english/ba/caves/Badanj.html', 'Badanj', 'Europe', 'ba', 'Bosnia and Herzegovina', 'caves', 'Federation', 43.08126337059447, 17.885451212299774);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pećina Megara', '/english/rs/caves/Megara.html', 'Megara', 'Europe', 'rs', 'Serbia', 'caves', 'WesternSerbia', 43.8569184, 19.7333540);
+UPDATE `sights`
+SET `Latitude`='43.7954768',
+    `Longitude`='19.9334224'
+WHERE `filename` = '/english/rs/showcaves/Potpecka.html';
