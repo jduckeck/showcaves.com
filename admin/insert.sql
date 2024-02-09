@@ -18,3 +18,11 @@ UPDATE `sights`
 SET `Latitude`='7.6914402',
     `Longitude`='98.7669776'
 WHERE `filename` = '/english/th/caves/Viking.html';
+UPDATE `sights`
+SET `Latitude`='38.26047',
+    `Longitude`='-78.83542'
+WHERE `filename` = '/english/usa/showcaves/Grand.html';
+UPDATE `sights`
+SET `Latitude`='36.6027754',
+    `Longitude`='-83.6670180'
+WHERE `filename` = '/english/usa/showcaves/Gap.html';
