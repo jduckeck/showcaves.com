@@ -22,3 +22,7 @@ SET `Latitude`='59.5984679',
 WHERE `filename` = '/english/se/mines/Konungastollen.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Engelsbergs Bruk', '/english/se/mines/Engelsbergs.html', 'Engelsbergs', 'Europe', 'se', 'Sweden', 'mines', 'Vaestmanland', 59.9675990, 16.0096981);
+UPDATE `sights`
+SET `Latitude`='40.8650174',
+    `Longitude`='39.3793311'
+WHERE `filename` = '/english/tr/showcaves/Calkoy.html';
