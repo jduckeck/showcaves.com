@@ -14,3 +14,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Lasse-Maja Grottan', '/english/se/caves/LasseMaja.html', 'LasseMaja', 'Europe', 'se', 'Sweden', 'caves', 'Kalmar', 57.4365235, 15.6231429);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grottan Johannes Kammare', '/english/se/caves/Johannes.html', 'Johannes', 'Europe', 'se', 'Sweden', 'caves', 'Orebro', 58.780030, 14.699067);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Slotterberget', '/english/se/mines/Slotterberget.html', 'Slotterberget', 'Europe', 'se', 'Sweden', 'mines', 'Orebro', 59.72220181835552, 14.883015559380446);
+UPDATE `sights`
+SET `Latitude`='59.5984679',
+    `Longitude`='14.9190428'
+WHERE `filename` = '/english/se/mines/Konungastollen.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Engelsbergs Bruk', '/english/se/mines/Engelsbergs.html', 'Engelsbergs', 'Europe', 'se', 'Sweden', 'mines', 'Vaestmanland', 59.9675990, 16.0096981);
