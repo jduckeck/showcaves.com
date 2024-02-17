@@ -28,3 +28,15 @@ SET `Latitude`='40.8650174',
 WHERE `filename` = '/english/tr/showcaves/Calkoy.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ramble Cave', '/english/usa/caves/Ramble.html', 'Ramble', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ny', 40.7774, -73.9695);
+UPDATE `sights`
+SET `Latitude`='-25.1679770',
+    `Longitude`='-49.2862838'
+WHERE `filename` = '/english/br/caves/Lancinha.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta da Barreira', '/english/br/gorges/Barreira.html', 'Barreira', 'SouthAmerica', 'br', 'Brazil', 'gorges', 'Parana', -24.1181952, -49.3631781);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta dos Brejões', '/english/br/caves/BrejoesIrece.html', 'BrejoesIrece', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -11.00664053585589, -41.43570990710144);
+UPDATE `sights`
+SET `Latitude`='37.7481640',
+    `Longitude`='-25.6870687'
+WHERE `filename` = '/english/pt/showcaves/Carvao.html';

@@ -40,6 +40,10 @@ authors:
 (.+?)[,] ([A-Z])[\.]
 <b class="smallCaps">$2 $1</b>
 
+authors:
+(.+?)[,] ([A-Z].*[\.]);
+<b class="smallCaps">$2 $1</b>
+
 <b class="smallCaps">([^<]+?), ([^<]+?)</b>
 <b class="smallCaps">$2 $1</b>
 
