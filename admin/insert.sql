@@ -44,3 +44,7 @@ UPDATE `sights`
 SET `Latitude`='38.7281442',
     `Longitude`='-27.2158972'
 WHERE `filename` = '/english/pt/showcaves/CarvaoTerceira.html';
+UPDATE `sights`
+SET `Latitude`='38.7373933',
+    `Longitude`='-27.2686939'
+WHERE `filename` = '/english/pt/showcaves/Natal.html';
