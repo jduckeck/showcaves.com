@@ -39,4 +39,8 @@ VALUES ('yes', 'Gruta dos Brejões', '/english/br/caves/BrejoesIrece.html', 'Bre
 UPDATE `sights`
 SET `Latitude`='37.7481640',
     `Longitude`='-25.6870687'
-WHERE `filename` = '/english/pt/showcaves/Carvao.html';
+WHERE `filename` = '/english/pt/showcaves/CarvaoSaoMiguel.html';
+UPDATE `sights`
+SET `Latitude`='38.7281442',
+    `Longitude`='-27.2158972'
+WHERE `filename` = '/english/pt/showcaves/CarvaoTerceira.html';
