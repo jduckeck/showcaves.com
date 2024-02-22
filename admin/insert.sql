@@ -6,3 +6,7 @@ UPDATE `sights`
 SET `Latitude`='50.5863080',
     `Longitude`='6.6492221'
 WHERE `filename` = '/english/de/mines/Guennersdorf.html';
+INSERT INTO static (path)
+VALUES ('/english/es/topics/ElCalerizo.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de El Conejar', '/english/es/caves/ElConejar.html', 'ElConejar', 'Europe', 'es', 'Spain', 'caves', 'Extremadura', 39.4551183, -6.3635404);
