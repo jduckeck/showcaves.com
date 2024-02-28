@@ -14,3 +14,5 @@ UPDATE `sights`
 SET `Latitude`='42.3487609',
     `Longitude`='-3.5194599'
 WHERE `filename` = '/english/es/showcaves/Atapuerca.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bodega El Fabulista', '/english/es/subterranea/ElFabulista.html', 'ElFabulista', 'Europe', 'es', 'Spain', 'subterranea', 'PaisVasco', 42.552794, -2.584554);
