@@ -16,3 +16,7 @@ SET `Latitude`='42.3487609',
 WHERE `filename` = '/english/es/showcaves/Atapuerca.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bodega El Fabulista', '/english/es/subterranea/ElFabulista.html', 'ElFabulista', 'Europe', 'es', 'Spain', 'subterranea', 'PaisVasco', 42.552794, -2.584554);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sewanee Natural Bridge', '/english/usa/karst/Sewanee.html', 'Sewanee', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'tn', 35.1536502, -85.9213951);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Twin Arches', '/english/usa/karst/Twin.html', 'Twin', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'tn', 36.5417024, -84.7356659);
