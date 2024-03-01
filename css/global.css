@@ -138,16 +138,28 @@ ol li {
     margin-bottom: .5rem;
 }
 
-ul.biglist {
+.biglist {
     text-align: left;
     display: table;
     border: 0;
     margin: 1rem .2rem;
 }
 
-ul.biglist li {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+.biglist li {
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.smalllist {
+    text-align: left;
+    display: table;
+    border: 0;
+    margin: .5rem .2rem;
+}
+
+.smalllist li {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
 }
 
 dl dd {
