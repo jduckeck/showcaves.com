@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sewanee Natural Bridge', '/english/usa/karst/Sewanee.html', 'Sewanee', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'tn', 35.1536502, -85.9213951);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Twin Arches', '/english/usa/karst/Twin.html', 'Twin', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'tn', 36.5417024, -84.7356659);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Alderley Edge Mines', '/english/gb/mines/AlderleyEdge.html', 'AlderleyEdge', 'Europe', 'gb', 'Great Britain', 'mines', 'Cheshire', 53.2926093, -2.2124996);
