@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Lascaris War Rooms', '/english/mt/subterranea/Lascaris.html', 'Lascaris', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.8948844, 14.5127824);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'War H.Q. Tunnels', '/english/mt/subterranea/WarHQ.html', 'WarHQ', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.8946023, 14.5125464);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mysterium Fidei', '/english/mt/subterranea/MysteriumFidei.html', 'MysteriumFidei', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.900030, 14.514495);
