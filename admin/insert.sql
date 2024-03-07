@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'War H.Q. Tunnels', '/english/mt/subterranea/WarHQ.html', 'WarHQ', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.8946023, 14.5125464);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mysterium Fidei', '/english/mt/subterranea/MysteriumFidei.html', 'MysteriumFidei', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.900030, 14.514495);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bleierzgrube Neu-Glück Plettenberg', '/english/de/mines/Plettenberg.html', 'Plettenberg', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.221600, 7.870700);
