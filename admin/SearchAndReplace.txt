@@ -10,7 +10,7 @@ Datestamp to uppercase:
 
                     \[200\d\]
 
--MÄRZ-
+-MAR-
 -MAR-
 
 -MAI-
@@ -27,6 +27,8 @@ Datestamp to uppercase:
 
 -DEZ-
 -DEC-
+
+regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(capitalizeAndUnderscore(date("dd-MMM-yyyy")),"_", "-"),"-MAR-", "-MAR-"),"-MAI-", "-MAY-"),"-JUNI-", "-JUN-"),"-JULI-", "-JUL-"),"-OKT-", "-OCT-"),"-DEZ-", "-DEC-")
 
 multiline:
 ((.|\n)*)

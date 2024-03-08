@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bleierzgrube Neu-Glück Plettenberg', '/english/de/mines/Plettenberg.html', 'Plettenberg', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.221600, 7.870700);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Heilstollen Nordenau', '/english/de/mines/HeilstollenNordenau.html', 'HeilstollenNordenau', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.1819861, 8.4319417);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Untertageverlagerung Dachs 1', '/english/de/subterranea/Dachs1.html', 'Dachs1', 'Europe', 'de', 'Germany', 'subterranea', 'Weserbergland', 52.2448515, 8.9221243);
