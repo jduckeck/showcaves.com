@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Heilstollen Nordenau', '/english/de/mines/HeilstollenNordenau.html', 'HeilstollenNordenau', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.1819861, 8.4319417);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Untertageverlagerung Dachs 1', '/english/de/subterranea/Dachs1.html', 'Dachs1', 'Europe', 'de', 'Germany', 'subterranea', 'Weserbergland', 52.2448515, 8.9221243);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hrad Houska', '/english/cz/subterranea/HradHouska.html', 'HradHouska', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Liberec', 50.49096, 14.62392);
