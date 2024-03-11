@@ -40,3 +40,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hrad Houska', '/english/cz/subterranea/HradHouska.html', 'HradHouska', 'Europe', 'cz', 'Czech Republic', 'subterranea', 'Liberec', 50.49096, 14.62392);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'The Underground Speakeasy and Distillery', '/english/usa/subterranea/TheUnderground.html', 'TheUnderground', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nv', 36.1728200, -115.1411628);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Atomic Museum', '/english/usa/subterranea/AtomicMuseum.html', 'AtomicMuseum', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nv', 36.11398, -115.14839);
