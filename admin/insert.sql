@@ -44,3 +44,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Atomic Museum', '/english/usa/subterranea/AtomicMuseum.html', 'AtomicMuseum', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nv', 36.11398, -115.14839);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Underground House', '/english/usa/subterranea/UndergroundHouse.html', 'UndergroundHouse', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'nv', 36.1168, -115.1274);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'The Alpha Omega Cave', '/english/za/subterranea/AlphaOmega.html', 'AlphaOmega', 'Africa', 'za', 'South Africa', 'subterranea', 'Limpopo', -24.584904720087216, 30.632703565690605);
