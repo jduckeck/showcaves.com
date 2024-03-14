@@ -48,3 +48,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'The Alpha Omega Cave', '/english/za/subterranea/AlphaOmega.html', 'AlphaOmega', 'Africa', 'za', 'South Africa', 'subterranea', 'Limpopo', -24.584904720087216, 30.632703565690605);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Steinbruchmuseum Rammelsbach', '/english/de/mines/Rammelsbach.html', 'Rammelsbach', 'Europe', 'de', 'Germany', 'mines', 'PfaelzerBergland', 49.54273, 7.44469);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Besucherbergwerk Reichenbach-Stolln', '/english/de/mines/ReichenbachStolln.html', 'ReichenbachStolln', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.5977946, 12.7373260);
