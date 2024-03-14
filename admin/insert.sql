@@ -50,3 +50,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Steinbruchmuseum Rammelsbach', '/english/de/mines/Rammelsbach.html', 'Rammelsbach', 'Europe', 'de', 'Germany', 'mines', 'PfaelzerBergland', 49.54273, 7.44469);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Besucherbergwerk Reichenbach-Stolln', '/english/de/mines/ReichenbachStolln.html', 'ReichenbachStolln', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.5977946, 12.7373260);
+UPDATE `sights`
+SET `Latitude`=' 41.49833',
+    `Longitude`='24.93979'
+WHERE `filename` = '/english/bg/mines/Madan.html';
