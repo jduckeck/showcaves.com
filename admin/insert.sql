@@ -54,3 +54,7 @@ UPDATE `sights`
 SET `Latitude`=' 41.49833',
     `Longitude`='24.93979'
 WHERE `filename` = '/english/bg/mines/Madan.html';
+UPDATE `sights`
+SET `Latitude`='50.2316641',
+    `Longitude`='6.6600238'
+WHERE `filename` = '/english/de/caves/Buchenloch.html';
