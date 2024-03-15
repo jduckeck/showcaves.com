@@ -62,3 +62,7 @@ UPDATE `sights`
 SET `Latitude`='50.4158078',
     `Longitude`='12.4597713'
 WHERE `filename` = '/german/de/mines/Tannenberg.html';
+INSERT INTO static (path)
+VALUES ('/german/de/topics/Wismut.html');
+INSERT INTO static (path)
+VALUES ('/english/de/topics/Wismut.html');
