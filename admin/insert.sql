@@ -66,3 +66,11 @@ INSERT INTO static (path)
 VALUES ('/german/de/topics/Wismut.html');
 INSERT INTO static (path)
 VALUES ('/english/de/topics/Wismut.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Millennium Cave', '/english/other/caves/Millennium.html', 'Millennium', 'Oceania', 'vu', 'Vanuatu', 'caves', 'vu', 'other', -15.438491553622397, 167.05647492911618);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Riri Blue Hole', '/english/other/springs/RiriBlueHole.html', 'RiriBlueHole', 'Oceania', 'vu', 'Vanuatu', 'springs', 'vu', 'other', -15.3913921, 167.1805632);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Matevulu Blue Hole', '/english/other/springs/MatevuluBlueHole.html', 'MatevuluBlueHole', 'Oceania', 'vu', 'Vanuatu', 'springs', 'vu', 'other', -15.377499470166807, 167.17503655772944);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Nanda Blue Hole', '/english/other/springs/NandaBlueHole.html', 'NandaBlueHole', 'Oceania', 'vu', 'Vanuatu', 'springs', 'vu', 'other', -15.313521951404633, 167.1696721617197);
