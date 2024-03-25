@@ -14,3 +14,7 @@ INSERT INTO static (path)
 VALUES ('/german/explain/Mining/Schachthaus.html');
 INSERT INTO static (path)
 VALUES ('/english/explain/Mining/Schachthaus.html');
+INSERT INTO static (path)
+VALUES ('/english/explain/Mining/Wasserkunst.html');
+INSERT INTO static (path)
+VALUES ('/german/explain/Mining/Wasserkunst.html');
