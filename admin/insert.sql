@@ -22,3 +22,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gjøvik Olympic Mountain Hall', '/english/no/subterranea/Gjovik.html', 'Gjovik', 'Europe', 'no', 'Norway', 'subterranea', 'Oppland', 60.793255480168675, 10.684675898658982);
 INSERT INTO static (path)
 VALUES ('/english/de/geoparks/SchwaebischeAlb.html');
+INSERT INTO static (path)
+VALUES ('/german/de/geoparks/SchwaebischeAlb.html');
