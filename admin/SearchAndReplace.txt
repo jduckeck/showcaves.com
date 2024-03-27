@@ -187,3 +187,9 @@ $1
     <meta name="description" content="$3 $2 $1 showcaves.com">
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="$1 of $2: $3"/>
+
+update index files
+
+\<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/subterranea\/(.+)\.html\"\>([^<].+)\<\/a\>\<\/li\>
+<li><a data-ajax="false" target="_top" href="../../no/subterranea/$1.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">$2</a></li>
+
