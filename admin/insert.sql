@@ -24,3 +24,7 @@ INSERT INTO static (path)
 VALUES ('/english/de/geoparks/SchwaebischeAlb.html');
 INSERT INTO static (path)
 VALUES ('/german/de/geoparks/SchwaebischeAlb.html');
+INSERT INTO static (path)
+VALUES ('/english/de/geoparks/Bayern.html');
+INSERT INTO static (path)
+VALUES ('/german/de/geoparks/Bayern.html');
