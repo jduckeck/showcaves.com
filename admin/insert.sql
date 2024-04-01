@@ -30,3 +30,7 @@ INSERT INTO static (path)
 VALUES ('/german/de/geoparks/Bayern.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta di Masaniello', '/english/it/caves/Masaniello.html', 'Masaniello', 'Europe', 'it', 'Italy', 'caves', 'Campania', 40.6369533, 14.6056010);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Parco Urbano dei Palmenti', '/english/it/subterranea/Palmenti.html', 'Palmenti', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.74891, 15.8865);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Khao Nam Khang Historical Tunnel', '/english/th/subterranea/KhaoNamKhang.html', 'KhaoNamKhang', 'Asia', 'th', 'Thailand', 'subterranea', 'Songkhla', 6.574122081923585, 100.57533570845968);
