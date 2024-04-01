@@ -28,3 +28,5 @@ INSERT INTO static (path)
 VALUES ('/english/de/geoparks/Bayern.html');
 INSERT INTO static (path)
 VALUES ('/german/de/geoparks/Bayern.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta di Masaniello', '/english/it/caves/Masaniello.html', 'Masaniello', 'Europe', 'it', 'Italy', 'caves', 'Campania', 40.6369533, 14.6056010);
