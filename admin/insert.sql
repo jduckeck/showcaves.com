@@ -34,3 +34,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Parco Urbano dei Palmenti', '/english/it/subterranea/Palmenti.html', 'Palmenti', 'Europe', 'it', 'Italy', 'subterranea', 'Basilicata', 40.74891, 15.8865);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Khao Nam Khang Historical Tunnel', '/english/th/subterranea/KhaoNamKhang.html', 'KhaoNamKhang', 'Asia', 'th', 'Thailand', 'subterranea', 'Songkhla', 6.574122081923585, 100.57533570845968);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ipogeo de Beaumont Bellacicco', '/english/it/subterranea/BeaumontBellacicco.html', 'BeaumontBellacicco', 'Europe', 'it', 'Italy', 'subterranea', 'Puglia', 40.474561, 17.230193);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Taranto Sotterranea', '/english/it/subterranea/Taranto.html', 'Taranto', 'Europe', 'it', 'Italy', 'subterranea', 'Puglia', 40.45974544895635, 17.254111935088023);
