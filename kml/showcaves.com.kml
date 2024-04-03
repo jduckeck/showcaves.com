@@ -5,7 +5,7 @@
 	<StyleMap id="cave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave0</styleUrl>
+			<styleUrl>#sn_cave00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -23,6 +23,16 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="gorge">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="gorge0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_gorge</styleUrl>
@@ -45,7 +55,7 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -53,6 +63,16 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin0</styleUrl>
@@ -65,31 +85,11 @@
 	<StyleMap id="mine">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_mine</styleUrl>
+			<styleUrl>#sn_mine00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_mine</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave000</styleUrl>
+			<styleUrl>#sh_mine3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_cave1">
@@ -99,13 +99,103 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave2</styleUrl>
+			<styleUrl>#sh_cave7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave20</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_cave10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave1</styleUrl>
+			<styleUrl>#sn_cave10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave9</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -115,7 +205,17 @@
 	<StyleMap id="msn_cave2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave3</styleUrl>
+			<styleUrl>#sn_cave11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave300</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -125,17 +225,67 @@
 	<StyleMap id="msn_cave3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave01</styleUrl>
+			<styleUrl>#sn_cave010</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave20</styleUrl>
+			<styleUrl>#sh_cave200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave9</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_karst">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_karst0</styleUrl>
+			<styleUrl>#sn_karst</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -145,51 +295,211 @@
 	<StyleMap id="msn_karst0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_karst</styleUrl>
+			<styleUrl>#sn_karst00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_karst01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_karst00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_karst1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_karst2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_karst1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_mine">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mine50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_showcave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_showcave12</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_showcave0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_showcave00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave1</styleUrl>
+			<styleUrl>#sn_showcave5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_showcave</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_showcave1">
+	<StyleMap id="msn_showcave0">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_showcave2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave00</styleUrl>
+			<styleUrl>#sh_showcave7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave000</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_showcave2">
@@ -212,10 +522,40 @@
 			<styleUrl>#sh_showcave1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_showcave3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_showcave5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave6</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_spring">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring00</styleUrl>
+			<styleUrl>#sn_spring000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -225,7 +565,7 @@
 	<StyleMap id="msn_spring0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring0</styleUrl>
+			<styleUrl>#sn_spring00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -235,7 +575,7 @@
 	<StyleMap id="msn_spring1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring</styleUrl>
+			<styleUrl>#sn_spring0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -245,41 +585,121 @@
 	<StyleMap id="msn_subterranea">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_subterranea</styleUrl>
+			<styleUrl>#sn_subterranea4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea1</styleUrl>
+			<styleUrl>#sh_subterranea7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_subterranea0">
+	<StyleMap id="msn_subterranea5">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_subterranea00</styleUrl>
+			<styleUrl>#sn_subterranea5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea00</styleUrl>
+			<styleUrl>#sh_subterranea8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_subterranea1">
+	<StyleMap id="msn_subterranea3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_subterranea10</styleUrl>
+			<styleUrl>#sn_subterranea0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea0</styleUrl>
+			<styleUrl>#sh_subterranea</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_subterranea2">
+	<StyleMap id="msn_subterranea4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea6">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_subterranea1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea</styleUrl>
+			<styleUrl>#sh_subterranea6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_subterranea30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
@@ -299,11 +719,19 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.18182</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -313,6 +741,15 @@
 			<scale>1.3</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -327,6 +764,19 @@
 		<LabelStyle>
 			<scale>1.1</scale>
 		</LabelStyle>
+	</Style>
+	<Style id="sh_cave7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
 	</Style>
 	<Style id="sh_cave0">
 		<IconStyle>
@@ -372,6 +822,50 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_cave10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sh_cave2">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -379,6 +873,9 @@
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="sh_cave20">
 		<IconStyle>
@@ -387,6 +884,85 @@
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
+	</Style>
+	<Style id="sh_cave200">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave80">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="sh_cross-hairs">
 		<IconStyle>
@@ -407,13 +983,39 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_gorge0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sh_karst">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_karst1">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="sh_karst0">
 		<IconStyle>
@@ -426,13 +1028,66 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_karst1">
+	<Style id="sh_karst10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_karst100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_karst2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_karst3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_mine3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
 	</Style>
 	<Style id="sh_mine">
 		<IconStyle>
@@ -444,12 +1099,91 @@
 		<LabelStyle>
 			<scale>1.1</scale>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_showcave">
+	<Style id="sh_mine4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_mine0">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine10">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mine2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -467,7 +1201,27 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_showcave02">
+	<Style id="sh_showcave">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_showcave00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_showcave001">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -478,7 +1232,7 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
-	<Style id="sh_showcave00">
+	<Style id="sh_showcave000">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -490,6 +1244,17 @@
 		</LabelStyle>
 	</Style>
 	<Style id="sh_showcave01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_showcave02">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -556,7 +1321,40 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_showcave40">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sh_showcave5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_showcave6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_showcave7">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -618,6 +1416,7 @@
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>1.1</scale>
@@ -634,7 +1433,61 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_subterranea6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_subterranea7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_subterranea">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_subterranea8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_subterranea5">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -657,6 +1510,17 @@
 		</LabelStyle>
 	</Style>
 	<Style id="sh_subterranea00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_subterranea000">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -697,6 +1561,39 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sh_subterranea2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_subterranea3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_subterranea4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
 	<StyleMap id="showcave">
 		<Pair>
 			<key>normal</key>
@@ -724,17 +1621,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_showcave0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="showcave11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_showcave11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_showcave02</styleUrl>
+			<styleUrl>#sh_showcave001</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="showcave10">
@@ -747,6 +1634,25 @@
 			<styleUrl>#sh_showcave2</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="showcave11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cave4">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
 	<Style id="sn_cave">
 		<IconStyle>
 			<Icon>
@@ -768,7 +1674,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_cave01">
+	<Style id="sn_cave000">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave010">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
@@ -782,14 +1695,93 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_cave3">
+	<Style id="sn_cave10">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_cave4">
+	<Style id="sn_cave11">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave2">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave300">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave40">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave400">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave5">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave6">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave7">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave8">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave9">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
@@ -810,14 +1802,40 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_karst">
+	<Style id="sn_gorge0">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst0">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_karst0">
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_karst01">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst00">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
@@ -831,7 +1849,105 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_karst2">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_karst3">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_mine">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_mine1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_mine7">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine00">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine10">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine2">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine3">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine4">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine5">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mine6">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
@@ -840,10 +1956,23 @@
 	</Style>
 	<Style id="sn_showcave">
 		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
+	</Style>
+	<Style id="sn_showcave5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sn_showcave0">
 		<IconStyle>
@@ -881,14 +2010,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_showcave111">
+	<Style id="sn_showcave110">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_showcave110">
+	<Style id="sn_showcave111">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
@@ -909,6 +2038,13 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_showcave20">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_showcave3">
 		<IconStyle>
 			<Icon>
@@ -916,10 +2052,24 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_spring">
+	<Style id="sn_showcave4">
 		<IconStyle>
 			<Icon>
-				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave50">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_showcave6">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -937,6 +2087,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_spring000">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_spring10">
 		<IconStyle>
 			<Icon>
@@ -945,14 +2103,14 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_spring100">
+	<Style id="sn_spring1000">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_spring1000">
+	<Style id="sn_spring10001">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
@@ -967,6 +2125,30 @@
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_subterranea0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_subterranea4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_subterranea">
 		<IconStyle>
 			<Icon>
@@ -974,7 +2156,29 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_subterranea0">
+	<Style id="sn_subterranea1">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_subterranea5">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_subterranea01">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
@@ -988,7 +2192,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sn_subterranea1">
+	<Style id="sn_subterranea000">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
@@ -1002,7 +2206,35 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_subterranea100">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_subterranea10000003">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea11">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea2">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_subterranea3">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
@@ -1012,14 +2244,14 @@
 	<StyleMap id="spring">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring100</styleUrl>
+			<styleUrl>#sn_spring1000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_spring10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="spring0">
+	<StyleMap id="spring00">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_spring10</styleUrl>
@@ -1042,7 +2274,7 @@
 	<StyleMap id="spring1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_spring1000</styleUrl>
+			<styleUrl>#sn_spring10001</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -1052,7 +2284,7 @@
 	<StyleMap id="subterranea">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_subterranea0</styleUrl>
+			<styleUrl>#sn_subterranea00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -4219,16 +5451,17 @@
 				<Placemark>
 					<name>Schwazer Silberbergwerk</name>
 					<LookAt>
-						<longitude>11.72869801767432</longitude>
-						<latitude>47.35361553444226</latitude>
+						<longitude>11.72747939905888</longitude>
+						<latitude>47.35369010036865</latitude>
 						<altitude>0</altitude>
-						<heading>0.01517103612850611</heading>
-						<tilt>1.681155949274184e-12</tilt>
-						<range>8462.486946542445</range>
+						<heading>-6.922477264205346e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000090979945</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mine</styleUrl>
+					<styleUrl>#msn_mine0</styleUrl>
 					<Point>
-						<coordinates>11.7285,47.35430555555556,0</coordinates>
+						<coordinates>11.7274794,47.3536901,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6755,7 +7988,40 @@
 		</Folder>
 		<Folder>
 			<name>ba</name>
-			<open>1</open>
+			<Placemark>
+				<name>Bobijaško oko</name>
+				<LookAt>
+					<longitude>16.46288740003758</longitude>
+					<latitude>44.70171579865651</latitude>
+					<altitude>0</altitude>
+					<heading>2.644154134434694e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.000087216299</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_karst00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>16.46288740003758,44.70171579865652,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Dabarska pećina</name>
+				<LookAt>
+					<longitude>16.63866989920739</longitude>
+					<latitude>44.70981849997201</latitude>
+					<altitude>0</altitude>
+					<heading>-5.577054925626054e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000125447816</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_cave3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>16.63866989920739,44.70981849997201,0</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark>
 				<name>Duman</name>
 				<LookAt>
@@ -6772,6 +8038,23 @@
 				</Point>
 			</Placemark>
 			<Placemark>
+				<name>Hrustovačka pećina</name>
+				<LookAt>
+					<longitude>16.70064630000189</longitude>
+					<latitude>44.6726663008575</latitude>
+					<altitude>0</altitude>
+					<heading>1.278582981948333e-12</heading>
+					<tilt>0</tilt>
+					<range>1000.000139216525</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_cave15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>16.70064630000189,44.6726663008575,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
 				<name>Kovači Jama</name>
 				<LookAt>
 					<longitude>17.18649799990044</longitude>
@@ -6782,7 +8065,7 @@
 					<range>1000.000156849594</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_karst</styleUrl>
+				<styleUrl>#msn_karst0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>17.18649799990044,43.6760331006719,0</coordinates>
@@ -6823,6 +8106,23 @@
 				</Point>
 			</Placemark>
 			<Placemark>
+				<name>Pećina Badanj</name>
+				<LookAt>
+					<longitude>17.88545121133446</longitude>
+					<latitude>43.081263371459</latitude>
+					<altitude>0</altitude>
+					<heading>-6.593576104595199e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000087164437</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_cave15</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>17.88545121133446,43.081263371459,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
 				<name>Pećina Bijambare</name>
 				<LookAt>
 					<longitude>18.50259748801297</longitude>
@@ -6832,7 +8132,7 @@
 					<tilt>0</tilt>
 					<range>1212.034990297498</range>
 				</LookAt>
-				<styleUrl>#msn_showcave</styleUrl>
+				<styleUrl>#msn_showcave4</styleUrl>
 				<Point>
 					<coordinates>18.5030947,44.0945364,0</coordinates>
 				</Point>
@@ -6848,7 +8148,7 @@
 					<range>1000.000160204</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_cave</styleUrl>
+				<styleUrl>#msn_cave13</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>18.08420866710112,43.71777396242808,0</coordinates>
@@ -6856,7 +8156,7 @@
 			</Placemark>
 			<Placemark>
 				<name>Pećina Orlovača</name>
-				<styleUrl>#msn_showcave0</styleUrl>
+				<styleUrl>#msn_showcave00</styleUrl>
 				<Point>
 					<coordinates>18.58408333333333,43.88352777777778,0</coordinates>
 				</Point>
@@ -6919,7 +8219,7 @@
 					<range>999.9999966010083</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_subterranea2</styleUrl>
+				<styleUrl>#msn_subterranea20</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>18.33731099593587,43.81975669906429,0</coordinates>
@@ -6953,7 +8253,7 @@
 					<range>9696.506957954747</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_subterranea</styleUrl>
+				<styleUrl>#msn_subterranea30</styleUrl>
 				<Point>
 					<coordinates>17.9948946,43.634292,0</coordinates>
 				</Point>
@@ -7022,6 +8322,23 @@
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>18.337533,44.179669,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vrelo Bosne</name>
+				<LookAt>
+					<longitude>18.2679465172058</longitude>
+					<latitude>43.81928310463287</latitude>
+					<altitude>0</altitude>
+					<heading>1.191303790656952e-08</heading>
+					<tilt>0</tilt>
+					<range>1000.00009342819</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#spring00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>18.2679465172058,43.81928310463287,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -7138,91 +8455,6 @@
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>18.62312000133253,43.8332200013248,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Vrelo Bosne</name>
-				<LookAt>
-					<longitude>18.2679465172058</longitude>
-					<latitude>43.81928310463287</latitude>
-					<altitude>0</altitude>
-					<heading>1.191303790656952e-08</heading>
-					<tilt>0</tilt>
-					<range>1000.00009342819</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#spring0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>18.2679465172058,43.81928310463287,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Dabarska pećina</name>
-				<LookAt>
-					<longitude>16.63866989920739</longitude>
-					<latitude>44.70981849997201</latitude>
-					<altitude>0</altitude>
-					<heading>-5.577054925626054e-10</heading>
-					<tilt>0</tilt>
-					<range>1000.000125447816</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_cave3</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>16.63866989920739,44.70981849997201,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Bobijaško oko</name>
-				<LookAt>
-					<longitude>16.46288740003758</longitude>
-					<latitude>44.70171579865651</latitude>
-					<altitude>0</altitude>
-					<heading>2.644154134434694e-11</heading>
-					<tilt>0</tilt>
-					<range>1000.000087216299</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_karst0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>16.46288740003758,44.70171579865652,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Hrustovačka pećina</name>
-				<LookAt>
-					<longitude>16.70064630000189</longitude>
-					<latitude>44.6726663008575</latitude>
-					<altitude>0</altitude>
-					<heading>1.278582981948333e-12</heading>
-					<tilt>0</tilt>
-					<range>1000.000139216525</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_cave1</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>16.70064630000189,44.6726663008575,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Pećina Badanj</name>
-				<LookAt>
-					<longitude>17.88545121133446</longitude>
-					<latitude>43.081263371459</latitude>
-					<altitude>0</altitude>
-					<heading>-6.593576104595199e-10</heading>
-					<tilt>0</tilt>
-					<range>1000.000087164437</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_cave1</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>17.88545121133446,43.081263371459,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -8364,22 +9596,19 @@
 			</Folder>
 			<Folder>
 				<name>Pazardzhik Province</name>
-				<open>1</open>
 				<Placemark>
-					<name>Цар Асен - Tsar Asen</name>
+					<name>пещера Снежанка - Snežanka Peštera - Snow-White Cave</name>
 					<LookAt>
-						<longitude>24.3407031493582</longitude>
-						<latitude>42.35548414027107</latitude>
+						<longitude>24.2834301291174</longitude>
+						<latitude>42.00749383695634</latitude>
 						<altitude>0</altitude>
-						<heading>0.004371468381657554</heading>
+						<heading>0.04377693173074337</heading>
 						<tilt>0</tilt>
-						<range>2905.672630459591</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						<range>3384.375891596494</range>
 					</LookAt>
-					<styleUrl>#mine</styleUrl>
+					<styleUrl>#showcave11</styleUrl>
 					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>24.340703,42.355484,0</coordinates>
+						<coordinates>24.2774606,42.0025902,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8400,18 +9629,20 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>пещера Снежанка - Snežanka Peštera - Snow-White Cave</name>
+					<name>Цар Асен - Tsar Asen</name>
 					<LookAt>
-						<longitude>24.2834301291174</longitude>
-						<latitude>42.00749383695634</latitude>
+						<longitude>24.3407031493582</longitude>
+						<latitude>42.35548414027107</latitude>
 						<altitude>0</altitude>
-						<heading>0.04377693173074337</heading>
+						<heading>0.004371468381657554</heading>
 						<tilt>0</tilt>
-						<range>3384.375891596494</range>
+						<range>2905.672630459591</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#showcave11</styleUrl>
+					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>24.2774606,42.0025902,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>24.340703,42.355484,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -8609,18 +9840,33 @@
 			<Folder>
 				<name>Smolyan Province</name>
 				<Placemark>
-					<name>Буйновско ждрело - Buynovsko Gorge</name>
+					<name>Haramiiska Dupka</name>
 					<LookAt>
-						<longitude>24.3398544307457</longitude>
-						<latitude>41.65285492569372</latitude>
+						<longitude>24.37905892142336</longitude>
+						<latitude>41.61762344508665</latitude>
 						<altitude>0</altitude>
-						<heading>-0.8166991290108283</heading>
+						<heading>-0.001446510620149024</heading>
 						<tilt>0</tilt>
-						<range>3112.300287290163</range>
+						<range>548.1585938998985</range>
 					</LookAt>
-					<styleUrl>#gorge</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>24.34216675634863,41.65182902045358,0</coordinates>
+						<coordinates>24.37905892142336,41.61762344508665,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Iagodinska peštera</name>
+					<LookAt>
+						<longitude>24.32979832139936</longitude>
+						<latitude>41.62981184980286</latitude>
+						<altitude>0</altitude>
+						<heading>-0.8233756381220647</heading>
+						<tilt>0</tilt>
+						<range>1376.379243505095</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>24.32953139494862,41.62847469058347,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8639,19 +9885,33 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Чудните мостове - Chudnite Mostove - Wonderful Bridges</name>
+					<name>Буйновско ждрело - Buynovsko Gorge</name>
 					<LookAt>
-						<longitude>24.57676718806928</longitude>
-						<latitude>41.81919007395979</latitude>
+						<longitude>24.3398544307457</longitude>
+						<latitude>41.65285492569372</latitude>
 						<altitude>0</altitude>
-						<heading>-0.003303022355544596</heading>
+						<heading>-0.8166991290108283</heading>
 						<tilt>0</tilt>
-						<range>7582.235761353455</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						<range>3112.300287290163</range>
 					</LookAt>
-					<styleUrl>#karst</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
-						<coordinates>24.58151818820587,41.81897237735127,0</coordinates>
+						<coordinates>24.34216675634863,41.65182902045358,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Водна Пещера &quot;Голубовица&quot; - Golubovitsa Water Cave</name>
+					<LookAt>
+						<longitude>24.66666640759973</longitude>
+						<latitude>41.51529395267897</latitude>
+						<altitude>0</altitude>
+						<heading>3.977485409920549e-05</heading>
+						<tilt>0</tilt>
+						<range>999.9999999973767</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>24.666666,41.515294,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8685,33 +9945,37 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Haramiiska Dupka</name>
+					<name>Кристална зала „Родопски кристал“ - Crystal Hall &quot;Rhodope Crystals&quot;</name>
 					<LookAt>
-						<longitude>24.37905892142336</longitude>
-						<latitude>41.61762344508665</latitude>
+						<longitude>24.93978999767742</longitude>
+						<latitude>41.49832999596332</latitude>
 						<altitude>0</altitude>
-						<heading>-0.001446510620149024</heading>
+						<heading>-1.538962271501026e-09</heading>
 						<tilt>0</tilt>
-						<range>548.1585938998985</range>
+						<range>1000.000115057076</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#msn_mine1</styleUrl>
 					<Point>
-						<coordinates>24.37905892142336,41.61762344508665,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>24.93978999767743,41.49832999596333,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Iagodinska peštera</name>
+					<name>Музей по рудодобив и минно дело - Museum of Mining and Quarrying</name>
 					<LookAt>
-						<longitude>24.32979832139936</longitude>
-						<latitude>41.62981184980286</latitude>
+						<longitude>24.94172222065908</longitude>
+						<latitude>41.4984722200651</latitude>
 						<altitude>0</altitude>
-						<heading>-0.8233756381220647</heading>
+						<heading>-1.035744451463913e-09</heading>
 						<tilt>0</tilt>
-						<range>1376.379243505095</range>
+						<range>1000.000141916867</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#showcave11</styleUrl>
+					<styleUrl>#msn_mine1</styleUrl>
 					<Point>
-						<coordinates>24.32953139494862,41.62847469058347,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>24.94172222065908,41.4984722200651,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8729,6 +9993,23 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>24.9176398,41.4897963,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>рудник-музей &quot;Сполука&quot; - Mine-Museum &quot;Spoluca&quot;</name>
+					<LookAt>
+						<longitude>24.94160999905224</longitude>
+						<latitude>41.49912999934519</latitude>
+						<altitude>0</altitude>
+						<heading>-6.280227857377417e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000180822909</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_mine1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>24.94160999905223,41.49912999934519,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8763,18 +10044,19 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Водна Пещера &quot;Голубовица&quot; - Golubovitsa Water Cave</name>
+					<name>Чудните мостове - Chudnite Mostove - Wonderful Bridges</name>
 					<LookAt>
-						<longitude>24.66666640759973</longitude>
-						<latitude>41.51529395267897</latitude>
+						<longitude>24.57676718806928</longitude>
+						<latitude>41.81919007395979</latitude>
 						<altitude>0</altitude>
-						<heading>3.977485409920549e-05</heading>
+						<heading>-0.003303022355544596</heading>
 						<tilt>0</tilt>
-						<range>999.9999999973767</range>
+						<range>7582.235761353455</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
-						<coordinates>24.666666,41.515294,0</coordinates>
+						<coordinates>24.58151818820587,41.81897237735127,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -9509,6 +10791,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Gruta dos Brejões</name>
+					<LookAt>
+						<longitude>-41.43570990685014</longitude>
+						<latitude>-11.00664053530635</latitude>
+						<altitude>0</altitude>
+						<heading>-4.798502847924007e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000152001247</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-41.43570990685014,-11.00664053530635,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Gruta Lapa Doce</name>
 					<LookAt>
 						<longitude>-41.60440863579332</longitude>
@@ -9573,6 +10872,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Gruta Santa Rita</name>
+					<LookAt>
+						<longitude>-41.04013949976181</longitude>
+						<latitude>-12.29404209966626</latitude>
+						<altitude>0</altitude>
+						<heading>-5.071871522795798e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000065294544</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-41.040139,-12.294042,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Poço Azul</name>
 					<LookAt>
 						<longitude>-41.1527368301988</longitude>
@@ -9617,23 +10933,6 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-43.421972,-13.259381,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gruta Santa Rita</name>
-					<LookAt>
-						<longitude>-41.04013949976181</longitude>
-						<latitude>-12.29404209966626</latitude>
-						<altitude>0</altitude>
-						<heading>-5.071871522795798e-11</heading>
-						<tilt>0</tilt>
-						<range>1000.000065294544</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-41.040139,-12.294042,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -10385,6 +11684,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Gruta da Barreira</name>
+					<LookAt>
+						<longitude>-49.36317809944748</longitude>
+						<latitude>-24.11819519885158</latitude>
+						<altitude>0</altitude>
+						<heading>-2.25770083786347e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000172942989</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-49.36317809944747,-24.11819519885158,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Gruta da Fada</name>
 					<LookAt>
 						<longitude>-49.08954769859093</longitude>
@@ -10409,9 +11725,9 @@
 						<tilt>0</tilt>
 						<range>1000.000147217792</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#msn_cave4</styleUrl>
 					<Point>
-						<coordinates>-49.28641099785233,-25.16810099944237,0</coordinates>
+						<coordinates>-49.2862838,-25.167977,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20255,7 +21571,6 @@
 			</Folder>
 			<Folder>
 				<name>Jihomoravsky Kraj</name>
-				<open>1</open>
 				<Folder>
 					<name>Brno</name>
 					<Placemark>
@@ -21079,6 +22394,23 @@
 						<coordinates>14.641603,50.727481,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Hrad Houska</name>
+					<LookAt>
+						<longitude>14.62392000011562</longitude>
+						<latitude>50.49096000000912</latitude>
+						<altitude>0</altitude>
+						<heading>8.922887131111821e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000113789413</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>14.62392000011562,50.49096000000912,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Moravskoslezsky Kraj</name>
@@ -21679,7 +23011,6 @@
 			</Folder>
 			<Folder>
 				<name>Ustecky Kraj</name>
-				<open>1</open>
 				<Placemark>
 					<name>Kamenice Hřensko</name>
 					<LookAt>
@@ -22216,6 +23547,7 @@
 			</Folder>
 			<Folder>
 				<name>Bayern</name>
+				<open>1</open>
 				<Folder>
 					<name>Bayerischer Wald</name>
 					<Placemark>
@@ -22324,21 +23656,6 @@
 						</Point>
 					</Placemark>
 				</Folder>
-				<Placemark>
-					<name>Deutsches Bunkermuseum</name>
-					<LookAt>
-						<longitude>10.20968649988521</longitude>
-						<latitude>50.02973850031869</latitude>
-						<altitude>19.15920583740133</altitude>
-						<heading>-8.807432996174695e-11</heading>
-						<tilt>0</tilt>
-						<range>980.8407827950207</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>10.20968649988521,50.02973850031869,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark>
 					<name>Deutsches Museum - Altamira</name>
 					<LookAt>
@@ -23753,6 +25070,7 @@
 			</Folder>
 			<Folder>
 				<name>Rheinisches Schiefergebirge</name>
+				<open>1</open>
 				<Folder>
 					<name>Hunsrück</name>
 					<Placemark>
@@ -23955,6 +25273,7 @@
 				</Folder>
 				<Folder>
 					<name>Eifel</name>
+					<open>1</open>
 					<Placemark>
 						<name>Atombunker der Bundesregierung</name>
 						<LookAt>
@@ -24016,18 +25335,19 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Buchenloch</name>
+						<name>Buchenlochhöhle</name>
 						<LookAt>
-							<longitude>6.657336520063297</longitude>
-							<latitude>50.22949713682995</latitude>
+							<longitude>6.660023800530492</longitude>
+							<latitude>50.2316641005156</latitude>
 							<altitude>0</altitude>
-							<heading>-0.001910287575745885</heading>
+							<heading>4.076175025603531e-10</heading>
 							<tilt>0</tilt>
-							<range>1213.985010385728</range>
+							<range>1000.000092711723</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#cave</styleUrl>
+						<styleUrl>#msn_cave8</styleUrl>
 						<Point>
-							<coordinates>6.657449251518059,50.23051322481623,0</coordinates>
+							<coordinates>6.6600238,50.2316641,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -24319,6 +25639,21 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Römerbergwerk Meurin</name>
+						<LookAt>
+							<longitude>7.352799185754116</longitude>
+							<latitude>50.39630886269583</latitude>
+							<altitude>0</altitude>
+							<heading>0.001234382500594141</heading>
+							<tilt>9.042053986919401e-11</tilt>
+							<range>544.3513627197791</range>
+						</LookAt>
+						<styleUrl>#msn_mine0</styleUrl>
+						<Point>
+							<coordinates>7.353214369973671,50.39617100579213,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Teufelsschlucht Irrel/Ernzen</name>
 						<LookAt>
 							<longitude>6.440931563495846</longitude>
@@ -24349,18 +25684,20 @@
 						</Point>
 					</Placemark>
 					<Placemark>
-						<name>Trassbergwerk Meurin</name>
+						<name>Traben-Trarbacher Unterwelt</name>
 						<LookAt>
-							<longitude>7.352799185754116</longitude>
-							<latitude>50.39630886269583</latitude>
+							<longitude>7.118712199943189</longitude>
+							<latitude>49.9514039005893</latitude>
 							<altitude>0</altitude>
-							<heading>0.001234382500594141</heading>
-							<tilt>9.042053986919401e-11</tilt>
-							<range>544.3513627197791</range>
+							<heading>-4.353940817322444e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000037693648</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#mine</styleUrl>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
 						<Point>
-							<coordinates>7.353214369973671,50.39617100579213,0</coordinates>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>7.118712199943189,49.9514039005893,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -24581,6 +25918,23 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Bleierzgrube Neu-Glück Plettenberg</name>
+						<LookAt>
+							<longitude>7.870700000918389</longitude>
+							<latitude>51.22160000164963</latitude>
+							<altitude>0</altitude>
+							<heading>7.157965532820902e-10</heading>
+							<tilt>0</tilt>
+							<range>998.8647064088823</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_mine00</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>7.870700000918389,51.22160000164962,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Dechenhöhle</name>
 						<LookAt>
 							<longitude>7.643768554495336</longitude>
@@ -24624,6 +25978,23 @@
 						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>7.642445,50.82310500000001,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Heilstollen Nordenau</name>
+						<LookAt>
+							<longitude>8.431941702397639</longitude>
+							<latitude>51.18198609977114</latitude>
+							<altitude>0</altitude>
+							<heading>1.868008146349175e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000022540026</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_mine3</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>8.431941702397639,51.18198609977115,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -25476,7 +26847,6 @@
 			</Folder>
 			<Folder>
 				<name>Sachsen</name>
-				<open>1</open>
 				<Folder>
 					<name>0Elbsandsteingebirge</name>
 					<Placemark>
@@ -25779,16 +27149,17 @@
 					<Placemark>
 						<name>Andreas-Gegentrum-Stolln</name>
 						<LookAt>
-							<longitude>13.13174868809439</longitude>
-							<latitude>50.54150706087481</latitude>
+							<longitude>13.13661969912288</longitude>
+							<latitude>50.5459718002881</latitude>
 							<altitude>0</altitude>
-							<heading>-0.01228867509769944</heading>
+							<heading>-6.773563694019221e-10</heading>
 							<tilt>0</tilt>
-							<range>1960.732468186945</range>
+							<range>1000.000118147058</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#mine</styleUrl>
+						<styleUrl>#msn_mine0</styleUrl>
 						<Point>
-							<coordinates>13.13261556420867,50.54179769074813,0</coordinates>
+							<coordinates>13.13662,50.5459718,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -26002,9 +27373,9 @@
 							<tilt>0</tilt>
 							<range>683.6472207198718</range>
 						</LookAt>
-						<styleUrl>#mine</styleUrl>
+						<styleUrl>#msn_mine0</styleUrl>
 						<Point>
-							<coordinates>12.8177065606534,50.4971224342952,0</coordinates>
+							<coordinates>12.8177599,50.4972293,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -26300,9 +27671,9 @@
 							<tilt>0</tilt>
 							<range>455.7620637731707</range>
 						</LookAt>
-						<styleUrl>#mine</styleUrl>
+						<styleUrl>#msn_mine0</styleUrl>
 						<Point>
-							<coordinates>12.65835769604538,50.89851089516838,0</coordinates>
+							<coordinates>12.6596247,50.8981459,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -26472,6 +27843,23 @@
 						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>12.97400115828,50.64275772424255,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Besucherbergwerk Reichenbach-Stolln</name>
+						<LookAt>
+							<longitude>12.73732600230924</longitude>
+							<latitude>50.59779459080004</latitude>
+							<altitude>0</altitude>
+							<heading>1.784272092972943e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000447955339</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_mine2</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.73732600230924,50.59779459080004,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -27061,6 +28449,7 @@
 			</Folder>
 			<Folder>
 				<name>Süddeutsche Schichtstufenlandschaft</name>
+				<open>1</open>
 				<Folder>
 					<name>Fränkische Alb</name>
 					<Placemark>
@@ -27663,7 +29052,8 @@
 					</Placemark>
 				</Folder>
 				<Folder>
-					<name>Hohenloher Ebene</name>
+					<name>Schwäbisch-Fränkische Gäue</name>
+					<open>1</open>
 					<Placemark>
 						<name>Besucherbergwerk in Bad Friedrichshall-Kochendorf</name>
 						<LookAt>
@@ -27680,6 +29070,21 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Deutsches Bunkermuseum</name>
+						<LookAt>
+							<longitude>10.20968649988521</longitude>
+							<latitude>50.02973850031869</latitude>
+							<altitude>19.15920583740133</altitude>
+							<heading>-8.807432996174695e-11</heading>
+							<tilt>0</tilt>
+							<range>980.8407827950207</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>10.20968649988521,50.02973850031869,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Eberstadter Tropfsteinhöhle</name>
 						<LookAt>
 							<longitude>9.348965356607767</longitude>
@@ -27692,6 +29097,21 @@
 						<styleUrl>#showcave11</styleUrl>
 						<Point>
 							<coordinates>9.348769444444445,49.48088333333333,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Eisinger Löcher</name>
+						<LookAt>
+							<longitude>8.702031664311287</longitude>
+							<latitude>48.94731011051988</latitude>
+							<altitude>0</altitude>
+							<heading>-0.8546314052304071</heading>
+							<tilt>0</tilt>
+							<range>268.9009367574334</range>
+						</LookAt>
+						<styleUrl>#karst</styleUrl>
+						<Point>
+							<coordinates>8.702031664311287,48.94731011051988,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -27712,6 +29132,23 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Quellflur Kalksinter Glatt</name>
+						<LookAt>
+							<longitude>8.608105255721677</longitude>
+							<latitude>48.38477700542463</latitude>
+							<altitude>0</altitude>
+							<heading>-2.458698376374567e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000145673073</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_karst1</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>8.608105255721677,48.38477700542463,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Themenweg Unterirdische Schandtauber</name>
 						<LookAt>
 							<longitude>9.974798995439425</longitude>
@@ -27722,7 +29159,7 @@
 							<range>1000.000000977532</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#karst</styleUrl>
+						<styleUrl>#msn_karst1</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>9.974798995439425,49.34684900040727,0</coordinates>
@@ -27731,6 +29168,24 @@
 				</Folder>
 				<Folder>
 					<name>Keuper-Lias-Land</name>
+					<open>1</open>
+					<Placemark>
+						<name>Atomkellermuseum Haigerloch</name>
+						<LookAt>
+							<longitude>8.804176493748919</longitude>
+							<latitude>48.36710569577522</latitude>
+							<altitude>0</altitude>
+							<heading>-4.672184733333671e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000039229657</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>8.804176493748919,48.36710569577523,0</coordinates>
+						</Point>
+					</Placemark>
 					<Placemark>
 						<name>Besucherbergwerk Wetzsteinstollen</name>
 						<LookAt>
@@ -27958,6 +29413,7 @@
 				</Folder>
 				<Folder>
 					<name>Pfälzer Bergland</name>
+					<open>1</open>
 					<Placemark>
 						<name>Bergbauerlebniswelt Imsbach</name>
 						<LookAt>
@@ -28150,9 +29606,27 @@
 							<coordinates>7.034251999912275,49.20694600027934,0</coordinates>
 						</Point>
 					</Placemark>
+					<Placemark>
+						<name>Steinbruchmuseum Rammelsbach</name>
+						<LookAt>
+							<longitude>7.444689999650322</longitude>
+							<latitude>49.54273000028289</latitude>
+							<altitude>0</altitude>
+							<heading>-2.66042267163038e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.00001590591</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_mine2</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>7.444689999650322,49.54273000028289,0</coordinates>
+						</Point>
+					</Placemark>
 				</Folder>
 				<Folder>
 					<name>Schwäbische Alb</name>
+					<open>1</open>
 					<Placemark>
 						<name>Aachtopf</name>
 						<LookAt>
@@ -28166,23 +29640,6 @@
 						<styleUrl>#spring1</styleUrl>
 						<Point>
 							<coordinates>8.858105555555555,47.84668055555556,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Atomkellermuseum Haigerloch</name>
-						<LookAt>
-							<longitude>8.804176493748919</longitude>
-							<latitude>48.36710569577522</latitude>
-							<altitude>0</altitude>
-							<heading>-4.672184733333671e-09</heading>
-							<tilt>0</tilt>
-							<range>1000.000039229657</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>8.804176493748919,48.36710569577523,0</coordinates>
 						</Point>
 					</Placemark>
 					<Folder>
@@ -28553,9 +30010,9 @@
 							<tilt>0</tilt>
 							<range>1194.467628935946</range>
 						</LookAt>
-						<styleUrl>#cave</styleUrl>
+						<styleUrl>#msn_cave7</styleUrl>
 						<Point>
-							<coordinates>9.554172610681889,48.55923620111779,0</coordinates>
+							<coordinates>9.553790899999999,48.5591772,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -29065,24 +30522,6 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>9.271799987847352,50.06918000050914,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
-				<Folder>
-					<name>Stromberg-Heuchelberg</name>
-					<Placemark>
-						<name>Eisinger Löcher</name>
-						<LookAt>
-							<longitude>8.702031664311287</longitude>
-							<latitude>48.94731011051988</latitude>
-							<altitude>0</altitude>
-							<heading>-0.8546314052304071</heading>
-							<tilt>0</tilt>
-							<range>268.9009367574334</range>
-						</LookAt>
-						<styleUrl>#karst</styleUrl>
-						<Point>
-							<coordinates>8.702031664311287,48.94731011051988,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -29845,6 +31284,7 @@
 			</Folder>
 			<Folder>
 				<name>Hessisch-Niedersächsisches Bergland</name>
+				<open>1</open>
 				<Placemark>
 					<name>Siegfriedhöhle</name>
 					<LookAt>
@@ -29989,6 +31429,7 @@
 				</Placemark>
 				<Folder>
 					<name>Weserbergland</name>
+					<open>1</open>
 					<Placemark>
 						<name>Bergbaumuseum Ibbenbüren</name>
 						<LookAt>
@@ -30171,6 +31612,23 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>8.896018,52.24454099999999,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Untertageverlagerung Dachs 1</name>
+						<LookAt>
+							<longitude>8.92212429904901</longitude>
+							<latitude>52.24485150081826</latitude>
+							<altitude>0</altitude>
+							<heading>-7.519626405650115e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000065184785</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_subterranea2</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>8.92212429904901,52.24485150081826,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -31362,7 +32820,6 @@
 		</Folder>
 		<Folder>
 			<name>es</name>
-			<open>1</open>
 			<Folder>
 				<name>Andalucia</name>
 				<Placemark>
@@ -33075,6 +34532,7 @@
 			</Folder>
 			<Folder>
 				<name>Castilia León</name>
+				<open>1</open>
 				<Placemark>
 					<name>Cascada de Orbaneja del Castillo</name>
 					<LookAt>
@@ -33260,6 +34718,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Museo de la Siderurgia y la Minería de Castilla y León</name>
+					<LookAt>
+						<longitude>-5.153839997272355</longitude>
+						<latitude>42.83824999898997</latitude>
+						<altitude>0</altitude>
+						<heading>1.854662538905753e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000019875375</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-5.153839997272355,42.83824999898997,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Museo del Cantero</name>
 					<LookAt>
 						<longitude>-6.709474999986521</longitude>
@@ -33339,20 +34814,20 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Museo de la Siderurgia y la Minería de Castilla y León</name>
+					<name>Yacimientos de la Sierra de Atapuerca</name>
 					<LookAt>
-						<longitude>-5.153839997272355</longitude>
-						<latitude>42.83824999898997</latitude>
+						<longitude>-3.519459900254561</longitude>
+						<latitude>42.34876089959207</latitude>
 						<altitude>0</altitude>
-						<heading>1.854662538905753e-09</heading>
+						<heading>-1.713233609023786e-10</heading>
 						<tilt>0</tilt>
-						<range>1000.000019875375</range>
+						<range>1000.000126337387</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mine</styleUrl>
+					<styleUrl>#msn_showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-5.153839997272355,42.83824999898997,0</coordinates>
+						<coordinates>-3.519459900254561,42.34876089959207,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -34338,6 +35813,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Cisterna de San Roque</name>
+					<LookAt>
+						<longitude>-6.36901840000264</longitude>
+						<latitude>39.47235729959933</latitude>
+						<altitude>0</altitude>
+						<heading>-1.590277340731758e-12</heading>
+						<tilt>0</tilt>
+						<range>1000.000160534067</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-6.36901840000264,39.47235729959933,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Cueva de Castañar - Castanar Cave</name>
 					<LookAt>
 						<longitude>-5.420919999817105</longitude>
@@ -34352,6 +35844,23 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-5.42092,39.635,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cueva de El Conejar</name>
+					<LookAt>
+						<longitude>-6.363540400160649</longitude>
+						<latitude>39.45511829998377</latitude>
+						<altitude>0</altitude>
+						<heading>-1.020552532027902e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000139736003</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave120</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-6.363540400160649,39.45511829998377,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35350,6 +36859,7 @@
 			</Folder>
 			<Folder>
 				<name>País Vasco</name>
+				<open>1</open>
 				<Placemark>
 					<name>Aitzulo</name>
 					<LookAt>
@@ -35378,6 +36888,23 @@
 					<styleUrl>#showcave11</styleUrl>
 					<Point>
 						<coordinates>-2.427983243480537,42.99711597628772,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bodega El Fabulista</name>
+					<LookAt>
+						<longitude>-2.584553999505812</longitude>
+						<latitude>42.55279399933823</latitude>
+						<altitude>0</altitude>
+						<heading>3.344152475044621e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000012097743</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-2.584553999505812,42.55279399933823,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35994,6 +37521,7 @@
 		</Folder>
 		<Folder>
 			<name>fr</name>
+			<open>1</open>
 			<Folder>
 				<name>Auvergne-Rhône-Alpes</name>
 				<open>1</open>
@@ -36182,7 +37710,6 @@
 				</Folder>
 				<Folder>
 					<name>Auvergne</name>
-					<open>1</open>
 					<Placemark>
 						<name>Grotte de Laveuses</name>
 						<LookAt>
@@ -43992,6 +45519,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Colorado Provençal</name>
+					<LookAt>
+						<longitude>5.498477814015041</longitude>
+						<latitude>43.91692804314955</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0008263361537335211</heading>
+						<tilt>0</tilt>
+						<range>4293.997599297327</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_mine</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>5.499669099840727,43.91968879972235,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Fontaine de Vaucluse</name>
 					<LookAt>
 						<longitude>5.13336863333727</longitude>
@@ -44786,6 +46330,40 @@
 						<coordinates>2.33343,48.82469,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Lutetia&apos;s Sewer System</name>
+					<LookAt>
+						<longitude>2.344064706175006</longitude>
+						<latitude>48.85048682992346</latitude>
+						<altitude>0</altitude>
+						<heading>-4.300604903160977e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000011661208</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.344064706175006,48.85048682992345,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Musée de la Libération de Paris</name>
+					<LookAt>
+						<longitude>2.331719999679021</longitude>
+						<latitude>48.83410999993147</latitude>
+						<altitude>0</altitude>
+						<heading>-2.421906912527403e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000095153388</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea6</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>2.331719999679021,48.83410999993147,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 		<Folder>
@@ -45044,6 +46622,23 @@
 				</Folder>
 				<Folder>
 					<name>Cheshire West and Chester</name>
+					<Placemark>
+						<name>Alderley Edge Mines</name>
+						<LookAt>
+							<longitude>-2.212499600087613</longitude>
+							<latitude>53.29260929949197</latitude>
+							<altitude>0</altitude>
+							<heading>-6.991932627061803e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000031192641</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_mine</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-2.212499600087613,53.29260929949196,0</coordinates>
+						</Point>
+					</Placemark>
 					<Placemark>
 						<name>Hack Green Secret Nuclear Bunker</name>
 						<LookAt>
@@ -52559,13 +54154,11 @@
 		</Folder>
 		<Folder>
 			<name>hr</name>
-			<open>1</open>
 			<Folder>
 				<name>Dalmatia</name>
 				<open>1</open>
 				<Folder>
 					<name>Dubrovnik-Neretva County</name>
-					<open>1</open>
 					<Placemark>
 						<name>Golub spilja</name>
 						<LookAt>
@@ -52660,7 +54253,7 @@
 							<range>1000.000059386896</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<styleUrl>#m_ylw-pushpin00</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>18.1367740017307,42.67587100149135,0</coordinates>
@@ -52701,6 +54294,24 @@
 				</Folder>
 				<Folder>
 					<name>Šibenik-Knin County</name>
+					<open>1</open>
+					<Placemark>
+						<name>Izvoru Rijeke Krke - Krka Spring</name>
+						<LookAt>
+							<longitude>16.23533249838491</longitude>
+							<latitude>44.04244479965925</latitude>
+							<altitude>0</altitude>
+							<heading>-1.122835990029087e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000182652921</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_spring</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>16.23533249838491,44.04244479965925,0</coordinates>
+						</Point>
+					</Placemark>
 					<Placemark>
 						<name>Morski tunel Hitlerove oči</name>
 						<LookAt>
@@ -52716,23 +54327,6 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>15.8745082,43.7271055,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Skradinski buk</name>
-						<LookAt>
-							<longitude>15.96400999971908</longitude>
-							<latitude>43.80523000075102</latitude>
-							<altitude>0</altitude>
-							<heading>-1.944861479394718e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000065221014</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#karst</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>15.96400999971908,43.80523000075102,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -52767,6 +54361,23 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>15.975061,43.906144,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Skradinski buk</name>
+						<LookAt>
+							<longitude>15.96400999971908</longitude>
+							<latitude>43.80523000075102</latitude>
+							<altitude>0</altitude>
+							<heading>-1.944861479394718e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000065221014</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#karst</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>15.96400999971908,43.80523000075102,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -52806,6 +54417,7 @@
 				</Folder>
 				<Folder>
 					<name>Split-Dalmatia County</name>
+					<open>1</open>
 					<Placemark>
 						<name>Izvor Cetine - Cetina Spring</name>
 						<LookAt>
@@ -53008,7 +54620,7 @@
 							<range>994.9332066217949</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_subterranea0</styleUrl>
+						<styleUrl>#msn_subterranea00</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>16.4011636003186,43.50921260039954,0</coordinates>
@@ -53025,7 +54637,7 @@
 							<range>1000.000158674584</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_subterranea0</styleUrl>
+						<styleUrl>#msn_subterranea00</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>14.883252,44.55817,0</coordinates>
@@ -53059,7 +54671,7 @@
 							<range>1000.000043469771</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave0</styleUrl>
+						<styleUrl>#msn_cave00</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>17.08496000090322,43.28552000150097,0</coordinates>
@@ -53075,7 +54687,7 @@
 							<tilt>0</tilt>
 							<range>391.2254925324305</range>
 						</LookAt>
-						<styleUrl>#msn_cave0</styleUrl>
+						<styleUrl>#msn_cave00</styleUrl>
 						<Point>
 							<coordinates>16.71840393555076,42.96966527089457,0</coordinates>
 						</Point>
@@ -53214,7 +54826,7 @@
 							<range>1000.000182419694</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_subterranea1</styleUrl>
+						<styleUrl>#msn_subterranea10</styleUrl>
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>15.4725513,44.305635,0</coordinates>
@@ -53224,7 +54836,6 @@
 			</Folder>
 			<Folder>
 				<name>Gorski Kotar</name>
-				<open>1</open>
 				<Placemark>
 					<name>Prirodoslovni muzej Rijeka - Natural History Museum Rijeka</name>
 					<LookAt>
@@ -53327,7 +54938,6 @@
 			</Folder>
 			<Folder>
 				<name>Hrvatsko Zagorje</name>
-				<open>1</open>
 				<Placemark>
 					<name>Spilja Vindija</name>
 					<LookAt>
@@ -53338,7 +54948,7 @@
 						<tilt>0</tilt>
 						<range>1396.241071630304</range>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#msn_cave20</styleUrl>
 					<Point>
 						<coordinates>16.0798704,46.3017576,0</coordinates>
 					</Point>
@@ -53346,7 +54956,6 @@
 			</Folder>
 			<Folder>
 				<name>Istria</name>
-				<open>1</open>
 				<Placemark>
 					<name>Jama Baredine</name>
 					<LookAt>
@@ -53440,7 +55049,6 @@
 			</Folder>
 			<Folder>
 				<name>Karlovac</name>
-				<open>1</open>
 				<Placemark>
 					<name>Baračeve špilje</name>
 					<LookAt>
@@ -53493,7 +55101,6 @@
 			</Folder>
 			<Folder>
 				<name>Lika</name>
-				<open>1</open>
 				<Placemark>
 					<name>Cerovačke špilje</name>
 					<LookAt>
@@ -53577,7 +55184,6 @@
 			</Folder>
 			<Folder>
 				<name>Zagreb</name>
-				<open>1</open>
 				<Placemark>
 					<name>Rudnik Zrinski</name>
 					<LookAt>
@@ -53642,7 +55248,7 @@
 						<range>1000.000205842261</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave2</styleUrl>
+					<styleUrl>#msn_cave20</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>15.96494050005352,45.91896869882419,0</coordinates>
@@ -53659,7 +55265,7 @@
 						<range>892.0413208588512</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave00</styleUrl>
+					<styleUrl>#msn_showcave000</styleUrl>
 					<Point>
 						<coordinates>15.8632177,46.1654269,0</coordinates>
 					</Point>
@@ -59488,6 +61094,23 @@
 			<Folder>
 				<name>Basilicata</name>
 				<Placemark>
+					<name>Catacombe ebraiche di Venosa</name>
+					<LookAt>
+						<longitude>15.83975399998763</longitude>
+						<latitude>40.97826329978225</latitude>
+						<altitude>0</altitude>
+						<heading>-8.212192187538796e-12</heading>
+						<tilt>0</tilt>
+						<range>1000.000023300094</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>15.839754,40.978263,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Cripta del Peccato Originale</name>
 					<LookAt>
 						<longitude>16.56320420000002</longitude>
@@ -59992,6 +61615,23 @@
 					</Placemark>
 				</Folder>
 				<Placemark>
+					<name>Parco Urbano dei Palmenti</name>
+					<LookAt>
+						<longitude>15.88650000352564</longitude>
+						<latitude>40.74891000095069</latitude>
+						<altitude>0</altitude>
+						<heading>2.30129511060495e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000098382339</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>15.88650000352564,40.74891000095069,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Santuario San Michele</name>
 					<LookAt>
 						<longitude>15.61606922778049</longitude>
@@ -60004,23 +61644,6 @@
 					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>15.61672268532904,40.93533535795142,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Catacombe ebraiche di Venosa</name>
-					<LookAt>
-						<longitude>15.83975399998763</longitude>
-						<latitude>40.97826329978225</latitude>
-						<altitude>0</altitude>
-						<heading>-8.212192187538796e-12</heading>
-						<tilt>0</tilt>
-						<range>1000.000023300094</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>15.839754,40.978263,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -60121,23 +61744,8 @@
 			</Folder>
 			<Folder>
 				<name>Campania</name>
-				<Placemark>
-					<name>Antro della Sibilla</name>
-					<LookAt>
-						<longitude>14.05327346736071</longitude>
-						<latitude>40.84772281276953</latitude>
-						<altitude>0</altitude>
-						<heading>-0.001834261140312015</heading>
-						<tilt>0</tilt>
-						<range>218.5782372213719</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>14.0531192209434,40.84764463174955,0</coordinates>
-					</Point>
-				</Placemark>
 				<Folder>
-					<name>Capri</name>
+					<name>0Capri</name>
 					<Placemark>
 						<name>Arco Naturale</name>
 						<LookAt>
@@ -60214,6 +61822,163 @@
 						</Point>
 					</Placemark>
 				</Folder>
+				<Folder>
+					<name>0Napoli</name>
+					<Placemark>
+						<name>Catacombe di San Gennaro</name>
+						<LookAt>
+							<longitude>14.24695826993716</longitude>
+							<latitude>40.8641272986881</latitude>
+							<altitude>25.95344547569608</altitude>
+							<heading>-0.4330545587157039</heading>
+							<tilt>0</tilt>
+							<range>1165.01305123095</range>
+						</LookAt>
+						<styleUrl>#msn_subterranea0</styleUrl>
+						<Point>
+							<coordinates>14.2473645,40.865057,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacombs of San Gaudioso</name>
+						<LookAt>
+							<longitude>14.2489141999803</longitude>
+							<latitude>40.85960080007058</latitude>
+							<altitude>15.05033457427868</altitude>
+							<heading>-1.292259367078626e-11</heading>
+							<tilt>0</tilt>
+							<range>984.9496561963136</range>
+						</LookAt>
+						<styleUrl>#msn_subterranea0</styleUrl>
+						<Point>
+							<coordinates>14.2485744,40.8594641,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Grotta del Cane</name>
+						<LookAt>
+							<longitude>14.16950437985752</longitude>
+							<latitude>40.83371237407336</latitude>
+							<altitude>0</altitude>
+							<heading>1.988486035187137</heading>
+							<tilt>0</tilt>
+							<range>3394.99315613168</range>
+						</LookAt>
+						<styleUrl>#msn_subterranea0</styleUrl>
+						<Point>
+							<coordinates>14.17728000390675,40.82908899447333,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Grotta di Seiano</name>
+						<LookAt>
+							<longitude>14.17623089479842</longitude>
+							<latitude>40.79998239527084</latitude>
+							<altitude>0</altitude>
+							<heading>-3.398880677017898e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000146024079</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_subterranea0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>14.17623089479843,40.79998239527085,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Museo del Sottosuolo Napoletano</name>
+						<LookAt>
+							<longitude>14.25243881228485</longitude>
+							<latitude>40.85442586799417</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0005966745438886296</heading>
+							<tilt>0</tilt>
+							<range>642.018189907906</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>14.25246957031152,40.85416666346945,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Museo della Civiltà Contadina</name>
+						<LookAt>
+							<longitude>14.43433699986801</longitude>
+							<latitude>40.88286200000534</latitude>
+							<altitude>0</altitude>
+							<heading>-8.638863598057131e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000004541979</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>14.43433699986801,40.88286200000533,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Napoli Sotterranea</name>
+						<LookAt>
+							<longitude>14.24564198895098</longitude>
+							<latitude>40.8372820232524</latitude>
+							<altitude>0</altitude>
+							<heading>1.407233238258851e-09</heading>
+							<tilt>0</tilt>
+							<range>131.7173302007843</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>14.24564198895098,40.8372820232524,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>San Lorenzo Maggiore</name>
+						<LookAt>
+							<longitude>14.25754919470779</longitude>
+							<latitude>40.85077786790848</latitude>
+							<altitude>0</altitude>
+							<heading>1.937952599001777e-07</heading>
+							<tilt>0</tilt>
+							<range>249.9202824843814</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>14.25754919470779,40.85077786790848,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cimitero delle Fontanelle</name>
+						<LookAt>
+							<longitude>14.23881800050834</longitude>
+							<latitude>40.8588229995859</latitude>
+							<altitude>0</altitude>
+							<heading>3.324617905760407e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000017411675</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_subterranea0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>14.23881800050834,40.8588229995859,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Placemark>
+					<name>Antro della Sibilla</name>
+					<LookAt>
+						<longitude>14.05327346736071</longitude>
+						<latitude>40.84772281276953</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001834261140312015</heading>
+						<tilt>0</tilt>
+						<range>218.5782372213719</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>14.0531192209434,40.84764463174955,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Eremo di San Michele</name>
 					<LookAt>
@@ -60227,21 +61992,6 @@
 					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>15.14858335228547,40.69314005633467,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta del Cane</name>
-					<LookAt>
-						<longitude>14.16950437985752</longitude>
-						<latitude>40.83371237407336</latitude>
-						<altitude>0</altitude>
-						<heading>1.988486035187137</heading>
-						<tilt>0</tilt>
-						<range>3394.99315613168</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.17728000390675,40.82908899447333,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -60350,6 +62100,23 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>14.07078670737699,40.84015414451373,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta di Masaniello</name>
+					<LookAt>
+						<longitude>14.605601000273</longitude>
+						<latitude>40.63695329915792</latitude>
+						<altitude>0</altitude>
+						<heading>1.777198539361369e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00000116563</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave11</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>14.605601000273,40.63695329915792,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -60492,114 +62259,6 @@
 						<coordinates>14.6007832,41.2801742,0</coordinates>
 					</Point>
 				</Placemark>
-				<Folder>
-					<name>Napoli</name>
-					<Placemark>
-						<name>Catacombe di San Gennaro</name>
-						<LookAt>
-							<longitude>14.24695826993716</longitude>
-							<latitude>40.8641272986881</latitude>
-							<altitude>25.95344547569608</altitude>
-							<heading>-0.4330545587157039</heading>
-							<tilt>0</tilt>
-							<range>1165.01305123095</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>14.24757606398778,40.86399508654455,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Catacombs of San Gaudioso</name>
-						<LookAt>
-							<longitude>14.2489141999803</longitude>
-							<latitude>40.85960080007058</latitude>
-							<altitude>15.05033457427868</altitude>
-							<heading>-1.292259367078626e-11</heading>
-							<tilt>0</tilt>
-							<range>984.9496561963136</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>14.2489141999803,40.85960080007058,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Museo del Sottosuolo Napoletano</name>
-						<LookAt>
-							<longitude>14.25243881228485</longitude>
-							<latitude>40.85442586799417</latitude>
-							<altitude>0</altitude>
-							<heading>-0.0005966745438886296</heading>
-							<tilt>0</tilt>
-							<range>642.018189907906</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>14.25246957031152,40.85416666346945,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Museo della Civiltà Contadina</name>
-						<LookAt>
-							<longitude>14.43433699986801</longitude>
-							<latitude>40.88286200000534</latitude>
-							<altitude>0</altitude>
-							<heading>-8.638863598057131e-11</heading>
-							<tilt>0</tilt>
-							<range>1000.000004541979</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>14.43433699986801,40.88286200000533,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Napoli Sotterranea</name>
-						<LookAt>
-							<longitude>14.24564198895098</longitude>
-							<latitude>40.8372820232524</latitude>
-							<altitude>0</altitude>
-							<heading>1.407233238258851e-09</heading>
-							<tilt>0</tilt>
-							<range>131.7173302007843</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>14.24564198895098,40.8372820232524,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>San Lorenzo Maggiore</name>
-						<LookAt>
-							<longitude>14.25754919470779</longitude>
-							<latitude>40.85077786790848</latitude>
-							<altitude>0</altitude>
-							<heading>1.937952599001777e-07</heading>
-							<tilt>0</tilt>
-							<range>249.9202824843814</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>14.25754919470779,40.85077786790848,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Valle dei Mulini</name>
-						<LookAt>
-							<longitude>14.37630221448291</longitude>
-							<latitude>40.62481179730103</latitude>
-							<altitude>0</altitude>
-							<heading>0.0004529356785983225</heading>
-							<tilt>0</tilt>
-							<range>392.5659182374422</range>
-						</LookAt>
-						<styleUrl>#gorge</styleUrl>
-						<Point>
-							<coordinates>14.376435,40.624956,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
 				<Placemark>
 					<name>Parco Naturale del Rio Grassano</name>
 					<LookAt>
@@ -60676,6 +62335,21 @@
 					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>15.54557296092183,40.15403373446949,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Valle dei Mulini</name>
+					<LookAt>
+						<longitude>14.37630221448291</longitude>
+						<latitude>40.62481179730103</latitude>
+						<altitude>0</altitude>
+						<heading>0.0004529356785983225</heading>
+						<tilt>0</tilt>
+						<range>392.5659182374422</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>14.376435,40.624956,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -62186,7 +63860,6 @@
 			</Folder>
 			<Folder>
 				<name>Marche</name>
-				<open>1</open>
 				<Placemark>
 					<name>Cisterna della Fontana del Calamo</name>
 					<LookAt>
@@ -63159,6 +64832,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Ipogeo de Beaumont Bellacicco</name>
+					<LookAt>
+						<longitude>17.23019270030052</longitude>
+						<latitude>40.4745612997601</latitude>
+						<altitude>27.37558961462027</altitude>
+						<heading>1.950045783525504e-10</heading>
+						<tilt>0</tilt>
+						<range>972.6244104014083</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>17.230193,40.474561,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>L&apos;Astore Masseria</name>
 					<LookAt>
 						<gx:TimeStamp><when>2011-08-12</when>
@@ -63327,20 +65017,20 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Ipogeo de Beaumont Bellacicco</name>
+					<name>Taranto Sotterranea</name>
 					<LookAt>
-						<longitude>17.23019270030052</longitude>
-						<latitude>40.4745612997601</latitude>
-						<altitude>27.37558961462027</altitude>
-						<heading>1.950045783525504e-10</heading>
+						<longitude>17.25411193773884</longitude>
+						<latitude>40.45974544785508</latitude>
+						<altitude>0</altitude>
+						<heading>1.720121895325166e-09</heading>
 						<tilt>0</tilt>
-						<range>972.6244104014083</range>
+						<range>1000.000028840208</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
+					<styleUrl>#msn_subterranea1</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>17.230193,40.474561,0</coordinates>
+						<coordinates>17.25411193773884,40.45974544785508,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -73937,6 +75627,40 @@
 				</Point>
 			</Placemark>
 			<Placemark>
+				<name>Lascaris War Rooms</name>
+				<LookAt>
+					<longitude>14.51278239832592</longitude>
+					<latitude>35.89488439664299</latitude>
+					<altitude>0</altitude>
+					<heading>-9.81509633035597e-10</heading>
+					<tilt>0</tilt>
+					<range>999.9999536664129</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_subterranea</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>14.51278239832591,35.89488439664299,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mysterium Fidei</name>
+				<LookAt>
+					<longitude>14.51449499942455</longitude>
+					<latitude>35.90002999752653</latitude>
+					<altitude>0</altitude>
+					<heading>-3.374838864180714e-10</heading>
+					<tilt>0</tilt>
+					<range>999.9999883442216</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_subterranea</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>14.51449499942455,35.90002999752653,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
 				<name>Qaura - Inland Sea</name>
 				<LookAt>
 					<longitude>14.19084049724818</longitude>
@@ -74025,6 +75749,40 @@
 				<styleUrl>#cave</styleUrl>
 				<Point>
 					<coordinates>14.18825905517963,36.05348465805334,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Valletta Tunnels</name>
+				<LookAt>
+					<longitude>14.51150960705022</longitude>
+					<latitude>35.89644719491778</latitude>
+					<altitude>0</altitude>
+					<heading>4.133676273689711e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999882529174</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_subterranea</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>14.51150960705022,35.89644719491778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>War H.Q. Tunnels</name>
+				<LookAt>
+					<longitude>14.51254640265565</longitude>
+					<latitude>35.89460229970528</latitude>
+					<altitude>0</altitude>
+					<heading>1.556984884603539e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000123102627</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_subterranea</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>14.51254640265565,35.89460229970528,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -77780,6 +79538,23 @@
 			<Folder>
 				<name>Oppland</name>
 				<Placemark>
+					<name>Gjøvik Olympic Cavern Hall</name>
+					<LookAt>
+						<longitude>10.68467589829778</longitude>
+						<latitude>60.79325547977508</latitude>
+						<altitude>0</altitude>
+						<heading>-3.153806216592408e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000130366863</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>10.68467589829778,60.79325547977508,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Hadeland Bergverksmuseum</name>
 					<LookAt>
 						<longitude>10.65388263117298</longitude>
@@ -77915,7 +79690,6 @@
 			</Folder>
 			<Folder>
 				<name>Svalbard</name>
-				<open>1</open>
 				<Placemark>
 					<name>Gruve 3</name>
 					<LookAt>
@@ -79502,7 +81276,7 @@
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>Wadi Ghul</name>
+				<name>وادي غول - Wadi Ghul</name>
 				<LookAt>
 					<longitude>57.21204281617931</longitude>
 					<latitude>23.18944786110093</latitude>
@@ -79512,10 +81286,10 @@
 					<range>12866.64777252252</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#gorge</styleUrl>
+				<styleUrl>#gorge0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>57.21111095713462,23.19060473157446,0</coordinates>
+					<coordinates>57.211111,23.190605,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -82200,6 +83974,23 @@
 			<Folder>
 				<name>Azores</name>
 				<Placemark>
+					<name>Algar do Carvão</name>
+					<LookAt>
+						<longitude>-27.2158972002763</longitude>
+						<latitude>38.72814420053211</latitude>
+						<altitude>0</altitude>
+						<heading>-1.72875869156268e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000047213475</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_showcave5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-27.2158972002763,38.72814420053211,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Furna da Maria Encantada</name>
 					<LookAt>
 						<longitude>-27.97501138402157</longitude>
@@ -82285,9 +84076,9 @@
 						<range>579.2605412249768</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#showcave11</styleUrl>
+					<styleUrl>#msn_showcave0</styleUrl>
 					<Point>
-						<coordinates>-25.68708926970237,37.74814816360474,0</coordinates>
+						<coordinates>-25.6870687,37.748164,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -82300,9 +84091,9 @@
 						<tilt>0</tilt>
 						<range>737.1734655498849</range>
 					</LookAt>
-					<styleUrl>#showcave11</styleUrl>
+					<styleUrl>#msn_showcave01</styleUrl>
 					<Point>
-						<coordinates>-27.2678818709477,38.73849398236777,0</coordinates>
+						<coordinates>-27.2686939,38.7373933,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -83968,7 +85759,6 @@
 		</Folder>
 		<Folder>
 			<name>rs</name>
-			<open>1</open>
 			<Folder>
 				<name>Belgrade</name>
 				<Placemark>
@@ -84502,7 +86292,7 @@
 						<range>1000.000253651013</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#msn_cave13</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>19.7333539987477,43.85691839837316,0</coordinates>
@@ -85716,7 +87506,6 @@
 			</Folder>
 			<Folder>
 				<name>Gotlands Län</name>
-				<open>1</open>
 				<Placemark>
 					<name>Lummelundagrottan</name>
 					<LookAt>
@@ -85899,6 +87688,26 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>14.08247503953041,57.67672455821639,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Kalmar Län</name>
+				<Placemark>
+					<name>Lasse-Maja Grottan</name>
+					<LookAt>
+						<longitude>15.62314289951269</longitude>
+						<latitude>57.4365235008747</latitude>
+						<altitude>0</altitude>
+						<heading>-4.10650956587799e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000012437814</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>15.62314289951269,57.43652350087471,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -86312,6 +88121,23 @@
 						<coordinates>14.10452961842962,59.83778985453131,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Tilas Stoll - Högbergsfältet</name>
+					<LookAt>
+						<longitude>14.29113729904417</longitude>
+						<latitude>59.74778890083432</latitude>
+						<altitude>0</altitude>
+						<heading>-8.257801341670983e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000003391722</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_mine5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>14.29113729904417,59.74778890083433,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Västerbotten</name>
@@ -86490,6 +88316,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Engelsbergs Bruk</name>
+					<LookAt>
+						<longitude>16.00969809200427</longitude>
+						<latitude>59.9675989975135</latitude>
+						<altitude>0</altitude>
+						<heading>-6.922260986487003e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000048058721</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_mine4</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>16.00969809200426,59.9675989975135,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Gruvmuseet Norberg</name>
 					<LookAt>
 						<longitude>15.94647098902469</longitude>
@@ -86603,6 +88446,24 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Grottan Johannes Kammare</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.69906699855705</longitude>
+						<latitude>58.7800299986617</latitude>
+						<altitude>0</altitude>
+						<heading>-1.234040903911778e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000110408955</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave14</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>14.69906699855706,58.7800299986617,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Knalla gruvmuseum</name>
 					<LookAt>
 						<longitude>15.09020187499408</longitude>
@@ -86620,16 +88481,18 @@
 				<Placemark>
 					<name>Konungastollen</name>
 					<LookAt>
-						<longitude>14.91541982084049</longitude>
-						<latitude>59.60459660804457</latitude>
+						<longitude>14.91904279896295</longitude>
+						<latitude>59.59846789969167</latitude>
 						<altitude>0</altitude>
-						<heading>-0.2745559222997706</heading>
-						<tilt>2.80720286893539e-13</tilt>
-						<range>10545.01756677066</range>
+						<heading>-8.945055597241624e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00014090989</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#mine</styleUrl>
+					<styleUrl>#msn_mine10</styleUrl>
 					<Point>
-						<coordinates>14.93270503667934,59.59783538155802,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>14.91904279896295,59.59846789969167,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -86646,6 +88509,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>15.006519,59.494478,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Slotterberget</name>
+					<LookAt>
+						<longitude>14.88301556086176</longitude>
+						<latitude>59.72220181949722</latitude>
+						<altitude>0</altitude>
+						<heading>1.279128447076205e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000105243616</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_mine50</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>14.88301556086176,59.72220181949722,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -86703,6 +88583,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Höversbygrottan</name>
+					<LookAt>
+						<longitude>16.03026620297181</longitude>
+						<latitude>58.38783440155076</latitude>
+						<altitude>0</altitude>
+						<heading>2.530759408653816e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000022273758</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>16.03026620297181,58.38783440155076,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Torkulla Kyrka</name>
 					<LookAt>
 						<longitude>15.66243212593019</longitude>
@@ -86757,7 +88654,6 @@
 		</Folder>
 		<Folder>
 			<name>si</name>
-			<open>1</open>
 			<Folder>
 				<name>Dolenjska</name>
 				<open>1</open>
@@ -89084,9 +90980,9 @@
 						<tilt>0</tilt>
 						<range>1000.00023238538</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#msn_cave1</styleUrl>
 					<Point>
-						<coordinates>99.86738760064387,20.38142489321841,0</coordinates>
+						<coordinates>99.86833249999999,20.3816674,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -90146,6 +92042,43 @@
 				</Placemark>
 			</Folder>
 			<Folder>
+				<name>Songkhla Province</name>
+				<Placemark>
+					<name>วัดถ้ำตลอด - Wat Tham Talot</name>
+					<LookAt>
+						<longitude>100.821911706175</longitude>
+						<latitude>6.523701145534672</latitude>
+						<altitude>0</altitude>
+						<heading>4.762940270891893e-11</heading>
+						<tilt>0</tilt>
+						<range>999.9999881152759</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>100.821911706175,6.523701145534672,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>อุโมงค์ประวัติศาสตร์ เขาน้ำค้าง - Khao Nam Khang Historical Tunne</name>
+					<LookAt>
+						<longitude>100.5753357084067</longitude>
+						<latitude>6.574122082106538</latitude>
+						<altitude>0</altitude>
+						<heading>-6.066112916221291e-12</heading>
+						<tilt>0</tilt>
+						<range>1000.000004450899</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>100.5753357084067,6.574122082106538,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
 				<name>Surat Thani Province</name>
 				<Placemark>
 					<name>ถ้ำขมิ้น - Tham Khamin - Khamin Cave</name>
@@ -90910,7 +92843,7 @@
 						<range>999.9998975284219</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>35.84925,40.67249,0</coordinates>
@@ -91032,7 +92965,7 @@
 						<range>1000.000066183278</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>34.912595,40.754317,0</coordinates>
@@ -91109,7 +93042,7 @@
 						<range>999.9999717985371</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>35.83042,40.6536,0</coordinates>
@@ -93023,7 +94956,6 @@
 		</Folder>
 		<Folder>
 			<name>us</name>
-			<open>1</open>
 			<Folder>
 				<name>ak</name>
 				<Placemark>
@@ -94820,7 +96752,6 @@
 			</Folder>
 			<Folder>
 				<name>co</name>
-				<open>1</open>
 				<Placemark>
 					<name>Argo Gold Mill and Museum</name>
 					<LookAt>
@@ -95234,7 +97165,7 @@
 						<range>5464.715893012411</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-108.8334712032219,39.13712780190302,0</coordinates>
@@ -97470,6 +99401,23 @@ Carter Caves State Resort Park</name>
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>National Corvette Museum</name>
+					<LookAt>
+						<longitude>-86.37445000052712</longitude>
+						<latitude>37.00414999975779</latitude>
+						<altitude>0</altitude>
+						<heading>-3.172587391986451e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000039253726</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_karst2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-86.37445000052712,37.00414999975779,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Natural Arch Scenic Area</name>
 					<LookAt>
 						<longitude>-84.51212520025379</longitude>
@@ -99503,6 +101451,7 @@ Carter Caves State Resort Park</name>
 			</Folder>
 			<Folder>
 				<name>nv</name>
+				<open>1</open>
 				<Placemark>
 					<name>Cathedral Gorge</name>
 					<LookAt>
@@ -99660,6 +101609,57 @@ Carter Caves State Resort Park</name>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>-115.1953646753777,36.16968916760524,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Underground House</name>
+					<LookAt>
+						<longitude>-115.1273999990641</longitude>
+						<latitude>36.11680000228987</latitude>
+						<altitude>0</altitude>
+						<heading>5.51619501179625e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000102333094</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-115.1273999990641,36.11680000228987,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Atomic Museum</name>
+					<LookAt>
+						<longitude>-115.1483899987851</longitude>
+						<latitude>36.11397999816095</latitude>
+						<altitude>0</altitude>
+						<heading>7.160366851605406e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000028566002</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-115.1483899987851,36.11397999816096,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>The Underground Speakeasy and Distillery</name>
+					<LookAt>
+						<longitude>-115.1411627997432</longitude>
+						<latitude>36.17281999888125</latitude>
+						<altitude>0</altitude>
+						<heading>1.515422986303515e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000132185296</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-115.1411627997432,36.17281999888126,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -99915,6 +101915,24 @@ Carter Caves State Resort Park</name>
 					<styleUrl>#showcave11</styleUrl>
 					<Point>
 						<coordinates>-73.85217468089527,43.74724891868702,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ramble Cave</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-73.9694999971147</longitude>
+						<latitude>40.77739999937447</latitude>
+						<altitude>0</altitude>
+						<heading>1.884437301556274e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999835579515</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave9</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-73.96949999711468,40.77739999937447,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -101619,10 +103637,43 @@ Carter Caves State Resort Park</name>
 						<coordinates>-82.24165153037903,36.45657442005645,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Sewanee Natural Bridge</name>
+					<LookAt>
+						<longitude>-85.9213950998457</longitude>
+						<latitude>35.15365020064499</latitude>
+						<altitude>0</altitude>
+						<heading>8.882374815856682e-11</heading>
+						<tilt>0</tilt>
+						<range>999.9999558498197</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_karst</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-85.9213950998457,35.15365020064499,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Twin Arches</name>
+					<LookAt>
+						<longitude>-84.7356658999104</longitude>
+						<latitude>36.54170239989089</latitude>
+						<altitude>0</altitude>
+						<heading>5.32953620892786e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000037376803</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_karst</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-84.7356658999104,36.54170239989089,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>tx</name>
-				<open>1</open>
 				<Placemark>
 					<name>10,000 Year Clock</name>
 					<LookAt>
@@ -102305,7 +104356,6 @@ Carter Caves State Resort Park</name>
 			</Folder>
 			<Folder>
 				<name>va</name>
-				<open>1</open>
 				<Placemark>
 					<name>Crystal Caverns at Hupp&apos;s Hill</name>
 					<LookAt>
@@ -103918,490 +105968,538 @@ Carter Caves State Resort Park</name>
 		</Folder>
 		<Folder>
 			<name>za</name>
-			<Placemark>
-				<name>Blaauwbank Historic Gold Mine</name>
-				<LookAt>
-					<longitude>27.53886767780609</longitude>
-					<latitude>-25.9981466447617</latitude>
-					<altitude>0</altitude>
-					<heading>0.439648247410121</heading>
-					<tilt>0</tilt>
-					<range>4947.529158824263</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>27.53293519555212,-26.00225595802918,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Blyde River Canyon</name>
-				<LookAt>
-					<longitude>30.80007979912942</longitude>
-					<latitude>-24.57260179853334</latitude>
-					<altitude>0</altitude>
-					<heading>0.1702470696293309</heading>
-					<tilt>0</tilt>
-					<range>4007.914857600859</range>
-				</LookAt>
-				<styleUrl>#gorge</styleUrl>
-				<Point>
-					<coordinates>30.79870281920306,-24.57247877224661,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Blyde River Canyon</name>
-				<LookAt>
-					<longitude>30.82052010710291</longitude>
-					<latitude>-24.60362728616133</latitude>
-					<altitude>0</altitude>
-					<heading>0.1617359958776739</heading>
-					<tilt>0</tilt>
-					<range>4121.504788894453</range>
-				</LookAt>
-				<styleUrl>#gorge</styleUrl>
-				<Point>
-					<coordinates>30.81544279198338,-24.60475272973348,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Border Cave</name>
-				<LookAt>
-					<longitude>31.9908949138455</longitude>
-					<latitude>-27.02008724581776</latitude>
-					<altitude>0</altitude>
-					<heading>0.0008413066861477162</heading>
-					<tilt>0</tilt>
-					<range>769.8002412290548</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#cave</styleUrl>
-				<Point>
-					<coordinates>31.991007,-27.020077,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Bultfontein Mine</name>
-				<LookAt>
-					<longitude>24.72492097863605</longitude>
-					<latitude>-28.69252522144974</latitude>
-					<altitude>0</altitude>
-					<heading>-0.6049665830016087</heading>
-					<tilt>1.162938805289983e-12</tilt>
-					<range>8445.825364677499</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>24.72492097863605,-28.69252522144975,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Burke&apos;s Luck Potholes</name>
-				<LookAt>
-					<longitude>30.81484511698824</longitude>
-					<latitude>-24.67258088678553</latitude>
-					<altitude>0</altitude>
-					<heading>0.1641077403925435</heading>
-					<tilt>0</tilt>
-					<range>1751.19604526817</range>
-				</LookAt>
-				<styleUrl>#gorge</styleUrl>
-				<Point>
-					<coordinates>30.81136573483095,-24.67429857655557,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Bushmans Kloof Lodge</name>
-				<LookAt>
-					<longitude>19.10766472167052</longitude>
-					<latitude>-32.11611035588478</latitude>
-					<altitude>0</altitude>
-					<heading>0.01930804298496147</heading>
-					<tilt>0</tilt>
-					<range>992.2935708506226</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>19.10755304002595,-32.11634660234967,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Cango Caves</name>
-				<LookAt>
-					<longitude>22.21248401609856</longitude>
-					<latitude>-33.39797402129807</latitude>
-					<altitude>0</altitude>
-					<heading>0.04361190819401175</heading>
-					<tilt>9.772709044022934e-13</tilt>
-					<range>33371.50756136354</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>22.21506398133468,-33.39896561213435,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Cullinan Mine</name>
-				<LookAt>
-					<longitude>28.51637102046527</longitude>
-					<latitude>-25.67338855172696</latitude>
-					<altitude>0</altitude>
-					<heading>0.006424422409111588</heading>
-					<tilt>0</tilt>
-					<range>3009.442222074003</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>28.517017,-25.673145,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Echo Caves</name>
-				<LookAt>
-					<longitude>30.60210864802036</longitude>
-					<latitude>-24.56300630048789</latitude>
-					<altitude>0</altitude>
-					<heading>0.2524573264149509</heading>
-					<tilt>0</tilt>
-					<range>2180.458261330803</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>30.60317823679605,-24.56240841084964,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Ferreira&apos;s Mine</name>
-				<LookAt>
-					<longitude>28.03887136577102</longitude>
-					<latitude>-26.20108789705988</latitude>
-					<altitude>0</altitude>
-					<heading>-5.597847733019456e-05</heading>
-					<tilt>0</tilt>
-					<range>4640.661259375459</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>28.03888740240484,-26.20030127318741,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Gold Reef City</name>
-				<LookAt>
-					<longitude>28.01136725975239</longitude>
-					<latitude>-26.23722725786747</latitude>
-					<altitude>0</altitude>
-					<heading>0.01211903813819635</heading>
-					<tilt>3.503682664117293e-12</tilt>
-					<range>1181.596496892912</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>28.01099477091817,-26.23666615375257,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Hole in the Wall</name>
-				<LookAt>
-					<longitude>29.10704207725085</longitude>
-					<latitude>-32.04031985094497</latitude>
-					<altitude>0</altitude>
-					<heading>0.002303935572249664</heading>
-					<tilt>0</tilt>
-					<range>1287.319537566407</range>
-				</LookAt>
-				<styleUrl>#karst</styleUrl>
-				<Point>
-					<coordinates>29.10922020261174,-32.04121125286142,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Holkrans at Meiringskloof</name>
-				<LookAt>
-					<longitude>28.22681027157845</longitude>
-					<latitude>-28.6010529578229</latitude>
-					<altitude>0</altitude>
-					<heading>-0.001184483996166294</heading>
-					<tilt>0</tilt>
-					<range>1530.498046356481</range>
-				</LookAt>
-				<styleUrl>#cave</styleUrl>
-				<Point>
-					<coordinates>28.228266,-28.599804,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Holkrans Cave at Golden Gate</name>
-				<LookAt>
-					<longitude>28.6094314893305</longitude>
-					<latitude>-28.50887420647017</latitude>
-					<altitude>0</altitude>
-					<heading>-3.694091726085056e-05</heading>
-					<tilt>0</tilt>
-					<range>3327.127367580639</range>
-				</LookAt>
-				<styleUrl>#cave</styleUrl>
-				<Point>
-					<coordinates>28.61014465856882,-28.51158233460228,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Jagersfontein Mine</name>
-				<LookAt>
-					<longitude>25.4269878084538</longitude>
-					<latitude>-29.77259108884589</latitude>
-					<altitude>0</altitude>
-					<heading>0.007517052716013052</heading>
-					<tilt>4.558210954145007e-12</tilt>
-					<range>6235.818830702553</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>25.419086,-29.765417,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Kaaiman&apos;s Grotto</name>
-				<LookAt>
-					<longitude>22.55742040189781</longitude>
-					<latitude>-33.99767871951782</latitude>
-					<altitude>0</altitude>
-					<heading>-0.003586828280756695</heading>
-					<tilt>0</tilt>
-					<range>1436.946651134611</range>
-				</LookAt>
-				<styleUrl>#cave</styleUrl>
-				<Point>
-					<coordinates>22.56001515702885,-33.99825799437597,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Komati Gorge</name>
-				<LookAt>
-					<longitude>30.30410946921016</longitude>
-					<latitude>-25.8726878679305</latitude>
-					<altitude>0</altitude>
-					<heading>0.0150894259129406</heading>
-					<tilt>0</tilt>
-					<range>6492.408945940416</range>
-				</LookAt>
-				<styleUrl>#gorge</styleUrl>
-				<Point>
-					<coordinates>30.30410946921016,-25.87268786793051,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Kromdraai Gold Mine</name>
-				<LookAt>
-					<longitude>27.84889737707245</longitude>
-					<latitude>-26.00195870735008</latitude>
-					<altitude>0</altitude>
-					<heading>0.08362376392636282</heading>
-					<tilt>1.173286832945478e-24</tilt>
-					<range>29977.72777355958</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>27.848988,-26.00274,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Lanner Gorge</name>
-				<LookAt>
-					<longitude>31.13271295049296</longitude>
-					<latitude>-22.44226236575931</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0368506833829662</heading>
-					<tilt>0</tilt>
-					<range>11997.42564079891</range>
-				</LookAt>
-				<styleUrl>#gorge</styleUrl>
-				<Point>
-					<coordinates>31.13271295049295,-22.44226236575931,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Maropeng</name>
-				<LookAt>
-					<longitude>27.66175340777413</longitude>
-					<latitude>-25.96848714967497</latitude>
-					<altitude>0</altitude>
-					<heading>-0.1595989981230196</heading>
-					<tilt>0</tilt>
-					<range>1733.115454033095</range>
-				</LookAt>
-				<styleUrl>#subterranea</styleUrl>
-				<Point>
-					<coordinates>27.661911,-25.968331,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Montagu Guano Cave</name>
-				<LookAt>
-					<longitude>20.17881460711794</longitude>
-					<latitude>-33.81947283537465</latitude>
-					<altitude>0</altitude>
-					<heading>0.1330490811759684</heading>
-					<tilt>0</tilt>
-					<range>892.0141163754392</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>20.17816822251009,-33.82010072766227,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Motouleng Caves</name>
-				<LookAt>
-					<longitude>28.38569999999999</longitude>
-					<latitude>-28.60940000000001</latitude>
-					<altitude>0</altitude>
-					<heading>3.021526947390341e-14</heading>
-					<tilt>0</tilt>
-					<range>999.9999999996224</range>
-				</LookAt>
-				<styleUrl>#subterranea</styleUrl>
-				<Point>
-					<coordinates>28.38632065584754,-28.60919819207929,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Oribi Gorge</name>
-				<LookAt>
-					<longitude>30.26613420281832</longitude>
-					<latitude>-30.71068563168947</latitude>
-					<altitude>0</altitude>
-					<heading>0.02946785227669762</heading>
-					<tilt>0</tilt>
-					<range>8581.942092823962</range>
-				</LookAt>
-				<styleUrl>#gorge</styleUrl>
-				<Point>
-					<coordinates>30.2692054020575,-30.71149263899465,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Palabora Copper Mine</name>
-				<LookAt>
-					<longitude>31.15197989908503</longitude>
-					<latitude>-23.9687465025273</latitude>
-					<altitude>0</altitude>
-					<heading>3.716987034039153e-10</heading>
-					<tilt>0</tilt>
-					<range>1010.020609156678</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>31.15197989908503,-23.9687465025273,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>St Blaize Cave</name>
-				<LookAt>
-					<longitude>22.15651811187099</longitude>
-					<latitude>-34.1861846494283</latitude>
-					<altitude>0</altitude>
-					<heading>0.03009654545369636</heading>
-					<tilt>0</tilt>
-					<range>241.2403031740125</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>22.15664944819908,-34.18620244150358,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Sterkfontein Caves</name>
-				<LookAt>
-					<longitude>27.73379645653446</longitude>
-					<latitude>-26.01570864586412</latitude>
-					<altitude>0</altitude>
-					<heading>-0.1911784661971369</heading>
-					<tilt>0</tilt>
-					<range>334.354886886507</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>27.73433111496441,-26.01566365108378,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Sudwala Cave</name>
-				<LookAt>
-					<longitude>30.69968398822673</longitude>
-					<latitude>-25.37009214238318</latitude>
-					<altitude>0</altitude>
-					<heading>0.0002150868206448957</heading>
-					<tilt>2.647680389478603e-12</tilt>
-					<range>4741.2312775085</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>30.69983860059651,-25.37079453887444,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Swartkrans Cave</name>
-				<LookAt>
-					<longitude>27.72349813494963</longitude>
-					<latitude>-26.01693744752754</latitude>
-					<altitude>0</altitude>
-					<heading>0.02592229469181467</heading>
-					<tilt>0</tilt>
-					<range>679.3375585903273</range>
-				</LookAt>
-				<styleUrl>#cave</styleUrl>
-				<Point>
-					<coordinates>27.72367314995762,-26.01731540025587,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>The Big Hole</name>
-				<LookAt>
-					<longitude>24.75810033823057</longitude>
-					<latitude>-28.73808085898107</latitude>
-					<altitude>0</altitude>
-					<heading>0.00573727163940414</heading>
-					<tilt>0</tilt>
-					<range>798.7843394980374</range>
-				</LookAt>
-				<styleUrl>#mine</styleUrl>
-				<Point>
-					<coordinates>24.7549638888889,-28.73855,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Wonder Cave</name>
-				<LookAt>
-					<longitude>27.7707599198708</longitude>
-					<latitude>-25.96958716451304</latitude>
-					<altitude>0</altitude>
-					<heading>0.007923356466994783</heading>
-					<tilt>0</tilt>
-					<range>1047.582708205501</range>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>27.77119926887706,-25.97071309299219,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Wonderwerk Caves</name>
-				<LookAt>
-					<longitude>23.5516260739106</longitude>
-					<latitude>-27.84558304683873</latitude>
-					<altitude>0</altitude>
-					<heading>0.001547321551538097</heading>
-					<tilt>0</tilt>
-					<range>3143.387397310094</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#showcave11</styleUrl>
-				<Point>
-					<coordinates>23.554842,-27.844309,0</coordinates>
-				</Point>
-			</Placemark>
+			<open>1</open>
+			<Folder>
+				<name>Eastern Cape</name>
+				<Placemark>
+					<name>Hole in the Wall</name>
+					<LookAt>
+						<longitude>29.10704207725085</longitude>
+						<latitude>-32.04031985094497</latitude>
+						<altitude>0</altitude>
+						<heading>0.002303935572249664</heading>
+						<tilt>0</tilt>
+						<range>1287.319537566407</range>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<coordinates>29.10922020261174,-32.04121125286142,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Free State</name>
+				<Placemark>
+					<name>Holkrans at Meiringskloof</name>
+					<LookAt>
+						<longitude>28.22681027157845</longitude>
+						<latitude>-28.6010529578229</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001184483996166294</heading>
+						<tilt>0</tilt>
+						<range>1530.498046356481</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>28.228266,-28.599804,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Holkrans Cave at Golden Gate</name>
+					<LookAt>
+						<longitude>28.6094314893305</longitude>
+						<latitude>-28.50887420647017</latitude>
+						<altitude>0</altitude>
+						<heading>-3.694091726085056e-05</heading>
+						<tilt>0</tilt>
+						<range>3327.127367580639</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>28.61014465856882,-28.51158233460228,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Jagersfontein Mine</name>
+					<LookAt>
+						<longitude>25.4269878084538</longitude>
+						<latitude>-29.77259108884589</latitude>
+						<altitude>0</altitude>
+						<heading>0.007517052716013052</heading>
+						<tilt>4.558210954145007e-12</tilt>
+						<range>6235.818830702553</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>25.419086,-29.765417,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Motouleng Caves</name>
+					<LookAt>
+						<longitude>28.38569999999999</longitude>
+						<latitude>-28.60940000000001</latitude>
+						<altitude>0</altitude>
+						<heading>3.021526947390341e-14</heading>
+						<tilt>0</tilt>
+						<range>999.9999999996224</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>28.38632065584754,-28.60919819207929,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gauteng</name>
+				<Placemark>
+					<name>Cullinan Mine</name>
+					<LookAt>
+						<longitude>28.51637102046527</longitude>
+						<latitude>-25.67338855172696</latitude>
+						<altitude>0</altitude>
+						<heading>0.006424422409111588</heading>
+						<tilt>0</tilt>
+						<range>3009.442222074003</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>28.517017,-25.673145,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Maropeng</name>
+					<LookAt>
+						<longitude>27.66175340777413</longitude>
+						<latitude>-25.96848714967497</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1595989981230196</heading>
+						<tilt>0</tilt>
+						<range>1733.115454033095</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>27.661911,-25.968331,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sterkfontein Caves</name>
+					<LookAt>
+						<longitude>27.73379645653446</longitude>
+						<latitude>-26.01570864586412</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1911784661971369</heading>
+						<tilt>0</tilt>
+						<range>334.354886886507</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>27.73433111496441,-26.01566365108378,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Swartkrans Cave</name>
+					<LookAt>
+						<longitude>27.72349813494963</longitude>
+						<latitude>-26.01693744752754</latitude>
+						<altitude>0</altitude>
+						<heading>0.02592229469181467</heading>
+						<tilt>0</tilt>
+						<range>679.3375585903273</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>27.72367314995762,-26.01731540025587,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Wonder Cave</name>
+					<LookAt>
+						<longitude>27.7707599198708</longitude>
+						<latitude>-25.96958716451304</latitude>
+						<altitude>0</altitude>
+						<heading>0.007923356466994783</heading>
+						<tilt>0</tilt>
+						<range>1047.582708205501</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>27.77119926887706,-25.97071309299219,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>KwaZulu-Natal</name>
+				<Placemark>
+					<name>Border Cave</name>
+					<LookAt>
+						<longitude>31.9908949138455</longitude>
+						<latitude>-27.02008724581776</latitude>
+						<altitude>0</altitude>
+						<heading>0.0008413066861477162</heading>
+						<tilt>0</tilt>
+						<range>769.8002412290548</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>31.991007,-27.020077,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Oribi Gorge</name>
+					<LookAt>
+						<longitude>30.26613420281832</longitude>
+						<latitude>-30.71068563168947</latitude>
+						<altitude>0</altitude>
+						<heading>0.02946785227669762</heading>
+						<tilt>0</tilt>
+						<range>8581.942092823962</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>30.2692054020575,-30.71149263899465,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Limpopo</name>
+				<Placemark>
+					<name>Blyde River Canyon</name>
+					<LookAt>
+						<longitude>30.80007979912942</longitude>
+						<latitude>-24.57260179853334</latitude>
+						<altitude>0</altitude>
+						<heading>0.1702470696293309</heading>
+						<tilt>0</tilt>
+						<range>4007.914857600859</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>30.79870281920306,-24.57247877224661,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Blyde River Canyon</name>
+					<LookAt>
+						<longitude>30.82052010710291</longitude>
+						<latitude>-24.60362728616133</latitude>
+						<altitude>0</altitude>
+						<heading>0.1617359958776739</heading>
+						<tilt>0</tilt>
+						<range>4121.504788894453</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>30.81544279198338,-24.60475272973348,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Burke&apos;s Luck Potholes</name>
+					<LookAt>
+						<longitude>30.81484511698824</longitude>
+						<latitude>-24.67258088678553</latitude>
+						<altitude>0</altitude>
+						<heading>0.1641077403925435</heading>
+						<tilt>0</tilt>
+						<range>1751.19604526817</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>30.81136573483095,-24.67429857655557,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Echo Caves</name>
+					<LookAt>
+						<longitude>30.60210864802036</longitude>
+						<latitude>-24.56300630048789</latitude>
+						<altitude>0</altitude>
+						<heading>0.2524573264149509</heading>
+						<tilt>0</tilt>
+						<range>2180.458261330803</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>30.60317823679605,-24.56240841084964,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Lanner Gorge</name>
+					<LookAt>
+						<longitude>31.13271295049296</longitude>
+						<latitude>-22.44226236575931</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0368506833829662</heading>
+						<tilt>0</tilt>
+						<range>11997.42564079891</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>31.13271295049295,-22.44226236575931,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Palabora Copper Mine</name>
+					<LookAt>
+						<longitude>31.15197989908503</longitude>
+						<latitude>-23.9687465025273</latitude>
+						<altitude>0</altitude>
+						<heading>3.716987034039153e-10</heading>
+						<tilt>0</tilt>
+						<range>1010.020609156678</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>31.15197989908503,-23.9687465025273,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>The Alpha Omega Cave</name>
+					<LookAt>
+						<longitude>30.63270354916826</longitude>
+						<latitude>-24.58490473518211</latitude>
+						<altitude>0</altitude>
+						<heading>6.873980166422388e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9996804723756</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_subterranea3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>30.63270354916826,-24.58490473518211,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Mpumalanga</name>
+				<Placemark>
+					<name>Komati Gorge</name>
+					<LookAt>
+						<longitude>30.30410946921016</longitude>
+						<latitude>-25.8726878679305</latitude>
+						<altitude>0</altitude>
+						<heading>0.0150894259129406</heading>
+						<tilt>0</tilt>
+						<range>6492.408945940416</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>30.30410946921016,-25.87268786793051,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sudwala Cave</name>
+					<LookAt>
+						<longitude>30.69968398822673</longitude>
+						<latitude>-25.37009214238318</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002150868206448957</heading>
+						<tilt>2.647680389478603e-12</tilt>
+						<range>4741.2312775085</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>30.69983860059651,-25.37079453887444,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>North West</name>
+			</Folder>
+			<Folder>
+				<name>Northern Cape</name>
+				<Placemark>
+					<name>Bultfontein Mine</name>
+					<LookAt>
+						<longitude>24.72492097863605</longitude>
+						<latitude>-28.69252522144974</latitude>
+						<altitude>0</altitude>
+						<heading>-0.6049665830016087</heading>
+						<tilt>1.162938805289983e-12</tilt>
+						<range>8445.825364677499</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>24.72492097863605,-28.69252522144975,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>The Big Hole</name>
+					<LookAt>
+						<longitude>24.75810033823057</longitude>
+						<latitude>-28.73808085898107</latitude>
+						<altitude>0</altitude>
+						<heading>0.00573727163940414</heading>
+						<tilt>0</tilt>
+						<range>798.7843394980374</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>24.7549638888889,-28.73855,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Wonderwerk Caves</name>
+					<LookAt>
+						<longitude>23.5516260739106</longitude>
+						<latitude>-27.84558304683873</latitude>
+						<altitude>0</altitude>
+						<heading>0.001547321551538097</heading>
+						<tilt>0</tilt>
+						<range>3143.387397310094</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>23.554842,-27.844309,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Western Cape</name>
+				<Placemark>
+					<name>Bushmans Kloof Lodge</name>
+					<LookAt>
+						<longitude>19.10766472167052</longitude>
+						<latitude>-32.11611035588478</latitude>
+						<altitude>0</altitude>
+						<heading>0.01930804298496147</heading>
+						<tilt>0</tilt>
+						<range>992.2935708506226</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>19.10755304002595,-32.11634660234967,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cango Caves</name>
+					<LookAt>
+						<longitude>22.21248401609856</longitude>
+						<latitude>-33.39797402129807</latitude>
+						<altitude>0</altitude>
+						<heading>0.04361190819401175</heading>
+						<tilt>9.772709044022934e-13</tilt>
+						<range>33371.50756136354</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>22.21506398133468,-33.39896561213435,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Kaaiman&apos;s Grotto</name>
+					<LookAt>
+						<longitude>22.55742040189781</longitude>
+						<latitude>-33.99767871951782</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003586828280756695</heading>
+						<tilt>0</tilt>
+						<range>1436.946651134611</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>22.56001515702885,-33.99825799437597,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Montagu Guano Cave</name>
+					<LookAt>
+						<longitude>20.17881460711794</longitude>
+						<latitude>-33.81947283537465</latitude>
+						<altitude>0</altitude>
+						<heading>0.1330490811759684</heading>
+						<tilt>0</tilt>
+						<range>892.0141163754392</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>20.17816822251009,-33.82010072766227,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>St Blaize Cave</name>
+					<LookAt>
+						<longitude>22.15651811187099</longitude>
+						<latitude>-34.1861846494283</latitude>
+						<altitude>0</altitude>
+						<heading>0.03009654545369636</heading>
+						<tilt>0</tilt>
+						<range>241.2403031740125</range>
+					</LookAt>
+					<styleUrl>#showcave11</styleUrl>
+					<Point>
+						<coordinates>22.15664944819908,-34.18620244150358,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Witwatersrand</name>
+				<Placemark>
+					<name>Blaauwbank Historic Gold Mine</name>
+					<LookAt>
+						<longitude>27.53886767780609</longitude>
+						<latitude>-25.9981466447617</latitude>
+						<altitude>0</altitude>
+						<heading>0.439648247410121</heading>
+						<tilt>0</tilt>
+						<range>4947.529158824263</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>27.53293519555212,-26.00225595802918,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ferreira&apos;s Mine</name>
+					<LookAt>
+						<longitude>28.03887136577102</longitude>
+						<latitude>-26.20108789705988</latitude>
+						<altitude>0</altitude>
+						<heading>-5.597847733019456e-05</heading>
+						<tilt>0</tilt>
+						<range>4640.661259375459</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>28.03888740240484,-26.20030127318741,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gold Reef City</name>
+					<LookAt>
+						<longitude>28.01136725975239</longitude>
+						<latitude>-26.23722725786747</latitude>
+						<altitude>0</altitude>
+						<heading>0.01211903813819635</heading>
+						<tilt>3.503682664117293e-12</tilt>
+						<range>1181.596496892912</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>28.01099477091817,-26.23666615375257,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Kromdraai Gold Mine</name>
+					<LookAt>
+						<longitude>27.84889737707245</longitude>
+						<latitude>-26.00195870735008</latitude>
+						<altitude>0</altitude>
+						<heading>0.08362376392636282</heading>
+						<tilt>1.173286832945478e-24</tilt>
+						<range>29977.72777355958</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>27.848988,-26.00274,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 		</Folder>
 		<Folder>
 			<name>zm</name>
@@ -104559,6 +106657,127 @@ Carter Caves State Resort Park</name>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>105.8903970884925,20.21756950199147,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>vu</name>
+			<Placemark>
+				<name>Fels Cave</name>
+				<LookAt>
+					<longitude>168.211369533695</longitude>
+					<latitude>-17.60834481881959</latitude>
+					<altitude>0</altitude>
+					<heading>-0.348770375612084</heading>
+					<tilt>0</tilt>
+					<range>2275.282266127048</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_cave120</styleUrl>
+				<Point>
+					<coordinates>168.209915,-17.610347,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Matevulu Blue Hole</name>
+				<LookAt>
+					<longitude>167.1750365579045</longitude>
+					<latitude>-15.37749946988326</latitude>
+					<altitude>0</altitude>
+					<heading>-4.643768862670807e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.00006935155</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_karst01</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>167.1750365579045,-15.37749946988326,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Millennium Cave</name>
+				<LookAt>
+					<longitude>167.0564749283263</longitude>
+					<latitude>-15.43849155367986</latitude>
+					<altitude>0</altitude>
+					<heading>2.102875411663178e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000121627695</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_cave12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>167.0564749283263,-15.43849155367986,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nanda Blue Hole</name>
+				<LookAt>
+					<longitude>167.1696721616167</longitude>
+					<latitude>-15.31352195104719</latitude>
+					<altitude>0</altitude>
+					<heading>2.722634321199807e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.000134294284</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_karst01</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>167.1696721616166,-15.31352195104719,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Riri Blue Hole</name>
+				<LookAt>
+					<longitude>167.1805632002993</longitude>
+					<latitude>-15.39139210026942</latitude>
+					<altitude>0</altitude>
+					<heading>-7.944031670957905e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.000198390407</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_karst01</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>167.1805632002993,-15.39139210026942,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Valeva Cave - Siviri Cave</name>
+				<LookAt>
+					<longitude>168.3261684996265</longitude>
+					<latitude>-17.52423569998966</latitude>
+					<altitude>0</altitude>
+					<heading>1.124723649232536e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000186854289</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_showcave3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>168.3261684996265,-17.52423569998966,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Yeyenwu</name>
+				<LookAt>
+					<longitude>166.5666000002676</longitude>
+					<latitude>-13.13330000026427</latitude>
+					<altitude>0</altitude>
+					<heading>-6.079988086019178e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.000160171383</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_cave120</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>166.5666000002676,-13.13330000026427,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
