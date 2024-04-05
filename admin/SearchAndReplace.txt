@@ -59,11 +59,19 @@ LIVE AND DIE
 \(\*(\d\d\d\d)\-(\d\d\d\d)\)
 (*$1-✝$2)
 
+Gallery to Figure
 <a data-lightbox="gallery" href="../../../(.*)/Big/(.*).jpg" data-title='(.*)'></a>
         <figure class="right">
             <a data-lightbox="page" data-title='$3' href="../../../$1/Big/$2.jpg"><img alt="photography" src="../../../$1/$2.jpg"></a>
             <figcaption>$3</figcaption>
         </figure>
+or
+<a data-lightbox="gallery" data-title='(.*)' href="../../../(.*)/Big/(.*).jpg"></a>
+<figure class="right">
+            <a data-lightbox="page" data-title='$1' href="../../../$2/Big/$3.jpg"><img alt="photography" src="../../../$2/$3.jpg"></a>
+            <figcaption>$1</figcaption>
+        </figure>
+
 
 incomplete:
         VALUES\('yes','[^$]
