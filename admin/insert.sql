@@ -11,3 +11,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Lutetia´s Sewer System', '/english/fr/subterranea/LutetiaSewer.html', 'LutetiaSewer', 'Europe', 'fr', 'France', 'subterranea', 'IleDeFrance', 48.85048682991425, 2.344064706745059);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Tigris Tunnel', '/english/tr/caves/Birkleyn.html', 'Birkleyn', 'Europe', 'tr', 'Turkey', 'caves', 'SoutheastAnatolia', 38.5299634, 40.5459881);
+UPDATE `sights`
+SET `Latitude`='46.9247208',`Longitude`='9.5194410'
+WHERE `filename`='/english/ch/subterranea/Rappenstein.html';
