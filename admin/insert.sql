@@ -14,3 +14,6 @@ VALUES('yes','Tigris Tunnel', '/english/tr/caves/Birkleyn.html', 'Birkleyn', 'Eu
 UPDATE `sights`
 SET `Latitude`='46.9247208',`Longitude`='9.5194410'
 WHERE `filename`='/english/ch/subterranea/Rappenstein.html';
+UPDATE `sights`
+SET `Latitude`='38.4699909',`Longitude`='34.8389111'
+WHERE `filename`='/english/tr/subterranea/Mazi.html';
