@@ -15,7 +15,17 @@
 	<StyleMap id="cave0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave00</styleUrl>
+			<styleUrl>#sn_cave001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave0000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="cave2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave0000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -32,6 +42,84 @@
 			<styleUrl>#sh_cross-hairs</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="failed">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed0">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed2">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed3">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="failed4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="failed5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed6">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed7">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="gorge">
 		<Pair>
 			<key>normal</key>
@@ -75,21 +163,31 @@
 	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="mine">
@@ -105,6 +203,16 @@
 	<StyleMap id="msn_cave">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#sn_cave1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave0">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#sn_cave6</styleUrl>
 		</Pair>
 		<Pair>
@@ -112,7 +220,17 @@
 			<styleUrl>#sh_cave14</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_cave0">
+	<StyleMap id="msn_cave00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave00001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave00002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave01">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave8</styleUrl>
@@ -122,24 +240,14 @@
 			<styleUrl>#sh_cave</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_cave00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_cave0000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_cave0000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_cave01">
+	<StyleMap id="msn_cave010">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave7</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave11</styleUrl>
+			<styleUrl>#sh_cave110</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_cave1">
@@ -155,7 +263,7 @@
 	<StyleMap id="msn_cave10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave10</styleUrl>
+			<styleUrl>#sn_cave100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -165,7 +273,7 @@
 	<StyleMap id="msn_cave11">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave0</styleUrl>
+			<styleUrl>#sn_cave00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -199,7 +307,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cave12</styleUrl>
+			<styleUrl>#sh_cave120</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_cave14">
@@ -245,7 +353,7 @@
 	<StyleMap id="msn_cave4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cave1</styleUrl>
+			<styleUrl>#sn_cave10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -253,6 +361,16 @@
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_cave5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_cave50">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave4</styleUrl>
@@ -272,7 +390,7 @@
 			<styleUrl>#sh_cave2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_cave8">
+	<StyleMap id="msn_cave80">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_cave5</styleUrl>
@@ -659,7 +777,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_subterranea2</styleUrl>
+			<styleUrl>#sh_subterranea20</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_subterranea20">
@@ -722,6 +840,14 @@
 	</Style>
 	<Style id="s_ylw-pushpin0">
 		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
@@ -760,6 +886,15 @@
 			<scale>1.18182</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -819,6 +954,17 @@
 			<scale>1.1</scale>
 		</LabelStyle>
 	</Style>
+	<Style id="sh_cave00002">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
 	<Style id="sh_cave1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -843,6 +989,14 @@
 	</Style>
 	<Style id="sh_cave11">
 		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_cave110">
+		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
@@ -853,6 +1007,17 @@
 		</LabelStyle>
 	</Style>
 	<Style id="sh_cave12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave120">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1525,7 +1690,7 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="sh_subterranea2">
+	<Style id="sh_subterranea20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1683,6 +1848,20 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="sn_cave00001">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave001">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
 	<Style id="sn_cave010">
 		<IconStyle>
 			<Icon>
@@ -1692,12 +1871,20 @@
 	</Style>
 	<Style id="sn_cave1">
 		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
 	<Style id="sn_cave10">
+		<IconStyle>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_cave100">
 		<IconStyle>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
@@ -4557,6 +4744,7 @@
 			</Folder>
 			<Folder>
 				<name>Steiermark</name>
+				<open>1</open>
 				<Placemark>
 					<name>Arzberghöhle</name>
 					<LookAt>
@@ -4722,9 +4910,9 @@
 						<tilt>0</tilt>
 						<range>1000</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#cave2</styleUrl>
 					<Point>
-						<coordinates>14.348333,47.137778,0</coordinates>
+						<coordinates>14.3476958,47.13788250000001,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10781,7 +10969,7 @@
 						<range>1000.000152001247</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave0</styleUrl>
+					<styleUrl>#msn_cave01</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-41.43570990685014,-11.00664053530635,0</coordinates>
@@ -11674,7 +11862,7 @@
 						<range>1000.000172942989</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave5</styleUrl>
+					<styleUrl>#msn_cave50</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-49.36317809944747,-24.11819519885158,0</coordinates>
@@ -14011,6 +14199,7 @@
 		</Folder>
 		<Folder>
 			<name>ch</name>
+			<open>1</open>
 			<Folder>
 				<name>Aargau</name>
 				<Placemark>
@@ -14420,6 +14609,7 @@
 			</Folder>
 			<Folder>
 				<name>Graubünden</name>
+				<open>1</open>
 				<Placemark>
 					<name>Bergbaumuseum Graubünden</name>
 					<LookAt>
@@ -14545,7 +14735,7 @@
 						<tilt>0</tilt>
 						<range>331.8247473864943</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#msn_cave5</styleUrl>
 					<Point>
 						<coordinates>9.440768554259925,46.63100250134959,0</coordinates>
 					</Point>
@@ -14661,6 +14851,40 @@
 					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<coordinates>9.758496213654544,46.71168137847401,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Höhlenburg Rappenstein</name>
+					<LookAt>
+						<longitude>9.51944099802345</longitude>
+						<latitude>46.92472079618722</latitude>
+						<altitude>0</altitude>
+						<heading>-1.443860505970585e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000126377511</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>9.51944099802345,46.92472079618721,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Burgruine Marmels</name>
+					<LookAt>
+						<longitude>9.62732810867341</longitude>
+						<latitude>46.50661681010654</latitude>
+						<altitude>0</altitude>
+						<heading>6.292017378442928e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.002737288597</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>9.62732810867341,46.50661681010654,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -25326,7 +25550,7 @@
 							<range>1000.000092711723</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
-						<styleUrl>#msn_cave8</styleUrl>
+						<styleUrl>#msn_cave80</styleUrl>
 						<Point>
 							<coordinates>6.6600238,50.2316641,0</coordinates>
 						</Point>
@@ -88578,7 +88802,7 @@
 						<range>1000.000022273758</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave01</styleUrl>
+					<styleUrl>#msn_cave010</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>16.03026620297181,58.38783440155076,0</coordinates>
@@ -90965,7 +91189,7 @@
 						<tilt>0</tilt>
 						<range>1000.00023238538</range>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#msn_cave0</styleUrl>
 					<Point>
 						<coordinates>99.86833249999999,20.3816674,0</coordinates>
 					</Point>
@@ -92039,7 +92263,7 @@
 						<range>999.9999881152759</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#msn_cave0</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>100.821911706175,6.523701145534672,0</coordinates>
@@ -92599,6 +92823,7 @@
 		</Folder>
 		<Folder>
 			<name>tr</name>
+			<open>1</open>
 			<Folder>
 				<name>Aegean Region</name>
 				<Placemark>
@@ -92787,6 +93012,7 @@
 			</Folder>
 			<Folder>
 				<name>Black Sea Region</name>
+				<open>1</open>
 				<Placemark>
 					<name>Akarsu Köyü Mağarası</name>
 					<LookAt>
@@ -93058,7 +93284,7 @@
 						<tilt>0</tilt>
 						<range>1172.882384200312</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#cave2</styleUrl>
 					<Point>
 						<coordinates>32.491833,41.630371,0</coordinates>
 					</Point>
@@ -93147,358 +93373,387 @@
 				<Folder>
 					<name>Cappadocia</name>
 					<open>1</open>
-					<Placemark>
-						<name>Akköy Evleri</name>
-						<LookAt>
-							<longitude>35.04944755741367</longitude>
-							<latitude>38.58787974544745</latitude>
-							<altitude>0</altitude>
-							<heading>-3.394631405074589e-06</heading>
-							<tilt>0</tilt>
-							<range>427.5239145971734</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>35.04944755741367,38.58787974544745,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Altinocak Restaurant</name>
-						<LookAt>
-							<longitude>34.82580946776301</longitude>
-							<latitude>38.71626531234384</latitude>
-							<altitude>0</altitude>
-							<heading>1.606817980741553e-06</heading>
-							<tilt>0</tilt>
-							<range>151.4668461075993</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.82580946776301,38.71626531234384,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Ataman Hotel</name>
-						<LookAt>
-							<longitude>34.82769438780699</longitude>
-							<latitude>38.64225405525152</latitude>
-							<altitude>0</altitude>
-							<heading>0.06936916366590422</heading>
-							<tilt>0</tilt>
-							<range>978.6129666031867</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.82529277028519,38.64125585431592,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Aziz Mercurius Yeraltı Şehri ve Kilisesi</name>
-						<LookAt>
-							<longitude>34.23150800225122</longitude>
-							<latitude>38.45121100003585</latitude>
-							<altitude>0</altitude>
-							<heading>1.399902059718078e-09</heading>
-							<tilt>0</tilt>
-							<range>1000.000169668571</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.23150800225122,38.45121100003585,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Ağırnas Yeraltı Şehri</name>
-						<LookAt>
-							<longitude>35.71639999829611</longitude>
-							<latitude>38.81344299977947</latitude>
-							<altitude>0</altitude>
-							<heading>-1.068004817597997e-09</heading>
-							<tilt>0</tilt>
-							<range>1000.000111402177</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin1</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>35.7166846,38.8136402,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Cappadocia Cave Resort &amp; Spa</name>
-						<LookAt>
-							<longitude>34.80721508330757</longitude>
-							<latitude>38.63196746886991</latitude>
-							<altitude>0</altitude>
-							<heading>-0.0812132737489541</heading>
-							<tilt>0</tilt>
-							<range>315.2170481034664</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.80716555730036,38.63231941869346,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Derinkuyu Underground City</name>
-						<LookAt>
-							<longitude>34.73481495593684</longitude>
-							<latitude>38.37335399044437</latitude>
-							<altitude>0</altitude>
-							<heading>0.5380808378393557</heading>
-							<tilt>0</tilt>
-							<range>347.9528447788882</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.73509,38.373376,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Gaziemir Yer Altı Şehri</name>
-						<LookAt>
-							<longitude>34.38867399934168</longitude>
-							<latitude>38.35246600045507</latitude>
-							<altitude>0</altitude>
-							<heading>-4.085168043965369e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000098767676</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.38867399934168,38.35246600045507,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Göreme Open-Air Museum</name>
-						<LookAt>
-							<longitude>34.84462387644643</longitude>
-							<latitude>38.63958422887603</latitude>
-							<altitude>0</altitude>
-							<heading>0.07994058085128243</heading>
-							<tilt>6.905576109589746e-12</tilt>
-							<range>328.7019555067281</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.84510055279795,38.63915844526353,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Kaymaklı Yeraltı Şehri</name>
-						<LookAt>
-							<longitude>34.7562869615203</longitude>
-							<latitude>38.45908544978065</latitude>
-							<altitude>0</altitude>
-							<heading>0.5478196112369695</heading>
-							<tilt>4.805275041534039e-12</tilt>
-							<range>1982.378969081947</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.75229489057842,38.45957684687662,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Kelebek Hotel</name>
-						<LookAt>
-							<longitude>34.82899400023256</longitude>
-							<latitude>38.6426849999974</latitude>
-							<altitude>0</altitude>
-							<heading>1.452145850915798e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.256112076508</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.82899400023256,38.6426849999974,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Museum Hotel</name>
-						<LookAt>
-							<longitude>34.8066442757393</longitude>
-							<latitude>38.63321195426495</latitude>
-							<altitude>0</altitude>
-							<heading>0.5818519494214336</heading>
-							<tilt>0</tilt>
-							<range>176.0538276832198</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.80675083262031,38.63341846724934,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Nevşehir Yeraltı Şehri</name>
-						<LookAt>
-							<longitude>34.71414167791919</longitude>
-							<latitude>38.62022455520489</latitude>
-							<altitude>0</altitude>
-							<heading>-0.0483272436013901</heading>
-							<tilt>0</tilt>
-							<range>627.5091707278791</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.714448,38.620618,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Saratlı Kırkgöz Yeraltı Şehri</name>
-						<LookAt>
-							<longitude>34.2347850010154</longitude>
-							<latitude>38.44502300011074</latitude>
-							<altitude>0</altitude>
-							<heading>6.313432848251895e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000098849328</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.2347850010154,38.44502300011074,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Sivasa Gökçetoprak Yeraltı Şehri</name>
-						<LookAt>
-							<longitude>34.30218100000001</longitude>
-							<latitude>38.65790400000001</latitude>
-							<altitude>0</altitude>
-							<heading>-0</heading>
-							<tilt>0</tilt>
-							<range>1796.142334639943</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.299582,38.657904,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Star Cave Hotel</name>
-						<LookAt>
-							<longitude>34.8277196163405</longitude>
-							<latitude>38.64218489886288</latitude>
-							<altitude>0</altitude>
-							<heading>0.06938491761842483</heading>
-							<tilt>0</tilt>
-							<range>978.229116578572</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.82702119858843,38.6407097153346,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Tatlarin Yeralti Sehri</name>
-						<LookAt>
-							<longitude>34.48127550136575</longitude>
-							<latitude>38.63445860137379</latitude>
-							<altitude>0</altitude>
-							<heading>8.527130712097318e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000174089178</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin1</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>34.481276,38.634459,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Uchisar Kalesi</name>
-						<LookAt>
-							<longitude>34.80507334789403</longitude>
-							<latitude>38.63026195670053</latitude>
-							<altitude>0</altitude>
-							<heading>0.5808711622668535</heading>
-							<tilt>0</tilt>
-							<range>339.9298154837951</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.80548215979898,38.63023630937657,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Vezir Cave Suites</name>
-						<LookAt>
-							<longitude>34.83195999975226</longitude>
-							<latitude>38.64246700029332</latitude>
-							<altitude>0</altitude>
-							<heading>-1.547276241438371e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.00012139526</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.83195999975226,38.64246700029332,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Zelve Açık Hava Müzesi</name>
-						<LookAt>
-							<longitude>34.86330770015539</longitude>
-							<latitude>38.66925359916853</latitude>
-							<altitude>0</altitude>
-							<heading>9.708961220635527e-11</heading>
-							<tilt>0</tilt>
-							<range>1000.000071950027</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>34.863308,38.669254,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Çukurören Underground City</name>
-						<LookAt>
-							<longitude>34.36445187372121</longitude>
-							<latitude>38.42000999575519</latitude>
-							<altitude>0</altitude>
-							<heading>-1.633022723428755e-08</heading>
-							<tilt>0</tilt>
-							<range>6927.401746608065</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.364452,38.42001,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Özkonak Yeralti Şehri</name>
-						<LookAt>
-							<longitude>34.84025900145832</longitude>
-							<latitude>38.80656499946672</latitude>
-							<altitude>0</altitude>
-							<heading>9.138910405076825e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000083879857</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.84025900145833,38.80656499946673,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Özlüce Yeraltı Şehri</name>
-						<LookAt>
-							<longitude>34.6813850001553</longitude>
-							<latitude>38.45447199933947</latitude>
-							<altitude>0</altitude>
-							<heading>9.651711236369188e-11</heading>
-							<tilt>0</tilt>
-							<range>1000.000143384083</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>34.6813850001553,38.45447199933947,0</coordinates>
-						</Point>
-					</Placemark>
+					<Folder>
+						<name>Underground Cities</name>
+						<open>1</open>
+						<Placemark>
+							<name>Ağırnas Yeraltı Şehri</name>
+							<LookAt>
+								<longitude>35.71639999829611</longitude>
+								<latitude>38.81344299977947</latitude>
+								<altitude>0</altitude>
+								<heading>-1.068004817597997e-09</heading>
+								<tilt>0</tilt>
+								<range>1000.000111402177</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#failed4</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>35.7166846,38.8136402,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Çukurören Underground City</name>
+							<LookAt>
+								<longitude>34.36445187372121</longitude>
+								<latitude>38.42000999575519</latitude>
+								<altitude>0</altitude>
+								<heading>-1.633022723428755e-08</heading>
+								<tilt>0</tilt>
+								<range>6927.401746608065</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.364452,38.42001,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Derinkuyu Underground City</name>
+							<LookAt>
+								<longitude>34.73481495593684</longitude>
+								<latitude>38.37335399044437</latitude>
+								<altitude>0</altitude>
+								<heading>0.5380808378393557</heading>
+								<tilt>0</tilt>
+								<range>347.9528447788882</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.73509,38.373376,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Gaziemir Yer Altı Şehri</name>
+							<LookAt>
+								<longitude>34.38867399934168</longitude>
+								<latitude>38.35246600045507</latitude>
+								<altitude>0</altitude>
+								<heading>-4.085168043965369e-10</heading>
+								<tilt>0</tilt>
+								<range>1000.000098767676</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.38867399934168,38.35246600045507,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Kaymaklı Yeraltı Şehri</name>
+							<LookAt>
+								<longitude>34.7562869615203</longitude>
+								<latitude>38.45908544978065</latitude>
+								<altitude>0</altitude>
+								<heading>0.5478196112369695</heading>
+								<tilt>4.805275041534039e-12</tilt>
+								<range>1982.378969081947</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.75229489057842,38.45957684687662,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Mazı Yeraltı Şehri - Mazi Underground City</name>
+							<LookAt>
+								<longitude>34.83891109788051</longitude>
+								<latitude>38.46999089871033</latitude>
+								<altitude>0</altitude>
+								<heading>-1.318537109856878e-09</heading>
+								<tilt>0</tilt>
+								<range>999.9999990483224</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#failed5</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>34.83891109788051,38.46999089871033,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Nevşehir Yeraltı Şehri</name>
+							<LookAt>
+								<longitude>34.71414167791919</longitude>
+								<latitude>38.62022455520489</latitude>
+								<altitude>0</altitude>
+								<heading>-0.0483272436013901</heading>
+								<tilt>0</tilt>
+								<range>627.5091707278791</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.714448,38.620618,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Özkonak Yeralti Şehri</name>
+							<LookAt>
+								<longitude>34.84025900145832</longitude>
+								<latitude>38.80656499946672</latitude>
+								<altitude>0</altitude>
+								<heading>9.138910405076825e-10</heading>
+								<tilt>0</tilt>
+								<range>1000.000083879857</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.84025900145833,38.80656499946673,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Özlüce Yeraltı Şehri</name>
+							<LookAt>
+								<longitude>34.6813850001553</longitude>
+								<latitude>38.45447199933947</latitude>
+								<altitude>0</altitude>
+								<heading>9.651711236369188e-11</heading>
+								<tilt>0</tilt>
+								<range>1000.000143384083</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.6813850001553,38.45447199933947,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Saratlı Kırkgöz Yeraltı Şehri</name>
+							<LookAt>
+								<longitude>34.2347850010154</longitude>
+								<latitude>38.44502300011074</latitude>
+								<altitude>0</altitude>
+								<heading>6.313432848251895e-10</heading>
+								<tilt>0</tilt>
+								<range>1000.000098849328</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.2347850010154,38.44502300011074,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Sivasa Gökçetoprak Yeraltı Şehri</name>
+							<LookAt>
+								<longitude>34.30218100000001</longitude>
+								<latitude>38.65790400000001</latitude>
+								<altitude>0</altitude>
+								<heading>-0</heading>
+								<tilt>0</tilt>
+								<range>1796.142334639943</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.299582,38.657904,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Aziz Mercurius Yeraltı Şehri ve Kilisesi</name>
+							<LookAt>
+								<longitude>34.23150800225122</longitude>
+								<latitude>38.45121100003585</latitude>
+								<altitude>0</altitude>
+								<heading>1.399902059718078e-09</heading>
+								<tilt>0</tilt>
+								<range>1000.000169668571</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.23150800225122,38.45121100003585,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Tatlarin Yeralti Sehri</name>
+							<LookAt>
+								<longitude>34.48127550136575</longitude>
+								<latitude>38.63445860137379</latitude>
+								<altitude>0</altitude>
+								<heading>8.527130712097318e-10</heading>
+								<tilt>0</tilt>
+								<range>1000.000174089178</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#failed1</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>34.481276,38.634459,0</coordinates>
+							</Point>
+						</Placemark>
+					</Folder>
+					<Folder>
+						<name>Tourist Sites</name>
+						<open>1</open>
+						<Placemark>
+							<name>Göreme Open-Air Museum</name>
+							<LookAt>
+								<longitude>34.84462387644643</longitude>
+								<latitude>38.63958422887603</latitude>
+								<altitude>0</altitude>
+								<heading>0.07994058085128243</heading>
+								<tilt>6.905576109589746e-12</tilt>
+								<range>328.7019555067281</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.84510055279795,38.63915844526353,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Uchisar Kalesi</name>
+							<LookAt>
+								<longitude>34.80507334789403</longitude>
+								<latitude>38.63026195670053</latitude>
+								<altitude>0</altitude>
+								<heading>0.5808711622668535</heading>
+								<tilt>0</tilt>
+								<range>339.9298154837951</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.80548215979898,38.63023630937657,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Zelve Açık Hava Müzesi</name>
+							<LookAt>
+								<longitude>34.86330770015539</longitude>
+								<latitude>38.66925359916853</latitude>
+								<altitude>0</altitude>
+								<heading>9.708961220635527e-11</heading>
+								<tilt>0</tilt>
+								<range>1000.000071950027</range>
+								<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<gx:drawOrder>1</gx:drawOrder>
+								<coordinates>34.863308,38.669254,0</coordinates>
+							</Point>
+						</Placemark>
+					</Folder>
+					<Folder>
+						<name>Cave Hotels</name>
+						<open>1</open>
+						<Placemark>
+							<name>Akköy Evleri</name>
+							<LookAt>
+								<longitude>35.04944755741367</longitude>
+								<latitude>38.58787974544745</latitude>
+								<altitude>0</altitude>
+								<heading>-3.394631405074589e-06</heading>
+								<tilt>0</tilt>
+								<range>427.5239145971734</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>35.04944755741367,38.58787974544745,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Altinocak Restaurant</name>
+							<LookAt>
+								<longitude>34.82580946776301</longitude>
+								<latitude>38.71626531234384</latitude>
+								<altitude>0</altitude>
+								<heading>1.606817980741553e-06</heading>
+								<tilt>0</tilt>
+								<range>151.4668461075993</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.82580946776301,38.71626531234384,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Ataman Hotel</name>
+							<LookAt>
+								<longitude>34.82769438780699</longitude>
+								<latitude>38.64225405525152</latitude>
+								<altitude>0</altitude>
+								<heading>0.06936916366590422</heading>
+								<tilt>0</tilt>
+								<range>978.6129666031867</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.82529277028519,38.64125585431592,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Cappadocia Cave Resort &amp; Spa</name>
+							<LookAt>
+								<longitude>34.80721508330757</longitude>
+								<latitude>38.63196746886991</latitude>
+								<altitude>0</altitude>
+								<heading>-0.0812132737489541</heading>
+								<tilt>0</tilt>
+								<range>315.2170481034664</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.80716555730036,38.63231941869346,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Kelebek Hotel</name>
+							<LookAt>
+								<longitude>34.82899400023256</longitude>
+								<latitude>38.6426849999974</latitude>
+								<altitude>0</altitude>
+								<heading>1.452145850915798e-10</heading>
+								<tilt>0</tilt>
+								<range>1000.256112076508</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.82899400023256,38.6426849999974,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Museum Hotel</name>
+							<LookAt>
+								<longitude>34.8066442757393</longitude>
+								<latitude>38.63321195426495</latitude>
+								<altitude>0</altitude>
+								<heading>0.5818519494214336</heading>
+								<tilt>0</tilt>
+								<range>176.0538276832198</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.80675083262031,38.63341846724934,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Star Cave Hotel</name>
+							<LookAt>
+								<longitude>34.8277196163405</longitude>
+								<latitude>38.64218489886288</latitude>
+								<altitude>0</altitude>
+								<heading>0.06938491761842483</heading>
+								<tilt>0</tilt>
+								<range>978.229116578572</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.82702119858843,38.6407097153346,0</coordinates>
+							</Point>
+						</Placemark>
+						<Placemark>
+							<name>Vezir Cave Suites</name>
+							<LookAt>
+								<longitude>34.83195999975226</longitude>
+								<latitude>38.64246700029332</latitude>
+								<altitude>0</altitude>
+								<heading>-1.547276241438371e-10</heading>
+								<tilt>0</tilt>
+								<range>1000.00012139526</range>
+							</LookAt>
+							<styleUrl>#subterranea</styleUrl>
+							<Point>
+								<coordinates>34.83195999975226,38.64246700029332,0</coordinates>
+							</Point>
+						</Placemark>
+					</Folder>
 				</Folder>
 				<Placemark>
 					<name>Manazan Mağaraları</name>
@@ -93817,6 +94072,7 @@
 			</Folder>
 			<Folder>
 				<name>Mediterranean Region</name>
+				<open>1</open>
 				<Placemark>
 					<name>Akhayat sinkhole</name>
 					<LookAt>
@@ -94248,6 +94504,7 @@
 			</Folder>
 			<Folder>
 				<name>Southeastern Anatolia Region</name>
+				<open>1</open>
 				<Placemark>
 					<name>Abraham&apos;s Cave - Mevlid-i Halilulrahman Mağarası</name>
 					<LookAt>
@@ -94258,9 +94515,9 @@
 						<tilt>0</tilt>
 						<range>334.9520743767416</range>
 					</LookAt>
-					<styleUrl>#showcave11</styleUrl>
+					<styleUrl>#cave2</styleUrl>
 					<Point>
-						<coordinates>38.78684310990419,37.14664661397298,0</coordinates>
+						<coordinates>38.786843,37.146647,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -94276,6 +94533,23 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>40.49911783282727,38.43918154593228,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bırkleyn Mağarası - Tigris Tunnel</name>
+					<LookAt>
+						<longitude>40.54598810057309</longitude>
+						<latitude>38.52996339876082</latitude>
+						<altitude>0</altitude>
+						<heading>3.569695546740578e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000187948677</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>40.54598810057309,38.52996339876083,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -97150,7 +97424,7 @@
 						<range>5464.715893012411</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<styleUrl>#m_ylw-pushpin01</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-108.8334712032219,39.13712780190302,0</coordinates>
