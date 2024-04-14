@@ -4,7 +4,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Šalitrena Pećina', '/english/rs/caves/Salitrena.html', 'Salitrena', 'Europe', 'rs', 'Serbia', 'caves', 'WesternSerbia', 44.1907345, 20.0782511);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ribnička Pećina', '/english/rs/caves/Ribnica.html', 'Ribnica', 'Europe', 'rs', 'Serbia', 'caves', 'WesternSerbia', 44.2055709, 20.0923470);
-UPDATE `sights`
-SET `Latitude`='45.1874213',
-    `Longitude`='14.6097768'
-WHERE `filename` = '/english/hr/showcaves/Biserujka.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vodopad Prskalo', '/english/rs/karst/Prskalo.html', 'Prskalo', 'Europe', 'rs', 'Serbia', 'karst', 'WesternSerbia', 43.9962159, 21.7122979);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vodopad Bigar', '/english/rs/karst/Bigar.html', 'Bigar', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 43.3546172, 22.4430159);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vodopad Siga', '/english/rs/karst/Siga.html', 'Siga', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 44.373040, 21.616898);
