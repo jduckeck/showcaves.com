@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Vodopad Bigar', '/english/rs/karst/Bigar.html', 'Bigar', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 43.3546172, 22.4430159);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Vodopad Siga', '/english/rs/karst/Siga.html', 'Siga', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 44.373040, 21.616898);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sesalačka Pećina', '/english/rs/caves/Sesalacka.html', 'Sesalacka', 'Europe', 'rs', 'Serbia', 'caves', 'EasternSerbia', 43.6987110, 21.9879016);
