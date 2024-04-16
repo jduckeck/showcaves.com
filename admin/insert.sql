@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bebravska Pećina', '/english/ba/showcaves/Bebrava.html', 'Bebrava', 'Europe', 'ba', 'Bosnia and Herzegovina', 'showcaves', 'Federation', 44.1980574, 18.6194350);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Djevojačka Pećina', '/english/ba/showcaves/Djevojacka.html', 'Djevojacka', 'Europe', 'ba', 'Bosnia and Herzegovina', 'showcaves', 'Federation', 44.2140265, 18.6457932);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Dobroselički Prerast', '/english/rs/karst/Dobroselic.html', 'Dobroselic', 'Europe', 'rs', 'Serbia', 'karst', 'WesternSerbia', 43.62353, 19.69868);
