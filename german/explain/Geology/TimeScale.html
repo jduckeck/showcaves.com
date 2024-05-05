@@ -37,14 +37,14 @@
 
         <h1 class="center">Geologische Zeittafel</h1>
 
-        <table cellpadding=10 cellspacing=0 border="1">
+        <table class="border">
             <thead>
             <tr>
                 <th>Eon</th>
                 <th>Ära</th>
                 <th>Periode</th>
                 <th>Epoche</th>
-                <th align="center">Zeit (Anfang)</th>
+                <th>Zeit (Anfang)</th>
                 <th>Bemerkungen</th>
             </tr>
             </thead>
@@ -55,88 +55,88 @@
                 <td rowspan=7>Cenozoikum</td>
                 <td rowspan=2>Quartär</td>
                 <td>Holozän (Rezent)</td>
-                <td align="left" valign="BOTTOM">10000 years</td>
+                <td class="right">10000 BP</td>
                 <td>Ende der (letzten) Kaltzeit</td>
             </tr>
             <tr>
                 <td>Pleistozän</td>
-                <td align="left" valign="BOTTOM">1.8 Ma</td>
+                <td class="right">1.8 Ma</td>
                 <td></td>
             </tr>
 
             <tr>
                 <td rowspan=5>Tertiär</td>
                 <td>Pliozän</td>
-                <td> 5 Ma</td>
+                <td class="right"> 5 Ma</td>
                 <td></td>
             </tr>
             <tr>
                 <td>Miozän</td>
-                <td>24 Ma</td>
+                <td class="right">24 Ma</td>
                 <td></td>
             </tr>
             <tr>
                 <td>Oligozän</td>
-                <td>34 Ma</td>
+                <td class="right">34 Ma</td>
                 <td></td>
             </tr>
             <tr>
                 <td>Eozän</td>
-                <td>55 Ma</td>
+                <td class="right">55 Ma</td>
                 <td></td>
             </tr>
             <tr>
                 <td>Palaeozän</td>
-                <td>65 Ma</td>
+                <td class="right">65 Ma</td>
                 <td>Massenaussterben: Dinosaurier, Pterosaurier und Ammoniten</td>
             </tr>
 
             <tr>
                 <td rowspan=3>Mesozoikum</td>
                 <td colspan=2>Kreide</td>
-                <td>141 Ma</td>
+                <td class="right">141 Ma</td>
                 <td>Angiosperme Pflanzen, Mesozoischer Hochpunkt der Reptilien</td>
             </tr>
             <tr>
                 <td colspan=2>Jura</td>
-                <td>205 Ma</td>
+                <td class="right">205 Ma</td>
                 <td>Farne, Zikaden, Gingkos, Ammoniten</td>
             </tr>
             <tr>
                 <td colspan=2>Trias</td>
-                <td>215 Ma</td>
+                <td class="right">215 Ma</td>
                 <td>Mollusken und Reptilien dominieren, Dinosaurier, Ichthyosaurier</td>
             </tr>
 
             <tr>
                 <td rowspan=6>Palaeozoikum</td>
                 <td colspan=2>Perm</td>
-                <td>298 Ma</td>
+                <td class="right">298 Ma</td>
                 <td>Trilobiten sterben aus, Amphibien und Reptilien dominierende Landtiere</td>
             </tr>
             <tr>
                 <td colspan=2>Karbon</td>
-                <td>354 Ma</td>
+                <td class="right">354 Ma</td>
                 <td>Foraminiferen, Korallen, Bryozoen, Brachiopoden, Amphibien verbreiten sich</td>
             </tr>
             <tr>
                 <td colspan=2>Devon</td>
-                <td>410 Ma</td>
+                <td class="right">410 Ma</td>
                 <td>Korallen, Brachiopoden, Ammoniten, Crinoiden, Fische und erste Landpflanzen</td>
             </tr>
             <tr>
                 <td colspan=2>Silur</td>
-                <td>434 Ma</td>
+                <td class="right">434 Ma</td>
                 <td>primitive Fische</td>
             </tr>
             <tr>
                 <td colspan=2>Ordoviz</td>
-                <td>490 Ma</td>
+                <td class="right">490 Ma</td>
                 <td>Graptoliten dominieren, ebenso Trilobiten, Brachiopoden, Bryozoen, Gastropoden</td>
             </tr>
             <tr>
                 <td colspan=2>Kambrium</td>
-                <td>545 Ma</td>
+                <td class="right">545 Ma</td>
                 <td>Meereslebewesen mit mineralischen Schalen erscheinen: Trilobiten, Echinodermien, Brachiopoden, Mollusken, primitive Graptoliten, eine Vielzahl von Würmern</td>
             </tr>
 
@@ -144,28 +144,36 @@
                 <td>Proterozoikum</td>
                 <td rowspan=3>Präkambrium</td>
                 <td colspan=2 rowspan=2>Proterozoikum</td>
-                <td>~2500 Ma</td>
+                <td class="right">~2500 Ma</td>
                 <td>Erste mehrzellige Organismen</td>
             </tr>
             <tr>
                 <td>Archaikum</td>
-                <td>~3800 Ma</td>
+                <td class="right">~3800 Ma</td>
                 <td>Erste einzellige Organismen, die Evolution beginnt</td>
             </tr>
             <tr>
                 <td>Hadean</td>
                 <td colspan=2>Archaeozoikum</td>
-                <td>~4600 Ma</td>
+                <td class="right">~4600 Ma</td>
                 <td>Bildung der Erdkruste, Entstehung der ersten Gesteine vor etwa 3,800 Ma</td>
             </tr>
             </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="6">Anmerkung: Ma=Millionen Jahre</td>
+            </tr>
+            </tfoot>
         </table>
 
 
-        <p>
-            Anmerkung: Ma=Millionen Jahre
-        </p>
+        <br class="clear">
 
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">Siehe auch</li>
+            <li><a target="_blank" href="https://de.wikipedia.org/wiki/Geologische_Zeitskala"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">Geologische Zeitskala - Wikipedia (visited: 03-MAY-2024)</a></li>
+            <li><a target="_blank" href="https://stratigraphy.org/timescale/"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Interactive version of the International Chronostratigraphic Chart (visited: 03-MAY-2024)</a></li>
+        </ul>
 
     </div>
 

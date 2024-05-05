@@ -190,6 +190,31 @@ table.language th {
     padding: 0.5rem;
 }
 
+table.border {
+    width: 100%;
+    table-layout: auto;
+    background-color: #FFFFFF;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table.border th {
+    border: 1px solid black;
+    padding: 10px;
+    align-content: center;
+}
+
+table.border td {
+    border: 1px solid black;
+    padding: 10px;
+    align-content: inherit;
+}
+
+table.border .right {
+    align-content: end;
+}
+
 table.td .nowrap {
     white-space: nowrap;
 }
@@ -210,17 +235,6 @@ table.td .nowrap {
     padding: 0.5em;
     background-color: rgba(214, 214, 214, 0.58);
     overflow: hidden;
-}
-
-div.itemFlow {
-    margin: 0.5em;
-    padding: 0.5em;
-    overflow: hidden;
-}
-
-div.itemFlow ul.literature {
-    margin-top: -1em;
-    margin-bottom: -1em;
 }
 
 .box {
@@ -346,10 +360,6 @@ img.language {
     padding: 0;
     position: relative;
     text-align: left;
-}
-
-.fullscreen {
-    width: 100%;
 }
 
 img.flag {
