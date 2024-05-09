@@ -22220,7 +22220,7 @@
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>10.84754403209749,51.75525687572498,0</coordinates>
+						<coordinates>10.84190758423579,51.75421077201641,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -84124,7 +84124,7 @@
 			<Folder>
 				<name>Vojvodina</name>
 				<Placemark>
-					<name>Petrovaradin Fortress Underground</name>
+					<name>Петроварадинске катакомбе - Petrovaradinske katakombe - Petrovaradin catacombs</name>
 					<LookAt>
 						<longitude>19.86950846428762</longitude>
 						<latitude>45.24804122054642</latitude>
@@ -84137,7 +84137,7 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>19.869521,45.24828200000001,0</coordinates>
+						<coordinates>19.86449977068113,45.25186899999999,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
