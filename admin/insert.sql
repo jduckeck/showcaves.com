@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Rabban Hormizd Monastery', '/english/other/subterranea/RabbanHormizd.html', 'RabbanHormizd', 'MiddleEast', 'iq', 'Iraq', 'subterranea', 'iq', 'other', 36.74912, 43.11555);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Mar Qayuma Monastery', '/english/other/subterranea/MarQayuma.html', 'MarQayuma', 'MiddleEast', 'iq', 'Iraq', 'subterranea', 'iq', 'other', 37.23175, 43.47003);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Beston Cave', '/english/other/caves/Beston.html', 'Beston', 'MiddleEast', 'iq', 'Iraq', 'caves', 'iq', 'other', 36.7079156, 44.3928246);
