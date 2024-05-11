@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Beston Cave', '/english/other/caves/Beston.html', 'Beston', 'MiddleEast', 'iq', 'Iraq', 'caves', 'iq', 'other', 36.7079156, 44.3928246);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Fontana s Kornjačama', '/english/hr/karst/Kornjacama.html', 'Kornjacama', 'Europe', 'hr', 'Croatia', 'karst', 'SibenikKnin', 43.7340578, 15.8942236);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Krupajsko Vrelo', '/english/rs/springs/Krupaj.html', 'Krupaj', 'Europe', 'rs', 'Serbia', 'springs', 'EasternSerbia', 44.1839, 21.6089);
