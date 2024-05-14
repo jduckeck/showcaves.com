@@ -84215,7 +84215,7 @@
 						<tilt>0</tilt>
 						<range>541.7373612208107</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>19.9334224,43.7954768,0</coordinates>
 					</Point>
@@ -84230,7 +84230,7 @@
 						<tilt>0</tilt>
 						<range>312.9970623156266</range>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>20.58243796229174,44.30202271428671,0</coordinates>
 					</Point>
@@ -84246,7 +84246,7 @@
 						<range>1000.000144045553</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>19.854688,43.702672,0</coordinates>
 					</Point>
