@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta name="resource-type" content="document">
     <meta charset="utf-8">
-    <meta name="keywords" content="Schauhöhle Schaubergwerk Grotte Schlucht Quelle Bergwerk Höhle Sehenswürdigkeit Führung Tourismus">
+    <meta name="keywords" content="show cave public cave commercial cave show mine spring karst feature tunnel cellar subterranean tourist info">
     <meta name="page-topic" content="travel tourism destination">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="distribution" content="global">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
-    <link rel="alternate" hreflang="en" href="../../../english/explain/Index/Statistics.html"/>
+    <link rel="alternate" hreflang="de" href="../../../german/explain/Index/Statistics.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -19,13 +19,13 @@
     <!-- end responsive -->
 
 
-    <meta property="og:locale" content="de_DE"/>
-    <meta property="og:title" content="Alphabethisches Register: Statistik von showcaves.com"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:title" content="Indexes: Statistics of showcaves.com"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
-    <meta property="og:site_name" content="Schauhöhlen der Welt"/>
-    <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt"/>
-    <title>Alphabethisches Register: Statistik von showcaves.com</title>
+    <meta property="og:site_name" content="Show Caves of the World"/>
+    <meta property="og:description" content="Underground tourist destinations of the World"/>
+    <title>Indexes: Statistics of showcaves.com</title>
 </head>
 
 <body>
@@ -33,18 +33,18 @@
     <div data-role="main" class="ui-content">
 
 
-        <h1 class="center">Statistik von <span class="mySiteName">showcaves.com</span></h1>
+        <h1 class="center">Statistics of showcaves.com</h1>
         <h2 class="center"><span class="mySiteName">showcaves.com</span> entries as of 14-MAY-2024 10:59</h2>
 
         <br class="clear">
 
 
         <p>
-            Die folgende Tabelle ist eine Statistik über den Inhalt von <span class="mySiteName">showcaves.com</span>.
-            Die Website enthält unterirdische touristische Sehenswürdigkeiten aus der ganzen Welt, die nach politischen Einheiten, also Ländern, gruppiert sind und als Höhlen, Schauhöhlen, Bergwerke oder künstliche Hohlräume klassifiziert wurden.
-            Die Zahlen geben alle aufgelisteten Sehenswürdigkeiten an, aber nicht alle davon sind noch für die Öffentlichkeit zugänglich.
-            <span class="mySiteName">showcaves.com</span> ist fast 30 Jahre alt, und etwa 75 Standorte wurden mittelfristig oder endgültig für die Öffentlichkeit geschlossen.
-            Diese sind in den unten stehenden Zahlen allerdings enthalten.
+            The following table is a statistics about the contents of <span class="mySiteName">showcaves.com</span>.
+            The site contains underground tourist sites from all over the world, which are grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf.
+            The numbers give all listed sites, but not all of them are still open to the public.
+            <span class="mySiteName">showcaves.com</span> ist almost 30 years old, and about 75 sites were temporarily or finally closed to the public.
+            These are included in the below numbers.
         </p>
 
 
@@ -54,15 +54,15 @@
         <table class="statistics">
             <thead>
             <tr>
-                <th>Länder</th>
-                <th><img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png">Schauhöhlen</th>
-                <th><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Höhlen</th>
-                <th><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karsterscheinungen</th>
-                <th><img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png">Karstquellen</th>
-                <th><img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png">Bergwerke</th>
-                <th><img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png">Künstliche Hohlräume</th>
-                <th><img alt="Gorge" class="symbol" src="../../../graphics/symbol/Gorge.png">Schuchten</th>
-                <th>Gesamt Land</th>
+                <th>Country</th>
+                <th><img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png">Showcaves</th>
+                <th><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Caves</th>
+                <th><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karst Features</th>
+                <th><img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png">Springs</th>
+                <th><img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png">Mines</th>
+                <th><img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png">Subterranea</th>
+                <th><img alt="Gorge" class="symbol" src="../../../graphics/symbol/Gorge.png">Gorges</th>
+                <th>Country Sum</th>
             </tr>
             </thead>
             <tbody>
@@ -116,7 +116,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ar/index.html" id="ar">Argentina</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ar/index.html" id="ar">Argentina</a></td>
             <td>6</td>
             <td>6</td>
             <td>2</td>
@@ -128,15 +128,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/am/index.html" id="am">Armenia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/am/index.html" id="am">Armenia</a></td>
             <td>2</td>
-            <td>3</td>
+            <td>2</td>
             <td>1</td>
             <td>0</td>
             <td>1</td>
             <td>7</td>
             <td>1</td>
-            <td>15</td>
+            <td>14</td>
             </tr>
 
             <tr>
@@ -152,19 +152,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/au/index.html" id="au">Australia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/au/index.html" id="au">Australia</a></td>
             <td>57</td>
             <td>27</td>
             <td>7</td>
             <td>2</td>
-            <td>54</td>
+            <td>48</td>
             <td>26</td>
             <td>6</td>
-            <td>179</td>
+            <td>173</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/at/index.html" id="at">Austria</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/at/index.html" id="at">Austria</a></td>
             <td>25</td>
             <td>21</td>
             <td>3</td>
@@ -178,17 +178,17 @@
             <tr>
             <td class='left'><a data-ajax="false" href="../../../english/other/region/az.html" id="az">Azerbaijan</a></td>
             <td>0</td>
-            <td>2</td>
+            <td>1</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
-            <td>2</td>
+            <td>1</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/bs/index.html" id="bs">Bahamas</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/bs/index.html" id="bs">Bahamas</a></td>
             <td>0</td>
             <td>15</td>
             <td>4</td>
@@ -236,19 +236,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/be/index.html" id="be">Belgium</a></td>
-            <td>14</td>
+            <td class='left'><a data-ajax="false" href="../../../english/be/index.html" id="be">Belgium</a></td>
+            <td>13</td>
             <td>5</td>
             <td>1</td>
             <td>0</td>
             <td>14</td>
-            <td>13</td>
+            <td>12</td>
             <td>0</td>
-            <td>47</td>
+            <td>45</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/bz/index.html" id="bz">Belize</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/bz/index.html" id="bz">Belize</a></td>
             <td>1</td>
             <td>11</td>
             <td>1</td>
@@ -260,7 +260,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/bm/index.html" id="bm">Bermuda</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/bm/index.html" id="bm">Bermuda</a></td>
             <td>5</td>
             <td>3</td>
             <td>2</td>
@@ -296,7 +296,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ba/index.html" id="ba">Bosnia and Herzegovina</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ba/index.html" id="ba">Bosnia and Herzegovina</a></td>
             <td>10</td>
             <td>7</td>
             <td>5</td>
@@ -320,27 +320,27 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/br/index.html" id="br">Brazil</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/br/index.html" id="br">Brazil</a></td>
             <td>21</td>
             <td>44</td>
             <td>6</td>
             <td>3</td>
-            <td>19</td>
+            <td>16</td>
             <td>3</td>
             <td>2</td>
-            <td>98</td>
+            <td>95</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/bg/index.html" id="bg">Bulgaria</a></td>
-            <td>15</td>
+            <td class='left'><a data-ajax="false" href="../../../english/bg/index.html" id="bg">Bulgaria</a></td>
+            <td>14</td>
             <td>14</td>
             <td>3</td>
             <td>0</td>
-            <td>3</td>
+            <td>2</td>
             <td>19</td>
             <td>4</td>
-            <td>58</td>
+            <td>56</td>
             </tr>
 
             <tr>
@@ -368,15 +368,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ca/index.html" id="ca">Canada</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ca/index.html" id="ca">Canada</a></td>
             <td>9</td>
             <td>21</td>
             <td>3</td>
             <td>0</td>
-            <td>25</td>
+            <td>23</td>
             <td>5</td>
             <td>0</td>
-            <td>63</td>
+            <td>61</td>
             </tr>
 
             <tr>
@@ -392,7 +392,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/cl/index.html" id="cl">Chile</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/cl/index.html" id="cl">Chile</a></td>
             <td>1</td>
             <td>6</td>
             <td>0</td>
@@ -404,7 +404,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/cn/index.html" id="cn">China</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/cn/index.html" id="cn">China</a></td>
             <td>135</td>
             <td>17</td>
             <td>23</td>
@@ -416,7 +416,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/co/index.html" id="co">Colombia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/co/index.html" id="co">Colombia</a></td>
             <td>0</td>
             <td>10</td>
             <td>1</td>
@@ -428,7 +428,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ck/index.html" id="ck">Cook Islands</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ck/index.html" id="ck">Cook Islands</a></td>
             <td>0</td>
             <td>10</td>
             <td>4</td>
@@ -440,31 +440,31 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/cr/index.html" id="cr">Costa Rica</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/cr/index.html" id="cr">Costa Rica</a></td>
             <td>0</td>
-            <td>8</td>
+            <td>7</td>
             <td>0</td>
             <td>0</td>
             <td>4</td>
             <td>3</td>
             <td>0</td>
-            <td>15</td>
+            <td>14</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/hr/index.html" id="hr">Croatia</a></td>
-            <td>26</td>
+            <td class='left'><a data-ajax="false" href="../../../english/hr/index.html" id="hr">Croatia</a></td>
+            <td>24</td>
             <td>15</td>
             <td>8</td>
             <td>6</td>
             <td>1</td>
-            <td>11</td>
+            <td>10</td>
             <td>2</td>
-            <td>69</td>
+            <td>66</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/cu/index.html" id="cu">Cuba</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/cu/index.html" id="cu">Cuba</a></td>
             <td>12</td>
             <td>6</td>
             <td>1</td>
@@ -488,7 +488,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/cy/index.html" id="cy">Cyprus</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/cy/index.html" id="cy">Cyprus</a></td>
             <td>1</td>
             <td>1</td>
             <td>2</td>
@@ -500,19 +500,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/cz/index.html" id="cz">Czech Republic</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/cz/index.html" id="cz">Czech Republic</a></td>
             <td>15</td>
-            <td>14</td>
+            <td>12</td>
             <td>4</td>
             <td>0</td>
             <td>19</td>
             <td>46</td>
             <td>10</td>
-            <td>108</td>
+            <td>106</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/dk/index.html" id="dk">Denmark</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/dk/index.html" id="dk">Denmark</a></td>
             <td>0</td>
             <td>2</td>
             <td>1</td>
@@ -524,7 +524,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/do/index.html" id="do">Dominican Republic</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/do/index.html" id="do">Dominican Republic</a></td>
             <td>4</td>
             <td>4</td>
             <td>1</td>
@@ -548,7 +548,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/eg/index.html" id="eg">Egypt</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/eg/index.html" id="eg">Egypt</a></td>
             <td>0</td>
             <td>4</td>
             <td>1</td>
@@ -572,7 +572,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ee/index.html" id="ee">Estonia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ee/index.html" id="ee">Estonia</a></td>
             <td>0</td>
             <td>4</td>
             <td>1</td>
@@ -632,7 +632,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/fi/index.html" id="fi">Finland</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/fi/index.html" id="fi">Finland</a></td>
             <td>0</td>
             <td>4</td>
             <td>0</td>
@@ -644,63 +644,63 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/fr/index.html" id="fr">France</a></td>
-            <td>119</td>
-            <td>59</td>
+            <td class='left'><a data-ajax="false" href="../../../english/fr/index.html" id="fr">France</a></td>
+            <td>113</td>
+            <td>58</td>
             <td>34</td>
             <td>12</td>
-            <td>101</td>
-            <td>184</td>
-            <td>13</td>
-            <td>522</td>
+            <td>99</td>
+            <td>182</td>
+            <td>12</td>
+            <td>510</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ge/index.html" id="ge">Georgia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ge/index.html" id="ge">Georgia</a></td>
             <td>6</td>
-            <td>5</td>
+            <td>4</td>
             <td>3</td>
             <td>2</td>
             <td>0</td>
             <td>10</td>
             <td>3</td>
-            <td>29</td>
+            <td>28</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/de/index.html" id="de">Germany</a></td>
-            <td>54</td>
-            <td>76</td>
+            <td class='left'><a data-ajax="false" href="../../../english/de/index.html" id="de">Germany</a></td>
+            <td>53</td>
+            <td>75</td>
             <td>39</td>
             <td>17</td>
-            <td>217</td>
+            <td>209</td>
             <td>109</td>
             <td>21</td>
-            <td>533</td>
+            <td>523</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/gb/index.html" id="gb">Great Britain</a></td>
-            <td>27</td>
-            <td>42</td>
+            <td class='left'><a data-ajax="false" href="../../../english/gb/index.html" id="gb">Great Britain</a></td>
+            <td>26</td>
+            <td>40</td>
             <td>10</td>
             <td>3</td>
-            <td>76</td>
-            <td>104</td>
+            <td>74</td>
+            <td>101</td>
             <td>7</td>
-            <td>269</td>
+            <td>261</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/gr/index.html" id="gr">Greece</a></td>
-            <td>30</td>
+            <td class='left'><a data-ajax="false" href="../../../english/gr/index.html" id="gr">Greece</a></td>
+            <td>29</td>
             <td>52</td>
             <td>8</td>
             <td>10</td>
             <td>1</td>
             <td>15</td>
             <td>6</td>
-            <td>122</td>
+            <td>121</td>
             </tr>
 
             <tr>
@@ -716,7 +716,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/gt/index.html" id="gt">Guatemala</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/gt/index.html" id="gt">Guatemala</a></td>
             <td>6</td>
             <td>14</td>
             <td>9</td>
@@ -740,7 +740,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/hn/index.html" id="hn">Honduras</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/hn/index.html" id="hn">Honduras</a></td>
             <td>2</td>
             <td>6</td>
             <td>0</td>
@@ -752,7 +752,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/hu/index.html" id="hu">Hungary</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/hu/index.html" id="hu">Hungary</a></td>
             <td>13</td>
             <td>15</td>
             <td>0</td>
@@ -764,7 +764,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/is/index.html" id="is">Iceland</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/is/index.html" id="is">Iceland</a></td>
             <td>4</td>
             <td>19</td>
             <td>2</td>
@@ -776,7 +776,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/in/index.html" id="in">India</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/in/index.html" id="in">India</a></td>
             <td>13</td>
             <td>18</td>
             <td>4</td>
@@ -788,7 +788,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/id/index.html" id="id">Indonesia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/id/index.html" id="id">Indonesia</a></td>
             <td>19</td>
             <td>15</td>
             <td>1</td>
@@ -800,7 +800,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ir/index.html" id="ir">Iran</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ir/index.html" id="ir">Iran</a></td>
             <td>6</td>
             <td>7</td>
             <td>2</td>
@@ -824,7 +824,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ie/index.html" id="ie">Ireland</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ie/index.html" id="ie">Ireland</a></td>
             <td>6</td>
             <td>8</td>
             <td>11</td>
@@ -836,7 +836,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/il/index.html" id="il">Israel</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/il/index.html" id="il">Israel</a></td>
             <td>2</td>
             <td>9</td>
             <td>1</td>
@@ -848,39 +848,39 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/it/index.html" id="it">Italy</a></td>
-            <td>64</td>
-            <td>88</td>
+            <td class='left'><a data-ajax="false" href="../../../english/it/index.html" id="it">Italy</a></td>
+            <td>63</td>
+            <td>87</td>
             <td>22</td>
             <td>11</td>
             <td>67</td>
-            <td>139</td>
+            <td>138</td>
             <td>18</td>
-            <td>409</td>
+            <td>406</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/jm/index.html" id="jm">Jamaica</a></td>
-            <td>4</td>
+            <td class='left'><a data-ajax="false" href="../../../english/jm/index.html" id="jm">Jamaica</a></td>
+            <td>3</td>
             <td>4</td>
             <td>0</td>
             <td>3</td>
             <td>0</td>
             <td>1</td>
             <td>0</td>
-            <td>12</td>
+            <td>11</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/jp/index.html" id="jp">Japan</a></td>
-            <td>92</td>
+            <td class='left'><a data-ajax="false" href="../../../english/jp/index.html" id="jp">Japan</a></td>
+            <td>84</td>
             <td>41</td>
             <td>8</td>
             <td>2</td>
             <td>21</td>
             <td>32</td>
             <td>8</td>
-            <td>204</td>
+            <td>196</td>
             </tr>
 
             <tr>
@@ -896,7 +896,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ke/index.html" id="ke">Kenya</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ke/index.html" id="ke">Kenya</a></td>
             <td>3</td>
             <td>11</td>
             <td>1</td>
@@ -908,7 +908,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/la/index.html" id="la">Laos</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/la/index.html" id="la">Laos</a></td>
             <td>11</td>
             <td>2</td>
             <td>1</td>
@@ -932,7 +932,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/lb/index.html" id="lb">Lebanon</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/lb/index.html" id="lb">Lebanon</a></td>
             <td>6</td>
             <td>3</td>
             <td>1</td>
@@ -980,7 +980,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/lu/index.html" id="lu">Luxembourg</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/lu/index.html" id="lu">Luxembourg</a></td>
             <td>0</td>
             <td>2</td>
             <td>0</td>
@@ -1004,7 +1004,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/my/index.html" id="my">Malaysia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/my/index.html" id="my">Malaysia</a></td>
             <td>24</td>
             <td>5</td>
             <td>1</td>
@@ -1028,7 +1028,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/mt/index.html" id="mt">Malta</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/mt/index.html" id="mt">Malta</a></td>
             <td>4</td>
             <td>8</td>
             <td>1</td>
@@ -1040,7 +1040,7 @@
             </tr>
 
             <tr>
-            <td class='left'>Matrix</td>
+            <td class='left'><a data-ajax="false" href="../../../english/other/region/Matrix.html" id="Matrix">Matrix</a></td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -1076,7 +1076,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/mx/index.html" id="mx">México</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/mx/index.html" id="mx">México</a></td>
             <td>28</td>
             <td>24</td>
             <td>37</td>
@@ -1088,7 +1088,7 @@
             </tr>
 
             <tr>
-            <td class='left'>Middle-Earth</td>
+            <td class='left'><a data-ajax="false" href="../../../english/other/region/Middle-Earth.html" id="Middle-Earth">Middle-Earth</a></td>
             <td>0</td>
             <td>2</td>
             <td>0</td>
@@ -1124,7 +1124,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/me/index.html" id="me">Montenegro</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/me/index.html" id="me">Montenegro</a></td>
             <td>1</td>
             <td>9</td>
             <td>0</td>
@@ -1172,7 +1172,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/mm/index.html" id="mm">Myanmar</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/mm/index.html" id="mm">Myanmar</a></td>
             <td>17</td>
             <td>2</td>
             <td>3</td>
@@ -1196,7 +1196,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/np/index.html" id="np">Nepal</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/np/index.html" id="np">Nepal</a></td>
             <td>6</td>
             <td>0</td>
             <td>1</td>
@@ -1208,7 +1208,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/nl/index.html" id="nl">Netherlands</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/nl/index.html" id="nl">Netherlands</a></td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -1232,15 +1232,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/nz/index.html" id="nz">New Zealand</a></td>
-            <td>13</td>
+            <td class='left'><a data-ajax="false" href="../../../english/nz/index.html" id="nz">New Zealand</a></td>
+            <td>12</td>
             <td>23</td>
             <td>5</td>
             <td>2</td>
             <td>9</td>
             <td>6</td>
             <td>0</td>
-            <td>58</td>
+            <td>57</td>
             </tr>
 
             <tr>
@@ -1316,27 +1316,27 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/no/index.html" id="no">Norway</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/no/index.html" id="no">Norway</a></td>
             <td>1</td>
             <td>13</td>
             <td>0</td>
             <td>0</td>
-            <td>27</td>
+            <td>26</td>
             <td>4</td>
             <td>0</td>
-            <td>45</td>
+            <td>44</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/om/index.html" id="om">Oman</a></td>
-            <td>2</td>
+            <td class='left'><a data-ajax="false" href="../../../english/om/index.html" id="om">Oman</a></td>
+            <td>1</td>
             <td>8</td>
             <td>7</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>2</td>
-            <td>19</td>
+            <td>18</td>
             </tr>
 
             <tr>
@@ -1388,7 +1388,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/pe/index.html" id="pe">Perú</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/pe/index.html" id="pe">Perú</a></td>
             <td>0</td>
             <td>9</td>
             <td>0</td>
@@ -1400,7 +1400,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/pl/index.html" id="pl">Poland</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/pl/index.html" id="pl">Poland</a></td>
             <td>11</td>
             <td>9</td>
             <td>0</td>
@@ -1412,19 +1412,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/pt/index.html" id="pt">Portugal</a></td>
-            <td>14</td>
+            <td class='left'><a data-ajax="false" href="../../../english/pt/index.html" id="pt">Portugal</a></td>
+            <td>13</td>
             <td>11</td>
             <td>2</td>
             <td>1</td>
             <td>6</td>
             <td>8</td>
             <td>0</td>
-            <td>42</td>
+            <td>41</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/pr/index.html" id="pr">Puerto Rico</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/pr/index.html" id="pr">Puerto Rico</a></td>
             <td>3</td>
             <td>11</td>
             <td>2</td>
@@ -1436,19 +1436,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ro/index.html" id="ro">Romania</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ro/index.html" id="ro">Romania</a></td>
             <td>20</td>
-            <td>15</td>
+            <td>13</td>
             <td>4</td>
             <td>2</td>
             <td>9</td>
             <td>5</td>
             <td>3</td>
-            <td>58</td>
+            <td>56</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ru/index.html" id="ru">Russia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ru/index.html" id="ru">Russia</a></td>
             <td>16</td>
             <td>16</td>
             <td>0</td>
@@ -1508,7 +1508,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/rs/index.html" id="rs">Serbia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/rs/index.html" id="rs">Serbia</a></td>
             <td>13</td>
             <td>9</td>
             <td>4</td>
@@ -1520,7 +1520,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/sk/index.html" id="sk">Slovakia</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/sk/index.html" id="sk">Slovakia</a></td>
             <td>18</td>
             <td>2</td>
             <td>3</td>
@@ -1532,15 +1532,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/si/index.html" id="si">Slovenia</a></td>
-            <td>22</td>
+            <td class='left'><a data-ajax="false" href="../../../english/si/index.html" id="si">Slovenia</a></td>
+            <td>21</td>
             <td>9</td>
             <td>7</td>
             <td>10</td>
             <td>3</td>
             <td>7</td>
             <td>2</td>
-            <td>60</td>
+            <td>59</td>
             </tr>
 
             <tr>
@@ -1556,19 +1556,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/za/index.html" id="za">South Africa</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/za/index.html" id="za">South Africa</a></td>
             <td>9</td>
-            <td>5</td>
+            <td>4</td>
             <td>1</td>
             <td>0</td>
-            <td>10</td>
+            <td>6</td>
             <td>3</td>
             <td>5</td>
-            <td>33</td>
+            <td>28</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/kr/index.html" id="kr">South Korea</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/kr/index.html" id="kr">South Korea</a></td>
             <td>19</td>
             <td>4</td>
             <td>0</td>
@@ -1580,19 +1580,19 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/es/index.html" id="es">Spain</a></td>
-            <td>87</td>
-            <td>50</td>
+            <td class='left'><a data-ajax="false" href="../../../english/es/index.html" id="es">Spain</a></td>
+            <td>86</td>
+            <td>48</td>
             <td>15</td>
             <td>10</td>
-            <td>25</td>
+            <td>23</td>
             <td>75</td>
             <td>7</td>
-            <td>269</td>
+            <td>264</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/lk/index.html" id="lk">Sri Lanka</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/lk/index.html" id="lk">Sri Lanka</a></td>
             <td>1</td>
             <td>10</td>
             <td>0</td>
@@ -1604,27 +1604,27 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/se/index.html" id="se">Sweden</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/se/index.html" id="se">Sweden</a></td>
             <td>2</td>
             <td>23</td>
             <td>0</td>
             <td>0</td>
-            <td>48</td>
+            <td>47</td>
             <td>3</td>
             <td>2</td>
-            <td>78</td>
+            <td>77</td>
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ch/index.html" id="ch">Switzerland</a></td>
-            <td>10</td>
-            <td>18</td>
+            <td class='left'><a data-ajax="false" href="../../../english/ch/index.html" id="ch">Switzerland</a></td>
+            <td>9</td>
+            <td>17</td>
             <td>3</td>
             <td>2</td>
-            <td>21</td>
+            <td>20</td>
             <td>44</td>
             <td>30</td>
-            <td>128</td>
+            <td>125</td>
             </tr>
 
             <tr>
@@ -1652,7 +1652,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/tz/index.html" id="tz">Tanzania</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/tz/index.html" id="tz">Tanzania</a></td>
             <td>6</td>
             <td>5</td>
             <td>1</td>
@@ -1664,7 +1664,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/th/index.html" id="th">Thailand</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/th/index.html" id="th">Thailand</a></td>
             <td>39</td>
             <td>27</td>
             <td>10</td>
@@ -1676,7 +1676,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ph/index.html" id="ph">The Philippines</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ph/index.html" id="ph">The Philippines</a></td>
             <td>14</td>
             <td>33</td>
             <td>2</td>
@@ -1724,15 +1724,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/tr/index.html" id="tr">Turkey</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/tr/index.html" id="tr">Turkey</a></td>
             <td>33</td>
             <td>16</td>
             <td>2</td>
             <td>2</td>
             <td>2</td>
-            <td>64</td>
+            <td>63</td>
             <td>7</td>
-            <td>126</td>
+            <td>125</td>
             </tr>
 
             <tr>
@@ -1772,15 +1772,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ua/index.html" id="ua">Ukraine</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ua/index.html" id="ua">Ukraine</a></td>
             <td>2</td>
-            <td>4</td>
+            <td>3</td>
             <td>0</td>
             <td>0</td>
             <td>3</td>
             <td>11</td>
             <td>0</td>
-            <td>20</td>
+            <td>19</td>
             </tr>
 
             <tr>
@@ -1796,15 +1796,15 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/usa/index.html" id="usa">United States of America</a></td>
-            <td>174</td>
-            <td>147</td>
+            <td class='left'><a data-ajax="false" href="../../../english/usa/index.html" id="usa">United States of America</a></td>
+            <td>161</td>
+            <td>145</td>
             <td>33</td>
             <td>35</td>
-            <td>150</td>
-            <td>96</td>
+            <td>146</td>
+            <td>94</td>
             <td>22</td>
-            <td>657</td>
+            <td>636</td>
             </tr>
 
             <tr>
@@ -1844,7 +1844,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/ve/index.html" id="ve">Venezuela</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/ve/index.html" id="ve">Venezuela</a></td>
             <td>2</td>
             <td>9</td>
             <td>4</td>
@@ -1856,7 +1856,7 @@
             </tr>
 
             <tr class="chapter">
-            <td class='left'><a data-ajax="false" target="_top" href="../../../english/vn/index.html" id="vn">Vietnam</a></td>
+            <td class='left'><a data-ajax="false" href="../../../english/vn/index.html" id="vn">Vietnam</a></td>
             <td>23</td>
             <td>8</td>
             <td>1</td>
@@ -1904,43 +1904,44 @@
             </tr>
             </tbody><tfoot style="background-color: #FFFFFF">
             <tr>
-            <th class='left'>Länder</th>
-            <th><img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png">Schauhöhlen</th>
-            <th><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Höhlen</th>
-            <th><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karsterscheinungen</th>
-            <th><img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png">Karstquellen</th>
-            <th><img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png">Bergwerke</th>
-            <th><img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png">Künstliche Hohlräume</th>
-            <th><img alt="Gorge" class="symbol" src="../../../graphics/symbol/Gorge.png">Schuchten</th>
-            <th>Gesamt</th>
+            <th>Countries</th>
+            <th><img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png">Showcaves</th>
+            <th><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Caves</th>
+            <th><img alt="Karst" class="symbol" src="../../../graphics/symbol/Karst.png">Karst Features</th>
+            <th><img alt="Spring" class="symbol" src="../../../graphics/symbol/Spring.png">Springs</th>
+            <th><img alt="Mine" class="symbol" src="../../../graphics/symbol/Mine.png">Mines</th>
+            <th><img alt="Misc" class="symbol" src="../../../graphics/symbol/Misc.png">Subterranea</th>
+            <th><img alt="Gorge" class="symbol" src="../../../graphics/symbol/Gorge.png">Gorges</th>
+            <th>Entries Total</th>
             </tr>
             
             <tr>
-            <td class='left'>153 Länder</td>
-            <td>1534</td>
-            <td>1448</td>
+            <td class='left'>153 countries</td>
+            <td>1492</td>
+            <td>1428</td>
             <td>413</td>
             <td>192</td>
-            <td>1123</td>
-            <td>1517</td>
-            <td>259</td>
-            <td>6486</td>
+            <td>1086</td>
+            <td>1506</td>
+            <td>258</td>
+            <td>6375</td>
             </tr>
-            </tfoot>        </table>
+            </tfoot>
+        </table>
 
         <br class="clear">
 
         <p>
-            Diese Tabelle zeigt die Anzahl der aufgelisteten Sehenswürdigkeiten, gruppiert nach Ländern und Kategorien.
-            Die Zwischensummen pro Land und Kategorie werden ebenfalls angegeben.
-            Die Gesamtzahl der auf dieser Website aufgeführten Seiten ist unten rechts angegeben.
+            This table gives the numbers of listed sites, grouped by countries and category.
+            The subtotals per country and category are given too.
+            The total number of sites listed on this website is given at the bottom right.
         </p>
 
         <p class="indentedText">
-            Einige Länder haben nur wenige Einträge, so dass diese Länder in einer Sektion namens "Other Countries" verwaltet werden.
-            In dieser Tabelle haben sie einen hellgrauen Hintergrund.
-            Länder mit einer bestimmten Mindestanzahl von unterirdischen Stätten (ca. 10) erhalten einen eigenen Abschnitt oder ein eigenes Kapitel, das zusätzliche Seiten wie Länderhintergrund, Geologie und die Übersetzung wichtiger Höhlenbegriffe enthält.
-            In dieser Tabelle haben sie einen dunkelgrauen Hintergrund.
+            Some countries have only a few entries, so those countries are managed in a section called <i>Other Countries</i>.
+            In this table they have a <b>bright grey</b> background.
+            Countries with a certain amount of underground sites (about 10) get their own section or chapter, which includes additional pages like some country background, geology and the translation of important caving terms.
+            In this table they have a <b>dark grey</b> background.
         </p>
 
 
@@ -1950,8 +1951,8 @@
     <div data-role="header" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
-                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/Statistics.html"><img alt="English" src="../../../graphics/language/gb.png" class="language"></a></li>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../german/explain/Index/Statistics.html"><img alt="Deutsch - German" src="../../../graphics/language/de.png" class="language"></a></li>
             </ul>
         </div>
     </div>
@@ -1962,17 +1963,17 @@
         <div data-role="navbar">
             <ul>
                 <li><a target="_top" href="../../explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
-                <li><a target="_top" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Themen</a></li>
-                <li><a target="_top" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchisch</a></li>
-                <li><a target="_top" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Länder</a></li>
-                <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Karten</a></li>
+                <li><a target="_top" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Topics</a></li>
+                <li><a target="_top" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchical</a></li>
+                <li><a target="_top" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Countries</a></li>
+                <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Maps</a></li>
             </ul>
             <ul>
-                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Suche</a></li>
-                <li><a target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
-                <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
+                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Search</a></li>
+                <li><a target="_top" href="../../explain/index.html">General Information</a></li>
+                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
                 <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Änderungen und Kritik</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span></a></li>
             </ul>
         </div>
     </div>
