@@ -14,11 +14,3 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Fontana s Kornjačama', '/english/hr/karst/Kornjacama.html', 'Kornjacama', 'Europe', 'hr', 'Croatia', 'karst', 'SibenikKnin', 43.7340578, 15.8942236);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Krupajsko Vrelo', '/english/rs/springs/Krupaj.html', 'Krupaj', 'Europe', 'rs', 'Serbia', 'springs', 'EasternSerbia', 44.1839, 21.6089);
-UPDATE `sights`
-SET `Latitude`='49.3399528',
-    `Longitude`='6.5953629'
-WHERE `filename` = '/english/de/showcaves/Niedaltdorfer.html';
-UPDATE `sights`
-SET `Latitude`='11.1419531',
-    `Longitude`='106.4642814'
-WHERE `filename` = '/english/vn/subterranea/CuChi.html';
