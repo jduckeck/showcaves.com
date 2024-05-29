@@ -234,7 +234,6 @@
 	</Style>
 	<Folder>
 		<name>showcaves.com</name>
-		<open>1</open>
 		<Folder>
 			<name>ae</name>
 			<Placemark>
@@ -6665,7 +6664,7 @@
 				<name>Wallonie</name>
 				<Folder>
 					<name>Brabant Wallon</name>
-						<Placemark>
+					<Placemark>
 						<name>Grottes de Folx-Les-Caves</name>
 						<LookAt>
 							<longitude>4.94081576303639</longitude>
@@ -6887,7 +6886,7 @@
 				</Folder>
 				<Folder>
 					<name>Luxembourg</name>
-						<Placemark>
+					<Placemark>
 						<name>4MH – Musée Minier Métallurgique Musson – Halanzy</name>
 						<LookAt>
 							<longitude>5.70998343887157</longitude>
@@ -12844,7 +12843,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Gorges de la Poëta-Raisse</name>
-						<LookAt>
+					<LookAt>
 						<longitude>6.608230267046235</longitude>
 						<latitude>46.88724338536504</latitude>
 						<altitude>0</altitude>
@@ -19865,7 +19864,7 @@
 				</Placemark>
 				<Folder>
 					<name>Moravsky Kras</name>
-						<Placemark>
+					<Placemark>
 						<name>Císařská jeskyne</name>
 						<LookAt>
 							<longitude>16.76438300000003</longitude>
@@ -21538,6 +21537,56 @@
 				</Placemark>
 			</Folder>
 			<Folder>
+				<name>Alpenvorland</name>
+				<Placemark>
+					<name>Maria im Stein</name>
+					<LookAt>
+						<longitude>9.224170501075015</longitude>
+						<latitude>47.81933630020269</latitude>
+						<altitude>0</altitude>
+						<heading>7.965261873456673e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999856962829</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>9.224170501075015,47.81933630020269,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Marienschlucht</name>
+					<LookAt>
+						<longitude>9.09415168400594</longitude>
+						<latitude>47.76476269511614</latitude>
+						<altitude>0</altitude>
+						<heading>0.01463282283597089</heading>
+						<tilt>0</tilt>
+						<range>1235.584168783411</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>9.094708824231754,47.7650634690457,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Überlinger Stollen</name>
+					<LookAt>
+						<longitude>9.139171412692754</longitude>
+						<latitude>47.77195732158896</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01477106481028439</heading>
+						<tilt>0</tilt>
+						<range>798.3985178838738</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>9.138544342242511,47.77110132749117,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
 				<name>Bayern</name>
 				<Folder>
 					<name>Bayerischer Wald</name>
@@ -22220,7 +22269,7 @@
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>10.84190758423579,51.75421077201641,0</coordinates>
+						<coordinates>10.84190758423579,51.7542107720164,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -22421,6 +22470,355 @@
 						<coordinates>10.87342819588615,51.78729457948085,0</coordinates>
 					</Point>
 				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Hessisch-Niedersächsisches Bergland</name>
+				<Placemark>
+					<name>Siegfriedhöhle</name>
+					<LookAt>
+						<longitude>8.899860900731289</longitude>
+						<latitude>51.2311814005492</latitude>
+						<altitude>0</altitude>
+						<heading>5.701804231619756e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000089343031</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>8.899860900731289,51.2311814005492,0</coordinates>
+					</Point>
+				</Placemark>
+				<Folder>
+					<name>Der Ith und Umgebung</name>
+					<Placemark>
+						<name>Lippoldshöhle</name>
+						<LookAt>
+							<longitude>9.754619182555381</longitude>
+							<latitude>51.98364994706953</latitude>
+							<altitude>0</altitude>
+							<heading>0.120433523253738</heading>
+							<tilt>0</tilt>
+							<range>1458.94644092789</range>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>9.755840871476666,51.98337270387528,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Lügenstein</name>
+						<LookAt>
+							<longitude>9.754619182526703</longitude>
+							<latitude>51.98364994666152</latitude>
+							<altitude>0</altitude>
+							<heading>0.1204335232312991</heading>
+							<tilt>0</tilt>
+							<range>1458.946132511951</range>
+						</LookAt>
+						<styleUrl>#karst</styleUrl>
+						<Point>
+							<coordinates>9.757521435020672,51.98403947701544,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Wasserbaum von Ockensen</name>
+						<LookAt>
+							<longitude>9.59337248393623</longitude>
+							<latitude>52.02305375317627</latitude>
+							<altitude>0</altitude>
+							<heading>-0.006633747304994701</heading>
+							<tilt>0</tilt>
+							<range>478.7151299306776</range>
+						</LookAt>
+						<styleUrl>#karst</styleUrl>
+						<Point>
+							<coordinates>9.593105585064986,52.02311365488286,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Placemark>
+					<name>Erlebnis Bergwerk Merkers</name>
+					<LookAt>
+						<longitude>10.12385613318064</longitude>
+						<latitude>50.82289868110002</latitude>
+						<altitude>0</altitude>
+						<heading>0.003332253304795787</heading>
+						<tilt>0</tilt>
+						<range>685.6319579906808</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>10.12498206535711,50.82367879496186,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hessisches Braunkohle Bergbaumuseum Borken</name>
+					<LookAt>
+						<longitude>9.284299998252068</longitude>
+						<latitude>51.04519999980894</latitude>
+						<altitude>0</altitude>
+						<heading>-1.359229126451523e-09</heading>
+						<tilt>0</tilt>
+						<range>4388.887079675666</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>9.284271,51.04519899999999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hollenkammer</name>
+					<LookAt>
+						<longitude>9.11568003102933</longitude>
+						<latitude>51.3769571462547</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001067135651438523</heading>
+						<tilt>0</tilt>
+						<range>2392.240421533625</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>9.116702999999999,51.379251,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Teufelshöhle</name>
+					<LookAt>
+						<longitude>9.459276722587768</longitude>
+						<latitude>50.34178589950197</latitude>
+						<altitude>0</altitude>
+						<heading>-0.004068355203071248</heading>
+						<tilt>1.376025590403578e-10</tilt>
+						<range>433.609638478263</range>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<coordinates>9.459917411206947,50.34177694038406,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Werra-Kalibergbau-Museum Heringen</name>
+					<LookAt>
+						<longitude>10.00664600127302</longitude>
+						<latitude>50.8869548987553</latitude>
+						<altitude>0</altitude>
+						<heading>9.875558674850589e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000008493897</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>10.006635,50.886852,0</coordinates>
+					</Point>
+				</Placemark>
+				<Folder>
+					<name>Weserbergland</name>
+					<Placemark>
+						<name>Bergbaumuseum Ibbenbüren</name>
+						<LookAt>
+							<longitude>7.735218778110721</longitude>
+							<latitude>52.28734932965845</latitude>
+							<altitude>0</altitude>
+							<heading>0.002623962743011853</heading>
+							<tilt>0</tilt>
+							<range>1723.643431450459</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>7.74044247829731,52.28639042997293,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Besucherbergwerk Kleinenbremen</name>
+						<LookAt>
+							<longitude>9.039652328304896</longitude>
+							<latitude>52.22858351397017</latitude>
+							<altitude>0</altitude>
+							<heading>-0.001737168245427089</heading>
+							<tilt>0</tilt>
+							<range>702.142641941168</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>9.039881041671043,52.22919467183236,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Dunsthöhle</name>
+						<LookAt>
+							<longitude>9.260500869862877</longitude>
+							<latitude>51.98886441287647</latitude>
+							<altitude>0</altitude>
+							<heading>0.01040214670280897</heading>
+							<tilt>0</tilt>
+							<range>282.8011946918657</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>9.260675641496663,51.98883898036651,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Grube Feggendorfer Stolln</name>
+						<LookAt>
+							<longitude>9.407301433770414</longitude>
+							<latitude>52.29117018726591</latitude>
+							<altitude>0</altitude>
+							<heading>0.02697700769073062</heading>
+							<tilt>0</tilt>
+							<range>3554.931829090787</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>9.409701350060118,52.2915640906775,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Grube Gustav</name>
+						<LookAt>
+							<longitude>9.951637493970356</longitude>
+							<latitude>51.22298782825078</latitude>
+							<altitude>0</altitude>
+							<heading>0.01276751341180062</heading>
+							<tilt>0</tilt>
+							<range>869.4353084521899</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>9.951637,51.22298799999999,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Hüttenstollen Osterwald</name>
+						<LookAt>
+							<longitude>9.63091965290093</longitude>
+							<latitude>52.10245388753897</latitude>
+							<altitude>0</altitude>
+							<heading>0.004133472240115717</heading>
+							<tilt>1.502517777151448e-12</tilt>
+							<range>5795.278638910859</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>9.62595,52.11426666666667,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Kammerbacher Höhle</name>
+						<LookAt>
+							<longitude>9.898246466950503</longitude>
+							<latitude>51.27179957685496</latitude>
+							<altitude>0</altitude>
+							<heading>0.006441485388259277</heading>
+							<tilt>0</tilt>
+							<range>687.0059343569161</range>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<coordinates>9.898872838016239,51.27116260999914,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Klosterstollen Barsinghausen</name>
+						<LookAt>
+							<longitude>9.469240000414505</longitude>
+							<latitude>52.29941000031354</latitude>
+							<altitude>0</altitude>
+							<heading>3.280121945766732e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000517454543</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>9.469240000414505,52.29941000031354,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Museum Industriekultur Osnabrück</name>
+						<LookAt>
+							<longitude>8.008763342851651</longitude>
+							<latitude>52.31515836847385</latitude>
+							<altitude>0</altitude>
+							<heading>0.0002105711484264644</heading>
+							<tilt>0</tilt>
+							<range>1365.913139986629</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>8.00876334305525,52.31515836846746,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Schillathöhle</name>
+						<LookAt>
+							<longitude>9.288777191999628</longitude>
+							<latitude>52.20199167733039</latitude>
+							<altitude>0</altitude>
+							<heading>0.4813896625104066</heading>
+							<tilt>0</tilt>
+							<range>1434.181687196532</range>
+						</LookAt>
+						<styleUrl>#showcave</styleUrl>
+						<Point>
+							<coordinates>9.288006573648346,52.20456224763257,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Silberseestollen</name>
+						<LookAt>
+							<longitude>7.970924060796976</longitude>
+							<latitude>52.21788522114523</latitude>
+							<altitude>0</altitude>
+							<heading>2.056165785611204e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000018035043</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>7.970924000000001,52.217885,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Wolfsschlucht Porta Westfalica</name>
+						<LookAt>
+							<longitude>8.896017903462878</longitude>
+							<latitude>52.24454100029985</latitude>
+							<altitude>0</altitude>
+							<heading>2.740377840629022e-09</heading>
+							<tilt>0</tilt>
+							<range>1963.679338847008</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>8.896018,52.24454099999999,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Untertageverlagerung Dachs 1</name>
+						<LookAt>
+							<longitude>8.92212429904901</longitude>
+							<latitude>52.24485150081826</latitude>
+							<altitude>0</altitude>
+							<heading>-7.519626405650115e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000065184785</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>8.92212429904901,52.24485150081826,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 			</Folder>
 			<Folder>
 				<name>Norddeutschland</name>
@@ -23009,56 +23407,6 @@
 				</Placemark>
 			</Folder>
 			<Folder>
-				<name>Oberschwaben</name>
-				<Placemark>
-					<name>Maria im Stein</name>
-					<LookAt>
-						<longitude>9.224170501075015</longitude>
-						<latitude>47.81933630020269</latitude>
-						<altitude>0</altitude>
-						<heading>7.965261873456673e-10</heading>
-						<tilt>0</tilt>
-						<range>999.9999856962829</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>9.224170501075015,47.81933630020269,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Marienschlucht</name>
-					<LookAt>
-						<longitude>9.09415168400594</longitude>
-						<latitude>47.76476269511614</latitude>
-						<altitude>0</altitude>
-						<heading>0.01463282283597089</heading>
-						<tilt>0</tilt>
-						<range>1235.584168783411</range>
-					</LookAt>
-					<styleUrl>#gorge</styleUrl>
-					<Point>
-						<coordinates>9.094708824231754,47.7650634690457,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Überlinger Stollen</name>
-					<LookAt>
-						<longitude>9.139171412692754</longitude>
-						<latitude>47.77195732158896</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01477106481028439</heading>
-						<tilt>0</tilt>
-						<range>798.3985178838738</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>9.138544342242511,47.77110132749117,0</coordinates>
-					</Point>
-				</Placemark>
-			</Folder>
-			<Folder>
 				<name>Rheinisches Schiefergebirge</name>
 				<Folder>
 					<name>Hunsrück</name>
@@ -23262,7 +23610,7 @@
 				</Folder>
 				<Folder>
 					<name>Eifel</name>
-						<Placemark>
+					<Placemark>
 						<name>Atombunker der Bundesregierung</name>
 						<LookAt>
 							<longitude>7.060382859537669</longitude>
@@ -25117,7 +25465,7 @@
 				</Folder>
 				<Folder>
 					<name>0Erzgebirge</name>
-						<Placemark>
+					<Placemark>
 						<name>Abenteuer Bergwerk Bernsteinzimmer Deutschneudorf</name>
 						<LookAt>
 							<longitude>13.43903420000001</longitude>
@@ -28904,7 +29252,7 @@
 				</Folder>
 				<Folder>
 					<name>Thüringer Schiefergebirge</name>
-						<Placemark>
+					<Placemark>
 						<name>Alaunbergwerk Ewiges Leben Plauen</name>
 						<LookAt>
 							<longitude>12.1348346603527</longitude>
@@ -29077,7 +29425,7 @@
 				</Folder>
 				<Folder>
 					<name>Thüringer Wald</name>
-						<Placemark>
+					<Placemark>
 						<name>Altensteiner Höhle</name>
 						<LookAt>
 							<longitude>10.34627301302302</longitude>
@@ -29257,355 +29605,6 @@
 						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>10.79295555555556,50.60299444444444,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
-			</Folder>
-			<Folder>
-				<name>Hessisch-Niedersächsisches Bergland</name>
-				<Placemark>
-					<name>Siegfriedhöhle</name>
-					<LookAt>
-						<longitude>8.899860900731289</longitude>
-						<latitude>51.2311814005492</latitude>
-						<altitude>0</altitude>
-						<heading>5.701804231619756e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000089343031</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>8.899860900731289,51.2311814005492,0</coordinates>
-					</Point>
-				</Placemark>
-				<Folder>
-					<name>Der Ith und Umgebung</name>
-					<Placemark>
-						<name>Lippoldshöhle</name>
-						<LookAt>
-							<longitude>9.754619182555381</longitude>
-							<latitude>51.98364994706953</latitude>
-							<altitude>0</altitude>
-							<heading>0.120433523253738</heading>
-							<tilt>0</tilt>
-							<range>1458.94644092789</range>
-						</LookAt>
-						<styleUrl>#cave</styleUrl>
-						<Point>
-							<coordinates>9.755840871476666,51.98337270387528,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Lügenstein</name>
-						<LookAt>
-							<longitude>9.754619182526703</longitude>
-							<latitude>51.98364994666152</latitude>
-							<altitude>0</altitude>
-							<heading>0.1204335232312991</heading>
-							<tilt>0</tilt>
-							<range>1458.946132511951</range>
-						</LookAt>
-						<styleUrl>#karst</styleUrl>
-						<Point>
-							<coordinates>9.757521435020672,51.98403947701544,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Wasserbaum von Ockensen</name>
-						<LookAt>
-							<longitude>9.59337248393623</longitude>
-							<latitude>52.02305375317627</latitude>
-							<altitude>0</altitude>
-							<heading>-0.006633747304994701</heading>
-							<tilt>0</tilt>
-							<range>478.7151299306776</range>
-						</LookAt>
-						<styleUrl>#karst</styleUrl>
-						<Point>
-							<coordinates>9.593105585064986,52.02311365488286,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
-				<Placemark>
-					<name>Erlebnis Bergwerk Merkers</name>
-					<LookAt>
-						<longitude>10.12385613318064</longitude>
-						<latitude>50.82289868110002</latitude>
-						<altitude>0</altitude>
-						<heading>0.003332253304795787</heading>
-						<tilt>0</tilt>
-						<range>685.6319579906808</range>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>10.12498206535711,50.82367879496186,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Hessisches Braunkohle Bergbaumuseum Borken</name>
-					<LookAt>
-						<longitude>9.284299998252068</longitude>
-						<latitude>51.04519999980894</latitude>
-						<altitude>0</altitude>
-						<heading>-1.359229126451523e-09</heading>
-						<tilt>0</tilt>
-						<range>4388.887079675666</range>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>9.284271,51.04519899999999,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Hollenkammer</name>
-					<LookAt>
-						<longitude>9.11568003102933</longitude>
-						<latitude>51.3769571462547</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0001067135651438523</heading>
-						<tilt>0</tilt>
-						<range>2392.240421533625</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>9.116702999999999,51.379251,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Teufelshöhle</name>
-					<LookAt>
-						<longitude>9.459276722587768</longitude>
-						<latitude>50.34178589950197</latitude>
-						<altitude>0</altitude>
-						<heading>-0.004068355203071248</heading>
-						<tilt>1.376025590403578e-10</tilt>
-						<range>433.609638478263</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>9.459917411206947,50.34177694038406,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Werra-Kalibergbau-Museum Heringen</name>
-					<LookAt>
-						<longitude>10.00664600127302</longitude>
-						<latitude>50.8869548987553</latitude>
-						<altitude>0</altitude>
-						<heading>9.875558674850589e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000008493897</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>10.006635,50.886852,0</coordinates>
-					</Point>
-				</Placemark>
-				<Folder>
-					<name>Weserbergland</name>
-					<Placemark>
-						<name>Bergbaumuseum Ibbenbüren</name>
-						<LookAt>
-							<longitude>7.735218778110721</longitude>
-							<latitude>52.28734932965845</latitude>
-							<altitude>0</altitude>
-							<heading>0.002623962743011853</heading>
-							<tilt>0</tilt>
-							<range>1723.643431450459</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>7.74044247829731,52.28639042997293,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Besucherbergwerk Kleinenbremen</name>
-						<LookAt>
-							<longitude>9.039652328304896</longitude>
-							<latitude>52.22858351397017</latitude>
-							<altitude>0</altitude>
-							<heading>-0.001737168245427089</heading>
-							<tilt>0</tilt>
-							<range>702.142641941168</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>9.039881041671043,52.22919467183236,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Dunsthöhle</name>
-						<LookAt>
-							<longitude>9.260500869862877</longitude>
-							<latitude>51.98886441287647</latitude>
-							<altitude>0</altitude>
-							<heading>0.01040214670280897</heading>
-							<tilt>0</tilt>
-							<range>282.8011946918657</range>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<coordinates>9.260675641496663,51.98883898036651,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Grube Feggendorfer Stolln</name>
-						<LookAt>
-							<longitude>9.407301433770414</longitude>
-							<latitude>52.29117018726591</latitude>
-							<altitude>0</altitude>
-							<heading>0.02697700769073062</heading>
-							<tilt>0</tilt>
-							<range>3554.931829090787</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>9.409701350060118,52.2915640906775,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Grube Gustav</name>
-						<LookAt>
-							<longitude>9.951637493970356</longitude>
-							<latitude>51.22298782825078</latitude>
-							<altitude>0</altitude>
-							<heading>0.01276751341180062</heading>
-							<tilt>0</tilt>
-							<range>869.4353084521899</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>9.951637,51.22298799999999,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Hüttenstollen Osterwald</name>
-						<LookAt>
-							<longitude>9.63091965290093</longitude>
-							<latitude>52.10245388753897</latitude>
-							<altitude>0</altitude>
-							<heading>0.004133472240115717</heading>
-							<tilt>1.502517777151448e-12</tilt>
-							<range>5795.278638910859</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>9.62595,52.11426666666667,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Kammerbacher Höhle</name>
-						<LookAt>
-							<longitude>9.898246466950503</longitude>
-							<latitude>51.27179957685496</latitude>
-							<altitude>0</altitude>
-							<heading>0.006441485388259277</heading>
-							<tilt>0</tilt>
-							<range>687.0059343569161</range>
-						</LookAt>
-						<styleUrl>#cave</styleUrl>
-						<Point>
-							<coordinates>9.898872838016239,51.27116260999914,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Klosterstollen Barsinghausen</name>
-						<LookAt>
-							<longitude>9.469240000414505</longitude>
-							<latitude>52.29941000031354</latitude>
-							<altitude>0</altitude>
-							<heading>3.280121945766732e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000517454543</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>9.469240000414505,52.29941000031354,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Museum Industriekultur Osnabrück</name>
-						<LookAt>
-							<longitude>8.008763342851651</longitude>
-							<latitude>52.31515836847385</latitude>
-							<altitude>0</altitude>
-							<heading>0.0002105711484264644</heading>
-							<tilt>0</tilt>
-							<range>1365.913139986629</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>8.00876334305525,52.31515836846746,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Schillathöhle</name>
-						<LookAt>
-							<longitude>9.288777191999628</longitude>
-							<latitude>52.20199167733039</latitude>
-							<altitude>0</altitude>
-							<heading>0.4813896625104066</heading>
-							<tilt>0</tilt>
-							<range>1434.181687196532</range>
-						</LookAt>
-						<styleUrl>#showcave</styleUrl>
-						<Point>
-							<coordinates>9.288006573648346,52.20456224763257,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Silberseestollen</name>
-						<LookAt>
-							<longitude>7.970924060796976</longitude>
-							<latitude>52.21788522114523</latitude>
-							<altitude>0</altitude>
-							<heading>2.056165785611204e-09</heading>
-							<tilt>0</tilt>
-							<range>1000.000018035043</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>7.970924000000001,52.217885,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Wolfsschlucht Porta Westfalica</name>
-						<LookAt>
-							<longitude>8.896017903462878</longitude>
-							<latitude>52.24454100029985</latitude>
-							<altitude>0</altitude>
-							<heading>2.740377840629022e-09</heading>
-							<tilt>0</tilt>
-							<range>1963.679338847008</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>8.896018,52.24454099999999,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Untertageverlagerung Dachs 1</name>
-						<LookAt>
-							<longitude>8.92212429904901</longitude>
-							<latitude>52.24485150081826</latitude>
-							<altitude>0</altitude>
-							<heading>-7.519626405650115e-10</heading>
-							<tilt>0</tilt>
-							<range>1000.000065184785</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>8.92212429904901,52.24485150081826,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -31922,7 +31921,7 @@
 				</Folder>
 				<Folder>
 					<name>Mallorca</name>
-						<Placemark>
+					<Placemark>
 						<name>Cementiri de Palma</name>
 						<LookAt>
 							<longitude>2.639180469521789</longitude>
@@ -35923,7 +35922,7 @@
 					</Placemark>
 					<Placemark>
 						<name>Musée des Mines d&apos;Argent à Pontgibaud</name>
-								<LookAt>
+						<LookAt>
 							<longitude>2.854428999371479</longitude>
 							<latitude>45.83443509967758</latitude>
 							<altitude>0</altitude>
@@ -37961,7 +37960,7 @@
 				<name>Grand Est</name>
 				<Folder>
 					<name>Alsace</name>
-						<Placemark>
+					<Placemark>
 						<name>Brotschgrotte</name>
 						<LookAt>
 							<longitude>7.325729007768618</longitude>
@@ -38743,7 +38742,7 @@
 				</Folder>
 				<Folder>
 					<name>Lorraine</name>
-						<Placemark>
+					<Placemark>
 						<name>Carrière Souterraine de Rinval</name>
 						<LookAt>
 							<longitude>5.147932865372196</longitude>
@@ -39702,7 +39701,7 @@
 				<name>Nouvelle-Aquitaine</name>
 				<Folder>
 					<name>Aquitaine</name>
-						<Placemark>
+					<Placemark>
 						<name>Caves de Rauzan</name>
 						<LookAt>
 							<longitude>-0.1163672999194099</longitude>
@@ -53767,7 +53766,7 @@
 				</Folder>
 				<Folder>
 					<name>Bükki Nemzeti Park</name>
-						<Placemark>
+					<Placemark>
 						<name>Anna Barlang</name>
 						<LookAt>
 							<longitude>20.62392094783838</longitude>
@@ -75885,7 +75884,7 @@
 				</Folder>
 				<Folder>
 					<name>Pahang</name>
-						<Placemark>
+					<Placemark>
 						<name>Gua Charah</name>
 						<LookAt>
 							<longitude>103.1465053864576</longitude>
@@ -75950,7 +75949,7 @@
 				</Folder>
 				<Folder>
 					<name>Perak</name>
-						<Placemark>
+					<Placemark>
 						<name>Banjaran Hotsprings Retreat</name>
 						<LookAt>
 							<longitude>101.1601057024072</longitude>
@@ -86588,7 +86587,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Grottan Johannes Kammare</name>
-						<LookAt>
+					<LookAt>
 						<longitude>14.69906699855705</longitude>
 						<latitude>58.7800299986617</latitude>
 						<altitude>0</altitude>
@@ -87218,7 +87217,7 @@
 				</Placemark>
 				<Folder>
 					<name>Postojna</name>
-						<Placemark>
+					<Placemark>
 						<name>Expo jama kras - EXPO Cave Karst</name>
 						<LookAt>
 							<longitude>14.20801707432273</longitude>
@@ -91102,7 +91101,7 @@
 						<range>1000.000066183278</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-                    <styleUrl>#subterranea</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>34.912595,40.754317,0</coordinates>
@@ -91179,7 +91178,7 @@
 						<range>999.9999717985371</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-                    <styleUrl>#subterranea</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>35.83042,40.6536,0</coordinates>
@@ -91297,9 +91296,9 @@
 				<name>Central Anatolia Region</name>
 				<Folder>
 					<name>Cappadocia</name>
-						<Folder>
+					<Folder>
 						<name>Underground Cities</name>
-								<Placemark>
+						<Placemark>
 							<name>Ağırnas Yeraltı Şehri</name>
 							<LookAt>
 								<longitude>35.71639999829611</longitude>
@@ -91504,7 +91503,7 @@
 					</Folder>
 					<Folder>
 						<name>Tourist Sites</name>
-								<Placemark>
+						<Placemark>
 							<name>Göreme Open-Air Museum</name>
 							<LookAt>
 								<longitude>34.84462387644643</longitude>
@@ -91554,7 +91553,7 @@
 					</Folder>
 					<Folder>
 						<name>Cave Hotels</name>
-								<Placemark>
+						<Placemark>
 							<name>Akköy Evleri</name>
 							<LookAt>
 								<longitude>35.04944755741367</longitude>
@@ -99371,7 +99370,7 @@
 				</Placemark>
 				<Folder>
 					<name>El Malpais</name>
-						<Placemark>
+					<Placemark>
 						<name>Big Skylight Cave</name>
 						<LookAt>
 							<longitude>-108.1128018375263</longitude>
@@ -100094,7 +100093,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Ramble Cave</name>
-						<LookAt>
+					<LookAt>
 						<longitude>-73.9694999971147</longitude>
 						<latitude>40.77739999937447</latitude>
 						<altitude>0</altitude>
