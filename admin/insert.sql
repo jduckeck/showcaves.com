@@ -22,3 +22,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Đồng Tiền', '/english/vn/showcaves/Tien.html', 'Tien', 'Asia', 'vn', 'Vietnam', 'showcaves', 'NinhBinh', 20.2151685, 105.9212502);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hang Thiên Hương', '/english/vn/caves/ThienHuong.html', 'ThienHuong', 'Asia', 'vn', 'Vietnam', 'caves', 'NinhBinh', 20.2236497, 105.9314843);
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='Africa'
+WHERE countrycode = 'ma';
+UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/ma/')
+WHERE countrycode = 'ma';
