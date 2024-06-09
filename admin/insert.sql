@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Casa Rupestre Zovencedo', '/english/it/subterranea/Zovencedo.html', 'Zovencedo', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.4281193, 11.4968527);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cavea Arcari', '/english/it/subterranea/CaveaArcari.html', 'CaveaArcari', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.4446120, 11.5062997);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Động Mã Tiên', '/english/vn/caves/MaTien.html', 'MaTien', 'Asia', 'vn', 'Vietnam', 'caves', 'NinhBinh', 20.071730556414884, 105.96537974630446);
