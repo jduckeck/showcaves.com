@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Động Kim Quy', '/english/vn/showcaves/KimQuy.html', 'KimQuy', 'Asia', 'vn', 'Vietnam', 'showcaves', 'QuangNinh', 20.84671, 107.0783);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hang Đức Mẹ', '/english/vn/caves/DucMe.html', 'DucMe', 'Asia', 'vn', 'Vietnam', 'caves', 'BaRiaVungTau', 8.7041393, 106.5976157);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maison Owl', '/english/jp/subterranea/MaisonOwl.html', 'MaisonOwl', 'Asia', 'jp', 'Japan', 'subterranea', 'Yamaguchi', 33.969933, 131.253603);
