@@ -10,3 +10,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hang Đức Mẹ', '/english/vn/caves/DucMe.html', 'DucMe', 'Asia', 'vn', 'Vietnam', 'caves', 'BaRiaVungTau', 8.7041393, 106.5976157);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Maison Owl', '/english/jp/subterranea/MaisonOwl.html', 'MaisonOwl', 'Asia', 'jp', 'Japan', 'subterranea', 'Yamaguchi', 33.969933, 131.253603);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Casa Rupestre Zovencedo', '/english/it/subterranea/Zovencedo.html', 'Zovencedo', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.4281193, 11.4968527);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cavea Arcari', '/english/it/subterranea/CaveaArcari.html', 'CaveaArcari', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.4446120, 11.5062997);
