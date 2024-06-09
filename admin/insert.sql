@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hang Hồ Động Tiên', '/english/vn/caves/HoDongTien.html', 'HoDongTien', 'Asia', 'vn', 'Vietnam', 'caves', 'QuangNinh', 20.845415, 107.100866);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo Cava Acque', '/english/it/subterranea/CavaAcque.html', 'CavaAcque', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.42322, 11.47065);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuoléto de Nadale', '/english/it/caves/Nadale.html', 'Nadale', 'Europe', 'it', 'Italy', 'caves', 'Veneto', 45.4212409, 11.4895858);
