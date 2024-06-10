@@ -22,3 +22,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museo Cava Acque', '/english/it/subterranea/CavaAcque.html', 'CavaAcque', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.42322, 11.47065);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cuoléto de Nadale', '/english/it/caves/Nadale.html', 'Nadale', 'Europe', 'it', 'Italy', 'caves', 'Veneto', 45.4212409, 11.4895858);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chiesa Rupestre di San Nicolò Inferiore', '/english/it/subterranea/SanNicoloInferiore.html', 'SanNicoloInferiore', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.860175, 14.760963);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cavallo d´Ispica', '/english/it/subterranea/CavalloDIspica.html', 'CavalloDIspica', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.85338, 14.83699);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chiesa Rupestre di S. Nicola', '/english/it/subterranea/SanNichola.html', 'SanNichola', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.8506571, 14.8363453);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Parco archeologico di Cava d´Ispica', '/english/it/subterranea/CavaDIspica.html', 'CavaDIspica', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.85015, 14.83794);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Big Thunder Gold Mine', '/english/usa/mines/BigThunder.html', 'BigThunder', 'NorthAmerica', 'us', 'United States of America', 'mines', 'sd', 43.895041, -103.417232);
