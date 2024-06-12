@@ -5,11 +5,11 @@
 	<StyleMap id="showcave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#showcave</styleUrl>
+			<styleUrl>#sn_showcave</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#showcave</styleUrl>
+			<styleUrl>#sh_showcave</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_showcave">
@@ -34,11 +34,11 @@
 	<StyleMap id="cave">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#cave</styleUrl>
+			<styleUrl>#sn_cave</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#cave</styleUrl>
+			<styleUrl>#sh_cave</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_cave">
@@ -63,11 +63,11 @@
 	<StyleMap id="subterranea">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#sn_subterranea</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#subterranea</styleUrl>
+			<styleUrl>#sh_subterranea</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_subterranea">
@@ -92,11 +92,11 @@
 	<StyleMap id="mine">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#mine</styleUrl>
+			<styleUrl>#sn_mine</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#mine</styleUrl>
+			<styleUrl>#sh_mine</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_mine">
@@ -121,11 +121,11 @@
 	<StyleMap id="karst">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#karst</styleUrl>
+			<styleUrl>#sn_karst</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#karst</styleUrl>
+			<styleUrl>#sh_karst</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_karst">
@@ -150,11 +150,11 @@
 	<StyleMap id="spring">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#spring</styleUrl>
+			<styleUrl>#sn_spring</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#spring</styleUrl>
+			<styleUrl>#sh_spring</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_spring">
@@ -176,11 +176,11 @@
 	<StyleMap id="gorge">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#gorge</styleUrl>
+			<styleUrl>#sn_gorge</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#gorge</styleUrl>
+			<styleUrl>#sh_gorge</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_gorge">
