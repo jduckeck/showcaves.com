@@ -65,6 +65,12 @@ Gallery to Figure
             <a data-lightbox="page" data-title='$3' href="../../../$1/Big/$2.jpg"><img alt="photography" src="../../../$1/$2.jpg"></a>
             <figcaption>$3</figcaption>
         </figure>
+
+        <figure class="gallery">
+            <a data-lightbox="page" data-title="$3" href="../../../$1/Big/$2.jpg"><img alt="" src="../../../$1/$2.jpg"></a>
+            <figcaption>$3</figcaption>
+        </figure>
+
 or
 <a data-lightbox="gallery" data-title='(.*)' href="../../../(.*)/Big/(.*).jpg"></a>
 <figure class="right">
