@@ -614,12 +614,14 @@ figure.left {
 }
 
 figure.gallery {
-    width: 100%;
+    width: 250px;
+    vertical-align: top;
     display: inline-block;
     margin: 0 0.5em 0.5em 0.5em;
 }
 
 figure.center {
+    clear: both;
     float: none;
     margin: 1em auto;
     width: 100%;
