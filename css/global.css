@@ -620,7 +620,6 @@ figure.gallery {
 }
 
 figure.center {
-    clear: both;
     float: none;
     margin: 1em auto;
     width: 100%;
