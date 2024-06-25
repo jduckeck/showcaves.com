@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Chelter-Koba', '/english/ru/subterranea/ChelterKoba.html', 'ChelterKoba', 'Asia', 'ru', 'Russia', 'subterranea', 'Crimea', 44.6310160, 33.8311028);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kiik-Koba', '/english/ru/caves/KiikKoba.html', 'KiikKoba', 'Asia', 'ru', 'Russia', 'caves', 'Crimea', 44.95, 34.35);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Parco Archaeologico Forza', '/english/it/subterranea/Forza.html', 'Forza', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia',);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Castello Sicano', '/english/it/subterranea/CastelloSicano.html', 'CastelloSicano', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.8343617, 14.8436534);
