@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Parco Archaeologico Forza', '/english/it/subterranea/Forza.html', 'Forza', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia',);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Castello Sicano', '/english/it/subterranea/CastelloSicano.html', 'CastelloSicano', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.8343617, 14.8436534);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ddieri di Baulì', '/english/it/subterranea/Bauli.html', 'Bauli', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.0283168, 14.9465920);
