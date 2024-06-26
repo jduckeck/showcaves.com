@@ -12,3 +12,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Castello Sicano', '/english/it/subterranea/CastelloSicano.html', 'CastelloSicano', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.8343617, 14.8436534);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ddieri di Baulì', '/english/it/subterranea/Bauli.html', 'Bauli', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.0283168, 14.9465920);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Spittal Pond Nature Reserve', '/english/bm/karst/SpittalPond.html', 'SpittalPond', 'NorthAmerica', 'bm', 'Bermuda', 'karst', 'Smiths', 32.3128430, -64.7277623);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacombe di San Giovanni', '/english/it/subterranea/SanGiovanni.html', 'SanGiovanni', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.0767995, 15.2848558);
+UPDATE `sights`
+SET `Latitude`='37.5186936',
+    `Longitude`='13.1140760'
+WHERE `filename` = '/english/it/caves/Sciacca.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'L’Eremo di S. Corrado Fuori le Mura', '/english/it/subterranea/SanCorradoFuoriLeMura.html', 'SanCorradoFuoriLeMura', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.9286079, 15.0596557);
