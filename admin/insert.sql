@@ -22,3 +22,5 @@ SET `Latitude`='37.5186936',
 WHERE `filename` = '/english/it/caves/Sciacca.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'L’Eremo di S. Corrado Fuori le Mura', '/english/it/subterranea/SanCorradoFuoriLeMura.html', 'SanCorradoFuoriLeMura', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.9286079, 15.0596557);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacomba di Santa Lucia', '/english/it/subterranea/SantaLucia.html', 'SantaLucia', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.07305433607064, 15.29139874859614);
