@@ -34,3 +34,5 @@ UPDATE `sights`
 SET `Latitude`='-12.3320551',
     `Longitude`='-41.5967163'
 WHERE `filename` = '/english/br/caves/Fumaca.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave Spring Hollow', '/english/usa/springs/CaveSpringHollow.html', 'CaveSpringHollow', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'tn', 35.283681472865375, -86.36612767108277);
