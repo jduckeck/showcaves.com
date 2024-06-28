@@ -30,3 +30,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museo della Miniera Trabia Tallarita', '/english/it/mines/TrabiaTallarita.html', 'TrabiaTallarita', 'Europe', 'it', 'Italy', 'mines', 'Sicilia', 37.29917, 14.03559);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gruta da Igrejinha', '/english/br/caves/Igrejinha.html', 'Igrejinha', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -11.07417, -41.39935);
+UPDATE `sights`
+SET `Latitude`='-12.3320551',
+    `Longitude`='-41.5967163'
+WHERE `filename` = '/english/br/caves/Fumaca.html';
