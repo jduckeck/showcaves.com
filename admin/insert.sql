@@ -36,3 +36,5 @@ SET `Latitude`='-12.3320551',
 WHERE `filename` = '/english/br/caves/Fumaca.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cave Spring Hollow', '/english/usa/springs/CaveSpringHollow.html', 'CaveSpringHollow', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'tn', 35.283681472865375, -86.36612767108277);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bodegas Carlos San Pedro Perez de Viñaspre', '/english/es/subterranea/SanPedro.html', 'SanPedro', 'Europe', 'es', 'Spain', 'subterranea', 'PaisVasco', 42.5539, -2.58577);
