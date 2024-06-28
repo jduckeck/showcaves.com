@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Antiche Grotte del Caricatore', '/english/it/subterranea/Caricatore.html', 'Caricatore', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.50505, 13.08204);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museo della Miniera Trabia Tallarita', '/english/it/mines/TrabiaTallarita.html', 'TrabiaTallarita', 'Europe', 'it', 'Italy', 'mines', 'Sicilia', 37.29917, 14.03559);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta da Igrejinha', '/english/br/caves/Igrejinha.html', 'Igrejinha', 'SouthAmerica', 'br', 'Brazil', 'caves', 'Bahia', -11.07417, -41.39935);
