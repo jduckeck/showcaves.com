@@ -42,3 +42,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Tham Bin Cave', '/english/th/showcaves/KhaoBin.html', 'KhaoBin', 'Asia', 'th', 'Thailand', 'showcaves', 'Ratchaburi', 13.5923603, 99.6668312);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tham Ruesi Khao Ngu', '/english/th/caves/RuesiKhaoNgu.html', 'RuesiKhaoNgu', 'Asia', 'th', 'Thailand', 'caves', 'Ratchaburi', 13.574925033972105, 99.77728004503825);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Caverna de Umajalanta', '/english/other/caves/Umajalanta.html', 'Umajalanta', 'SouthAmerica', 'bo', 'Bolivia', 'caves', 'bo', 'other', -18.1143342, -65.8115243);
