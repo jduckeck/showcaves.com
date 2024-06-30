@@ -50,3 +50,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotta della Sibilla di Marsala', '/english/it/subterranea/SibillaMarsala.html', 'SibillaMarsala', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.80066, 12.42809);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ipogeo di Piazza Duomo', '/english/it/subterranea/PiazzaDuomo.html', 'PiazzaDuomo', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.0588546, 15.2933395);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo Arte Contemporanea Sotto Sale', '/english/it/mines/SottoSale.html', 'SottoSale', 'Europe', 'it', 'Italy', 'mines', 'Sicilia', 37.7945, 14.13777);
