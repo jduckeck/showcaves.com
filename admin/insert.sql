@@ -46,3 +46,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Caverna de Umajalanta', '/english/other/caves/Umajalanta.html', 'Umajalanta', 'SouthAmerica', 'bo', 'Bolivia', 'caves', 'bo', 'other', -18.1143342, -65.8115243);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta delle Trabacche', '/english/it/subterranea/Trabacche.html', 'Trabacche', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 36.9108346, 14.6471561);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta della Sibilla di Marsala', '/english/it/subterranea/SibillaMarsala.html', 'SibillaMarsala', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.80066, 12.42809);
