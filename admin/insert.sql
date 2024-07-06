@@ -10,3 +10,5 @@ UPDATE `sights`
 SET `Latitude`='-35.4089088',
     `Longitude`='174.0834879'
 WHERE `filename` = '/english/nz/showcaves/Kawiti.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta Naturale Amenano', '/english/it/caves/Amenano.html', 'Amenano', 'Europe', 'it', 'Italy', 'caves', 'Sicilia', 37.500997, 15.086127);
