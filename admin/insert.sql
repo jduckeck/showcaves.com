@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Chiesa di San Gaetano alle Grotte', '/english/it/subterranea/SanGaetano.html', 'SanGaetano', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.50873055555556, 15.088269444444444);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Anniversary Narrows', '/english/usa/gorges/AnniversaryNarrows.html', 'AnniversaryNarrows', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'nv', 36.2205, -114.7031);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ramsgate Tunnels', '/english/gb/subterranea/Ramsgate.html', 'Ramsgate', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Kent', 51.334472, 1.426544);
