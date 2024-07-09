@@ -18,3 +18,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Anniversary Narrows', '/english/usa/gorges/AnniversaryNarrows.html', 'AnniversaryNarrows', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'nv', 36.2205, -114.7031);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ramsgate Tunnels', '/english/gb/subterranea/Ramsgate.html', 'Ramsgate', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Kent', 51.334472, 1.426544);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'World War II Tunnels', '/english/gb/subterranea/WorldWarIITunnels.html', 'WorldWarIITunnels', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Gibraltar', 36.1443476, -5.3490107);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Great Siege Tunnels', '/english/gb/subterranea/GreatSiegeTunnels.html', 'GreatSiegeTunnels', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Gibraltar', 36.1451945, -5.3451451);
