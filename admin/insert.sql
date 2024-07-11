@@ -26,3 +26,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Rača Špilja', '/english/hr/caves/Raca.html', 'Raca', 'Europe', 'hr', 'Croatia', 'caves', 'DubrovnikNeretva', 42.7347345, 16.9107887);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Stradetska Pestera', '/english/ua/subterranea/Stradch.html', 'Stradch', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Lviv', 49.8980805, 23.7554039);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Yeletskyi Monastery', '/english/ua/subterranea/Yeletskyi.html', 'Yeletskyi', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Chernihiv', 51.48534, 31.29541);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Antoniyevi Pechery', '/english/ua/subterranea/Anthony.html', 'Anthony', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Chernihiv', 51.4776979, 31.2842998);
