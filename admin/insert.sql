@@ -34,3 +34,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Parco Villa Gregoriana', '/english/it/karst/ParcoVillaGregoriana.html', 'ParcoVillaGregoriana', 'Europe', 'it', 'Italy', 'karst', 'Roma', 41.9655246, 12.8019681);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Fonte Ciane', '/english/it/springs/Ciane.html', 'Ciane', 'Europe', 'it', 'Italy', 'springs', 'Sicilia', 37.04225, 15.23525);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chiesa di San Filippo Apostolo', '/english/it/subterranea/SanFilippoApostolo.html', 'SanFilippoApostolo', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.06022, 15.29669);
