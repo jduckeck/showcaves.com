@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yeletskyi Monastery', '/english/ua/subterranea/Yeletskyi.html', 'Yeletskyi', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Chernihiv', 51.48534, 31.29541);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Antoniyevi Pechery', '/english/ua/subterranea/Anthony.html', 'Anthony', 'Europe', 'ua', 'Ukraine', 'subterranea', 'Chernihiv', 51.4776979, 31.2842998);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Parco Villa Gregoriana', '/english/it/karst/ParcoVillaGregoriana.html', 'ParcoVillaGregoriana', 'Europe', 'it', 'Italy', 'karst', 'Roma', 41.9655246, 12.8019681);
