@@ -16,3 +16,7 @@ UPDATE `sights`
 SET `Latitude`='43.4606631',
     `Longitude`='-5.0676633'
 WHERE `filename` = '/english/es/showcaves/TitoBustillo.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Old City Hall Station', '/english/usa/subterranea/OldCityHallStation.html', 'OldCityHallStation', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny', 40.712628, -74.006821);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'New York Transit Museum', '/english/usa/subterranea/TransitMuseum.html', 'TransitMuseum', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny', 40.6905176, -73.9899802);
