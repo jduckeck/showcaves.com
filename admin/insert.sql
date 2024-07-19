@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Old City Hall Station', '/english/usa/subterranea/OldCityHallStation.html', 'OldCityHallStation', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny', 40.712628, -74.006821);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'New York Transit Museum', '/english/usa/subterranea/TransitMuseum.html', 'TransitMuseum', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ny', 40.6905176, -73.9899802);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pozzo di Gammazita', '/english/it/springs/Gammazita.html', 'Gammazita', 'Europe', 'it', 'Italy', 'springs', 'Sicilia', 37.500350, 15.085747);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sorgente del Gabriele', '/english/it/springs/Gabriele.html', 'Gabriele', 'Europe', 'it', 'Italy', 'springs', 'Sicilia', 38.10346, 13.31132);
