@@ -24,3 +24,29 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pozzo di Gammazita', '/english/it/springs/Gammazita.html', 'Gammazita', 'Europe', 'it', 'Italy', 'springs', 'Sicilia', 37.500350, 15.085747);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Sorgente del Gabriele', '/english/it/springs/Gabriele.html', 'Gabriele', 'Europe', 'it', 'Italy', 'springs', 'Sicilia', 38.10346, 13.31132);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Ujkut', '/english/other/caves/Ujkut.html', 'Ujkut', 'Europe', 'al', 'Albania', 'caves', 'al', 'other', 40.6720339, 20.9866578);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Haxhi Aliut', '/english/other/caves/HaxhiAli.html', 'HaxhiAli', 'Europe', 'al', 'Albania', 'caves', 'al', 'other', 40.4299661, 19.3067236);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Valit', '/english/other/caves/ValitLezhe.html', 'Valit', '$continent$', 'al', 'Albania', 'caves', 'al', 'other', 41.7174710, 20.0045310);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Valit', '/english/other/karst/ValitTirana.html', 'ValitTirana', 'Europe', 'al', 'Albania', 'karst', 'al', 'other', 41.3470245, 20.1613601);
+UPDATE `sights`
+SET `Latitude`='39.6752602',
+    `Longitude`='20.1774259'
+WHERE `filename` = '/english/al/caves/Konispol.html';
+UPDATE sights
+SET chapter=NULL,
+    region=NULL,
+    continent='Europe'
+WHERE countrycode = 'al';
+UPDATE sights
+SET filename = REPLACE(filename, '/other/', '/al/')
+WHERE countrycode = 'al';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gurra Antike e Domgjonit', '/english/al/subterranea/Domgjonit.html', 'Domgjonit', 'Europe', 'al', 'Albania', 'subterranea', 'Lezhe', 41.96542936425776, 20.152062123277307);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Teqehja Ballëm Sulltani', '/english/al/subterranea/BallemSulltani.html', 'BallemSulltani', 'Europe', 'al', 'Albania', 'subterranea', 'Diber', 41.3750745, 20.2691863);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Piratëve', '/english/al/caves/Pirateve.html', 'Pirateve', 'Europe', 'al', 'Albania', 'caves', 'Vlore', 40.1291790, 19.6514375);
