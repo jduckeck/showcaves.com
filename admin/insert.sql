@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bunk´Art 1', '/english/al/subterranea/BunkArt1.html', 'BunkArt1', 'Europe', 'al', 'Albania', 'subterranea', 'Tirana', 41.3531404, 19.8612073);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bunk´Art 2', '/english/al/subterranea/BunkArt2.html', 'BunkArt2', 'Europe', 'al', 'Albania', 'subterranea', 'Tirana', 41.3270225, 19.8195506);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kanioni i Llëngës', '/english/al/gorges/Llenga.html', 'Llenga', 'Europe', 'al', 'Albania', 'gorges', 'Korce', 40.889390, 20.492030);
