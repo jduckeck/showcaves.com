@@ -207,3 +207,6 @@ update index files
 \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/subterranea\/(.+)\.html\"\>([^<].+)\<\/a\>\<\/li\>
 <li><a data-ajax="false" target="_top" href="../../no/subterranea/$1.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">$2</a></li>
 
+osm
+\"https\:\/\/www\.openstreetmap\.org\/\#map\=(\d+)\/(.+?)\/(.+?)\"
+"https://www.openstreetmap.org/?mlat=$2&mlon=$3&zoom=$1#map=$1/$2/$3"

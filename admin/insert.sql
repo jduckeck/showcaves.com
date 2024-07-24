@@ -1,5 +1,5 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES('yes','Kanioni i Osumit', '/english/al/gorges/Osum.html', 'Osum', 'Europe', 'al', 'Albania', 'gorges', 'Berat', 41.5173228, 19.80031616);
+VALUES ('yes', 'Kanioni i Osumit', '/english/al/gorges/Osum.html', 'Osum', 'Europe', 'al', 'Albania', 'gorges', 'Berat', 40.4797780, 20.2497745);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Shpella e Sari Salltikut', '/english/al/subterranea/SariSalltik.html', 'SariSalltik', 'Europe', 'al', 'Albania', 'subterranea', 'Durres', 41.51732441, 19.8003273);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -10,3 +10,16 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bunk´Art 2', '/english/al/subterranea/BunkArt2.html', 'BunkArt2', 'Europe', 'al', 'Albania', 'subterranea', 'Tirana', 41.3270225, 19.8195506);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kanioni i Llëngës', '/english/al/gorges/Llenga.html', 'Llenga', 'Europe', 'al', 'Albania', 'gorges', 'Korce', 40.889390, 20.492030);
+UPDATE `sights`
+SET `Latitude`='45.8046137',
+    `Longitude`='14.2045980'
+WHERE `filename` = '/english/si/showcaves/Pivka.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Pëllumbave', '/english/al/caves/Pellumbave.html', 'Pellumbave', 'Europe', 'al', 'Albania', 'caves', 'Vlore', 40.1245561, 19.6773936);
+UPDATE `sights`
+SET `Latitude`='46,0220921',
+    `Longitude`='5,8055341'
+WHERE `filename` = '/english/fr/karst/PainDeSucre.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shpella e Xherxhillës', '/english/other/caves/Xherxhilla.html', 'Xherxhilla', 'Europe', 'al', 'Albania', 'caves', 'al', 'other', 0.0, 0.0);
+
