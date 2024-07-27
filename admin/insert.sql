@@ -38,4 +38,10 @@ SET `Latitude`='31.0867465',
 WHERE `filename` = '/english/il/caves/Sedom.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
 VALUES ('yes', 'Malcham Salt Cave', '/english/il/caves/Malcham.html', 'Malcham', 'MiddleEast', 'il', 'Israel', 'caves', 'South', 31.0764537, 35.3970705, 1);
+UPDATE `sights`
+SET `Latitude`='50.152011',
+    `Longitude`='-5.675850'
+WHERE `filename` = '/english/gb/mines/Geevor.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Levant Mine', '/english/gb/mines/Levant.html', 'Levant', 'Europe', 'gb', 'Great Britain', 'mines', 'Cornwall', 50.147946, -5.682933);
 
