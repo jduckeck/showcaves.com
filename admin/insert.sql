@@ -22,4 +22,20 @@ SET `Latitude`='46,0220921',
 WHERE `filename` = '/english/fr/karst/PainDeSucre.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Shpella e Xherxhillës', '/english/other/caves/Xherxhilla.html', 'Xherxhilla', 'Europe', 'al', 'Albania', 'caves', 'al', 'other', 0.0, 0.0);
+UPDATE `sights`
+SET `Latitude`='50.0643473',
+    `Longitude`='-5.5919467'
+WHERE `filename` = '/english/gb/subterranea/Tregiffian.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chainospilios', '/english/gr/caves/Chainospilios.html', 'Chainospilios', 'Europe', 'gr', 'Greece', 'caves', 'Crete', 35.3050663, 24.9261507);
+UPDATE `sights`
+SET `Latitude`='35.1774558',
+    `Longitude`='24.8275891'
+WHERE `filename` = '/english/gr/caves/Kamares.html';
+UPDATE `sights`
+SET `Latitude`='31.0867465',
+    `Longitude`='35.3949774'
+WHERE `filename` = '/english/il/caves/Sedom.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
+VALUES ('yes', 'Malcham Salt Cave', '/english/il/caves/Malcham.html', 'Malcham', 'MiddleEast', 'il', 'Israel', 'caves', 'South', 31.0764537, 35.3970705, 1);
 
