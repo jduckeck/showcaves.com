@@ -38,6 +38,10 @@ linebreaks:
 \s\s\s+([a-zA-Z0-9,])
 $1 $2
 
+doppelte Zeilen:
+^(.*)(\r?\n\1)+$
+$1
+
 authors:
 (.+?)[,] ([A-Z])[\.]
 <b class="smallCaps">$2 $1</b>
