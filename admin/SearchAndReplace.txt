@@ -42,6 +42,10 @@ doppelte Zeilen:
 ^(.*)(\r?\n\1)+$
 $1
 
+doppelte Worte
+\b(\S+?)\b \b\1\b
+$1
+
 authors:
 (.+?)[,] ([A-Z])[\.]
 <b class="smallCaps">$2 $1</b>
