@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mina Candelaria', '/english/cl/mines/Candelaria.html', 'Candelaria', 'SouthAmerica', 'cl', 'Chile', 'mines', 'Atacama', -27.52301, -70.34242);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pozas Azules de Atzala', '/english/mx/karst/Atzala.html', 'Atzala', 'MiddleAmerica', 'mx', 'México', 'karst', 'Guerrero', 18.5141378, -99.6634137);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museo Minero de Tierra Amarilla', '/english/cl/mines/TierraAmarilla.html', 'TierraAmarilla', 'SouthAmerica', 'cl', 'Chile', 'mines', 'Atacama', -27.496542, -70.262137);
