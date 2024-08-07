@@ -12,3 +12,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Museo Minero de Tierra Amarilla', '/english/cl/mines/TierraAmarilla.html', 'TierraAmarilla', 'SouthAmerica', 'cl', 'Chile', 'mines', 'Atacama', -27.496542, -70.262137);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mina San Jose', '/english/cl/mines/SanJose.html', 'SanJose', 'SouthAmerica', 'cl', 'Chile', 'mines', 'Atacama', -27.159628, -70.497524);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Nezer Cave', '/english/il/caves/Nezer.html', 'Nezer', 'MiddleEast', 'il', 'Israel', 'caves', 'Northern', 33.1724272, 35.5448531);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Underground Prisoners Museum', '/english/il/subterranea/UndergroundPrisoners.html', 'UndergroundPrisoners', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Northern', 32.9235259, 35.0691381);
+UPDATE `sights`
+SET `Latitude`='32.9232271',
+    `Longitude`='35.0697701'
+WHERE `filename` = '/english/il/subterranea/CrusaderCity.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Treasures in the Walls Museum', '/english/il/subterranea/TreasuresWalls.html', 'TreasuresWalls', 'MiddleEast', 'il', 'Israel', 'subterranea', 'Northern', 32.9239551, 35.0732502);
