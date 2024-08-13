@@ -262,6 +262,13 @@ table.box td {
     margin: .2rem;
 }
 
+.horizImage {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
 ol.invisibleBox li {
     margin-top: .3rem;
     margin-bottom: .3rem;
