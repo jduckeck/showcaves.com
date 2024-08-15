@@ -6,4 +6,8 @@ UPDATE `sights`
 SET `Latitude`='39.7997773',
     `Longitude`='-79.7116259'
 WHERE `filename` = '/english/usa/showcaves/Laurel.html';
+UPDATE `sights`
+SET `Latitude`='16.168966',
+    `Longitude`='-88.941995'
+WHERE `filename` = '/english/bz/caves/Laguna.html';
 
