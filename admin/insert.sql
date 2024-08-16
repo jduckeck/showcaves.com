@@ -16,4 +16,6 @@ SET `Latitude`='14.2997043',
 WHERE `filename` = '/english/th/showcaves/Lawa.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Vevčanski Izvori', '/english/mk/springs/Vevcanski.html', 'Vevcanski', 'Europe', 'mk', 'North Macedonia', 'springs', 'WesternMacedonian', 41.2393271, 20.5851923);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Izvori Sveti Naum', '/english/mk/springs/SaintNaum.html', 'SaintNaum', 'Europe', 'mk', 'North Macedonia', 'springs', 'WesternMacedonian', 40.9130948, 20.7415581);
 
