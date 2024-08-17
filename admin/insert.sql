@@ -18,4 +18,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Vevčanski Izvori', '/english/mk/springs/Vevcanski.html', 'Vevcanski', 'Europe', 'mk', 'North Macedonia', 'springs', 'WesternMacedonian', 41.2393271, 20.5851923);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Izvori Sveti Naum', '/english/mk/springs/SaintNaum.html', 'SaintNaum', 'Europe', 'mk', 'North Macedonia', 'springs', 'WesternMacedonian', 40.9130948, 20.7415581);
+UPDATE `sights`
+SET `Latitude`='12.4504094',
+    `Longitude`='-69.9061364'
+WHERE `filename` = '/english/car/subterranea/SeroPreto.html';
 
