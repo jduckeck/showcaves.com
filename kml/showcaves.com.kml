@@ -560,7 +560,7 @@
 						<range>1000.000218790782</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_gorge</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>20.49202999944157,40.88938999782029,0</coordinates>
@@ -9269,7 +9269,7 @@
 						<tilt>0</tilt>
 						<range>8422.71548176844</range>
 					</LookAt>
-					<styleUrl>#msn_spring</styleUrl>
+					<styleUrl>#spring</styleUrl>
 					<Point>
 						<coordinates>-41.14936306801125,-12.78201888672344,0</coordinates>
 					</Point>
@@ -11356,7 +11356,7 @@
 						<range>1000.000151078266</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_cave</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-88.68326790024139,17.1660526997602,0</coordinates>
@@ -14651,7 +14651,7 @@
 					<range>1000.000180301742</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_mine</styleUrl>
+				<styleUrl>#mine</styleUrl>
 				<Point>
 					<coordinates>-70.287541,-27.51464,0</coordinates>
 				</Point>
@@ -14859,7 +14859,7 @@
 					<range>1000.000150951095</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_mine</styleUrl>
+				<styleUrl>#mine</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-70.49752400103995,-27.15962800055058,0</coordinates>
@@ -14876,7 +14876,7 @@
 					<range>4627.14906223261</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_mine</styleUrl>
+				<styleUrl>#mine</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-69.79550909932593,-20.20896089946739,0</coordinates>
@@ -14893,7 +14893,7 @@
 					<range>4627.14906223261</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_mine</styleUrl>
+				<styleUrl>#mine</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-69.81220999999999,-20.21126,0</coordinates>
@@ -14910,7 +14910,7 @@
 					<range>1000.000096901508</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_mine</styleUrl>
+				<styleUrl>#mine</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-73.1610240005797,-37.07616300086157,0</coordinates>
@@ -66930,7 +66930,7 @@
 						<tilt>0</tilt>
 						<range>1000.000000000045</range>
 					</LookAt>
-					<styleUrl>#msn_karst</styleUrl>
+					<styleUrl>#karst</styleUrl>
 					<Point>
 						<coordinates>11.09297280000002,45.62638880000001,0</coordinates>
 					</Point>
@@ -66946,7 +66946,7 @@
 						<range>1000.000036591273</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_showcave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>11.078747,45.592129,0</coordinates>
@@ -103494,7 +103494,7 @@
 						<range>999.939729041172</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_spring</styleUrl>
+					<styleUrl>#spring</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-86.36612767144079,35.28368147276917,0</coordinates>
@@ -104676,7 +104676,7 @@
 						<range>999.9995025565815</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-80.76702160407389,37.6492320948931,0</coordinates>
@@ -105148,7 +105148,7 @@
 						<range>999.9994283243774</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#msn_subterranea</styleUrl>
+					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-80.30732370195381,37.7864435008965,0</coordinates>

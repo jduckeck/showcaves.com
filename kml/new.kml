@@ -1,0 +1,258 @@
+<insert>
+	<Style id="sn_cave">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cave">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+    <StyleMap id="cave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_gorge">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_gorge">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="gorge">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_gorge</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_gorge</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_karst">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_karst">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="karst">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_karst</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_karst</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mine">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_mine">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="mine">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mine</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mine</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_showcave">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_showcave">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="showcave">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_showcave</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_showcave</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_spring">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_spring">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="spring">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_spring</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_spring</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_subterranea">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_subterranea">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="subterranea">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_subterranea</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_subterranea</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_cross-hairs">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_cross-hairs">
+		<IconStyle>
+			<scale>1.0</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="cross-hairs">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cross-hairs</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cross-hairs</styleUrl>
+		</Pair>
+	</StyleMap>
+</insert>
