@@ -34,3 +34,19 @@ UPDATE `sights`
 SET `Latitude`='37.8910555',
     `Longitude`='-6.5658646'
 WHERE `filename` = '/english/es/showcaves/Maravillas.html';
+UPDATE `sights`
+SET `Latitude`='37.179289',
+    `Longitude`='-85.905726'
+WHERE `filename` = '/english/usa/showcaves/HiddenRiver.html';
+UPDATE `sights`
+SET `Latitude`='35.8359758',
+    `Longitude`='14.5276238'
+WHERE `filename` = '/english/mt/showcaves/Dalam.html';
+UPDATE `sights`
+SET `Latitude`='39.0833726',
+    `Longitude`='1.4418551'
+WHERE `filename` = '/english/es/showcaves/CanMarca.html';
+UPDATE `sights`
+SET `Latitude`='39.0826356',
+    `Longitude`='1.5805755'
+WHERE `filename` = '/english/es/showcaves/Cuilleram.html';
