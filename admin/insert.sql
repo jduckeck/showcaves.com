@@ -22,4 +22,15 @@ UPDATE `sights`
 SET `Latitude`='48.9126843',
     `Longitude`='11.3955348'
 WHERE `filename` = '/english/de/caves/Arndt.html';
-
+UPDATE `sights`
+SET `Latitude`='36.6685760',
+    `Longitude`='-83.4574672'
+WHERE `filename` = '/english/usa/caves/SandVA.html';
+UPDATE `sights`
+SET `Latitude`='37.1544533',
+    `Longitude`='-86.0470483'
+WHERE `filename` = '/english/usa/caves/Sand.html';
+UPDATE `sights`
+SET `Latitude`='37.8910555',
+    `Longitude`='-6.5658646'
+WHERE `filename` = '/english/es/showcaves/Maravillas.html';
