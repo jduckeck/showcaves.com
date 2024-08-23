@@ -21,7 +21,6 @@
 <?php
 include("../../../php/opendb.php");
 $pdo = openDB();
-
 $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
 ?>
 
@@ -44,10 +43,9 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
 
         <br class="clear">
 
-
         <p>
             Die folgende Tabelle ist eine Statistik über den Inhalt von <span class="mySiteName">showcaves.com</span>.
-            Die Website enthält unterirdische touristische Sehenswürdigkeiten aus der ganzen Welt, die nach politischen Einheiten, also Ländern, gruppiert sind und als Höhlen, Schauhöhlen, Bergwerke oder künstliche Hohlräume klassifiziert wurden.
+            Diese Website enthält unterirdische touristische Sehenswürdigkeiten aus der ganzen Welt, die nach politischen Einheiten, also Ländern, gruppiert sind und als Höhlen, Schauhöhlen, Bergwerke oder künstliche Hohlräume klassifiziert wurden.
             Die Zahlen geben alle aufgelisteten Sehenswürdigkeiten an, aber nicht alle davon sind noch für die Öffentlichkeit zugänglich.
             <span class="mySiteName">showcaves.com</span> ist fast 30 Jahre alt, und etwa 75 Standorte wurden mittelfristig oder endgültig für die Öffentlichkeit geschlossen.
             Diese sind in den unten stehenden Zahlen allerdings enthalten.
@@ -55,7 +53,6 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
 
 
         <br class="clear">
-
 
         <table class="statistics">
             <thead>
