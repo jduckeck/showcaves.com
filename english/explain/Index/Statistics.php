@@ -21,7 +21,6 @@
 <?php
 include("../../../php/opendb.php");
 $pdo = openDB();
-
 $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' and closed=0 GROUP BY countrycode, chapter, country, category ORDER BY country, category");
 ?>
 
@@ -44,7 +43,6 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
 
         <br class="clear">
 
-
         <p>
             The following table is a statistics about the contents of <span class="mySiteName">showcaves.com</span>.
             The site contains underground tourist sites from all over the world, which are grouped by political units aka countries and categorized as caves, show caves, mines, subterranea asf.
@@ -55,7 +53,6 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
 
 
         <br class="clear">
-
 
         <table class="statistics">
             <thead>

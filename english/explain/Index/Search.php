@@ -39,7 +39,8 @@ $count = countSights($pdo, "");
     <div data-role="main" class="ui-content">
 
         <label for="theList">Search the list...</label>
-        <ul id="theList" data-role="listview" data-inset="true" data-filter="true"><?php
+        <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
+            <?php
             printAll($pdo);
             ?>
         </ul>

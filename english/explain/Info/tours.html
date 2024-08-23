@@ -26,7 +26,8 @@
         // Written by: Jochen Duckeck, Nuernberg, 1997
         if ((obj.Miles.value !== 0) && (eval(obj.Miles.value) !== 0)) {
             obj.kilometre.value = eval(obj.Miles.value) * 1.609;
-        } else {
+        }
+        else {
             if (eval(obj.Kilometre.value) !== 0) {
                 obj.Miles.value = eval(obj.Kilometre.value) / 1.609;
             }
@@ -37,8 +38,11 @@
         // Written by: Jochen Duckeck, Nuernberg, 1997
         if ((obj.Foot.value !== 0) && (eval(obj.Foot.value) !== 0)) {
             obj.Meter.value = eval(obj.Foot.value) * 0.3048;
-        } else {
-            if (eval(obj.Meter.value) !== 0) obj.Foot.value = eval(obj.Meter.value) / 0.3048;
+        }
+        else {
+            if (eval(obj.Meter.value) !== 0) {
+                obj.Foot.value = eval(obj.Meter.value) / 0.3048;
+            }
         }
     }
 
