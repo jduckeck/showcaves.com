@@ -22,13 +22,16 @@ Datestamp to uppercase:
 -JULI-
 -JUL-
 
+-SEPT-
+-SEP-
+
 -OKT-
 -OCT-
 
 -DEZ-
 -DEC-
 
-regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(capitalizeAndUnderscore(date("dd-MMM-yyyy")),"_", "-"),"-MAR-", "-MAR-"),"-MAI-", "-MAY-"),"-JUNI-", "-JUN-"),"-JULI-", "-JUL-"),"-OKT-", "-OCT-"),"-DEZ-", "-DEC-")
+regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(capitalizeAndUnderscore(date("dd-MMM-yyyy")),"_", "-"),"-MAR-", "-MAR-"),"-MAI-", "-MAY-"),"-JUNI-", "-JUN-"),"-JULI-", "-JUL-"),"-SEPT-", "-SEP-"),"-OKT-", "-OCT-"),"-DEZ-", "-DEC-")
 
 multiline:
 ((.|\n)*)
