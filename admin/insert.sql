@@ -12,3 +12,7 @@ UPDATE `sights`
 SET `Latitude`='28.7564458',
     `Longitude`='-81.5017342'
 WHERE `filename` = '/english/usa/springs/Rock.html';
+UPDATE `sights`
+SET `Latitude`='28.2931977',
+    `Longitude`='-82.7178949'
+WHERE `filename` = '/english/usa/springs/WernerBoyce.html';
