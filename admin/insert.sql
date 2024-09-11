@@ -6,3 +6,5 @@ INSERT INTO static (path)
 VALUES ('/english/de/geoparks/Vulkaneifel.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Three Sisters Springs', '/english/usa/springs/ThreeSisters.html', 'ThreeSisters', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl', 28.888589, -82.589266);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Great Chamber', '/english/usa/caves/GreatChamber.html', 'GreatChamber', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'ut',);
