@@ -16,3 +16,15 @@ UPDATE `sights`
 SET `Latitude`='28.2931977',
     `Longitude`='-82.7178949'
 WHERE `filename` = '/english/usa/springs/WernerBoyce.html';
+UPDATE `sights`
+SET `Latitude`='29.8738124',
+    `Longitude`='-82.5915348'
+WHERE `filename` = '/english/usa/springs/RiverRise.html';
+UPDATE `sights`
+SET `Latitude`='28.517396',
+    `Longitude`='-82.573359'
+WHERE `filename` = '/english/usa/springs/WeekiWachee.html';
+UPDATE `sights`
+SET `Latitude`='29.1024756',
+    `Longitude`='-82.4374660'
+WHERE `filename` = '/english/usa/springs/Rainbow.html';
