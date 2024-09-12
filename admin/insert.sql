@@ -28,3 +28,5 @@ UPDATE `sights`
 SET `Latitude`='29.1024756',
     `Longitude`='-82.4374660'
 WHERE `filename` = '/english/usa/springs/Rainbow.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Salt Springs Recreation Area', '/english/usa/springs/SaltSpringsOcala.html', 'SaltSpringsOcala', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'fl', 29.3505839, -81.7327351);
