@@ -6,4 +6,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Iriyuji-Gama Cave', '/english/jp/caves/IriyujiGama.html', 'IriyujiGama', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.123211, 127.749158);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bunker Hagen', '/english/de/subterranea/Hagen.html', 'Hagen', 'Europe', 'de', 'Germany', 'subterranea', 'Sauerland', 51.357948, 7.465832);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Yamashita First Cave', '/english/jp/caves/Yamashita.html', 'Yamashita', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.2007, 127.6733);
 
