@@ -16,4 +16,6 @@ SET `Latitude`='56.394495',
 WHERE `filename` = '/english/gb/subterranea/Cruachan.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Naturhöhle Altfinstermünz', '/english/at/caves/Altfinstermuenz.html', 'Altfinstermuenz', 'Europe', 'at', 'Austria', 'caves', 'Tirol', 46.929339, 10.487279);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Museum Festung Nauders', '/english/at/subterranea/Nauders.html', 'Nauders', 'Europe', 'at', 'Austria', 'subterranea', 'Tirol', 46.9131654, 10.4930579);
 
