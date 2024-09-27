@@ -10,4 +10,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yamashita First Cave', '/english/jp/caves/Yamashita.html', 'Yamashita', 'Asia', 'jp', 'Japan', 'caves', 'Okinawa', 26.2007, 127.6733);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'St. Columba’s Cave', '/english/gb/caves/StColumba.html', 'StColumba', 'Europe', 'gb', 'Great Britain', 'caves', 'ArgyllBute', 55.9314, -5.6018);
+UPDATE `sights`
+SET `Latitude`='56.394495',
+    `Longitude`='-5.116185'
+WHERE `filename` = '/english/gb/subterranea/Cruachan.html';
 
