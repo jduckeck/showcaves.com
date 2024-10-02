@@ -18,4 +18,18 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Naturhöhle Altfinstermünz', '/english/at/caves/Altfinstermuenz.html', 'Altfinstermuenz', 'Europe', 'at', 'Austria', 'caves', 'Tirol', 46.929339, 10.487279);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Museum Festung Nauders', '/english/at/subterranea/Nauders.html', 'Nauders', 'Europe', 'at', 'Austria', 'subterranea', 'Tirol', 46.9131654, 10.4930579);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Covolo di Butistone', '/english/it/subterranea/Butistone.html', 'Butistone', 'Europe', 'it', 'Italy', 'subterranea', 'Veneto', 45.9491190, 11.7256405);
+UPDATE `sights`
+SET `Latitude`='46.9757359',
+    `Longitude`='9.6158211'
+WHERE `filename` = '/english/ch/subterranea/Fracstein.html';
+UPDATE `sights`
+SET `Latitude`='46.6846706',
+    `Longitude`='7.7823068'
+WHERE `filename` = '/english/ch/showcaves/Beatus.html';
+UPDATE `sights`
+SET `Latitude`='45.5920408',
+    `Longitude`='11.0792508'
+WHERE `filename` = '/english/it/showcaves/MonteCapriolo.html';
 
