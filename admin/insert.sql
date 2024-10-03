@@ -32,4 +32,6 @@ UPDATE `sights`
 SET `Latitude`='45.5920408',
     `Longitude`='11.0792508'
 WHERE `filename` = '/english/it/showcaves/MonteCapriolo.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Eremo di Poggio Conte', '/english/it/subterranea/PoggioConte.html', 'PoggioConte', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.5110013, 11.6263896);
 
