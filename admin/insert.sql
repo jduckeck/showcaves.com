@@ -38,4 +38,8 @@ UPDATE `sights`
 SET `Latitude`='35.0050600',
     `Longitude`='34.0361844'
 WHERE `filename` = '/english/cy/subterranea/AyioiSaranta.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mănăstirea Nămăiești', '/english/ro/subterranea/Namaiesti.html', 'Namaiesti', 'Europe', 'ro', 'Romania', 'subterranea', 'Meridionali', 45.3049814, 25.1100654);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mănăstirea Corbii de Piatră', '/english/ro/subterranea/CorbiiDePiatra.html', 'CorbiiDePiatra', 'Europe', 'ro', 'Romania', 'subterranea', 'Meridionali', 45.2753970, 24.8111513);
 
