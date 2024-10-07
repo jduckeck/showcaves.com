@@ -42,4 +42,20 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mănăstirea Nămăiești', '/english/ro/subterranea/Namaiesti.html', 'Namaiesti', 'Europe', 'ro', 'Romania', 'subterranea', 'Meridionali', 45.3049814, 25.1100654);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Mănăstirea Corbii de Piatră', '/english/ro/subterranea/CorbiiDePiatra.html', 'CorbiiDePiatra', 'Europe', 'ro', 'Romania', 'subterranea', 'Meridionali', 45.2753970, 24.8111513);
+UPDATE `sights`
+SET `Latitude`='44.8105631',
+    `Longitude`='20.4706930'
+WHERE `filename` = '/english/rs/subterranea/Tasmajdanska.html';
+UPDATE `sights`
+SET `Latitude`='50.6210398',
+    `Longitude`='12.5258366'
+WHERE `filename` = '/english/de/mines/AmGraben.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Valja Prerast', '/english/rs/karst/ValjaPrerast.html', 'ValjaPrerast', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 44.3620263, 21.9916945);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pećina Beli izvorac', '/english/rs/karst/BeliIzvorac.html', 'BeliIzvorac', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 44.3499310, 22.0022366);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kanjon Vratne', '/english/rs/gorges/Vratna.html', 'Vratna', 'Europe', 'rs', 'Serbia', 'gorges', 'EasternSerbia', 44.3825076, 22.3419272);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kanjonu Zamne', '/english/rs/karst/Zamna.html', 'Zamna', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 44.3012300, 22.2791135);
 
