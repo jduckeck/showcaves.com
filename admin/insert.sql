@@ -58,4 +58,10 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kanjon Vratne', '/english/rs/gorges/Vratna.html', 'Vratna', 'Europe', 'rs', 'Serbia', 'gorges', 'EasternSerbia', 44.3825076, 22.3419272);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kanjonu Zamne', '/english/rs/karst/Zamna.html', 'Zamna', 'Europe', 'rs', 'Serbia', 'karst', 'EasternSerbia', 44.3012300, 22.2791135);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Crkva „Sv. Bogorodica“ Kališta', '/english/mk/caves/Kalishta.html', 'Kalishta', 'Europe', 'mk', 'North Macedonia', 'caves', 'WesternMacedonian', 41.144780, 20.650188);
+UPDATE `sights`
+SET `Latitude`='41.9301599',
+    `Longitude`='21.2922688'
+WHERE `filename` = '/english/mk/showcaves/Vrelo.html';
 
