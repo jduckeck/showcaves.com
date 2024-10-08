@@ -66,4 +66,8 @@ SET `Latitude`='41.9301599',
 WHERE `filename` = '/english/mk/showcaves/Vrelo.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
 VALUES ('yes', 'Temna Peštera', '/english/mk/showcaves/Temna.html', 'Temna', 'Europe', 'mk', 'North Macedonia', 'showcaves', 'PelagonianMassif', 41.20498566917095, 22.002737181585587, 1);
+UPDATE `sights`
+SET `Latitude`='40.6897411',
+    `Longitude`='39.6583314'
+WHERE `filename` = '/english/tr/subterranea/Sumela.html';
 
