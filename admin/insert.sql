@@ -70,4 +70,10 @@ UPDATE `sights`
 SET `Latitude`='40.6897411',
     `Longitude`='39.6583314'
 WHERE `filename` = '/english/tr/subterranea/Sumela.html';
+UPDATE `sights`
+SET `Latitude`='40.3734968',
+    `Longitude`='23.1686930'
+WHERE `filename` = '/english/gr/showcaves/Petralona.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave of Saint Paul the Apostle', '/english/gr/subterranea/SaintPaulApostle.html', 'SaintPaulApostle', 'Europe', 'gr', 'Greece', 'subterranea', 'CentralMacedonia', 40.1332248, 23.4006621);
 
