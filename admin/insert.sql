@@ -12,3 +12,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte Finzolua Ndombolozi', '/english/other/caves/FinzoluaNdombolozi.html', 'FinzoluaNdombolozi', 'Africa', 'cd', 'République Démocratique du Congo', 'caves', 'cd', 'other', -5.3116983, 14.9146031);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Grotte de Dimba', '/english/other/caves/Dimba.html', 'Dimba', 'Africa', 'cd', 'République Démocratique du Congo', 'caves', 'cd', 'other', -5.29039, 14.87052);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Grotte Ngovo', '/english/other/caves/Ngovo.html', 'Ngovo', 'Africa', 'cd', 'République Démocratique du Congo', 'caves', 'cd', 'other', -5.3019, 14.9373);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Grotte de Ndimba Dimba', '/english/other/caves/NdimbaDimba.html', 'NdimbaDimba', 'Africa', 'cd', 'République Démocratique du Congo', 'caves', 'cd', 'other', -5.2711, 14.9043);
