@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte Ngovo', '/english/other/caves/Ngovo.html', 'Ngovo', 'Africa', 'cd', 'République Démocratique du Congo', 'caves', 'cd', 'other', -5.3019, 14.9373);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Grotte de Ndimba Dimba', '/english/other/caves/NdimbaDimba.html', 'NdimbaDimba', 'Africa', 'cd', 'République Démocratique du Congo', 'caves', 'cd', 'other', -5.2711, 14.9043);
+UPDATE `sights`
+SET `Latitude`='0.6772345',
+    `Longitude`='30.2246973'
+WHERE `filename` = '/english/other/showcaves/Nyinamwiru.html';
