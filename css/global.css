@@ -905,3 +905,19 @@ ul.breadcrumb A:active {
     background-color: transparent;
     text-decoration: none;
 }
+
+hr.tinyline {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 2px auto 1px 0;
+    height: 0;
+    width: 30%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}

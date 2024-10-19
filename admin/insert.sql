@@ -20,3 +20,24 @@ UPDATE `sights`
 SET `Latitude`='0.6772345',
     `Longitude`='30.2246973'
 WHERE `filename` = '/english/other/showcaves/Nyinamwiru.html';
+--- update/creat pois
+UPDATE `sights`
+SET `Latitude`='18.1571693',
+    `Longitude`='-76.4262211'
+WHERE `filename` = '/english/jm/showcaves/Nonsuch.html';
+UPDATE `sights`
+SET `Latitude`='-17.2656229',
+    `Longitude`='145.4757288'
+WHERE `filename` = '/english/au/subterranea/Crystal.html';
+UPDATE `sights`
+SET `Latitude`='36.6383858',
+    `Longitude`='22.3807512'
+WHERE `filename` = '/english/gr/showcaves/Glifada.html';
+UPDATE `sights`
+SET `Latitude`='36.8029108',
+    `Longitude`='22.2974995'
+WHERE `filename` = '/english/gr/caves/Katafygi.html';
+UPDATE `sights`
+SET `Latitude`='36.6385520',
+    `Longitude`='22.3823432'
+WHERE `filename` = '/english/gr/showcaves/Alepotrypa.html';
