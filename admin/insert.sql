@@ -49,3 +49,11 @@ UPDATE `sights`
 SET `Latitude`='49.8120321',
     `Longitude`='11.2158784'
 WHERE `filename` = '/english/de/showcaves/Bing.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte église de Sainte-Colombe', '/english/ch/caves/SainteColombe.html', 'SainteColombe', 'Europe', 'ch', 'Switzerland', 'caves', 'Jura', 47.3067500, 7.2189740);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Eklisia Agioi Theodoroi', '/english/gr/caves/AgioiTheodoroi.html', 'AgioiTheodoroi', 'Europe', 'gr', 'Greece', 'caves', 'EasternMacedonia', 40.9351416, 25.8631613);
+UPDATE `sights`
+SET `Latitude`='42.971122',
+    `Longitude`='-5.440777'
+WHERE `filename` = '/english/es/showcaves/Llamazares.html';
