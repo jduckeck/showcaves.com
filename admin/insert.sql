@@ -57,3 +57,5 @@ UPDATE `sights`
 SET `Latitude`='42.971122',
     `Longitude`='-5.440777'
 WHERE `filename` = '/english/es/showcaves/Llamazares.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grottenbahn am Pöstlingberg', '/english/at/subterranea/Grottenbahn.html', 'Grottenbahn', 'Europe', 'at', 'Austria', 'subterranea', 'Ober', 48.3241927, 14.2564233);
