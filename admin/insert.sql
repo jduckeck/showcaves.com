@@ -59,3 +59,7 @@ SET `Latitude`='42.971122',
 WHERE `filename` = '/english/es/showcaves/Llamazares.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grottenbahn am Pöstlingberg', '/english/at/subterranea/Grottenbahn.html', 'Grottenbahn', 'Europe', 'at', 'Austria', 'subterranea', 'Ober', 48.3241927, 14.2564233);
+INSERT INTO static (path)
+VALUES ('/english/explain/Topic/CommonNames.html');
+INSERT INTO static (path)
+VALUES ('/german/explain/Topic/CommonNames.html');
