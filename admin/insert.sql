@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wind Cave at House Rock', '/english/usa/caves/WindHouseRock.html', 'Wind', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'pa', 39.8746109, -76.3711313);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Steinerne Rinne bei Hechlingen', '/english/de/karst/Hechlingen.html', 'Hechlingen', 'Europe', 'de', 'Germany', 'karst', 'FraenkischeAlb', 48.9890432, 10.7351094);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pirunpesä', '/english/fi/karst/Pirunpesa.html', 'Pirunpesa', 'Europe', 'fi', 'Finland', 'karst', '$Region$', 62.3990652, 22.8954193);
