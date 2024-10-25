@@ -20,29 +20,48 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Caves of Finland">
+    <meta name="description" content="Finland by Topic: $Topic$">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Caves of Finland"/>
+    <meta property="og:title" content="Finland by Topic: $Topic$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Caves of Finland</title>
+    <title>Finland by Topic: $Topic$</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-        <div id="MenueEntries">
-            <ul class="linklist" data-role="listview" data-inset="true">
-                <li><a data-ajax="false" target="_top" href="../../fi/caves/Pirunkirkko.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Pirunkirkko</a></li>
-                <li><a data-ajax="false" target="_top" href="../../fi/caves/PirunpesaPori.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Pirunpesä</a></li>
-                <li><a data-ajax="false" target="_top" href="../../fi/caves/PirunpesaSarkola.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Pirunpesä</a></li>
-                <li><a data-ajax="false" target="_top" href="../../fi/caves/Susiluola.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Susiluola</a></li>
-                <li><a data-ajax="false" target="_top" href="../../fi/caves/Valkulammi.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Valkulammi</a></li>
-            </ul>
-        </div>
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../fi/topics/$FileName$.html"><img alt="Topic" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">$Topic$</a></li>
+            <a target="_top" href="../../../english/fi/topics/$FileName$.html"><img alt="Topic" class="symbol" src="../../../graphics/symbol/Topic.png">$Topic$</a>
+        INSERT INTO static (path)
+        VALUES('/english/fi/topics/$FileName$.html');
+       -->
+
+        <h1 class="center">$Topic$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <p>
+        </p>
+
+
+        <br>
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+        </ul>
+
+        <br class="clear">
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$Topic$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$Topic$"</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/$Topic$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$Topic$ - Wikipedia</a></li>
+        </ul>
 
     </div>
 
@@ -52,16 +71,9 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Finland</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Topics</a></li>
+                <!--                <li><a data-ajax="false" target="_top" href="../../../german/fi/topics/$FileName$.html"><img alt="Deutsch" src="../../../graphics/language/de.png" class="language"></a></li>-->
             </ul>
-            <div data-role="controlgroup" data-type="horizontal" class="center">
-                <a data-ajax="false" href="../showcaves/index.html" data-role="button" class="">Show Caves</a>
-                <a data-ajax="false" href="../caves/index.html" data-role="button" class="ui-btn-active">Caves</a>
-                <a data-ajax="false" href="../karst/index.html" data-role="button" class="">Karst Features</a>
-                <a data-ajax="false" href="../springs/index.html" data-role="button" class="">Springs</a>
-                <a data-ajax="false" href="../gorges/index.html" data-role="button" class="">Gorges</a>
-                <a data-ajax="false" href="../mines/index.html" data-role="button" class="">Mines</a>
-                <a data-ajax="false" href="../subterranea/index.html" data-role="button" class="">Subterranea</a>
-            </div>
         </div>
     </div>
     <!-- Path End -->
