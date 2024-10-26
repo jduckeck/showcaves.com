@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pirunpesä', '/english/fi/gorges/PirunpesaHollola.html', 'PirunpesaHollola', 'Europe', 'fi', 'Finland', 'gorges', 'SouthernFinland', 61.0090748, 25.5360621);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Paistjärven Pirunkirkko', '/english/fi/caves/PaistjarvenPirunkirkko.html', 'PaistjarvenPirunkirkko', 'Europe', 'fi', 'Finland', 'caves', 'SouthernFinland', 61.3074874, 26.3994502);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pirunpesä', '/english/fi/caves/PirunpesaPori.html', 'PirunpesaPori', 'Europe', 'fi', 'Finland', 'caves', 'WesternFinland', 61.5766143, 21.6997815);
