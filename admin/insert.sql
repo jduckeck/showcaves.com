@@ -18,5 +18,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Salpa-Suppa', '/english/fi/gorges/SalpaSuppa.html', 'SalpaSuppa', 'Europe', 'fi', 'Finland', 'gorges', 'SouthernFinland', 60.9898524, 25.5121377);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Korkia-Mauran Jääluola', '/english/fi/caves/KorkiaMauran.html', 'KorkiaMauran', 'Europe', 'fi', 'Finland', 'caves', 'Lapland', 68.8388460, 27.6458921);
+--
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Lullinvuori Luola', '/english/fi/caves/Lullinvuori.html', 'Lullinvuori', 'Europe', 'fi', 'Finland', 'caves', 'WesternFinland', 62.0897202, 25.7581639);
+--
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chiesa della Madonna del Parto', '/english/it/subterranea/MadonnaDelParto.html', 'MadonnaDelParto', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.2397454, 12.2272175);
