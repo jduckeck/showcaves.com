@@ -24,3 +24,17 @@ VALUES ('yes', 'Lullinvuori Luola', '/english/fi/caves/Lullinvuori.html', 'Lulli
 --
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Chiesa della Madonna del Parto', '/english/it/subterranea/MadonnaDelParto.html', 'MadonnaDelParto', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.2397454, 12.2272175);
+INSERT INTO static (path)
+VALUES ('/english/gr/geoparks/KefaloniaIthaka.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Karavomilos Lake', '/english/gr/springs/Karavomilos.html', 'Karavomilos', 'Europe', 'gr', 'Greece', 'springs', 'IonianIslands', 38.254901, 20.629749);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Zervati Cave', '/english/gr/caves/Zervati.html', 'Zervati', 'Europe', 'gr', 'Greece', 'caves', 'IonianIslands', 38.2525231, 20.6289105);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave of Agios Theodoros', '/english/gr/caves/AgiosTheodoros.html', 'AgiosTheodoros', 'Europe', 'gr', 'Greece', 'caves', 'IonianIslands', 38.2468414, 20.6265990);
+UPDATE `sights`
+SET `Latitude`='38.2567916',
+    `Longitude`='20.6243429'
+WHERE `filename` = '/english/gr/showcaves/Melissani.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta Manoel Iôiô', '/english/br/showcaves/ManoelIoio.html', 'ManoelIoio', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Bahia', -12.335579, -41.568593);
