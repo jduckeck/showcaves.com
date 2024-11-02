@@ -755,14 +755,14 @@ TABLE.centerImg {
     background: rgba(255, 128, 128, 0.22);
 }
 
-.boxed2 {
+.highlighted {
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: table;
+    justify-content: left;
+    align-items: normal;
     font-weight: bold;
-    padding: 0.5em;
-    margin: 0.5em auto;
+    padding: 1em;
+    margin: 1em auto;
     background: rgba(255, 128, 128, 0.22);
 }
 
