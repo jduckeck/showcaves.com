@@ -1,0 +1,4 @@
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Polje of Valsamata', '/english/gr/karst/Valsamata.html', 'Valsamata', 'Europe', 'gr', 'Greece', 'karst', 'IonianIslands', 38.17190, 20.58535);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mavri Spilia', '/english/gr/caves/MavriZakynthos.html', 'MavriZakynthos', 'Europe', 'gr', 'Greece', 'caves', 'IonianIslands', 37.8049767, 20.7600483);
