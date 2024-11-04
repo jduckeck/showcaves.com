@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Spilaio Peristeri', '/english/gr/caves/Peristeri.html', 'Peristeri', 'Europe', 'gr', 'Greece', 'caves', 'Attica', 37.5734534, 23.3601740);
 INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 1, 'Spílaio Nymfón', '/english/gr/showcaves/Nymfon.html', 'Nymfon', 'Europe', 'gr', 'Greece', 'showcaves', 'IonianIslands', 38.3610457, 20.7065059);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Saint Anna Cave', '/english/gr/caves/AgiaAnna.html', 'AgiaAnna', 'Europe', 'gr', 'Greece', 'caves', 'Cyclades', 37.4345769, 25.4192420);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ferekidis Cave', '/english/gr/caves/Ferekidis.html', 'Ferekidis', 'Europe', 'gr', 'Greece', 'caves', 'Cyclades', 37.4689562, 24.9380458);
