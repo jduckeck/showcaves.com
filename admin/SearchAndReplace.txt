@@ -42,7 +42,7 @@ linebreaks:
 $1 $2
 
 doppelte Zeilen:
-^(.*)(\r?\n\1)+$
+^(+*)(\r?\n\1)+$
 $1
 
 doppelte Worte
@@ -92,6 +92,7 @@ or
 
 incomplete:
         VALUES\('yes','[^$]
+        UPDATE
 
 Literature:
 ([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ']+)
