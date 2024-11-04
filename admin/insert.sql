@@ -32,7 +32,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Poli Cave House', '/english/gr/subterranea/Poli.html', 'Poli', 'Europe', 'gr', 'Greece', 'subterranea', 'Cyclades', 36.422240, 25.444422);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Spilia Caves Santorini', '/english/gr/subterranea/SpiliaCavesSantorini.html', 'SpiliaCavesSantorini', 'Europe', 'gr', 'Greece', 'subterranea', 'Cyclades', 36.358050, 25.394354);
-
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Great Bend Railroad Tunnel', '/english/usa/subterranea/GreatBend.html', 'GreatBend', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'va', 37.6492321, -80.7670216);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
@@ -41,3 +40,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Eremo di Calomini', '/english/it/subterranea/Calomini.html', 'Calomini', 'Europe', 'it', 'Italy', 'subterranea', 'Toscana', 44.054826, 10.407746);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Helvetinkolu', '/english/fi/gorges/Helvetinkolu.html', 'Helvetinkolu', 'Europe', 'fi', 'Finland', 'gorges', 'WesternFinland', 62.0541569, 23.8307617);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave Santorini Spa', '/english/gr/subterranea/CaveSantoriniSpa.html', 'CaveSantoriniSpa', 'Europe', 'gr', 'Greece', 'subterranea', 'Cyclades', 36.445995, 25.427571);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Divine Cave Experience', '/english/gr/subterranea/DivineCaveExperience.html', 'DivineCaveExperience', 'Europe', 'gr', 'Greece', 'subterranea', 'Cyclades', 36.439553, 25.424343);
