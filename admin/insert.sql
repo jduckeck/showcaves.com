@@ -16,3 +16,5 @@ SET `Latitude`='36.462067',
 WHERE `filename` = '/english/gr/subterranea/Alexander.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Underground Atlanta', '/english/usa/subterranea/Atlanta.html', 'Atlanta', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ga', 33.752363, -84.389741);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Alum Cove Natural Bridge Recreation Area', '/english/usa/karst/AlumCove.html', 'AlumCove', 'NorthAmerica', 'usa', 'United States of America', 'karst', '$Region$', 35.8603572, -93.2332329);
