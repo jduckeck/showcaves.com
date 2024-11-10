@@ -14,3 +14,5 @@ UPDATE `sights`
 SET `Latitude`='36.462067',
     `Longitude`='25.385451'
 WHERE `filename` = '/english/gr/subterranea/Alexander.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Underground Atlanta', '/english/usa/subterranea/Atlanta.html', 'Atlanta', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ga', 33.752363, -84.389741);
