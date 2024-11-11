@@ -192,6 +192,7 @@ kml
 
 \<styleUrl\>\#msn_(showcave|cave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
 
+^\w*<open>1</open>
 
     \<\!\-\- Path Begin \-\-\>\n    \<div data\-role\=\"header\" data\-position\=\"fixed\"\>\n        \<div data\-role\=\"navbar\"\>\n            \<ul\>\n                \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/index\.html\"\>Main Index\<\/a\>\<\/li\>\n((.|\n)*)\n            \<\/ul\>\n        \<\/div\>\n    \<\/div\>\n    \<\!\-\- Path End \-\-\>\n
 
