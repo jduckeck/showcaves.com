@@ -1,13 +1,13 @@
 <insert>
 	<Style id="sn_cave">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/cave.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_cave">
@@ -33,13 +33,13 @@
 	</StyleMap>
 	<Style id="sn_gorge">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/gorge.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_gorge">
@@ -65,13 +65,13 @@
 	</StyleMap>
 	<Style id="sn_karst">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/karst.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_karst">
@@ -97,13 +97,13 @@
 	</StyleMap>
 	<Style id="sn_mine">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/mine.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_mine">
@@ -129,13 +129,13 @@
 	</StyleMap>
 	<Style id="sn_showcave">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/showcave.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_showcave">
@@ -161,13 +161,13 @@
 	</StyleMap>
 	<Style id="sn_spring">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/spring.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_spring">
@@ -193,13 +193,13 @@
 	</StyleMap>
 	<Style id="sn_subterranea">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>https://www.showcaves.com/graphics/kmz/subterranea.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_subterranea">
@@ -225,13 +225,13 @@
 	</StyleMap>
 	<Style id="sn_cross-hairs">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.5</scale>
+			<scale>0.8</scale>
 		</LabelStyle>
 	</Style>
 	<Style id="sh_cross-hairs">
