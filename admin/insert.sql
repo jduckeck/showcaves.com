@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Atlantic Cave', '/english/other/subterranea/Atlantic.html', 'Atlantic', 'MiddleEast', 'ae', 'United Arab Emirates', 'subterranea', 'ae', 'other', 24.4019770, 54.4958539);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Qasar Masafi Restaurant', '/english/other/subterranea/QasarMasafi.html', 'QasarMasafi', 'MiddleEast', 'ae', 'United Arab Emirates', 'subterranea', 'ae', 'other', 25.326937, 56.167702);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Al Nahwah Cave', '/english/other/caves/AlNahwah.html', 'AlNahwah', 'MiddleEast', 'ae', 'United Arab Emirates', 'caves', 'ae', 'other', 25.274900, 56.272987);
