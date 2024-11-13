@@ -22,3 +22,15 @@ UPDATE `sights`
 SET `Latitude`='44.1197837',
     `Longitude`='7.8954581'
 WHERE `filename` = '/english/it/subterranea/Messere.html';
+UPDATE `sights`
+SET `Latitude`='47.2517752',
+    `Longitude`='14.4865670'
+WHERE `filename` = '/english/at/mines/Oberzeiring.html';
+UPDATE `sights`
+SET `Latitude`='47.6489065',
+    `Longitude`='13.2842045'
+WHERE `filename` = '/english/at/caves/FeuchterKeller.html';
+UPDATE `sights`
+SET `Latitude`='47.7847389',
+    `Longitude`='15.3435215'
+WHERE `filename` = '/english/at/caves/Hohlenstein.html';
