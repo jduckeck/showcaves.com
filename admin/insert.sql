@@ -34,3 +34,11 @@ UPDATE `sights`
 SET `Latitude`='47.7847389',
     `Longitude`='15.3435215'
 WHERE `filename` = '/english/at/caves/Hohlenstein.html';
+UPDATE `sights`
+SET `Latitude`='35.3082150',
+    `Longitude`='25.5779611'
+WHERE `filename` = '/english/gr/caves/Milatos.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Saint Andrew the Hermit', '/english/gr/caves/AgiosAndreas.html', 'AgiosAndreas', 'Europe', 'gr', 'Greece', 'caves', 'WesternGreece', 38.9923438, 21.3827348);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Andreas Cave', '/english/gr/caves/Andreas.html', 'Andreas', 'Europe', 'gr', 'Greece', 'caves', 'Crete', 35.3265885, 25.5861629);
