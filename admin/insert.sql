@@ -42,3 +42,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Saint Andrew the Hermit', '/english/gr/caves/AgiosAndreas.html', 'AgiosAndreas', 'Europe', 'gr', 'Greece', 'caves', 'WesternGreece', 38.9923438, 21.3827348);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Andreas Cave', '/english/gr/caves/Andreas.html', 'Andreas', 'Europe', 'gr', 'Greece', 'caves', 'Crete', 35.3265885, 25.5861629);
+UPDATE `sights`
+SET `Latitude`='44.3402342',
+    `Longitude`='7.7432310'
+WHERE `filename` = '/english/it/showcaves/Dossi.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave of Pythagoras', '/english/gr/caves/Pythagoras.html', 'Pythagoras', 'Europe', 'gr', 'Greece', 'caves', 'NorthAegean', 37.7283509, 26.6593376);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave Church of St. Anthony', '/english/gr/caves/AgiosAntoniosSamos.html', 'AgiosAntoniosSamos', 'Europe', 'gr', 'Greece', 'caves', 'NorthAegean', 37.7927773, 26.6776084);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kakoperato Cave', '/english/gr/caves/Kakoperato.html', 'Kakoperato', 'Europe', 'gr', 'Greece', 'caves', 'NorthAegean', 37.7498617, 26.6456077);
