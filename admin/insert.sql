@@ -10,3 +10,5 @@ INSERT INTO `static` (`path`)
 VALUES ('/german/explain/Misc/AI.html');
 INSERT INTO `static` (`path`)
 VALUES ('/english/explain/Misc/AI.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Taforalt', '/english/ma/caves/Taforalt.html', 'Taforalt', 'Africa', 'ma', 'Morocco', 'caves', 'Oriental', 34.8138284, -2.4037466);
