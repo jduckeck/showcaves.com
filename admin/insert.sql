@@ -1,3 +1,5 @@
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'La maison des Terrils', '/english/be/mines/Terrils.html', 'Terrils', 'Europe', 'be', 'Belgium', 'mines', 'Liege', 50.6287510, 5.5115341);
 UPDATE `sights`
 SET `Latitude`='35.2082840',`Longitude`='24.8288981'
 WHERE `filename`='/english/gr/caves/IdaioAndro.html';
