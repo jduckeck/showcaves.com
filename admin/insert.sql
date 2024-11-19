@@ -16,3 +16,15 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wat Tham Khao Kuha', '/english/th/caves/KhaoKuha.html', 'KhaoKuha', 'Asia', 'th', 'Thailand', 'caves', 'SuratThani', 9.1545867, 99.4707766);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Buca del Corno', '/english/it/showcaves/Corno.html', 'Corno', 'Europe', 'it', 'Italy', 'showcaves', 'Lombardia', 45.6943539, 9.8801034);
+UPDATE `sights`
+SET `Latitude`='41.094259',
+    `Longitude`='16.076351'
+WHERE `filename` = '/english/it/caves/SanMicheleMinervinoMurge.html';
+UPDATE `sights`
+SET `Latitude`='42.3794997',
+    `Longitude`='12.8288346'
+WHERE `filename` = '/english/it/caves/SacroSpeco.html';
+UPDATE `sights`
+SET `Latitude`='40.6933242',
+    `Longitude`='15.1481749'
+WHERE `filename` = '/english/it/caves/SanMicheleCampagna.html';
