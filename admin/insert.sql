@@ -28,3 +28,7 @@ UPDATE `sights`
 SET `Latitude`='40.6933242',
     `Longitude`='15.1481749'
 WHERE `filename` = '/english/it/caves/SanMicheleCampagna.html';
+INSERT INTO static (path)
+VALUES ('/english/explain/Mining/SlagHeap.html');
+INSERT INTO static (path)
+VALUES ('/german/explain/Mining/SlagHeap.html');
