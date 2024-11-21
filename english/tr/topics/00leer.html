@@ -20,14 +20,14 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="Longest Caves of Turkey Turkey Karst Areas showcaves.com">
+    <meta name="description" content="Turkey by Topic: $Topic$">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Karst Areas of Turkey: Longest Caves of Turkey"/>
+    <meta property="og:title" content="Turkey by Topic: $Topic$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Karst Areas of Turkey: Longest Caves of Turkey</title>
+    <title>Turkey by Topic: $Topic$</title>
 </head>
 
 <body>
@@ -35,9 +35,33 @@
     <div data-role="main" class="ui-content">
 
         <!--
-        <li><a data-ajax="false" target="_top" href="../region/Longest.html">Longest Caves of Turkey</a></li>
-         -->
+            <li><a data-ajax="false" target="_top" href="../../tr/topics/$FileName$.html"><img alt="Topic" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">$Topic$</a></li>
+            <a target="_top" href="../../../english/tr/topics/$FileName$.html"><img alt="Topic" class="symbol" src="../../../graphics/symbol/Topic.png">$Topic$</a>
+        INSERT INTO static (path)
+        VALUES('/english/tr/topics/$FileName$.html');
+       -->
 
+        <h1 class="center">$Topic$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <p>
+        </p>
+
+
+        <br>
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+        </ul>
+
+        <br class="clear">
+
+        <ul class="linklist" data-role="listview" data-inset="true">
+            <li data-role="list-divider">See also</li>
+            <li><a target="_blank" href="https://www.google.com/search?q=$Topic$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Search Google for "$Topic$"</a></li>
+            <li><a target="_blank" href="https://en.wikipedia.org/wiki/$Topic$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$Topic$ - Wikipedia</a></li>
+        </ul>
 
     </div>
 
@@ -47,6 +71,8 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Turkey</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Topics</a></li>
+                <!--                <li><a data-ajax="false" target="_top" href="../../../german/tr/topics/$FileName$.html"><img alt="Deutsch" src="../../../graphics/language/de.png" class="language"></a></li>-->
             </ul>
         </div>
     </div>
