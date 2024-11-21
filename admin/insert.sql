@@ -14,3 +14,7 @@ UPDATE `sights`
 SET `Latitude`='50.8505012',
     `Longitude`='2.8911355'
 WHERE `filename` = '/english/be/subterranea/KasemattenBrasserie.html';
+UPDATE `sights`
+SET `Latitude`='35.958201',
+    `Longitude`='14.352117'
+WHERE `filename` = '/english/mt/caves/Mellieha.html';
