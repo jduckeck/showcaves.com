@@ -8,3 +8,7 @@ UPDATE `sights`
 SET `Latitude`='45.5882439',
     `Longitude`='-73.6079501'
 WHERE `filename` = '/english/ca/showcaves/SaintLeonard.html';
+UPDATE `sights`
+SET `Latitude`='45.7314221',
+    `Longitude`='6.2987728'
+WHERE `filename` = '/english/fr/showcaves/Seythenex.html';
