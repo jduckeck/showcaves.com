@@ -20,3 +20,7 @@ UPDATE `sights`
 SET `Latitude`='49.5136240',
     `Longitude`='7.6022251'
 WHERE `filename` = '/english/de/mines/Erzenhausen.html';
+UPDATE `sights`
+SET `Latitude`='45.7884190',
+    `Longitude`='9.6353858'
+WHERE `filename` = '/english/it/caves/Meraviglie.html';
