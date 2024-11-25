@@ -24,3 +24,5 @@ UPDATE `sights`
 SET `Latitude`='45.7884190',
     `Longitude`='9.6353858'
 WHERE `filename` = '/english/it/caves/Meraviglie.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cùel Zanzanù', '/english/it/caves/Zanzanu.html', 'Zanzanu', 'Europe', 'it', 'Italy', 'caves', 'Lombardia', 45.7440513, 10.6228560);
