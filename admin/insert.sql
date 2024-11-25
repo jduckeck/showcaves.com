@@ -26,3 +26,9 @@ SET `Latitude`='45.7884190',
 WHERE `filename` = '/english/it/caves/Meraviglie.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cùel Zanzanù', '/english/it/caves/Zanzanu.html', 'Zanzanu', 'Europe', 'it', 'Italy', 'caves', 'Lombardia', 45.7440513, 10.6228560);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maramec Spring', '/english/usa/springs/Maramec.html', 'Maramec', 'NorthAmerica', 'usa', 'United States of America', 'springs', 'mo', 37.9533767, -91.5327539);
+UPDATE `sights`
+SET `Latitude`='38.2410599',
+    `Longitude`='-91.0921031'
+WHERE `filename` = '/english/usa/showcaves/Meramec.html';
