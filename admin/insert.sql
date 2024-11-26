@@ -32,3 +32,7 @@ UPDATE `sights`
 SET `Latitude`='38.2410599',
     `Longitude`='-91.0921031'
 WHERE `filename` = '/english/usa/showcaves/Meramec.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Labirinto di Roma', '/english/it/subterranea/LabirintoCaffarella.html', 'LabirintoCaffarella', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 41.860804, 12.517103);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Labirinto Casilino', '/english/it/subterranea/LabirintoCasilino.html', 'LabirintoCasilino', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 41.8831772, 12.5469332);
