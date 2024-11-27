@@ -137,29 +137,6 @@ hist table
             <td>$2</td>
         </tr>
 
-KML
-
-\<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
-\<styleUrl\>\#([a-zA-Z]+)_?\d+\<\/styleUrl\>
-<styleUrl>#$1</styleUrl>
-
-\<Style id\=\"sh_([^\d]+)\d+\"\>
-<Style id="sh_$1">
-
-\<Style id\=\"sn_([^\d]+)\d+\"\>
-<Style id="sn_$1">
-
-	<Style id="sh_([^\d]+)\d+">
-		<IconStyle>
-			<scale>1.\d</scale>
-			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/$1.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-
-test
-\<styleUrl\>\#[^cgkmst][^aoaihp]
 
 ---
 
@@ -192,7 +169,33 @@ kml
 
 \<styleUrl\>\#msn_(showcave|cave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
 
-^\w*<open>1</open>
+^\W*<open>1</open>
+
+KML old
+
+\<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
+\<styleUrl\>\#([a-zA-Z]+)_?\d+\<\/styleUrl\>
+<styleUrl>#$1</styleUrl>
+
+\<Style id\=\"sh_([^\d]+)\d+\"\>
+<Style id="sh_$1">
+
+\<Style id\=\"sn_([^\d]+)\d+\"\>
+<Style id="sn_$1">
+
+	<Style id="sh_([^\d]+)\d+">
+		<IconStyle>
+			<scale>1.\d</scale>
+			<Icon>
+				<href>http://www.showcaves.com/graphics/kmz/$1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+
+test
+\<styleUrl\>\#[^cgkmst][^aoaihp]
+
+-------------------------------------------------------------------------------------------------------------------------------
 
     \<\!\-\- Path Begin \-\-\>\n    \<div data\-role\=\"header\" data\-position\=\"fixed\"\>\n        \<div data\-role\=\"navbar\"\>\n            \<ul\>\n                \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/index\.html\"\>Main Index\<\/a\>\<\/li\>\n((.|\n)*)\n            \<\/ul\>\n        \<\/div\>\n    \<\/div\>\n    \<\!\-\- Path End \-\-\>\n
 
