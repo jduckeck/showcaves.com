@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Jinhuagong National Mine Park', '/english/cn/mines/Jinhuagong.html', 'Jinhuagong', 'Asia', 'cn', 'China', 'mines', 'Shanxi', 40.102958, 113.128699);
 INSERT INTO static (path)
 VALUES ('/english/cn/topics/MinePark.html');
+UPDATE `sights`
+SET `Latitude`='41.9769121',
+    `Longitude`='121.6980551'
+WHERE `filename` = '/english/cn/mines/Haizhou.html';
