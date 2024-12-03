@@ -28,3 +28,5 @@ UPDATE `sights`
 SET `Latitude`='41.9769121',
     `Longitude`='121.6980551'
 WHERE `filename` = '/english/cn/mines/Haizhou.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Yulong Dong', '/english/cn/showcaves/Yulong.html', 'Yulong', 'Asia', 'cn', 'China', 'showcaves', 'Anhui', 30.341059, 117.835234);
