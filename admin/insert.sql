@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Coal Museum of China', '/english/cn/mines/Taiyuan.html', 'Taiyuan', 'Asia', 'cn', 'China', 'mines', 'Shanxi', 37.8567817, 112.5223850);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Huangshi National Mine Park', '/english/cn/mines/Huangshi.html', 'Huangshi', 'Asia', 'cn', 'China', 'mines', 'Hubei', 30.2152499, 114.9083494);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jinhuagong National Mine Park', '/english/cn/mines/Jinhuagong.html', 'Jinhuagong', 'Asia', 'cn', 'China', 'mines', 'Shanxi', 40.102958, 113.128699);
+INSERT INTO static (path)
+VALUES ('/english/cn/topics/MinePark.html');
