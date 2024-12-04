@@ -40,3 +40,7 @@ UPDATE `sights`
 SET `Latitude`='41.835033',
     `Longitude`='123.852983'
 WHERE `filename` = '/english/cn/mines/Xilutian.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fengjie Shenxian Cave', '/english/cn/showcaves/FengjieShenxian.html', 'FengjieShenxian', 'Asia', 'cn', 'China', 'showcaves', 'Chongqing', 30.784364, 109.511992);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Qiaoshan Shenxian Cave', '/english/cn/showcaves/QiaoshanShenxian.html', 'QiaoshanShenxian', 'Asia', 'cn', 'China', 'showcaves', 'Anhui', 30.380957, 118.227300);
