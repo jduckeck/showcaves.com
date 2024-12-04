@@ -36,3 +36,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Xinmi Shenxian Cave', '/english/cn/showcaves/XinmiShenxian.html', 'XinmiShenxian', 'Asia', 'cn', 'China', 'showcaves', 'Henan', 34.62263768837902, 113.26921836938851);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Chaoyang Thousand Buddha Caves Scenic Area', '/english/cn/caves/Chaoyang.html', 'Chaoyang', 'Asia', 'cn', 'China', 'caves', 'Liaoning', 41.279222, 120.343095);
+UPDATE `sights`
+SET `Latitude`='41.835033',
+    `Longitude`='123.852983'
+WHERE `filename` = '/english/cn/mines/Xilutian.html';
