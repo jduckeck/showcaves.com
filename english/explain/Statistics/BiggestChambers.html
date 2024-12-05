@@ -35,6 +35,9 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <a target="_top" href="../../../english/explain/Statistics/BiggestChambers.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Biggest Underground Chambers</a>
+        -->
 
         <h1 class="center">Biggest Underground Chambers</h1>
         <h2 class="center"></h2>
@@ -47,30 +50,38 @@
         </p>
 
         <p class="indentedText">
-            How do you measure the size of an underground chamber?
-            In caves, it is rather difficult to determine exact volumes, as surveying just follows a single line.
-            You just get a sort of skeleton of the cave.
+            <b>How do you measure the size of an underground chamber?</b>
+            In caves, it is rather difficult to determine exact volumes, as surveying just follows a single line, and as a result you just get a sort of skeleton of the cave.
             The solution to measure surface and volume is to add the distance to walls, floor and ceiling.
-            You measure to the wall as often as possible.
-            In big chambers you may survey once along the wall.
+            Those values must be measured as often as possible, the accuracy may get really poor with too few measures.
+            In big chambers you may survey once along the wall, so you actually have the chance to compute the surface of the polygon.
             The height is determined using a thin rope and a gas filled balloon.
             This is also done as often as possible.
             The result is nevertheless very inaccurate concerning volume, but length and width are quite accurate.
         </p>
 
         <p class="indentedText">
-            As a result it is actually impossible to make a sort of ranking based on survey data.
-            While volume would be the best criteria for this, it is also the least accurate number.
-            This changed in recent years with the introduction of 3-D laser scanners.
-            They allow the scan of all walls and ceiling and the construction of a computer model.
-            Unfortunately the technology is very expensive and the survey is a lot of work.
-            While currently only a dozen caves was scanned so far, this might become the main surveying technique for such huge caverns in a few years.
+            As a result it is actually impossible to make a good ranking based on survey data.
+            While volume would be the best criteria for this, it is also the least accurate and requires an enormous amount of work.
+            As a result most volumes are actually estimations derived from the length, width and height, if you are lucky there are additional width measurements.
+            Ranking by area requires a survey along the wall and the computation of the surface as a polygon, again a lot of work, and again often simplified by a few shortcuts.
+            And a big drawback for both methods is the problem that parts of caves are typically not accessible, require climbing, are a sump or probably cave clay which is impossible to cross.
+            So rankings have been mostly by the length of the chamber, ignoring width and height.
+            At least this number could be determined with a certain accuracy, and there is a good classification for the accuracy by the BCRA, so the numbers are comparable.
+        </p>
+
+        <p class="indentedText">
+            But obviously <b>volume</b> is the best way to measure the size of a chamber, unfortunately it was very difficult to determine.
+            This changed in recent years with the introduction of 3-D laser scanners, which scan all walls, floor and ceiling and then a 3D computer model is created.
+            Such equipment is expensive and fragile, and not really suitable for caves.
+            And the survey is still a lot of work.
+            While currently only a dozen chambers were scanned, this might become the main surveying technique for such huge caverns in a few years.
         </p>
 
         <p class="indentedText">
             The official list is linked below.
             Our topic is tourist sites, and so we made an excerpt.
-            The two biggest chambers plus all which are accessible in any way.
+            The two biggest chambers plus all which are accessible in any way by tourists.
             We were astonished how many on <b class="smallCaps">Bob</b>'s list with 38 chambers were actually show caves.
         </p>
 
@@ -92,51 +103,52 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td><a data-ajax="false" target="_top" href="../../../english/my/caves/GoodLuck.html"><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Sarawak Chamber</a></td>
-                <td>Good Luck Cave</td>
-                <td><a data-ajax="false" target="_top" href="../../../english/my/region/GunungMulu.html">Gunung Mulu National Park</a>, Sarawak, Malaysia.</td>
-                <td>641 m</td>
-                <td>429 m</td>
-                <td>113 m</td>
-                <td>154,530 m²</td>
-                <td>9,670,000 m³</td>
-                <td>This is the biggest cavern (the biggest single chamber) of the world, accessible only to cavers</td>
-            </tr>
 
             <tr>
                 <td>Miao Room</td>
                 <td>Gebihe system</td>
                 <td>China</td>
-                <td>824 m</td>
-                <td>336 m</td>
-                <td>177 m</td>
-                <td>140,540 m²</td>
-                <td>10,570,000 m³</td>
-                <td>This is also the biggest cavern (the biggest single chamber) of the world, accessible only to cavers</td>
+                <td class="right">824 m</td>
+                <td class="right">336 m</td>
+                <td class="right">177 m</td>
+                <td class="right">140,540 m²</td>
+                <td class="right">10,570,000 m³</td>
+                <td>This is the biggest chamber of the world, accessible only to cavers</td>
+            </tr>
+
+            <tr>
+                <td><a data-ajax="false" target="_top" href="../../../english/my/caves/GoodLuck.html"><img alt="Cave" class="symbol" src="../../../graphics/symbol/Cave.png">Sarawak Chamber</a></td>
+                <td>Good Luck Cave</td>
+                <td><a data-ajax="false" target="_top" href="../../../english/my/region/GunungMulu.html">Gunung Mulu National Park</a>, Sarawak, Malaysia.</td>
+                <td class="right">641 m</td>
+                <td class="right">429 m</td>
+                <td class="right">113 m</td>
+                <td class="right">154,530 m²</td>
+                <td class="right">9,670,000 m³</td>
+                <td>This is the biggest chamber of the world, accessible only to cavers</td>
             </tr>
 
             <tr>
                 <td>main passage</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/vn/showcaves/PhongNha.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Phong Nha Cave</a></td>
                 <td>Phong Nha-Ke Bang National Park, Quang Binh Province, Vietnam</td>
-                <td>3,100 m</td>
-                <td>80 m</td>
-                <td>180 m</td>
-                <td> m²</td>
-                <td> m³</td>
-                <td>This is also the biggest cavern (the biggest cave passage) of the world, accessible on cave trekking trips</td>
+                <td class="right">3,100 m</td>
+                <td class="right">80 m</td>
+                <td class="right">180 m</td>
+                <td class="right"> m²</td>
+                <td class="right"> m³</td>
+                <td>This is the biggest cave passage of the world, accessible on cave trekking trips</td>
             </tr>
 
             <tr>
                 <td><a data-ajax="false" target="_top" href="../../../english/om/caves/Majlis.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Majlis Al-Jin</a></td>
                 <td>Majlis Al-Jin</td>
                 <td>Oman</td>
-                <td>320 m</td>
-                <td>225 m</td>
-                <td>120 m</td>
-                <td>61,000 m²</td>
-                <td>4,090,000 m³</td>
+                <td class="right">320 m</td>
+                <td class="right">225 m</td>
+                <td class="right">120 m</td>
+                <td class="right">61,000 m²</td>
+                <td class="right">4,090,000 m³</td>
                 <td>A karstfenster in the middle of a huge chamber, can be seen from the rim.</td>
             </tr>
 
@@ -144,11 +156,11 @@
                 <td><a data-ajax="false" target="_top" href="../../../english/fr/showcaves/LaVerna.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">La salle de La Verna</a></td>
                 <td>Gouffre de la Pierre Saint Martin</td>
                 <td>France</td>
-                <td>255 m</td>
-                <td>245 m</td>
-                <td>199 m</td>
-                <td>43,000 m²</td>
-                <td>3,650,000 m³</td>
+                <td class="right">255 m</td>
+                <td class="right">245 m</td>
+                <td class="right">199 m</td>
+                <td class="right">43,000 m²</td>
+                <td class="right">3,650,000 m³</td>
                 <td>Easily accessible through a tunnel, but no further development and no light.</td>
             </tr>
 
@@ -156,11 +168,11 @@
                 <td>Salon de Gigantes</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/mx/showcaves/Bustamante.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Grutas de Bustamante</a></td>
                 <td>México</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>39,730 m²</td>
-                <td></td>
+                <td class="right">600</td>
+                <td class="right">100 m</td>
+                <td class="right">30 m</td>
+                <td class="right">39,730 m²</td>
+                <td class="right"> m³</td>
                 <td>show cave</td>
             </tr>
 
@@ -168,11 +180,11 @@
                 <td>main passage</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/my/showcaves/Deer.html"><img alt="Showcave" class="symbol" src="../../../graphics/symbol/Showcave.png">Gua Payau (Deer Cave)</a></td>
                 <td><a data-ajax="false" target="_top" href="../../../english/my/region/GunungMulu.html">Gunung Mulu National Park</a>, Sarawak, Malaysia.</td>
-                <td>870 m</td>
-                <td>177 m</td>
-                <td>270 m</td>
-                <td>38,600 m²</td>
-                <td>6,310,000 m³</td>
+                <td class="right">870 m</td>
+                <td class="right">177 m</td>
+                <td class="right">270 m</td>
+                <td class="right">38,600 m²</td>
+                <td class="right">6,310,000 m³</td>
                 <td>show cave</td>
             </tr>
 
@@ -180,11 +192,11 @@
                 <td>main passage</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/tr/caves/Kocain.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Kocaín Mağarası</a></td>
                 <td>Mediterranean Region, Turkey</td>
-                <td> m</td>
-                <td> m</td>
-                <td> m</td>
-                <td>37,200 m²</td>
-                <td> m³</td>
+                <td class="right">633 m</td>
+                <td class="right">100 m</td>
+                <td class="right"> m</td>
+                <td class="right">37,200 m²</td>
+                <td class="right"> m³</td>
                 <td>not developed but easy to visit</td>
             </tr>
 
@@ -192,23 +204,23 @@
                 <td>Big Room</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/usa/showcaves/Carlsbad.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Carlsbad Caverns</a></td>
                 <td><a data-ajax="false" target="_top" href="../../../english/usa/region/Carlsbad.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Region.png">Carlsbad Caverns National Park</a>, New Mexico, U.S.A.</td>
-                <td>1,200 m</td>
-                <td>190 m</td>
-                <td>78 m</td>
-                <td>33,210 m²</td>
-                <td> m³</td>
+                <td class="right">1,200 m</td>
+                <td class="right">190 m</td>
+                <td class="right">78 m</td>
+                <td class="right">33,210 m²</td>
+                <td class="right"> m³</td>
                 <td>show cave</td>
             </tr>
 
             <tr>
                 <td>main chamber</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/it/showcaves/Gigante.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Grotta Gigante</a></td>
-                <td></td>
-                <td>240 m</td>
-                <td>138 m</td>
-                <td>132 m</td>
-                <td>33,120 m²</td>
-                <td> m³</td>
+                <td>Italy</td>
+                <td class="right">240 m</td>
+                <td class="right">138 m</td>
+                <td class="right">132 m</td>
+                <td class="right">33,120 m²</td>
+                <td class="right"> m³</td>
                 <td>show cave</td>
             </tr>
 
@@ -216,11 +228,11 @@
                 <td>Martel's Chamber</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/si/showcaves/Skocjanske.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Skocjanske Jame (Skocjan Caves)</a></td>
                 <td>Slovenia</td>
-                <td>308 m</td>
-                <td>123 m</td>
-                <td>146 m</td>
-                <td>32,090 m²</td>
-                <td>2,200,000 m³</td>
+                <td class="right">308 m</td>
+                <td class="right">123 m</td>
+                <td class="right">146 m</td>
+                <td class="right">32,090 m²</td>
+                <td class="right">2,200,000 m³</td>
                 <td>not part of the show cave, but the show cave is only slightly smaller</td>
             </tr>
 
@@ -228,12 +240,24 @@
                 <td>main chamber/passage</td>
                 <td><a data-ajax="false" target="_top" href="../../../english/th/showcaves/PhuPhaPetch.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Phu Pha Petch Cave</a></td>
                 <td>Satun GeoPark, Satun Province, Thailand</td>
-                <td>623 m</td>
-                <td>150 m</td>
-                <td>58 m</td>
-                <td>30,500 m²</td>
-                <td> m³</td>
+                <td class="right">623 m</td>
+                <td class="right">150 m</td>
+                <td class="right">58 m</td>
+                <td class="right">30,500 m²</td>
+                <td class="right"> m³</td>
                 <td>show cave</td>
+            </tr>
+
+            <tr>
+                <td>main chamber</td>
+                <td><a data-ajax="false" target="_top" href="../../cn/showcaves/Baqi.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Baqi Dong</a></td>
+                <td>Beijing Province, China</td>
+                <td class="right">200 m</td>
+                <td class="right">130 m</td>
+                <td class="right">110 m</td>
+                <td class="right"> m²</td>
+                <td class="right"> m³</td>
+                <td>the 100 m high vertical wall was used to install a ‘wall cinema’, the wall is used as a screen.</td>
             </tr>
 
             <!--
@@ -241,11 +265,11 @@
                        <td></td>
                        <td></td>
                        <td></td>
-                       <td> m</td>
-                       <td> m</td>
-                       <td> m</td>
-                       <td> m²</td>
-                       <td> m³</td>
+                       <td class="right"> m</td>
+                       <td class="right"> m</td>
+                       <td class="right"> m</td>
+                       <td class="right"> m²</td>
+                       <td class="right"> m³</td>
                        <td></td>
                        </tr>
 
