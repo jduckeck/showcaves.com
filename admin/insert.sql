@@ -10,3 +10,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yeren Dong', '/english/cn/showcaves/Yeren.html', 'Yeren', 'Asia', 'cn', 'China', 'showcaves', 'Hubei', 31.9188745, 110.7320487);
 INSERT INTO static (path)
 VALUES ('/english/cn/topics/Yeren.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Long Lin Palace', '/english/cn/showcaves/LongLinPalace.html', 'LongLinPalace', 'Asia', 'cn', 'China', 'showcaves', 'Hubei', 30.259649, 109.413821);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Yinshui Dong', '/english/cn/showcaves/Yinshui.html', 'Yinshui', 'Asia', 'cn', 'China', 'showcaves', 'Hubei', 29.663711, 114.630421);
