@@ -20,3 +20,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yanziya Scenic Area', '/english/cn/caves/Yanziya.html', 'Yanziya', 'Asia', 'cn', 'China', 'caves', 'Hubei', 31.7163946, 110.4597241);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Shuicheng Natural Bridge', '/english/cn/karst/Shuicheng.html', 'Shuicheng', 'Asia', 'cn', 'China', 'karst', 'Guizhou', 26.891469, 105.009884);
+INSERT INTO static (path)
+VALUES ('/english/cn/topics/Immortals.html');
+UPDATE `sights`
+SET `Latitude`='30.385986',
+    `Longitude`='118.235461'
+WHERE `filename` = '/english/cn/showcaves/QiaoshanShenxian.html';
