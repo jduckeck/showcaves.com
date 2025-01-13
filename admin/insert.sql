@@ -26,3 +26,5 @@ UPDATE `sights`
 SET `Latitude`='30.385986',
     `Longitude`='118.235461'
 WHERE `filename` = '/english/cn/showcaves/QiaoshanShenxian.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ruifeng Temple', '/english/cn/caves/Ruifeng.html', 'Ruifeng', 'Asia', 'cn', 'China', 'caves', 'Guizhou', 28.539897, 106.799691);
