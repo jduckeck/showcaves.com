@@ -28,3 +28,5 @@ SET `Latitude`='30.385986',
 WHERE `filename` = '/english/cn/showcaves/QiaoshanShenxian.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ruifeng Temple', '/english/cn/caves/Ruifeng.html', 'Ruifeng', 'Asia', 'cn', 'China', 'caves', 'Guizhou', 28.539897, 106.799691);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lichuan Yulong Cave', '/english/cn/showcaves/YulongLichuan.html', 'YulongLichuan', 'Asia', 'cn', 'China', 'showcaves', 'Hubei', 30.389433, 109.125397);
