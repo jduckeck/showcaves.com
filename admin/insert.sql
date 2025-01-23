@@ -16,3 +16,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sanmenhai Water Caves', '/english/cn/showcaves/Sanmenhai.html', 'Sanmenhai', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.4109171, 107.0308650);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Yuanyang Cave', '/english/cn/showcaves/Yuanyang.html', 'Yuanyang', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.542278, 107.062964);
+UPDATE `sights`
+SET `Latitude`='24.315095',
+    `Longitude`='107.089704'
+WHERE `filename` = '/english/cn/showcaves/Bama.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tongshou Mountain', '/english/cn/showcaves/Tongshou.html', 'Tongshou', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.3907745, 107.0634029);
