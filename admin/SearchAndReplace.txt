@@ -235,3 +235,7 @@ update index files
 osm
 \"https\:\/\/www\.openstreetmap\.org\/\#map\=(\d+)\/(.+?)\/(.+?)\"
 "https://www.openstreetmap.org/?mlat=$2&mlon=$3&zoom=$1#map=$1/$2/$3"
+
+update db
+
+UPDATE 'sights' SET 'name' = REPLACE('name', "'", "’");
