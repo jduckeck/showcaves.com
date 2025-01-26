@@ -6,3 +6,5 @@ UPDATE `sights`
 SET `Latitude`='20.660818',
     `Longitude`='-88.242542'
 WHERE `filename` = '/english/mx/karst/Dzitnup.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hoyo Soplador', '/english/co/caves/HoyoSoplador.html', 'HoyoSoplador', 'SouthAmerica', 'co', 'Colombia', 'caves', 'SanAndres', 12.4813583, -81.7311075);
