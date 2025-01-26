@@ -8,3 +8,5 @@ SET `Latitude`='20.660818',
 WHERE `filename` = '/english/mx/karst/Dzitnup.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hoyo Soplador', '/english/co/caves/HoyoSoplador.html', 'HoyoSoplador', 'SouthAmerica', 'co', 'Colombia', 'caves', 'SanAndres', 12.4813583, -81.7311075);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta dos Palhares', '/english/br/showcaves/Palhares.html', 'Palhares', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'MinasGerais', -19.93175745348328, -47.46665920593547);
