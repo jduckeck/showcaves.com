@@ -38,7 +38,7 @@
 
 
         <h1 class="center">English-German Dictionary</h1>
-        <h2 align=center></h2>
+        <h2 class=center></h2>
 
         <hr>
 
