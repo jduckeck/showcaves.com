@@ -57,8 +57,17 @@ authors:
 (.+?)[,] ([A-Z].*[\.]);
 <b class="smallCaps">$2 $1</b>
 
+find malformed authors
+<b class="smallCaps">([^<]+?)[,]
+
 <b class="smallCaps">([^<]+?), ([^<]+?)</b>
 <b class="smallCaps">$2 $1</b>
+
+<b class="smallCaps">([^<]+?), ([^<]+?) &</b>
+<b class="smallCaps">$2 $1</b>
+
+<b class="smallCaps">([^<]+?), ([^<]+?) &
+<b class="smallCaps">$2 $1</b>, <b class="smallCaps">
 
  &
 </b>, <b class="smallCaps">
