@@ -17,3 +17,7 @@ UPDATE `sights`
 SET `Latitude`='12.6141797',
     `Longitude`='80.1912288'
 WHERE `filename` = '/english/in/subterranea/Mahabalipuram.html';
+UPDATE `sights`
+SET `Latitude`='18.52694',
+    `Longitude`='73.849882'
+WHERE `filename` = '/english/in/subterranea/Pataleshwar.html';
