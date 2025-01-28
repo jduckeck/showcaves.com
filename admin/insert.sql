@@ -21,3 +21,5 @@ UPDATE `sights`
 SET `Latitude`='18.52694',
     `Longitude`='73.849882'
 WHERE `filename` = '/english/in/subterranea/Pataleshwar.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Baneshwar Cave Temple', '/english/in/subterranea/Baneshwar.html', 'Baneshwar', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.558837, 73.787059);
