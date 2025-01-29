@@ -25,3 +25,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Baneshwar Cave Temple', '/english/in/subterranea/Baneshwar.html', 'Baneshwar', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.558837, 73.787059);
 INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 1, 'Pukaway Cave Underground Lake', '/english/ph/caves/Pukaway.html', 'Pukaway', 'Asia', 'ph', 'The Philippines', 'caves', 'Mimaropa', 11.962956945077051, 120.22995867626169);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Dr. Bhol Klipbua Mine Tunnel', '/english/th/mines/BholKlipbua.html', 'BholKlipbua', 'Asia', 'th', 'Thailand', 'mines', 'Kanchanaburi', 14.746940, 98.814363);
