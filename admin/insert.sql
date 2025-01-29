@@ -23,3 +23,5 @@ SET `Latitude`='18.52694',
 WHERE `filename` = '/english/in/subterranea/Pataleshwar.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Baneshwar Cave Temple', '/english/in/subterranea/Baneshwar.html', 'Baneshwar', 'Asia', 'in', 'India', 'subterranea', 'Maharashtra', 18.558837, 73.787059);
+INSERT INTO sights (visible, closed, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 1, 'Pukaway Cave Underground Lake', '/english/ph/caves/Pukaway.html', 'Pukaway', 'Asia', 'ph', 'The Philippines', 'caves', 'Mimaropa', 11.962956945077051, 120.22995867626169);
