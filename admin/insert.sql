@@ -10,3 +10,7 @@ UPDATE `sights`
 SET `Latitude`='26.5971618',
     `Longitude`='106.6907408'
 WHERE `filename` = '/english/cn/showcaves/Qilin.html';
+UPDATE `sights`
+SET `Latitude`='25.625643',
+    `Longitude`='104.7498213'
+WHERE `filename` = '/english/cn/caves/PanxianDadong.html';
