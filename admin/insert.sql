@@ -18,3 +18,6 @@ UPDATE `sights`
 SET `Latitude`='27.705477',
     `Longitude`='109.326674'
 WHERE `filename` = '/english/cn/showcaves/Jiulong.html';
+UPDATE `sights`
+SET `Latitude`='49.3452238',`Longitude`='-124.7548281'
+WHERE `filename`='/english/ca/caves/HorneLake.html';
