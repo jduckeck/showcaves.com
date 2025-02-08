@@ -21,3 +21,21 @@ WHERE `filename` = '/english/cn/showcaves/Jiulong.html';
 UPDATE `sights`
 SET `Latitude`='49.3452238',`Longitude`='-124.7548281'
 WHERE `filename`='/english/ca/caves/HorneLake.html';
+UPDATE `sights`
+SET `Latitude`='49.8190489',
+    `Longitude`='-126.2434184'
+WHERE `filename` = '/english/ca/caves/Upana.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Khao Rup Chang Cave Temple', '/english/th/caves/KhaoRupChang.html', 'KhaoRupChang', 'Asia', 'th', 'Thailand', 'caves', 'Songkhla', 6.715678, 100.276647);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Air Raid Shelters of Mellieħa', '/english/mt/subterranea/AirRaidSheltersMellieha.html', 'AirRaidSheltersMellieha', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.9600012, 14.3613148);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Our Lady Of The Grotto', '/english/mt/caves/OurLadyMellieha.html', 'OurLadyMellieha', 'Europe', 'mt', 'Malta', 'caves', 'Malta', 35.960358, 14.361234);
+UPDATE `sights`
+SET `Latitude`='36.053769',
+    `Longitude`='14.191082'
+WHERE `filename` = '/english/mt/caves/InlandSea.html';
+UPDATE `sights`
+SET `Latitude`='36.0535616',
+    `Longitude`='14.1882582'
+WHERE `filename` = '/english/mt/caves/TieqaZera.html';
