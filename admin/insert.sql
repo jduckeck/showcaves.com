@@ -41,3 +41,15 @@ SET `Latitude`='36.0535616',
 WHERE `filename` = '/english/mt/caves/TieqaZera.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Khao Chang Lon Cave', '/english/th/caves/KhaoChangLon.html', 'KhaoChangLon', 'Asia', 'th', 'Thailand', 'caves', 'Songkhla', 7.191866, 100.284608);
+UPDATE `sights`
+SET `Latitude`='35.8268645',
+    `Longitude`='14.4234201'
+WHERE `filename` = '/english/mt/caves/Lapsi.html';
+UPDATE `sights`
+SET `Latitude`='35.8211884',
+    `Longitude`='14.4566207'
+WHERE `filename` = '/english/mt/caves/Blue.html';
+UPDATE `sights`
+SET `Latitude`='35.868582',
+    `Longitude`='14.573982'
+WHERE `filename` = '/english/mt/caves/Id-Duhan.html';
