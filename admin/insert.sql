@@ -60,3 +60,7 @@ SET `Latitude`='35.8308520',
 WHERE `filename` = '/english/mt/karst/IlMaqluba.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Għar Tuta', '/english/mt/karst/Tuta.html', 'Tuta', 'Europe', 'mt', 'Malta', 'karst', 'Malta', 35.9774415, 14.3286331);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'L-Għar ta´San Martin', '/english/mt/subterranea/SanMartin.html', 'SanMartin', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.9324002, 14.3765982);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pergola Hotel Cave Bar', '/english/mt/subterranea/PergolaCaveBar.html', 'PergolaCaveBar', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.959610, 14.363462);
