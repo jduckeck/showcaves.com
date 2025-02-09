@@ -51,5 +51,12 @@ SET `Latitude`='35.8211884',
 WHERE `filename` = '/english/mt/caves/Blue.html';
 UPDATE `sights`
 SET `Latitude`='35.868582',
-    `Longitude`='14.573982'
+    `Longitude`='14.573982',
+    `filename` = '/english/mt/caves/IdDuhhan.html'
 WHERE `filename` = '/english/mt/caves/Id-Duhan.html';
+UPDATE `sights`
+SET `Latitude`='35.8308520',
+    `Longitude`='14.4574265'
+WHERE `filename` = '/english/mt/karst/IlMaqluba.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Għar Tuta', '/english/mt/karst/Tuta.html', 'Tuta', 'Europe', 'mt', 'Malta', 'karst', 'Malta', 35.9774415, 14.3286331);
