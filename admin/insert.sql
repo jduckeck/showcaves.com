@@ -68,3 +68,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Churchill', '/english/mt/subterranea/Churchill.html', 'Churchill', 'Europe', 'mt', 'Malta', 'subterranea', 'Gozo', 36.0297244, 14.2170962);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Xlendi Emergency Flour Mill', '/english/mt/subterranea/Xlendi.html', 'Xlendi', 'Europe', 'mt', 'Malta', 'subterranea', 'Gozo', 36.0320664, 14.2195107);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Chapel of St. Paul the Hermit', '/english/mt/caves/StPaulTheHermit.html', 'StPaulTheHermit', 'Europe', 'mt', 'Malta', 'caves', 'Malta', 35.9210297, 14.4288908);
