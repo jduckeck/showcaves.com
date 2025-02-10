@@ -91,3 +91,7 @@ SET `Latitude`='35.8067643',
     `Longitude`='14.5182220',
     `name`='Għar Ħasan'
 WHERE `filename` = '/english/mt/showcaves/Hasan.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Avakas Gorge Trail', '/english/cy/gorges/Avakas.html', 'Avakas', 'Europe', 'cy', 'Cyprus', 'gorges', 'Paphos', 34.9205942, 32.3378153);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Loutra tis Afroditis', '/english/cy/karst/Afroditis.html', 'Afroditis', 'Europe', 'cy', 'Cyprus', 'karst', 'Paphos', 35.0563599, 32.3438545);
