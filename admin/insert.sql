@@ -84,3 +84,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Il-Hofra tal-Mellieha', '/english/mt/karst/IlHofra.html', 'IlHofra', 'Europe', 'mt', 'Malta', 'karst', 'Malta', 35.956447, 14.390234);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Wied il-Mielah Window', '/english/mt/karst/WiedIlMielah.html', 'WiedIlMielah', 'Europe', 'mt', 'Malta', 'karst', 'Gozo', 36.0796725, 14.2128928);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Għar  ta’ Karolina', '/english/mt/caves/Karolina.html', 'Karolina', 'Europe', 'mt', 'Malta', 'caves', 'Gozo', 36.0301176, 14.2156564);
