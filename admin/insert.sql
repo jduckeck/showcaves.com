@@ -76,3 +76,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sikia Cave', '/english/gr/karst/Sikia.html', 'Sikia', 'Europe', 'gr', 'Greece', 'karst', 'SouthAegean', 36.6677560, 24.3205698);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Schere Complex', '/english/mt/subterranea/SchereComplex.html', 'SchereComplex', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.9563063, 14.3627799);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotto Tavern', '/english/mt/subterranea/GrottoTavern.html', 'GrottoTavern', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.8821294, 14.3988180);
