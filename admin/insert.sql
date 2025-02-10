@@ -80,3 +80,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotto Tavern', '/english/mt/subterranea/GrottoTavern.html', 'GrottoTavern', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.8821294, 14.3988180);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Coral Lagoon', '/english/mt/karst/Coral.html', 'Coral', 'Europe', 'mt', 'Malta', 'karst', 'Malta', 35.9978230, 14.3677703);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Il-Hofra tal-Mellieha', '/english/mt/karst/IlHofra.html', 'IlHofra', 'Europe', 'mt', 'Malta', 'karst', 'Malta', 35.956447, 14.390234);
