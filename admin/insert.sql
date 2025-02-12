@@ -30,7 +30,7 @@ VALUES ('yes', 'Khao Rup Chang Cave Temple', '/english/th/caves/KhaoRupChang.htm
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Air Raid Shelters of Mellieħa', '/english/mt/subterranea/AirRaidSheltersMellieha.html', 'AirRaidSheltersMellieha', 'Europe', 'mt', 'Malta', 'subterranea', 'Malta', 35.9600012, 14.3613148);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Our Lady Of The Grotto', '/english/mt/caves/OurLadyMellieha.html', 'OurLadyMellieha', 'Europe', 'mt', 'Malta', 'caves', 'Malta', 35.960358, 14.361234);
+VALUES ('yes', 'Our Lady Of The Grotto', '/english/mt/caves/OurLadyMellieha.html', 'OurLadyMellieha', 'Europe', 'mt', 'Malta', 'caves', 'Malta', 35.9602172, 14.3620406);
 UPDATE `sights`
 SET `Latitude`='36.053769',
     `Longitude`='14.191082'
