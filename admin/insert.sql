@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Tunqui Cueva', '/english/pe/showcaves/Tunqui.html', 'Tunqui', 'SouthAmerica', 'pe', 'Perú', 'showcaves', 'Pasco', -10.6061246, -75.4296177);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva del Diamante', '/english/pe/caves/Diamante.html', 'Diamante', 'SouthAmerica', 'pe', 'Perú', 'caves', 'SanMartin', -5.7532406, -77.5257920);
+UPDATE `sights`
+SET `Latitude`='-11.268056',
+    `Longitude`='-75.787237'
+WHERE `filename` = '/english/pe/caves/Huagapo.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva Sia Sia', '/english/pe/caves/SiaSia.html', 'SiaSia', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Pasco', -10.6546909, -75.4502533);
