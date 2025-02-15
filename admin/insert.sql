@@ -18,3 +18,5 @@ SET `Latitude`='-11.268056',
 WHERE `filename` = '/english/pe/caves/Huagapo.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva Sia Sia', '/english/pe/caves/SiaSia.html', 'SiaSia', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Pasco', -10.6546909, -75.4502533);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de Callacpuma', '/english/pe/caves/Callacpuma.html', 'Callacpuma', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Cajamarca', -7.1845494, -78.4398653);
