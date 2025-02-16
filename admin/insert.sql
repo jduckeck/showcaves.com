@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva Sia Sia', '/english/pe/caves/SiaSia.html', 'SiaSia', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Pasco', -10.6546909, -75.4502533);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva de Callacpuma', '/english/pe/caves/Callacpuma.html', 'Callacpuma', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Cajamarca', -7.1845494, -78.4398653);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hotel Urashima', '/english/jp/caves/Urashima.html', 'Urashima', 'Asia', 'jp', 'Japan', 'caves', 'Wakayama', 33.6248943, 135.9522889);
