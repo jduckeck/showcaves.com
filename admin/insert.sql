@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Hotel Urashima', '/english/jp/caves/Urashima.html', 'Urashima', 'Asia', 'jp', 'Japan', 'caves', 'Wakayama', 33.6248943, 135.9522889);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Aso Windhole', '/english/jp/showcaves/Aso.html', 'Aso', 'Asia', 'jp', 'Japan', 'showcaves', 'Mie', 34.3355359, 136.4438801);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ugetoiwa', '/english/jp/karst/Ugetoiwa.html', 'Ugetoiwa', 'Asia', 'jp', 'Japan', 'karst', 'Kumamoto', 32.8532335, 131.1580666);
