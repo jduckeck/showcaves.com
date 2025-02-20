@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'El Depósito', '/english/ph/subterranea/ElDeposito.html', 'ElDeposito', 'Asia', 'ph', 'The Philippines', 'subterranea', 'MetroManila', 14.604222, 121.031764);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Luyang Cave', '/english/ph/caves/Luyang.html', 'Luyang', 'Asia', 'ph', 'The Philippines', 'caves', 'Bicol', 13.6044426, 124.1342648);
+UPDATE `sights`
+SET `Latitude`='15.107965',
+    `Longitude`='121.075940'
+WHERE `filename` = '/english/ph/caves/BahayPaniki.html';
+UPDATE `sights`
+SET `Latitude`='14.3884763',
+    `Longitude`='120.5919027'
+WHERE `filename` = '/english/ph/subterranea/Malinta.html';
