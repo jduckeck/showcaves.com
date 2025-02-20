@@ -5,4 +5,6 @@ VALUES ('yes', 'Felsentor Unteremmendorf', '/english/de/karst/Unteremmendorf.htm
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Cistern of the Convent of San Francesco', '/english/other/subterranea/SanFrancesco.html', 'SanFrancesco', 'Europe', 'sm', 'San Marino', 'subterranea', 'sm', 'other', 43.9354523, 12.4471593);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'El Deposito', '/english/ph/subterranea/ElDeposito.html', 'ElDeposito', 'Asia', 'ph', 'The Philippines', 'subterranea', 'MetroManila', 14.604222, 121.031764);
+VALUES ('yes', 'El Depósito', '/english/ph/subterranea/ElDeposito.html', 'ElDeposito', 'Asia', 'ph', 'The Philippines', 'subterranea', 'MetroManila', 14.604222, 121.031764);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Luyang Cave', '/english/ph/caves/Luyang.html', 'Luyang', 'Asia', 'ph', 'The Philippines', 'caves', 'Bicol', 13.6044426, 124.1342648);
