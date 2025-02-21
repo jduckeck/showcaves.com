@@ -16,3 +16,8 @@ UPDATE `sights`
 SET `Latitude`='14.3884763',
     `Longitude`='120.5919027'
 WHERE `filename` = '/english/ph/subterranea/Malinta.html';
+UPDATE `sights`
+SET `Latitude`='29.8881899',`Longitude`='119.5314124'
+WHERE `filename`='/english/cn/showcaves/Yaolin.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Mingyan Ancient Temple', '/english/cn/caves/Mingyan.html', 'Mingyan', 'Asia', 'cn', 'China', 'caves', 'Zhejiang', 29.0885974, 120.8258318);
