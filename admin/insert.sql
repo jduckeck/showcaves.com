@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Shepan Island Quarry', '/english/cn/subterranea/ShepanIsland.html', 'ShepanIsland', 'Asia', 'cn', 'China', 'subterranea', 'Zhejiang', 29.143824, 121.584468);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES('yes','Alayeh Cave', '/english/other/caves/Alayeh.html', 'Alayeh', 'MiddleEast', 'ye', 'Yemen', 'caves', 'ye', 'other', 12.710100, 53.519454);
+UPDATE `sights`
+SET `Latitude`='12.587631',
+    `Longitude`='54.354481'
+WHERE `filename` = '/english/other/showcaves/Hoq.html';
