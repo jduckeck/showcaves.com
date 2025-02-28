@@ -20,3 +20,7 @@ UPDATE `sights`
 SET `Latitude`='12.587631',
     `Longitude`='54.354481'
 WHERE `filename` = '/english/other/showcaves/Hoq.html';
+UPDATE `sights`
+SET `Latitude`='15.108538',
+    `Longitude`='121.071890'
+WHERE `filename` = '/english/ph/caves/Aquinaldo.html';
