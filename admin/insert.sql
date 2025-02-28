@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Radensko polje', '/english/si/karst/Radensko.html', 'Radensko', 'Europe', 'si', 'Slovenia', 'karst', 'Dolenjska', 45.8975326, 14.6937212);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Shepan Island Quarry', '/english/cn/subterranea/ShepanIsland.html', 'ShepanIsland', 'Asia', 'cn', 'China', 'subterranea', 'Zhejiang', 29.143824, 121.584468);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES('yes','Alayeh Cave', '/english/other/caves/Alayeh.html', 'Alayeh', 'MiddleEast', 'ye', 'Yemen', 'caves', 'ye', 'other', 12.710100, 53.519454);
