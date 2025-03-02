@@ -24,3 +24,15 @@ UPDATE `sights`
 SET `Latitude`='15.108538',
     `Longitude`='121.071890'
 WHERE `filename` = '/english/ph/caves/Aquinaldo.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pangagawan Caves', '/english/ph/caves/Pangagawan.html', 'Pangagawan', 'Asia', 'ph', 'The Philippines', 'caves', 'Cordillera', 16.734377, 121.127478);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bintakan Cave', '/english/ph/caves/Bintakan.html', 'Bintakan', 'Asia', 'ph', 'The Philippines', 'caves', 'Cordillera', 16.784482, 121.121913);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Silop Caves', '/english/ph/caves/Silop.html', 'Silop', 'Asia', 'ph', 'The Philippines', 'caves', 'Caraga', 9.7402970, 125.5163459);
+UPDATE `sights`
+SET `Latitude`='44.9241301',
+    `Longitude`='0.9214273'
+WHERE `filename` = '/english/fr/showcaves/BaraBahau.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kutawato Cave', '/english/ph/caves/Kutawato.html', 'Kutawato', 'Asia', 'ph', 'The Philippines', 'caves', 'Bangsamoro', 7.2199567, 124.2420758);
