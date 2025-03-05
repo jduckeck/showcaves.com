@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Mabinay Spring', '/english/ph/springs/Mabinay.html', 'Mabinay', 'Asia', 'ph', 'The Philippines', 'springs', 'CentralVisayas', 9.719389, 122.932860);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Molnár János-barlang', '/english/hu/caves/MolnarJanos.html', 'MolnarJanos', 'Europe', 'hu', 'Hungary', 'caves', 'Budapest', 47.5181319, 19.0359332);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave Steam Bath "Parenica"', '/english/sk/springs/Parenica.html', 'Parenica', 'Europe', 'sk', 'Slovakia', 'springs', 'BanskaBystrica', 48.5273011, 18.8644994);
