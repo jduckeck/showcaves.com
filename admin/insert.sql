@@ -12,3 +12,13 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cave Steam Bath "Parenica"', '/english/sk/springs/Parenica.html', 'Parenica', 'Europe', 'sk', 'Slovakia', 'springs', 'BanskaBystrica', 48.5273011, 18.8644994);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hoyop-Hoyopan Cave', '/english/ph/showcaves/HoyopHoyopan.html', 'HoyopHoyopan', 'Asia', 'ph', 'The Philippines', 'showcaves', 'Bicol', 13.1207143, 123.6563101);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta dei Briganti', '/english/it/caves/Briganti.html', 'Briganti', 'Europe', 'it', 'Italy', 'caves', 'Pantelleria', 36.7775618, 12.0033015);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bagno Asciutto Grotta Di Benikulá', '/english/it/caves/Benikula.html', 'Benikula', 'Europe', 'it', 'Italy', 'caves', 'Pantelleria', 36.7765523, 11.9851071);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Arco dell’Elefante', '/english/it/karst/Elefante.html', 'Elefante', 'Europe', 'it', 'Italy', 'karst', 'Pantelleria', 36.7928981, 12.0535731);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta del Freddo', '/english/it/caves/Freddo.html', 'Freddo', 'Europe', 'it', 'Italy', 'caves', 'Pantelleria', 36.7928147, 11.9607626);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta di Sataría', '/english/it/caves/Sataria.html', 'Sataria', 'Europe', 'it', 'Italy', 'caves', 'Pantelleria', 36.7838564, 11.9515921);
