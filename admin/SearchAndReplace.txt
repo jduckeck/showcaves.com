@@ -239,3 +239,6 @@ osm
 update db
 
 UPDATE 'sights' SET 'name' = REPLACE('name', "'", "’");
+
+<body((.|\n)*)<h1 class="entry-title">(.+?)</h1>((.|\n)*)\<div class\=\"entry\-content\"\>
+<body><h1 class="entry-title">$2</h1><div class="entry-content">
