@@ -12,3 +12,5 @@ UPDATE `sights`
 SET `Latitude`='46.4851766',
     `Longitude`='4.7455649'
 WHERE `filename` = '/english/fr/showcaves/Blanot.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Iazoni Cave', '/english/ge/caves/Iazoni.html', 'Iazoni', 'Asia', 'ge', 'Georgia', 'caves', 'Imereti', 42.2673658, 42.7299406);
