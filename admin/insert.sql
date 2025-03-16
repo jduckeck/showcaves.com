@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Iazoni Cave', '/english/ge/caves/Iazoni.html', 'Iazoni', 'Asia', 'ge', 'Georgia', 'caves', 'Imereti', 42.2673658, 42.7299406);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', '108 Tomb Caves', '/english/jp/subterranea/108.html', '108', 'Asia', 'jp', 'Japan', 'subterranea', 'Kanagawa', 35.335009, 139.564358);
+UPDATE `sights`
+SET `Latitude`='42.3772594',
+    `Longitude`='42.6011094'
+WHERE `filename` = '/english/ge/showcaves/Prometheus.html';
