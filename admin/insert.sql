@@ -8,3 +8,7 @@ SET `Latitude`='48.3792375',
 WHERE `filename` = '/english/de/showcaves/HohlerFels.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Honzrather Keller', '/english/de/subterranea/Honzrather.html', 'Honzrather', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.4295199, 6.7308146);
+UPDATE `sights`
+SET `Latitude`='-47.1552731',
+    `Longitude`='-70.6559679'
+WHERE `filename` = '/english/ar/showcaves/LasManos.html';
