@@ -3,6 +3,10 @@ email:
 (\S+)@(\S+)\.(\S+)
 E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../xemhid.php?p1=$1&p2=$2&p3=$3">
 
+author:
+(\w[^>]+?), (.+?)\.,
+<b class="smallCaps">$2. $1</b>,
+
 Datestamp to uppercase:
 (\d\d-\p{Upper}\p{Lower}\p{Lower})\.?(-\d\d\d\d)
 (\d\d-\p{Upper}\p{Lower}\p{Lower}).?(-\d\d\d\d)
