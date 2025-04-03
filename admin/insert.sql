@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sumidouro da Ribeira dos Amiais', '/english/pt/karst/Amiais.html', 'Amiais', 'Europe', 'pt', 'Portugal', 'karst', 'Santarem', 39.4461104, -8.7154277);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gorges du Verdon', '/english/fr/gorges/Verdon.html', 'Verdon', 'Europe', 'fr', 'France', 'gorges', 'PACA', 43.8016706, 6.2494422);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Huella de Santo Tomás', '/english/other/caves/SantoTomas.html', 'SantoTomas', 'SouthAmerica', 'py', 'Paraguay', 'caves', 'py', 'other', -25.5680629, -57.2934703);
