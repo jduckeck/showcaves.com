@@ -18,3 +18,11 @@ INSERT INTO static (path)
 VALUES ('/english/at/topics/closed.html');
 INSERT INTO static (path)
 VALUES ('/english/cn/topics/Top10.html');
+UPDATE `sights`
+SET `Latitude`='48,5894646',
+    `Longitude`='10,0613369'
+WHERE `filename` = '/german/de/karst/Hungerbrunnen.html';
+UPDATE `sights`
+SET `Latitude`='-35.071801',
+    `Longitude`='148.660602'
+WHERE `filename` = '/english/au/showcaves/Carey.html';
