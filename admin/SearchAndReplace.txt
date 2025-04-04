@@ -7,6 +7,10 @@ author:
 (\w[^>]+?), (.+?)\.,
 <b class="smallCaps">$2. $1</b>,
 
+apostroph
+(\w)'(\w)
+$1’$2
+
 Datestamp to uppercase:
 (\d\d-\p{Upper}\p{Lower}\p{Lower})\.?(-\d\d\d\d)
 (\d\d-\p{Upper}\p{Lower}\p{Lower}).?(-\d\d\d\d)
