@@ -16,3 +16,5 @@ INSERT INTO static (path)
 VALUES ('/english/si/topics/closed.html');
 INSERT INTO static (path)
 VALUES ('/english/at/topics/closed.html');
+INSERT INTO static (path)
+VALUES ('/english/cn/topics/Top10.html');
