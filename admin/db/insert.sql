@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gorges du Verdon', '/english/fr/gorges/Verdon.html', 'Verdon', 'Europe', 'fr', 'France', 'gorges', 'PACA', 43.8016706, 6.2494422);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Huella de Santo Tomás', '/english/other/caves/SantoTomas.html', 'SantoTomas', 'SouthAmerica', 'py', 'Paraguay', 'caves', 'py', 'other', -25.5680629, -57.2934703);
+INSERT INTO static (path)
+VALUES ('/english/usa/topics/NumberOfCaves.html');
+INSERT INTO static (path)
+VALUES ('/english/usa/topics/closed.html');
+INSERT INTO static (path)
+VALUES ('/english/si/topics/closed.html');
+INSERT INTO static (path)
+VALUES ('/english/at/topics/closed.html');
