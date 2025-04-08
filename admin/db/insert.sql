@@ -27,6 +27,14 @@ SET `Latitude`='-35.071801',
     `Longitude`='148.660602'
 WHERE `filename` = '/english/au/showcaves/Carey.html';
 UPDATE `sights`
-SET `Latitude`='-19,1434427',
-    `Longitude`='44,8126353'
+SET `Latitude`='-19.1434427',
+    `Longitude`='44.8126353'
 WHERE `filename` = '/english/other/karst/Bemaraha.html';
+UPDATE `sights`
+SET `Latitude`='37.0869585',
+    `Longitude`='-8.4241621'
+WHERE `filename` = '/english/pt/caves/Benagil.html';
+UPDATE `sights`
+SET `Latitude`='-16.1030835',
+    `Longitude`='45.3276693'
+WHERE `filename` = '/english/other/karst/Namoroka.html';
