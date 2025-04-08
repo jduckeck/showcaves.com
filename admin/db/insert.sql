@@ -38,3 +38,5 @@ UPDATE `sights`
 SET `Latitude`='-16.1030835',
     `Longitude`='45.3276693'
 WHERE `filename` = '/english/other/karst/Namoroka.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Réserve Spéciale Ankarana', '/english/other/karst/Ankarana.html', 'Ankarana', 'Africa', 'mg', 'Madagascar', 'karst', 'mg', 'other', -12.9681425, 49.1385471);
