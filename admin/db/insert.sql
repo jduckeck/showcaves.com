@@ -40,3 +40,15 @@ SET `Latitude`='-16.1030835',
 WHERE `filename` = '/english/other/karst/Namoroka.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Réserve Spéciale Ankarana', '/english/other/karst/Ankarana.html', 'Ankarana', 'Africa', 'mg', 'Madagascar', 'karst', 'mg', 'other', -12.9681425, 49.1385471);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Danggu Gorge', '/english/au/gorges/Danggu.html', 'Danggu', 'Oceania', 'au', 'Australia', 'gorges', 'wa', -18.1058964, 125.7004435);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'La Baume Bonne', '/english/fr/showcaves/BaumeBonne.html', 'BaumeBonne', 'Europe', 'fr', 'France', 'showcaves', 'PACA', 43.7001638, 6.0553747);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bunkermuseum RAW Nippes', '/english/de/subterranea/Nippes.html', 'Nippes', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9636939, 6.9430892);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Röhrenbunker am Oberlandesgericht', '/english/de/subterranea/Oberlandesgericht.html', 'Oberlandesgericht', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9540957, 6.9629880);
+UPDATE `sights`
+SET `Latitude`='50.9282888',
+    `Longitude`='6.9293045'
+WHERE `filename` = '/english/de/mines/Barbarastollen.html';
