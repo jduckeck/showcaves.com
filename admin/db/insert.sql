@@ -52,3 +52,5 @@ UPDATE `sights`
 SET `Latitude`='50.9282888',
     `Longitude`='6.9293045'
 WHERE `filename` = '/english/de/mines/Barbarastollen.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Zivilschutzbunker Köln-Kalk', '/english/de/subterranea/KoelnKalk.html', 'KoelnKalk', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9375519, 6.9986196);
