@@ -54,3 +54,7 @@ SET `Latitude`='50.9282888',
 WHERE `filename` = '/english/de/mines/Barbarastollen.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Zivilschutzbunker Köln-Kalk', '/english/de/subterranea/KoelnKalk.html', 'KoelnKalk', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9375519, 6.9986196);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Jinshuiyan', '/english/cn/showcaves/Jinshuiyan.html', 'Jinshuiyan', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.7253285, 110.4787431);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Assembly Dragon Cave', '/english/cn/showcaves/Julongtan.html', 'Julongtan', 'Asia', 'cn', 'China', 'showcaves', 'Guangxi', 24.727819, 110.479270);
