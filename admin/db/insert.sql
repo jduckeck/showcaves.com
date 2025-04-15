@@ -48,10 +48,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bunkermuseum RAW Nippes', '/english/de/subterranea/Nippes.html', 'Nippes', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9636939, 6.9430892);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Röhrenbunker am Oberlandesgericht', '/english/de/subterranea/Oberlandesgericht.html', 'Oberlandesgericht', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9540957, 6.9629880);
-UPDATE `sights`
-SET `Latitude`='50.9282888',
-    `Longitude`='6.9293045'
-WHERE `filename` = '/english/de/mines/Barbarastollen.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Zivilschutzbunker Köln-Kalk', '/english/de/subterranea/KoelnKalk.html', 'KoelnKalk', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9375519, 6.9986196);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
