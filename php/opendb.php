@@ -2,13 +2,11 @@
 
 function openDB()
 {
-    $SERVER_NAME = $_SERVER['SERVER_NAME'];
-
     // Tragen Sie hier Ihre Werte ein!
-    $server = "mysql";                          // MySQL-Server
-    $user = "db8399_1";                         // MySQL-Nutzer
-    $pass = "JGdamUUpvJjhcz4oCwAI";             // MySQL-Kennwort
-    $dbname = "db8399_1";                       // Standarddatenbank
+    $server = "localhost";                          // MySQL-Server
+    $user = "d0437d24";                         // MySQL-Nutzer
+    $pass = "7N3N45eDyB5uaZXWdVCi";             // MySQL-Kennwort
+    $dbname = "d0437d24";                       // Standarddatenbank
 
     $pdo = null;
     try {

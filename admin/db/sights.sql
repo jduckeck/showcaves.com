@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 04, 2025 at 05:16 AM
+-- Generation Time: Apr 24, 2025 at 09:29 AM
 -- Server version: 5.7.44-log
 -- PHP Version: 8.2.24
 
@@ -995,6 +995,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (981, 'yes', 0, 'Cerme Cave', '/english/id/caves/Cerme.html', NULL, 'Cerme', 'Asia', 'Indonesia', 'id', 'Yogyakarta', 'caves', -7.978901755194868, 110.380514762412700),
 (982, 'yes', 1, 'Cueva de Damas', '/english/cr/caves/Damas.html', NULL, 'Damas', 'MiddleAmerica', 'Costa Rica', 'cr', 'Puntarenas', 'caves', 9.546384000000000, -84.173462000000000),
 (983, 'yes', 0, 'Gruta del Espiritu Santo', '/english/other/caves/EspirituSanto.html', 'other', 'EspirituSa', 'MiddleAmerica', 'El Salvador', 'sv', 'sv', 'caves', 13.826711113909100, -87.980784005004960),
+(7128, 'yes', 0, 'Sumidouro da Ribeira dos Amiais', '/english/pt/karst/Amiais.html', NULL, 'Amiais', 'Europe', 'Portugal', 'pt', 'Santarem', 'karst', 39.446110400000000, -8.715427700000000),
 (985, 'yes', 0, 'El Puente Natural', '/english/other/caves/ElPuenteNatural.html', 'other', 'ElPuenteNa', 'MiddleAmerica', 'Panama', 'pa', 'pa', 'caves', 9.196720905379625, -79.555549167003310),
 (3297, 'yes', 0, 'Moscow Metro', '/english/ru/subterranea/MoscowMetro.html', NULL, 'MoscowMetr', 'Asia', 'Russia', 'ru', 'Moscow', 'subterranea', 55.755786014008220, 37.617632991277420),
 (987, 'yes', 0, 'Grjótagjá', '/english/is/caves/Grjotagja.html', NULL, 'Grjotagja', 'Europe', 'Iceland', 'is', 'NordurlandVestra', 'caves', 65.626414100000000, -16.882970800000000),
@@ -1070,7 +1071,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1062, 'yes', 0, 'Zion', '/english/other/caves/Zion.html', 'other', 'Zion', 'Outside', 'Matrix', 'XX', 'Matrix', 'subterranea', NULL, NULL),
 (7123, 'yes', 0, 'Honzrather Keller', '/english/de/subterranea/Honzrather.html', NULL, 'Honzrather', 'Europe', 'Germany', 'de', 'Saarland', 'subterranea', 49.429519900000000, 6.730814600000000),
 (1064, 'yes', 0, 'Magharet Afqua', '/english/lb/caves/Afqua.html', NULL, 'Afqua', 'MiddleEast', 'Lebanon', 'lb', 'MountLebanon', 'caves', NULL, NULL),
-(1065, 'yes', 0, 'Ampanito Valakely', '/english/other/caves/Ampanito.html', 'other', 'Ampanito', 'Africa', 'Madagascar', 'mg', 'mg', 'caves', NULL, NULL),
+(7127, 'yes', 0, 'Chapel of Our Lady of the Crag', '/english/gb/subterranea/Crag.html', NULL, 'Crag', 'Europe', 'Great Britain', 'gb', 'NorthYorkshire', 'subterranea', 54.003015700000000, -1.465523300000000),
 (1066, 'yes', 0, 'The Glittering Caves of Aglarond', '/english/other/caves/Aglarond.html', 'other', 'Aglarond', 'Outside', 'Middle-Earth', 'XX', 'MiddleEarth', 'caves', NULL, NULL),
 (1067, 'yes', 0, 'Mapango ya Amboni - Amboni Caves', '/english/tz/caves/Amboni.html', NULL, 'Amboni', 'Africa', 'Tanzania', 'tz', NULL, 'caves', -5.026980770156706, 39.058234967532290),
 (1068, 'yes', 0, 'Les casemates de la Pétrusse', '/english/lu/subterranea/Petruss.html', NULL, 'Petruss', 'Europe', 'Luxembourg', 'lu', 'LuxembourgCity', 'subterranea', 49.609428700000000, 6.129932400000000),
@@ -1148,10 +1149,11 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1143, 'yes', 0, 'Menfudo shonyudo', '/english/jp/showcaves/Menfudo.html', NULL, 'Menfudo', 'Asia', 'Japan', 'jp', NULL, 'showcaves', NULL, NULL),
 (1144, 'yes', 1, 'Mitsugo shonyudo', '/english/jp/showcaves/Mitsugo.html', NULL, 'Mitsugo', 'Asia', 'Japan', 'jp', NULL, 'showcaves', NULL, NULL),
 (1145, 'yes', 0, 'Ohtaki shonyudo', '/english/jp/showcaves/Ohtaki.html', NULL, 'Ohtaki', 'Asia', 'Japan', 'jp', 'Gifu', 'showcaves', 35.733725000000000, 136.980104000000000),
-(1146, 'yes', 1, 'Nanaori shonyudo', '/english/jp/showcaves/Nanaori.html', NULL, 'Nanaori', 'Asia', 'Japan', 'jp', 'Miyazaki', 'showcaves', 32.681063000000000, 131.411200000000000),
+(1146, 'yes', 1, 'Nanaori shonyudo', '/english/jp/showcaves/Nanaori.html', NULL, 'Nanaori', 'Asia', 'Japan', 'jp', 'Miyazaki', 'showcaves', 32.681063000000000, 131.411200000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (1147, 'yes', 1, 'Onagara shonyudo', '/english/jp/showcaves/Onagara.html', NULL, 'Onagara', 'Asia', 'Japan', 'jp', 'Oita', 'showcaves', NULL, NULL),
-(5615, 'yes', 0, 'Kiinen Gongen', '/english/jp/caves/Kiinen.html', NULL, 'Kiinen', 'Asia', 'Japan', 'jp', 'Kagoshima', 'caves', 27.694138000000000, 128.983357000000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(5615, 'yes', 0, 'Kiinen Gongen', '/english/jp/caves/Kiinen.html', NULL, 'Kiinen', 'Asia', 'Japan', 'jp', 'Kagoshima', 'caves', 27.694138000000000, 128.983357000000000),
 (1149, 'yes', 0, 'Odaira shonyudo', '/english/jp/showcaves/Odaira.html', NULL, 'Odaira', 'Asia', 'Japan', 'jp', 'Gunma', 'showcaves', NULL, NULL),
 (1150, 'yes', 0, 'Kin-nisshu-do', '/english/jp/showcaves/Kin.html', NULL, 'Kin', 'Asia', 'Japan', 'jp', 'Okinawa', 'showcaves', 26.455093724116450, 127.921515392156600),
 (1151, 'yes', 0, 'Ohtake shonyudo', '/english/jp/showcaves/Ohtake.html', NULL, 'Ohtake', 'Asia', 'Japan', 'jp', NULL, 'showcaves', NULL, NULL),
@@ -1441,10 +1443,11 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1441, 'yes', 0, 'Drakonina Pecina', '/english/hr/caves/Drakonina.html', NULL, 'Drakonina', 'Europe', 'Croatia', 'hr', 'Split', 'caves', 43.272575063425510, 16.599786942089980),
 (6647, 'yes', 0, 'Izvor rijeke Bijele', '/english/hr/springs/Bijela.html', NULL, 'Bijela', 'Europe', 'Croatia', 'hr', 'Zadar', 'springs', 44.134898400000000, 15.656198400000000),
 (1443, 'yes', 0, 'Samograd Špilja', '/english/hr/caves/Samograd.html', NULL, 'Samograd', 'Europe', 'Croatia', 'hr', 'Lika', 'caves', NULL, NULL),
-(6646, 'yes', 0, 'Golub Špilja', '/english/hr/caves/Golub.html', NULL, 'Golub', 'Europe', 'Croatia', 'hr', 'DubrovnikNeretva', 'caves', 42.622190000000000, 18.125310000000000),
+(6646, 'yes', 0, 'Golub Špilja', '/english/hr/caves/Golub.html', NULL, 'Golub', 'Europe', 'Croatia', 'hr', 'DubrovnikNeretva', 'caves', 42.622190000000000, 18.125310000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (1445, 'yes', 0, 'Tučepska Vilenjača', '/english/hr/caves/Tucepska.html', NULL, 'Tucepska', 'Europe', 'Croatia', 'hr', 'Split', 'caves', 43.285520000000000, 17.084960000000000),
-(1446, 'yes', 0, 'Grutas del Rey Marcos', '/english/gt/showcaves/ReyMarcos.html', NULL, 'ReyMarcos', 'MiddleAmerica', 'Guatemala', 'gt', 'AltaVerapaz', 'showcaves', 15.426753000000000, -90.282282000000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(1446, 'yes', 0, 'Grutas del Rey Marcos', '/english/gt/showcaves/ReyMarcos.html', NULL, 'ReyMarcos', 'MiddleAmerica', 'Guatemala', 'gt', 'AltaVerapaz', 'showcaves', 15.426753000000000, -90.282282000000000),
 (1447, 'yes', 0, 'Cuevas de Actún Kan', '/english/gt/showcaves/ActunKan.html', NULL, 'ActunKan', 'MiddleAmerica', 'Guatemala', 'gt', 'ElPeten', 'showcaves', 16.902962000000000, -89.895424000000000),
 (1448, 'yes', 0, 'Candelaria Caves', '/english/gt/showcaves/Candelaria.html', NULL, 'Candelaria', 'MiddleAmerica', 'Guatemala', 'gt', 'AltaVerapaz', 'showcaves', 15.870134000000000, -90.142158000000000),
 (1449, 'yes', 0, 'La Caverna de Chicoy', '/english/gt/showcaves/Chicoy.html', NULL, 'Chicoy', 'MiddleAmerica', 'Guatemala', 'gt', 'BajaVerapaz', 'showcaves', 15.255721000000000, -90.262877000000000),
@@ -1715,10 +1718,15 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1722, 'yes', 0, 'Grotte de Limousis', '/english/fr/showcaves/Limousis.html', NULL, 'Limousis', 'Europe', 'France', 'fr', 'Languedoc', 'showcaves', 43.342345000000000, 2.412736000000000),
 (3861, 'yes', 0, 'Grotte de Tourtoirac', '/english/fr/showcaves/Tourtoirac.html', NULL, 'Tourtoirac', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', 45.265945027652220, 1.068574734764483),
 (1724, 'yes', 0, 'Grotte des Huguenots', '/english/fr/showcaves/Huguenots.html', NULL, 'Huguenots', 'Europe', 'France', 'fr', NULL, 'showcaves', 44.386969016204620, 4.408487986490814),
-(1725, 'yes', 0, 'Grottes de Bernifal', '/english/fr/showcaves/Bernifal.html', NULL, 'Bernifal', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', NULL, NULL),
-(1726, 'yes', 0, 'Gouffre d’Esparros', '/english/fr/showcaves/Esparros.html', NULL, 'Esparros', 'Europe', 'France', 'fr', 'MidiPyrenees', 'showcaves', 43.029298742153920, 0.333971285273393),
-(1727, 'yes', 0, 'Grotte du Grand Roc', '/english/fr/showcaves/GrandRoc.html', NULL, 'GrandRoc', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', 44.949102131037510, 0.998029535760366);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(1725, 'yes', 0, 'Grottes de Bernifal', '/english/fr/showcaves/Bernifal.html', NULL, 'Bernifal', 'Europe', 'France', 'fr', 'Aquitaine', 'showcaves', NULL, NULL);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES (1726, 'yes', 0, 'Gouffre d’Esparros',
+                                                                                                                                                                                             '/english/fr/showcaves/Esparros.html', NULL, 'Esparros', 'Europe',
+                                                                                                                                                                                             'France', 'fr', 'MidiPyrenees', 'showcaves', 43.029298742153920,
+                                                                                                                                                                                             0.333971285273393),
+                                                                                                                                                                                            (1727, 'yes', 0, 'Grotte du Grand Roc',
+                                                                                                                                                                                             '/english/fr/showcaves/GrandRoc.html', NULL, 'GrandRoc', 'Europe',
+                                                                                                                                                                                             'France', 'fr', 'Aquitaine', 'showcaves', 44.949102131037510,
+                                                                                                                                                                                             0.998029535760366),
 (1728, 'yes', 0, 'Gouffre de la Fage', '/english/fr/showcaves/Fage.html', NULL, 'Fage', 'Europe', 'France', 'fr', NULL, 'showcaves', 45.078380000000000, 1.524604000000000),
 (1729, 'yes', 0, 'Grotte de Foissac', '/english/fr/showcaves/Foissac.html', NULL, 'Foissac', 'Europe', 'France', 'fr', 'Lot', 'showcaves', 44.502758587725300, 2.006762178502184),
 (1730, 'yes', 0, 'Grottes de Fontirou', '/english/fr/showcaves/Fontirou.html', NULL, 'Fontirou', 'Europe', 'France', 'fr', NULL, 'showcaves', 44.317087216949540, 0.709397296597409),
@@ -1998,10 +2006,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2009, 'yes', 0, 'Kluterthöhle', '/english/de/showcaves/Klutert.html', NULL, 'Klutert', 'Europe', 'Germany', 'de', 'Sauerland', 'showcaves', 51.299260804270440, 7.354432463683941),
 (2010, 'yes', 0, 'Nebelhöhle', '/english/de/showcaves/Nebel.html', NULL, 'Nebel', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'showcaves', 48.416855160470380, 9.220863064883067),
 (2011, 'yes', 0, 'Olgahöhle', '/english/de/showcaves/Olga.html', NULL, 'Olga', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'showcaves', 48.413548334841650, 9.260918522048968),
-(2012, 'yes', 0, 'Bilsteinhöhlen', '/english/de/showcaves/Bilstein.html', NULL, 'Bilstein', 'Europe', 'Germany', 'de', 'Sauerland', 'showcaves', 51.424932600000000, 8.322388400000000),
+                                                                                                                                                                                            (2012, 'yes', 0, 'Bilsteinhöhlen',
+                                                                                                                                                                                             '/english/de/showcaves/Bilstein.html', NULL, 'Bilstein', 'Europe',
+                                                                                                                                                                                             'Germany', 'de', 'Sauerland', 'showcaves', 51.424932600000000,
+                                                                                                                                                                                             8.322388400000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (2013, 'yes', 0, 'Tschamberhöhle', '/english/de/showcaves/Tschamber.html', NULL, 'Tschamber', 'Europe', 'Germany', 'de', 'Schwarzwald', 'showcaves', 47.588375515155270, 7.818763767696654),
-(2014, 'yes', 0, 'Barbarossahöhle', '/english/de/showcaves/Barbarossa.html', NULL, 'Barbarossa', 'Europe', 'Germany', 'de', 'Gipskarst', 'showcaves', 51.375468612376490, 11.036441538014030);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(2014, 'yes', 0, 'Barbarossahöhle', '/english/de/showcaves/Barbarossa.html', NULL, 'Barbarossa', 'Europe', 'Germany', 'de', 'Gipskarst', 'showcaves', 51.375468612376490, 11.036441538014030),
 (5226, 'yes', 0, 'Grotta Conza', '/english/it/caves/Conza.html', NULL, 'Conza', 'Europe', 'Italy', 'it', 'Sicilia', 'caves', 38.187510396643006, 13.280804657616867),
 (2016, 'yes', 0, 'Erdmannshöhle', '/english/de/showcaves/Erdmanns.html', NULL, 'Erdmanns', 'Europe', 'Germany', 'de', 'Schwarzwald', 'showcaves', 47.648381184212820, 7.895189616187281),
 (2017, 'yes', 0, 'Segeberger Kalkberghöhle', '/english/de/showcaves/Segeberger.html', NULL, 'Segeberger', 'Europe', 'Germany', 'de', 'Norddeutschland', 'showcaves', 53.936447000000000, 10.316746000000000),
@@ -2127,7 +2139,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2141, 'yes', 0, 'Schaubergwerk \"Herkules-Frisch-Glück\" Waschleithe', '/english/de/mines/Waschleithe.html', NULL, 'Waschleith', 'Europe', 'Germany', 'de', 'Erzgebirge', 'mines', NULL, NULL),
 (2142, 'yes', 0, 'Grube Wenzel', '/english/de/mines/Wenzel.html', NULL, 'Wenzel', 'Europe', 'Germany', 'de', 'Schwarzwald', 'mines', NULL, NULL),
 (2143, 'yes', 0, 'Carolinen Grube', '/english/de/mines/Carolinen.html', NULL, 'Carolinen', 'Europe', 'Germany', 'de', 'Schwarzwald', 'mines', 48.125470000000000, 7.919057000000000),
-(2144, 'yes', 0, 'Barbarastollen', '/english/de/mines/Barbarastollen.html', NULL, 'Barbarasto', 'Europe', 'Germany', 'de', 'Eifel', 'mines', NULL, NULL),
+(2144, 'yes', 0, 'Barbarastollen', '/english/de/mines/Barbarastollen.html', NULL, 'Barbarasto', 'Europe', 'Germany', 'de', 'Eifel', 'mines', 50.928288800000000, 6.929304500000000),
 (2145, 'yes', 0, 'Besucherbergwerk Fell', '/english/de/mines/Fell.html', NULL, 'Fell', 'Europe', 'Germany', 'de', 'Hunsrueck', 'mines', 49.755800000000000, 6.799000000000000),
 (2146, 'yes', 0, 'Felicitas Heilstollen', '/english/de/mines/FelicitasHeilstollen.html', NULL, 'FelicitasH', 'Europe', 'Germany', 'de', 'Sauerland', 'mines', NULL, NULL),
 (2147, 'yes', 0, 'Besucherbergwerk Zinnkammern Pöhla', '/english/de/mines/Zinnkammern.html', NULL, 'Zinnkammer', 'Europe', 'Germany', 'de', 'Erzgebirge', 'mines', 50.502065415757050, 12.810736970837270),
@@ -2207,7 +2219,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2223, 'yes', 0, 'Schinderhanneshöhle', '/english/de/caves/Schinderhannes.html', NULL, 'Schinderha', 'Europe', 'Germany', 'de', 'PfaelzerBergland', 'caves', 49.748176000000000, 7.979079000000000),
 (6195, 'yes', 0, 'Isteiner Klotz', '/english/de/subterranea/IsteinerKlotz.html', NULL, 'IsteinerKl', 'Europe', 'Germany', 'de', 'Oberrhein', 'subterranea', 47.661990000000000, 7.531338000000000),
 (2225, 'yes', 0, 'Wundershöhle', '/english/de/caves/Wunder.html', NULL, 'Wunder', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'caves', NULL, NULL),
-(2226, 'yes', 0, 'Sirgensteinhöhle', '/english/de/caves/Sirgenstein.html', NULL, 'Sirgenstei', 'Europe', 'Germany', 'de', NULL, 'caves', NULL, NULL),
+(2226, 'yes', 0, 'Sirgensteinhöhle', '/english/de/caves/Sirgenstein.html', NULL, 'Sirgenstei', 'Europe', 'Germany', 'de', NULL, 'caves', 48.387055300000000, 9.761194800000000),
 (2227, 'yes', 0, 'Vogelherdgrotte', '/english/de/caves/Vogelherdgrotte.html', NULL, 'Vogelherdg', 'Europe', 'Germany', 'de', 'FraenkischeAlb', 'caves', NULL, NULL),
 (2228, 'yes', 0, 'Steinernes Haus', '/english/de/caves/SteinernesHaus.html', NULL, 'Steinernes', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'caves', NULL, NULL),
 (2229, 'yes', 0, 'Steinkirche', '/english/de/caves/Steinkirche.html', NULL, 'Steinkirch', 'Europe', 'Germany', 'de', 'Harz', 'caves', NULL, NULL),
@@ -2235,7 +2247,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2251, 'yes', 0, 'Arndthöhle', '/english/de/caves/Arndt.html', NULL, 'Arndt', 'Europe', 'Germany', 'de', 'FraenkischeAlb', 'caves', 48.912684300000000, 11.395534800000000),
 (2252, 'yes', 0, 'Kammerbacher Höhle', '/english/de/caves/Kammerbacher.html', NULL, 'Kammerbach', 'Europe', 'Germany', 'de', 'Weserbergland', 'caves', 51.271162609999140, 9.898872838016239),
 (2253, 'yes', 0, 'Kakushöhle', '/english/de/caves/Kakus.html', NULL, 'Kakus', 'Europe', 'Germany', 'de', 'Eifel', 'caves', 50.544881536765350, 6.659961248505468),
-(2254, 'yes', 0, 'Mordloch', '/english/de/caves/Mordloch.html', NULL, 'Mordloch', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'caves', NULL, NULL),
+(2254, 'yes', 0, 'Mordloch', '/english/de/caves/Mordloch.html', NULL, 'Mordloch', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'caves', 48.664229100000000, 9.894056000000000),
 (2255, 'yes', 0, 'Felsenkirche Idar-Oberstein', '/english/de/caves/Felsenkirche.html', NULL, 'Felsenkirc', 'Europe', 'Germany', 'de', 'Hunsrueck', 'caves', NULL, NULL),
 (2256, 'yes', 1, 'Kahlensteinhöhle', '/english/de/caves/Kahlenstein.html', NULL, 'Kahlenstei', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'caves', NULL, NULL),
 (2257, 'yes', 0, 'Große Grotte', '/english/de/caves/GrosseGrotte.html', NULL, 'GrosseGrot', 'Europe', 'Germany', 'de', 'SchwaebischeAlb', 'caves', NULL, NULL),
@@ -2268,17 +2280,18 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2284, 'yes', 0, 'Znojmo Podzemi', '/english/cz/subterranea/Znojmo.html', NULL, 'Znojmo', 'Europe', 'Czech Republic', 'cz', 'Jihomoravsky', 'subterranea', 48.855776511792650, 16.049251268114160),
 (2285, 'yes', 0, 'Klatovské katakomby', '/english/cz/subterranea/Klatovy.html', NULL, 'Klatovy', 'Europe', 'Czech Republic', 'cz', 'Plzen', 'subterranea', 49.395045196066780, 13.294266651881800),
 (2286, 'yes', 0, 'Národi Technické Muzeum', '/english/cz/subterranea/NationalTechnicalMuseum.html', NULL, 'NationalTe', 'Europe', 'Czech Republic', 'cz', 'Praha', 'subterranea', 50.097383818253850, 14.424838222315190),
-(2287, 'yes', 0, 'Hornické Muzeum', '/english/cz/mines/BrezoveHory.html', NULL, 'BrezoveHor', 'Europe', 'Czech Republic', 'cz', 'Stredocesky', 'mines', 49.683153120503480, 13.987077388336880),
+(2287, 'yes', 0, 'Hornické Muzeum', '/english/cz/mines/BrezoveHory.html', NULL, 'BrezoveHor', 'Europe', 'Czech Republic', 'cz', 'Stredocesky', 'mines', 49.683426900000000, 13.986892700000000),
 (2289, 'yes', 0, 'Grafitový důl Český Krumlov', '/english/cz/mines/CeskyKrumlov.html', NULL, 'CeskyKruml', 'Europe', 'Czech Republic', 'cz', 'Jihocesky', 'mines', 48.816511683863380, 14.303099639151850),
 (2290, 'yes', 0, 'Chrustenická Šachta', '/english/cz/mines/Chrustenicka.html', NULL, 'Chrustenic', 'Europe', 'Czech Republic', 'cz', 'Stredocesky', 'mines', 50.003882113589110, 14.163987795678920),
 (2291, 'yes', 0, 'Štola Jana Evangelisty', '/english/cz/mines/JanaEvangelisty.html', NULL, 'JanaEvange', 'Europe', 'Czech Republic', 'cz', 'Ustecky', 'mines', 50.874981453214030, 14.565293934534850),
 (2292, 'yes', 0, 'Hrádek a důl Osel Kutná Hora', '/english/cz/mines/KutnaHora.html', NULL, 'KutnaHora', 'Europe', 'Czech Republic', 'cz', 'Stredocesky', 'mines', 49.947302239765380, 15.264953243436760),
 (2293, 'yes', 0, 'Solvayovy Lomy', '/english/cz/mines/Solvayovy.html', NULL, 'Solvayovy', 'Europe', 'Czech Republic', 'cz', 'Stredocesky', 'mines', 49.976619732703050, 14.149096088502150),
-(2294, 'yes', 0, 'Hranická propast', '/english/cz/karst/Hranice.html', NULL, 'Hranice', 'Europe', 'Czech Republic', 'cz', 'Olomoucky', 'karst', NULL, NULL),
+(2294, 'yes', 0, 'Hranická propast', '/english/cz/karst/Hranice.html', NULL, 'Hranice', 'Europe', 'Czech Republic', 'cz', 'Olomoucky', 'karst', NULL, NULL);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (2295, 'yes', 0, 'Propast Macocha', '/english/cz/karst/Macocha.html', NULL, 'Macocha', 'Europe', 'Czech Republic', 'cz', 'Moravsky', 'karst', 49.372744990505950, 16.729810316496700),
 (2296, 'yes', 0, 'Ledová jeskynĕ', '/english/cz/caves/Ledova.html', NULL, 'Ledova', 'Europe', 'Czech Republic', 'cz', 'Ustecky', 'caves', 50.800475288055920, 14.198345223245230),
-(2297, 'yes', 0, 'Jeskyně Býčí skála', '/english/cz/caves/ByciSkala.html', NULL, 'ByciSkala', 'Europe', 'Czech Republic', 'cz', 'Jihomoravsky', 'caves', 49.307447856219540, 16.694329310115280);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(2297, 'yes', 0, 'Jeskyně Býčí skála', '/english/cz/caves/ByciSkala.html', NULL, 'ByciSkala', 'Europe', 'Czech Republic', 'cz', 'Jihomoravsky', 'caves', 49.307447856219540, 16.694329310115280),
 (2298, 'yes', 1, 'Ochozská jeskynĕ', '/english/cz/caves/Ochoz.html', NULL, 'Ochoz', 'Europe', 'Czech Republic', 'cz', 'Jihomoravsky', 'caves', 49.244362600000000, 16.750431100000000),
 (2299, 'yes', 0, 'Šipka jeskyně', '/english/cz/caves/Sipka.html', NULL, 'Sipka', 'Europe', 'Czech Republic', 'cz', 'Moravskoslezsky', 'caves', 49.587948936433720, 18.118223722193460),
 (2300, 'yes', 0, 'Disco Ayla', '/english/cu/showcaves/AyalaDisco.html', NULL, 'AyalaDisco', 'MiddleAmerica', 'Cuba', 'cu', 'SanctiSpiritus', 'showcaves', 21.808217000000000, -79.981080000000000),
@@ -2364,12 +2377,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2382, 'yes', 0, 'St. Beatushöhlen', '/english/ch/showcaves/Beatus.html', NULL, 'Beatus', 'Europe', 'Switzerland', 'ch', 'Bern', 'showcaves', 46.684670600000000, 7.782306800000000),
 (2383, 'yes', 0, 'Hölloch', '/english/ch/showcaves/Hoelloch.html', NULL, 'Hoelloch', 'Europe', 'Switzerland', 'ch', 'Schwyz', 'showcaves', 46.976643177347670, 8.784965368565977),
 (2384, 'yes', 0, 'Lac Souterrain St-Léonard', '/english/ch/showcaves/Lac.html', NULL, 'Lac', 'Europe', 'Switzerland', 'ch', 'Wallis', 'showcaves', 46.256446263007360, 7.425777695812550),
-(2385, 'yes', 0, 'Kristallhöhle Kobelwald', '/english/ch/showcaves/Kobelwald.html', NULL, 'Kobelwald', 'Europe', 'Switzerland', 'ch', 'StGallen', 'showcaves', 47.322002434250240, 9.532396815993494),
+(2385, 'yes', 0, 'Kristallhöhle Kobelwald', '/english/ch/showcaves/Kobelwald.html', NULL, 'Kobelwald', 'Europe', 'Switzerland', 'ch', 'StGallen', 'showcaves', 47.322846800000000, 9.534221900000000),
 (2387, 'yes', 0, 'Höhlenburg Rappenstein', '/english/ch/subterranea/Rappenstein.html', NULL, 'Rappenstei', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'subterranea', 46.924720800000000, 9.519441000000000),
 (2388, 'yes', 0, 'Le Fort de Pré-Giroud', '/english/ch/subterranea/PreGiroud.html', NULL, 'PreGiroud', 'Europe', 'Switzerland', 'ch', 'Vaud', 'subterranea', NULL, NULL),
 (2389, 'yes', 0, 'Urnerloch', '/english/ch/subterranea/Urnerloch.html', NULL, 'Urnerloch', 'Europe', 'Switzerland', 'ch', 'Uri', 'subterranea', 46.651785661309500, 8.585669831772496),
 (5786, 'yes', 0, 'Akhayat Sinkhole', '/english/tr/karst/Akhayat.html', NULL, 'Akhayat', 'Europe', 'Turkey', 'tr', 'Mediterranean', 'karst', 36.448200000000000, 34.010300000000000),
-(2391, 'yes', 0, 'Höhlenburg Wichenstein', '/english/ch/subterranea/Wichenstein.html', NULL, 'Wichenstei', 'Europe', 'Switzerland', 'ch', 'StGallen', 'subterranea', 47.326880585249210, 9.555470441177036),
+(2391, 'yes', 0, 'Höhlenburg Wichenstein', '/english/ch/subterranea/Wichenstein.html', NULL, 'Wichenstei', 'Europe', 'Switzerland', 'ch', 'StGallen', 'subterranea', 47.327173500000000, 9.553881800000000),
 (2392, 'yes', 0, 'Vereina Tunnel', '/english/ch/subterranea/Vereina.html', NULL, 'Vereina', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'subterranea', 46.761917000000000, 10.093056000000000),
 (2393, 'yes', 0, 'Eispalast Jungfraujoch', '/english/ch/subterranea/Eispalast.html', NULL, 'Eispalast', 'Europe', 'Switzerland', 'ch', 'Bern', 'subterranea', 46.546704000000000, 7.979623000000000),
 (2394, 'yes', 0, 'Höhlenburg Fracstein', '/english/ch/subterranea/Fracstein.html', NULL, 'Fracstein', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'subterranea', 46.975735900000000, 9.615821100000000),
@@ -2379,12 +2392,11 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2398, 'yes', 0, 'Brünig Indoor Schiess-Sport-Zentrum', '/english/ch/subterranea/Bruenig.html', NULL, 'Bruenig', 'Europe', 'Switzerland', 'ch', 'Obwalden', 'subterranea', 46.777307000000000, 8.142367000000000),
 (2399, 'yes', 0, 'Gotthard Basistunnel', '/english/ch/subterranea/GotthardBasis.html', NULL, 'GotthardBa', 'Europe', 'Switzerland', 'ch', 'Ticino', 'subterranea', NULL, NULL),
 (4319, 'yes', 0, 'Peštera Pešna', '/english/mk/caves/Peshna.html', NULL, 'Peshna', 'Europe', 'North Macedonia', 'mk', 'PelagonianMassif', 'caves', 41.547840800000000, 21.252620800000000),
-(2401, 'yes', 0, 'Höhlenburg Grottenstein', '/english/ch/subterranea/Grottenstein.html', NULL, 'Grottenste', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'subterranea', NULL, NULL),
+(2401, 'yes', 0, 'Höhlenburg Grottenstein', '/english/ch/subterranea/Grottenstein.html', NULL, 'Grottenste', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'subterranea', 46.883714300000000, 9.521972200000000),
 (2402, 'yes', 0, 'Felslabor Grimsel', '/english/ch/subterranea/Grimsel.html', NULL, 'Grimsel', 'Europe', 'Switzerland', 'ch', 'Bern', 'subterranea', NULL, NULL),
 (2403, 'yes', 0, 'Höhlenburg Kropfenstein', '/english/ch/subterranea/Kropfenstein.html', NULL, 'Kropfenste', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'subterranea', NULL, NULL),
 (2404, 'yes', 0, 'Gletschergrotte Klein Matterhorn', '/english/ch/subterranea/KleinMatterhorn.html', NULL, 'KleinMatte', 'Europe', 'Switzerland', 'ch', 'Wallis', 'subterranea', NULL, NULL),
 (2405, 'yes', 0, 'Lötschberg-Basistunnel', '/english/ch/subterranea/Loetschberg.html', NULL, 'Loetschber', 'Europe', 'Switzerland', 'ch', 'Bern', 'subterranea', NULL, NULL),
-(2406, 'yes', 0, 'Pertouse de Leytro', '/english/ch/subterranea/Leytro.html', NULL, 'Leytro', 'Europe', 'Switzerland', 'ch', 'Wallis', 'subterranea', NULL, NULL),
 (2408, 'yes', 0, 'Die Meyerschen Stollen', '/english/ch/subterranea/MeyerscheStollen.html', NULL, 'MeyerscheS', 'Europe', 'Switzerland', 'ch', 'Bern', 'subterranea', 47.393731007265870, 8.050155182102898),
 (2409, 'yes', 0, 'Eisgrotte Rhonegletscher', '/english/ch/subterranea/Rhone.html', NULL, 'Rhone', 'Europe', 'Switzerland', 'ch', 'Wallis', 'subterranea', 46.577159000000000, 8.387945000000000),
 (2410, 'yes', 0, 'Bergbaumuseum Graubünden', '/english/ch/mines/Graubuenden.html', NULL, 'Graubuende', 'Europe', 'Switzerland', 'ch', 'Graubuenden', 'mines', 46.713220000000000, 9.758640000000000),
@@ -2517,7 +2529,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2537, 'yes', 0, 'Corner Brook Cave', '/english/ca/caves/CornerBrook.html', NULL, 'CornerBroo', 'NorthAmerica', 'Canada', 'ca', 'Newfoundland', 'caves', 48.932152996307050, -57.911734324635070),
 (2539, 'yes', 0, 'Great Blue Hole', '/english/bz/karst/BlueHole.html', NULL, 'BlueHole', 'MiddleAmerica', 'Belize', 'bz', 'NorthCayes', 'karst', 17.315511614605980, -87.534485279710150),
 (2540, 'yes', 0, 'Caves Branch Jungle Lodge', '/english/bz/caves/CavesBranch.html', NULL, 'CavesBranc', 'MiddleAmerica', 'Belize', 'bz', 'Cayo', 'caves', 17.166052700000000, -88.683267900000000),
-(2541, 'yes', 0, 'Blue Creek Cave', '/english/bz/caves/BlueCreek.html', NULL, 'BlueCreek', 'MiddleAmerica', 'Belize', 'bz', NULL, 'caves', 16.220776169444930, -89.053133470524070),
+(2541, 'yes', 0, 'Blue Creek Cave', '/english/bz/caves/BlueCreek.html', NULL, 'BlueCreek', 'MiddleAmerica', 'Belize', 'bz', 'Toledo', 'caves', 16.207293800000000, -89.048749200000000),
 (2542, 'yes', 0, 'Che Chem Hah', '/english/bz/caves/CheChemHah.html', NULL, 'CheChemHah', 'MiddleAmerica', 'Belize', 'bz', 'Cayo', 'caves', 16.987321845800020, -89.061504404376510),
 (2543, 'yes', 0, 'Chiquibul Cave System', '/english/bz/caves/Chiquibul.html', NULL, 'Chiquibul', 'MiddleAmerica', 'Belize', 'bz', 'Cayo', 'caves', 16.645642459073400, -89.079413724466290),
 (2544, 'yes', 0, 'Rio Frio Caves', '/english/bz/caves/RioFrio.html', NULL, 'RioFrio', 'MiddleAmerica', 'Belize', 'bz', 'Cayo', 'caves', 16.967951839262750, -89.003539840926440),
@@ -2555,11 +2567,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2576, 'yes', 0, 'Caverna Água Suja', '/english/br/caves/AguaSuja.html', NULL, 'AguaSuja', 'SouthAmerica', 'Brazil', 'br', 'SaoPaulo', 'caves', NULL, NULL),
 (2577, 'yes', 0, 'Gruta da Lage Branca', '/english/br/caves/LageBranca.html', NULL, 'LageBranca', 'SouthAmerica', 'Brazil', 'br', 'SaoPaulo', 'caves', NULL, NULL),
 (2578, 'yes', 0, 'Toca da Boa Vista', '/english/br/caves/BoaVista.html', NULL, 'BoaVista', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'caves', NULL, NULL),
-(2579, 'yes', 0, 'Caverna do Morro do Couto', '/english/br/caves/MorroCouto.html', NULL, 'MorroCouto', 'SouthAmerica', 'Brazil', 'br', 'SaoPaulo', 'caves', NULL, NULL),
+(2579, 'yes', 0, 'Caverna do Morro do Couto', '/english/br/caves/MorroCouto.html', NULL, 'MorroCouto', 'SouthAmerica', 'Brazil', 'br', 'SaoPaulo', 'caves', NULL, NULL);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (2580, 'yes', 0, 'Virgem da Lapa', '/english/br/caves/Lapa.html', NULL, 'Lapa', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'caves', -20.305216666666670, -43.472550000000000),
 (2581, 'yes', 0, 'Gruta do Lapão', '/english/br/caves/LapaoLencois.html', NULL, 'LapaoLenco', 'SouthAmerica', 'Brazil', 'br', 'Bahia', 'caves', -12.540493000000000, -41.401902000000000),
-(2582, 'yes', 0, 'Sueva Dupka', '/english/bg/showcaves/SuevaDupka.html', NULL, 'SuevaDupka', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'showcaves', 43.047356878734640, 24.183837092841310);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(2582, 'yes', 0, 'Sueva Dupka', '/english/bg/showcaves/SuevaDupka.html', NULL, 'SuevaDupka', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'showcaves', 43.047356878734640, 24.183837092841310),
 (2583, 'yes', 0, 'Uhlovitsa Pestera', '/english/bg/showcaves/Uhlovitsa.html', NULL, 'Uhlovitsa', 'Europe', 'Bulgaria', 'bg', 'Smolyan', 'showcaves', 41.514393000000000, 24.659997000000000),
 (2584, 'yes', 0, 'Djavolskoto Garlo Cave', '/english/bg/showcaves/Djavolskoto.html', NULL, 'Djavolskot', 'Europe', 'Bulgaria', 'bg', 'Smolyan', 'showcaves', 41.614414022649150, 24.380026172807220),
 (2586, 'yes', 0, 'Bacho Kiro', '/english/bg/showcaves/BachoKiro.html', NULL, 'BachoKiro', 'Europe', 'Bulgaria', 'bg', 'Gabrovo', 'showcaves', 42.948335406828260, 25.427706179992970),
@@ -2653,8 +2666,8 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2675, 'yes', 0, 'Gunns Plains Caves', '/english/au/showcaves/GunnsPlains.html', NULL, 'GunnsPlain', 'Oceania', 'Australia', 'au', 'tas', 'showcaves', -41.296143000000000, 146.005407000000000),
 (5364, 'yes', 1, 'Veryovkina', '/english/ge/caves/Veryovkina.html', NULL, 'Veryovkina', 'Asia', 'Georgia', 'ge', 'Abkhazia', 'caves', 43.415556000000000, 40.356389000000000),
 (2677, 'yes', 0, 'Cammoo Cave', '/english/au/showcaves/Cammoo.html', NULL, 'Cammoo', 'Oceania', 'Australia', 'au', 'qld', 'showcaves', NULL, NULL),
-(2678, 'yes', 0, 'Cutta Cutta Caves', '/english/au/showcaves/CuttaCutta.html', NULL, 'CuttaCutta', 'Oceania', 'Australia', 'au', 'nt', 'showcaves', NULL, NULL),
-(2679, 'yes', 0, 'Carey’s Cave', '/english/au/showcaves/Carey.html', NULL, 'Carey', 'Oceania', 'Australia', 'au', 'nsw', 'showcaves', NULL, NULL),
+(2678, 'yes', 0, 'Cutta Cutta Caves', '/english/au/showcaves/CuttaCutta.html', NULL, 'CuttaCutta', 'Oceania', 'Australia', 'au', 'nt', 'showcaves', -14.578904000000000, 132.469344000000000),
+(2679, 'yes', 0, 'Carey’s Cave', '/english/au/showcaves/Carey.html', NULL, 'Carey', 'Oceania', 'Australia', 'au', 'nsw', 'showcaves', -35.071801000000000, 148.660602000000000),
 (2680, 'yes', 0, 'Chillagoe Caves', '/english/au/showcaves/Chillagoe.html', NULL, 'Chillagoe', 'Oceania', 'Australia', 'au', 'qld', 'showcaves', NULL, NULL),
 (2681, 'yes', 0, 'Chifley Cave', '/english/au/showcaves/Chifley.html', NULL, 'Chifley', 'Oceania', 'Australia', 'au', 'nsw', 'showcaves', NULL, NULL),
 (2682, 'yes', 0, 'Cerberus Cave', '/english/au/showcaves/Cerberus.html', NULL, 'Cerberus', 'Oceania', 'Australia', 'au', 'nsw', 'showcaves', NULL, NULL),
@@ -2708,7 +2721,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2732, 'yes', 0, 'Glen Osmond Mine Tour', '/english/au/mines/GlenOsmond.html', NULL, 'GlenOsmond', 'Oceania', 'Australia', 'au', 'sa', 'mines', NULL, NULL),
 (2733, 'yes', 0, 'Long Tunnel Extended Gold Mine', '/english/au/mines/LongTunnel.html', NULL, 'LongTunnel', 'Oceania', 'Australia', 'au', 'vic', 'mines', NULL, NULL),
 (2734, 'yes', 0, 'The Super Pit Lookout', '/english/au/mines/SuperPit.html', NULL, 'SuperPit', 'Oceania', 'Australia', 'au', 'wa', 'mines', -30.778827883017930, 121.498511360299700),
-(2735, 'yes', 0, 'Bobby Dazzler Walk-in Mine', '/english/au/mines/BobbyDazzler.html', NULL, 'BobbyDazzl', 'Oceania', 'Australia', 'au', 'qld', 'mines', NULL, NULL),
+(2735, 'yes', 0, 'Bobby Dazzler Walk-in Mine', '/english/au/mines/BobbyDazzler.html', NULL, 'BobbyDazzl', 'Oceania', 'Australia', 'au', 'qld', 'mines', -23.420497000000000, 147.699820000000000),
 (2736, 'yes', 0, 'Miners Heritage Walk-In Mine', '/english/au/mines/MinersHeritage.html', NULL, 'MinersHeri', 'Oceania', 'Australia', 'au', 'qld', 'mines', NULL, NULL),
 (2737, 'yes', 0, 'Delprats Underground Tourist Mine', '/english/au/mines/Delprats.html', NULL, 'Delprats', 'Oceania', 'Australia', 'au', 'nsw', 'mines', NULL, NULL),
 (2738, 'yes', 0, 'Cave Garden', '/english/au/karst/CaveGarden.html', NULL, 'CaveGarden', 'Oceania', 'Australia', 'au', 'sa', 'karst', NULL, NULL),
@@ -2839,11 +2852,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (2867, 'yes', 0, 'Vimy Memorial - Grange Tunnel', '/english/fr/subterranea/Vimy.html', NULL, 'Vimy', 'Europe', 'France', 'fr', 'Nord', 'subterranea', 50.379122099341490, 2.773389659053706),
 (2868, 'yes', 0, 'Villa Fliedner', '/english/de/subterranea/VillaFliedner.html', NULL, 'VillaFlied', 'Europe', 'Germany', 'de', 'Oberrhein', 'subterranea', NULL, NULL),
 (2869, 'yes', 0, 'Deinhard Kellermuseum', '/english/de/subterranea/Deinhard.html', NULL, 'Deinhard', 'Europe', 'Germany', 'de', 'Eifel', 'subterranea', 50.358133686133170, 7.599519715623089),
-(2870, 'yes', 0, 'Himmelsbergstollen', '/english/de/subterranea/Himmelsberg.html', NULL, 'Himmelsber', 'Europe', 'Germany', 'de', 'PfaelzerBergland', 'subterranea', 49.245703007364480, 7.368219909481001),
+(2870, 'yes', 0, 'Himmelsbergstollen', '/english/de/subterranea/Himmelsberg.html', NULL, 'Himmelsber', 'Europe', 'Germany', 'de', 'PfaelzerBergland', 'subterranea', 49.245703007364480, 7.368219909481001);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (2871, 'yes', 0, 'Gaxian Dong', '/english/cn/showcaves/Gaxian.html', NULL, 'Gaxian', 'Asia', 'China', 'cn', 'InnerMongolia', 'showcaves', 50.628597100000000, 123.604035600000000),
 (2872, 'yes', 0, 'GoldBottom Mine Tours', '/english/ca/mines/GoldBottom.html', NULL, 'GoldBottom', 'NorthAmerica', 'Canada', 'ca', 'Yukon', 'mines', 63.963495330469430, -138.963755378426900),
-(2873, 'yes', 0, 'Eldorado Canyon Mine Tours', '/english/usa/mines/EldoradoCanyon.html', NULL, 'EldoradoCa', 'NorthAmerica', 'United States of America', 'us', 'nv', 'mines', NULL, NULL);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(2873, 'yes', 0, 'Eldorado Canyon Mine Tours', '/english/usa/mines/EldoradoCanyon.html', NULL, 'EldoradoCa', 'NorthAmerica', 'United States of America', 'us', 'nv', 'mines', NULL, NULL),
 (2874, 'yes', 0, 'Argo Gold Mill and Museum', '/english/usa/mines/Argo.html', NULL, 'Argo', 'NorthAmerica', 'United States of America', 'us', 'co', 'mines', 39.742896628129420, -105.506659031878900),
 (2875, 'yes', 0, 'Bachelor-Syracuse Mine Tour', '/english/usa/mines/BachelorSyracuse.html', NULL, 'BachelorSy', 'NorthAmerica', 'United States of America', 'us', 'co', 'mines', 38.059440000000000, -107.678624000000000),
 (2876, 'yes', 0, 'The Country Boy Mine', '/english/usa/mines/CountryBoy.html', NULL, 'CountryBoy', 'NorthAmerica', 'United States of America', 'us', 'co', 'mines', 39.485629441573490, -106.033160224255100),
@@ -3106,11 +3120,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3144, 'yes', 0, 'Cava 177', '/english/it/mines/Cava177.html', NULL, 'Cava177', 'Europe', 'Italy', 'it', 'Toscana', 'mines', 44.079053737552140, 10.140897138214470),
 (3145, 'yes', 0, 'Galleria Ravaccione', '/english/it/mines/Ravaccione.html', NULL, 'Ravaccione', 'Europe', 'Italy', 'it', 'Toscana', 'mines', 44.089853244035280, 10.134590085910470),
 (3146, 'yes', 0, 'Grotta Lamalunga', '/english/it/subterranea/Lamalunga.html', NULL, 'Lamalunga', 'Europe', 'Italy', 'it', 'Puglia', 'subterranea', NULL, NULL),
-(3147, 'yes', 0, 'Tyendinaga Cave', '/english/ca/showcaves/Tyendinaga.html', NULL, 'Tyendinaga', 'NorthAmerica', 'Canada', 'ca', 'Ontario', 'showcaves', 44.287787719099090, -77.260706847204700),
+(3147, 'yes', 0, 'Tyendinaga Cave', '/english/ca/showcaves/Tyendinaga.html', NULL, 'Tyendinaga', 'NorthAmerica', 'Canada', 'ca', 'Ontario', 'showcaves', 44.287787719099090, -77.260706847204700);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (3148, 'yes', 0, 'Crow Creek Mine', '/english/usa/mines/CrowCreek.html', NULL, 'CrowCreek', 'NorthAmerica', 'United States of America', 'us', 'ak', 'mines', 60.998129370154410, -149.083191618101000),
 (3149, 'yes', 0, 'Beit She’arim National Park', '/english/il/subterranea/BeitShearim.html', NULL, 'BeitSheari', 'MiddleEast', 'Israel', 'il', 'Northern', 'subterranea', 32.703633760823620, 35.129052363235540),
-(3150, 'yes', 0, 'Shunt', '/english/gb/subterranea/Shunt.html', NULL, 'Shunt', 'Europe', 'Great Britain', 'gb', 'London', 'subterranea', 51.505078897282490, -0.086941729718560);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(3150, 'yes', 0, 'Shunt', '/english/gb/subterranea/Shunt.html', NULL, 'Shunt', 'Europe', 'Great Britain', 'gb', 'London', 'subterranea', 51.505078897282490, -0.086941729718560),
 (3151, 'yes', 0, 'Majlis Al-Jin', '/english/om/caves/Majlis.html', NULL, 'Majlis', 'MiddleEast', 'Oman', 'om', 'AshSharqiyahSouth', 'caves', 22.881188800000000, 59.105058700000000),
 (3152, 'yes', 0, 'Grube Fortuna', '/english/de/mines/Fortuna.html', NULL, 'Fortuna', 'Europe', 'Germany', 'de', 'Siegerland', 'mines', 50.575002452868830, 8.424037943088919),
 (3153, 'yes', 0, 'Mine d’antimoine à Goesdorf', '/english/lu/mines/Goesdorf.html', NULL, 'Goesdorf', 'Europe', 'Luxembourg', 'lu', 'Diekirch', 'mines', 49.919369933131710, 5.959170568815779),
@@ -3254,7 +3269,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3318, 'yes', 0, 'Tham Pha Thong', '/english/th/showcaves/PhaThong.html', NULL, 'PhaThong', 'Asia', 'Thailand', 'th', 'Phetchabun', 'showcaves', 16.246140277777780, 100.822004166666700),
 (3319, 'yes', 0, 'Abri de Cro-Magnon', '/english/fr/caves/CroMagnon.html', NULL, 'CroMagnon', 'Europe', 'France', 'fr', 'Dordogne', 'caves', 44.940405361174800, 1.009740171752355),
 (3320, 'yes', 0, 'Huangzhu Dong', '/english/cn/showcaves/Huangzhu.html', NULL, 'Huangzhu', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 25.286409769166010, 110.299753146862800),
-(3322, 'yes', 0, 'Moon Water Cave', '/english/cn/showcaves/MoonWater.html', NULL, 'MoonWater', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 24.716797837298060, 110.459982300149100),
+(3322, 'yes', 0, 'Moon Water Cave', '/english/cn/showcaves/MoonWater.html', NULL, 'MoonWater', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 24.706316200000000, 110.439337800000000),
 (3323, 'yes', 0, 'Black Buddha Cave', '/english/cn/showcaves/BlackBuddha.html', NULL, 'BlackBuddh', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 24.714071469835840, 110.459982714009500),
 (3324, 'yes', 0, 'Dragon Cave', '/english/cn/showcaves/Dragon.html', NULL, 'Dragon', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 24.706353977876390, 110.455577781867800),
 (3325, 'yes', 0, 'Lotus Cave', '/english/cn/showcaves/Lotus.html', NULL, 'Lotus', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 27.885887403960510, 110.334347211264800),
@@ -3360,7 +3375,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3429, 'yes', 0, 'Arnold Ice Cave', '/english/usa/caves/ArnoldIce.html', NULL, 'ArnoldIce', 'NorthAmerica', 'United States of America', 'us', 'or', 'caves', 43.905823000600430, -121.159229971784400),
 (3430, 'yes', 0, 'Boyd Cave', '/english/usa/caves/Boyd.html', NULL, 'Boyd', 'NorthAmerica', 'United States of America', 'us', 'or', 'caves', 43.942223715244760, -121.198269488072000),
 (3431, 'yes', 0, 'Windjana Gorge', '/english/au/gorges/Windjana.html', NULL, 'Windjana', 'Oceania', 'Australia', 'au', 'wa', 'gorges', -17.407995813251090, 124.959426688001200),
-(3432, 'yes', 0, 'Geikie Gorge', '/english/au/gorges/Geikie.html', NULL, 'Geikie', 'Oceania', 'Australia', 'au', 'wa', 'gorges', -18.079277601111970, 125.712986938988600),
+(7126, 'yes', 0, 'Gruta India', '/english/ar/caves/India.html', NULL, 'India', 'SouthAmerica', 'Argentina', 'ar', 'Misiones', 'caves', -26.758657400000000, -54.923405200000000),
 (3433, 'yes', 0, 'Hugh’s Dale Waterfall', '/english/au/karst/HughsDale.html', NULL, 'HughsDale', 'Australia', 'Australia', 'au', 'ChristmasIsland', 'karst', -10.474362809787010, 105.561136076567400),
 (3434, 'yes', 0, 'Tham Xang', '/english/la/subterranea/Xang.html', NULL, 'Xang', 'Asia', 'Laos', 'la', 'Vientiane', 'subterranea', 18.909403236400570, 102.442795070329500),
 (3435, 'yes', 0, 'Tham Hoi', '/english/la/caves/Hoi.html', NULL, 'Hoi', 'Asia', 'Laos', 'la', 'Vientiane', 'caves', 18.909489674895700, 102.442607697799000),
@@ -3377,11 +3392,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3447, 'yes', 0, 'Palmaz Vineyards', '/english/usa/subterranea/Palmaz.html', NULL, 'Palmaz', 'NorthAmerica', 'United States of America', 'us', 'ca', 'subterranea', 38.323696752743370, -122.225185702166300),
 (3448, 'yes', 0, 'Fisher’s Cave', '/english/usa/caves/Fishers.html', NULL, 'Fishers', 'NorthAmerica', 'United States of America', 'us', 'mo', 'caves', 37.145177034658940, -93.238106880141570),
 (3449, 'yes', 0, 'Altinocak Restaurant', '/english/tr/subterranea/Altinocak.html', NULL, 'Altinocak', 'Europe', 'Turkey', 'tr', 'Cappadocia', 'subterranea', 38.716265312343840, 34.825809467763010),
-(3450, 'yes', 0, 'L’Osteria del Tempo Perso', '/english/it/subterranea/TempoPerso.html', NULL, 'TempoPerso', 'Europe', 'Italy', 'it', 'Puglia', 'subterranea', 40.733124345536950, 17.576804751980210),
+(3450, 'yes', 0, 'L’Osteria del Tempo Perso', '/english/it/subterranea/TempoPerso.html', NULL, 'TempoPerso', 'Europe', 'Italy', 'it', 'Puglia', 'subterranea', 40.733124345536950, 17.576804751980210);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (3451, 'yes', 0, 'Las Cuevas', '/english/es/subterranea/LasCuevas.html', NULL, 'LasCuevas', 'Europe', 'Spain', 'es', 'Valenciana', 'subterranea', 37.976128071487960, -0.787173179704893),
 (3452, 'yes', 0, 'La Cueva de la Ramblera', '/english/es/subterranea/Ramblera.html', NULL, 'Ramblera', 'Europe', 'Spain', 'es', 'Valenciana', 'subterranea', 37.977471011353230, -0.787537245099699),
-(3453, 'yes', 0, 'Les Caves de Marson', '/english/fr/subterranea/Marson.html', NULL, 'Marson', 'Europe', 'France', 'fr', 'PaysLoire', 'subterranea', 47.250624236405910, -0.146116105207895);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(3453, 'yes', 0, 'Les Caves de Marson', '/english/fr/subterranea/Marson.html', NULL, 'Marson', 'Europe', 'France', 'fr', 'PaysLoire', 'subterranea', 47.250624236405910, -0.146116105207895),
 (3455, 'yes', 0, 'Pettyjohn Cave', '/english/usa/caves/PettyJohn.html', NULL, 'PettyJohn', 'NorthAmerica', 'United States of America', 'us', 'ga', 'caves', 34.664443526142730, -85.366109081094850),
 (3457, 'yes', 0, 'Da Dung Mountain Caves', '/english/vn/showcaves/DaDung.html', NULL, 'DaDung', 'Asia', 'Vietnam', 'vn', 'KienGiang', 'showcaves', 10.428700300000000, 104.477307700000000),
 (3458, 'yes', 0, 'Gimpel-Labyrinth', '/english/at/caves/Gimpel.html', NULL, 'Gimpel', 'Europe', 'Austria', 'at', 'Tirol', 'caves', 47.499965054287050, 10.615341638444290),
@@ -3392,7 +3408,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3463, 'yes', 0, 'Bahay Paniki Cave', '/english/ph/caves/BahayPaniki.html', NULL, 'BahayPanik', 'Asia', 'The Philippines', 'ph', 'CentralLuzon', 'caves', 15.107965000000000, 121.075940000000000),
 (3464, 'yes', 0, 'Khangkhui Mangsor', '/english/in/caves/Khangkhui.html', NULL, 'Khangkhui', 'Asia', 'India', 'in', 'Manipur', 'caves', 25.094444444444440, 94.383888888888890),
 (3465, 'yes', 0, 'Tharon Cave', '/english/in/caves/Tharon.html', NULL, 'Tharon', 'Asia', 'India', 'in', 'Manipur', 'caves', 25.049202167373900, 93.546617705105630),
-(3466, 'yes', 0, 'Neustädtler Hobbybergwerk', '/english/de/mines/Neustaedtel.html', NULL, 'Neustaedte', 'Europe', 'Germany', 'de', 'Erzgebirge', 'mines', 50.578739152607060, 12.632446121107280),
+(3466, 'yes', 0, 'Neustädtler Hobbybergwerk', '/english/de/mines/Neustaedtel.html', NULL, 'Neustaedte', 'Europe', 'Germany', 'de', 'Erzgebirge', 'mines', 50.579416000000000, 12.631775000000000),
 (3467, 'yes', 0, 'Fish River Canyon', '/english/other/gorges/FishRiver.html', 'other', 'FishRiver', 'Africa', 'Namibia', 'na', 'na', 'gorges', -27.591133232377100, 17.617228928998630),
 (3468, 'yes', 0, 'Sinks of Gandy', '/english/usa/caves/Gandy.html', NULL, 'Gandy', 'NorthAmerica', 'United States of America', 'us', 'wv', 'caves', 38.714986333642960, -79.642759621808640),
 (3469, 'yes', 0, 'Martinsloch', '/english/ch/caves/Martinsloch.html', NULL, 'Martinsloc', 'Europe', 'Switzerland', 'ch', 'Glarus', 'caves', 46.907565229716940, 9.233901957111655),
@@ -3645,11 +3661,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (3726, 'yes', 1, 'Devil’s Hole', '/english/bm/karst/DevilsHole.html', NULL, 'DevilsHole', 'MiddleAmerica', 'Bermuda', 'bm', 'Smiths', 'karst', 32.320920000000000, -64.715190000000000),
 (3727, 'yes', 0, 'Leamington Caves', '/english/bm/showcaves/Leamington.html', NULL, 'Leamington', 'MiddleAmerica', 'Bermuda', 'bm', 'Hamilton', 'showcaves', 32.342122000000000, -64.708592000000000),
 (3728, 'yes', 0, 'Trollholene', '/english/no/caves/Trollholene.html', NULL, 'Trollholen', 'Europe', 'Norway', 'no', 'Telemark', 'caves', 59.001078460820530, 8.274571828013508),
-(3729, 'yes', 0, 'Goa Jomblang', '/english/id/caves/Jomblang.html', NULL, 'Jomblang', 'Asia', 'Indonesia', 'id', 'Yogyakarta', 'caves', -8.028829232836717, 110.638362763885300),
+(3729, 'yes', 0, 'Goa Jomblang', '/english/id/caves/Jomblang.html', NULL, 'Jomblang', 'Asia', 'Indonesia', 'id', 'Yogyakarta', 'caves', -8.028829232836717, 110.638362763885300);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (3730, 'yes', 0, 'Lubang Jepang', '/english/id/subterranea/LubangJepang.html', NULL, 'LubangJepa', 'Asia', 'Indonesia', 'id', 'WestSumatra', 'subterranea', -0.308164489516007, 100.364302863160800),
 (3731, 'yes', 0, 'Lærdalstunnelen', '/english/no/subterranea/Laerdal.html', NULL, 'Laerdal', 'Europe', 'Norway', 'no', 'SognOgFjordane', 'subterranea', 60.971943971598320, 7.368332356994114),
-(3732, 'yes', 0, 'Big Four Ice Caves', '/english/usa/caves/BigFourIce.html', NULL, 'BigFourIce', 'NorthAmerica', 'United States of America', 'us', 'wa', 'caves', 48.046462921260160, -121.505193386637000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(3732, 'yes', 0, 'Big Four Ice Caves', '/english/usa/caves/BigFourIce.html', NULL, 'BigFourIce', 'NorthAmerica', 'United States of America', 'us', 'wa', 'caves', 48.046462921260160, -121.505193386637000),
 (3733, 'yes', 0, 'Rock Springs', '/english/usa/springs/Rock.html', NULL, 'Rock', 'NorthAmerica', 'United States of America', 'us', 'fl', 'springs', 28.756445800000000, -81.501734200000000),
 (3734, 'yes', 0, 'Leiðarendi', '/english/is/caves/Leidarendi.html', NULL, 'Leidarendi', 'Europe', 'Iceland', 'is', 'Capital', 'caves', 63.996411680515400, -21.768274044906230),
 (3735, 'yes', 0, 'Partnachklamm', '/english/de/gorges/Partnachklamm.html', NULL, 'Partnachkl', 'Europe', 'Germany', 'de', 'Alpen', 'gorges', 47.469128196344540, 11.119338616611370),
@@ -3925,11 +3942,12 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4017, 'yes', 0, 'Cuevas del Pilar', '/english/es/caves/Pilar.html', NULL, 'Pilar', 'Europe', 'Spain', 'es', 'Mallorca', 'caves', NULL, NULL),
 (4018, 'yes', 0, 'Five-Flower Lake', '/english/cn/karst/FiveFlowerLake.html', NULL, 'FiveFlower', 'Asia', 'China', 'cn', 'Sichuan', 'karst', NULL, NULL),
 (4019, 'yes', 0, 'WISMUT Objekt 90', '/english/de/mines/Objekt90.html', NULL, 'Objekt90', 'Europe', 'Germany', 'de', 'Erzgebirge', 'mines', NULL, NULL),
-(4022, 'yes', 0, 'Ordinskaya Peschtera', '/english/ru/caves/Orda.html', NULL, 'Orda', 'Asia', 'Russia', 'ru', 'Perm', 'caves', NULL, NULL),
+(4022, 'yes', 0, 'Ordinskaya Peschtera', '/english/ru/caves/Orda.html', NULL, 'Orda', 'Asia', 'Russia', 'ru', 'Perm', 'caves', NULL, NULL);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (4023, 'yes', 0, 'Cayman Crystal Caves', '/english/car/showcaves/CaymanCrystal.html', 'car', 'CaymanCrys', 'MiddleAmerica', 'Cayman Islands', 'ky', 'ky', 'showcaves', 19.340908000000000, -81.181646000000000),
 (4024, 'yes', 0, 'Kinver Edge Rock Houses', '/english/gb/subterranea/Kinver.html', NULL, 'Kinver', 'Europe', 'Great Britain', 'gb', 'Staffordshire', 'subterranea', NULL, NULL),
-(4025, 'yes', 0, 'Underground Chattanooga', '/english/usa/subterranea/Chattanooga.html', NULL, 'Chattanoog', 'NorthAmerica', 'United States of America', 'us', 'TN', 'subterranea', NULL, NULL);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(4025, 'yes', 0, 'Underground Chattanooga', '/english/usa/subterranea/Chattanooga.html', NULL, 'Chattanoog', 'NorthAmerica', 'United States of America', 'us', 'TN', 'subterranea', NULL, NULL),
 (4026, 'yes', 0, 'Tytoona Cave', '/english/usa/caves/Tytoona.html', NULL, 'Tytoona', 'NorthAmerica', 'United States of America', 'us', 'pa', 'caves', NULL, NULL),
 (4027, 'yes', 0, 'Drakelow Tunnels', '/english/gb/subterranea/Drakelow.html', NULL, 'Drakelow', 'Europe', 'Great Britain', 'gb', 'Worcestershire', 'subterranea', NULL, NULL),
 (4028, 'yes', 0, 'Tsodilo Rock Paintings', '/english/other/caves/Tsodilo.html', 'other', 'Tsodilo', 'Africa', 'Botswana', 'bw', 'bw', 'caves', NULL, NULL),
@@ -4029,8 +4047,8 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4124, 'yes', 0, 'Last Chance Mining Museum', '/english/usa/mines/LastChance.html', NULL, 'LastChance', 'NorthAmerica', 'United States of America', 'us', 'ak', 'mines', NULL, NULL),
 (4125, 'yes', 0, 'Te’omim Cave', '/english/il/caves/Teomim.html', NULL, 'Teomim', 'MiddleEast', 'Israel', 'il', 'Jerusalem', 'caves', 31.726231000000000, 35.020300000000000),
 (4126, 'yes', 0, 'Le Scialet de Malaterre', '/english/fr/caves/Malaterre.html', NULL, 'Malaterre', 'Europe', 'France', 'fr', 'Rhone', 'caves', NULL, NULL),
-(4127, 'yes', 0, 'Tsingy de Bemaraha', '/english/other/karst/Bemaraha.html', 'other', 'Bemaraha', 'Africa', 'Madagascar', 'mg', 'mg', 'karst', NULL, NULL),
-(4128, 'yes', 0, 'Tsingy de Namoroka', '/english/other/karst/Namoroka.html', 'other', 'Namoroka', 'Africa', 'Madagascar', 'mg', 'mg', 'karst', NULL, NULL),
+(4127, 'yes', 0, 'Tsingy de Bemaraha', '/english/other/karst/Bemaraha.html', 'other', 'Bemaraha', 'Africa', 'Madagascar', 'mg', 'mg', 'karst', -19.143442700000000, 44.812635300000000),
+(4128, 'yes', 0, 'Tsingy de Namoroka', '/english/other/karst/Namoroka.html', 'other', 'Namoroka', 'Africa', 'Madagascar', 'mg', 'mg', 'karst', -16.103083500000000, 45.327669300000000),
 (4129, 'yes', 0, 'Indiana Caverns', '/english/usa/showcaves/Indiana.html', NULL, 'Indiana', 'NorthAmerica', 'United States of America', 'us', 'in', 'showcaves', NULL, NULL),
 (4130, 'yes', 0, 'Musanze Cave', '/english/other/showcaves/Musanze.html', 'other', 'Musanze', 'Africa', 'Rwanda', 'rw', 'rw', 'showcaves', NULL, NULL),
 (4131, 'yes', 0, 'Old Bwana Mukubwa Tourism Centre', '/english/other/mines/BwanaMukubwa.html', 'other', 'BwanaMukub', 'Africa', 'Zambia', 'zm', 'zm', 'mines', NULL, NULL),
@@ -4187,7 +4205,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4289, 'yes', 0, 'Sri Nakarin Dam', '/english/th/karst/SriNakarin.html', NULL, 'SriNakarin', 'Asia', 'Thailand', 'th', 'Kanchanaburi', 'karst', NULL, NULL),
 (4290, 'yes', 0, 'Santa Cueva de Covadonga', '/english/es/caves/Covadonga.html', NULL, 'Covadonga', 'Europe', 'Spain', 'es', 'Asturias', 'caves', 43.307060300000000, -5.054081000000000),
 (4291, 'yes', 0, 'Eisenbreche Klamm', '/english/de/gorges/Eisenbreche.html', NULL, 'Eisenbrech', 'Europe', 'Germany', 'de', 'Alpen', 'gorges', NULL, NULL),
-(4292, 'yes', 0, 'Höllentalklamm', '/english/de/gorges/Hoellental.html', NULL, 'Hoellental', 'Europe', 'Germany', 'de', 'Alpen', 'gorges', NULL, NULL),
+(4292, 'yes', 0, 'Höllentalklamm', '/english/de/gorges/Hoellental.html', NULL, 'Hoellental', 'Europe', 'Germany', 'de', 'Alpen', 'gorges', 47.448146800000000, 11.044235800000000),
 (4293, 'yes', 0, 'Dr.-Vogelgesang-Klamm', '/english/at/gorges/Vogelgesang.html', NULL, 'Vogelgesan', 'Europe', 'Austria', 'at', 'Ober', 'gorges', NULL, NULL),
 (4294, 'yes', 0, 'Blejski vintgar', '/english/si/gorges/Vintgar.html', NULL, 'Vintgar', 'Europe', 'Slovenia', 'si', 'Gorenjska', 'gorges', NULL, NULL),
 (4295, 'yes', 0, 'Bava Pyara Caves', '/english/in/subterranea/BavaPyara.html', NULL, 'BavaPyara', 'Asia', 'India', 'in', 'Gujarat', 'subterranea', 21.519894104469916, 70.470113620926170),
@@ -4224,13 +4242,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4329, 'yes', 0, 'Kőbányai pincerendszer', '/english/hu/subterranea/Kobanya.html', NULL, 'Kobanya', 'Europe', 'Hungary', 'hu', 'Budapest', 'subterranea', NULL, NULL),
 (4330, 'yes', 0, 'Aliança Underground Museum', '/english/pt/subterranea/Alianca.html', NULL, 'Alianca', 'Europe', 'Portugal', 'pt', 'Aveiro', 'subterranea', NULL, NULL),
 (4331, 'yes', 0, 'Museu Mineiro do Lousal', '/english/pt/mines/Lousal.html', NULL, 'Lousal', 'Europe', 'Portugal', 'pt', 'Setubal', 'mines', NULL, NULL),
-(4332, 'yes', 0, 'Mina de São Domingos', '/english/pt/mines/SaoDomingos.html', NULL, 'SaoDomingo', 'Europe', 'Portugal', 'pt', 'Beja', 'mines', NULL, NULL),
+(4332, 'yes', 0, 'Mina de São Domingos', '/english/pt/mines/SaoDomingos.html', NULL, 'SaoDomingo', 'Europe', 'Portugal', 'pt', 'Beja', 'mines', NULL, NULL);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (4333, 'yes', 0, 'Mina subterrânea de Sal-Gema de Loulé', '/english/pt/mines/Loule.html', NULL, 'Loule', 'Europe', 'Portugal', 'pt', 'Faro', 'mines', NULL, NULL),
 (4334, 'yes', 0, 'Monsanto', '/english/pt/subterranea/Monsanto.html', NULL, 'Monsanto', 'Europe', 'Portugal', 'pt', 'CasteloBranco', 'subterranea', NULL, NULL),
 (4335, 'yes', 0, 'Quinta da Regaleira', '/english/pt/subterranea/QuintaDaRegaleira.html', NULL, 'QuintaDaRe', 'Europe', 'Portugal', 'pt', 'Lisboa', 'subterranea', NULL, NULL),
-(4336, 'yes', 0, 'Grutas do Rossio', '/english/pt/subterranea/Rossio.html', NULL, 'Rossio', 'Europe', 'Portugal', 'pt', 'Beja', 'subterranea', NULL, NULL);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
-(4337, 'yes', 0, 'Algar de Benagil', '/english/pt/caves/Benagil.html', NULL, 'Benagil', 'Europe', 'Portugal', 'pt', 'Faro', 'caves', NULL, NULL),
+(4336, 'yes', 0, 'Grutas do Rossio', '/english/pt/subterranea/Rossio.html', NULL, 'Rossio', 'Europe', 'Portugal', 'pt', 'Beja', 'subterranea', NULL, NULL),
+(4337, 'yes', 0, 'Algar de Benagil', '/english/pt/caves/Benagil.html', NULL, 'Benagil', 'Europe', 'Portugal', 'pt', 'Faro', 'caves', 37.086958500000000, -8.424162100000000),
 (4338, 'yes', 0, 'Parque Mineiro De Aljustrel', '/english/pt/mines/Aljustrel.html', NULL, 'Aljustrel', 'Europe', 'Portugal', 'pt', 'Beja', 'mines', NULL, NULL),
 (4339, 'yes', 0, 'Algar do Pena', '/english/pt/showcaves/Pena.html', NULL, 'Pena', 'Europe', 'Portugal', 'pt', 'Santarem', 'showcaves', NULL, NULL),
 (4340, 'yes', 0, 'Polje de Mira-Minde', '/english/pt/karst/MiraMinde.html', NULL, 'MiraMinde', 'Europe', 'Portugal', 'pt', 'Leiria', 'karst', NULL, NULL),
@@ -4335,7 +4354,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4442, 'yes', 0, 'Thrihnukagigur', '/english/is/showcaves/Thrihnukagigur.html', NULL, 'Thrihnukag', 'Europe', 'Iceland', 'is', 'Capital', 'showcaves', NULL, NULL),
 (4443, 'yes', 0, 'Cueva de Ardales', '/english/es/showcaves/Ardales.html', NULL, 'Ardales', 'Europe', 'Spain', 'es', 'Andalucía', 'showcaves', 36.872760000000000, -4.828887000000000),
 (4444, 'yes', 0, 'Watkins Glen State Park', '/english/usa/gorges/Watkins.html', NULL, 'Watkins', 'NorthAmerica', 'United States of America', 'us', 'ny', 'gorges', NULL, NULL),
-(4445, 'yes', 0, 'Xiaozhai Tiankeng', '/english/cn/karst/Xiaozhai.html', NULL, 'Xiaozhai', 'Asia', 'China', 'cn', 'Chongqing', 'karst', NULL, NULL),
+(4445, 'yes', 0, 'Xiaozhai Tiankeng', '/english/cn/karst/Xiaozhai.html', NULL, 'Xiaozhai', 'Asia', 'China', 'cn', 'Chongqing', 'karst', 30.750800000000000, 109.469620000000000),
 (4446, 'yes', 0, 'Dragon Hole', '/english/cn/karst/DragonHole.html', NULL, 'DragonHole', 'Asia', 'China', 'cn', 'Hainan', 'karst', 16.525000000000000, 111.767804000000000),
 (4448, 'yes', 0, 'Luobi Cave', '/english/cn/caves/Luobi.html', NULL, 'Luobi', 'Asia', 'China', 'cn', 'Hainan', 'caves', 18.330764000000000, 109.547944000000000),
 (4449, 'yes', 0, 'Xionglong Cave', '/english/cn/showcaves/Xionglong.html', NULL, 'Xionglong', 'Asia', 'China', 'cn', 'Hebei', 'showcaves', NULL, NULL),
@@ -4530,13 +4549,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4645, 'yes', 0, 'Szelim-barlang', '/english/hu/caves/Szelim.html', NULL, 'Szelim', 'Europe', 'Hungary', 'hu', 'Komarom', 'caves', NULL, NULL),
 (4646, 'yes', 0, 'Filipinas Larimar Mine', '/english/do/mines/Filipinas.html', NULL, 'Filipinas', 'MiddleAmerica', 'Dominican Republic', 'do', 'Barahona', 'mines', NULL, NULL),
 (4647, 'yes', 0, 'Oyo Azul', '/english/do/karst/OyoAzul.html', NULL, 'OyoAzul', 'MiddleAmerica', 'Dominican Republic', 'do', 'LaAltagracia', 'karst', NULL, NULL),
-(4648, 'yes', 0, 'San Juan de la Peña', '/english/es/subterranea/SanJuanPena.html', NULL, 'SanJuanPen', 'Europe', 'Spain', 'es', 'Aragon', 'subterranea', NULL, NULL),
+(4648, 'yes', 0, 'San Juan de la Peña', '/english/es/subterranea/SanJuanPena.html', NULL, 'SanJuanPen', 'Europe', 'Spain', 'es', 'Aragon', 'subterranea', NULL, NULL);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (4649, 'yes', 0, 'Ayios Sozomenos Cave Church', '/english/cy/subterranea/AyiosSozomenos.html', NULL, 'AyiosSozom', 'Europe', 'Cyprus', 'cy', 'Nicosia', 'subterranea', NULL, NULL),
 (4650, 'yes', 0, 'Ayia Thekla Cave Church', '/english/cy/subterranea/AyiaThekla.html', NULL, 'AyiaThekla', 'Europe', 'Cyprus', 'cy', 'Famagusta', 'subterranea', NULL, NULL),
 (4651, 'yes', 0, 'Ayias Solomonis Cave Church and Catacombs', '/english/cy/subterranea/AyiasSolomonis.html', NULL, 'AyiasSolom', 'Europe', 'Cyprus', 'cy', 'Paphos', 'subterranea', NULL, NULL),
 (4652, 'yes', 0, 'Farkaskői Alkotótelep', '/english/hu/subterranea/Noszvaj.html', NULL, 'Noszvaj', 'Europe', 'Hungary', 'hu', 'Bukk', 'subterranea', NULL, NULL),
-(4653, 'yes', 0, 'Ayia Napa Sea Caves', '/english/cy/caves/AyiaNapa.html', NULL, 'AyiaNapa', 'Europe', 'Cyprus', 'cy', 'Famagusta', 'caves', NULL, NULL);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(4653, 'yes', 0, 'Ayia Napa Sea Caves', '/english/cy/caves/AyiaNapa.html', NULL, 'AyiaNapa', 'Europe', 'Cyprus', 'cy', 'Famagusta', 'caves', NULL, NULL),
 (4654, 'yes', 0, 'Playa Escondida', '/english/mx/karst/PlayaEscondida.html', NULL, 'PlayaEscon', 'MiddleAmerica', 'México', 'mx', 'Nayarit', 'karst', NULL, NULL),
 (4655, 'yes', 0, 'Love Bridge', '/english/cy/karst/LoveBridge.html', NULL, 'LoveBridge', 'Europe', 'Cyprus', 'cy', 'Famagusta', 'karst', NULL, NULL),
 (4656, 'yes', 0, 'Hermitage of St. Cirijaka', '/english/hr/subterranea/StCirijaka.html', NULL, 'StCirijaka', 'Europe', 'Croatia', 'hr', 'Split', 'subterranea', 43.509212600000000, 16.401163600000000),
@@ -4803,13 +4823,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (4917, 'yes', 0, 'Kaaterskill Falls', '/english/usa/caves/KaaterskillFalls.html', NULL, 'Kaaterskil', 'NorthAmerica', 'United States of America', 'us', 'ny', 'caves', 42.193234000000000, -74.063044000000000),
 (4918, 'yes', 0, 'Noccalula Falls', '/english/usa/caves/NoccalulaFalls.html', NULL, 'NoccalulaF', 'NorthAmerica', 'United States of America', 'us', 'al', 'caves', 34.041285435717200, -86.021419796676440),
 (4919, 'yes', 0, 'Alofaaga Blowholes', '/english/other/karst/Alofaaga.html', 'other', 'Alofaaga', 'Oceania', 'Samoa', 'ws', 'ws', 'karst', -13.801659000000000, -172.521571000000000),
-(4920, 'yes', 0, 'Peapea Cave', '/english/other/caves/Peapea.html', 'other', 'Peapea', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.506334000000000, -172.478069000000000),
+(4920, 'yes', 0, 'Peapea Cave', '/english/other/caves/Peapea.html', 'other', 'Peapea', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.506334000000000, -172.478069000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (4921, 'yes', 0, 'To Sua', '/english/other/karst/ToSua.html', 'other', 'ToSua', 'Oceania', 'Samoa', 'ws', 'ws', 'karst', -14.043813490104704, -171.562302810198620),
 (4922, 'yes', 0, 'Piula Cave Pool', '/english/other/caves/Piula.html', 'other', 'Piula', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.873309000000000, -171.597045000000000),
 (4923, 'yes', 0, 'Paia Dwarfs Cave', '/english/other/caves/Paia.html', 'other', 'Paia', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.492825000000000, -172.407344000000000),
 (4924, 'yes', 0, 'La’auolola Caves', '/english/other/caves/Laauolola.html', 'other', 'Laauolola', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.538862000000000, -172.529741000000000),
-(4925, 'yes', 0, 'House of Rock', '/english/other/caves/HouseRock.html', 'other', 'HouseRock', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.502372000000000, -172.768169000000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(4925, 'yes', 0, 'House of Rock', '/english/other/caves/HouseRock.html', 'other', 'HouseRock', 'Oceania', 'Samoa', 'ws', 'ws', 'caves', -13.502372000000000, -172.768169000000000),
 (4926, 'yes', 0, 'Mapu’a a Vaea', '/english/other/karst/MapuaaVaea.html', 'other', 'MapuaaVaea', 'Oceania', 'Tonga', 'to', 'to', 'karst', -21.174228000000000, -175.308312000000000),
 (4927, 'yes', 0, 'Nakalele Blowhole', '/english/usa/karst/Nakalele.html', NULL, 'Nakalele', 'NorthAmerica', 'United States of America', 'us', 'hi', 'karst', 21.027140000000000, -156.588557000000000),
 (4928, 'yes', 0, 'Wannian Ice Cave', '/english/cn/showcaves/Wannian.html', NULL, 'Wannian', 'Asia', 'China', 'cn', 'Shanxi', 'showcaves', 38.947794171986764, 112.167731353609650),
@@ -4954,7 +4975,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (5069, 'yes', 0, 'Wolfsschlucht', '/english/de/gorges/Wolfsschlucht.html', NULL, 'Wolfsschlu', 'Europe', 'Germany', 'de', 'Sachsen', 'gorges', 50.979949000000000, 14.103174000000000),
 (5070, 'yes', 0, 'Arnsteinhöhle', '/english/de/caves/Arnstein.html', NULL, 'Arnstein', 'Europe', 'Germany', 'de', 'Sachsen', 'caves', 50.929229000000000, 14.289981000000000),
 (5071, 'yes', 0, 'Webergrotte', '/english/de/caves/Webergrotte.html', NULL, 'Webergrott', 'Europe', 'Germany', 'de', 'Sachsen', 'caves', 50.889564290029560, 14.291539379280083),
-(5073, 'yes', 0, 'Itaimbezinho Canyon', '/english/br/gorges/Itaimbezinho.html', NULL, 'Itaimbezin', 'SouthAmerica', 'Brazil', 'br', 'RioGrandeSul', 'gorges', -28.625510000000000, -49.735110000000000),
+(5073, 'yes', 0, 'Cânion Itaimbezinho', '/english/br/gorges/Itaimbezinho.html', NULL, 'Itaimbezin', 'SouthAmerica', 'Brazil', 'br', 'RioGrandeSul', 'gorges', -28.625510000000000, -49.735110000000000),
 (5074, 'yes', 0, 'Jaskinia Jasna koło Smolenia', '/english/pl/caves/Jasna.html', NULL, 'Jasna', 'Europe', 'Poland', 'pl', 'Krakow', 'caves', 50.427778000000000, 19.675722000000000),
 (5075, 'yes', 0, 'Tulumtaş Mağarası', '/english/tr/showcaves/Tulumtas.html', NULL, 'Tulumtas', 'Europe', 'Turkey', 'tr', 'CentralAnatolia', 'showcaves', 39.774184000000000, 32.683427000000000),
 (5076, 'yes', 0, 'Spilia Áyios Ioánnis at Marathokefala', '/english/gr/caves/AgiosIoannisMarathokefala.html', NULL, 'AgiosIoann', 'Europe', 'Greece', 'gr', 'Crete', 'caves', 35.520005000000000, 23.774112000000000),
@@ -5066,13 +5087,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (5189, 'yes', 0, 'Historická Pivnica Zlatý Strapec', '/english/sk/subterranea/ZlatyStrapec.html', NULL, 'ZlatyStrap', 'Europe', 'Slovakia', 'sk', 'Kosice', 'subterranea', 48.400660000000000, 21.746500000000000),
 (5190, 'yes', 0, 'Rhydymwyn Valley Works', '/english/gb/subterranea/Rhydymwyn.html', NULL, 'Rhydymwyn', 'Europe', 'Great Britain', 'gb', 'Wales', 'subterranea', 53.192300000000000, -3.191500000000000),
 (5191, 'yes', 0, 'Tankerville Mine', '/english/gb/mines/Tankerville.html', NULL, 'Tankervill', 'Europe', 'Great Britain', 'gb', 'Shropshire', 'mines', 52.589320000000000, -2.953868000000000),
-(5192, 'yes', 1, 'Onyx Mountain Caverns', '/english/usa/showcaves/OnyxMountain.html', NULL, 'OnyxMounta', 'NorthAmerica', 'United States of America', 'us', 'mo', 'showcaves', 37.885764000000000, -92.031230000000000),
+(5192, 'yes', 1, 'Onyx Mountain Caverns', '/english/usa/showcaves/OnyxMountain.html', NULL, 'OnyxMounta', 'NorthAmerica', 'United States of America', 'us', 'mo', 'showcaves', 37.885764000000000, -92.031230000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (5193, 'yes', 0, 'Novomuradymovskaya Peshchera', '/english/ru/showcaves/Novomuradymovskaya.html', NULL, 'Novomurady', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'showcaves', 52.572462000000000, 56.867621000000000),
 (5194, 'yes', 0, 'Karlamanska Cave', '/english/ru/caves/Karlamanska.html', NULL, 'Karlamansk', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'caves', 54.288667000000000, 56.170533000000000),
 (5195, 'yes', 0, 'Askyn Ice Cave', '/english/ru/showcaves/AskynIce.html', NULL, 'AskynIce', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'showcaves', 54.235693000000000, 56.902795000000000),
 (5196, 'yes', 0, 'Sarva Spring Lake', '/english/ru/springs/Sarva.html', NULL, 'Sarva', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'springs', 55.237476000000000, 57.065539000000000),
-(5197, 'yes', 0, 'Lud’s Church', '/english/gb/gorges/LudsChurch.html', NULL, 'LudsChurch', 'Europe', 'Great Britain', 'gb', 'Staffordshire', 'gorges', 53.187778000000000, -2.020556000000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(5197, 'yes', 0, 'Lud’s Church', '/english/gb/gorges/LudsChurch.html', NULL, 'LudsChurch', 'Europe', 'Great Britain', 'gb', 'Staffordshire', 'gorges', 53.187778000000000, -2.020556000000000),
 (5198, 'yes', 0, 'Santuario del Pla de Petracos', '/english/es/caves/CastellCastells.html', NULL, 'CastellCas', 'Europe', 'Spain', 'es', 'Valenciana', 'caves', 38.760290585567680, -0.183321036443278),
 (5199, 'yes', 0, 'Sibaysky Open Pit', '/english/ru/mines/Sibay.html', NULL, 'Sibay', 'Asia', 'Russia', 'ru', 'Bashkortostan', 'mines', 52.695607000000000, 58.637973000000000),
 (5200, 'yes', 0, 'Gruta do Limoeiro', '/english/br/showcaves/Limoeiro.html', NULL, 'Limoeiro', 'SouthAmerica', 'Brazil', 'br', 'EspiritoSanto', 'showcaves', -20.484423000000000, -41.172105000000000),
@@ -5333,13 +5355,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (5462, 'yes', 0, 'Karvės Ola', '/english/other/karst/Karves.html', 'other', 'Karves', 'Europe', 'Lithuania', 'lt', 'lt', 'karst', 56.206742000000000, 24.694461000000000),
 (5463, 'yes', 0, 'Smardonės šaltinis', '/english/other/springs/Smardones.html', 'other', 'Smardones', 'Europe', 'Lithuania', 'lt', 'lt', 'springs', 56.200069000000000, 24.623546000000000),
 (5464, 'yes', 0, 'Žalsvasis šaltinis', '/english/other/springs/Zalsvasis.html', 'other', 'Zalsvasis', 'Europe', 'Lithuania', 'lt', 'lt', 'springs', 56.064450000000000, 24.400946000000000),
-(5465, 'yes', 0, 'Lekėčių Didysis šaltinis', '/english/other/springs/Didysis.html', 'other', 'Didysis', 'Europe', 'Lithuania', 'lt', 'lt', 'springs', 54.996705000000000, 23.510863000000000),
+(5465, 'yes', 0, 'Lekėčių Didysis šaltinis', '/english/other/springs/Didysis.html', 'other', 'Didysis', 'Europe', 'Lithuania', 'lt', 'lt', 'springs', 54.996705000000000, 23.510863000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (5466, 'yes', 0, 'Fardrum Lough, Roosky Lough, and Green Lough', '/english/ie/karst/Fardrum.html', NULL, 'Fardrum', 'Europe', 'Ireland', 'ie', 'Fermanagh', 'karst', 54.400000000000000, -7.722744000000000),
 (5467, 'yes', 0, 'Castleplunkett Turlough', '/english/ie/karst/Castleplunkett.html', NULL, 'Castleplun', 'Europe', 'Ireland', 'ie', 'Roscommon', 'karst', 53.749876000000000, -8.339048000000000),
 (5468, 'yes', 0, 'Lough Funshinagh', '/english/ie/karst/Funshinagh.html', NULL, 'Funshinagh', 'Europe', 'Ireland', 'ie', 'Roscommon', 'karst', 53.510120000000000, -8.100231000000000),
 (5469, 'yes', 0, 'Brierfield Turlough', '/english/ie/karst/Brierfield.html', NULL, 'Brierfield', 'Europe', 'Ireland', 'ie', 'Roscommon', 'karst', 53.752678000000000, -8.294251000000000),
-(5470, 'yes', 0, 'Gort River', '/english/ie/karst/GortRiver.html', NULL, 'GortRiver', 'Europe', 'Ireland', 'ie', 'Galway', 'karst', 53.049979200000000, -8.813082100000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(5470, 'yes', 0, 'Gort River', '/english/ie/karst/GortRiver.html', NULL, 'GortRiver', 'Europe', 'Ireland', 'ie', 'Galway', 'karst', 53.049979200000000, -8.813082100000000),
 (5471, 'yes', 0, 'Grotte Célestine', '/english/fr/caves/Celestine.html', NULL, 'Celestine', 'Europe', 'France', 'fr', 'Aquitaine', 'caves', 44.777289000000000, -0.125728000000000),
 (5472, 'yes', 0, 'Caves de Rauzan', '/english/fr/subterranea/Rauzan.html', NULL, 'Rauzan', 'Europe', 'France', 'fr', 'Aquitaine', 'subterranea', 44.778578000000000, -0.116367000000000),
 (5473, 'yes', 0, 'Aquarium Grotto', '/english/eg/subterranea/AquariumGrotto.html', NULL, 'AquariumGr', 'Africa', 'Egypt', 'eg', 'Cairo', 'subterranea', 30.056570000000000, 31.218614000000000),
@@ -5601,13 +5624,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (5749, 'yes', 0, 'Neronian Cryptoporticus', '/english/it/subterranea/NeronianCryptoporticus.html', NULL, 'NeronianCr', 'Europe', 'Italy', 'it', 'Roma', 'subterranea', 41.889987000000000, 12.487245000000000),
 (5750, 'yes', 0, 'Criptoportico Romano Vicenza', '/english/it/subterranea/VicenzaCriptoportico.html', NULL, 'VicenzaCri', 'Europe', 'Italy', 'it', 'Veneto', 'subterranea', 45.545586000000000, 11.544201000000000),
 (5751, 'yes', 0, 'Grotte d’Orjobet', '/english/fr/caves/Orjobet.html', NULL, 'Orjobet', 'Europe', 'France', 'fr', 'Rhone', 'caves', 46.131630000000000, 6.168857000000000),
-(5752, 'yes', 0, 'Grotte à Farinet', '/english/fr/showcaves/Farinet.html', NULL, 'Farinet', 'Europe', 'France', 'fr', 'Rhone', 'showcaves', 46.020363000000000, 6.910180000000000),
+(5752, 'yes', 0, 'Grotte à Farinet', '/english/fr/showcaves/Farinet.html', NULL, 'Farinet', 'Europe', 'France', 'fr', 'Rhone', 'showcaves', 46.020363000000000, 6.910180000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (5753, 'yes', 0, 'Well of Souls', '/english/il/caves/WellOfSouls.html', NULL, 'WellOfSoul', 'MiddleEast', 'Israel', 'il', 'Jerusalem', 'caves', 31.778010000000000, 35.235337000000000),
 (5754, 'yes', 0, 'Mina du Veloso', '/english/br/mines/Veloso.html', NULL, 'Veloso', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.376356000000000, -43.516059000000000),
 (5755, 'yes', 0, 'Mina Felipe dos Santos', '/english/br/mines/FelipeDosSantos.html', NULL, 'FelipeDosS', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.384136000000000, -43.490965000000000),
 (5756, 'yes', 0, 'Mina do Jeje', '/english/br/mines/Jeje.html', NULL, 'Jeje', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.386041000000000, -43.495358000000000),
-(5757, 'yes', 0, 'Minas Do Palácio Velho', '/english/br/mines/PalacioVelho.html', NULL, 'PalacioVel', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.386060000000000, -43.498910000000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(5757, 'yes', 0, 'Minas Do Palácio Velho', '/english/br/mines/PalacioVelho.html', NULL, 'PalacioVel', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.386060000000000, -43.498910000000000),
 (5758, 'yes', 0, 'Mina de Ouro Santa Rita', '/english/br/mines/SantaRita.html', NULL, 'SantaRita', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.386580000000000, -43.493120000000000),
 (5759, 'yes', 1, 'Mina Vila Rica', '/english/br/mines/VilaRica.html', NULL, 'VilaRica', 'SouthAmerica', 'Brazil', 'br', 'MinasGerais', 'mines', -20.386655000000000, -43.493355000000000),
 (5760, 'yes', 0, 'Mina de Gramado', '/english/br/mines/Gramado.html', NULL, 'Gramado', 'SouthAmerica', 'Brazil', 'br', 'RioGrandeSul', 'mines', -29.401140000000000, -50.911440000000000),
@@ -5865,13 +5889,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (6015, 'yes', 0, 'Stalbitsata Cave', '/english/bg/caves/Stalbitsata.html', NULL, 'Stalbitsat', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.217700000000000, 24.973178000000000),
 (6016, 'yes', 0, 'Liar’s Cave', '/english/bg/caves/LiarsCave.html', NULL, 'LiarsCave', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.242010000000000, 24.967250000000000),
 (6017, 'yes', 0, 'Boninska Peshtera', '/english/bg/caves/Boninska.html', NULL, 'Boninska', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.240000000000000, 25.046666700000000),
-(6018, 'yes', 0, 'Tabashka Cave', '/english/bg/caves/Tabashka.html', NULL, 'Tabashka', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.127524000000000, 24.712272000000000),
+(6018, 'yes', 0, 'Tabashka Cave', '/english/bg/caves/Tabashka.html', NULL, 'Tabashka', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.127524000000000, 24.712272000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (6019, 'yes', 0, 'Garvanitsa', '/english/bg/caves/Garvanitsa.html', NULL, 'Garvanitsa', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.211652800000000, 25.047634100000000),
 (6020, 'yes', 0, 'Maarata Cave', '/english/bg/caves/Maarata.html', NULL, 'Maarata', 'Europe', 'Bulgaria', 'bg', 'Lovech', 'caves', 43.242320000000000, 25.034150000000000),
 (6021, 'yes', 0, 'Tsar Asen Mine', '/english/bg/mines/TsarAsen.html', NULL, 'TsarAsen', 'Europe', 'Bulgaria', 'bg', 'Pazardzhik', 'mines', 42.355484000000000, 24.340703000000000),
 (6022, 'yes', 0, 'Plava pećina', '/english/me/caves/Plava.html', NULL, 'Plava', 'Europe', 'Montenegro', 'me', NULL, 'caves', 42.373974000000000, 18.596841000000000),
-(6023, 'yes', 0, 'Ledena pećina', '/english/me/caves/Ledena.html', NULL, 'Ledena', 'Europe', 'Montenegro', 'me', NULL, 'caves', 43.139582800000000, 19.049599400000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(6023, 'yes', 0, 'Ledena pećina', '/english/me/caves/Ledena.html', NULL, 'Ledena', 'Europe', 'Montenegro', 'me', NULL, 'caves', 43.139582800000000, 19.049599400000000),
 (6024, 'yes', 0, 'Titova pećina', '/english/me/caves/Tito.html', NULL, 'Tito', 'Europe', 'Montenegro', 'me', NULL, 'caves', 43.143330000000000, 19.091940000000000),
 (6025, 'yes', 0, 'Mokranjska Miljacka', '/english/ba/caves/MokranjskaMiljacka.html', NULL, 'Mokranjska', 'Europe', 'Bosnia and Herzegovina', 'ba', 'Federation', 'caves', 43.925228600000000, 18.595348100000000),
 (6026, 'yes', 0, 'Tunel Ponikve', '/english/ba/showcaves/Ponikve.html', NULL, 'Ponikve', 'Europe', 'Bosnia and Herzegovina', 'ba', 'Federation', 'showcaves', 44.179669000000000, 18.337533000000000),
@@ -6130,12 +6155,13 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (6294, 'yes', 0, 'Pozo de las Ánimas', '/english/ar/karst/Animas.html', NULL, 'Animas', 'SouthAmerica', 'Argentina', 'ar', 'Mendoza', 'karst', -35.189912000000000, -70.001870000000000),
 (6295, 'yes', 0, 'Laguna de la Niña Encantada', '/english/ar/springs/NinaEncantada.html', NULL, 'NinaEncant', 'SouthAmerica', 'Argentina', 'ar', 'Mendoza', 'springs', -35.159938000000000, -69.869927000000000),
 (6296, 'yes', 0, 'Cueva del Tigre', '/english/ar/caves/TigreQuequenSalado.html', NULL, 'TigreQuequ', 'SouthAmerica', 'Argentina', 'ar', 'BuenosAires', 'caves', -38.834142000000000, -60.535271000000000),
-(6297, 'yes', 0, 'Pasaje Belgrano', '/english/ar/subterranea/Belgrano.html', NULL, 'Belgrano', 'SouthAmerica', 'Argentina', 'ar', 'BuenosAires', 'subterranea', -34.612169000000000, -58.373414000000000),
+(6297, 'yes', 0, 'Pasaje Belgrano', '/english/ar/subterranea/Belgrano.html', NULL, 'Belgrano', 'SouthAmerica', 'Argentina', 'ar', 'BuenosAires', 'subterranea', -34.612169000000000, -58.373414000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (6298, 'yes', 0, 'Túnel de la Iglesia San Ignacio de Loyola', '/english/ar/subterranea/SanIgnacioLoyola.html', NULL, 'SanIgnacio', 'SouthAmerica', 'Argentina', 'ar', 'BuenosAires', 'subterranea', -34.610556000000000, -58.373611000000000),
 (6299, 'yes', 0, 'Túneles de Buenos Aires', '/english/ar/subterranea/TunelesBuenosAires.html', NULL, 'TunelesBue', 'SouthAmerica', 'Argentina', 'ar', 'BuenosAires', 'subterranea', -34.610512000000000, -58.374770000000000),
 (6300, 'yes', 0, 'Museo Paseo de la Cisterna', '/english/ar/subterranea/Cisterna.html', NULL, 'Cisterna', 'SouthAmerica', 'Argentina', 'ar', 'BuenosAires', 'subterranea', -34.611460000000000, -58.373900000000000),
-(6301, 'yes', 0, 'Pont de Dieu', '/english/ma/karst/PontDeDieu.html', NULL, 'PontDeDieu', 'Africa', 'Morocco', 'ma', 'Tanger', 'karst', 35.228377000000000, -5.175592000000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(6301, 'yes', 0, 'Pont de Dieu', '/english/ma/karst/PontDeDieu.html', NULL, 'PontDeDieu', 'Africa', 'Morocco', 'ma', 'Tanger', 'karst', 35.228377000000000, -5.175592000000000),
 (6302, 'yes', 0, 'God’s Bridge', '/english/gb/karst/Gods.html', NULL, 'Gods', 'Europe', 'Great Britain', 'gb', 'NorthYorkshire', 'karst', 54.508600000000000, -2.067811000000000),
 (6303, 'yes', 0, 'God’s Bridge', '/english/gb/karst/GodsIngleton.html', NULL, 'GodsInglet', 'Europe', 'Great Britain', 'gb', 'NorthYorkshire', 'karst', 54.183075000000000, -2.410823000000000),
 (6304, 'yes', 0, 'God’s Bridge', '/english/gb/karst/GodsHighBirkwith.html', NULL, 'GodsHighBi', 'Europe', 'Great Britain', 'gb', 'NorthYorkshire', 'karst', 54.193573000000000, -2.310687000000000),
@@ -6391,13 +6417,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (6559, 'yes', 0, 'Agrasen ki Baoli', '/english/in/subterranea/Agrasen.html', NULL, 'Agrasen', 'Asia', 'India', 'in', 'Delhi', 'subterranea', 28.625851000000000, 77.225049000000000),
 (6560, 'yes', 0, 'Rani Ki Vav', '/english/in/subterranea/Rani.html', NULL, 'Rani', 'Asia', 'India', 'in', 'Gujarat', 'subterranea', 23.858934000000000, 72.102092000000000),
 (6561, 'yes', 0, 'Grotta Remeron', '/english/it/showcaves/Remeron.html', NULL, 'Remeron', 'Europe', 'Italy', 'it', 'Lombardia', 'showcaves', 45.859808800000000, 8.746277200000000),
-(6562, 'yes', 0, 'Shuanghe Water Cave', '/english/cn/showcaves/Shuanghe.html', NULL, 'Shuanghe', 'Asia', 'China', 'cn', 'Guizhou', 'showcaves', 28.243466000000000, 107.274991000000000),
+(6562, 'yes', 0, 'Shuanghe Water Cave', '/english/cn/showcaves/Shuanghe.html', NULL, 'Shuanghe', 'Asia', 'China', 'cn', 'Guizhou', 'showcaves', 28.243466000000000, 107.274991000000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (6563, 'yes', 0, 'Yinhe Dong', '/english/cn/caves/Yinhe.html', NULL, 'Yinhe', 'Asia', 'China', 'cn', 'Guizhou', 'caves', 28.239409800000000, 107.292567800000000),
 (6564, 'yes', 0, 'Dixia Liefeng', '/english/cn/showcaves/DixiaLiefeng.html', NULL, 'Xiangshui', 'Asia', 'China', 'cn', 'Guizhou', 'showcaves', 28.241696800000000, 107.300083200000000),
 (6565, 'yes', 0, 'Catacombe ebraiche di Venosa', '/english/it/subterranea/Venosa.html', NULL, 'Venosa', 'Europe', 'Italy', 'it', 'Calabria', 'subterranea', 40.978263000000000, 15.839754000000000),
 (6566, 'yes', 0, 'Carrières des Capucins', '/english/fr/subterranea/CarrieresCapucins.html', NULL, 'CarrieresC', 'Europe', 'France', 'fr', 'IleDeFrance', 'subterranea', 48.837366822339630, 2.338831349096737),
-(6567, 'yes', 0, 'Crypte archéologique de l’île de la Cité', '/english/fr/subterranea/Crypte.html', NULL, 'Crypte', 'Europe', 'France', 'fr', 'IleDeFrance', 'subterranea', 48.853650400005450, 2.347720164418369);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(6567, 'yes', 0, 'Crypte archéologique de l’île de la Cité', '/english/fr/subterranea/Crypte.html', NULL, 'Crypte', 'Europe', 'France', 'fr', 'IleDeFrance', 'subterranea', 48.853650400005450, 2.347720164418369),
 (6568, 'yes', 0, 'Medieval Louvre Underground', '/english/fr/subterranea/MedievalLouvre.html', NULL, 'MedievalLo', 'Europe', 'France', 'fr', 'IleDeFrance', 'subterranea', 48.860604041567430, 2.337627906749093),
 (6569, 'yes', 0, 'Valea Sighiştelului', '/english/ro/gorges/Sighistel.html', NULL, 'Sighistel', 'Europe', 'Romania', 'ro', 'Apuseni', 'gorges', 46.525459000000000, 22.556513000000000),
 (6570, 'yes', 0, 'Jizhou Dong', '/english/cn/showcaves/Jizhou.html', NULL, 'Jizhou', 'Asia', 'China', 'cn', 'Beijing', 'showcaves', 40.130009000000000, 117.372650000000000),
@@ -6657,13 +6684,14 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (6839, 'yes', 0, 'Shpella e Valit', '/english/al/caves/ValitLezhe.html', NULL, 'ValitLezhe', 'Europe', 'Albania', 'al', 'Lezhe', 'caves', 41.717471000000000, 20.004531000000000),
 (6840, 'yes', 0, 'Shpella e Valit', '/english/al/karst/ValitTirana.html', NULL, 'ValitTiran', 'Europe', 'Albania', 'al', 'Tirana', 'karst', 41.347024500000000, 20.161360100000000),
 (6841, 'yes', 0, 'Gurra Antike e Domgjonit', '/english/al/subterranea/Domgjonit.html', NULL, 'Domgjonit', 'Europe', 'Albania', 'al', 'Lezhe', 'subterranea', 41.965429364257760, 20.152062123277307),
-(6842, 'yes', 0, 'Teqehja Ballëm Sulltani', '/english/al/subterranea/BallemSulltani.html', NULL, 'BallemSull', 'Europe', 'Albania', 'al', 'Diber', 'subterranea', 41.375074500000000, 20.269186300000000),
+(6842, 'yes', 0, 'Teqehja Ballëm Sulltani', '/english/al/subterranea/BallemSulltani.html', NULL, 'BallemSull', 'Europe', 'Albania', 'al', 'Diber', 'subterranea', 41.375074500000000, 20.269186300000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES
 (6843, 'yes', 0, 'Shpella e Piratëve', '/english/al/caves/Pirateve.html', NULL, 'Pirateve', 'Europe', 'Albania', 'al', 'Vlore', 'caves', 40.129179000000000, 19.651437500000000),
 (6844, 'yes', 0, 'Kanioni i Osumit', '/english/al/gorges/Osum.html', NULL, 'Osum', 'Europe', 'Albania', 'al', 'Berat', 'gorges', 40.479778000000000, 20.249774500000000),
 (6845, 'yes', 0, 'Shpella e Sari Salltikut', '/english/al/subterranea/SariSalltik.html', NULL, 'SariSallti', 'Europe', 'Albania', 'al', 'Durres', 'subterranea', 41.517324410000000, 19.800327300000000),
 (6846, 'yes', 0, 'Shpella e Pirogoshit', '/english/al/caves/Pirogoshi.html', NULL, 'Pirogoshi', 'Europe', 'Albania', 'al', 'Berat', 'caves', 40.523350600000000, 20.257996200000000),
-(6847, 'yes', 0, 'Bunk´Art 1', '/english/al/subterranea/BunkArt1.html', NULL, 'BunkArt1', 'Europe', 'Albania', 'al', 'Tirana', 'subterranea', 41.353140400000000, 19.861207300000000);
-INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
+(6847, 'yes', 0, 'Bunk´Art 1', '/english/al/subterranea/BunkArt1.html', NULL, 'BunkArt1', 'Europe', 'Albania', 'al', 'Tirana', 'subterranea', 41.353140400000000, 19.861207300000000),
 (6848, 'yes', 0, 'Bunk´Art 2', '/english/al/subterranea/BunkArt2.html', NULL, 'BunkArt2', 'Europe', 'Albania', 'al', 'Tirana', 'subterranea', 41.327022500000000, 19.819550600000000),
 (6849, 'yes', 0, 'Kanioni i Llëngës', '/english/al/gorges/Llenga.html', NULL, 'Llenga', 'Europe', 'Albania', 'al', 'Korce', 'gorges', 40.889390000000000, 20.492030000000000),
 (6850, 'yes', 0, 'Shpella e Pëllumbave', '/english/al/caves/Pellumbave.html', NULL, 'Pellumbave', 'Europe', 'Albania', 'al', 'Vlore', 'caves', 40.124556100000000, 19.677393600000000),
@@ -6922,8 +6950,19 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (7116, 'yes', 0, 'Grotta dei Briganti', '/english/it/caves/Briganti.html', NULL, 'Briganti', 'Europe', 'Italy', 'it', 'Pantelleria', 'caves', 36.777561800000000, 12.003301500000000),
 (7117, 'yes', 0, 'Bagno Asciutto Grotta Di Benikulá', '/english/it/caves/Benikula.html', NULL, 'Benikula', 'Europe', 'Italy', 'it', 'Pantelleria', 'caves', 36.776552300000000, 11.985107100000000),
 (7118, 'yes', 0, 'Arco dell’Elefante', '/english/it/karst/Elefante.html', NULL, 'Elefante', 'Europe', 'Italy', 'it', 'Pantelleria', 'karst', 36.792898100000000, 12.053573100000000),
-(7119, 'yes', 0, 'Grotta del Freddo', '/english/it/caves/Freddo.html', NULL, 'Freddo', 'Europe', 'Italy', 'it', 'Pantelleria', 'caves', 36.792814700000000, 11.960762600000000),
-(7120, 'yes', 0, 'Grotta di Sataría', '/english/it/caves/Sataria.html', NULL, 'Sataria', 'Europe', 'Italy', 'it', 'Pantelleria', 'caves', 36.783856400000000, 11.951592100000000);
+(7119, 'yes', 0, 'Grotta del Freddo', '/english/it/caves/Freddo.html', NULL, 'Freddo', 'Europe', 'Italy', 'it', 'Pantelleria', 'caves', 36.792814700000000, 11.960762600000000);
+INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`)
+VALUES (7120, 'yes', 0, 'Grotta di Sataría', '/english/it/caves/Sataria.html', NULL, 'Sataria', 'Europe', 'Italy', 'it', 'Pantelleria', 'caves', 36.783856400000000, 11.951592100000000),
+       (7129, 'yes', 0, 'Gorges du Verdon', '/english/fr/gorges/Verdon.html', NULL, 'Verdon', 'Europe', 'France', 'fr', 'PACA', 'gorges', 43.801670600000000, 6.249442200000000),
+       (7130, 'yes', 0, 'Huella de Santo Tomás', '/english/other/caves/SantoTomas.html', 'other', 'SantoTomas', 'SouthAmerica', 'Paraguay', 'py', 'py', 'caves', -25.568062900000000, -57.293470300000000),
+       (7131, 'yes', 0, 'Réserve Spéciale Ankarana', '/english/other/karst/Ankarana.html', 'other', 'Ankarana', 'Africa', 'Madagascar', 'mg', 'mg', 'karst', -12.968142500000000, 49.138547100000000),
+       (7132, 'yes', 0, 'Danggu Gorge', '/english/au/gorges/Danggu.html', NULL, 'Danggu', 'Oceania', 'Australia', 'au', 'wa', 'gorges', -18.105896400000000, 125.700443500000000),
+       (7133, 'yes', 0, 'La Baume Bonne', '/english/fr/showcaves/BaumeBonne.html', NULL, 'BaumeBonne', 'Europe', 'France', 'fr', 'PACA', 'showcaves', 43.700163800000000, 6.055374700000000),
+       (7134, 'yes', 0, 'Bunkermuseum RAW Nippes', '/english/de/subterranea/Nippes.html', NULL, 'Nippes', 'Europe', 'Germany', 'de', 'Koeln', 'subterranea', 50.963693900000000, 6.943089200000000),
+       (7135, 'yes', 0, 'Röhrenbunker am Oberlandesgericht', '/english/de/subterranea/Oberlandesgericht.html', NULL, 'Oberlandes', 'Europe', 'Germany', 'de', 'Koeln', 'subterranea', 50.954095700000000, 6.962988000000000),
+       (7136, 'yes', 0, 'Zivilschutzbunker Köln-Kalk', '/english/de/subterranea/KoelnKalk.html', NULL, 'KoelnKalk', 'Europe', 'Germany', 'de', 'Koeln', 'subterranea', 50.937551900000000, 6.998619600000000),
+       (7137, 'yes', 0, 'Jinshuiyan', '/english/cn/showcaves/Jinshuiyan.html', NULL, 'Jinshuiyan', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 24.725328500000000, 110.478743100000000),
+       (7138, 'yes', 0, 'Assembly Dragon Cave', '/english/cn/showcaves/Julongtan.html', NULL, 'Julongtan', 'Asia', 'China', 'cn', 'Guangxi', 'showcaves', 24.727819000000000, 110.479270000000000);
 
 --
 -- Indexes for dumped tables
@@ -6948,7 +6987,7 @@ ALTER TABLE `sights`
 -- AUTO_INCREMENT for table `sights`
 --
 ALTER TABLE `sights`
-  MODIFY `sightId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7126;
+    MODIFY `sightId` int (11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7139;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
