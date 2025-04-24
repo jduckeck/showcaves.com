@@ -1,4 +1,4 @@
-# Rewrite static uris to script uris
+# Rewrite static uris to script uris for php and for https
 
 RewriteEngine On
 
