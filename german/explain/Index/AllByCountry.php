@@ -18,12 +18,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-<?php
-include("../../../php/opendb.php");
-$pdo = openDB();
-include("../../../php/showcaves.php");
-$count = countSights($pdo, "");
-?>
+    <?php
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, "");
+    ?>
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Alle Sehenswürdigkeiten auf showcaves.com nach Ländern gruppiert"/>
@@ -54,9 +54,9 @@ $count = countSights($pdo, "");
 
         <br class="clear">
 
-<?php
-printByCountryAll($pdo);
-?>
+        <?php
+        printByCountryAll($pdo);
+        ?>
 
     </div>
 

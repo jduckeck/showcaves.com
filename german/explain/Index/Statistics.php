@@ -18,11 +18,11 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-<?php
-include("../../../php/opendb.php");
-$pdo = openDB();
-$statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-?>
+    <?php
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+    ?>
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Statistik von showcaves.com"/>
@@ -69,7 +69,7 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
             </tr>
             </thead>
             <tbody>
-<?php
+            <?php
             $oldCountry = '';
             $entries = 0;
 
@@ -258,7 +258,8 @@ $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUN
         <p class="indentedText">
             Einige Länder haben nur wenige Einträge, so dass diese Länder in einer Sektion namens "Other Countries" verwaltet werden.
             In dieser Tabelle haben sie einen hellgrauen Hintergrund.
-            Länder mit einer bestimmten Mindestanzahl von unterirdischen Stätten (ca. 10) erhalten einen eigenen Abschnitt oder ein eigenes Kapitel, das zusätzliche Seiten wie Länderhintergrund, Geologie und die Übersetzung wichtiger Höhlenbegriffe enthält.
+            Länder mit einer bestimmten Mindestanzahl von unterirdischen Stätten (ca. 10) erhalten einen eigenen Abschnitt oder ein eigenes Kapitel, das zusätzliche Seiten wie Länderhintergrund, Geologie und die Übersetzung wichtiger Höhlenbegriffe
+            enthält.
             In dieser Tabelle haben sie einen dunkelgrauen Hintergrund.
         </p>
 

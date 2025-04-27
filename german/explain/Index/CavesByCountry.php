@@ -18,12 +18,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-<?php
-include("../../../php/opendb.php");
-$pdo = openDB();
-include("../../../php/showcaves.php");
-$count = countSights($pdo, " AND category='caves'");
-?>
+    <?php
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, " AND category='caves'");
+    ?>
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Alle unausgebauten Höhlen nach Ländern gruppiert"/>
@@ -54,9 +54,9 @@ $count = countSights($pdo, " AND category='caves'");
 
         <br class="clear">
 
-<?php
-printByCountry($pdo, 'caves');
-?>
+        <?php
+        printByCountry($pdo, 'caves');
+        ?>
 
     </div>
 
