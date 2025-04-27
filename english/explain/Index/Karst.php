@@ -18,12 +18,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-<?php
-include("../../../php/opendb.php");
-$pdo = openDB();
-include("../../../php/showcaves.php");
-$count = countSights($pdo, " AND category='karst'");
-?>
+    <?php
+    include("../../../php/opendb.php");
+    $pdo = openDB();
+    include("../../../php/showcaves.php");
+    $count = countSights($pdo, " AND category='karst'");
+    ?>
 
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: All Karst Features"/>
@@ -58,9 +58,9 @@ $count = countSights($pdo, " AND category='karst'");
 
         <label for="theList">search the list...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-<?php
-printAllByCategory($pdo, 'karst');
-?>
+            <?php
+            printAllByCategory($pdo, 'karst');
+            ?>
         </ul>
 
     </div>
