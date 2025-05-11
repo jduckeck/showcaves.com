@@ -12,15 +12,7 @@
     <script type="text/javascript" src="../js/xemhid.js"></script>
     <link href="../css/photo-sphere-viewer.css" rel="stylesheet">
     <script src="../js/photo-sphere-viewer.js" type="text/javascript"></script>
-
-    <script type="importmap">
-        {
-            "imports": {
-                "three": "../js/three.module.js",
-                "@photo-sphere-viewer/core": "../js/photo-sphere-viewer.js"
-            }
-        }
-    </script>
+    <script src="D219-360p.js" type="text/javascript"></script>
 
     <meta name="description" content="$CaveName$ China Caves showcaves.com">
     <meta property="og:locale" content="en_GB"/>
@@ -41,7 +33,19 @@ VALUES('yes','$CaveName$', '/english/cn/caves/$FileName$.html', '$FileName$', 'A
 
 <h1>Panorama</h1>
 
-<div id="viewer"></div>
+<figure class="center">
+    <div id="viewer"></div>
+    <figcaption>Kubacher Kristallhöhle</figcaption>
+</figure>
+
+<script type="importmap">
+    {
+        "imports": {
+            "three": "../js/three.module.js",
+            "@photo-sphere-viewer/core": "../js/photo-sphere-viewer.js"
+        }
+    }
+</script>
 
 
 <br class="clear">
