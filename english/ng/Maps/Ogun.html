@@ -20,55 +20,45 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="More Countries: Nigeria">
+    <meta name="description" content="Ogun Nigeria Maps showcaves.com">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="More Countries: Nigeria"/>
+    <meta property="og:title" content="Maps of Nigeria: Ogun"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>More Countries: Nigeria</title>
+    <title>Maps of Nigeria: Ogun</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../ng/Maps/Ogun.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Ogun</a></li>
+        -->
 
-        <img alt="ng" src="../../../graphics/flags/ng.png" class="flag">
-        <h1 class="center">Nigeria</h1>
+        <figure class="left">
+            <a target="_top" href="../../ng/Maps/index.html"><img alt="Nigeria Map" src="../../../maps/Nigeria.png" class="mapIcon"></a>
+            <figcaption class="center">Nigeria Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../ng/Maps/index.html"><img alt="Nigeria Map" src="../../../maps/Nigeria.png" class="mapIcon"></a>
+            <figcaption class="center">Nigeria Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of Ogun</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
-        <p>
-        </p>
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">Sights of Nigeria</li>
-            <li><a data-ajax="false" target="_top" href="../caves/Arochukwu.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Arochukwu Cave</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/Iho-Eleru.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Iho-Eleru</a></li>
-            <li><a data-ajax="false" target="_top" href="../showcaves/Ogbunike.html"><img alt="Showcave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Showcave.png">Ogba Ogbunike</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/Ojukwu.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Ojukwu Bunker</a></li>
-            <li><a data-ajax="false" target="_top" href="../caves/Olumo.html"><img alt="Cave" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Cave.png">Olumo Rock</a></li>
-            <li><a data-ajax="false" target="_top" href="../subterranea/VoiceOfBiafra.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">Voice of Biafra Bunker</a></li>
-        </ul>
-
-
-        <br class="clear">
-
-
-        <h2>Additional Information about Nigeria</h2>
-
-
-        <br class="clear">
-
-        <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a data-ajax="false" target="_top" href="../region/ngMap.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Map of Nigeria</a></li>
-        </ul>
+        <div class="center">
+            <map name="OgunMap">
+                <area shape="default" alt="">
+            </map>
+            <img alt="" src="../../../maps/Ogun.png" USEMAP="#OgunMap" class="map">
+        </div>
 
     </div>
 
@@ -77,9 +67,14 @@
         <div data-role="navbar">
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">More Countries</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/Africa.html">Africa</a></li>
+                <li><a data-ajax="false" target="_top" href="../index.html">Nigeria</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/Ogun.html" data-role="button" class="">Regions</a>
+                <a data-ajax="false" href="../Maps/Ogun.html" data-role="button" class="ui-btn-active">Maps</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->
