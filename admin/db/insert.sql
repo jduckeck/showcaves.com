@@ -16,3 +16,5 @@ SET `Latitude`='5.518889',
 WHERE `filename` = '/english/ng/subterranea/Ojukwu.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Agu-Owuru Cave', '/english/ng/caves/AguOwuru.html', 'AguOwuru', 'Africa', 'ng', 'Nigeria', 'caves', 'Enugu', 6.31052, 7.26732);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'La Campagne Tropicana Hills Resort', '/english/ng/caves/LaCampagneTropicana.html', 'LaCampagneTropicana', 'Africa', 'ng', 'Nigeria', 'caves', 'Ondo', 7.122119, 4.860922);
