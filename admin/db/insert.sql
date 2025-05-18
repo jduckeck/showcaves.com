@@ -18,3 +18,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Agu-Owuru Cave', '/english/ng/caves/AguOwuru.html', 'AguOwuru', 'Africa', 'ng', 'Nigeria', 'caves', 'Enugu', 6.31052, 7.26732);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'La Campagne Tropicana Hills Resort', '/english/ng/caves/LaCampagneTropicana.html', 'LaCampagneTropicana', 'Africa', 'ng', 'Nigeria', 'caves', 'Ondo', 7.122119, 4.860922);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Spiaggia Bue Marino', '/english/it/subterranea/BueMarinoQuarry.html', 'BueMarinoQuarry', 'Europe', 'it', 'Italy', 'subterranea', 'Sicilia', 37.9173568, 12.3696788);
