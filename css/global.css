@@ -367,6 +367,7 @@ img.language {
     padding: 0;
     position: relative;
     text-align: left;
+    max-width: 100%;
 }
 
 img.flag {
