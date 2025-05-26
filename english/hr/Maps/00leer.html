@@ -20,31 +20,45 @@
     <!-- end responsive -->
 
 
-    <meta name="description" content="$CaveName$ Croatia Map showcaves.com">
+    <meta name="description" content="$CaveName$ Croatia Maps showcaves.com">
     <meta property="og:locale" content="en_GB"/>
-    <meta property="og:title" content="Map of Croatia: $CaveName$"/>
+    <meta property="og:title" content="Maps of Croatia: $CaveName$ Region"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Show Caves of the World"/>
     <meta property="og:description" content="Underground tourist destinations of the World"/>
-    <title>Map of Croatia: $CaveName$</title>
+    <title>Maps of Croatia: $CaveName$ Region</title>
 </head>
 
 <body>
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../hr/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$ Region</a></li>
+        -->
 
-        <h1 class="center">Map of Croatia</h1>
+        <figure class="left">
+            <a target="_top" href="../../hr/Maps/index.html"><img alt="Croatia Map" src="../../../maps/Croatia.png" class="mapIcon"></a>
+            <figcaption class="center">Croatia Map</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../hr/Maps/index.html"><img alt="Croatia Map" src="../../../maps/Croatia.png" class="mapIcon"></a>
+            <figcaption class="center">Croatia Map</figcaption>
+        </figure>
+
+        <h1 class="center">Map of $CaveName$ Region</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
 
         <div class="center">
-            <map name="CroatiaMap">
+            <h2 class="center">This map has not yet been drawn...</h2>
+            <map name="$FileName$Map">
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/Croatia.gif" USEMAP="#CroatiaMap" border="1" width="780" height="460">
+            <!--            <img alt="" src="../../../maps/$FileName$.png" USEMAP="#$FileName$Map" class="map">-->
         </div>
 
     </div>
@@ -55,8 +69,15 @@
             <ul>
                 <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" target="_top" href="../index.html">Croatia</a></li>
-                <li><a data-ajax="false" target="_top" href="../region/ByRegion.html">by Region</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Maps</a></li>
             </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">Regions</a>
+                <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
+                <a data-ajax="false" href="../topics/index.html" data-role="button" class="">Topics</a>
+                <a data-ajax="false" href="../geoparks/index.html" data-role="button" class="">GeoParks</a>
+            </div>
         </div>
     </div>
     <!-- Path End -->

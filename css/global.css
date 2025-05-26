@@ -126,6 +126,13 @@ p {
     background-color: rgba(209, 223, 200, 0.03);
 }
 
+.footnote {
+    font-size: .7em;
+    font-weight: bold;
+    vertical-align: super;
+}
+
+
 ol {
     text-align: left;
     display: table;
@@ -321,6 +328,7 @@ img.language {
 }
 
 .mapIcon {
+    width: 100px;
     border: 1px;
     padding: 0;
     vertical-align: center;
@@ -367,6 +375,7 @@ img.language {
     padding: 0;
     position: relative;
     text-align: left;
+    max-width: 100%;
 }
 
 img.flag {

@@ -154,6 +154,10 @@ hist table
             <td>$2</td>
         </tr>
 
+remove referers from links
+\?utm_source\=[^"]*\"
+"
+
 
 ---
 
