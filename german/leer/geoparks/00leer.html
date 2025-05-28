@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
+    <link rel="alternate" hreflang="en" href="../../../english/$CountryTwoLetter$/geoparks/$FileName$.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -21,12 +22,12 @@
 
 
     <meta property="og:locale" content="de_DE"/>
-    <meta property="og:title" content="$Country$ GeoParks: $Topic$"/>
+    <meta property="og:title" content="GeoParks in $Country$: $CaveName$"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
     <meta property="og:site_name" content="Schauhöhlen der Welt"/>
     <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt"/>
-    <title>$Country$ GeoParks: $Topic$</title>
+    <title>GeoParks in $Country$: $CaveName$</title>
 </head>
 
 <body>
@@ -34,13 +35,13 @@
     <div data-role="main" class="ui-content">
 
         <!--
-            <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/geoparks/$FileName$.html">$Topic$</a></li>
-            <a target="_top" href="../../../german/$CountryTwoLetter$/geoparks/$FileName$.html"><img alt="Geopark" class="symbol" src="../../../graphics/symbol/Geopark.png">$Topic$</a>
+            <li><a data-ajax="false" target="_top" href="../../$CountryTwoLetter$/geoparks/$FileName$.html"><img alt="Geopark" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Geopark.png">$CaveName$</a></li>
+            <a target="_top" href="../../../german/$CountryTwoLetter$/geoparks/$FileName$.html"><img alt="Geopark" class="symbol" src="../../../graphics/symbol/Geopark.png">$CaveName$</a>
         INSERT INTO static (path)
         VALUES('/german/$CountryTwoLetter$/geoparks/$FileName$.html');
        -->
 
-        <h1 class="center">$Topic$</h1>
+        <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
@@ -58,9 +59,9 @@
         <br class="clear">
 
         <ul class="linklist" data-role="listview" data-inset="true">
-            <li data-role="list-divider">See also</li>
-            <li><a target="_blank" href="https://www.google.com/search?q=$Topic$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Auf Google nach "$Topic$" suchen</a></li>
-            <li><a target="_blank" href="https://en.wikipedia.org/wiki/$CaveName$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$CaveName$ - Wikipedia</a></li>
+            <li data-role="list-divider">Siehe auch</li>
+            <li><a target="_blank" href="https://www.google.de/search?q=$CaveName$"><img alt="Google" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/google.png">Auf Google nach "$CaveName$" suchen...</a></li>
+            <li><a target="_blank" href="https://de.wikipedia.org/wiki/$CaveName$"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">$CaveName$ - Wikipedia</a></li>
         </ul>
 
     </div>
