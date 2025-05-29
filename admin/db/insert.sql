@@ -2,3 +2,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Utrobata', '/english/bg/caves/Utrobata.html', 'Utrobata', 'Europe', 'bg', 'Bulgaria', 'caves', 'Kardzhali', 41.7048489, 25.2481141);
 INSERT INTO static (path)
 VALUES ('/german/at/topics/closed.html');
+UPDATE `sights`
+SET `Latitude`='47.5729298',
+    `Longitude`='13.1940363'
+WHERE `filename` = '/english/at/caves/Brunecker.html';
