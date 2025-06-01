@@ -59,7 +59,7 @@
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
             <?php
-            printAllByCategory($pdo, 'subterranea');
+            printAllByCategory($pdo, 'subterranea', true);
             ?>
         </ul>
 

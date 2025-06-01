@@ -183,7 +183,7 @@ function countSights($pdo, $where)
 /**
  * @param $pdo PDO the database
  */
-function printAllByCategory($pdo, $category)
+function printAllByCategory($pdo, $category, $isGerman)
 {
     $sql = "SELECT name, filename, countrycode, country, closed FROM sights WHERE visible='yes' AND category='$category' ORDER BY sortby";
     $filebase = "../../..";
@@ -198,6 +198,20 @@ function printAllByCategory($pdo, $category)
             }
             $country = $row['country'];
             $filename = $row['filename'];
+
+            // modify path for multilingual countries (currently de, at)
+            if ($isGerman) {
+                $countrycode = $row['countrycode'];
+                switch ($countrycode) {
+                    case 'de':
+                    case 'at':
+                        $filename = str_replace('/english/', '/german/', $filename);
+                        break;
+                    default:
+                        break;
+                }
+            }
+
             print ("            <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
         }
     }
@@ -206,7 +220,7 @@ function printAllByCategory($pdo, $category)
 /**
  * @param $pdo PDO the database
  */
-function printAll($pdo)
+function printAll($pdo, $isGerman)
 {
     $sql = "SELECT name, filename, countrycode, country, category, closed FROM sights WHERE visible='yes' ORDER BY sortby";
     $filebase = "../../..";
@@ -220,6 +234,20 @@ function printAll($pdo)
             }
             $country = $row['country'];
             $filename = $row['filename'];
+
+            // modify path for multilingual countries (currently de, at)
+            if ($isGerman) {
+                $countrycode = $row['countrycode'];
+                switch ($countrycode) {
+                    case 'de':
+                    case 'at':
+                        $filename = str_replace('/english/', '/german/', $filename);
+                        break;
+                    default:
+                        break;
+                }
+            }
+
             $Category = getCategory($row['category']);
             print ("            <li><a data-ajax=\"false\" target=\"_top\" href='$filebase$filename'><img alt='$Category' class='ui-li-icon ui-corner-none symbol' src='../../../graphics/symbol/$Category.png'>$name, $country</a></li>\n");
         }

@@ -59,7 +59,7 @@
         <label for="theList">search the list...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
             <?php
-            printAllByCategory($pdo, 'karst');
+            printAllByCategory($pdo, 'karst', false);
             ?>
         </ul>
 

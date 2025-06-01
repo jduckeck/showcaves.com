@@ -41,7 +41,7 @@
         <label for="theList">Suchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
             <?php
-            printAll($pdo);
+            printAll($pdo, true);
             ?>
         </ul>
 
