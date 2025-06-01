@@ -254,3 +254,7 @@ UPDATE 'sights' SET 'name' = REPLACE('name', "'", "’");
 
 <body((.|\n)*)<h1 class="entry-title">(.+?)</h1>((.|\n)*)\<div class\=\"entry\-content\"\>
 <body><h1 class="entry-title">$2</h1><div class="entry-content">
+
+SVG Map
+                <area shape="rect" coords="(\d+),(\d+),(\d+),(\d+)" alt="(.*)" target="_top" href="(.*)"/>
+                <a href="$6"><rect x="$1" y="$2" opacity="0" width="$3" height="$4" ><title>$5</title></rect></a>

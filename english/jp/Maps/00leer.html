@@ -53,12 +53,11 @@
 
         <br class="clear">
 
-        <div class="center">
-            <map name="$FileName$Map">
-                <area shape="default" alt="">
-            </map>
-            <img alt="" src="../../../maps/jp/$FileName$.png" USEMAP="#$FileName$Map" class="map">
-        </div>
+        <figure id="map" class="center">
+            <svg viewBox="0 0 $width$ $height$" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <image xlink:href="../../../maps/jp/Big/$FileName$.png" width="$width$" height="$height$"/>
+            </svg>
+        </figure>
 
     </div>
 

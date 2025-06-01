@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="resource-type" content="document">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Schauhöhle Schaubergwerk Grotte Schlucht Quelle Bergwerk Höhle Sehenswürdigkeit Führung Tourismus">
+    <meta name="page-topic" content="travel tourism destination">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="distribution" content="global">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../../../css/global.css">
+    <script type="text/javascript" src="../../../js/xemhid.js"></script>
+    <link rel="alternate" hreflang="en" href="../../../english/de/Maps/$FileName$.html"/>
+    <!-- begin responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
+    <script src="../../../js/jquery-1.11.3.min.js"></script>
+    <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="../../../css/lightbox.min.css" rel="stylesheet">
+    <script src="../../../js/lightbox.min.js" type="text/javascript"></script>
+    <!-- end responsive -->
+
+
+    <meta property="og:locale" content="de_DE"/>
+    <meta property="og:title" content="Landkarten von Deutschland: $CaveName$"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.showcaves.com/entrance/entrance.jpg"/>
+    <meta property="og:site_name" content="Schauhöhlen der Welt"/>
+    <meta property="og:description" content="Unterirdische Sehenswürdigkeiten der Welt"/>
+    <title>Landkarten von Deutschland: $CaveName$</title>
+</head>
+
+<body>
+<div data-role="page" id="pageroot">
+    <div data-role="main" class="ui-content">
+
+        <!--
+            <li><a data-ajax="false" target="_top" href="../../../german/$CountryTwoLetter$/Maps/$FileName$.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">$CaveName$</a></li>
+        -->
+
+        <figure class="left">
+            <a target="_top" href="../../../english/de/Maps/index.html"><img alt="Germany Map" src="../../../maps/de/Germany.png" class="mapIcon"></a>
+            <figcaption class="center">$Country$</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a target="_top" href="../../../english/de/Maps/index.html"><img alt="Germany Map" src="../../../maps/Germany.png" class="mapIcon"></a>
+            <figcaption class="center">$Country$</figcaption>
+        </figure>
+
+        <h1 class="center">Landkarte von $CaveName$</h1>
+        <h2 class="center"></h2>
+
+        <br class="clear">
+
+        <figure id="map" class="center">
+            <svg viewBox="0 0 800 1061" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <image xlink:href="../../../maps/de/Showcaves.gif" width="800" height="1061"/>
+
+                <!-- Rechtecke -->
+                <a href="../showcaves/Segeberger.html">
+                    <rect x="380" y="115" width="156" height="16" fill="transparent" stroke="">
+                        <title>Segeberger Kalkberghöhlen</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Segeberger.html">
+                    <rect x="379" y="128" width="18" height="14" fill="transparent" stroke="">
+                        <title>Segeberger Kalkberghöhlen</title>
+                    </rect>
+                </a>
+                <!-- Kreis -->
+                <a href="../region/Norddeutschland.html">
+                    <circle cx="379" cy="138" r="69" fill="transparent" stroke="">
+                        <title>Norddeutschland</title>
+                    </circle>
+                </a>
+                <a href="../showcaves/Bilstein.html">
+                    <rect x="227" y="471" width="84" height="13" fill="transparent" stroke="">
+                        <title>Bilsteinhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Heinrich.html">
+                    <rect x="106" y="473" width="81" height="11" fill="transparent" stroke="">
+                        <title>Heinrichshöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Heinrich.html">
+                    <rect x="177" y="484" width="14" height="11" fill="transparent" stroke="">
+                        <title>Heinrichshöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Dechen.html">
+                    <rect x="91" y="483" width="74" height="12" fill="transparent" stroke="">
+                        <title>Dechenhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Dechen.html">
+                    <rect x="163" y="487" width="12" height="12" fill="transparent" stroke="">
+                        <title>Dechenhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Klutert.html">
+                    <rect x="61" y="493" width="80" height="13" fill="transparent" stroke="">
+                        <title>Kluterthöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Atta.html">
+                    <rect x="173" y="511" width="70" height="14" fill="transparent" stroke="">
+                        <title>Attahöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Aggertal.html">
+                    <rect x="120" y="533" width="90" height="14" fill="transparent" stroke="">
+                        <title>Aggertalhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Wiehler.html">
+                    <rect x="130" y="552" width="147" height="14" fill="transparent" stroke="">
+                        <title>Wiehler Tropfsteinhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Recken.html">
+                    <rect x="201" y="483" width="85" height="10" fill="transparent" stroke="">
+                        <title>Reckenhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Balver.html">
+                    <rect x="202" y="493" width="82" height="11" fill="transparent" stroke="">
+                        <title>Balverhöhle</title>
+                    </rect>
+                </a>
+                <!-- Polygon Sauerland -->
+                <a href="../region/Sauerland.html">
+                    <polygon points="151,583 187,585 229,583 283,519 289,494 268,481 261,474 308,481 262,469 233,467 103,483 98,495 95,502 94,508 96,524 94,547 130,583"
+                             fill="transparent" stroke="">
+                        <title>Sauerland</title>
+                    </polygon>
+                </a>
+                <a href="../showcaves/Iberger.html">
+                    <rect x="251" y="440" width="141" height="14" fill="transparent" stroke="">
+                        <title>Iberger Tropfsteinhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Einhorn.html">
+                    <rect x="323" y="454" width="89" height="15" fill="transparent" stroke="">
+                        <title>Einhornhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Hermanns.html">
+                    <rect x="428" y="435" width="102" height="11" fill="transparent" stroke="">
+                        <title>Hermannshöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Baumanns.html">
+                    <rect x="430" y="421" width="101" height="13" fill="transparent" stroke="">
+                        <title>Baumannshöhle</title>
+                    </rect>
+                </a>
+                <!-- Polygon Harz -->
+                <a href="../region/Harz.html">
+                    <polygon points="371,451 374,431 381,423 393,422 422,415 452,417 478,421 486,437 488,451 469,457 451,455 430,454 406,472 387,464 374,449"
+                             fill="transparent" stroke="">
+                        <title>Harz</title>
+                    </polygon>
+                </a>
+                <a href="../showcaves/Barbarossa.html">
+                    <rect x="438" y="477" width="109" height="15" fill="transparent" stroke="">
+                        <title>Barbarossahöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Heimkehle.html">
+                    <rect x="434" y="455" width="74" height="14" fill="transparent" stroke="">
+                        <title>Heimkehle</title>
+                    </rect>
+                </a>
+                <!-- Polygon Gipskarst Südharz -->
+                <a href="../region/Gipskarst.html">
+                    <polygon points="381,466 380,481 401,489 424,492 450,499 476,497 476,478 465,464 454,455 432,454 418,465 410,471 392,467"
+                             fill="transparent" stroke="">
+                        <title>Gipskarst Südharz</title>
+                    </polygon>
+                </a>
+                <a href="../showcaves/Dienstedt.html">
+                    <rect x="421" y="538" width="131" height="14" fill="transparent" stroke="">
+                        <title>Karsthöhle Dienstedt</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Altensteiner.html">
+                    <rect x="307" y="540" width="101" height="13" fill="transparent" stroke="">
+                        <title>Altensteiner Höhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Altensteiner.html">
+                    <rect x="365" y="552" width="17" height="10" fill="transparent" stroke="">
+                        <title>Altensteiner Höhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Kittelsthaler.html">
+                    <rect x="384" y="569" width="152" height="14" fill="transparent" stroke="">
+                        <title>Kittelsthaler Tropfsteinhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Kittelsthaler.html">
+                    <rect x="386" y="559" width="14" height="10" fill="transparent" stroke="">
+                        <title>Kittelsthaler Tropfsteinhöhle</title>
+                    </rect>
+                </a>
+                <a href="../showcaves/Goetz.html">
+                    <rect x="291" y="567" width="87" height="14" fill="transparent" stroke="">
+                        <title>Goetz-Höhle</title>
+                    </rect>
+                </a>
+                <!-- Polygon Thüringen -->
+                <a href="../region/Thueringen.html">
+                    <polygon points="465,506 423,503 371,501 360,527 354,559 355,584 374,602 393,617 422,623 446,618 455,609 454,600 461,589 493,591 508,574 501,552 490,532 473,514"
+                             fill="transparent" stroke="">
+                        <title>Thüringen</title>
+                    </polygon>
+                </a>
+                <a href="../showcaves/Syrau.html">
+                    <rect x="535" y="595" width="137" height="13" fill="transparent" stroke="">
+                        <title>Syrauer Drachenhöhle</title>
+                    </rect>
+                </a>
+                <!-- Polygon Vogtland -->
+                <a href="../region/Vogtland.html">
+                    <polygon points="535,582 524,584 503,585 492,585 485,585 472,585 462,584 459,584 454,587 448,593 450,597 459,601 464,601 468,604 474,606 484,613 492,616 506,620 514,622 525,625 539,631 555,634 573,631 587,628 610,624 627,620 640,613 640,601 629,593 617,590 604,588 595,584 583,580 565,576 561,576 537,581"
+                             fill="transparent" stroke="">
+                        <title>Vogtland</title>
+                    </polygon>
+                </a>
+                <svg width="800" height="1100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Niedaltdorfer Tropfsteinhöhle -->
+                    <a href="../showcaves/Niedaltdorfer.html">
+                        <rect x="57" y="761" width="141" height="13" fill="transparent" stroke="">
+                            <title>Niedaltdorfer Tropfsteinhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Saarland -->
+                    <a href="../region/Saarland.html">
+                        <polygon points="45,742 42,749 53,749 63,773 76,786 83,788 82,781 90,784 93,789 106,793 120,794 121,788 114,782 118,778 122,772 125,764 118,760 114,757 115,754 117,749 114,743 111,740 105,735 104,735 97,733 94,731 89,729 85,733 82,736 70,741 59,741 53,740" fill="transparent" stroke="">
+                            <title>Saarland</title>
+                        </polygon>
+                    </a>
+                    <!-- Eberstadter Tropfsteinhöhle -->
+                    <a href="../showcaves/Eberstadter.html">
+                        <rect x="309" y="747" width="67" height="13" fill="transparent" stroke="">
+                            <title>Eberstadter Tropfsteinhöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Eberstadter.html">
+                        <rect x="298" y="770" width="88" height="15" fill="transparent" stroke="">
+                            <title>Eberstadter Tropfsteinhöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Eberstadter.html">
+                        <rect x="339" y="759" width="15" height="13" fill="transparent" stroke="">
+                            <title>Eberstadter Tropfsteinhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Großes Schulerloch -->
+                    <a href="../showcaves/Schulerloch.html">
+                        <rect x="502" y="812" width="123" height="14" fill="transparent" stroke="">
+                            <title>Großes Schulerloch</title>
+                        </rect>
+                    </a>
+                    <!-- König-Otto-Höhle -->
+                    <a href="../showcaves/Kingotto.html">
+                        <rect x="492" y="767" width="112" height="14" fill="transparent" stroke="">
+                            <title>König-Otto-Höhle</title>
+                        </rect>
+                    </a>
+                    <!-- Osterhöhle -->
+                    <a href="../showcaves/Oster.html">
+                        <rect x="485" y="746" width="78" height="15" fill="transparent" stroke="">
+                            <title>Osterhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Maximiliansgrotte -->
+                    <a href="../showcaves/Maximilians.html">
+                        <rect x="487" y="716" width="109" height="15" fill="transparent" stroke="">
+                            <title>Maximiliansgrotte</title>
+                        </rect>
+                    </a>
+                    <!-- Teufelshöhle -->
+                    <a href="../showcaves/TeufelsFranken.html">
+                        <rect x="474" y="702" width="72" height="14" fill="transparent" stroke="">
+                            <title>Teufelshöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/TeufelsFranken.html">
+                        <rect x="471" y="713" width="12" height="13" fill="transparent" stroke="">
+                            <title>Teufelshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Sophienhöhle -->
+                    <a href="../showcaves/Sophien.html">
+                        <rect x="377" y="697" width="77" height="14" fill="transparent" stroke="">
+                            <title>Sophienhöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Sophien.html">
+                        <rect x="454" y="703" width="12" height="9" fill="transparent" stroke="">
+                            <title>Sophienhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Binghöhle -->
+                    <a href="../showcaves/Bing.html">
+                        <rect x="395" y="711" width="65" height="15" fill="transparent" stroke="">
+                            <title>Binghöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Fränkische Alb -->
+                    <a href="../region/FraenkischeAlb.html">
+                        <polygon points="438,681 430,697 423,718 440,730 449,739 465,739 475,758 476,766 476,782 476,795 478,808 483,820 497,832 512,836 584,835 588,834 600,831 609,830 621,820 625,808 629,794 612,771 593,763 582,747 574,741 566,730 560,720 557,716 548,701 539,692 529,682 517,676 504,675 484,675 472,674 455,675 442,676 440,677" fill="transparent" stroke="">
+                            <title>Fränkische Alb</title>
+                        </polygon>
+                    </a>
+                    <!-- Charlottenhöhle -->
+                    <a href="../showcaves/Charlotten.html">
+                        <rect x="375" y="861" width="100" height="13" fill="transparent" stroke="">
+                            <title>Charlottenhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Schertelshöhle -->
+                    <a href="../showcaves/Schertel.html">
+                        <rect x="302" y="871" width="85" height="11" fill="transparent" stroke="">
+                            <title>Schertelshöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Schertel.html">
+                        <rect x="308" y="885" width="13" height="11" fill="transparent" stroke="">
+                            <title>Schertelshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Laichinger Tiefenhöhle -->
+                    <a href="../showcaves/Laichinger.html">
+                        <rect x="318" y="882" width="135" height="11" fill="transparent" stroke="">
+                            <title>Laichinger Tiefenhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Sontheimer Höhle -->
+                    <a href="../showcaves/Sontheim.html">
+                        <rect x="322" y="893" width="111" height="14" fill="transparent" stroke="">
+                            <title>Sontheimer Höhle</title>
+                        </rect>
+                    </a>
+                    <!-- Gutenberger Höhlen -->
+                    <a href="../showcaves/Gutenberger.html">
+                        <rect x="188" y="860" width="113" height="11" fill="transparent" stroke="">
+                            <title>Gutenberger Höhlen</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Gutenberger.html">
+                        <rect x="286" y="871" width="14" height="20" fill="transparent" stroke="">
+                            <title>Gutenberger Höhlen</title>
+                        </rect>
+                    </a>
+                    <!-- Olgahöhle -->
+                    <a href="../showcaves/Olga.html">
+                        <rect x="224" y="876" width="59" height="14" fill="transparent" stroke="">
+                            <title>Olgahöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Olga.html">
+                        <rect x="277" y="887" width="13" height="11" fill="transparent" stroke="">
+                            <title>Olgahöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Bären- und Karlshöhle -->
+                    <a href="../showcaves/Baeren.html">
+                        <rect x="187" y="890" width="88" height="11" fill="transparent" stroke="">
+                            <title>Bären- und Karlshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Nebelhöhle -->
+                    <a href="../showcaves/Nebel.html">
+                        <rect x="212" y="901" width="63" height="10" fill="transparent" stroke="">
+                            <title>Nebelhöhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Nebel.html">
+                        <rect x="272" y="896" width="14" height="11" fill="transparent" stroke="">
+                            <title>Nebelhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Wimsener Höhle - Friedrichshöhle -->
+                    <a href="../showcaves/Wimsener.html">
+                        <rect x="206" y="908" width="107" height="13" fill="transparent" stroke="">
+                            <title>Wimsener Höhle - Friedrichshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Zwiefaltendorfer Tropfsteinhöhle -->
+                    <a href="../showcaves/Zwiefaltendorfer.html">
+                        <rect x="125" y="920" width="189" height="12" fill="transparent" stroke="">
+                            <title>Zwiefaltendorfer Tropfsteinhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Kolbinger Höhle -->
+                    <a href="../showcaves/Kolbinger.html">
+                        <rect x="165" y="930" width="88" height="13" fill="transparent" stroke="">
+                            <title>Kolbinger Höhle</title>
+                        </rect>
+                    </a>
+                    <a href="../showcaves/Kolbinger.html">
+                        <rect x="253" y="937" width="12" height="10" fill="transparent" stroke="">
+                            <title>Kolbinger Höhle</title>
+                        </rect>
+                    </a>
+                    <!-- Schwäbische Alb -->
+                    <a href="../region/SchwaebischeAlb.html">
+                        <polygon points="470,849 453,812 424,812 367,835 255,890 232,930 237,959 260,954 296,947 336,924 404,885" fill="transparent" stroke="">
+                            <title>Schwäbische Alb</title>
+                        </polygon>
+                    </a>
+                    <!-- Erdmannshöhle -->
+                    <a href="../showcaves/Erdmanns.html">
+                        <rect x="166" y="988" width="102" height="13" fill="transparent" stroke="">
+                            <title>Erdmannshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Tschamberhöhle -->
+                    <a href="../showcaves/Tschamber.html">
+                        <rect x="166" y="1001" width="94" height="15" fill="transparent" stroke="">
+                            <title>Tschamberhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Südschwarzwald -->
+                    <a href="../region/Schwarzwald.html">
+                        <polygon points="155,977 141,989 130,988 126,1001 132,1007 150,1014 160,1013 174,1012 189,1010 201,1012 216,1006 226,998 226,990 219,981 212,981 197,977" fill="transparent" stroke="">
+                            <title>Südschwarzwald</title>
+                        </polygon>
+                    </a>
+                    <!-- Schellenberger Eishöhle -->
+                    <a href="../showcaves/Schellenberger.html">
+                        <rect x="624" y="984" width="149" height="18" fill="transparent" stroke="">
+                            <title>Schellenberger Eishöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Wendelsteinhöhle -->
+                    <a href="../showcaves/Wendelstein.html">
+                        <rect x="436" y="982" width="117" height="17" fill="transparent" stroke="">
+                            <title>Wendelsteinhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Sturmannshöhle -->
+                    <a href="../showcaves/Sturmann.html">
+                        <rect x="369" y="1023" width="107" height="14" fill="transparent" stroke="">
+                            <title>Sturmannshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Kubacher Kristallhöhle -->
+                    <a href="../showcaves/Kubacher.html">
+                        <rect x="211" y="641" width="140" height="15" fill="transparent" stroke="">
+                            <title>Kubacher Kristallhöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Teufelshöhle -->
+                    <a href="../showcaves/Teufels.html">
+                        <rect x="247" y="621" width="87" height="15" fill="transparent" stroke="">
+                            <title>Teufelshöhle</title>
+                        </rect>
+                    </a>
+                    <!-- Nördliche Kalkalpen -->
+                    <a href="../region/Alpen.html">
+                        <polygon points="340,1000 450,1004 546,982 620,983 621,988 629,985 635,989 639,996 633,1005 632,1023 615,1010 609,1003 612,1000 606,993 586,999 575,992 558,992 558,986 559,1002 524,1007 503,1008 500,1020 488,1019 484,1028 472,1026 470,1034 463,1030 446,1034 442,1025 438,1021 439,1015 429,1017 414,1013 405,1015 399,1015 400,1024 382,1050 372,1051 375,1037 367,1037 365,1031 368,1028 351,1016 341,1016 334,1007" fill="transparent" stroke="">
+                            <title>Nördliche Kalkalpen</title>
+                        </polygon>
+                    </a>
+                    <!-- France -->
+                    <a href="../../../english/fr/Maps/index.html">
+                        <rect x="30" y="860" width="63" height="19" fill="transparent" stroke="">
+                            <title>France</title>
+                        </rect>
+                    </a>
+                    <!-- Czech Republic -->
+                    <a href="../../../english/cz/Maps/index.html">
+                        <rect x="630" y="671" width="139" height="22" fill="transparent" stroke="">
+                            <title>Czech Republic</title>
+                        </rect>
+                    </a>
+                    <!-- Belgium -->
+                    <a href="../../../english/be/Maps/index.html">
+                        <rect x="1" y="599" width="27" height="22" fill="transparent" stroke="">
+                            <title>Belgium</title>
+                        </rect>
+                    </a>
+                    <!-- Österreich - Austria -->
+                    <a href="../../../english/at/Maps/index.html">
+                        <rect x="699" y="950" width="65" height="26" fill="transparent" stroke="">
+                            <title>Österreich - Austria</title>
+                        </rect>
+                    </a>
+                    <a href="../../../english/at/Maps/index.html">
+                        <rect x="420" y="1036" width="67" height="19" fill="transparent" stroke="">
+                            <title>Österreich - Austria</title>
+                        </rect>
+                    </a>
+                    <!-- Switzerland -->
+                    <a href="../../../english/ch/Maps/index.html">
+                        <rect x="177" y="1024" width="103" height="22" fill="transparent" stroke="">
+                            <title>Switzerland</title>
+                        </rect>
+                    </a>
+                    <!-- Poland -->
+                    <a href="../../../english/pl/Maps/index.html">
+                        <rect x="723" y="263" width="63" height="23" fill="transparent" stroke="">
+                            <title>Poland</title>
+                        </rect>
+                    </a>
+                    <!-- The Netherlands -->
+                    <a href="../../../english/nl/Maps/index.html">
+                        <rect x="7" y="267" width="107" height="21" fill="transparent" stroke="">
+                            <title>The Netherlands</title>
+                        </rect>
+                    </a>
+                    <!-- Luxembourg -->
+                    <a href="../../../english/lu/Maps/index.html">
+                        <rect x="5" y="699" width="35" height="18" fill="transparent" stroke="">
+                            <title>Luxembourg</title>
+                        </rect>
+                    </a>
+                    <!-- Herbstlabyrinth -->
+                    <a href="../showcaves/Herbst.html">
+                        <rect x="194" y="581" width="97" height="16" fill="transparent" stroke="">
+                            <title>Herbstlabyrinth</title>
+                        </rect>
+                    </a>
+                </svg>
+        </figure>
+
+    </div>
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../../english/index.html">Hauptseite</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/de/index.html">$Country$</a></li>
+                <li><a data-ajax="false" target="_top" href="index.html">Landkarten</a></li>
+                <li><a data-ajax="false" target="_top" href="../../../english/de/Maps/$FileName$.html"><img alt="English" src="../../../graphics/language/gb.png" class="language"></a></li>
+            </ul>
+            <div data-role="controlgroup" data-type="horizontal" class="center">
+                <a data-ajax="false" href="../region/ByRegion.html" data-role="button" class="">Index</a>
+                <a data-ajax="false" href="../region/$FileName$.html" data-role="button" class="">Regions</a>
+                <a data-ajax="false" href="../Maps/$FileName$.html" data-role="button" class="ui-btn-active">Maps</a>
+                <a data-ajax="false" href="../topics/index.html" data-role="button" class="">Topics</a>
+                <a data-ajax="false" href="../geoparks/index.html" data-role="button" class="">GeoParks</a>
+            </div>
+        </div>
+    </div>
+    <!-- Path End -->
+
+    <!-- Navigation Bar Begin -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a target="_top" href="../../explain/Index/index.html"><img alt="Index" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
+                <li><a target="_top" href="../../explain/Topic/index.html"><img alt="Topic" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Themen</a></li>
+                <li><a target="_top" href="../../explain/Hierarchy/index.html"><img alt="Hierarchical" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchisch</a></li>
+                <li><a target="_top" href="../../Countries.html"><img alt="Countries" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Länder</a></li>
+                <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Map" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Karten</a></li>
+            </ul>
+            <ul>
+                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Suche</a></li>
+                <li><a target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
+                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Änderungen und Kritik</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navigation Bar End -->
+
+</div>
+</body>
+</html>

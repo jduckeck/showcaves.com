@@ -70,8 +70,7 @@
                 <area shape="rect" alt="Aggertalhöhle" coords="120,533,210,547" href="../showcaves/Aggertal.html">
                 <area shape="rect" alt="Wiehler Tropfsteinhöhle" coords="130,552,277,566" href="../showcaves/Wiehler.html">
                 <area shape="rect" alt="Reckenhöhle" coords="201,483,286,493" href="../showcaves/Recken.html">
-                <area shape="rect" alt="Balverhöhle" coords="202,493,284,504" href="../showcaves/Balver.html">
-                <area shape="rect" alt="Balver Höhle" coords="180,443,254,452" href="../showcaves/Balver.html">
+                <area shape="rect" alt="Balver Höhle" coords="202,493,284,504" href="../showcaves/Balver.html">
                 <area shape="poly" alt="Sauerland" coords="151,583,187,585,229,583,283,519,289,494,268,481,261,474,308,481,262,469,233,467,103,483,98,495,95,502,94,508,96,524,94,547,130,583" href="../region/Sauerland.html">
                 <area shape="rect" alt="Iberger Tropfsteinhöhle" coords="251,440,392,454" href="../showcaves/Iberger.html">
                 <area shape="rect" alt="Einhornhöhle" coords="323,454,412,469" href="../showcaves/Einhorn.html">
@@ -142,7 +141,56 @@
                 <area shape="rect" alt="Herbstlabyrinth" coords="194,581,291,597" href="../showcaves/Herbst.html"/>
                 <area shape="default" alt="">
             </map>
-            <img alt="" src="../../../maps/de/Showcaves.gif" USEMAP="#DEMap" class="map">
+            <img alt="" src="../../../maps/de/Showcaves.gif" usemap="#DEMap" class="map">
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const img = document.querySelector('img[usemap]');
+                    const mapName = img.getAttribute('usemap')
+                        .replace('#', '');
+                    const map = document.querySelector(`map[name="${mapName}"]`);
+                    const areas = map.querySelectorAll('area');
+
+                    // Originalgröße des Bildes
+                    const originalWidth = img.naturalWidth;
+                    const originalHeight = img.naturalHeight;
+
+                    // Speichere Originalkoordinaten
+                    areas.forEach(area => {
+                        area.dataset.originalCoords = area.coords;
+                    });
+
+                    function resizeMap() {
+                        const scaleX = img.clientWidth / originalWidth;
+                        const scaleY = img.clientHeight / originalHeight;
+
+                        areas.forEach(area => {
+                            const coords = area.dataset.originalCoords.split(',')
+                                .map(Number);
+                            let newCoords;
+
+                            if (area.shape.toLowerCase() === 'circle') {
+                                newCoords = [
+                                    Math.round(coords[0] * scaleX),
+                                    Math.round(coords[1] * scaleY),
+                                    Math.round(coords[2] * (scaleX + scaleY) / 2)
+                                ];
+                            }
+                            else {
+                                newCoords = coords.map((val, i) => (
+                                    i % 2 === 0 ? Math.round(val * scaleX) : Math.round(val * scaleY)
+                                ));
+                            }
+
+                            area.coords = newCoords.join(',');
+                        });
+                    }
+
+                    window.addEventListener('resize', resizeMap);
+                    img.addEventListener('load', resizeMap);
+                    if (img.complete) resizeMap();  // Wenn Bild schon geladen
+                });
+            </script>
+
 
             <div data-role="controlgroup" data-type="horizontal">
                 <a data-ajax="false" href="Showcaves.html" data-role="button" class="ui-btn-active">Schauhöhlen</a>
