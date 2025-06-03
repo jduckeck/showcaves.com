@@ -23,3 +23,7 @@ ErrorDocument 500 /errors/500.html
 
 # Permanent URL redirect- by netgrade
 Redirect 301 /english/explain/History/Bruce.html /english/explain/Literature/Bruce.html
+
+# remove double slashes
+RewriteCond %{THE_REQUEST} \s[^?]*//
+RewriteRule ^.*$ /$0 [R=302,L,NE]
