@@ -4,3 +4,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Trou à Man Louis', '/english/fr/caves/MadameLouis.html', 'MadameLouis', 'Europe', 'fr', 'France', 'caves', 'Guadeloupe', 16.485838, -61.497291);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Trou Madame Coco', '/english/fr/caves/MadameCoco.html', 'MadameCoco', 'Europe', 'fr', 'France', 'caves', 'Guadeloupe', 16.4901243, -61.4402167);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gorges de la Falaise', '/english/fr/gorges/Falaise.html', 'Falaise', 'Europe', 'fr', 'France', 'gorges', 'Martinique', 14.8203834, -61.1294118);
