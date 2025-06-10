@@ -7,9 +7,6 @@ body {
 .darkMode {
     color: #EDEDED;
     background-color: #000000;
-    margin: 5px;
-    padding: 5px;
-    display: inline-block;
 }
 
 A:hover {
