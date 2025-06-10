@@ -22,7 +22,7 @@ if ($statement->execute()) {
     }
 }
 
-$sql = "SELECT filename FROM sights WHERE visible='yes' AND countrycode='de' ORDER BY sortby";
+$sql = "SELECT filename FROM sights WHERE visible='yes' AND countrycode='de' OR countrycode='at' ORDER BY sortby";
 $statement = $pdo->prepare($sql);
 if ($statement->execute()) {
     while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
