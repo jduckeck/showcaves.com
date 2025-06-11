@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Map zu SVG Konverter</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 1em;
+        }
+
+        svg {
+            border: 1px solid #ccc;
+            margin-top: 1em;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Map zu SVG Konverter</h1>
+<input type="file" id="fileInput" accept=".html,.htm"/>
+<div id="output"></div>
+
+<script>
+    document.getElementById("fileInput")
+        .addEventListener("change", function(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const htmlContent = e.target.result;
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(htmlContent, "text/html");
+
+                const map = doc.querySelector("map");
+                if (!map) {
+                    alert("Keine <map> in der Datei gefunden.");
+                    return;
+                }
+
+                const areas = Array.from(map.querySelectorAll("area"));
+                const svgNS = "http://www.w3.org/2000/svg";
+                const svg = document.createElementNS(svgNS, "svg");
+                svg.setAttribute("xmlns", svgNS);
+                svg.setAttribute("width", "100%");
+                svg.setAttribute("height", "100%");
+
+                areas.forEach((area, i) => {
+                    const shape = area.getAttribute("shape")
+                        ?.toLowerCase();
+                    const coords = area.getAttribute("coords")
+                        ?.split(",")
+                        .map(Number);
+                    let element;
+
+                    switch (shape) {
+                        case "rect":
+                            element = document.createElementNS(svgNS, "rect");
+                            element.setAttribute("x", coords[0]);
+                            element.setAttribute("y", coords[1]);
+                            element.setAttribute("width", coords[2] - coords[0]);
+                            element.setAttribute("height", coords[3] - coords[1]);
+                            break;
+                        case "circle":
+                            element = document.createElementNS(svgNS, "circle");
+                            element.setAttribute("cx", coords[0]);
+                            element.setAttribute("cy", coords[1]);
+                            element.setAttribute("r", coords[2]);
+                            break;
+                        case "poly":
+                            element = document.createElementNS(svgNS, "polygon");
+                            const points = [];
+                            for (let j = 0; j < coords.length; j += 2) {
+                                points.push(`${coords[j]},${coords[j + 1]}`);
+                            }
+                            element.setAttribute("points", points.join(" "));
+                            break;
+                        default:
+                            console.warn("Unbekannte Form:", shape);
+                            return;
+                    }
+
+                    element.setAttribute("fill", "rgba(0, 123, 255, 0.5)");
+                    element.setAttribute("stroke", "black");
+                    element.setAttribute("stroke-width", "1");
+                    element.setAttribute("data-index", i);
+                    svg.appendChild(element);
+                });
+
+                // Anzeige im Browser
+                const output = document.getElementById("output");
+                output.innerHTML = "";
+                output.appendChild(svg);
+
+                // Download ermöglichen
+                const svgBlob = new Blob([svg.outerHTML], { type: "image/svg+xml" });
+                const url = URL.createObjectURL(svgBlob);
+                const downloadLink = document.createElement("a");
+                downloadLink.href = url;
+                downloadLink.download = "map-konvertiert.svg";
+                downloadLink.textContent = "SVG herunterladen";
+                downloadLink.style.display = "inline-block";
+                downloadLink.style.marginTop = "1em";
+                output.appendChild(downloadLink);
+            };
+
+            reader.readAsText(file);
+        });
+</script>
+</body>
+</html>

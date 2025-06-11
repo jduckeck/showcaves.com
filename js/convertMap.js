@@ -1,0 +1,46 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const img = document.querySelector('img[usemap]');
+    const mapName = img.getAttribute('usemap')
+        .replace('#', '');
+    const map = document.querySelector(`map[name="${mapName}"]`);
+    const areas = map.querySelectorAll('area');
+
+    // Originalgröße des Bildes
+    const originalWidth = img.naturalWidth;
+    const originalHeight = img.naturalHeight;
+
+    // Speichere Originalkoordinaten
+    areas.forEach(area => {
+        area.dataset.originalCoords = area.coords;
+    });
+
+    function resizeMap() {
+        const scaleX = img.clientWidth / originalWidth;
+        const scaleY = img.clientHeight / originalHeight;
+
+        areas.forEach(area => {
+            const coords = area.dataset.originalCoords.split(',')
+                .map(Number);
+            let newCoords;
+
+            if (area.shape.toLowerCase() === 'circle') {
+                newCoords = [
+                    Math.round(coords[0] * scaleX),
+                    Math.round(coords[1] * scaleY),
+                    Math.round(coords[2] * (scaleX + scaleY) / 2)
+                ];
+            }
+            else {
+                newCoords = coords.map((val, i) => (
+                    i % 2 === 0 ? Math.round(val * scaleX) : Math.round(val * scaleY)
+                ));
+            }
+
+            area.coords = newCoords.join(',');
+        });
+    }
+
+    window.addEventListener('resize', resizeMap);
+    img.addEventListener('load', resizeMap);
+    if (img.complete) resizeMap();  // Wenn Bild schon geladen
+});
