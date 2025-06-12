@@ -258,3 +258,13 @@ UPDATE 'sights' SET 'name' = REPLACE('name', "'", "’");
 SVG Map
                 <area shape="rect" coords="(\d+),(\d+),(\d+),(\d+)" alt="(.*)" target="_top" href="(.*)"/>
                 <a href="$6"><rect x="$1" y="$2" opacity="0" width="$3" height="$4" ><title>$5</title></rect></a>
+
+<figure class="right">
+            <a data-lightbox="page" data-title="([^"]*)" href="([^"]*)" class="ui-link"><img ([^>]*)></a>
+            <figcaption>([^<]*)</figcaption>
+        </figure>
+
+<figure class="right">
+            <a data-lightbox="page" data-title="$4" href="$2" class="ui-link"><img $3></a>
+            <figcaption>$4</figcaption>
+        </figure>
