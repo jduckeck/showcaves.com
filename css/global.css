@@ -835,6 +835,10 @@ hr.wide {
     div[data-role~="footer"] {
         display: none;
     }
+
+    .noprint {
+        display: none;
+    }
 }
 
 .linklist2 {
