@@ -634,6 +634,7 @@ figure.left {
 figure.gallery {
     width: 250px;
     vertical-align: top;
+    horiz-align: center;
     display: inline-block;
     margin: 0 0.5em 0.5em 0.5em;
 }
