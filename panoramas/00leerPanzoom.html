@@ -17,11 +17,19 @@
     <script src="../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <link rel="stylesheet" href="../css/pannellum.css"/>
+    <script src="../js/panzoom.min.js"></script>
     <style>
-        #panorama {
+        #panorama-container {
             width: 100%;
-            height: 500px;
+            height: 80vh;
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+
+        #panorama {
+            width: auto;
+            height: 100%;
+            display: block;
         }
     </style>
 
@@ -40,29 +48,31 @@
     <div data-role="main" class="ui-content">
 
         <!--
-                <li><a data-ajax="false" target="_top" href="../panoramas/P001-001.html"><img alt="Panorama" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Panorama.png">$CaveName$</a></li>
+                <li><a data-ajax="false" target="_top" href="../panoramas/$FileName$.html"><img alt="Panorama" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Panorama.png">$CaveName$</a></li>
         -->
 
         <h1 class="center">$CaveName$</h1>
         <h2 class="center"></h2>
 
-        <figure class="center">
-            <div id="panorama"></div>
-
-            <script src="../js/pannellum.js"></script>
-            <script>
-                pannellum.viewer('panorama', {
-                    type: 'equirectangular',
-                    panorama: 'P001-001.jpg',
-                    autoLoad: true,
-                    compass: false,
-                    pitch: 0,
-                    yaw: 0,
-                    hfov: 1100
-                });
-            </script>
+        <figure class="panorama-container">
+            <img id="panorama" alt="panorama" src="$FileName$.jpg">
             <figcaption>$CaveName$</figcaption>
         </figure>
+
+        <script>
+            const elem = document.getElementById('panorama');
+            const panzoom = Panzoom(elem, {
+                contain: 'outside',
+                maxScale: 5,
+                minScale: 1
+            });
+            panzoom.pan(10, 10)
+            panzoom.zoom(2, { animate: true })
+
+            // Optional: Zoom mit Mausrad aktivieren
+            document.getElementById('panorama-container')
+                .addEventListener('wheel', panzoom.zoomWithWheel);
+        </script>
 
         <br class="clear">
 
