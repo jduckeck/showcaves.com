@@ -30,6 +30,7 @@
             width: auto;
             height: 700px;
             display: block;
+            transform-origin: 0 0; /* Wichtig für korrektes Zoomverhalten */
         }
     </style>
 
@@ -54,7 +55,7 @@
         <h1 class="center">Vogt's Grub</h1>
         <h2 class="center"></h2>
 
-        <div class="panorama-container">
+        <div id="panorama-container">
             <img id="panorama" alt="panorama" src="VogtsGrub01.jpg">
         </div>
 
@@ -69,8 +70,13 @@
             panzoom.zoom(2, { animate: true })
 
             // Optional: Zoom mit Mausrad aktivieren
-            document.getElementById('panorama-container')
-                .addEventListener('wheel', panzoom.zoomWithWheel);
+            const container = document.getElementById('panorama-container');
+
+            container.addEventListener('wheel', function(event) {
+                event.preventDefault(); // 👈 verhindert das normale Scrollen
+                panzoom.zoomWithWheel(event);
+            }, { passive: false }); // 👈 wichtig! Muss `false` sein, sonst wird preventDefault ignoriert
+
         </script>
 
         <br class="clear">
