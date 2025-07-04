@@ -8,6 +8,6 @@ for file in **/*.html; do
       sed -i 's/, official website/, offizielle Website/g' "./$file"
       sed -i 's/(visited: /(besucht: /g' "./$file"
       sed -i 's/ \([[:digit:]]+\) EUR/ EUR \1/g' "./$file"
-#      sed -i 's/ <img alt="Deutsch - German" src="../../../graphics/language/de.png" class="language"> / /g' "./$file"
+      sed -i 's/ <img alt="Deutsch - German" src="..\/..\/..\/graphics\/language\/de.png" class="language"> / /g' "./$file"
     fi
 done
