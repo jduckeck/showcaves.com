@@ -19,6 +19,22 @@
     <script src="../../../js/lightbox.min.js" type="text/javascript"></script>
     <!-- end responsive -->
 
+    <script src="../../../js/panzoom.min.js"></script>
+    <style>
+        #panorama-container {
+            width: 100%;
+            height: 80vh;
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+
+        #panorama {
+            width: auto;
+            height: 700px;
+            display: block;
+            transform-origin: 0 0; /* Wichtig für korrektes Zoomverhalten */
+        }
+    </style>
 
     <meta name="description" content="Silicka Ladnica Jaskyna Slovakia Show Caves showcaves.com">
     <meta property="og:locale" content="en_GB"/>
@@ -44,37 +60,12 @@
         <h2>Useful Information</h2>
 
         <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0098.jpg"><img alt="photography" src="../../../images/D300-0098.jpg"></a>
+            <a data-lightbox="page" data-title='Upper viewpoint. Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0098.jpg"><img alt="photography" src="../../../images/D300-0098.jpg"></a>
             <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
         </figure>
 
         <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0100.jpg"><img alt="photography" src="../../../images/D300-0100.jpg"></a>
-            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0103.jpg"><img alt="photography" src="../../../images/D300-0103.jpg"></a>
-            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0104.jpg"><img alt="photography" src="../../../images/D300-0104.jpg"></a>
-            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0109.jpg"><img alt="photography" src="../../../images/D300-0109.jpg"></a>
-            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0120.jpg"><img alt="photography" src="../../../images/D300-0120.jpg"></a>
-            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
-        </figure>
-
-        <figure class="right">
-            <a data-lightbox="page" data-title='Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0121p.jpg"><img alt="photography" src="../../../images/D300-0121p.jpg"></a>
+            <a data-lightbox="page" data-title='Staircase down into the daylight shaft. Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0103.jpg"><img alt="photography" src="../../../images/D300-0103.jpg"></a>
             <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
         </figure>
 
@@ -131,13 +122,13 @@
             <tr>
                 <td><a target="_top" href="../../explain/Info/photo.html">Photography:</a></td>
                 <td>
-
+                    allowed
                 </td>
             </tr>
             <tr>
                 <td><a target="_top" href="../../explain/Info/accessibility.html">Accessibility:</a></td>
                 <td>
-
+                    no
                 </td>
             </tr>
             <tr>
@@ -183,6 +174,26 @@
 
         <h2>Description</h2>
 
+        <figure class="left">
+            <a data-lightbox="page" data-title='Lower viewpoint. Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0104.jpg"><img alt="photography" src="../../../images/D300-0104.jpg"></a>
+            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a data-lightbox="page" data-title='View down into the ice cave. Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0109.jpg"><img alt="photography" src="../../../images/D300-0109.jpg"></a>
+            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
+        </figure>
+
+        <figure class="left">
+            <a data-lightbox="page" data-title='A doline along the karst trail. Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0120.jpg"><img alt="photography" src="../../../images/D300-0120.jpg"></a>
+            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
+        </figure>
+
+        <figure class="right">
+            <a data-lightbox="page" data-title='Explanatory sign for the ice cave. Jaskyňa Silická ľadnica, Slovakia. Public Domain.' href="../../../images/Big/D300-0100.jpg"><img alt="photography" src="../../../images/D300-0100.jpg"></a>
+            <figcaption>Jaskyňa Silická ľadnica, Slovakia. Public Domain.</figcaption>
+        </figure>
+
         <p>
             We had several problems, to decide if <b>Jaskyňa Silická ľadnica</b> (Silická Ice Cave) is a show cave or not.
             On one hand, the cave is very fragile and has very interesting troglobiont biology.
@@ -213,7 +224,7 @@
             The entrance shaft is slippery because of the ice, and a descent without the appropriate gear is very dangerous.
             The cave passage itself is not very difficult.
             About 1,000 m are visited on those tours.
-            However, you should definitely be aware that these are cave trekking tours requireing the right equipment and physical fitness.
+            However, you should definitely be aware that these are cave trekking tours requiring the right equipment and physical fitness.
         </p>
 
         <p class="indentedText">
@@ -224,6 +235,38 @@
             Archaeological remains date back to the Neolithic, La Tène and Bronze Age.
             Charcoal from hearths indicates a possible Lower Paleolithic settlement.
         </p>
+
+        <p class="indentedText">
+            If you visit the cave we strongly recommend walking the karst trail, the cave is only one stop on this trail.
+            There are numerous small caves, for example the nearby <b>Babská diera</b>.
+            There are also dozens of huge dolines, one of them can be seen on the photo left.
+            And quite spectacular is a small polje, which is shown on the panorama below.
+            Quite typical is the absolutely flat floor, which is used for agriculture, and the hills on all sides of the depression.
+            The fact that this is not a valley can easily be seen: there is neither inflow nor outflow of a river.
+        </p>
+
+        <div id="panorama-container">
+            <img id="panorama" alt="panorama" src="../../../images/Big/D300-0121p.jpg">
+        </div>
+
+        <script>
+            const elem = document.getElementById('panorama');
+            const panzoom = Panzoom(elem, {
+                contain: 'outside',
+                maxScale: 5,
+                minScale: 1
+            });
+            panzoom.pan(10, 10)
+            panzoom.zoom(2, { animate: true })
+
+            // Optional: Zoom mit Mausrad aktivieren
+            const container = document.getElementById('panorama-container');
+
+            container.addEventListener('wheel', function(event) {
+                event.preventDefault(); // 👈 verhindert das normale Scrollen
+                panzoom.zoomWithWheel(event);
+            }, { passive: false }); // 👈 wichtig! Muss `false` sein, sonst wird preventDefault ignoriert
+        </script>
 
 
         <br class="clear">
