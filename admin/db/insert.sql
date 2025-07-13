@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cenote Xcanahaltun', '/english/mx/karst/Xcanahaltun.html', 'Xcanahaltun', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.8367762, -88.0212094);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cenote Secreto Maya', '/english/mx/karst/SecretoMaya.html', 'SecretoMaya', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.8700663, -87.9958003);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Podzemna crkva i katakombe Jajce', '/english/ba/subterranea/Jajce.html', 'Jajce', 'Europe', 'ba', 'Bosnia and Herzegovina', 'subterranea', 'Federation', 44.3395478, 17.2682428);
+UPDATE `sights`
+SET `Latitude`='38.3003848',
+    `Longitude`='57.5189019'
+WHERE `filename` = '/english/other/showcaves/KowAta.html';
