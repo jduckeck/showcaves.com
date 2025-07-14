@@ -22,3 +22,5 @@ UPDATE `sights`
 SET `Latitude`='20.687674',
     `Longitude`='-88.567648'
 WHERE `filename` = '/english/mx/karst/Sagrado.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cenote Chaachab', '/english/mx/karst/Chaachab.html', 'Chaachab', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.835328, -88.017461);
