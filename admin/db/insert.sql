@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cenote Chaachab', '/english/mx/karst/Chaachab.html', 'Chaachab', 'MiddleAmerica', 'mx', 'México', 'karst', 'Yucatan', 20.835328, -88.017461);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Schauplatz Eiserner Vorhang', '/english/at/subterranea/SchauplatzEisernerVorhang.html', 'SchauplatzEisernerVorhang', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder',);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hollow Mountain', '/english/usa/subterranea/HollowMountain.html', 'HollowMountain', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ut', 38.3737455, -110.7046413);
