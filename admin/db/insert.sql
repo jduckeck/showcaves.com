@@ -16,3 +16,7 @@ SET `Latitude`='47.4683282',
 WHERE `filename` = '/english/at/showcaves/Rettenwand.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kilsby Sinkhole', '/english/au/karst/Kilsby.html', 'Kilsby', 'Australia', 'au', 'Australia', 'karst', 'sa', -37.892399, 140.676124);
+UPDATE `sights`
+SET `Latitude`='47.6683645',
+    `Longitude`='14.8037984'
+WHERE `filename` = '/english/at/showcaves/Kraus.html';
