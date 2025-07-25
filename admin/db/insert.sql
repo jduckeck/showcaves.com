@@ -24,3 +24,7 @@ UPDATE `sights`
 SET `Latitude`='47.5259583',
     `Longitude`='12.7391985'
 WHERE `filename` = '/english/at/showcaves/Lamprechtsofen.html';
+UPDATE `sights`
+SET `Latitude`='47.2162983',
+    `Longitude`='15.3433740'
+WHERE `filename` = '/english/at/showcaves/LurgrottePeggau.html';
