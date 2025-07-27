@@ -1,6 +1,6 @@
 
 email:
-(\S+)@(\S+)\.(\S+)
+\b([A-Za-z0-9._%+-]+)@([A-Za-z0-9.-]+)\.([A-Za-z]{2,})\b
 E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../xemhid.php?p1=$1&p2=$2&p3=$3">
 
 author:
@@ -123,11 +123,11 @@ Literature:
 <b class="smallCaps">$2 $1</b>
 
 google search with spaces:
-\"https\:\/\/www\.google\.com\/search\?q\=([^\s"]*)\s([^"]*")
-"https://www.google.com/search?q=$1+$2
+\"https\:\/\/duckduckgo\.com\/\?q\=([^\s"]*)\s([^"]*")
+"https://duckduckgo.com/?q=$1+$2
 
-\"https\:\/\/www\.google\.de\/search\?q\=([^\s"]*)\s([^"]*")
-"https://www.google.de/search?q=$1+$2
+\"https\:\/\/duckduckgo\.de\/search\?q\=([^\s"]*)\s([^"]*")
+"https://duckduckgo.de/search?q=$1+$2
 
 <figure class="$1">
 $2
