@@ -64,9 +64,9 @@
     <div data-role="header" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a data-ajax="false" target="_top" href="../../index.html">Hauptseite</a></li>
-                <li><a data-ajax="false" target="_top" href="index.html">Alphabethisches Register</a></li>
-                <li><a data-ajax="false" target="_top" href="../../../english/explain/Index/AllByCountry.html"><img alt="English" src="../../../graphics/language/gb.png" class="language"></a></li>
+                <li><a data-ajax="false" href="../../index.html">Hauptseite</a></li>
+                <li><a data-ajax="false" href="index.html">Alphabethisches Register</a></li>
+                <li><a data-ajax="false" href="../../../english/explain/Index/AllByCountry.html"><img alt="English" src="../../../graphics/language/gb.png" class="language"></a></li>
             </ul>
         </div>
     </div>
@@ -76,18 +76,18 @@
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a target="_top" href="../../explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
-                <li><a target="_top" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Themen</a></li>
-                <li><a target="_top" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchisch</a></li>
-                <li><a target="_top" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Länder</a></li>
-                <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Karten</a></li>
+                <li><a data-ajax="false" href="../../explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
+                <li><a data-ajax="false" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Themen</a></li>
+                <li><a data-ajax="false" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchisch</a></li>
+                <li><a data-ajax="false" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Länder</a></li>
+                <li><a data-ajax="false" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Karten</a></li>
             </ul>
             <ul>
-                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Suche</a></li>
-                <li><a target="_top" href="../../explain/index.html">Allgemeine Informationen</a></li>
-                <li><a data-ajax="false" target="_top" href="../../Impressum.html">Impressum</a></li>
-                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Änderungen und Kritik</a></li>
+                <li><a data-ajax="false" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Suche</a></li>
+                <li><a data-ajax="false" href="../../explain/index.html">Allgemeine Informationen</a></li>
+                <li><a data-ajax="false" href="../../Impressum.html">Impressum</a></li>
+                <li><a data-ajax="false" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Änderungen und Kritik</a></li>
             </ul>
         </div>
     </div>
