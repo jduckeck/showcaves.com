@@ -4,3 +4,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Galleria Montale', '/english/other/subterranea/Montale.html', 'Montale', 'Europe', 'sm', 'San Marino', 'subterranea', 'sm', 'other', 43.9301977, 12.4501585);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bunker Tour Cervia', '/english/it/subterranea/Cervia.html', 'Cervia', 'Europe', 'it', 'Italy', 'subterranea', 'Rimini', 44.269247, 12.355890);
+UPDATE `sights`
+SET `Latitude`='48,6530431',
+    `Longitude`='15,7185205'
+WHERE `filename` = '/english/at/subterranea/Grasel.html';
