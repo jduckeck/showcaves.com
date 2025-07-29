@@ -8,3 +8,5 @@ UPDATE `sights`
 SET `Latitude`='48,6530431',
     `Longitude`='15,7185205'
 WHERE `filename` = '/english/at/subterranea/Grasel.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Box Cañon Falls', '/english/usa/gorges/Box.html', 'Box', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'co', 38.018214, -107.677697);
