@@ -87,9 +87,9 @@
     <div data-role="header" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
-                <li><a data-ajax="false" target="_top" href="../index.html">General Information</a></li>
-                <li><a data-ajax="false" target="_top" href="../Terminology/index.html">Terminology</a></li>
+                <li><a data-ajax="false" href="../../index.html">Main Index</a></li>
+                <li><a data-ajax="false" href="../index.html">General Information</a></li>
+                <li><a data-ajax="false" href="../Terminology/index.html">Terminology</a></li>
             </ul>
         </div>
     </div>
@@ -99,18 +99,18 @@
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a target="_top" href="../../explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
-                <li><a target="_top" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Topics</a></li>
-                <li><a target="_top" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchical</a></li>
-                <li><a target="_top" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Countries</a></li>
-                <li><a target="_top" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Maps</a></li>
+                <li><a data-ajax="false" href="../../explain/Index/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Index.png">Index</a></li>
+                <li><a data-ajax="false" href="../../explain/Topic/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Topic.png">Topics</a></li>
+                <li><a data-ajax="false" href="../../explain/Hierarchy/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Hierarchical.png">Hierarchical</a></li>
+                <li><a data-ajax="false" href="../../Countries.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Countries.png">Countries</a></li>
+                <li><a data-ajax="false" href="../../explain/Maps/index.html"><img alt="Region" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Map.png">Maps</a></li>
             </ul>
             <ul>
-                <li><a target="_top" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Search</a></li>
-                <li><a target="_top" href="../../explain/index.html">General Information</a></li>
-                <li><a data-ajax="false" target="_top" href="../../TermsOfUse.html">Terms of Use</a></li>
-                <li><a data-ajax="false" target="_top" href="../../Jochen.html">©Jochen Duckeck</a></li>
-                <li><a data-ajax="false" target="_top" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid"
+                <li><a data-ajax="false" href="../../explain/Index/Search.html"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Search</a></li>
+                <li><a data-ajax="false" href="../../explain/index.html">General Information</a></li>
+                <li><a data-ajax="false" href="../../TermsOfUse.html">Terms of Use</a></li>
+                <li><a data-ajax="false" href="../../Jochen.html">©Jochen Duckeck</a></li>
+                <li><a data-ajax="false" href="#" onClick="xemhid('soylentgreen','showcaves','com')">Contact <span class="mySiteName">showcaves.com</span>: <img alt="contact" class="xemhid"
                                                                                                                                                                                src="../xemhid.php?p1=soylentgreen&p2=showcaves&p3=com"></a></li>
             </ul>
         </div>
