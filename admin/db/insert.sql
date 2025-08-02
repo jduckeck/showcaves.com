@@ -10,3 +10,5 @@ SET `Latitude`='48,6530431',
 WHERE `filename` = '/english/at/subterranea/Grasel.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Box Cañon Falls', '/english/usa/gorges/Box.html', 'Box', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'co', 38.018214, -107.677697);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Erdstallmuseum am Kapellenberg Althöflein', '/english/at/subterranea/KapellenbergAlthoeflein.html', 'KapellenbergAlthoeflein', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.636764, 16.745562);
