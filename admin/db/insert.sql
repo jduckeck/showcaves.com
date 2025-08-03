@@ -18,3 +18,7 @@ SET `Latitude`='48.0246805',
 WHERE `filename` = '/english/at/caves/Einoed.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Fürstenbrunner Quellhöhle', '/english/at/aprings/Fuerstenbrunner.html', 'Fuerstenbrunner', 'Europe', 'at', 'Austria', 'aprings', '$Region$', 47.7383011, 12.9948339);
+UPDATE `sights`
+SET `Latitude`='47.7279107',
+    `Longitude`='13.0085677'
+WHERE `filename` = '/english/at/caves/Kolowrath.html';
