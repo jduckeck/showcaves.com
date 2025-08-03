@@ -12,3 +12,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Box Cañon Falls', '/english/usa/gorges/Box.html', 'Box', 'NorthAmerica', 'usa', 'United States of America', 'gorges', 'co', 38.018214, -107.677697);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Erdstallmuseum am Kapellenberg Althöflein', '/english/at/subterranea/KapellenbergAlthoeflein.html', 'KapellenbergAlthoeflein', 'Europe', 'at', 'Austria', 'subterranea', 'Nieder', 48.636764, 16.745562);
+UPDATE `sights`
+SET `Latitude`='48.0246805',
+    `Longitude`='16.2355871'
+WHERE `filename` = '/english/at/caves/Einoed.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fürstenbrunner Quellhöhle', '/english/at/aprings/Fuerstenbrunner.html', 'Fuerstenbrunner', 'Europe', 'at', 'Austria', 'aprings', '$Region$', 47.7383011, 12.9948339);
