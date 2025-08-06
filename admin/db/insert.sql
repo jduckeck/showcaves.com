@@ -26,3 +26,37 @@ UPDATE `sights`
 SET `Latitude`='46.6295381',
     `Longitude`='14.2926577'
 WHERE `filename` = '/english/at/subterranea/Klagenfurt.html';
+UPDATE `sights`
+SET `Latitude`='-29.0106166',
+    `Longitude`='134.7543206'
+WHERE `filename` = '/english/au/subterranea/DesertCaveHotel.html';
+UPDATE `sights`
+SET `Latitude`='-29.0109903',
+    `Longitude`='134.7567666'
+WHERE `filename` = '/english/au/subterranea/DiggersDream.html';
+UPDATE `sights`
+SET `Latitude`='-29.011880',
+    `Longitude`='134.755390'
+WHERE `filename` = '/english/au/subterranea/Radeka.html';
+UPDATE `sights`
+SET `Latitude`='-29.0106166',
+    `Longitude`='134.7543206'
+WHERE `filename` = '/english/au/subterranea/DesertCaveHotel.html';
+UPDATE `sights`
+SET `Latitude`='-29.0109903',
+    `Longitude`='134.7567666'
+WHERE `filename` = '/english/au/subterranea/DiggersDream.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacomb Church', '/english/au/subterranea/CatacombChurch.html', 'CatacombChurch', 'Australia', 'au', 'Australia', 'subterranea', 'CooberPedy', -29.0020991, 134.7613148);
+UPDATE `sights`
+SET `Latitude`='-29.0122355',
+    `Longitude`='134.7553016'
+WHERE `filename` = '/english/au/subterranea/UndergroundChurch.html';
+UPDATE `sights`
+SET `Latitude`='-29.0355600',
+    `Longitude`='134.8038900'
+WHERE `filename` = '/english/au/subterranea/Ribas.html';
+UPDATE `sights`
+SET `Latitude`='-29.0127180',
+    `Longitude`='134.7734022'
+WHERE `filename` = '/english/au/subterranea/SerbianUndergroundChurch.html';
