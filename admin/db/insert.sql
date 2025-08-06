@@ -64,3 +64,31 @@ UPDATE `sights`
 SET `Latitude`='48.6220225',
     `Longitude`='13.6595062'
 WHERE `filename` = '/english/de/mines/Kropfmuehl.html';
+UPDATE `sights`
+SET `Latitude`='-19.1251005',
+    `Longitude`='-44.3521722'
+WHERE `filename` = '/english/br/showcaves/Maquine.html';
+UPDATE `sights`
+SET `Latitude`='47.3168954',
+    `Longitude`='8.8856726'
+WHERE `filename` = '/english/ch/caves/Taeufer.html';
+UPDATE `sights`
+SET `Latitude`='46.571413',
+    `Longitude`='8.331217'
+WHERE `filename` = '/english/ch/caves/Gerstenegg.html';
+UPDATE `sights`
+SET `Latitude`='46.571413',
+    `Longitude`='8.331217'
+WHERE `filename` = '/english/ch/subterranea/Grimsel2.html';
+UPDATE `sights`
+SET `Latitude`='46.571413',
+    `Longitude`='8.331217'
+WHERE `filename` = '/english/ch/subterranea/Grimsel.html';
+UPDATE `sights`
+SET `Latitude`='28.241701',
+    `Longitude`='86.007645'
+WHERE `filename` = '/english/cn/caves/Milarepa.html';
+UPDATE `sights`
+SET `Latitude`='49.7247644',
+    `Longitude`='7.2751810'
+WHERE `filename` = '/german/de/mines/Steinkaulenberg.html';
