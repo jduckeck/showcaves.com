@@ -60,3 +60,7 @@ UPDATE `sights`
 SET `Latitude`='-29.0127180',
     `Longitude`='134.7734022'
 WHERE `filename` = '/english/au/subterranea/SerbianUndergroundChurch.html';
+UPDATE `sights`
+SET `Latitude`='48.6220225',
+    `Longitude`='13.6595062'
+WHERE `filename` = '/english/de/mines/Kropfmuehl.html';
