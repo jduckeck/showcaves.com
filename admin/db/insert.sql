@@ -92,3 +92,5 @@ UPDATE `sights`
 SET `Latitude`='49.7247644',
     `Longitude`='7.2751810'
 WHERE `filename` = '/german/de/mines/Steinkaulenberg.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Erdstall Ratgöbluckn', '/english/at/subterranea/Ratgobluckn.html', 'Ratgobluckn', 'Europe', 'at', 'Austria', 'subterranea', 'Ober', 48.252503, 14.634637);
