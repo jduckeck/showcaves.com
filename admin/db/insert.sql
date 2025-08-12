@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Robert-Bourassa Generating Station', '/english/ca/subterranea/RobertBourassa.html', 'RobertBourassa', 'NorthAmerica', 'ca', 'Canada', 'subterranea', 'Quebec', 53.7934364, -77.6150210);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bergkristall', '/english/at/subterranea/Bergkristall.html', 'Bergkristall', 'Europe', 'at', 'Austria', 'subterranea', 'Ober', 48.2677332, 14.4451126);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Stillensteinklamm', '/english/at/gorges/Stillensteinklamm.html', 'Stillensteinklamm', 'Europe', 'at', 'Austria', 'gorges', 'Ober', 48.2480884, 14.8814294);
