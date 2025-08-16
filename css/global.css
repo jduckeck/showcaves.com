@@ -639,6 +639,14 @@ figure.gallery {
     margin: 0 0.5em 0.5em 0.5em;
 }
 
+figure.portrait {
+    width: 188px;
+    vertical-align: top;
+    horiz-align: center;
+    display: inline-block;
+    margin: 0 0.5em 0.5em 0.5em;
+}
+
 figure.center {
     clear: both;
     float: none;
