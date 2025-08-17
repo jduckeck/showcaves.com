@@ -68,3 +68,28 @@ SET `Latitude`='42.6345148',
 WHERE `filename` = '/english/fr/showcaves/Fontrabiouse.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Erdstall im Gasthof Wösner', '/english/at/subterranea/Wosner.html', 'Wosner', 'Europe', 'at', 'Austria', 'subterranea', 'Ober', 48.4842106, 13.5700199);
+UPDATE `sights`
+SET `Latitude`='44.3285541',
+    `Longitude`='4.4035127'
+WHERE `filename` = '/english/fr/showcaves/Forestiere.html';
+UPDATE `sights`
+SET `Latitude`='42.8925819',
+    `Longitude`='1.9270555'
+WHERE `filename` = '/english/fr/springs/Fontestorbes.html';
+UPDATE `sights`
+SET `Latitude`='54.9107366',
+    `Longitude`='-1.5302445'
+WHERE `filename` = '/english/gb/mines/Washington.html';
+UPDATE `sights`
+SET `Latitude`='58.996516',
+    `Longitude`='-3.188170'
+WHERE `filename` = '/english/gb/subterranea/MaesHowe.html';
+UPDATE `sights`
+SET `Latitude`='46.1366843',
+    `Longitude`='18.1165307'
+WHERE `filename` = '/english/hu/showcaves/Abaligeti.html';
+
+UPDATE `sights`
+SET `Latitude`='39.9699849',
+    `Longitude`='15.7286185'
+WHERE `filename` = '/english/it/showcaves/Maratea.html';
