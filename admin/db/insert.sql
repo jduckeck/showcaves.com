@@ -62,3 +62,9 @@ UPDATE `sights`
 SET `Latitude`='43.3593310',
     `Longitude`='2.4570863'
 WHERE `filename` = '/english/fr/showcaves/Cabrespine.html';
+UPDATE `sights`
+SET `Latitude`='42.6345148',
+    `Longitude`='2.0964321'
+WHERE `filename` = '/english/fr/showcaves/Fontrabiouse.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Erdstall im Gasthof Wösner', '/english/at/subterranea/Wosner.html', 'Wosner', 'Europe', 'at', 'Austria', 'subterranea', 'Ober', 48.4842106, 13.5700199);
