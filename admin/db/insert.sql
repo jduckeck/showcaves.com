@@ -10,3 +10,7 @@ UPDATE `sights`
 SET `Latitude`='40.6149249',
     `Longitude`='14.5675886'
 WHERE `filename` = '/english/it/showcaves/Smeralda.html';
+UPDATE `sights`
+SET `Latitude`='41.1770556',
+    `Longitude`='16.4691389'
+WHERE `filename` = '/english/it/showcaves/SantaCroce.html';
