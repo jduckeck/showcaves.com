@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Su Stampu de su Turrunu', '/english/it/caves/Stampu.html', 'Stampu', 'Europe', 'it', 'Italy', 'caves', 'Sardinia', 39.8506066, 9.2651267);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte Domus de Janas', '/english/it/showcaves/DomusDeJanas.html', 'DomusDeJanas', 'Europe', 'it', 'Italy', 'showcaves', 'Sardinia', 39.8575159, 9.2618152);
+UPDATE `sights`
+SET `Latitude`='46.5700194',
+    `Longitude`='7.9131759'
+WHERE `filename` = '/english/ch/gorges/Truemmelbach.html';
