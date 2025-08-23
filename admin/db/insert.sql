@@ -26,3 +26,5 @@ UPDATE `sights`
 SET `Latitude`='46.5700194',
     `Longitude`='7.9131759'
 WHERE `filename` = '/english/ch/gorges/Truemmelbach.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Rosengartenschlucht', '/english/at/gorges/Rosengartenschlucht.html', 'Rosengartenschlucht', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.2430673, 10.7358782);
