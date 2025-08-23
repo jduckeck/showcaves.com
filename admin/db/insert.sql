@@ -28,3 +28,7 @@ SET `Latitude`='46.5700194',
 WHERE `filename` = '/english/ch/gorges/Truemmelbach.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Rosengartenschlucht', '/english/at/gorges/Rosengartenschlucht.html', 'Rosengartenschlucht', 'Europe', 'at', 'Austria', 'gorges', 'Tirol', 47.2430673, 10.7358782);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Necropoli di Anghelu Ruju', '/english/it/subterranea/AngheluRuju.html', 'AngheluRuju', 'Europe', 'it', 'Italy', 'subterranea', 'Sardinia', 40.633034, 8.326698);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Necropoli di Santu Pedru', '/english/it/subterranea/SantuPedru.html', 'SantuPedru', 'Europe', 'it', 'Italy', 'subterranea', 'Sardinia', 40.6235273, 8.4029480);

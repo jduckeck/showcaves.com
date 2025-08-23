@@ -119,8 +119,13 @@ Literature:
 >([^<]+), ([^<]+)<
 >$2 $1<
 
+author
+
 <b class="smallCaps">(\w*), (.*?)</b>
 <b class="smallCaps">$2 $1</b>
+
+,
+</b>, <b class="smallCaps">
 
 google search with spaces:
 \"https\:\/\/duckduckgo\.com\/\?q\=([^\s"]*)\s([^"]*")
