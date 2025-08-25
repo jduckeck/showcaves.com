@@ -118,6 +118,18 @@ UPDATE `sights`
 SET `Latitude`='-17.961110',
     `Longitude`='-67.125000'
 WHERE `filename` = '/english/other/mines/SanJose.html';
+UPDATE `sights`
+SET `Latitude`='30.324344',
+    `Longitude`='35.467840'
+WHERE `filename` = '/english/other/subterranea/Petra.html';
+UPDATE `sights`
+SET `Latitude`='48.8883563',
+    `Longitude`='11.3675064'
+WHERE `filename` = '/english/de/caves/HohlerSteinSchambach.html';
+UPDATE `sights`
+SET `Latitude`='51.9108253',
+    `Longitude`='10.4442372'
+WHERE `filename` = '/english/de/subterranea/Klusfelsen.html';
 
 
 
@@ -151,3 +163,6 @@ WHERE `filename` = '/english/other/mines/SanJose.html';
 41.6474564, -82.8292818
 34.6124317, -111.8416591
 -17.961110, -67.125000
+30.324344, 35.467840
+48.8883563, 11.3675064
+51.9108253, 10.4442372
