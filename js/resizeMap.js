@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .forEach(area => {
                 if (!area.getAttribute("coords")) {
                     return;
-            }
+                }
                 const shape = area.getAttribute("shape");
                 const coords = area.getAttribute("coords")
                     .split(",")
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const shapeElement = createShape(shape, coords);
                 if (!shapeElement) return;
 
-                shapeElement.setAttribute("fill", "rgba(255,0,0,0.05)");
+                shapeElement.setAttribute("fill", "rgb(237, 237, 237)");
                 shapeElement.setAttribute("stroke", "rgba(255,0,0,0.15)");
                 shapeElement.setAttribute("stroke-width", "1");
                 shapeElement.style.pointerEvents = "auto";

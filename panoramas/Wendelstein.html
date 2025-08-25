@@ -21,14 +21,14 @@
     <style>
         #panorama-container {
             width: 100%;
-            height: 80vh;
+            height: 200px;
             overflow: hidden;
             border: 1px solid #ccc;
         }
 
         #panorama {
             width: auto;
-            height: 78px;
+            height: 200px;
             display: block;
             transform-origin: 0 0; /* Wichtig für korrektes Zoomverhalten */
         }
@@ -49,35 +49,16 @@
     <div data-role="main" class="ui-content">
 
         <!--
-                <li><a data-ajax="false" href="../panoramas/Wendelstein.html"><img alt="Panorama" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Panorama.png">Aussicht vom Wendelstein</a></li>
+            <li><a data-ajax="false" href="../panoramas/Wendelstein.html"><img alt="Panorama" class="ui-li-icon ui-corner-none symbol" src="../graphics/symbol/Panorama.png">Aussicht vom Wendelstein</a></li>
         -->
 
         <h1 class="center">Aussicht vom Wendelstein</h1>
         <h2 class="center"></h2>
 
-        <div id="panorama-container">
-            <img id="panorama" alt="panorama" src="Wendelstein.jpg">
+        <div class="panorama-container">
+            <img class="panorama" alt="Wendelstein" src="Wendelstein.jpg">
         </div>
 
-        <script>
-            const elem = document.getElementById(’panorama
-            ');
-            const panzoom = Panzoom(elem, {
-                contain: 'outside',
-                maxScale: 5,
-                minScale: 1
-            });
-            panzoom.pan(10, 10)
-            panzoom.zoom(2, { animate: true })
-
-            // Optional: Zoom mit Mausrad aktivieren
-            const container = document.getElementById('panorama-container');
-
-            container.addEventListener('wheel', function(event) {
-                event.preventDefault(); // 👈 verhindert das normale Scrollen
-                panzoom.zoomWithWheel(event);
-            }, { passive: false }); // 👈 wichtig! Muss `false` sein, sonst wird preventDefault ignoriert
-        </script>
 
         <br class="clear">
 
