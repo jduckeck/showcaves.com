@@ -582,7 +582,7 @@ table.withBorder td {
 }
 
 table.center {
-    clear: both;
+    clear: none;
     margin: 1em auto;
 }
 

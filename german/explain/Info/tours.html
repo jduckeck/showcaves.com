@@ -69,31 +69,106 @@
             Dabei wurden folgende Abkürzungen benutzt:
         </p>
 
-        <DL COMPACT>
-            <DT>L
-            <DD>Länge des Führungsweges.<br>
-                Dieser kann natürlich länger als die Höhle selbst sein, wenn Teile der Höhle mehr als einmal begangen werden, z.B Sackgassen.
-                Auch Ein- oder Ausgangsstollen werden mitgerechnet.
-            <DT>HU
-            <DD>zu bewältigender Höhenunterschied.
-            <DT>D
-            <DD>Dauer der Führung in Minuten.
-            <DT>St
-            <DD>Anzahl der Stufen des Führungswegs.<br>
-                Dabei wurde die Anzahl der zu überwindenden Stufen gezählt.
-                Das bedeutet natürlich, dass die Zahl größer sein kann als die tatsächlich existierende Zahl, wenn Teile des
-                Führungsweges mehrfach begangen werden.
-            <DT>B
-            <DD>Besucher pro Jahr.
-            <DT>G
-            <DD>Maximale Größe der Führungsgruppen.<br>
-                Dieser Wert ist sicherlich für alle diejenigen hilfreich, die einen Ausflug organisieren möchten.
-                Leider wird dieser Wert von den Betreibern meist nicht angegeben und fehlt deshalb auch hier.
-        </DL>
+        <br>
+
+        <table class="standard center">
+            <tr>
+                <td><b>L</b></td>
+                <td>Länge des Führungsweges.<br>
+                    Dieser kann natürlich länger als die Höhle selbst sein, wenn Teile der Höhle mehr als einmal begangen werden, z.B Sackgassen.
+                    Auch Ein- oder Ausgangsstollen werden mitgerechnet.
+                </td>
+            </tr>
+            <tr>
+                <td><b>HU</b></td>
+                <td>zu bewältigender Höhenunterschied.
+                </td>
+            </tr>
+            <tr>
+                <td><b>D</b></td>
+                <td>Dauer der Führung in Minuten.
+                </td>
+            </tr>
+            <tr>
+                <td><b>St</b></td>
+                <td>Anzahl der Stufen des Führungswegs.<br>
+                    Dabei wurde die Anzahl der zu überwindenden Stufen gezählt.
+                    Das bedeutet natürlich, dass die Zahl größer sein kann als die tatsächlich existierende Zahl, wenn Teile des
+                    Führungsweges mehrfach begangen werden.
+                </td>
+            </tr>
+            <tr>
+                <td><b>B</b></td>
+                <td>Besucher pro Jahr.</td>
+            </tr>
+            <tr>
+                <td><b>G</b></td>
+                <td>Maximale Größe der Führungsgruppen.<br>
+                    Dieser Wert ist sicherlich für alle diejenigen hilfreich, die einen Ausflug organisieren möchten.
+                    Leider wird dieser Wert von den Betreibern meist nicht angegeben und fehlt deshalb auch hier.
+                </td>
+            </tr>
+        </table>
+
+        <br>
 
         <p>
+            Die Werte der Touren sind in metrischen Einheiten angegeben.
+            Wenn Sie Probleme mit Metern haben, hier ist ein einfacher Rechner, um die Maße in Fuß zu erhalten:
         </p>
 
+        <br>
+
+        <form>
+            <table class="center">
+                <tr>
+                    <td>
+                        <label>
+                            <input type="text" name="Meilen" size=20 placeholder="Meilen">
+                        </label>
+                    </td>
+                    <td><b> <-> </b></td>
+                    <td>
+                        <label>
+                            <input type="text" name="Kilometer" size=20 placeholder="Kilometer">
+                        </label>
+                    </td>
+                    <td><input type="button" value="Umrechnen" onClick="Compute(this.form)"></td>
+                    <td><input type="reset" value="Zurücksetzen"></td>
+                </tr>
+                <tr>
+                    <td>Meilen</td>
+                    <td></td>
+                    <td>Kilometer</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="text" name="Fuß" size=20 placeholder="Fuß">
+                        </label>
+                    </td>
+                    <td><b> <-> </b></td>
+                    <td>
+                        <label>
+                            <input type="text" name="Meter" size=20 placeholder="Meter">
+                        </label>
+                    </td>
+                    <td><input type="button" value="Umrechnen" onClick="Compute2(this.form)"></td>
+                    <td><input type="reset" value="Zurücksetzen"></td>
+                </tr>
+                <tr>
+                    <td>Meilen</td>
+                    <td></td>
+                    <td>Kilometer</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+
+        <br>
 
     </div>
 

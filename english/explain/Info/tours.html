@@ -103,7 +103,7 @@
             All information about guided tours, like:
         </p>
 
-        <table class="statistics">
+        <table class="standard center">
             <tr>
                 <td><b>L</b></td>
                 <td>Length of tour in meters.
@@ -140,6 +140,8 @@
             </tr>
         </table>
 
+        <br>
+
         <p>
             The dimension of the tours is given in metric units.
             If you have problems with meters, here is a simple calculator to get the measures in feet:
@@ -152,32 +154,46 @@
                 <tr>
                     <td>
                         <label>
-                            <input type="text" name="Miles" size=20 placeholder="miles">miles
+                            <input type="text" name="Miles" size=20 placeholder="miles">
                         </label>
                     </td>
                     <td><b> <-> </b></td>
                     <td>
                         <label>
-                            <input type="text" name="Kilometer" size=20 placeholder="kilometers">kilometers
+                            <input type="text" name="Kilometer" size=20 placeholder="kilometers">
                         </label>
                     </td>
                     <td><input type="button" value="Transform" onClick="Compute(this.form)"></td>
                     <td><input type="reset" value="Reset"></td>
                 </tr>
                 <tr>
+                    <td>miles</td>
+                    <td></td>
+                    <td>kilometers</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
                     <td>
                         <label>
-                            <input type="text" name="Foot" size=20 placeholder="feet">feet
+                            <input type="text" name="Foot" size=20 placeholder="feet">
                         </label>
                     </td>
                     <td><b> <-> </b></td>
                     <td>
                         <label>
-                            <input type="text" name="Meter" size=20 placeholder="meters">meters
+                            <input type="text" name="Meter" size=20 placeholder="meters">
                         </label>
                     </td>
                     <td><input type="button" value="Transform" onClick="Compute2(this.form)"></td>
                     <td><input type="reset" value="Reset"></td>
+                </tr>
+                <tr>
+                    <td>feet</td>
+                    <td></td>
+                    <td>meters</td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </form>

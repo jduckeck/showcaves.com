@@ -32,24 +32,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (!area.getAttribute("coords")) {
                     return;
                 }
-                const shape = area.getAttribute("shape");
-                const coords = area.getAttribute("coords")
-                    .split(",")
-                    .map(Number);
-                const href = area.getAttribute("href");
-                const title = area.getAttribute("alt") || "";
 
                 const link = document.createElementNS("http://www.w3.org/2000/svg", "a");
-                link.setAttributeNS("http://www.w3.org/1999/xlink", "href", href);
-                link.setAttribute("target", "_self");
-                link.setAttribute("title", title);
+                link.setAttributeNS("http://www.w3.org/1999/xlink", "href", area.getAttribute("href"));
+                link.setAttribute("target", "_top");
+                link.setAttribute("title", area.getAttribute("alt") || "");
 
-                const shapeElement = createShape(shape, coords);
+                const shapeElement = createShape(area.getAttribute("shape"), area.getAttribute("coords")
+                    .split(",")
+                    .map(Number));
                 if (!shapeElement) return;
 
-                shapeElement.setAttribute("fill", "rgb(237, 237, 237)");
-                shapeElement.setAttribute("stroke", "rgba(255,0,0,0.15)");
-                shapeElement.setAttribute("stroke-width", "1");
+                shapeElement.setAttribute("fill", "transparent");
+                shapeElement.setAttribute("stroke", "none");
                 shapeElement.style.pointerEvents = "auto";
 
                 link.appendChild(shapeElement);
