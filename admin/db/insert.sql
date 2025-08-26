@@ -2,6 +2,10 @@ UPDATE `sights`
 SET `Latitude`='-31.6541365',
     `Longitude`='128.7756853'
 WHERE `filename` = '/english/au/caves/Weebubbie.html';
+UPDATE `sights`
+SET `Latitude`='50.4198283',
+    `Longitude`='3.9818230'
+WHERE `filename` = '/english/be/mines/Spiennes.html';
 
 
 
@@ -40,3 +44,4 @@ WHERE `filename` = '/english/au/caves/Weebubbie.html';
 51.9108253, 10.4442372
 47.5645561, 14.9688277
 -31.6541365, 128.7756853
+50.4198283, 3.9818230
