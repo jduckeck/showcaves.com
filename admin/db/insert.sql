@@ -1,5 +1,11 @@
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Zion–Mount Carmel Tunnel', '/english/usa/subterranea/ZionMountCarmel.html', 'ZionMountCarmel', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ut', 37.211305, -112.958228);
+UPDATE `sights`
+SET `Latitude`='59.875959',
+    `Longitude`='14.998052'
+WHERE `filename` = '/english/se/mines/Bondstollen.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Granbergsdals Hytta', '/english/se/mines/Granbergsdal.html', 'Granbergsdal', 'Europe', 'se', 'Sweden', 'mines', 'Orebro', 59.402054, 14.580303);
 
 
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
