@@ -6,7 +6,9 @@ SET `Latitude`='59.875959',
 WHERE `filename` = '/english/se/mines/Bondstollen.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Granbergsdals Hytta', '/english/se/mines/Granbergsdal.html', 'Granbergsdal', 'Europe', 'se', 'Sweden', 'mines', 'Orebro', 59.402054, 14.580303);
-
-
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Důl Jindřich', '/english/cz/mines/Jindrich.html', 'Jindrich', 'Europe', 'cz', 'Czech Republic', 'mines', 'Moravskoslezsky', 49.842113, 18.282991);
+UPDATE `sights`
+SET `Latitude`='41.6289681',
+    `Longitude`='24.3300445'
+WHERE `filename` = '/english/bg/showcaves/Iagodinska.html';
