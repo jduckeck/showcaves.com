@@ -12,3 +12,5 @@ UPDATE `sights`
 SET `Latitude`='41.6289681',
     `Longitude`='24.3300445'
 WHERE `filename` = '/english/bg/showcaves/Iagodinska.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Unterirdisches Zwiesel', '/english/de/subterranea/Zwiesel.html', 'Zwiesel', 'Europe', 'de', 'Germany', 'subterranea', 'BayerischerWald', 49.014065, 13.231423);
