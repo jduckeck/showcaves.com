@@ -14,3 +14,13 @@ SET `Latitude`='41.6289681',
 WHERE `filename` = '/english/bg/showcaves/Iagodinska.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Unterirdisches Zwiesel', '/english/de/subterranea/Zwiesel.html', 'Zwiesel', 'Europe', 'de', 'Germany', 'subterranea', 'BayerischerWald', 49.014065, 13.231423);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cavernas de Quiocta', '/english/pe/showcaves/Quiocta.html', 'Quiocta', 'SouthAmerica', 'pe', 'Perú', 'showcaves', 'Amazonas', -6.1391283, -77.9905305);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Caverna de Lemchanda', '/english/pe/caves/Lemchanda.html', 'Lemchanda', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Amazonas', -6.1290520, -77.9921414);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas de Toquepala', '/english/pe/caves/Toquepala.html', 'Toquepala', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Tacna', -17.3045292, -70.7183933);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas de Sumbay', '/english/pe/caves/Sumbay.html', 'Sumbay', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Arequipa', -15.9761971, -71.3494092);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pikimachay', '/english/pe/caves/Pikimachay.html', 'Pikimachay', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Ayacucho', -13.0386183, -74.2283812);
