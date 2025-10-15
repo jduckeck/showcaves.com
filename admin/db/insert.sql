@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cuevas de Sumbay', '/english/pe/caves/Sumbay.html', 'Sumbay', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Arequipa', -15.9761971, -71.3494092);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pikimachay', '/english/pe/caves/Pikimachay.html', 'Pikimachay', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Ayacucho', -13.0386183, -74.2283812);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bremsneshula', '/english/no/caves/Bremsnes.html', 'Bremsnes', 'Europe', 'no', 'Norway', 'caves', 'MoreOgRomsdal', 63.0794110, 7.6460392);
