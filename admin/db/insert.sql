@@ -26,3 +26,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Pikimachay', '/english/pe/caves/Pikimachay.html', 'Pikimachay', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Ayacucho', -13.0386183, -74.2283812);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bremsneshula', '/english/no/caves/Bremsnes.html', 'Bremsnes', 'Europe', 'no', 'Norway', 'caves', 'MoreOgRomsdal', 63.0794110, 7.6460392);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bergtatt Opplevelser', '/english/no/mines/Bergtatt.html', 'Bergtatt', 'Europe', 'no', 'Norway', 'mines', 'MoreOgRomsdal', 62.8971865, 7.3584844);
+UPDATE `sights`
+SET `Latitude`='61.8334420',
+    `Longitude`='6.4959350'
+WHERE `filename` = '/english/no/caves/Baggehola.html';
