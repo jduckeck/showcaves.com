@@ -1,7 +1,7 @@
 
 email:
 \b([A-Za-z0-9._%+-]+)@([A-Za-z0-9.-]+)\.([A-Za-z]{2,})\b
-E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../xemhid.php?p1=$1&p2=$2&p3=$3">
+E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../../php/xemhid.php?p1=$1&p2=$2&p3=$3">
 
 author:
 (\w[^>]+?), (.+?)\.,
@@ -15,6 +15,9 @@ Datestamp to uppercase:
 (\d\d-\p{Upper}\p{Lower}\p{Lower})\.?(-\d\d\d\d)
 (\d\d-\p{Upper}\p{Lower}\p{Lower}).?(-\d\d\d\d)
 \U$1\E$2
+
+Check empty links
+/World.png"> (visited:
 
                     \[200\d\]
 

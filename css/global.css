@@ -369,6 +369,8 @@ img.language {
 }
 
 .map {
+    clear: both;
+    vertical-align: center;
     font-size: 85%;
     line-height: 1;
     display: block;
@@ -376,7 +378,7 @@ img.language {
     margin-right: auto;
     padding: 0;
     position: relative;
-    text-align: left;
+    text-align: center;
     max-width: 100%;
 }
 
