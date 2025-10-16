@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Jutulholet', '/english/no/caves/Jutulholet.html', 'Jutulholet', 'Europe', 'no', 'Norway', 'caves', 'MoreOgRomsdal', 63.3739484, 8.5357317);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Jutulhogget', '/english/no/gorges/Jutulhogget.html', 'Jutulhogget', 'Europe', 'no', 'Norway', 'gorges', 'Innlandet', 61.9968774, 10.8888101);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Schrazlgang im Gasthaus Klessinger', '/english/de/subterranea/Klessinger.html', 'Klessinger', 'Europe', 'de', 'Germany', 'subterranea', 'BayerischerWald', 48.7774942, 13.3394430);
