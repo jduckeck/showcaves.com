@@ -73,6 +73,7 @@ find malformed authors
 
 <b class="smallCaps">([^<]+?), ([^<]+?)</b>
 <b class="smallCaps">$2 $1</b>
+<b class="smallCaps">$1</b>, <b class="smallCaps">$2</b>
 
 <b class="smallCaps">([^<]+?), ([^<]+?) &</b>
 <b class="smallCaps">$2 $1</b>
