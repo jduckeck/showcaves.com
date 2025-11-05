@@ -12,3 +12,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Zeittunnel Wülfrath', '/english/de/mines/Wulfrath.html', 'Wulfrath', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.2876405, 7.0501882);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Stasi-Bunker Machern', '/english/de/subterranea/Machern.html', 'Machern', 'Europe', 'de', 'Germany', 'subterranea', 'Sachsen', 51.380060, 12.644719);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Canionul Șapte Scări', '/english/ro/gorges/SapteScari.html', 'SapteScari', 'Europe', 'ro', 'Romania', 'gorges', 'Brasov', 45.5694233, 25.6426332);
