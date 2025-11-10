@@ -16,3 +16,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yeraltı Camii', '/english/tr/subterranea/YeraltiCamii.html', 'YeraltiCamii', 'Europe', 'tr', 'Turkey', 'subterranea', 'Istanbul', 41.022351, 28.976792);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Březenský Drak', '/english/cz/mines/BrezenskyDrak.html', 'BrezenskyDrak', 'Europe', 'cz', 'Czech Republic', 'mines', 'Ustecky', 50.3952114, 13.4120911);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Dìxià Chángchéng', '/english/cn/subterranea/DixiaChangchecheng.html', 'DixiaChangchecheng', 'Asia', 'cn', 'China', 'subterranea', 'Hebei', 38.9890061, 116.1084775);
+INSERT INTO static (path)
+VALUES ('/english/cn/topics/DixiaChangchecheng.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cao Cao’s Military Transport Route', '/english/cn/subterranea/CaoCao.html', 'CaoCao', 'Asia', 'cn', 'China', 'subterranea', 'Anhui', 33.873542, 115.773346);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Beijing Jiaozhuanghu Memorial Hall of Tunnel Warfare Site', '/english/cn/subterranea/Jiaozhuanghu.html', 'Jiaozhuanghu', 'Asia', 'cn', 'China', 'subterranea', 'Beijing', 40.232617, 116.863807);
