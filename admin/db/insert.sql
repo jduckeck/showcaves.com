@@ -26,3 +26,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Beijing Jiaozhuanghu Memorial Hall of Tunnel Warfare Site', '/english/cn/subterranea/Jiaozhuanghu.html', 'Jiaozhuanghu', 'Asia', 'cn', 'China', 'subterranea', 'Beijing', 40.232617, 116.863807);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ekebols Grotta', '/english/se/subterranea/Ekebol.html', 'Ekebol', 'Europe', 'se', 'Sweden', 'subterranea', 'VaestraGoetaland', 58.953253, 12.290088);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Dokumentation Obersalzberg', '/english/de/subterranea/Obersalzberg.html', 'Obersalzberg', 'Europe', 'de', 'Germany', 'subterranea', 'Alpen', 47.6319493, 13.0408199);
