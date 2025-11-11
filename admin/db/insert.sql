@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cao Cao’s Military Transport Route', '/english/cn/subterranea/CaoCao.html', 'CaoCao', 'Asia', 'cn', 'China', 'subterranea', 'Anhui', 33.873542, 115.773346);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Beijing Jiaozhuanghu Memorial Hall of Tunnel Warfare Site', '/english/cn/subterranea/Jiaozhuanghu.html', 'Jiaozhuanghu', 'Asia', 'cn', 'China', 'subterranea', 'Beijing', 40.232617, 116.863807);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ekebols Grotta', '/english/se/subterranea/Ekebol.html', 'Ekebol', 'Europe', 'se', 'Sweden', 'subterranea', 'VaestraGoetaland', 58.953253, 12.290088);
