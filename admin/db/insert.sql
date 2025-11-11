@@ -28,3 +28,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ekebols Grotta', '/english/se/subterranea/Ekebol.html', 'Ekebol', 'Europe', 'se', 'Sweden', 'subterranea', 'VaestraGoetaland', 58.953253, 12.290088);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Dokumentation Obersalzberg', '/english/de/subterranea/Obersalzberg.html', 'Obersalzberg', 'Europe', 'de', 'Germany', 'subterranea', 'Alpen', 47.6319493, 13.0408199);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Devils Punchbowl', '/english/usa/karst/DevilsPunchbowl.html', 'DevilsPunchbowl', 'NorthAmerica', 'usa', 'United States of America', 'karst', 'or', 44.7471588, -124.0648217);
