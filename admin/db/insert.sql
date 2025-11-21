@@ -10,3 +10,5 @@ UPDATE `sights`
 SET `Latitude`='40.70928358113545',
     `Longitude`='39.587789457092896'
 WHERE `filename` = '/english/tr/caves/AkarsuKoyu.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas Prehistóricas de Mitla', '/english/mx/caves/Mitla.html', 'Mitla', 'MiddleAmerica', 'mx', 'México', 'caves', 'Oaxaca', 16.925563, -96.327910);
