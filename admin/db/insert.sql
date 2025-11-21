@@ -6,3 +6,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Yerköprü Mağarası', '/english/tr/karst/Yerkopru.html', 'Yerkopru', 'Europe', 'tr', 'Turkey', 'karst', 'CentralAnatolia', 37.0287447, 32.7000704);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Zağ Mağarası', '/english/tr/subterranea/Zag.html', 'Zag', 'Europe', 'tr', 'Turkey', 'subterranea', 'EasternAnatolia', 38.866132, 40.807735);
+UPDATE `sights`
+SET `Latitude`='40.70928358113545',
+    `Longitude`='39.587789457092896'
+WHERE `filename` = '/english/tr/caves/AkarsuKoyu.html';
