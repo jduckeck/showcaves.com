@@ -94,7 +94,7 @@ LIVE AND DIE
 Gallery to Figure
 <a data-lightbox="gallery" href="../../../(.*)/Big/(.*).jpg" data-title='(.*)'></a>
         <figure class="right">
-            <a data-lightbox="page" data-title='$3' href="../../../$1/Big/$2.jpg"><img alt="photography" src="../../../$1/$2.jpg"></a>
+            <a data-lightbox="page" data-title='$3' href="../../../$1/Big/$2.jpg"><img alt="photogra  phy" src="../../../$1/$2.jpg"></a>
             <figcaption>$3</figcaption>
         </figure>
 
