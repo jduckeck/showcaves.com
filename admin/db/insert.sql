@@ -12,3 +12,5 @@ SET `Latitude`='40.70928358113545',
 WHERE `filename` = '/english/tr/caves/AkarsuKoyu.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cuevas Prehistóricas de Mitla', '/english/mx/caves/Mitla.html', 'Mitla', 'MiddleAmerica', 'mx', 'México', 'caves', 'Oaxaca', 16.925563, -96.327910);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Asematunneli', '/english/fi/subterranea/Asematunneli.html', 'Asematunneli', 'Europe', 'fi', 'Finland', 'subterranea', 'Helsinki', 60.1707516, 24.9421239);
