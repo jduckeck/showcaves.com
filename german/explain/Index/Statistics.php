@@ -18,11 +18,11 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
-    $statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
-    ?>
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
+$statement = $pdo->prepare("SELECT countrycode, chapter, country, category, COUNT(*) AS count FROM sights WHERE visible='yes' GROUP BY countrycode, chapter, country, category ORDER BY country, category");
+?>
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Statistik von showcaves.com"/>

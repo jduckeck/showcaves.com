@@ -18,12 +18,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
-    include("../../../php/showcaves.php");
-    $count = countSights($pdo, " AND category='subterranea'");
-    ?>
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
+include("../../../php/showcaves.php");
+$count = countSights($pdo, " AND category='subterranea'");
+?>
 
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:title" content="Indexes: All Subterranea By Country"/>
@@ -54,9 +54,9 @@
 
         <br class="clear">
 
-        <?php
-        printByCountry($pdo, 'subterranea');
-        ?>
+<?php
+printByCountry($pdo, 'subterranea');
+?>
 
     </div>
 
