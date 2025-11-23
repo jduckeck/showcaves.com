@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cuevas Prehistóricas de Mitla', '/english/mx/caves/Mitla.html', 'Mitla', 'MiddleAmerica', 'mx', 'México', 'caves', 'Oaxaca', 16.925563, -96.327910);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Asematunneli', '/english/fi/subterranea/Asematunneli.html', 'Asematunneli', 'Europe', 'fi', 'Finland', 'subterranea', 'Helsinki', 60.1707516, 24.9421239);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tuzluca Tuz Mağarası', '/english/tr/mines/Tuzluca.html', 'Tuzluca', 'Europe', 'tr', 'Turkey', 'mines', 'EasternAnatolia', 40.050561, 43.665818);
