@@ -16,3 +16,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Asematunneli', '/english/fi/subterranea/Asematunneli.html', 'Asematunneli', 'Europe', 'fi', 'Finland', 'subterranea', 'Helsinki', 60.1707516, 24.9421239);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tuzluca Tuz Mağarası', '/english/tr/mines/Tuzluca.html', 'Tuzluca', 'Europe', 'tr', 'Turkey', 'mines', 'EasternAnatolia', 40.050561, 43.665818);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Pivnițele Brănești', '/english/other/subterranea/Branesti.html', 'Branesti', '$continent$', 'md', 'Moldova', 'subterranea', 'md', 'other', 47.3174394, 28.9371434);
+UPDATE `sights`
+SET `Latitude`='46.9211816',
+    `Longitude`='28.8198594'
+WHERE `filename` = '/english/other/subterranea/MilestiiMici.html';
