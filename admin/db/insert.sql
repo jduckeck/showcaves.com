@@ -22,3 +22,5 @@ UPDATE `sights`
 SET `Latitude`='46.9211816',
     `Longitude`='28.8198594'
 WHERE `filename` = '/english/other/subterranea/MilestiiMici.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Weinkeller Vereinigte Hospitien', '/english/de/subterranea/VereinigteHospitien.html', 'VereinigteHospitien', 'Europe', 'de', 'Germany', 'subterranea', 'Hunsrueck', 49.756918, 6.630576);
