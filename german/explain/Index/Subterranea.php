@@ -18,12 +18,12 @@
     <script src="../../../js/jquery.mobile-1.4.5.min.js"></script>
     <!-- end responsive -->
 
-    <?php
-    include("../../../php/opendb.php");
-    $pdo = openDB();
-    include("../../../php/showcaves.php");
-    $count = countSights($pdo, " AND category='subterranea'");
-    ?>
+<?php
+include("../../../php/opendb.php");
+$pdo = openDB();
+include("../../../php/showcaves.php");
+$count = countSights($pdo, " AND category='subterranea'");
+?>
 
     <meta property="og:locale" content="de_DE"/>
     <meta property="og:title" content="Alphabethisches Register: Alle künstlichen Hohlräume"/>
@@ -58,9 +58,9 @@
 
         <label for="theList">Liste durchsuchen...</label>
         <ul id="theList" data-role="listview" data-inset="true" data-filter="true">
-            <?php
-            printAllByCategory($pdo, 'subterranea', true);
-            ?>
+<?php
+printAllByCategory($pdo, 'subterranea', true);
+?>
         </ul>
 
     </div>

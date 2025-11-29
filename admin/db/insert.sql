@@ -1,16 +1,28 @@
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
-VALUES ('yes', 'Dahl Al Hamam', '/english/other/caves/Hamam.html', 'Hamam', 'MiddleEast', 'qa', 'Qatar', 'caves', 'qa', 'other', 25.334439, 51.480493);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
-VALUES ('yes', 'Musfur Sinkhole', '/english/other/caves/Musfur.html', 'Musfur', 'MiddleEast', 'qa', 'Qatar', 'caves', 'qa', 'other', 25.1751410, 51.2117201);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
-VALUES ('yes', 'Dahl Al Mudhlem', '/english/other/caves/Mudhlem.html', 'Mudhlem', 'MiddleEast', 'qa', 'Qatar', 'caves', 'qa', 'other', 25.1227219, 51.2282053);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
-VALUES ('yes', 'Cave of Wonders', '/english/other/subterranea/Eajayib.html', 'Eajayib', 'MiddleEast', 'qa', 'Qatar', 'subterranea', 'qa', 'other', 25.288878, 51.548061);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Kormokopos Cave', '/english/gr/caves/Kormokopos.html', 'Kormokopos', 'Europe', 'gr', 'Greece', 'caves', 'Crete', 35.2518271, 24.0005032);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Zeittunnel Wülfrath', '/english/de/mines/Wulfrath.html', 'Wulfrath', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.2876405, 7.0501882);
-INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Stasi-Bunker Machern', '/english/de/subterranea/Machern.html', 'Machern', 'Europe', 'de', 'Germany', 'subterranea', 'Sachsen', 51.380060, 12.644719);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Canionul Șapte Scări', '/english/ro/gorges/SapteScari.html', 'SapteScari', 'Europe', 'ro', 'Romania', 'gorges', 'Brasov', 45.5694233, 25.6426332);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva del Pirata Quintero', '/english/cl/caves/PirataQuintero.html', 'PirataQuintero', 'SouthAmerica', 'cl', 'Chile', 'caves', 'Valparaiso', -32.7656755, -71.5340802);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas del Pirata Las Salinas', '/english/pe/caves/PirataLasSalinas.html', 'PirataLasSalinas', 'SouthAmerica', 'pe', 'Perú', 'caves', 'Lima', -12.5494243, -76.7344970);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Yerköprü Mağarası', '/english/tr/karst/Yerkopru.html', 'Yerkopru', 'Europe', 'tr', 'Turkey', 'karst', 'CentralAnatolia', 37.0287447, 32.7000704);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Zağ Mağarası', '/english/tr/subterranea/Zag.html', 'Zag', 'Europe', 'tr', 'Turkey', 'subterranea', 'EasternAnatolia', 38.866132, 40.807735);
+UPDATE `sights`
+SET `Latitude`='40.70928358113545',
+    `Longitude`='39.587789457092896'
+WHERE `filename` = '/english/tr/caves/AkarsuKoyu.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas Prehistóricas de Mitla', '/english/mx/caves/Mitla.html', 'Mitla', 'MiddleAmerica', 'mx', 'México', 'caves', 'Oaxaca', 16.925563, -96.327910);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Asematunneli', '/english/fi/subterranea/Asematunneli.html', 'Asematunneli', 'Europe', 'fi', 'Finland', 'subterranea', 'Helsinki', 60.1707516, 24.9421239);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Tuzluca Tuz Mağarası', '/english/tr/mines/Tuzluca.html', 'Tuzluca', 'Europe', 'tr', 'Turkey', 'mines', 'EasternAnatolia', 40.050561, 43.665818);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Pivnițele Brănești', '/english/other/subterranea/Branesti.html', 'Branesti', '$continent$', 'md', 'Moldova', 'subterranea', 'md', 'other', 47.3174394, 28.9371434);
+UPDATE `sights`
+SET `Latitude`='46.9211816',
+    `Longitude`='28.8198594'
+WHERE `filename` = '/english/other/subterranea/MilestiiMici.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Weinkeller Vereinigte Hospitien', '/english/de/subterranea/VereinigteHospitien.html', 'VereinigteHospitien', 'Europe', 'de', 'Germany', 'subterranea', 'Hunsrueck', 49.756918, 6.630576);
