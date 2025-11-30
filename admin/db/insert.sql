@@ -26,3 +26,5 @@ SET `Latitude`='46.9211816',
 WHERE `filename` = '/english/other/subterranea/MilestiiMici.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Weinkeller Vereinigte Hospitien', '/english/de/subterranea/VereinigteHospitien.html', 'VereinigteHospitien', 'Europe', 'de', 'Germany', 'subterranea', 'Hunsrueck', 49.756918, 6.630576);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hohlloch bei St. Wolfgang', '/english/de/caves/Hohlloch.html', 'Hohlloch', 'Europe', 'de', 'Germany', 'caves', 'FraenkischeAlb', 49.2383212, 11.6860343);
