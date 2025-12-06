@@ -27,4 +27,16 @@ Redirect 301 /english/np/showcaves/Suddah.html /english/np/showcaves/Siddah.html
 
 # remove double slashes
 RewriteCond %{THE_REQUEST} \s[^?]*//
-RewriteRule ^.*$ /$0 [R=302,L,NE]
+RewriteRule ^.*$ /$0 [R=301,L,NE]
+
+# remove double
+RewriteCond %{REQUEST_URI} ^/english/kmz/(.*)$
+RewriteRule ^english/kmz/(.*)$ kmz/$1 [L,R=301]
+
+# remove double
+RewriteCond %{REQUEST_URI} ^/english/english/(.*)$
+RewriteRule ^english/english/(.*)$ english/$1 [L,R=301]
+
+# remove double
+RewriteCond %{REQUEST_URI} ^/german/german/(.*)$
+RewriteRule ^german/german/(.*)$ german/$1 [L,R=301]
