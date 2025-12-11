@@ -26,3 +26,7 @@ UPDATE `sights`
 SET `Latitude`='47.5240843',
     `Longitude`='14.6113335'
 WHERE `filename` = '/english/at/caves/Odelstein.html';
+UPDATE `sights`
+SET `Latitude`='47.2693906',
+    `Longitude`='11.2692804'
+WHERE `filename` = '/english/at/caves/KaiserMax.html';
