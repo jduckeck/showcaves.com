@@ -6,3 +6,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Südfeldstollen Thomasroith', '/english/at/mines/Sudfeldstollen.html', 'Sudfeldstollen', 'Europe', 'at', 'Austria', 'mines', 'Ober', 48.077781, 13.618197);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bergbaumuseum Knappenhaus Unterlaussa', '/english/at/mines/Unterlaussa.html', 'Unterlaussa', 'Europe', 'at', 'Austria', 'mines', 'Ober', 47.719424, 14.561007);
+UPDATE `sights`
+SET `Latitude`='47.080074',
+    `Longitude`='13.097272'
+WHERE `filename` = '/english/at/mines/Gastein.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Montanmuseum Böckstein', '/english/at/mines/Bockstein.html', 'Bockstein', 'Europe', 'at', 'Austria', 'mines', 'Salzburg', 47.088026, 13.11398);
