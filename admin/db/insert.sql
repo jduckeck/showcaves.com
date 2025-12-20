@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Bergbaumuseum Ratten', '/english/at/mines/Ratten.html', 'Ratten', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 47.485162, 15.719351);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Arsenbergbau-Schauhütte Pöllatal', '/english/at/mines/Pollatal.html', 'Pollatal', 'Europe', 'at', 'Austria', 'mines', 'Kaernten', 47.044233, 13.541779);
+UPDATE `sights`
+SET `Latitude`='46.802509',
+    `Longitude`='13.704337'
+WHERE `filename` = '/english/at/mines/Granatium.html';
