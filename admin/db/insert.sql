@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Montanmuseum Böckstein', '/english/at/mines/Bockstein.html', 'Bockstein', 'Europe', 'at', 'Austria', 'mines', 'Salzburg', 47.088026, 13.11398);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bergbaumuseum Ratten', '/english/at/mines/Ratten.html', 'Ratten', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 47.485162, 15.719351);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Arsenbergbau-Schauhütte Pöllatal', '/english/at/mines/Pollatal.html', 'Pollatal', 'Europe', 'at', 'Austria', 'mines', 'Kaernten', 47.044233, 13.541779);
