@@ -20,3 +20,5 @@ UPDATE `sights`
 SET `Latitude`='46.802509',
     `Longitude`='13.704337'
 WHERE `filename` = '/english/at/mines/Granatium.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Knappenwelt Gurgltal', '/english/at/mines/Gurgltal.html', 'Gurgltal', 'Europe', 'at', 'Austria', 'mines', 'Tirol', 47.2580581, 10.7744553);
