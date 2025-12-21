@@ -24,3 +24,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Knappenwelt Gurgltal', '/english/at/mines/Gurgltal.html', 'Gurgltal', 'Europe', 'at', 'Austria', 'mines', 'Tirol', 47.2580581, 10.7744553);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', '„Mythos Gold“ Putzenhof', '/english/at/mines/Putzenhof.html', 'Putzenhof', 'Europe', 'at', 'Austria', 'mines', 'Kaernten', 46.964915, 12.897059);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mellestollen', '/english/de/mines/Mellestollen.html', 'Mellestollen', 'Europe', 'de', 'Germany', 'mines', 'Vogtland', 50.6315169, 11.3054706);
