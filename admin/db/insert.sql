@@ -22,3 +22,5 @@ SET `Latitude`='46.802509',
 WHERE `filename` = '/english/at/mines/Granatium.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Knappenwelt Gurgltal', '/english/at/mines/Gurgltal.html', 'Gurgltal', 'Europe', 'at', 'Austria', 'mines', 'Tirol', 47.2580581, 10.7744553);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', '„Mythos Gold“ Putzenhof', '/english/at/mines/Putzenhof.html', 'Putzenhof', 'Europe', 'at', 'Austria', 'mines', 'Kaernten', 46.964915, 12.897059);
