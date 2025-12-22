@@ -10,3 +10,7 @@ UPDATE `sights`
 SET `Latitude`='47.460217',
     `Longitude`='13.991175'
 WHERE `filename` = '/english/at/mines/Oeblarner.html';
+UPDATE `sights`
+SET `Latitude`='47.6514124',
+    `Longitude`='13.7391550'
+WHERE `filename` = '/english/at/mines/Altaussee.html';
