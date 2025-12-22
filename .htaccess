@@ -30,13 +30,6 @@ RewriteCond %{THE_REQUEST} \s[^?]*//
 RewriteRule ^.*$ /$0 [R=301,L,NE]
 
 # remove double
-RewriteCond %{REQUEST_URI} ^/english/kmz/(.*)$
-RewriteRule ^/english/kmz/(.*)$ /kmz/$1 [L,R=301]
-
-# remove double
-RewriteCond %{REQUEST_URI} ^/english/english/(.*)$
-RewriteRule ^/english/english/(.*)$ /english/$1 [L,R=301]
-
-# remove double
-RewriteCond %{REQUEST_URI} ^/german/german/(.*)$
-RewriteRule ^/german/german/(.*)$ /german/$1 [L,R=301]
+RewriteRule ^english/kmz/(.*)$ /kmz/$1 [L,R=301]
+RewriteRule ^english/english/(.*)$ /english/$1 [L,R=301]
+RewriteRule ^german/german/(.*)$ /german/$1 [L,R=301]
