@@ -6,3 +6,7 @@ SET `Latitude`='46.977804',
 WHERE `filename` = '/german/at/mines/Fallwindes.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Montafoner Bergbaumuseum Silbertal', '/english/at/mines/Silbertal.html', 'Silbertal', 'Europe', 'at', 'Austria', 'mines', 'Vorarlberg', 47.0946993, 9.9784193);
+UPDATE `sights`
+SET `Latitude`='47.460217',
+    `Longitude`='13.991175'
+WHERE `filename` = '/english/at/mines/Oeblarner.html';
