@@ -24,6 +24,31 @@ ErrorDocument 500 /errors/500.html
 # Permanent URL redirect- by netgrade
 Redirect 301 /english/explain/History/Bruce.html /english/explain/Literature/Bruce.html
 Redirect 301 /english/np/showcaves/Suddah.html /english/np/showcaves/Siddah.html
+Redirect 301 /english/bg/region/Khaskovo.html /english/bg/region/Haskovo.html
+Redirect 301 /english/ge/showcaves/Kumistavi.html /english/ge/showcaves/Prometheus.html
+Redirect 301 /german/de/subterranea/Kristallgaenge.html /german/de/mines/Kristallgaenge.html
+Redirect 301 /german/explain/Mines/Lead.html /german/explain/Resources/Lead.html
+Redirect 301 /english/br/explain/index.html /english/explain/index.html
+Redirect 301 /english/cn/region/Top10.html /english/cn/topics/Top10.html
+Redirect 301 /english/de/mines/Kupferberg.html /english/de/subterranea/Kupferberg.html
+Redirect 301 /english/in/subterranea/Junagadh.html /english/in/region/Gujarat.html
+Redirect 301 /english/ba/springs/Kovaci.html /english/ba/karst/Kovaci.html
+Redirect 301 /english/car/caves/Admirals.html /english/bm/caves/Admirals.html
+Redirect 301 /english/car/caves/Walsingham.html /english/bm/caves/Walsingham.html
+Redirect 301 /english/car/caves/Windsor.html /english/jm/caves/Windsor.html
+Redirect 301 /english/car/caves/Wondrous.html /english/jm/caves/Wondrous.html
+Redirect 301 /english/car/karst/DeansBlueHole.html /english/bs/karst/DeansBlueHole.html
+Redirect 301 /english/car/region/an.html /english/an/index.html
+Redirect 301 /english/car/region/do.html /english/do/index.html
+Redirect 301 /english/car/showcaves/Nonsuch.html /english/jm/showcaves/Nonsuch.html
+Redirect 301 /english/car/springs/BlueHole.html /english/bm/karst/BlueHole.html
+Redirect 301 /english/car/subterranea/TheCaves.html /english/bs/caves/TheCaves.html
+Redirect 301 /english/ch/gorges/Rhein.html /english/ch/gorges/Ruinaulta.html
+Redirect 301 /english/ch/subterranea/Geronde.html /english/ch/subterranea/Rouvinez.html
+Redirect 301 /english/cn/karst/Jiuxiang.html /english/cn/showcaves/Jiuxiang.html
+Redirect 301 /english/cn/showcaves/Huanglong.html /english/cn/showcaves/HuanglongHunan.html
+Redirect 301 /english/cn/showcaves/ShuiLian.html /english/cn/showcaves/ShuiLianYunnan.html
+Redirect 301 /english/cu/region/Map.html /english/cu/region/Maps/index.html
 
 # remove double slashes
 RewriteCond %{THE_REQUEST} \s[^?]*//
@@ -33,3 +58,7 @@ RewriteRule ^.*$ /$0 [R=301,L,NE]
 RewriteRule ^english/kmz/(.*)$ /kmz/$1 [L,R=301]
 RewriteRule ^english/english/(.*)$ /english/$1 [L,R=301]
 RewriteRule ^german/german/(.*)$ /german/$1 [L,R=301]
+RewriteRule ^english/german/(.*)$ /german/$1 [L,R=301]
+RewriteRule ^german/english/(.*)$ /english/$1 [L,R=301]
+RewriteRule ^english/explain/explain/(.*)$ /english/explain/$1 [L,R=301]
+#RewriteRule ^(.*)/misc(/.*)?$ /$1/subterranea$2 [R=301,L]
