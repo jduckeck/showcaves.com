@@ -6,3 +6,5 @@ WHERE `filename`='/english/at/mines/Hochfeld.html';
 UPDATE `sights`
 SET `Latitude`='47.1095942',`Longitude`='15.1007942'
 WHERE `filename`='/english/at/mines/Sunfixl.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bergwerk Platzertal', '/english/at/mines/Platzertal.html', 'Platzertal', 'Europe', 'at', 'Austria', 'mines', 'Tirol', 46.9525116, 10.6603952);
