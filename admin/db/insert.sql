@@ -8,3 +8,5 @@ SET `Latitude`='47.1095942',`Longitude`='15.1007942'
 WHERE `filename`='/english/at/mines/Sunfixl.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bergwerk Platzertal', '/english/at/mines/Platzertal.html', 'Platzertal', 'Europe', 'at', 'Austria', 'mines', 'Tirol', 46.9525116, 10.6603952);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Museum Montanarum', '/english/at/mines/Montanarum.html', 'Montanarum', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 47.677387, 15.644630);
