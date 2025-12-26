@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Römerhöhle', '/english/at/mines/Romerhohle.html', 'Romerhohle', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 46.7492279, 15.5494491);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Steinkohlebergbau Stockheim', '/english/de/mines/Stockheim.html', 'Stockheim', 'Europe', 'de', 'Germany', 'mines', 'Frankenwald', 50.311478, 11.272855);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bergbauschaustollen Pölfing-Brunn', '/english/at/mines/PolfingBrunn.html', 'PolfingBrunn', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 46.728296, 15.299725);
