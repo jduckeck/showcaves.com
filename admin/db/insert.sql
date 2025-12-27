@@ -16,3 +16,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Steinkohlebergbau Stockheim', '/english/de/mines/Stockheim.html', 'Stockheim', 'Europe', 'de', 'Germany', 'mines', 'Frankenwald', 50.311478, 11.272855);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Bergbauschaustollen Pölfing-Brunn', '/english/at/mines/PolfingBrunn.html', 'PolfingBrunn', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 46.728296, 15.299725);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Bergbaumuseum Karl-Schacht', '/english/at/mines/Karlschacht.html', 'Karlschacht', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 47.0552118, 15.1055464);
