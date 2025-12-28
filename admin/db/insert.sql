@@ -20,3 +20,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES('yes','Bergbaumuseum Karl-Schacht', '/english/at/mines/Karlschacht.html', 'Karlschacht', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 47.0552118, 15.1055464);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES('yes','Erlebnis-Bergbaumuseum Steyeregg', '/english/at/mines/Steyeregg.html', 'Steyeregg', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 46.735725, 15.240296);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES('yes','Montanmuseum Turrach', '/english/at/mines/Turrach.html', 'Turrach', 'Europe', 'at', 'Austria', 'mines', 'Steiermark', 46.960599, 13.882730);
