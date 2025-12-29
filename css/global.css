@@ -136,7 +136,7 @@ p {
 
 
 ol {
-    text-align: left;
+    text-align: justify;
     display: table;
     border: 0;
     margin: 1rem .2rem;
@@ -148,7 +148,7 @@ ol li {
 }
 
 .biglist {
-    text-align: left;
+    text-align: justify;
     display: table;
     border: 0;
     margin: 1rem .2rem;
@@ -160,7 +160,7 @@ ol li {
 }
 
 .smalllist {
-    text-align: left;
+    text-align: justify;
     display: table;
     border: 0;
     margin: .5rem .2rem;
