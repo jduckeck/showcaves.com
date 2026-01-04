@@ -225,6 +225,9 @@ KML old
 test
 \<styleUrl\>\#[^cgkmst][^aoaihp]
 
+grep -RHIoP --include='*.html' '\(-?[0-9]+(?:\.[0-9]+)?,\s*-?[0-9]+(?:\.[0-9]+)?\)' . \
+| sed -E 's/^([^:]+).* (\(-?[0-9]+(\.[0-9]+)?,\s*-?[0-9]+(\.[0-9]+)?\))$/\1,\2/'
+
 -------------------------------------------------------------------------------------------------------------------------------
 
     \<\!\-\- Path Begin \-\-\>\n    \<div data\-role\=\"header\" data\-position\=\"fixed\"\>\n        \<div data\-role\=\"navbar\"\>\n            \<ul\>\n                \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/index\.html\"\>Main Index\<\/a\>\<\/li\>\n((.|\n)*)\n            \<\/ul\>\n        \<\/div\>\n    \<\/div\>\n    \<\!\-\- Path End \-\-\>\n
