@@ -4,3 +4,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Asconi Winery', '/english/other/subterranea/Asconi.html', 'Asconi', 'Europe', 'md', 'Moldova', 'subterranea', 'md', 'other', 46.8387420, 29.0268436);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Castel Mimi', '/english/other/subterranea/CastelMimi.html', 'CastelMimi', 'Europe', 'md', 'Moldova', 'subterranea', 'md', 'other', 46.892310, 29.292480);
+INSERT INTO static (path)
+VALUES ('/german/de/geoparks/Ries.html');
+INSERT INTO static (path)
+VALUES ('/english/de/geoparks/Ries.html');
