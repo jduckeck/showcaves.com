@@ -18,3 +18,5 @@ UPDATE `sights`
 SET `Latitude`='27.5891365',
     `Longitude`='17.6144137'
 WHERE `filename` = '/english/other/gorges/FishRiver.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas Hammam Abuelo José', '/english/es/subterranea/AbueloJose.html', 'AbueloJose', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.3324556, -3.1761935);
