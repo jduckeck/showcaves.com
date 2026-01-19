@@ -217,7 +217,7 @@ KML old
 		<IconStyle>
 			<scale>1.\d</scale>
 			<Icon>
-				<href>http://www.showcaves.com/graphics/kmz/$1.png</href>
+				<href>https://www.showcaves.com/graphics/kmz/$1.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>

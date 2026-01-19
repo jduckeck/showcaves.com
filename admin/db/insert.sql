@@ -20,3 +20,21 @@ SET `Latitude`='27.5891365',
 WHERE `filename` = '/english/other/gorges/FishRiver.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cuevas Hammam Abuelo José', '/english/es/subterranea/AbueloJose.html', 'AbueloJose', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.3324556, -3.1761935);
+UPDATE `sights`
+SET `Latitude`='60.074903',
+    `Longitude`='14.988200'
+WHERE `filename` = '/english/se/mines/Graengesberg.html';
+UPDATE `sights`
+SET `Latitude`='60.1465536',
+    `Longitude`='15.2085096'
+WHERE `filename` = '/english/se/mines/Ludvika.html';
+UPDATE `sights`
+SET `Latitude`='39.538434',
+    `Longitude`='2.592567'
+WHERE `filename` = '/english/es/caves/Illetas.html';
+UPDATE `sights`
+SET `Latitude`='47.4693771',
+    `Longitude`='13.6249808'
+WHERE `filename` = '/english/at/subterranea/Eispalast.html';
+
+
