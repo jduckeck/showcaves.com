@@ -194,6 +194,8 @@ VALUES ($1, $2, "$3", "$4", "$5", "$6", "$7", "$8", "China", "cn", "karst");
 kml
 ---------------------------------------------------------------------------------------------------------------
 
+deploy
+
 \<styleUrl\>\#.*?(showcave|cave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
 <styleUrl>#$1</styleUrl>
 
