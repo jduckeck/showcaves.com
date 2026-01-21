@@ -56,6 +56,10 @@ doppelte Zeilen:
 ^(.+)(\r?\n\1)+$
 $1
 
+doppelte <li Zeilen
+^\s*(<li>.*)$\R^\s*\1$
+$1
+
 doppelte Worte
 \b(\S+?)\b \b\1\b
 $1
