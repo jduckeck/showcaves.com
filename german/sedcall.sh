@@ -5,9 +5,6 @@ shopt -s globstar dotglob
 for file in **/*.html; do
     if [[ -f $file && ! -L $file ]]; then
       echo $file
-      sed -i 's/, official website/, offizielle Website/g' "./$file"
-      sed -i 's/(visited: /(besucht: /g' "./$file"
-      sed -i 's/ \([[:digit:]]\+\) EUR/ EUR \1/g' "./$file"
-      sed -i 's/ <img alt="Deutsch - German" src="..\/..\/..\/graphics\/language\/de\.png" class="language"> / /g' "./$file"
+      sed -i 's/, official website/, offizielle Website/g; s/(visited: /(besucht: /g; s/ \([[:digit:]]\+\) EUR/ EUR \1/g; s/ <img alt="Deutsch - German" src="..\/..\/..\/graphics\/language\/de\.png" class="language"> / /g; s/-MAR-/-MÄR-/g; s/-MAY-/-MAI-/g; s/-OCT-/-OKT-/g; s/-DEC-/-DEZ-/g' "./$file"
     fi
 done

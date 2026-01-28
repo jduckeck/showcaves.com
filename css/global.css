@@ -57,6 +57,11 @@ p {
     text-decoration: line-through;
 }
 
+.strike {
+    text-decoration: line-through;
+    text-decoration-color: darkred;
+}
+
 .center {
     text-align: center;
     page-break-before: auto;
@@ -136,7 +141,7 @@ p {
 
 
 ol {
-    text-align: left;
+    text-align: justify;
     display: table;
     border: 0;
     margin: 1rem .2rem;
@@ -148,7 +153,7 @@ ol li {
 }
 
 .biglist {
-    text-align: left;
+    text-align: justify;
     display: table;
     border: 0;
     margin: 1rem .2rem;
@@ -160,7 +165,7 @@ ol li {
 }
 
 .smalllist {
-    text-align: left;
+    text-align: justify;
     display: table;
     border: 0;
     margin: .5rem .2rem;
@@ -602,7 +607,7 @@ table.right {
 
 table.tdLeft {
     text-align: left;
-    vertical-align: hanging;
+    vertical-align: middle;
 }
 
 figure {
@@ -636,7 +641,7 @@ figure.left {
 figure.gallery {
     width: 250px;
     vertical-align: top;
-    horiz-align: center;
+    text-align: center;
     display: inline-block;
     margin: 0 0.5em 0.5em 0.5em;
 }
@@ -644,7 +649,7 @@ figure.gallery {
 figure.portrait {
     width: 188px;
     vertical-align: top;
-    horiz-align: center;
+    text-align: center;
     display: inline-block;
     margin: 0 0.5em 0.5em 0.5em;
 }

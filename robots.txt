@@ -1,8 +1,7 @@
-# robots.txt for http://www.showcaves.com/
-
-User-agent: Mediapartners-Google
-Disallow:
+# robots.txt for https://www.showcaves.com/
 
 User-agent: *
-Disallow: /foreign/large/
-Disallow: /graphics/amazon/
+Disallow: /foreign/
+Disallow: /php/
+Disallow: /js/
+Disallow: /graphics/lightbox/

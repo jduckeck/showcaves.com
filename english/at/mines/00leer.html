@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/global.css">
     <script type="text/javascript" src="../../../js/xemhid.js"></script>
-    <link rel="alternate" hreflang="de" href="../../../german/at/mines/BadBleibergMuseum.html"/>
+    <link rel="alternate" hreflang="de" href="../../../german/at/mines/$FileName$.html"/>
     <!-- begin responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="../../../css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
@@ -36,9 +36,9 @@
     <div data-role="main" class="ui-content">
 
         <!--
-                <li><a data-ajax="false" href="../../at/mines/BadBleibergMuseum.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">$CaveName$</a></li>
+                <li><a data-ajax="false" href="../../at/mines/$FileName$.html"><img alt="Mine" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Mine.png">$CaveName$</a></li>
         INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-        VALUES('yes','$CaveName$', '/english/at/mines/BadBleibergMuseum.html', 'BadBleibergMuseum', 'Europe', 'at', 'Austria', 'mines', '$Region$', );
+        VALUES('yes','$CaveName$', '/english/at/mines/$FileName$.html', '$FileName$', 'Europe', 'at', 'Austria', 'mines', '$Region$', );
         -->
 
         <h1 class="center">$CaveName$</h1>
@@ -78,7 +78,7 @@
             <tr>
                 <td><a data-ajax="false" href="../../explain/Info/light.html">Light:</a></td>
                 <td>
-                    <a data-ajax="false" href="../../../english/explain/Light/Incandescent.html"><img alt="Light" class="symbol" src="../../../graphics/symbol/Light.png">Incandescent</a>
+                    <a data-ajax="false" href="../../../english/explain/Light/Incandescent.html"><img alt="Light" class="symbol" src="../../../graphics/symbol/Light.png">Electric Light</a>
                 </td>
             </tr>
             <tr>
@@ -148,7 +148,7 @@
         <ul class="linklist" data-role="listview" data-inset="true">
             <li data-role="list-divider">See also</li>
             <li><a target="_blank" href="https://duckduckgo.com/?q=$CaveName$"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Search DuckDuckGo for "$CaveName$"</a></li>
-            <li><a target="_blank" href="../../../kmz/at/BadBleibergMuseum.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
+            <li><a target="_blank" href="../../../kmz/at/$FileName$.kmz"><img alt="GoogleEarth" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/GoogleEarth.png">Google Earth Placemark</a></li>
         </ul>
 
     </div>
@@ -159,7 +159,9 @@
             <ul>
                 <li><a data-ajax="false" href="../../index.html">Main Index</a></li>
                 <li><a data-ajax="false" href="../index.html">Austria</a></li>
+                <li><a data-ajax="false" href="../region/index.html">States</a></li>
                 <li><a data-ajax="false" href="../region/$Region$.html">$Region$</a></li>
+                <li><a data-ajax="false" href="../../../german/at/mines/$FileName$.html"><img alt="Deutsch" src="../../../graphics/language/de.png" class="language"></a></li>
             </ul>
         </div>
     </div>
