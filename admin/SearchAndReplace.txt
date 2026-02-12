@@ -56,6 +56,10 @@ doppelte Zeilen:
 ^(.+)(\r?\n\1)+$
 $1
 
+doppelte Links:
+(?s)^\s*<li><a target="_blank" href="([^"]+)".*?\R\s*<li><a target="_blank" href="\1"
+von Hand
+
 doppelte <li Zeilen
 ^\s*(<li>.*)$\R^\s*\1$
 $1
