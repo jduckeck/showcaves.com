@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ex-Sham Shui Po Service Reservoir', '/english/cn/subterranea/ExSham.html', 'ExSham', 'Asia', 'cn', 'China', 'subterranea', 'Hongkong', 22.330005, 114.168355);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Oracle of Trophonius', '/english/gr/subterranea/Trophonius.html', 'Trophonius', 'Europe', 'gr', 'Greece', 'subterranea', 'Thessaly', 38.4315641, 22.8748924);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Sa Cova Foradada', '/english/es/caves/Foradada.html', 'Foradada', 'Europe', 'es', 'Spain', 'caves', 'Formentera', 38.641266, 1.388736);
