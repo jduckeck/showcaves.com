@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Oracle of Trophonius', '/english/gr/subterranea/Trophonius.html', 'Trophonius', 'Europe', 'gr', 'Greece', 'subterranea', 'Thessaly', 38.4315641, 22.8748924);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Sa Cova Foradada', '/english/es/caves/Foradada.html', 'Foradada', 'Europe', 'es', 'Spain', 'caves', 'Formentera', 38.641266, 1.388736);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bergsjögrottan', '/english/se/caves/Bergsjogrottan.html', 'Bergsjogrottan', 'Europe', 'se', 'Sweden', 'caves', 'Jaemtland', 63.5359379, 13.2576129);

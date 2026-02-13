@@ -107,6 +107,7 @@ Redirect 301 /english/vn/caves/VanTrinh.html /english/vn/showcaves/VanTrinh.html
 Redirect 301 /english/vn/region/HaTay.html /english/vn/region/HaNoi.html
 Redirect 301 /german/de/subterranea/Kristallgaenge.html /german/de/mines/Kristallgaenge.html
 Redirect 301 /german/explain/Mines/Lead.html /german/explain/Resources/Lead.html
+Redirect 301 /english/se/caves/Kalkstens.html /english/se/caves/Kvarnbackslabyrinten.html
 
 # remove double slashes
 RewriteCond %{THE_REQUEST} \s[^?]*//
