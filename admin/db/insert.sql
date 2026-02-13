@@ -10,3 +10,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sa Cova Foradada', '/english/es/caves/Foradada.html', 'Foradada', 'Europe', 'es', 'Spain', 'caves', 'Formentera', 38.641266, 1.388736);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bergsjögrottan', '/english/se/caves/Bergsjogrottan.html', 'Bergsjogrottan', 'Europe', 'se', 'Sweden', 'caves', 'Jaemtland', 63.5359379, 13.2576129);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hôtel insolite Rocaminori', '/english/fr/subterranea/Rocaminori.html', 'Rocaminori', 'Europe', 'fr', 'France', 'subterranea', 'PaysLoire', 47.2341972, -0.2972726);
