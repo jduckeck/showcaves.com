@@ -1,0 +1,253 @@
+
+email:
+\b([A-Za-z0-9._%+-]+)@([A-Za-z0-9.-]+)\.([A-Za-z]{2,})\b
+E-mail: <img alt="contact" class="email" onClick="xemhid('$1','$2','$3')" src="../../../php/xemhid.php?p1=$1&p2=$2&p3=$3">
+
+Check empty links
+/World.png"> (visited:
+
+doppelte Zeilen:
+^(.+)(\r?\n\1)+$
+$1
+
+doppelte Links:
+(?s)^\s*<li><a target="_blank" href="([^"]+)".*?\R\s*<li><a target="_blank" href="\1"
+von Hand
+
+doppelte <li Zeilen
+^\s*(<li>.*)$\R^\s*\1$
+$1
+
+links mit verbotenen Sonderzeichen
+href=["']https?://[^"']*[^A-Za-z0-9\-._~:/?#\[\]@!$&'"()*+,;=%][^"']*["']
+
+doppelte Worte
+\b(\S+?)\b \b\1\b
+$1
+
+authors:
+(.+?)[,] ([A-Z])[\.]
+<b class="smallCaps">$2 $1</b>
+
+authors:
+(.+?)[,] ([A-Z].*[\.]);
+<b class="smallCaps">$2 $1</b>
+
+find malformed authors
+<b class="smallCaps">([^<]+?)[,]
+
+<b class="smallCaps">([^<]+?), ([^<]+?)</b>
+<b class="smallCaps">$2 $1</b>
+<b class="smallCaps">$1</b>, <b class="smallCaps">$2</b>
+
+<b class="smallCaps">([^<]+?), ([^<]+?) &</b>
+<b class="smallCaps">$2 $1</b>
+
+<b class="smallCaps">([^<]+?), ([^<]+?) &
+<b class="smallCaps">$2 $1</b>, <b class="smallCaps">
+
+ &
+</b>, <b class="smallCaps">
+
+closed mines
+><span class="closed">$1</span><
+
+LIVE AND DIE
+\(\*(\d\d\d\d)\-(\d\d\d\d)\)
+(*$1-✝$2)
+
+Gallery to Figure
+<a data-lightbox="gallery" href="../../../(.*)/Big/(.*).jpg" data-title='(.*)'></a>
+        <figure class="right">
+            <a data-lightbox="page" data-title='$3' href="../../../$1/Big/$2.jpg"><img alt="photography" src="../../../$1/$2.jpg"></a>
+            <figcaption>$3</figcaption>
+        </figure>
+
+        <figure class="gallery">
+            <a data-lightbox="page" data-title="$3" href="../../../$1/Big/$2.jpg"><img alt="" src="../../../$1/$2.jpg"></a>
+            <figcaption>$3</figcaption>
+        </figure>
+
+or
+<a data-lightbox="gallery" data-title='(.*)' href="../../../(.*)/Big/(.*).jpg"></a>
+<figure class="right">
+            <a data-lightbox="page" data-title='$1' href="../../../$2/Big/$3.jpg"><img alt="photography" src="../../../$2/$3.jpg"></a>
+            <figcaption>$1</figcaption>
+        </figure>
+
+
+incomplete:
+        VALUES\('yes','[^$]
+        UPDATE
+
+Literature:
+([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ']+)
+([a-zA-ZöäüßÖÄÜ']+)\, ([a-zA-ZöäüßÖÄÜ'\- \.]+);
+<b class="smallCaps">$2 $1</b>
+
+>([^<]+), ([^<]+)<
+>$2 $1<
+
+author
+
+<b class="smallCaps">(\w*), (.*?)</b>
+<b class="smallCaps">$2 $1</b>
+
+,
+</b>, <b class="smallCaps">
+
+google search with spaces:
+\"https\:\/\/duckduckgo\.com\/\?q\=([^\s"]*)\s([^"]*")
+"https://duckduckgo.com/?q=$1+$2
+
+\"https\:\/\/duckduckgo\.de\/search\?q\=([^\s"]*)\s([^"]*")
+"https://duckduckgo.de/search?q=$1+$2
+
+<figure class="$1">
+$2
+<figcaption>$3</figcaption>
+</figure>
+
+<figure class="right">
+$1
+<figcaption>$2</figcaption>
+</figure>
+
+convert listitem to inline link:
+<li>(.+)ui-li-icon ui-corner-none (.+))</li>
+$1$2
+
+(\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\.(\d+)
+(\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t(.+)
+(\d+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t(\d+)\t([^\t]+)$
+
+hist table
+        (\S+?)\s(.+)
+        <tr>
+            <td>$1</td>
+            <td>$2</td>
+        </tr>
+
+remove referers from links
+\?utm_source\=[^"]*\"
+"
+
+
+---
+
+<a data-lightbox="page" data-title="" href="../../../foreign/Big/(.+?).jpg"><img alt="" src="../../../foreign/(.+?).jpg"></a>
+            <figcaption>([^']+?)</figcaption>
+<a data-lightbox="page" data-title="$3" href="../../../foreign/Big/$1.jpg"><img alt="" src="../../../foreign/$2.jpg"></a>
+            <figcaption>$3</figcaption>
+
+<li><a data-ajax="false" target="_top" href="(.+)">[^>]+>([^<]+)</a></li>
+<area shape="circle" coords="267,94,17" alt="$2" target="_top" href="$1" />
+<area shape="rect" coords="287,86,369,104" alt="$2" target="_top" href="$1" />
+
+list item to link
+<li>(.+)ui-li-icon ui-corner-none (.*)</li>
+$1$2
+
+insert longdeep
+\d*\	(\d*)\	(\d*)\	(.*)\	(.*)\	(.*)\	(.*)\	(.*)\	(.*)
+INSERT INTO `longdeep` (`depth`, `length`, `kat`, `name`, `state`, `county`, `town`, `reference`, `country`, `countrycode`, `type`)
+VALUES ($1, $2, "$3", "$4", "$5", "$6", "$7", "$8", "China", "cn", "karst");
+
+<img class="([^\"]*)" src="([^\"]*)" alt="([^\"]*)">
+<img alt="$3" class="$1" src="$2">
+
+kml
+---------------------------------------------------------------------------------------------------------------
+
+deploy
+
+\<styleUrl\>\#.*?(showcave|cave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
+<styleUrl>#$1</styleUrl>
+
+\<styleUrl\>\#msn_(showcave|cave|gorge|spring|karst|mine|subterranea)\d*\<\/styleUrl\>
+
+^\W*<open>1</open>
+
+KML old
+
+\<styleUrl\>\#msn_([a-zA-Z]+)_?\d*\<\/styleUrl\>
+\<styleUrl\>\#([a-zA-Z]+)_?\d+\<\/styleUrl\>
+<styleUrl>#$1</styleUrl>
+
+\<Style id\=\"sh_([^\d]+)\d+\"\>
+<Style id="sh_$1">
+
+\<Style id\=\"sn_([^\d]+)\d+\"\>
+<Style id="sn_$1">
+
+	<Style id="sh_([^\d]+)\d+">
+		<IconStyle>
+			<scale>1.\d</scale>
+			<Icon>
+				<href>https://www.showcaves.com/graphics/kmz/$1.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+
+test
+\<styleUrl\>\#[^cgkmst][^aoaihp]
+
+grep -RHIoP --include='*.html' '\(-?[0-9]+(?:\.[0-9]+)?,\s*-?[0-9]+(?:\.[0-9]+)?\)' . \
+| sed -E 's/^([^:]+).* (\(-?[0-9]+(\.[0-9]+)?,\s*-?[0-9]+(\.[0-9]+)?\))$/\1,\2/'
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+    \<\!\-\- Path Begin \-\-\>\n    \<div data\-role\=\"header\" data\-position\=\"fixed\"\>\n        \<div data\-role\=\"navbar\"\>\n            \<ul\>\n                \<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/\.\.\/index\.html\"\>Main Index\<\/a\>\<\/li\>\n((.|\n)*)\n            \<\/ul\>\n        \<\/div\>\n    \<\/div\>\n    \<\!\-\- Path End \-\-\>\n
+
+    <!-- Path Begin -->
+    <div data-role="header" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-ajax="false" target="_top" href="../../index.html">Main Index</a></li>
+$1
+            </ul>
+        </div>
+    </div>
+    <!-- Path End -->
+
+
+    <!-- end responsive -->
+
+
+    <meta name="description" content="$3 $2 $1 showcaves.com">
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:title" content="$1 of $2: $3"/>
+
+update index files
+
+\<li\>\<a data\-ajax\=\"false\" target\=\"_top\" href\=\"\.\.\/subterranea\/(.+)\.html\"\>([^<].+)\<\/a\>\<\/li\>
+<li><a data-ajax="false" target="_top" href="../../no/subterranea/$1.html"><img alt="Subterranea" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Subterranea.png">$2</a></li>
+
+osm
+\"https\:\/\/www\.openstreetmap\.org\/\#map\=(\d+)\/(.+?)\/(.+?)\"
+"https://www.openstreetmap.org/?mlat=$2&mlon=$3&zoom=$1#map=$1/$2/$3"
+
+update db
+
+UPDATE 'sights' SET 'name' = REPLACE('name', "'", "’");
+
+<body((.|\n)*)<h1 class="entry-title">(.+?)</h1>((.|\n)*)\<div class\=\"entry\-content\"\>
+<body><h1 class="entry-title">$2</h1><div class="entry-content">
+
+SVG Map
+                <area shape="rect" coords="(\d+),(\d+),(\d+),(\d+)" alt="(.*)" target="_top" href="(.*)"/>
+                <a href="$6"><rect x="$1" y="$2" opacity="0" width="$3" height="$4" ><title>$5</title></rect></a>
+
+<figure class="right">
+            <a data-lightbox="page" data-title="([^"]*)" href="([^"]*)" class="ui-link"><img ([^>]*)></a>
+            <figcaption>([^<]*)</figcaption>
+        </figure>
+
+<figure class="right">
+            <a data-lightbox="page" data-title="$4" href="$2" class="ui-link"><img $3></a>
+            <figcaption>$4</figcaption>
+        </figure>
+
+regularExpression(regularExpression(clipboard(), "\"right\"", "\"gallery\""), "\"left\"", "\"gallery\"")
+regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(capitalizeAndUnderscore(date("dd-MMM-yyyy")),"_", "-"),"-MÄRZ-", "-MAR-"),"-MAI-", "-MAY-"),"-JUNI-", "-JUN-"),"-JULI-", "-JUL-"),"-SEPT-", "-SEP-"),"-OKT-", "-OCT-"),"-DEZ-", "-DEC-")
+
