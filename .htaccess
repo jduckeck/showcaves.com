@@ -97,7 +97,6 @@ Redirect 301 /english/sk/caves/MatvychNetopierov.html /english/sk/showcaves/Matv
 Redirect 301 /english/sk/subterranea/BanskaStiavnica.html /english/sk/mines/BanskaStiavnica.html
 Redirect 301 /english/th/karst/ThamLuang.html /english/th/showcaves/LuangPhaWiang.html
 Redirect 301 /english/th/showcaves/Phayanak.html /english/th/caves/PlaPongNgam.html
-Redirect 301 /english/tr/caves/AkarsuKoyu.html /english/tr/caves/AkarsuKoyu.html
 Redirect 301 /english/ua/subterranea/OdessaCatacombs.html /english/ua/topics/OdessaCatacombs.html
 Redirect 301 /english/usa/caves/CrystallBall.html /english/usa/caves/CrystalBall.html
 Redirect 301 /english/usa/region/NumberOfCaves.html /english/usa/topics/NumberOfCaves.html
@@ -108,6 +107,7 @@ Redirect 301 /english/vn/region/HaTay.html /english/vn/region/HaNoi.html
 Redirect 301 /german/de/subterranea/Kristallgaenge.html /german/de/mines/Kristallgaenge.html
 Redirect 301 /german/explain/Mines/Lead.html /german/explain/Resources/Lead.html
 Redirect 301 /english/se/caves/Kalkstens.html /english/se/caves/Kvarnbackslabyrinten.html
+Redirect 301 /english/de/mines/HellaGlueck.html /english/de/subterranea/Neubulach.html
 
 # remove double slashes
 RewriteCond %{THE_REQUEST} \s[^?]*//
