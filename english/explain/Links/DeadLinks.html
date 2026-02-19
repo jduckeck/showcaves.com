@@ -35,14 +35,20 @@
 <div data-role="page" id="pageroot">
     <div data-role="main" class="ui-content">
 
-
         <!--<li><a data-ajax="false" href="../../../english/explain/Links/DeadLinks.html">Dead Links</a></li>-->
-
 
         <h1 class="center">Dead Links</h1>
         <h2 class="center"></h2>
 
         <br class="clear">
+
+        <p class="">
+            The basic principle of <span class="mySiteName">showcaves.com</span> is that each underground attraction has its own page.
+            Links to this site are provided on the respective page at the foot.
+            In general, it is beneficial to have cross-references to a topic; this is, so to speak, the basic idea behind the World Wide Web and hypertext.
+            Unfortunately, there have been several unfortunate developments recently that render the concept of static links absurd:
+        </p>
+
 
         <ol class="biglist">
 
@@ -50,11 +56,28 @@
                 The reason for this is unknown to us, but we suspect that many institutions simply no longer see the point of having a website.
             </li>
 
-            <li>Many are switching to social media sites, especially Facebook.
+            <li>Traditionally the tourist information was part of the municipality, the local attractions were published on the website of the municipality.
+                Now the tourist info has its own page and the municipality removes all tourism related pages.
+                This development is country-specific, but there are numerous countries with this development.
+            </li>
 
-            <li>Many are replacing their website with a portal, what was previously a static page with a URL, for example a cave tour, is now an event that comes dynamically from a database and no longer has a fixed URL.</li>
+            <li>Many are switching to social media sites, especially
+                <a data-ajax="false" href="../../../english/explain/Misc/Facebook.html"><img alt="Explain" class="symbol" src="../../../graphics/symbol/Explain.png">Facebook</a>.
+            </li>
 
-            <li>When people lose interest or die, the websites disappear.
+            <li>Many are replacing their website with a portal, what was previously a static page with a URL, for example a cave tour, is now an event that comes dynamically from a database and no longer has a fixed URL.
+                In the worst case, the URL leads to a single cave tour with online booking, and a page about the tour in general does not exist because everything is already included there.
+                However, if this tour is fully booked or has ended, the link automatically becomes invalid.
+                Such effects make linking to a portal almost impossible.
+            </li>
+
+            <li>Links to frameworks, such as the popular WordPress, may appear static, but they are actually parameters for the framework.
+            If you use a different framework, or sometimes even if you simply upgrade, the URLs may change.
+            We have seen everything, <span class="typewriter">/cave.php</span> becomes <span class="typewriter">/cave.html</span> or even <span class="typewriter">/cave/</span>.
+            Or <span class="typewriter">/foobar/?id=4711</span> becomes <span class="typewriter">/foobar4711</span>.
+            </li>
+
+            <li>When people lose interest or die, their websites disappear.
                 This is particularly curious, as one would expect the community to take over when the websites are actually not private, but rather a service for a community.
                 In our experience, this is unfortunately rarely the case.
             </li>
@@ -63,6 +86,9 @@
                 Unfortunately, the technology is not yet very user-friendly.
                 On the one hand, it involves costs, and on the other hand, the certificates have to be renewed annually.
                 In addition, you can also make mistakes in the content of the certificate or have to generate a new one if you modify the domain name.
+                This goes so far that websites are no longer accessible because the redirection from http to https has been built in, but the certificate is not valid.
+                There are also some rather unfortunate cases where the https address claims that the website or domain does not exist, even though the http address works perfectly.
+                This confusion will probably continue until providers are forced to provide certificates and update them automatically.
             </li>
 
             <li>Unfortunately, switching to https usually also involves redesigning the website, which additionally changes the paths and file names.
