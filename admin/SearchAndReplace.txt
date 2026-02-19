@@ -291,6 +291,3 @@ SVG Map
             <figcaption>$4</figcaption>
         </figure>
 
-regularExpression(regularExpression(clipboard(), "\"right\"", "\"gallery\""), "\"left\"", "\"gallery\"")
-regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(capitalizeAndUnderscore(date("dd-MMM-yyyy")),"_", "-"),"-MÄRZ-", "-MAR-"),"-MAI-", "-MAY-"),"-JUNI-", "-JUN-"),"-JULI-", "-JUL-"),"-SEPT-", "-SEP-"),"-OKT-", "-OCT-"),"-DEZ-", "-DEC-")
-

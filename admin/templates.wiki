@@ -1,1 +1,17 @@
         <ref>{{cite web|lang=en|url=|title=|author=|access-date=2024-10-29}}</ref>
+
+
+Adults $currency$ $a1$, Children ($a2$-$a3$) $currency$ $a4$, Children (0-$a5$) free, Students (-26) $currency$ $a6$, Seniors (65+) $currency$ $a7$, Disabled $currency$ $a8$, Families ($a12a$-$a12b$) $currency$ $a12$.<br>
+Groups ($a9$+): Adults $currency$ $a10$, Children ($a2$-$a3$) $currency$ $a11$.<br>
+[$year$]
+Erwachsene $currency$ $a1d$, Kinder ($a2$-$a3$) $currency$ $a4d$, Kinder (0-$a5$) frei, Studenten (-26) $currency$ $a6d$, Senioren (65+) $currency$ $a7d$, Behinderte $currency$ $a8d$, Familien ($a12a$-$a12b$) $currency$ $a12d$.<br>
+Gruppen ($a9$+): Erwachsene $currency$ $a10d$, Kinder ($a2$-$a3$) $currency$ $a11d$.<br>'
+[$year$]
+
+groovyScript("def v=_1; return v ? ', Students (-26) _2 ' + v : ''", INPUT, currency)
+
+regularExpression($a1$,".", ",")
+
+regularExpression(regularExpression(clipboard(), "\"right\"", "\"gallery\""), "\"left\"", "\"gallery\"")
+regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(regularExpression(capitalizeAndUnderscore(date("dd-MMM-yyyy")),"_", "-"),"-MÄRZ-", "-MAR-"),"-MAI-", "-MAY-"),"-JUNI-", "-JUN-"),"-JULI-", "-JUL-"),"-SEPT-", "-SEP-"),"-OKT-", "-OCT-"),"-DEZ-", "-DEC-")
+
