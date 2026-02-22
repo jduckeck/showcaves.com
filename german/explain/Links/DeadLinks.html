@@ -66,12 +66,15 @@
                 Im schlimmsten Fall führt die URL zu einer einzelnen Höhlenführung mit Online-Buchung, und eine Seite über die Führung im Allgemeinen existiert nicht, weil da alles drin steht.
                 Doch wenn diese Tour ausgebucht oder vorbei ist, wird der Link automatisch ungültig.
                 Solche Effekte machen die Verlinkung zu einem Portal fast unmöglich.
+                Stellen wir fest, dass eine Website auf ein Portal umgestellt wurde entfernen wir normalerweise <b>alle</b> Links auf diese domain, weil sie nicht mehr vertrauenswürdig ist.
             </li>
 
             <li>Links von Frameworks, wie zum Beispiel dem beliebten WordPress, sehen zwar statisch aus, sind aber eigentlich Parameter für das Framework.
                 Benutzt man ein anderes Framework, manchmal sogar, wenn man einfach nur ein Upgrade fährt, können sich die Urls ändern.
                 Wir haben alles gesehen, <span class="typewriter">/cave.php</span> wird zu <span class="typewriter">/cave.html</span> oder gar zu <span class="typewriter">/cave/</span>.
                 Oder <span class="typewriter">/foobar/?id=4711</span> wird zu <span class="typewriter">/foobar4711</span>.
+                Besonders dumm ist es, wenn das framework bereits die Einstiegsseite umleitet, also z.B. von <span class="typewriter">https://domain/</span> nach <span class="typewriter">https://domain/home-page/</span>.
+                Wird dann das framework geändert landet man bereits mit der Einstiegsseite auf einem 404 Fehler.
             </li>
 
             <li>Wenn Leute das Interesse verlieren oder sterben, verpuffen ihre websites.
@@ -90,6 +93,15 @@
 
             <li>Die Umstellung auf https bringt leider meist auch noch eine Umstellung der Website mit sich, wodurch sich zusätzlich die Pfade und Dateinamen ändern.
                 Das liegt in der Regel daran, dass die alte Technologie nicht mehr alle Anforderungen unterstützt, oder einfach nur, dass die Umstellung als Anlass genommen wird.
+            </li>
+
+            <li>Universitäten, die als Hort des Wissens betrachtet werden, scheinen weltweit das gleiche Problem zu haben: kein Verständnis für das Internet.
+                Sie waren die ersten die Websites für alle Institute und sogar die Mitarbeiter ermöglichten, leider sind diese noch kurzlebiger als die meisten privaten Hobbyseiten
+                Accounts von Mitarbeitern werden nach ihrem Ausscheiden gelöscht, Institute werden umstrukturiert oder umbenannt, die Strategie der domainvergabe restrukturiert.
+                Aber auch das "Langzeitarchiv für digitale Materialien zur Unterstützung von Lehre, Lernen, Wissenschaft und Forschung", das die University of Florida sie seit 2006 anbot, wurde 2018 sang- und klanglos abgestellt.
+                Wenn einer die Bibliothek anzünden würde wär das Geschrei groß, aber das sind ja nur Daten.
+                Wir verlinken gerne auf Universitäten, da die Inhalte von Experten erstellt werden. Umso trauriger ist es, wenn wir diese Links regelmäßig löschen müssen, weil sie nicht mehr funktionieren.
+                Wenn möglich, verwenden wir stattdessen <b>academia.edu</b> und <b>researchgate</b>, die weitaus stabiler zu sein scheinen.
             </li>
 
             <li>Und schließlich werden in nicht englischsprachigen Ländern sehr viele englische Übersetzungen deaktiviert.

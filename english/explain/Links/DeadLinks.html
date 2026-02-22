@@ -69,12 +69,15 @@
                 In the worst case, the URL leads to a single cave tour with online booking, and a page about the tour in general does not exist because everything is already included there.
                 However, if this tour is fully booked or has ended, the link automatically becomes invalid.
                 Such effects make linking to a portal almost impossible.
+                If we determine that a website has been converted to a portal, we usually remove <b>all</b> links to this domain because it is no longer trustworthy.
             </li>
 
             <li>Links to frameworks, such as the popular WordPress, may appear static, but they are actually parameters for the framework.
-            If you use a different framework, or sometimes even if you simply upgrade, the URLs may change.
-            We have seen everything, <span class="typewriter">/cave.php</span> becomes <span class="typewriter">/cave.html</span> or even <span class="typewriter">/cave/</span>.
-            Or <span class="typewriter">/foobar/?id=4711</span> becomes <span class="typewriter">/foobar4711</span>.
+                If you use a different framework, or sometimes even if you simply upgrade, the URLs may change.
+                We have seen everything, <span class="typewriter">/cave.php</span> becomes <span class="typewriter">/cave.html</span> or even <span class="typewriter">/cave/</span>.
+                Or <span class="typewriter">/foobar/?id=4711</span> becomes <span class="typewriter">/foobar4711</span>.
+                It is particularly unfortunate if the framework already redirects the home page, e.g. from <span class="typewriter">https://domain/</span> to <span class="typewriter">https://domain/home-page/</span>.
+                If the framework is then changed, the home page will result in a 404 error.
             </li>
 
             <li>When people lose interest or die, their websites disappear.
@@ -93,6 +96,15 @@
 
             <li>Unfortunately, switching to https usually also involves redesigning the website, which additionally changes the paths and file names.
                 This is usually because the old technology no longer supports all requirements, or simply because the changeover is taken as an opportunity to do so.
+            </li>
+
+            <li>Universities, which are regarded as bastions of knowledge, seem to have the same problem worldwide: a lack of understanding of the internet.
+                They were the first to set up websites for all their departments and even their staff, but unfortunately these are even more short-lived than most private hobby sites.
+                Staff accounts are deleted when they leave, departments are restructured or renamed, and the strategy for assigning domains is reorganised.
+                But even the "long-term archive for digital materials to support teaching, learning, science and research", which some universities provided, were short-lived.
+                If someone were to set fire to the library, there would be an outcry, but this is only data.
+                We love linking to universities because the content is created by experts, so it is all the more sad when we have to delete them regularly because they are dead.
+                If possible we use <b>academia.edu</b> and <b>researchgate</b> instead, which seem to be far more stable.
             </li>
 
             <li>And finally, in non-English-speaking countries, many English translations are deactivated.
