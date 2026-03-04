@@ -24,3 +24,15 @@ SET `Latitude`='40.6860080',
 WHERE `filename` = '/english/usa/caves/Subway.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Soldier Pass Cave', '/english/usa/caves/SoldierPass.html', 'SoldierPass', 'NorthAmerica', 'usa', 'United States of America', 'caves', 'az', 34.9007556, -111.7855803);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas La Alegría', '/english/es/subterranea/Alegria.html', 'Alegria', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.802363, -2.529295);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cuevas Atalaya', '/english/es/subterranea/Atalaya.html', 'Atalaya', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.8029756, -2.5287845);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Casas Cueva Molino Fuencaliente', '/english/es/subterranea/MolinoFuencaliente.html', 'MolinoFuencaliente', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.809270, -2.528318);
+INSERT INTO static (path)
+VALUES ('/english/es/topics/Guadix.html');
+INSERT INTO static (path)
+VALUES ('/english/es/topics/FlamencoCave.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva del Pluma', '/english/es/subterranea/Pluma.html', 'Pluma', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.804064, -2.530925);
