@@ -42,3 +42,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva de José', '/english/es/subterranea/Jose.html', 'Jose', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.2943305, -3.1414282);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Casas Cueva La Tala', '/english/es/subterranea/LaTala.html', 'LaTala', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.320008901322424, -3.095759988071087);
+UPDATE `sights`
+SET `Latitude`='47.0254959',
+    `Longitude`='8.4869235'
+WHERE `filename` = '/english/ch/caves/Gruebisbalm.html';
