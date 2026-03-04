@@ -38,3 +38,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cueva del Pluma', '/english/es/subterranea/Pluma.html', 'Pluma', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.804064, -2.530925);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva Museo La Inmaculada', '/english/es/subterranea/LaInmaculada.html', 'LaInmaculada', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.3166539, -3.1855461);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva de José', '/english/es/subterranea/Jose.html', 'Jose', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.2943305, -3.1414282);
