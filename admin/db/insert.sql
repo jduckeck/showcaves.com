@@ -36,3 +36,5 @@ INSERT INTO static (path)
 VALUES ('/english/es/topics/FlamencoCave.html');
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cueva del Pluma', '/english/es/subterranea/Pluma.html', 'Pluma', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.804064, -2.530925);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cueva Museo La Inmaculada', '/english/es/subterranea/LaInmaculada.html', 'LaInmaculada', 'Europe', 'es', 'Spain', 'subterranea', 'Andalucia', 37.3166539, -3.1855461);
