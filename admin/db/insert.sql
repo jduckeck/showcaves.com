@@ -46,3 +46,7 @@ UPDATE `sights`
 SET `Latitude`='47.0254959',
     `Longitude`='8.4869235'
 WHERE `filename` = '/english/ch/caves/Gruebisbalm.html';
+UPDATE `sights`
+SET `Latitude`='50.084241',
+    `Longitude`='14.458027'
+WHERE `filename` = '/english/cz/subterranea/Parukarka.html';
