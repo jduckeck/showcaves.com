@@ -50,3 +50,11 @@ UPDATE `sights`
 SET `Latitude`='50.084241',
     `Longitude`='14.458027'
 WHERE `filename` = '/english/cz/subterranea/Parukarka.html';
+UPDATE `sights`
+SET `Latitude`='40.2467749',
+    `Longitude`='-95.5194145'
+WHERE `filename` = '/english/usa/caves/IndianNE.html';
+UPDATE `sights`
+SET `Latitude`='-31.9515549',
+    `Longitude`='138.3712799'
+WHERE `filename` = '/english/au/caves/Yourambulla.html';
