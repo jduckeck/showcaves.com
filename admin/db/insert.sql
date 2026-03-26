@@ -28,4 +28,10 @@ SET `Latitude`='32.52444',
 WHERE `filename` = '/english/usa/caves/Peppersauce.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Galleria Borbonica', '/english/it/subterranea/GalleriaBorbonica.html', 'GalleriaBorbonica', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 40.8354768, 14.2462770);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacombe di San Sebastiano', '/english/it/subterranea/SanSebastiano.html', 'SanSebastiano', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 41.8559300, 12.5157968);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacomba di Sant’Agnese', '/english/it/subterranea/SantAgnese.html', 'SantAgnese', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 41.9227681, 12.5187600);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacomba di Domitilla', '/english/it/subterranea/Domitilla.html', 'Domitilla', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 41.858752, 12.505612);
 
