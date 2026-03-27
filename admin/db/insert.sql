@@ -42,4 +42,6 @@ UPDATE `sights`
 SET `Latitude`='51.3295459',
     `Longitude`='-112.4813428'
 WHERE `filename` = '/english/ca/mines/Atlas.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Aladdin Coal Tipple', '/english/usa/mines/Aladdin.html', 'Aladdin', 'NorthAmerica', 'us', 'United States of America', 'mines', 'wy', 44.638813, -104.162402);
 
