@@ -38,4 +38,8 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grand Hotel Taipei', '/english/cn/subterranea/GrandHotelTaipei.html', 'GrandHotelTaipei', 'Asia', 'cn', 'China', 'subterranea', 'Taiwan', 25.078913, 121.52652);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hexing Coal Mine', '/english/cn/mines/Hexing.html', 'Hexing', 'Asia', 'cn', 'China', 'mines', 'Taiwan', 25.0225966, 121.5808959);
+UPDATE `sights`
+SET `Latitude`='51.3295459',
+    `Longitude`='-112.4813428'
+WHERE `filename` = '/english/ca/mines/Atlas.html';
 
