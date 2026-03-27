@@ -34,4 +34,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Catacomba di Sant’Agnese', '/english/it/subterranea/SantAgnese.html', 'SantAgnese', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 41.9227681, 12.5187600);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Catacomba di Domitilla', '/english/it/subterranea/Domitilla.html', 'Domitilla', 'Europe', 'it', 'Italy', 'subterranea', 'Napoli', 41.858752, 12.505612);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grand Hotel Taipei', '/english/cn/subterranea/GrandHotelTaipei.html', 'GrandHotelTaipei', 'Asia', 'cn', 'China', 'subterranea', 'Taiwan', 25.078913, 121.52652);
 
