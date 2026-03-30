@@ -44,4 +44,10 @@ SET `Latitude`='51.3295459',
 WHERE `filename` = '/english/ca/mines/Atlas.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Aladdin Coal Tipple', '/english/usa/mines/Aladdin.html', 'Aladdin', 'NorthAmerica', 'us', 'United States of America', 'mines', 'wy', 44.638813, -104.162402);
+UPDATE `sights`
+SET `Latitude`='47.1910084',
+    `Longitude`='-0.2614832'
+WHERE `filename` = '/english/fr/subterranea/Perrieres.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'kavernen 1595', '/english/at/subterranea/kavernen1595.html', 'kavernen1595', 'Europe', 'at', 'Austria', 'subterranea', 'Salzburg', 47, 8015187, 13, 0387109);
 
