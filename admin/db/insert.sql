@@ -52,4 +52,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'kavernen 1595', '/english/at/subterranea/kavernen1595.html', 'kavernen1595', 'Europe', 'at', 'Austria', 'subterranea', 'Salzburg', 47, 8015187, 13, 0387109);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Catacombe dei Santi Marcellino e Pietro', '/english/it/subterranea/MarcellinoPietro.html', 'MarcellinoPietro', 'Europe', 'it', 'Italy', 'subterranea', 'Roma', 41.8786961, 12.5486030);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacomba di Santa Cristina', '/english/it/subterranea/Cristina.html', 'Cristina', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.6434915, 11.9897215);
 
