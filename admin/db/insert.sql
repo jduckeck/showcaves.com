@@ -54,4 +54,6 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Catacombe dei Santi Marcellino e Pietro', '/english/it/subterranea/MarcellinoPietro.html', 'MarcellinoPietro', 'Europe', 'it', 'Italy', 'subterranea', 'Roma', 41.8786961, 12.5486030);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Catacomba di Santa Cristina', '/english/it/subterranea/Cristina.html', 'Cristina', 'Europe', 'it', 'Italy', 'subterranea', 'Lazio', 42.6434915, 11.9897215);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Catacomba di Porta d’Ossuna', '/english/it/subterranea/PortaDOssuna.html', 'PortaDOssuna', 'Europe', 'it', 'Italy', 'subterranea', 'Sardinia', 38.1160773, 13.3509232);
 
