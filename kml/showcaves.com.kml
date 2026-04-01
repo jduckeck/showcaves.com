@@ -1161,6 +1161,7 @@
 			</Folder>
 			<Folder>
 				<name>Vayots Dzor Province</name>
+				<open>1</open>
 				<Placemark>
 					<name>Areni-1 Cave</name>
 					<open>1</open>
@@ -1183,16 +1184,16 @@
 					<name>Arjeri Cavern</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>45.26317591203188</longitude>
-						<latitude>39.70957350254189</latitude>
+						<longitude>45.24397700000001</longitude>
+						<latitude>39.7099028</latitude>
 						<altitude>0</altitude>
-						<heading>0.0501959071308106</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>3361.132926929143</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>45.2624863587685,39.70958956763933,0</coordinates>
+						<coordinates>45.24397700000001,39.7099028,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3375,6 +3376,23 @@
 						<coordinates>12.7048182,47.52016840000001,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>kavernen 1595</name>
+					<LookAt>
+						<longitude>13.0387108995677</longitude>
+						<latitude>47.80151869930867</latitude>
+						<altitude>0</altitude>
+						<heading>-3.202277869937913e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000011627431</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.0387108995677,47.80151869930868,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Steiermark</name>
@@ -4929,7 +4947,6 @@
 		</Folder>
 		<Folder>
 			<name>au</name>
-			<open>1</open>
 			<Folder>
 				<name>Australian Capital Territory</name>
 				<open>1</open>
@@ -5372,6 +5389,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>148.1948788497595,-32.72237342957627,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Three Creeks Gold Mine</name>
+					<LookAt>
+						<longitude>150.6407019995478</longitude>
+						<latitude>-30.05158999947286</latitude>
+						<altitude>0</altitude>
+						<heading>2.264729863709504e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000176756845</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>150.6407019995478,-30.05158999947287,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6065,7 +6099,6 @@
 			</Folder>
 			<Folder>
 				<name>South Australia</name>
-				<open>1</open>
 				<Folder>
 					<name>Coober Pedy</name>
 					<Placemark>
@@ -6083,6 +6116,23 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>134.7613148005206,-29.00209909869839,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Crocodile Harry&apos;s</name>
+						<LookAt>
+							<longitude>134.7003790008561</longitude>
+							<latitude>-28.98330799989904</latitude>
+							<altitude>0</altitude>
+							<heading>-4.148079415564719e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000099281212</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>134.7003790008561,-28.98330799989904,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -6302,7 +6352,6 @@
 				</Placemark>
 				<Folder>
 					<name>Mt. Gambier Caves</name>
-					<open>1</open>
 					<Placemark>
 						<name>Umpherston Sinkhole</name>
 						<open>1</open>
@@ -6503,6 +6552,26 @@
 						</Point>
 					</Placemark>
 				</Folder>
+				<Folder>
+					<name>Nullarbor</name>
+					<Placemark>
+						<name>Murrawijinie Cave</name>
+						<LookAt>
+							<longitude>130.8705995001282</longitude>
+							<latitude>-31.36417310165236</latitude>
+							<altitude>0</altitude>
+							<heading>-6.668032889688259e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000142309329</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#cave</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>130.8705995001282,-31.36417310165236,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 				<Placemark>
 					<name>Olympic Dam Mine</name>
 					<open>1</open>
@@ -6569,6 +6638,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>137.61410000069,-34.05504659801463,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Yourambulla Caves Rock Paintings</name>
+					<LookAt>
+						<longitude>138.3712798993855</longitude>
+						<latitude>-31.95155490010131</latitude>
+						<altitude>0</altitude>
+						<heading>3.25208535624963e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000132362635</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>138.3712798993855,-31.95155490010131,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -6853,16 +6939,33 @@
 					<name>Long Tunnel Extended Mine</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>146.4495805012282</longitude>
-						<latitude>-37.93908919736793</latitude>
+						<longitude>146.4491053</longitude>
+						<latitude>-37.9389627</latitude>
 						<altitude>0</altitude>
-						<heading>-7.550859452622093e-10</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1000.000187061225</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>146.4495805012282,-37.93908919736793,0</coordinates>
+						<coordinates>146.4491053,-37.9389627,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Princess Margaret Rose Cave</name>
+					<LookAt>
+						<longitude>140.9900365012317</longitude>
+						<latitude>-37.98917869991701</latitude>
+						<altitude>0</altitude>
+						<heading>-7.581424583110954e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000131594006</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>140.9900365012317,-37.98917869991701,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7426,6 +7529,9 @@
 						<coordinates>115.6914,-31.547349,0</coordinates>
 					</Point>
 				</Placemark>
+				<Folder>
+					<name>Nullarbor</name>
+				</Folder>
 			</Folder>
 		</Folder>
 		<Folder>
@@ -12773,16 +12879,16 @@
 					<name>Hartford Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-74.83180600011211</longitude>
-						<latitude>23.67918000009682</latitude>
+						<longitude>-74.915896</longitude>
+						<latitude>23.689245</latitude>
 						<altitude>0</altitude>
-						<heading>-4.50366542895234e-11</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1000.00012118638</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>-74.8318060001121,23.67918000009682,0</coordinates>
+						<coordinates>-74.915896,23.689245,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -13262,20 +13368,21 @@
 			<name>ca</name>
 			<Folder>
 				<name>Alberta</name>
+				<open>1</open>
 				<Placemark>
 					<name>Atlas Coal Mine National Historic Site</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-112.4811659420702</longitude>
-						<latitude>51.32957970943819</latitude>
+						<longitude>-112.4813428</longitude>
+						<latitude>51.3295459</latitude>
 						<altitude>0</altitude>
-						<heading>0.002964194184375402</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>941.7591928319097</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>-112.4811659420702,51.32957970943819,0</coordinates>
+						<coordinates>-112.4813428,51.3295459,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13532,16 +13639,16 @@
 					<name>Morden Colliery</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-123.8718445497359</longitude>
-						<latitude>49.09517263363625</latitude>
+						<longitude>-123.8725765</longitude>
+						<latitude>49.0947371</latitude>
 						<altitude>0</altitude>
-						<heading>0.0572154606256822</heading>
-						<tilt>23.3827935702622</tilt>
-						<range>1070.259257100284</range>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>-123.8724087113258,49.09411817094021,0</coordinates>
+						<coordinates>-123.8725765,49.0947371,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14112,16 +14219,16 @@
 					<name>Caverne Lusk - Lusk Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-76.01125367462005</longitude>
-						<latitude>45.61834362756343</latitude>
+						<longitude>-75.9832598</longitude>
+						<latitude>45.58293279999999</latitude>
 						<altitude>0</altitude>
-						<heading>11.15962303855162</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>6608.876877689406</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>-76.01392182131192,45.61814146084596,0</coordinates>
+						<coordinates>-75.9832598,45.58293279999999,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14257,22 +14364,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Thetford Mines</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-71.31766691807867</longitude>
-						<latitude>46.08779628078948</latitude>
-						<altitude>0</altitude>
-						<heading>0.00498131577484285</heading>
-						<tilt>0</tilt>
-						<range>5753.721343180713</range>
-					</LookAt>
-					<styleUrl>#mine</styleUrl>
-					<Point>
-						<coordinates>-71.31222305710182,46.07740843500429,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>Robert-Bourassa Generating Station</name>
 					<LookAt>
 						<longitude>-77.61502099967504</longitude>
@@ -14287,6 +14378,22 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-77.61502099967504,53.7934363992839,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Thetford Mines</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-71.31766691807867</longitude>
+						<latitude>46.08779628078948</latitude>
+						<altitude>0</altitude>
+						<heading>0.00498131577484285</heading>
+						<tilt>0</tilt>
+						<range>5753.721343180713</range>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<coordinates>-71.31222305710182,46.07740843500429,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -15406,6 +15513,23 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>8.489593678048237,47.00955043525379,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gruebisbalm</name>
+					<LookAt>
+						<longitude>8.4869234983867</longitude>
+						<latitude>47.02549590392752</latitude>
+						<altitude>0</altitude>
+						<heading>-1.180349960333992e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9995293761989</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>8.4869234983867,47.02549590392752,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -16890,18 +17014,18 @@
 				<name>Ana Kakenga</name>
 				<open>1</open>
 				<LookAt>
-					<longitude>-109.4167775678598</longitude>
-					<latitude>-27.10915888293955</latitude>
+					<longitude>-109.4203824</longitude>
+					<latitude>-27.111194</latitude>
 					<altitude>0</altitude>
-					<heading>15.99366333506564</heading>
+					<heading>0</heading>
 					<tilt>0</tilt>
-					<range>2357.421850698648</range>
+					<range>1000</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#cave</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-109.4212055538428,-27.11072736953565,0</coordinates>
+					<coordinates>-109.4203824,-27.111194,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -17359,19 +17483,19 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Zhangfang Ancient Battle Tunnel</name>
+					<name>张坊宋辽古战道 - Zhangfang Ancient Battle Tunnel</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>115.708237478536</longitude>
-						<latitude>39.56938241248778</latitude>
+						<longitude>115.708037</longitude>
+						<latitude>39.570055</latitude>
 						<altitude>0</altitude>
-						<heading>-0.01744531845963178</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>3103.376091994462</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>115.708237478536,39.56938241248778,0</coordinates>
+						<coordinates>115.708037,39.570055,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18006,35 +18130,44 @@
 			<Folder>
 				<name>Fujian</name>
 				<Placemark>
-					<name>Taoyuan Cave</name>
-					<open>1</open>
+					<name>天鹅洞群 - Tiān&apos;é dòng qún - Swan Caves</name>
 					<LookAt>
-						<longitude>117.4150730274125</longitude>
-						<latitude>26.02447983679735</latitude>
+						<gx:TimeStamp><when>2020-11-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>116.8175924196944</longitude>
+						<latitude>26.31997160991792</latitude>
 						<altitude>0</altitude>
-						<heading>-1.243896489816433e-05</heading>
+						<heading>-1.786675978306078e-05</heading>
 						<tilt>0</tilt>
-						<range>181.1577318846338</range>
+						<range>1001.154419406614</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>117.4148126127615,26.02458791007721,0</coordinates>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>116.8175924196944,26.31997160991792,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Tian&apos;e Dong</name>
+					<name>桃源洞 - Taoyuandong - Peach Blossom Spring Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>116.8250619994328</longitude>
-						<latitude>26.31278599971164</latitude>
+						<longitude>117.4172680780645</longitude>
+						<latitude>26.02307219572016</latitude>
 						<altitude>0</altitude>
-						<heading>1.749305074804934e-14</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1000.002271368959</range>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#cave</styleUrl>
+					<styleUrl>#gorge</styleUrl>
 					<Point>
-						<coordinates>116.8250619994328,26.31278599971164,0</coordinates>
+						<coordinates>117.417268,26.023072,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18489,7 +18622,7 @@
 						<range>1000</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<styleUrl>#m_ylw-pushpin000</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>107.066364,24.545361,0</coordinates>
@@ -18738,18 +18871,18 @@
 					<name>罗妹莲花洞 - Luomei Lotus Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>106.5487390857752</longitude>
-						<latitude>24.77388772454543</latitude>
+						<longitude>106.548356</longitude>
+						<latitude>24.774948</latitude>
 						<altitude>0</altitude>
-						<heading>-0.005405945802088607</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>934.95287181867</range>
+						<range>1000</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>106.5485944,24.7739763,0</coordinates>
+						<coordinates>106.548356,24.774948,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19499,22 +19632,6 @@
 			<Folder>
 				<name>Hebei</name>
 				<Placemark>
-					<name>Xiang Tang Shan</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>114.1326322535659</longitude>
-						<latitude>36.52061702762357</latitude>
-						<altitude>0</altitude>
-						<heading>1.000154108744176</heading>
-						<tilt>0</tilt>
-						<range>21233.53350223334</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>114.1511855110749,36.52985162831822,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>兴隆县溶洞 - Xionglong Cave</name>
 					<open>1</open>
 					<LookAt>
@@ -19598,6 +19715,23 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>116.1084774975698,38.98900610233279,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>响堂山石窟 - Xiangtangshan Grottoes</name>
+					<LookAt>
+						<longitude>114.1548110123933</longitude>
+						<latitude>36.53362051235262</latitude>
+						<altitude>0</altitude>
+						<heading>7.377684611325766e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9986645012053</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>114.1548110123933,36.53362051235262,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -19727,19 +19861,36 @@
 			<Folder>
 				<name>Hongkong</name>
 				<Placemark>
-					<name>Cheung Po Tsai Cave</name>
+					<name>張保仔洞 - Cheung Po Tsai Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>114.0183638638626</longitude>
-						<latitude>22.20057264485505</latitude>
+						<longitude>114.0175306</longitude>
+						<latitude>22.2004207</latitude>
 						<altitude>0</altitude>
-						<heading>-1.092622172208532</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>378.135928298755</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>114.0181029694859,22.20052826853494,0</coordinates>
+						<coordinates>114.0175306,22.2004207,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>前深水埗配水庫 - Ex-Sham Shui Po Service Reservoir</name>
+					<LookAt>
+						<longitude>114.168355</longitude>
+						<latitude>22.330005</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>114.168355,22.330005,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -20370,6 +20521,26 @@
 					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>110.614922,29.362977,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Inner Mongolia Autonomous Region</name>
+				<Placemark>
+					<name>嘎仙洞 - Gaxian Cave</name>
+					<LookAt>
+						<longitude>123.6040355997639</longitude>
+						<latitude>50.6285970983462</latitude>
+						<altitude>0</altitude>
+						<heading>-1.82462060966199e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00018781836</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>123.6040355997639,50.6285970983462,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -21043,24 +21214,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>宝鸡市龙门洞 - Longmendong - Dragon Gate Cave Baoji</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>106.6715330714294</longitude>
-						<latitude>35.03836940749721</latitude>
-						<altitude>0</altitude>
-						<heading>-0.00169175312037362</heading>
-						<tilt>0</tilt>
-						<range>872.0723080301034</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>106.6716599,35.0387189,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>悬空寺 - Xuan Kong Si - Hanging Temple</name>
 					<open>1</open>
 					<LookAt>
@@ -21310,6 +21463,7 @@
 			</Folder>
 			<Folder>
 				<name>Taiwan</name>
+				<open>1</open>
 				<Placemark>
 					<name>Bai Ma Jiang Jun Dong - White Horse General Cave</name>
 					<open>1</open>
@@ -21556,6 +21710,40 @@
 						<coordinates>120.3549914970284,22.3296715031198,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>圓山大飯店 - Grand Hotel Taipei</name>
+					<LookAt>
+						<longitude>121.5265179617923</longitude>
+						<latitude>25.07891979208008</latitude>
+						<altitude>0</altitude>
+						<heading>1.791309070205682e-09</heading>
+						<tilt>0</tilt>
+						<range>1008.502866067523</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>121.5265179617923,25.07891979208008,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>和興炭坑 - Hexing Coal Mine</name>
+					<LookAt>
+						<longitude>121.5808959025268</longitude>
+						<latitude>25.02259661559867</latitude>
+						<altitude>0</altitude>
+						<heading>1.352562683839175e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.581228278781</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>121.5808959025268,25.02259661559868,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Tibet</name>
@@ -21640,6 +21828,23 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>89.6907950002459,42.8593790000082,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grottoes of Toyuk</name>
+					<LookAt>
+						<longitude>89.69256500004441</longitude>
+						<latitude>42.86427999978779</latitude>
+						<altitude>0</altitude>
+						<heading>3.022801654071271e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000024579283</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>89.69256500004441,42.86427999978779,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -22255,22 +22460,64 @@
 				</Placemark>
 			</Folder>
 			<Folder>
-				<name>Inner Mongolia Autonomous Region</name>
+				<name>Shaanxi</name>
 				<Placemark>
-					<name>嘎仙洞 - Gaxian Cave</name>
+					<name>宝鸡市龙门洞 - Longmendong - Dragon Gate Cave Baoji</name>
+					<open>1</open>
 					<LookAt>
-						<longitude>123.6040355997639</longitude>
-						<latitude>50.6285970983462</latitude>
+						<longitude>106.6715330714294</longitude>
+						<latitude>35.03836940749721</latitude>
 						<altitude>0</altitude>
-						<heading>-1.82462060966199e-10</heading>
+						<heading>-0.00169175312037362</heading>
 						<tilt>0</tilt>
-						<range>1000.00018781836</range>
+						<range>872.0723080301034</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#showcave</styleUrl>
+					<styleUrl>#cave</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>123.6040355997639,50.6285970983462,0</coordinates>
+						<coordinates>106.6716599,35.0387189,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>汉阳陵 - Hàn Yáng líng - Yangling Mausoleum of Han</name>
+					<LookAt>
+						<gx:TimeStamp><when>2020-11-11</when>
+</gx:TimeStamp>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>108.9407089975919</longitude>
+						<latitude>34.44379600175298</latitude>
+						<altitude>0</altitude>
+						<heading>-1.361964403477581e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000012003968</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>108.9407089975919,34.44379600175298,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>杨家岭石窑宾馆 - Yángjiālǐng shí yáo bīnguǎn - Yangjialing Stone Cave Guest House</name>
+					<LookAt>
+						<longitude>109.4682322075993</longitude>
+						<latitude>36.62384854081763</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0009157639880976225</heading>
+						<tilt>0</tilt>
+						<range>410.4164239451976</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>109.468212,36.623738,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -24889,7 +25136,7 @@
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>14.45823914394389,50.08437123001463,0</coordinates>
+						<coordinates>14.458027,50.084241,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25002,22 +25249,6 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>14.42483822231519,50.09738381825386,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Prosek rocks</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.47437991571886</longitude>
-						<latitude>50.11820808441124</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0009058543505561212</heading>
-						<tilt>0</tilt>
-						<range>1964.241934060296</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>14.47437991571886,50.11820808441125,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25469,7 +25700,6 @@
 		</Folder>
 		<Folder>
 			<name>de</name>
-			<open>1</open>
 			<Folder>
 				<name>Alpen</name>
 				<Placemark>
@@ -27383,7 +27613,7 @@
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>13.43150270210353,54.68076460372146,0</coordinates>
+						<coordinates>13.4316756,54.680671,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27688,19 +27918,20 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Internationales Fledermaus-Museum Julianenhof</name>
+					<name>Internationales Fledermausmuseum Julianenhof</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>14.08480982974345</longitude>
-						<latitude>52.57412860246095</latitude>
+						<longitude>14.1185273</longitude>
+						<latitude>52.587463</latitude>
 						<altitude>0</altitude>
-						<heading>-4.775939488578283e-05</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>304.6209469300162</range>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>14.084799,52.574313,0</coordinates>
+						<coordinates>14.1185273,52.587463,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28515,6 +28746,7 @@
 				</Folder>
 				<Folder>
 					<name>Hunsrück</name>
+					<open>1</open>
 					<Placemark>
 						<name>Besucherbergwerk Fell</name>
 						<open>1</open>
@@ -28596,7 +28828,7 @@
 						</LookAt>
 						<styleUrl>#mine</styleUrl>
 						<Point>
-							<coordinates>7.388912900594697,49.84901723500501,0</coordinates>
+							<coordinates>7.3887194,49.84904639999999,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -30607,6 +30839,23 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Familienburg Scharfenstein</name>
+						<LookAt>
+							<longitude>13.05549648714207</longitude>
+							<latitude>50.70498579874465</latitude>
+							<altitude>0</altitude>
+							<heading>-9.950649980602603e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000042526946</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>13.05549648714207,50.70498579874465,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Grube Tannenberg</name>
 						<open>1</open>
 						<LookAt>
@@ -31530,7 +31779,7 @@
 					</LookAt>
 					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>7.898552853587793,47.90948007683171,0</coordinates>
+						<coordinates>7.8985309,47.90959010000001,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31570,16 +31819,16 @@
 					<name>Hella-Glück-Stollen Neubulach</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>8.704763966471033</longitude>
-						<latitude>48.65539369281679</latitude>
+						<longitude>8.7049576</longitude>
+						<latitude>48.6553396</latitude>
 						<altitude>0</altitude>
-						<heading>0.008355124285860147</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>483.1456797738878</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>8.704763966471031,48.65539369281679,0</coordinates>
+						<coordinates>8.7049576,48.6553396,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31729,7 +31978,6 @@
 			</Folder>
 			<Folder>
 				<name>Süddeutsche Schichtstufenlandschaft</name>
-				<open>1</open>
 				<Folder>
 					<name>Fränkische Alb</name>
 					<Placemark>
@@ -31979,6 +32227,23 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>11.68603429981615,49.23832119858304,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Höhlenburg Loch</name>
+						<LookAt>
+							<longitude>11.92921130277703</longitude>
+							<latitude>49.01510399906793</latitude>
+							<altitude>0</altitude>
+							<heading>2.096270194728448e-09</heading>
+							<tilt>0</tilt>
+							<range>999.9999015543174</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>11.92921130277703,49.01510399906793,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -32757,17 +33022,17 @@
 						<name>Eisenerzgrube Nothweiler</name>
 						<open>1</open>
 						<LookAt>
-							<longitude>7.804455696124641</longitude>
-							<latitude>49.06618936422803</latitude>
+							<longitude>7.809456699999999</longitude>
+							<latitude>49.06689769999999</latitude>
 							<altitude>0</altitude>
-							<heading>-0.005095373016052372</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>2406.452920049814</range>
+							<range>1000</range>
 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
 						<styleUrl>#mine</styleUrl>
 						<Point>
-							<coordinates>7.809623,49.066804,0</coordinates>
+							<coordinates>7.809456699999999,49.06689769999999,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -33080,7 +33345,6 @@
 				</Folder>
 				<Folder>
 					<name>Schwäbische Alb</name>
-					<open>1</open>
 					<Placemark>
 						<name>Aachtopf</name>
 						<LookAt>
@@ -35739,16 +36003,16 @@
 				<name>Eesti Kaevandusmuusem</name>
 				<open>1</open>
 				<LookAt>
-					<longitude>27.17403599875508</longitude>
-					<latitude>59.35000330074358</latitude>
+					<longitude>27.1715745</longitude>
+					<latitude>59.3519579</latitude>
 					<altitude>0</altitude>
-					<heading>-1.071083594529654e-09</heading>
+					<heading>0</heading>
 					<tilt>0</tilt>
-					<range>1000.000101000832</range>
+					<range>1000</range>
 				</LookAt>
 				<styleUrl>#mine</styleUrl>
 				<Point>
-					<coordinates>27.17403599875508,59.35000330074358,0</coordinates>
+					<coordinates>27.1715745,59.3519579,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -36150,7 +36414,6 @@
 		</Folder>
 		<Folder>
 			<name>es</name>
-			<open>1</open>
 			<Folder>
 				<name>Andalucia</name>
 				<Placemark>
@@ -36206,40 +36469,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Casas Cueva del Tio Tobas</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.092400814275045</longitude>
-						<latitude>37.24621967400127</latitude>
-						<altitude>0</altitude>
-						<heading>0.002947020351905322</heading>
-						<tilt>3.239003307414721e-11</tilt>
-						<range>749.1164172562854</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>-3.092400814275045,37.24621967400127,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Centro de Interpretación Hábitat Troglodita Almagruz</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.225219297406739</longitude>
-						<latitude>37.33385889905301</latitude>
-						<altitude>0</altitude>
-						<heading>1.572739762218169e-09</heading>
-						<tilt>0</tilt>
-						<range>999.9998591505898</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.225219,37.333859,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>Cisternas Romanas de Monturque</name>
 					<open>1</open>
 					<LookAt>
@@ -36274,6 +36503,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Cueva de Belda</name>
+					<LookAt>
+						<longitude>-4.402403577231266</longitude>
+						<latitude>37.25605648650614</latitude>
+						<altitude>0</altitude>
+						<heading>2.6041892721541e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000102886046</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-4.402403577231265,37.25605648650615,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Cueva de la Pileta</name>
 					<open>1</open>
 					<LookAt>
@@ -36287,24 +36533,6 @@
 					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>-5.2699924,36.6912325,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Cueva de la Rocio</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.585269900195518</longitude>
-						<latitude>37.18154429931484</latitude>
-						<altitude>0</altitude>
-						<heading>-1.182009414739046e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000197893787</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.58527,37.181544,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36447,24 +36675,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Cueva los Tarantos</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.588173699759591</longitude>
-						<latitude>37.18121179981365</latitude>
-						<altitude>0</altitude>
-						<heading>1.452662691051536e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000072896662</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.588174,37.181212,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>Cuevas de la Antigua Fragua</name>
 					<open>1</open>
 					<LookAt>
@@ -36529,40 +36739,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Cuevas Hammam Abuelo José</name>
-					<LookAt>
-						<longitude>-3.176193500167882</longitude>
-						<latitude>37.33245559951351</latitude>
-						<altitude>0</altitude>
-						<heading>-1.015690259058615e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000022423044</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.176193500167882,37.33245559951351,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Cuevas Pedro Antonio de Alarcón</name>
-					<LookAt>
-						<longitude>-3.123356999832672</longitude>
-						<latitude>37.3194780003666</latitude>
-						<altitude>0</altitude>
-						<heading>1.01646154356887e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000023625471</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.123356999832672,37.3194780003666,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>Cuevas Romanas</name>
 					<open>1</open>
 					<LookAt>
@@ -36613,24 +36789,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>El Templo del Flamenco</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.598137800055746</longitude>
-						<latitude>37.18333679993957</latitude>
-						<altitude>0</altitude>
-						<heading>-3.348646996378863e-11</heading>
-						<tilt>0</tilt>
-						<range>1000.00008236791</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.598138,37.183337,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>El Torcal de Antequera</name>
 					<open>1</open>
 					<LookAt>
@@ -36646,6 +36804,111 @@
 						<coordinates>-4.54471478092643,36.95272189725498,0</coordinates>
 					</Point>
 				</Placemark>
+				<Folder>
+					<name>Flamenco Cave</name>
+					<Placemark>
+						<name>Cueva de la Rocio</name>
+						<LookAt>
+							<longitude>-3.585269900195518</longitude>
+							<latitude>37.18154429931484</latitude>
+							<altitude>0</altitude>
+							<heading>-1.182009414739046e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000197893787</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.58527,37.181544,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cueva los Tarantos</name>
+						<LookAt>
+							<longitude>-3.588173699759591</longitude>
+							<latitude>37.18121179981365</latitude>
+							<altitude>0</altitude>
+							<heading>1.452662691051536e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000072896662</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.588174,37.181212,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>La Chumbera</name>
+						<LookAt>
+							<longitude>-3.583020000645262</longitude>
+							<latitude>37.18165999960113</latitude>
+							<altitude>0</altitude>
+							<heading>-3.896418026393917e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000206654764</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.58302,37.18166,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Museo Cuevas del Sacromonte</name>
+						<LookAt>
+							<longitude>-3.5841017864956</longitude>
+							<latitude>37.1829833417685</latitude>
+							<altitude>0</altitude>
+							<heading>0.0007057357299213543</heading>
+							<tilt>0</tilt>
+							<range>145.6940066859155</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.583973,37.183298,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Venta El Gallo</name>
+						<LookAt>
+							<longitude>-3.583983709158353</longitude>
+							<latitude>37.18206055533086</latitude>
+							<altitude>0</altitude>
+							<heading>2.980146498542319e-05</heading>
+							<tilt>0</tilt>
+							<range>177.0440274066976</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.583978,37.182027,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Zambra María la Canastera</name>
+						<LookAt>
+							<longitude>-3.584059700083975</longitude>
+							<latitude>37.18195720008338</latitude>
+							<altitude>0</altitude>
+							<heading>-5.064635760895467e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000129883022</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.58406,37.181957,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 				<Placemark>
 					<name>Fuente de los Cien Caños</name>
 					<open>1</open>
@@ -36696,24 +36959,211 @@
 						<coordinates>-6.5658646,37.891056,0</coordinates>
 					</Point>
 				</Placemark>
-				<Placemark>
-					<name>La Chumbera</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.583020000645262</longitude>
-						<latitude>37.18165999960113</latitude>
-						<altitude>0</altitude>
-						<heading>-3.896418026393917e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000206654764</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.58302,37.18166,0</coordinates>
-					</Point>
-				</Placemark>
+				<Folder>
+					<name>Guadix Cave Houses</name>
+					<Placemark>
+						<name>Casa Rural &quot;Cuevas la Atalaya&quot;</name>
+						<LookAt>
+							<longitude>-2.528784500255132</longitude>
+							<latitude>37.80297560068846</latitude>
+							<altitude>0</altitude>
+							<heading>-1.562914631237792e-10</heading>
+							<tilt>0</tilt>
+							<range>999.9999950715088</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-2.528784500255132,37.80297560068846,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Casas Cueva del Tio Tobas</name>
+						<LookAt>
+							<longitude>-3.092400814275045</longitude>
+							<latitude>37.24621967400127</latitude>
+							<altitude>0</altitude>
+							<heading>0.002947020351905322</heading>
+							<tilt>3.239003307414721e-11</tilt>
+							<range>749.1164172562854</range>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<coordinates>-3.092400814275045,37.24621967400127,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Casas Cueva La Tala</name>
+						<LookAt>
+							<longitude>-3.095759987785156</longitude>
+							<latitude>37.3200089016509</latitude>
+							<altitude>0</altitude>
+							<heading>1.733644818692078e-10</heading>
+							<tilt>0</tilt>
+							<range>999.999976152228</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.095759987785156,37.32000890165091,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Casas Cueva Molino Fuencaliente</name>
+						<LookAt>
+							<longitude>-2.52831799972222</longitude>
+							<latitude>37.80926999975033</latitude>
+							<altitude>0</altitude>
+							<heading>1.708154660766824e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.00003978086</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-2.528317999722219,37.80926999975033,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Centro de Interpretación Hábitat Troglodita Almagruz</name>
+						<LookAt>
+							<longitude>-3.225219297406739</longitude>
+							<latitude>37.33385889905301</latitude>
+							<altitude>0</altitude>
+							<heading>1.572739762218169e-09</heading>
+							<tilt>0</tilt>
+							<range>999.9998591505898</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.225219,37.333859,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cueva de José</name>
+						<LookAt>
+							<longitude>-3.141428200155947</longitude>
+							<latitude>37.2943304989883</latitude>
+							<altitude>0</altitude>
+							<heading>-9.416310433007369e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000084204221</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.141428200155947,37.29433049898829,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cueva del Pluma</name>
+						<LookAt>
+							<longitude>-2.530925</longitude>
+							<latitude>37.804064</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>1000</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-2.530925,37.804064,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cueva Museo La Inmaculada</name>
+						<LookAt>
+							<longitude>-3.185546098442099</longitude>
+							<latitude>37.31665389989209</latitude>
+							<altitude>0</altitude>
+							<heading>9.443738741441641e-10</heading>
+							<tilt>0</tilt>
+							<range>999.9999441653271</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.185546098442099,37.31665389989209,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cuevas Hammam Abuelo José</name>
+						<LookAt>
+							<longitude>-3.176193500167882</longitude>
+							<latitude>37.33245559951351</latitude>
+							<altitude>0</altitude>
+							<heading>-1.015690259058615e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000022423044</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.176193500167882,37.33245559951351,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cuevas La Alegría</name>
+						<LookAt>
+							<longitude>-2.529295</longitude>
+							<latitude>37.802363</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>1000</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-2.529295,37.802363,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cuevas Pedro Antonio de Alarcón</name>
+						<LookAt>
+							<longitude>-3.123356999832672</longitude>
+							<latitude>37.3194780003666</latitude>
+							<altitude>0</altitude>
+							<heading>1.01646154356887e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000023625471</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.123356999832672,37.3194780003666,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>El Templo del Flamenco</name>
+						<LookAt>
+							<longitude>-3.598137800055746</longitude>
+							<latitude>37.18333679993957</latitude>
+							<altitude>0</altitude>
+							<heading>-3.348646996378863e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.00008236791</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-3.598138,37.183337,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
 				<Placemark>
 					<name>Los Riscos</name>
 					<open>1</open>
@@ -36730,24 +37180,6 @@
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-5.15707,36.6491,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Museo Cuevas del Sacromonte</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.5841017864956</longitude>
-						<latitude>37.1829833417685</latitude>
-						<altitude>0</altitude>
-						<heading>0.0007057357299213543</heading>
-						<tilt>0</tilt>
-						<range>145.6940066859155</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.583973,37.183298,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36814,42 +37246,6 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>-5.178956002143847,36.86228399881596,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Venta El Gallo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.583983709158353</longitude>
-						<latitude>37.18206055533086</latitude>
-						<altitude>0</altitude>
-						<heading>2.980146498542319e-05</heading>
-						<tilt>0</tilt>
-						<range>177.0440274066976</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.583978,37.182027,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Zambra María la Canastera</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-3.584059700083975</longitude>
-						<latitude>37.18195720008338</latitude>
-						<altitude>0</altitude>
-						<heading>-5.064635760895467e-11</heading>
-						<tilt>0</tilt>
-						<range>1000.000129883022</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-3.58406,37.181957,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -37324,6 +37720,23 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>1.461631,38.701406,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Sa Cova Foradada</name>
+						<LookAt>
+							<longitude>1.388737599609551</longitude>
+							<latitude>38.64125890076986</latitude>
+							<altitude>0</altitude>
+							<heading>-2.445772005795097e-10</heading>
+							<tilt>0</tilt>
+							<range>999.9999492702259</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>1.388737599609551,38.64125890076986,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -37836,7 +38249,6 @@
 			</Folder>
 			<Folder>
 				<name>Cantabria</name>
-				<open>1</open>
 				<Placemark>
 					<name>Altamira - National Museum and Research Center of Altamira</name>
 					<open>1</open>
@@ -38654,7 +39066,6 @@
 			</Folder>
 			<Folder>
 				<name>Cataluña</name>
-				<open>1</open>
 				<Placemark>
 					<name>Balma d&apos;Esplugues</name>
 					<open>1</open>
@@ -38917,6 +39328,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>1.6739074,41.905795,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Museu de les Mines de Cercs</name>
+					<LookAt>
+						<longitude>1.852823499696297</longitude>
+						<latitude>42.18355590052796</latitude>
+						<altitude>0</altitude>
+						<heading>-2.04191014195955e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000016461435</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin00</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>1.852823499696297,42.18355590052797,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39434,6 +39862,23 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>-0.176436,40.745264,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cova Forada</name>
+					<LookAt>
+						<longitude>-0.09000829996018922</longitude>
+						<latitude>38.88444740045956</latitude>
+						<altitude>0</altitude>
+						<heading>3.245461602644649e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000000705067</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-0.09000829996018922,38.88444740045956,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -40174,6 +40619,7 @@
 			</Folder>
 			<Folder>
 				<name>Madrid</name>
+				<open>1</open>
 				<Placemark>
 					<name>Antiguo vestíbulo de la estación de Pacífico</name>
 					<open>1</open>
@@ -40310,6 +40756,23 @@
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
 						<coordinates>-3.68940199989357,40.42355299949698,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Túnel de Bonaparte</name>
+					<LookAt>
+						<longitude>-3.719850001351937</longitude>
+						<latitude>40.41881099691189</latitude>
+						<altitude>0</altitude>
+						<heading>-8.762833668153875e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000041453303</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-3.719850001351937,40.41881099691189,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -40872,6 +41335,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Pirunpesä</name>
+					<LookAt>
+						<longitude>27.13129629935607</longitude>
+						<latitude>63.22246150071098</latitude>
+						<altitude>0</altitude>
+						<heading>-5.748979808932566e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000122145238</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>27.13129629935607,63.22246150071098,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Retretti</name>
 					<open>1</open>
 					<LookAt>
@@ -41066,18 +41546,17 @@
 					</Placemark>
 					<Placemark>
 						<name>Tekniikan Museo</name>
-						<open>1</open>
 						<LookAt>
-							<longitude>24.99350001781251</longitude>
-							<latitude>60.22567801524082</latitude>
+							<longitude>24.9825</longitude>
+							<latitude>60.21638899999999</latitude>
 							<altitude>0</altitude>
-							<heading>0.004999697835603528</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>443.2771480440953</range>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#mine</styleUrl>
 						<Point>
-							<coordinates>24.99350001781251,60.22567801524082,0</coordinates>
+							<coordinates>24.9825,60.21638899999999,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -41326,6 +41805,27 @@
 					</Point>
 				</Placemark>
 			</Folder>
+			<Folder>
+				<name>Åland Islands Region</name>
+				<open>1</open>
+				<Placemark>
+					<name>Djupviksgrottan</name>
+					<LookAt>
+						<longitude>19.83081870364799</longitude>
+						<latitude>60.39998100124115</latitude>
+						<altitude>0</altitude>
+						<heading>3.171817697753537e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000008447653</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>19.83081870364799,60.39998100124115,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 		</Folder>
 		<Folder>
 			<name>fj</name>
@@ -41533,7 +42033,6 @@
 		</Folder>
 		<Folder>
 			<name>fr</name>
-			<open>1</open>
 			<Folder>
 				<name>Auvergne-Rhône-Alpes</name>
 				<Folder>
@@ -42148,6 +42647,39 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Cascade du Pain de Sucre de Poisieu</name>
+						<LookAt>
+							<longitude>5.713840299246342</longitude>
+							<latitude>45.93885890036643</latitude>
+							<altitude>0</altitude>
+							<heading>-5.415538407514631e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000025083805</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#karst</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>5.713840299246343,45.93885890036644,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Cascade du Pain de Sucre de Surjoux</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>5.8055341</longitude>
+							<latitude>46.02209209999999</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>1000</range>
+						</LookAt>
+						<styleUrl>#karst</styleUrl>
+						<Point>
+							<coordinates>5.8055341,46.02209209999999,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Fontaine Pétrifiante de Mizoën</name>
 						<LookAt>
 							<longitude>6.188251800327619</longitude>
@@ -42590,22 +43122,6 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>4.355426,45.464278,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Pain de Sucre</name>
-						<open>1</open>
-						<LookAt>
-							<longitude>5.805646652869972</longitude>
-							<latitude>46.02207968093417</latitude>
-							<altitude>0</altitude>
-							<heading>0.002105030695018898</heading>
-							<tilt>0</tilt>
-							<range>341.9037669851969</range>
-						</LookAt>
-						<styleUrl>#karst</styleUrl>
-						<Point>
-							<coordinates>5.805646652869971,46.02207968093417,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -43815,16 +44331,16 @@
 					<name>Cave des Roches</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>1.224011999930514</longitude>
-						<latitude>47.35137900018811</latitude>
+						<longitude>1.2237092</longitude>
+						<latitude>47.35150480000001</latitude>
 						<altitude>0</altitude>
-						<heading>-5.149238515422394e-11</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1000.000163898913</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>1.224011999930514,47.35137900018811,0</coordinates>
+						<coordinates>1.2237092,47.35150480000001,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43943,16 +44459,16 @@
 					<name>Magnanerie de Bourré</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>1.214723068205029</longitude>
-						<latitude>47.34689456203229</latitude>
+						<longitude>1.2164668</longitude>
+						<latitude>47.346736</latitude>
 						<altitude>0</altitude>
-						<heading>4.7112740041759e-05</heading>
-						<tilt>6.541953343365356e-11</tilt>
-						<range>531.055179069907</range>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>1.215000570925554,47.34656756080755,0</coordinates>
+						<coordinates>1.2164668,47.346736,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43989,18 +44505,17 @@
 				</Placemark>
 				<Placemark>
 					<name>Village Troglodyte de Trôo</name>
-					<open>1</open>
 					<LookAt>
-						<longitude>0.7924180000059011</longitude>
-						<latitude>47.77751199865268</latitude>
+						<longitude>0.7920644999999999</longitude>
+						<latitude>47.775686</latitude>
 						<altitude>0</altitude>
-						<heading>1.911215186558185e-12</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>988.0620211297696</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>0.7924180000059011,47.77751199865269,0</coordinates>
+						<coordinates>0.7920644999999999,47.775686,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -45528,7 +46043,6 @@
 				<name>Hauts-de-France</name>
 				<Folder>
 					<name>Nord-Pas de Calais</name>
-					<open>1</open>
 					<Placemark>
 						<name>Carrière Wellington</name>
 						<open>1</open>
@@ -45577,6 +46091,24 @@
 						<styleUrl>#mine</styleUrl>
 						<Point>
 							<coordinates>3.171546809003767,50.33219589657502,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Chevalement du Vieux II</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>2.506681151543519</longitude>
+							<latitude>50.50354690743743</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0008721744350053479</heading>
+							<tilt>0</tilt>
+							<range>460.5122642440433</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>2.5067793,50.5035859,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -45821,42 +46353,22 @@
 					</Placemark>
 					<Placemark>
 						<name>Vimy Monument</name>
-						<open>1</open>
 						<LookAt>
-							<longitude>2.779295952533639</longitude>
-							<latitude>50.38194226976226</latitude>
+							<longitude>2.770022</longitude>
+							<latitude>50.371849</latitude>
 							<altitude>0</altitude>
-							<heading>-0.02086760602160668</heading>
-							<tilt>1.633090511151595e-12</tilt>
-							<range>6785.258720232115</range>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#subterranea</styleUrl>
 						<Point>
-							<coordinates>2.773389659053706,50.37912209934149,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
-						<name>Chevalement du Vieux II</name>
-						<open>1</open>
-						<LookAt>
-							<longitude>2.506681151543519</longitude>
-							<latitude>50.50354690743743</latitude>
-							<altitude>0</altitude>
-							<heading>-0.0008721744350053479</heading>
-							<tilt>0</tilt>
-							<range>460.5122642440433</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>2.5067793,50.5035859,0</coordinates>
+							<coordinates>2.770022,50.371849,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
 				<Folder>
 					<name>Picardie</name>
-					<open>1</open>
 					<Placemark>
 						<name>Caverne du Dragon</name>
 						<open>1</open>
@@ -45892,18 +46404,17 @@
 					</Placemark>
 					<Placemark>
 						<name>Muches de Domqueur</name>
-						<open>1</open>
 						<LookAt>
-							<longitude>2.048165999984646</longitude>
-							<latitude>50.11394000007512</latitude>
+							<longitude>2.0481388</longitude>
+							<latitude>50.1139191</latitude>
 							<altitude>0</altitude>
-							<heading>-1.124365836830871e-11</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>340.7690212305753</range>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#subterranea</styleUrl>
 						<Point>
-							<coordinates>2.047853902966996,50.11387932825614,0</coordinates>
+							<coordinates>2.0481388,50.1139191,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -46150,16 +46661,16 @@
 						<name>Château Villemaurine</name>
 						<open>1</open>
 						<LookAt>
-							<longitude>-0.1526438327537072</longitude>
-							<latitude>44.89566826911573</latitude>
+							<longitude>-0.15376</longitude>
+							<latitude>44.895373</latitude>
 							<altitude>0</altitude>
-							<heading>2.340065875971523e-06</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>545.5304965458955</range>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#subterranea</styleUrl>
 						<Point>
-							<coordinates>-0.1524645385136325,44.89576352679977,0</coordinates>
+							<coordinates>-0.15376,44.895373,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -47525,16 +48036,16 @@
 						<name>Préhisto Parc</name>
 						<open>1</open>
 						<LookAt>
-							<longitude>1.054945843859545</longitude>
-							<latitude>44.9781502882911</latitude>
+							<longitude>1.0554337</longitude>
+							<latitude>44.9781339</latitude>
 							<altitude>0</altitude>
-							<heading>-0.001671390900986854</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>611.0074842623442</range>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#subterranea</styleUrl>
 						<Point>
-							<coordinates>1.055328110873388,44.97819214410524,0</coordinates>
+							<coordinates>1.0554337,44.9781339,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -49371,7 +49882,6 @@
 			</Folder>
 			<Folder>
 				<name>Pays de la Loire</name>
-				<open>1</open>
 				<Placemark>
 					<name>Abbaye Royale de Fontevraud</name>
 					<open>1</open>
@@ -49506,16 +50016,16 @@
 					<name>Champignonnière du Saut-aux-Loups</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>0.04525509513205295</longitude>
-						<latitude>47.22029235170893</latitude>
+						<longitude>0.0458089</longitude>
+						<latitude>47.21952829999999</latitude>
 						<altitude>0</altitude>
-						<heading>0.01905444226163568</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>420.4157185635422</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>0.04561710478534709,47.21997580989664,0</coordinates>
+						<coordinates>0.0458089,47.21952829999999,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49712,22 +50222,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>La Sablière</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>-0.2803467188309876</longitude>
-						<latitude>47.19385302029316</latitude>
-						<altitude>0</altitude>
-						<heading>0.002917947909177877</heading>
-						<tilt>0</tilt>
-						<range>1129.754685962519</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>-0.2837516414730175,47.19450758872627,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>Le Caveau</name>
 					<open>1</open>
 					<LookAt>
@@ -49792,6 +50286,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Le Mystère des Faluns</name>
+					<LookAt>
+						<longitude>-0.2611858002672329</longitude>
+						<latitude>47.19061309995708</latitude>
+						<altitude>0</altitude>
+						<heading>-1.918407712793314e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999954997778</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-0.2611858002672329,47.19061309995708,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Le Troglo des Pommes Tapees</name>
 					<open>1</open>
 					<LookAt>
@@ -49804,7 +50315,7 @@
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>0.02226420377344329,47.22563355396764,0</coordinates>
+						<coordinates>0.0221933,47.2257008,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49843,16 +50354,16 @@
 					<name>Les Caves de la Genevraie</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-0.2955941656230765</longitude>
-						<latitude>47.2328317759436</latitude>
+						<longitude>-0.2971147</longitude>
+						<latitude>47.2340539</latitude>
 						<altitude>0</altitude>
-						<heading>-1.363028920220617e-09</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>250.1702980811679</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>-0.2955941656230765,47.23283177594361,0</coordinates>
+						<coordinates>-0.2971147,47.2340539,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49884,7 +50395,23 @@
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>-0.2394202659089757,47.22990050190311,0</coordinates>
+						<coordinates>-0.2397842,47.22995510000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Les Troglos de la Sablière</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-0.2803467188309876</longitude>
+						<latitude>47.19385302029316</latitude>
+						<altitude>0</altitude>
+						<heading>0.002917947909177877</heading>
+						<tilt>0</tilt>
+						<range>1129.754685962519</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>-0.2832079,47.1948896,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50043,32 +50570,32 @@
 					<name>Troglodytes &amp; Sarcophages</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-0.2601307985819734</longitude>
-						<latitude>47.18348174738562</latitude>
+						<longitude>-0.2585653</longitude>
+						<latitude>47.1844299</latitude>
 						<altitude>0</altitude>
-						<heading>0.0007452452037541123</heading>
-						<tilt>4.080707408482675e-11</tilt>
-						<range>896.0805554628874</range>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>-0.2587964957611035,47.18450248313354,0</coordinates>
+						<coordinates>-0.2585653,47.1844299,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>Village troglodyte Rochemenier</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-0.3060582067763083</longitude>
-						<latitude>47.23745605589961</latitude>
+						<longitude>-0.296049</longitude>
+						<latitude>47.2328084</latitude>
 						<altitude>0</altitude>
-						<heading>-0.0159971826578244</heading>
-						<tilt>2.240701415952057e-12</tilt>
-						<range>8093.18119577779</range>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>-0.3058117930017518,47.2371379807025,0</coordinates>
+						<coordinates>-0.296049,47.2328084,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50087,10 +50614,43 @@
 						<coordinates>-0.2994711313820975,47.19048418779808,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Hôtel insolite Rocaminori</name>
+					<LookAt>
+						<longitude>-0.2972726</longitude>
+						<latitude>47.2341972</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-0.2972726,47.2341972,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>La Caverne Enchantée</name>
+					<LookAt>
+						<longitude>1.212567610206583</longitude>
+						<latitude>47.34954187986876</latitude>
+						<altitude>0</altitude>
+						<heading>-4.295407678026797e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000024856302</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>1.212567610206583,47.34954187986876,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Provence-Alpes-Côte d&apos;Azur</name>
-				<open>1</open>
 				<Camera>
 					<gx:ViewerOptions>
 						<gx:option enabled="0" name="historicalimagery"></gx:option>
@@ -51715,25 +52275,6 @@
 					</Placemark>
 				</Folder>
 				<Folder>
-					<name>Creater Manchseter</name>
-					<Placemark>
-						<name>Astley Green Colliery Museum</name>
-						<open>1</open>
-						<LookAt>
-							<longitude>-2.447283736934523</longitude>
-							<latitude>53.49523046292323</latitude>
-							<altitude>0</altitude>
-							<heading>0.01605278642027171</heading>
-							<tilt>2.754741271998312e-11</tilt>
-							<range>145.4682335765907</range>
-						</LookAt>
-						<styleUrl>#mine</styleUrl>
-						<Point>
-							<coordinates>-2.447283736934523,53.49523046292323,0</coordinates>
-						</Point>
-					</Placemark>
-				</Folder>
-				<Folder>
 					<name>Cumbria</name>
 					<Placemark>
 						<name>Florence Mine</name>
@@ -53115,6 +53656,24 @@
 						<styleUrl>#subterranea</styleUrl>
 						<Point>
 							<coordinates>-0.1033376168645406,51.43337772153807,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>Manchester</name>
+					<Placemark>
+						<name>Lancashire Mining Museum - Astley Green Colliery</name>
+						<LookAt>
+							<longitude>-2.447205</longitude>
+							<latitude>53.49526000000001</latitude>
+							<altitude>0</altitude>
+							<heading>0</heading>
+							<tilt>0</tilt>
+							<range>1000</range>
+						</LookAt>
+						<styleUrl>#mine</styleUrl>
+						<Point>
+							<coordinates>-2.447205,53.49526000000001,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -55410,18 +55969,17 @@
 					<name>Caerphily</name>
 					<Placemark>
 						<name>Winding House</name>
-						<open>1</open>
 						<LookAt>
-							<longitude>-3.235555600666004</longitude>
-							<latitude>51.71666669995817</latitude>
+							<longitude>-3.235787</longitude>
+							<latitude>51.71688899999999</latitude>
 							<altitude>0</altitude>
-							<heading>-5.225528095150652e-10</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>999.9999937132937</range>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#mine</styleUrl>
 						<Point>
-							<coordinates>-3.235555600666005,51.71666669995816,0</coordinates>
+							<coordinates>-3.235787,51.71688899999999,0</coordinates>
 						</Point>
 					</Placemark>
 				</Folder>
@@ -56511,7 +57069,6 @@
 		</Folder>
 		<Folder>
 			<name>gr</name>
-			<open>1</open>
 			<Folder>
 				<name>Attica</name>
 				<Placemark>
@@ -56694,6 +57251,23 @@
 					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>21.645433,38.732393,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Μαντείο Τροφωνίου - Manteio Trofoniou - Oracle of Trophonius</name>
+					<LookAt>
+						<longitude>22.87489240054054</longitude>
+						<latitude>38.43156409892894</latitude>
+						<altitude>0</altitude>
+						<heading>3.359731229443764e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000018471074</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>22.87489240054053,38.43156409892894,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -57317,6 +57891,23 @@
 						<coordinates>24.82748330951904,35.1773292644256,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Σπηλαιο Πελεκιτα - Cave of Pelekita</name>
+					<LookAt>
+						<longitude>26.27785390902573</longitude>
+						<latitude>35.11988620677626</latitude>
+						<altitude>0</altitude>
+						<heading>5.192393871617834e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000552069461</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>26.27785390902573,35.11988620677626,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Eastern Macedonia and Thrace</name>
@@ -57358,16 +57949,16 @@
 					<name>Σπηλιά του Κύκλωπα - Cave of the Cyclops Polyphemus</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>25.74684779390908</longitude>
-						<latitude>40.84820452569267</latitude>
+						<longitude>25.74669</longitude>
+						<latitude>40.8484606</latitude>
 						<altitude>0</altitude>
-						<heading>-0.001100914703996002</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>593.460290015273</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>25.74662976521338,40.84839353476375,0</coordinates>
+						<coordinates>25.74669,40.8484606,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -57451,6 +58042,23 @@
 					<styleUrl>#cave</styleUrl>
 					<Point>
 						<coordinates>20.56476378492128,39.45672740454608,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Νεκρομαντεῖον - Necromanteion of Acheron</name>
+					<LookAt>
+						<longitude>20.53362779473411</longitude>
+						<latitude>39.23640630525267</latitude>
+						<altitude>0</altitude>
+						<heading>-3.330856563768096e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999469353953</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>20.5336277947341,39.23640630525267,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -58841,7 +59449,6 @@
 			</Folder>
 			<Folder>
 				<name>Thessaly</name>
-				<open>1</open>
 				<Placemark>
 					<name>Agios Georgios Mandelas&apos;s cave</name>
 					<open>1</open>
@@ -58912,16 +59519,16 @@
 						<name>Σπηλιά του Κύκλωπα - Cave of Cyclops</name>
 						<open>1</open>
 						<LookAt>
-							<longitude>24.14552946184755</longitude>
-							<latitude>39.3693792415846</latitude>
-							<altitude>0</altitude>
-							<heading>-2.621898470837807</heading>
+							<longitude>24.1533688</longitude>
+							<latitude>39.3753865</latitude>
+							<altitude>696.4341749356346</altitude>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>2677.455634354783</range>
+							<range>1000</range>
 						</LookAt>
 						<styleUrl>#cave</styleUrl>
 						<Point>
-							<coordinates>24.14576171782688,39.36881874562906,0</coordinates>
+							<coordinates>24.1533688,39.3753865,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -64587,24 +65194,6 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>מוזיאון אסירי המחתרות - Underground Prisoners Museum</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>35.06913810252422</longitude>
-						<latitude>32.92352590159581</latitude>
-						<altitude>0</altitude>
-						<heading>1.371938622958651e-09</heading>
-						<tilt>0</tilt>
-						<range>1000.000144707847</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>35.06913810252422,32.92352590159582,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>מערת נזר - Nezer Cave</name>
 					<open>1</open>
 					<LookAt>
@@ -64771,7 +65360,6 @@
 		</Folder>
 		<Folder>
 			<name>in</name>
-			<open>1</open>
 			<Folder>
 				<name>Andhra Pradesh</name>
 				<open>1</open>
@@ -65122,7 +65710,6 @@
 			</Folder>
 			<Folder>
 				<name>Dadra and Nagar Haveli and Daman and Diu</name>
-				<open>1</open>
 				<Placemark>
 					<name>નાઇડા કેવ્સ - Naida Caves</name>
 					<LookAt>
@@ -66415,6 +67002,377 @@
 		<Folder>
 			<name>ir</name>
 			<Folder>
+				<name>Abruzzo</name>
+				<Placemark>
+					<name>Cunicoli di Claudio</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.4341900001696</longitude>
+						<latitude>41.98880999959996</latitude>
+						<altitude>0</altitude>
+						<heading>1.135028646400477e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000029474983</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.43419,41.98881,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eremo di San Bartolomeo in Legio</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.02375816464275</longitude>
+						<latitude>42.20624042426636</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001023652803339474</heading>
+						<tilt>6.276990813113759</tilt>
+						<range>1229.127736191897</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>14.02375816464275,42.20624042426636,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eremo di Sant&apos;Onofrio</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.08468643086835</longitude>
+						<latitude>42.23189482880964</latitude>
+						<altitude>0</altitude>
+						<heading>0.02023112095283745</heading>
+						<tilt>0</tilt>
+						<range>437.6166465267355</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>14.08444593201683,42.23185956196652,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eremo di Sant&apos;Onofrio al Morrone</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.9354242864022</longitude>
+						<latitude>42.08954621360446</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001084564702667733</heading>
+						<tilt>0</tilt>
+						<range>1039.976992810028</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>13.93569721674099,42.08955634056234,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gole del Salinello</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.62559877509356</longitude>
+						<latitude>42.75162099091006</latitude>
+						<altitude>0</altitude>
+						<heading>-0.02881529656051163</heading>
+						<tilt>0</tilt>
+						<range>1451.777418115035</range>
+					</LookAt>
+					<styleUrl>#gorge</styleUrl>
+					<Point>
+						<coordinates>13.62361876170198,42.75210737786492,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta a Male</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.48385660085377</longitude>
+						<latitude>42.43005860041877</latitude>
+						<altitude>0</altitude>
+						<heading>5.760588833519907e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000111622968</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.48385660085377,42.43005860041877,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta del Cavallone</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.15823313540914</longitude>
+						<latitude>42.02975911588766</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01927530955118032</heading>
+						<tilt>5.483204608565959e-12</tilt>
+						<range>6624.40651107683</range>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<coordinates>14.156508,42.035903,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta di Ciccio Felice</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.42824110137756</longitude>
+						<latitude>41.99251359961161</latitude>
+						<altitude>0</altitude>
+						<heading>9.215005175830839e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000055182747</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.42824110137756,41.99251359961161,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta di Stiffe</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.54126500006965</longitude>
+						<latitude>42.25455600195751</latitude>
+						<altitude>0</altitude>
+						<heading>4.68257162978466e-11</heading>
+						<tilt>0</tilt>
+						<range>999.9031834094485</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.541265,42.254556,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta San Michele (Pescocostanzo)</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.06276065188805</longitude>
+						<latitude>41.91048182053066</latitude>
+						<altitude>0</altitude>
+						<heading>4.901122396728667e-06</heading>
+						<tilt>0</tilt>
+						<range>214.4854582218568</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>14.06276065188805,41.91048182053066,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta Sant&apos;Angelo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.13618960737349</longitude>
+						<latitude>42.11202960296343</latitude>
+						<altitude>0</altitude>
+						<heading>4.944534835568724e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9998057567702</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.13618960737349,42.11202960296343,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta Sant&apos;Angelo - Palombaro</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.20101500071378</longitude>
+						<latitude>42.12715900044425</latitude>
+						<altitude>0</altitude>
+						<heading>4.787800281420882e-10</heading>
+						<tilt>0</tilt>
+						<range>1805.8364898675</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>14.20101500071378,42.12715900044425,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotte di Beatrice Cenci</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.26781801478321</longitude>
+						<latitude>42.02674185285567</latitude>
+						<altitude>0</altitude>
+						<heading>4.232550634289338</heading>
+						<tilt>0</tilt>
+						<range>1266.8941702958</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.26838061289982,42.02667151589223,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotte di Luppa</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.15744652301589</longitude>
+						<latitude>42.11997367301478</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01146062089196706</heading>
+						<tilt>0</tilt>
+						<range>599.5500079705436</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.157237,42.120812,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Monte Sant&apos;Angelo - Bominaco</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.65446335785848</longitude>
+						<latitude>42.24672372037916</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002869211928843272</heading>
+						<tilt>0</tilt>
+						<range>2566.445672746118</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>13.65112333997446,42.24729000934966,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>San Michele - San Vittorino</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.31435586669952</longitude>
+						<latitude>42.39667529330614</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001263200834985001</heading>
+						<tilt>0</tilt>
+						<range>2483.725602975816</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>13.31449999481834,42.39668072428211,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>San Michele Arcangelo - Lama dei Peligni</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.17913900012565</longitude>
+						<latitude>42.05675900041282</latitude>
+						<altitude>0</altitude>
+						<heading>8.415588659418389e-11</heading>
+						<tilt>0</tilt>
+						<range>2232.696649584725</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>14.17913900012565,42.05675900041282,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sant&apos;Angelo - Lettomanoppello</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>14.05412299946528</longitude>
+						<latitude>42.20972199923928</latitude>
+						<altitude>0</altitude>
+						<heading>-3.593517901304739e-10</heading>
+						<tilt>0</tilt>
+						<range>1658.851054181809</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>14.05412299946528,42.20972199923927,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sant&apos;Angelo in Vetuli</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.96212818877933</longitude>
+						<latitude>42.03215095594067</latitude>
+						<altitude>0</altitude>
+						<heading>4.001833535617675e-08</heading>
+						<tilt>0</tilt>
+						<range>5891.263969510312</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>13.96212818877933,42.03215095594067,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sant&apos;Angelo Le Ripe</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.6230982487435</longitude>
+						<latitude>42.75220857951886</latitude>
+						<altitude>0</altitude>
+						<heading>-0.009418487581678387</heading>
+						<tilt>0</tilt>
+						<range>314.1753680055874</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>13.62303828167027,42.7527169235369,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sant&apos;Angelo, Balsorano</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.57923738546843</longitude>
+						<latitude>41.82359069828741</latitude>
+						<altitude>0</altitude>
+						<heading>-0.004373628263831623</heading>
+						<tilt>0</tilt>
+						<range>6666.953563069374</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>13.58673477298267,41.82877654642412,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Riserva Naturale Grotte di Pietrasecca</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.12867571193758</longitude>
+						<latitude>42.13723168835184</latitude>
+						<altitude>0</altitude>
+						<heading>8.013091054756522e-09</heading>
+						<tilt>0</tilt>
+						<range>2588.289531560006</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.128676,42.137232,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
 				<name>East Azerbaijan</name>
 				<Placemark>
 					<name>Hilehvar Buried Village</name>
@@ -66744,7 +67702,6 @@
 			</Folder>
 			<Folder>
 				<name>Kurdistan province</name>
-				<open>1</open>
 				<Placemark>
 					<name>Karaftu Cave</name>
 					<open>1</open>
@@ -66765,7 +67722,6 @@
 			</Folder>
 			<Folder>
 				<name>Markazi Province</name>
-				<open>1</open>
 				<Placemark>
 					<name>Chal Nakhjir Cave</name>
 					<LookAt>
@@ -66784,7 +67740,6 @@
 			</Folder>
 			<Folder>
 				<name>Māzandarān Province</name>
-				<open>1</open>
 				<Placemark>
 					<name>Huto and Kamarband caves</name>
 					<open>1</open>
@@ -66822,7 +67777,6 @@
 			</Folder>
 			<Folder>
 				<name>Semnān Province</name>
-				<open>1</open>
 				<Placemark>
 					<name>Darband Cave</name>
 					<open>1</open>
@@ -66842,7 +67796,6 @@
 			</Folder>
 			<Folder>
 				<name>Tehran</name>
-				<open>1</open>
 				<Placemark>
 					<name>Rood Afshan Cave</name>
 					<open>1</open>
@@ -66864,7 +67817,6 @@
 			</Folder>
 			<Folder>
 				<name>West Azarbaijan</name>
-				<open>1</open>
 				<Placemark>
 					<name>Sahoolan Cave</name>
 					<open>1</open>
@@ -66885,7 +67837,6 @@
 			</Folder>
 			<Folder>
 				<name>Yazd Province</name>
-				<open>1</open>
 				<Placemark>
 					<name>Majmūʿa Meydân Amir Čaqmaq</name>
 					<open>1</open>
@@ -66921,7 +67872,6 @@
 			</Folder>
 			<Folder>
 				<name>Zanjan Province</name>
-				<open>1</open>
 				<Placemark>
 					<name>Ghar Katalehkhor</name>
 					<open>1</open>
@@ -67017,16 +67967,16 @@
 					<name>Þríhnúkagígur</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-21.69896360055666</longitude>
-						<latitude>63.99846200052059</latitude>
+						<longitude>-21.6991326</longitude>
+						<latitude>63.9984135</latitude>
 						<altitude>0</altitude>
-						<heading>-5.002853486208039e-10</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1000.000103255042</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>-21.69896360055666,63.9984620005206,0</coordinates>
+						<coordinates>-21.6991326,63.9984135,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -67430,381 +68380,8 @@
 		</Folder>
 		<Folder>
 			<name>it</name>
-			<open>1</open>
-			<Folder>
-				<name>Abruzzo</name>
-				<Placemark>
-					<name>Cunicoli di Claudio</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.4341900001696</longitude>
-						<latitude>41.98880999959996</latitude>
-						<altitude>0</altitude>
-						<heading>1.135028646400477e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000029474983</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.43419,41.98881,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eremo di San Bartolomeo in Legio</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.02375816464275</longitude>
-						<latitude>42.20624042426636</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0001023652803339474</heading>
-						<tilt>6.276990813113759</tilt>
-						<range>1229.127736191897</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.02375816464275,42.20624042426636,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eremo di Sant&apos;Onofrio</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.08468643086835</longitude>
-						<latitude>42.23189482880964</latitude>
-						<altitude>0</altitude>
-						<heading>0.02023112095283745</heading>
-						<tilt>0</tilt>
-						<range>437.6166465267355</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.08444593201683,42.23185956196652,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eremo di Sant&apos;Onofrio al Morrone</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.9354242864022</longitude>
-						<latitude>42.08954621360446</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0001084564702667733</heading>
-						<tilt>0</tilt>
-						<range>1039.976992810028</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>13.93569721674099,42.08955634056234,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Gole del Salinello</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.62559877509356</longitude>
-						<latitude>42.75162099091006</latitude>
-						<altitude>0</altitude>
-						<heading>-0.02881529656051163</heading>
-						<tilt>0</tilt>
-						<range>1451.777418115035</range>
-					</LookAt>
-					<styleUrl>#gorge</styleUrl>
-					<Point>
-						<coordinates>13.62361876170198,42.75210737786492,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta a Male</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.48385660085377</longitude>
-						<latitude>42.43005860041877</latitude>
-						<altitude>0</altitude>
-						<heading>5.760588833519907e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000111622968</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.48385660085377,42.43005860041877,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta del Cavallone</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.15823313540914</longitude>
-						<latitude>42.02975911588766</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01927530955118032</heading>
-						<tilt>5.483204608565959e-12</tilt>
-						<range>6624.40651107683</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>14.156508,42.035903,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta di Ciccio Felice</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.42824110137756</longitude>
-						<latitude>41.99251359961161</latitude>
-						<altitude>0</altitude>
-						<heading>9.215005175830839e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000055182747</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.42824110137756,41.99251359961161,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta di Stiffe</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.54126500006965</longitude>
-						<latitude>42.25455600195751</latitude>
-						<altitude>0</altitude>
-						<heading>4.68257162978466e-11</heading>
-						<tilt>0</tilt>
-						<range>999.9031834094485</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.541265,42.254556,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta San Michele (Pescocostanzo)</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.06276065188805</longitude>
-						<latitude>41.91048182053066</latitude>
-						<altitude>0</altitude>
-						<heading>4.901122396728667e-06</heading>
-						<tilt>0</tilt>
-						<range>214.4854582218568</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.06276065188805,41.91048182053066,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta Sant&apos;Angelo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.13618960737349</longitude>
-						<latitude>42.11202960296343</latitude>
-						<altitude>0</altitude>
-						<heading>4.944534835568724e-09</heading>
-						<tilt>0</tilt>
-						<range>999.9998057567702</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.13618960737349,42.11202960296343,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta Sant&apos;Angelo - Palombaro</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.20101500071378</longitude>
-						<latitude>42.12715900044425</latitude>
-						<altitude>0</altitude>
-						<heading>4.787800281420882e-10</heading>
-						<tilt>0</tilt>
-						<range>1805.8364898675</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.20101500071378,42.12715900044425,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotte di Beatrice Cenci</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.26781801478321</longitude>
-						<latitude>42.02674185285567</latitude>
-						<altitude>0</altitude>
-						<heading>4.232550634289338</heading>
-						<tilt>0</tilt>
-						<range>1266.8941702958</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.26838061289982,42.02667151589223,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotte di Luppa</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.15744652301589</longitude>
-						<latitude>42.11997367301478</latitude>
-						<altitude>0</altitude>
-						<heading>-0.01146062089196706</heading>
-						<tilt>0</tilt>
-						<range>599.5500079705436</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.157237,42.120812,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Monte Sant&apos;Angelo - Bominaco</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.65446335785848</longitude>
-						<latitude>42.24672372037916</latitude>
-						<altitude>0</altitude>
-						<heading>-0.002869211928843272</heading>
-						<tilt>0</tilt>
-						<range>2566.445672746118</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>13.65112333997446,42.24729000934966,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>San Michele - San Vittorino</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.31435586669952</longitude>
-						<latitude>42.39667529330614</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0001263200834985001</heading>
-						<tilt>0</tilt>
-						<range>2483.725602975816</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>13.31449999481834,42.39668072428211,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>San Michele Arcangelo - Lama dei Peligni</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.17913900012565</longitude>
-						<latitude>42.05675900041282</latitude>
-						<altitude>0</altitude>
-						<heading>8.415588659418389e-11</heading>
-						<tilt>0</tilt>
-						<range>2232.696649584725</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.17913900012565,42.05675900041282,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Sant&apos;Angelo - Lettomanoppello</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>14.05412299946528</longitude>
-						<latitude>42.20972199923928</latitude>
-						<altitude>0</altitude>
-						<heading>-3.593517901304739e-10</heading>
-						<tilt>0</tilt>
-						<range>1658.851054181809</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>14.05412299946528,42.20972199923927,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Sant&apos;Angelo in Vetuli</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.96212818877933</longitude>
-						<latitude>42.03215095594067</latitude>
-						<altitude>0</altitude>
-						<heading>4.001833535617675e-08</heading>
-						<tilt>0</tilt>
-						<range>5891.263969510312</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>13.96212818877933,42.03215095594067,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Sant&apos;Angelo Le Ripe</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.6230982487435</longitude>
-						<latitude>42.75220857951886</latitude>
-						<altitude>0</altitude>
-						<heading>-0.009418487581678387</heading>
-						<tilt>0</tilt>
-						<range>314.1753680055874</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>13.62303828167027,42.7527169235369,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Sant&apos;Angelo, Balsorano</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.57923738546843</longitude>
-						<latitude>41.82359069828741</latitude>
-						<altitude>0</altitude>
-						<heading>-0.004373628263831623</heading>
-						<tilt>0</tilt>
-						<range>6666.953563069374</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>13.58673477298267,41.82877654642412,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Riserva Naturale Grotte di Pietrasecca</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.12867571193758</longitude>
-						<latitude>42.13723168835184</latitude>
-						<altitude>0</altitude>
-						<heading>8.013091054756522e-09</heading>
-						<tilt>0</tilt>
-						<range>2588.289531560006</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#karst</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.128676,42.137232,0</coordinates>
-					</Point>
-				</Placemark>
-			</Folder>
 			<Folder>
 				<name>Basilicata</name>
-				<open>1</open>
 				<Placemark>
 					<name>Catacombe ebraiche di Venosa</name>
 					<open>1</open>
@@ -67891,7 +68468,6 @@
 				</Placemark>
 				<Folder>
 					<name>Matera</name>
-					<open>1</open>
 					<Placemark>
 						<name>Albergo Locanda di San Martino</name>
 						<open>1</open>
@@ -68416,6 +68992,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Grotta della Ninfe</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>16.40260898668344</longitude>
 						<latitude>39.84117599148062</latitude>
@@ -68749,6 +69326,41 @@
 							<coordinates>14.25754919470779,40.85077786790848,0</coordinates>
 						</Point>
 					</Placemark>
+					<Placemark>
+						<name>Napoli Sotterranea</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>14.25684699545588</longitude>
+							<latitude>40.8510786974422</latitude>
+							<altitude>0</altitude>
+							<heading>-2.972333308132144e-09</heading>
+							<tilt>0</tilt>
+							<range>999.9999915788086</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>14.25684699545588,40.8510786974422,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Galleria Borbonica</name>
+						<LookAt>
+							<longitude>14.24627699963201</longitude>
+							<latitude>40.83547679869586</latitude>
+							<altitude>0</altitude>
+							<heading>-2.406964269064553e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000012864498</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>14.24627699963201,40.83547679869586,0</coordinates>
+						</Point>
+					</Placemark>
 				</Folder>
 				<Placemark>
 					<name>Antro della Sibilla</name>
@@ -68968,6 +69580,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Grotta di San Michele a Gualana</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>13.86691599812392</longitude>
 						<latitude>41.2286000034107</latitude>
@@ -69478,8 +70091,10 @@
 				</Placemark>
 				<Folder>
 					<name>Rimini</name>
+					<open>1</open>
 					<Placemark>
 						<name>Grotta dell&apos;Onferno</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>12.54571977709833</longitude>
 							<latitude>43.87268466977324</latitude>
@@ -69495,6 +70110,7 @@
 					</Placemark>
 					<Placemark>
 						<name>Grotte Tufacee Comunali</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>12.44415729895437</longitude>
 							<latitude>44.06447769636005</latitude>
@@ -69512,6 +70128,7 @@
 					</Placemark>
 					<Placemark>
 						<name>Bunker Tour Cervia</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>12.35589027257546</longitude>
 							<latitude>44.26924743401607</latitude>
@@ -69531,9 +70148,9 @@
 			</Folder>
 			<Folder>
 				<name>Friuli-Venezia Giulia</name>
-				<open>1</open>
 				<Placemark>
 					<name>Abisso Vigant</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>13.28956380003589</longitude>
 						<latitude>46.24488530069531</latitude>
@@ -69748,311 +70365,111 @@
 			</Folder>
 			<Folder>
 				<name>Lazio</name>
-				<Placemark>
-					<name>Bunker Soratte</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.50820000000003</longitude>
-						<latitude>42.23660000000001</latitude>
-						<altitude>0</altitude>
-						<heading>-5.565970692561154e-14</heading>
-						<tilt>0</tilt>
-						<range>999.9999999987452</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>12.50820000000003,42.23660000000001,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Calcata</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.41908950610747</longitude>
-						<latitude>42.21637934012099</latitude>
-						<altitude>0</altitude>
-						<heading>-0.003117717361765408</heading>
-						<tilt>0</tilt>
-						<range>291.724218526531</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>12.41966,42.216626,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Cisternone Romano</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.60112719669353</longitude>
-						<latitude>41.25559050251207</latitude>
-						<altitude>0</altitude>
-						<heading>-2.180372011893047e-09</heading>
-						<tilt>0</tilt>
-						<range>999.9999825631352</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.601127,41.255591,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Dolina del Revotano</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.69525469853038</longitude>
-						<latitude>42.31092211939872</latitude>
-						<altitude>0</altitude>
-						<heading>-0.02200007198569996</heading>
-						<tilt>0</tilt>
-						<range>662.643295978979</range>
-					</LookAt>
-					<styleUrl>#karst</styleUrl>
-					<Point>
-						<coordinates>12.69525469853038,42.31092211939873,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eremo di Poggio Conte</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>11.62638967828115</longitude>
-						<latitude>42.5110059925442</latitude>
-						<altitude>0</altitude>
-						<heading>-4.164204382522083e-07</heading>
-						<tilt>0</tilt>
-						<range>548.0757130494811</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>11.62638967828115,42.5110059925442,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eremo di San Cataldo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.68995820000002</longitude>
-						<latitude>42.41040569999996</latitude>
-						<altitude>0</altitude>
-						<heading>-9.859719512536902e-14</heading>
-						<tilt>0</tilt>
-						<range>999.9999999974235</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>12.68995820000002,42.41040569999996,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Eremo di San Leonardo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.70551509973752</longitude>
-						<latitude>42.31214969943054</latitude>
-						<altitude>0</altitude>
-						<heading>-1.767879514144681e-10</heading>
-						<tilt>0</tilt>
-						<range>1000.000040882171</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>12.70551509973752,42.31214969943053,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta dell&apos;Arco di Bellegra</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.04795680373794</longitude>
-						<latitude>41.8913514003129</latitude>
-						<altitude>0</altitude>
-						<heading>2.495830557141984e-09</heading>
-						<tilt>0</tilt>
-						<range>999.9999925324124</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.04795680373794,41.89135140031291,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta di Collepardo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.36627549092404</longitude>
-						<latitude>41.75807457597581</latitude>
-						<altitude>0</altitude>
-						<heading>3.354554318034004</heading>
-						<tilt>0</tilt>
-						<range>200.6066308193941</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>13.36612222222222,41.75831111111111,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta di Pastena</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.4896289</longitude>
-						<latitude>41.4966672</latitude>
-						<altitude>0</altitude>
-						<heading>0</heading>
-						<tilt>0</tilt>
-						<range>1000</range>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<coordinates>13.4896289,41.4966672,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotta di San Michele Arcangelo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.7279352</longitude>
-						<latitude>42.3068537</latitude>
-						<altitude>0</altitude>
-						<heading>-3.180554681463517e-15</heading>
-						<tilt>0</tilt>
-						<range>1000.000000000443</range>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<coordinates>12.727935,42.306854,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotte di Falvaterra</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.49876308243922</longitude>
-						<latitude>41.51131240943808</latitude>
-						<altitude>0</altitude>
-						<heading>-1.151022065616217e-09</heading>
-						<tilt>0</tilt>
-						<range>1003.208658217166</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.498763,41.511312,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotte di Pilato</name>
-					<LookAt>
-						<longitude>12.97109300074161</longitude>
-						<latitude>40.89611809859759</latitude>
-						<altitude>0</altitude>
-						<heading>4.854289777036876e-10</heading>
-						<tilt>0</tilt>
-						<range>999.733218603076</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>12.97109300074161,40.89611809859759,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Grotte di Val de’ Varri</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.13785258723513</longitude>
-						<latitude>42.19088367674836</latitude>
-						<altitude>0</altitude>
-						<heading>13.91026231650543</heading>
-						<tilt>0</tilt>
-						<range>989.7876250341384</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#showcave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>13.13862105530333,42.19092695769858,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Pozzo Del Diavolo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.18122168882614</longitude>
-						<latitude>42.34214819179903</latitude>
-						<altitude>0</altitude>
-						<heading>-7.526319882977258e-09</heading>
-						<tilt>0</tilt>
-						<range>1000.000544071649</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#cave</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>12.18122168882614,42.34214819179903,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Pozzo del Merro</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>12.68052649127551</longitude>
-						<latitude>42.03901946209543</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0003914729189122538</heading>
-						<tilt>0</tilt>
-						<range>2391.03960166797</range>
-					</LookAt>
-					<styleUrl>#karst</styleUrl>
-					<Point>
-						<coordinates>12.68052649127551,42.03901946209543,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Pozzo Santullo</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>13.36892130308671</longitude>
-						<latitude>41.7701955923988</latitude>
-						<altitude>0</altitude>
-						<heading>3.356316756154847</heading>
-						<tilt>0</tilt>
-						<range>437.2819141784183</range>
-					</LookAt>
-					<styleUrl>#karst</styleUrl>
-					<Point>
-						<coordinates>13.36852016794209,41.77055534522501,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>Re Tarquinio</name>
-					<open>1</open>
-					<LookAt>
-						<longitude>11.75951067385579</longitude>
-						<latitude>42.25463820144903</latitude>
-						<altitude>0</altitude>
-						<heading>-0.0004379665787351314</heading>
-						<tilt>1.453689106025483e-12</tilt>
-						<range>3349.325124682119</range>
-					</LookAt>
-					<styleUrl>#subterranea</styleUrl>
-					<Point>
-						<coordinates>11.75955758988071,42.25465066723363,0</coordinates>
-					</Point>
-				</Placemark>
 				<Folder>
-					<name>Roma</name>
+					<name>0Roma</name>
+					<Placemark>
+						<name>Catacomba di Domitilla</name>
+						<LookAt>
+							<longitude>12.50561199736238</longitude>
+							<latitude>41.85875200409846</latitude>
+							<altitude>0</altitude>
+							<heading>-1.760147585714044e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.000038629161</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.50561199736238,41.85875200409846,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacomba di S. Pancrazio</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>12.45397100129733</longitude>
+							<latitude>41.8849229981214</latitude>
+							<altitude>0</altitude>
+							<heading>8.660682203171967e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000016857931</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.45397100129733,41.8849229981214,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacombe dei Santi Marcellino e Pietro</name>
+						<LookAt>
+							<longitude>12.54860300357232</longitude>
+							<latitude>41.87869610078445</latitude>
+							<altitude>0</altitude>
+							<heading>2.384709927958352e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.00005830237</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.54860300357232,41.87869610078445,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacombe di Priscilla - Catacomb of Priscilla</name>
+						<LookAt>
+							<longitude>12.50876520060321</longitude>
+							<latitude>41.92972620209378</latitude>
+							<altitude>0</altitude>
+							<heading>4.031130419927303e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000001004732</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.50876520060321,41.92972620209378,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacombe di San Sebastiano</name>
+						<LookAt>
+							<longitude>12.5157967963899</longitude>
+							<latitude>41.85593000444244</latitude>
+							<altitude>0</altitude>
+							<heading>-2.40889327547886e-09</heading>
+							<tilt>0</tilt>
+							<range>999.9998757183013</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.5157967963899,41.85593000444245,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacombe di Sant&apos;Agnese</name>
+						<LookAt>
+							<longitude>12.51875999755978</longitude>
+							<latitude>41.92276810411882</latitude>
+							<altitude>0</altitude>
+							<heading>-1.630516128284293e-09</heading>
+							<tilt>0</tilt>
+							<range>1000.00001691281</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.51875999755978,41.92276810411882,0</coordinates>
+						</Point>
+					</Placemark>
 					<Placemark>
 						<name>Cloaca Maxima - Forum Romanum</name>
 						<open>1</open>
@@ -70118,6 +70535,42 @@
 						</Point>
 					</Placemark>
 					<Placemark>
+						<name>Fosse Ardeatine</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>12.5099516000463</longitude>
+							<latitude>41.8571741057688</latitude>
+							<altitude>0</altitude>
+							<heading>3.091340122648465e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000370257302</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.5099516000463,41.8571741057688,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Grottino del Campidoglio</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>12.48280180010599</longitude>
+							<latitude>41.89335920021805</latitude>
+							<altitude>0</altitude>
+							<heading>7.066397363541568e-11</heading>
+							<tilt>0</tilt>
+							<range>1000.000015786283</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#subterranea</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>12.482802,41.893359,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
 						<name>Labirinto Casilino</name>
 						<open>1</open>
 						<LookAt>
@@ -70157,16 +70610,17 @@
 						<name>Le Catacombe di San Callisto</name>
 						<open>1</open>
 						<LookAt>
-							<longitude>12.50875050020669</longitude>
-							<latitude>41.86082450029895</latitude>
+							<longitude>12.5107044</longitude>
+							<latitude>41.8590708</latitude>
 							<altitude>0</altitude>
-							<heading>1.378436496172881e-10</heading>
+							<heading>0</heading>
 							<tilt>0</tilt>
-							<range>1000.000005402058</range>
+							<range>1000</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 						</LookAt>
 						<styleUrl>#subterranea</styleUrl>
 						<Point>
-							<coordinates>12.50875050020669,41.86082450029895,0</coordinates>
+							<coordinates>12.5107044,41.8590708,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -70349,24 +70803,328 @@
 							<coordinates>12.5112976,41.9149374,0</coordinates>
 						</Point>
 					</Placemark>
-					<Placemark>
-						<name>Grottino del Campidoglio</name>
-						<LookAt>
-							<longitude>12.48280180010599</longitude>
-							<latitude>41.89335920021805</latitude>
-							<altitude>0</altitude>
-							<heading>7.066397363541568e-11</heading>
-							<tilt>0</tilt>
-							<range>1000.000015786283</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#subterranea</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>12.482802,41.893359,0</coordinates>
-						</Point>
-					</Placemark>
 				</Folder>
+				<Placemark>
+					<name>Bunker Soratte</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.50820000000003</longitude>
+						<latitude>42.23660000000001</latitude>
+						<altitude>0</altitude>
+						<heading>-5.565970692561154e-14</heading>
+						<tilt>0</tilt>
+						<range>999.9999999987452</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>12.50820000000003,42.23660000000001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Calcata</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.41908950610747</longitude>
+						<latitude>42.21637934012099</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003117717361765408</heading>
+						<tilt>0</tilt>
+						<range>291.724218526531</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>12.41966,42.216626,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Catacomba di Santa Cristina</name>
+					<LookAt>
+						<longitude>11.98972150067587</longitude>
+						<latitude>42.64349150192717</latitude>
+						<altitude>0</altitude>
+						<heading>4.578567491700805e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999571900107</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>11.98972150067587,42.64349150192717,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Cisternone Romano</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.60112719669353</longitude>
+						<latitude>41.25559050251207</latitude>
+						<altitude>0</altitude>
+						<heading>-2.180372011893047e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999825631352</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.601127,41.255591,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Dolina del Revotano</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.69525469853038</longitude>
+						<latitude>42.31092211939872</latitude>
+						<altitude>0</altitude>
+						<heading>-0.02200007198569996</heading>
+						<tilt>0</tilt>
+						<range>662.643295978979</range>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<coordinates>12.69525469853038,42.31092211939873,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eremo di Poggio Conte</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>11.62638967828115</longitude>
+						<latitude>42.5110059925442</latitude>
+						<altitude>0</altitude>
+						<heading>-4.164204382522083e-07</heading>
+						<tilt>0</tilt>
+						<range>548.0757130494811</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>11.62638967828115,42.5110059925442,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eremo di San Cataldo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.68995820000002</longitude>
+						<latitude>42.41040569999996</latitude>
+						<altitude>0</altitude>
+						<heading>-9.859719512536902e-14</heading>
+						<tilt>0</tilt>
+						<range>999.9999999974235</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>12.68995820000002,42.41040569999996,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Eremo di San Leonardo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.70551509973752</longitude>
+						<latitude>42.31214969943054</latitude>
+						<altitude>0</altitude>
+						<heading>-1.767879514144681e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000040882171</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>12.70551509973752,42.31214969943053,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta dell&apos;Arco di Bellegra</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.04795680373794</longitude>
+						<latitude>41.8913514003129</latitude>
+						<altitude>0</altitude>
+						<heading>2.495830557141984e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999925324124</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.04795680373794,41.89135140031291,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta di Collepardo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.36627549092404</longitude>
+						<latitude>41.75807457597581</latitude>
+						<altitude>0</altitude>
+						<heading>3.354554318034004</heading>
+						<tilt>0</tilt>
+						<range>200.6066308193941</range>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<coordinates>13.36612222222222,41.75831111111111,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta di Pastena</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.4896289</longitude>
+						<latitude>41.4966672</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<coordinates>13.4896289,41.4966672,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotta di San Michele Arcangelo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.7279352</longitude>
+						<latitude>42.3068537</latitude>
+						<altitude>0</altitude>
+						<heading>-3.180554681463517e-15</heading>
+						<tilt>0</tilt>
+						<range>1000.000000000443</range>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<coordinates>12.727935,42.306854,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotte di Falvaterra</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.49876308243922</longitude>
+						<latitude>41.51131240943808</latitude>
+						<altitude>0</altitude>
+						<heading>-1.151022065616217e-09</heading>
+						<tilt>0</tilt>
+						<range>1003.208658217166</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.498763,41.511312,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotte di Pilato</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.97109300074161</longitude>
+						<latitude>40.89611809859759</latitude>
+						<altitude>0</altitude>
+						<heading>4.854289777036876e-10</heading>
+						<tilt>0</tilt>
+						<range>999.733218603076</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>12.97109300074161,40.89611809859759,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Grotte di Val de’ Varri</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.13785258723513</longitude>
+						<latitude>42.19088367674836</latitude>
+						<altitude>0</altitude>
+						<heading>13.91026231650543</heading>
+						<tilt>0</tilt>
+						<range>989.7876250341384</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#showcave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.13862105530333,42.19092695769858,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pozzo Del Diavolo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.18122168882614</longitude>
+						<latitude>42.34214819179903</latitude>
+						<altitude>0</altitude>
+						<heading>-7.526319882977258e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000544071649</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>12.18122168882614,42.34214819179903,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pozzo del Merro</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>12.68052649127551</longitude>
+						<latitude>42.03901946209543</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0003914729189122538</heading>
+						<tilt>0</tilt>
+						<range>2391.03960166797</range>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<coordinates>12.68052649127551,42.03901946209543,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pozzo Santullo</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>13.36892130308671</longitude>
+						<latitude>41.7701955923988</latitude>
+						<altitude>0</altitude>
+						<heading>3.356316756154847</heading>
+						<tilt>0</tilt>
+						<range>437.2819141784183</range>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<coordinates>13.36852016794209,41.77055534522501,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Re Tarquinio</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>11.75951067385579</longitude>
+						<latitude>42.25463820144903</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0004379665787351314</heading>
+						<tilt>1.453689106025483e-12</tilt>
+						<range>3349.325124682119</range>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<coordinates>11.75955758988071,42.25465066723363,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Sacro Speco</name>
 					<open>1</open>
@@ -71884,6 +72642,7 @@
 				</Placemark>
 				<Folder>
 					<name>Il Gargano</name>
+					<open>1</open>
 					<Placemark>
 						<name>Cento Pozzi</name>
 						<open>1</open>
@@ -72726,6 +73485,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Necropoli di Anghelu Ruju</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>8.326698001338817</longitude>
 						<latitude>40.63303399957125</latitude>
@@ -72743,6 +73503,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Necropoli di Santu Pedru</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>8.402947999235659</longitude>
 						<latitude>40.62352729994456</latitude>
@@ -72760,6 +73521,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Necropoli di Sant’Andrea Priu</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>8.847373305055013</longitude>
 						<latitude>40.42149259834139</latitude>
@@ -72862,6 +73624,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Su Stampu &apos;e su Tùrrunu</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>9.265126701091503</longitude>
 						<latitude>39.85060660341735</latitude>
@@ -72891,6 +73654,23 @@
 					<styleUrl>#showcave</styleUrl>
 					<Point>
 						<coordinates>9.606455555555556,40.31863888888889,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Catacomba di S. Antioco</name>
+					<LookAt>
+						<longitude>8.450730002342976</longitude>
+						<latitude>39.06954999818776</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>8.45073,39.06955,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -72950,6 +73730,7 @@
 				</Placemark>
 				<Folder>
 					<name>Catania</name>
+					<open>1</open>
 					<Placemark>
 						<name>Chiesa di San Gaetano alle Grotte</name>
 						<open>1</open>
@@ -73107,6 +73888,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Grotta del Genovese</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>12.32189299608424</longitude>
 						<latitude>38.00187759627757</latitude>
@@ -73258,6 +74040,7 @@
 				</Placemark>
 				<Folder>
 					<name>Ispica</name>
+					<open>1</open>
 					<Placemark>
 						<name>Castello Sicano</name>
 						<open>1</open>
@@ -73421,6 +74204,7 @@
 				</Placemark>
 				<Folder>
 					<name>Palermo</name>
+					<open>1</open>
 					<Placemark>
 						<name>Catacombe Cappuccini</name>
 						<open>1</open>
@@ -73437,6 +74221,23 @@
 						<Point>
 							<gx:drawOrder>1</gx:drawOrder>
 							<coordinates>13.33921100149263,38.11157900087168,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Catacombe di Porta d&apos;Ossuna</name>
+						<LookAt>
+							<longitude>13.35092320023159</longitude>
+							<latitude>38.11607730197921</latitude>
+							<altitude>0</altitude>
+							<heading>1.428609746272968e-10</heading>
+							<tilt>0</tilt>
+							<range>1000.000028101767</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin1</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>13.35092320023159,38.11607730197921,0</coordinates>
 						</Point>
 					</Placemark>
 					<Placemark>
@@ -73604,8 +74405,10 @@
 				</Folder>
 				<Folder>
 					<name>Panitella Island</name>
+					<open>1</open>
 					<Placemark>
 						<name>Arco dell&apos;Elefante</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>12.05357310022598</longitude>
 							<latitude>36.79289810035394</latitude>
@@ -73623,6 +74426,7 @@
 					</Placemark>
 					<Placemark>
 						<name>Bagno Asciutto Grotta Di Benikulá</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>11.98510709989465</longitude>
 							<latitude>36.77655229946789</latitude>
@@ -73640,6 +74444,7 @@
 					</Placemark>
 					<Placemark>
 						<name>Grotta dei Briganti</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>12.00330150021397</longitude>
 							<latitude>36.77756180084613</latitude>
@@ -73657,6 +74462,7 @@
 					</Placemark>
 					<Placemark>
 						<name>Grotta del Freddo</name>
+						<open>1</open>
 						<LookAt>
 							<longitude>11.96076260014029</longitude>
 							<latitude>36.79281470033328</latitude>
@@ -73711,6 +74517,7 @@
 				</Placemark>
 				<Folder>
 					<name>Siracusa</name>
+					<open>1</open>
 					<Placemark>
 						<name>Catacomba di Santa Lucia</name>
 						<open>1</open>
@@ -73876,6 +74683,7 @@
 				</Folder>
 				<Placemark>
 					<name>Spiaggia Bue Marino</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>12.36967879713711</longitude>
 						<latitude>37.91735679498012</latitude>
@@ -74934,6 +75742,7 @@
 				</Placemark>
 				<Placemark>
 					<name>Rastenbachklamm</name>
+					<open>1</open>
 					<LookAt>
 						<longitude>11.24051730143342</longitude>
 						<latitude>46.38081390002341</latitude>
@@ -75437,7 +76246,6 @@
 			</Folder>
 			<Folder>
 				<name>Veneto</name>
-				<open>1</open>
 				<Placemark>
 					<name>Casa Rupestre &quot;La Sengia&quot; Zovencedo</name>
 					<open>1</open>
@@ -85339,7 +86147,6 @@
 		</Folder>
 		<Folder>
 			<name>mx</name>
-			<open>1</open>
 			<Folder>
 				<name>Baja California</name>
 				<open>1</open>
@@ -95538,6 +96345,7 @@
 			</Folder>
 			<Folder>
 				<name>Madeira</name>
+				<open>1</open>
 				<Placemark>
 					<name>Furnas do Cavalum</name>
 					<open>1</open>
@@ -95559,16 +96367,16 @@
 					<name>Grutas de São Vicente</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-17.04220126524444</longitude>
-						<latitude>32.79806453606936</latitude>
+						<longitude>-17.042387</longitude>
+						<latitude>32.797546</latitude>
 						<altitude>0</altitude>
-						<heading>-0.03459268054103201</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>513.8634799653134</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>-17.04220126524444,32.79806453606936,0</coordinates>
+						<coordinates>-17.042387,32.797546,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -98984,6 +99792,23 @@
 					<coordinates>39.84975640000004,21.377189,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark>
+				<name>كهف أم جرسان - Um Jarsan Cave - Umm Jirsan Cave</name>
+				<LookAt>
+					<longitude>39.75694949952238</longitude>
+					<latitude>25.58893140019684</latitude>
+					<altitude>0</altitude>
+					<heading>-2.062971377490866e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000183692626</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#showcave</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>39.75694949952238,25.58893140019684,0</coordinates>
+				</Point>
+			</Placemark>
 		</Folder>
 		<Folder>
 			<name>se</name>
@@ -99287,6 +100112,40 @@
 						<coordinates>12.4048,63.16880000000001,0</coordinates>
 					</Point>
 				</Placemark>
+				<Placemark>
+					<name>Bergsjögrottan</name>
+					<LookAt>
+						<longitude>13.2576128996099</longitude>
+						<latitude>63.53593789874905</latitude>
+						<altitude>0</altitude>
+						<heading>-3.492726123449161e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000084264543</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.2576128996099,63.53593789874905,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Kvarnbäckslabyrinten</name>
+					<LookAt>
+						<longitude>13.18021329949067</longitude>
+						<latitude>63.44813589931196</latitude>
+						<altitude>0</altitude>
+						<heading>-4.557607636349959e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000002646134</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>13.18021329949066,63.44813589931196,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Jönköpings Län</name>
@@ -99383,19 +100242,19 @@
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Kåppasjokk Caves</name>
+					<name>Kåppasjåkka</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>18.68298833375762</longitude>
-						<latitude>68.40592536266536</latitude>
+						<longitude>18.680333</longitude>
+						<latitude>68.39275000000001</latitude>
 						<altitude>0</altitude>
-						<heading>-0.002664753205871531</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>17001.52124449757</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>18.68298833375762,68.40592536266536,0</coordinates>
+						<coordinates>18.680333,68.39275000000001,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -99642,18 +100501,17 @@
 				</Placemark>
 				<Placemark>
 					<name>Tekniska Museet</name>
-					<open>1</open>
 					<LookAt>
-						<longitude>18.11792759954534</longitude>
-						<latitude>59.332819436377</latitude>
+						<longitude>18.11884</longitude>
+						<latitude>59.33251490000001</latitude>
 						<altitude>0</altitude>
-						<heading>-0.001483227623258286</heading>
-						<tilt>2.358797818164857e-11</tilt>
-						<range>738.6138198118562</range>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#mine</styleUrl>
 					<Point>
-						<coordinates>18.11779591217871,59.33249101620474,0</coordinates>
+						<coordinates>18.11884,59.33251490000001,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -99920,16 +100778,16 @@
 					<name>Skallbergsgrottan</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>18.93287292890255</longitude>
-						<latitude>63.5002182357496</latitude>
+						<longitude>18.9334674</longitude>
+						<latitude>63.50060839999999</latitude>
 						<altitude>0</altitude>
-						<heading>-0.000307983135211743</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>2796.870323009558</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>18.93325,63.500605,0</coordinates>
+						<coordinates>18.9334674,63.50060839999999,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -104869,7 +105727,6 @@
 		</Folder>
 		<Folder>
 			<name>tr</name>
-			<open>1</open>
 			<Folder>
 				<name>Aegean Region</name>
 				<Placemark>
@@ -108224,16 +109081,16 @@
 					<name>Beckham Creek Cave Lodge</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-93.31555133439822</longitude>
-						<latitude>35.95523479744523</latitude>
+						<longitude>-93.31725000000002</longitude>
+						<latitude>35.954667</latitude>
 						<altitude>0</altitude>
-						<heading>-0.03458501750261774</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1265.378988025742</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>-93.31643819629629,35.95515674547294,0</coordinates>
+						<coordinates>-93.31725000000002,35.954667,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -108727,6 +109584,40 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Birthing Cave</name>
+					<LookAt>
+						<longitude>-111.8361719972092</longitude>
+						<latitude>34.91303729641739</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-111.8361719972092,34.91303729641739,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Boynton Subway Cave</name>
+					<LookAt>
+						<longitude>-111.8630916952513</longitude>
+						<latitude>34.93245969756683</latitude>
+						<altitude>0</altitude>
+						<heading>2.719172287429034e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000602970579</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-111.8630916952513,34.93245969756683,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Castle Dome Mine Museum</name>
 					<open>1</open>
 					<LookAt>
@@ -108826,16 +109717,33 @@
 					<name>Flagstaff Lava River Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-111.8356100002058</longitude>
-						<latitude>35.34226999966664</latitude>
+						<longitude>-111.8356465</longitude>
+						<latitude>35.3421725</latitude>
 						<altitude>0</altitude>
-						<heading>-1.190608839459053e-10</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1299.453334968507</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>-111.8356100002058,35.34226999966664,0</coordinates>
+						<coordinates>-111.8356465,35.3421725,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Fossil Springs</name>
+					<LookAt>
+						<longitude>-111.5679331150876</longitude>
+						<latitude>34.4066264963311</latitude>
+						<altitude>0</altitude>
+						<heading>-8.525451379225505e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000083669357</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#karst</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-111.5679331150876,34.4066264963311,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -108967,6 +109875,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Honanki Cliff Dwellings</name>
+					<LookAt>
+						<longitude>-111.9332652945692</longitude>
+						<latitude>34.93939149644475</latitude>
+						<altitude>0</altitude>
+						<heading>3.110242159120403e-09</heading>
+						<tilt>0</tilt>
+						<range>999.7395645092749</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-111.9332652945692,34.93939149644474,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Horseshoe Bend</name>
 					<open>1</open>
 					<LookAt>
@@ -109095,6 +110020,23 @@
 					</Point>
 				</Placemark>
 				<Placemark>
+					<name>Palatki Cliff Dwellings</name>
+					<LookAt>
+						<longitude>-111.8993634976361</longitude>
+						<latitude>34.91726133460114</latitude>
+						<altitude>0</altitude>
+						<heading>1.353074753142891e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9985274812898</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-111.8993634976361,34.91726133460114,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>Peppersauce Cave</name>
 					<open>1</open>
 					<LookAt>
@@ -109172,6 +110114,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>-110.7495405695656,31.83272373840575,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Soldier Pass Cave</name>
+					<LookAt>
+						<longitude>-111.7855803023826</longitude>
+						<latitude>34.90075560138764</latitude>
+						<altitude>0</altitude>
+						<heading>-1.36326684061964e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000182635414</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-111.7855803023826,34.90075560138764,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -109726,6 +110685,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>-120.8529215340482,39.4895568288844,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Subway Cave</name>
+					<LookAt>
+						<longitude>-121.4188539812422</longitude>
+						<latitude>40.68600799673595</latitude>
+						<altitude>0</altitude>
+						<heading>1.222841534767409e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000104220917</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#cave</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-121.4188539812422,40.68600799673595,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -112668,7 +113644,6 @@
 				</Placemark>
 				<Folder>
 					<name>Mammoth Cave Area</name>
-					<open>1</open>
 					<Placemark>
 						<name>Cave Spring Caverns - Crumps Cave</name>
 						<open>1</open>
@@ -113240,7 +114215,6 @@
 			</Folder>
 			<Folder>
 				<name>mo</name>
-				<open>1</open>
 				<Placemark>
 					<name>Bat Bar</name>
 					<open>1</open>
@@ -114429,16 +115403,16 @@
 					<name>Indian Cave State Park</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-95.57981009999995</longitude>
-						<latitude>40.26479609999999</latitude>
+						<longitude>-95.51941449999998</longitude>
+						<latitude>40.2467749</latitude>
 						<altitude>0</altitude>
-						<heading>3.975693351829396e-15</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1000.000000001804</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#cave</styleUrl>
 					<Point>
-						<coordinates>-95.57981009999996,40.2647961,0</coordinates>
+						<coordinates>-95.51941449999998,40.2467749,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -114839,16 +115813,16 @@
 					<name>Kokopelli&apos;s Cave</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-108.2076001724108</longitude>
-						<latitude>36.78896614005487</latitude>
+						<longitude>-108.2083502</longitude>
+						<latitude>36.7891946</latitude>
 						<altitude>0</altitude>
-						<heading>0.001011455562611493</heading>
+						<heading>0</heading>
 						<tilt>0</tilt>
-						<range>1137.879250630543</range>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#subterranea</styleUrl>
 					<Point>
-						<coordinates>-108.208400097871,36.78925976701242,0</coordinates>
+						<coordinates>-108.2083502,36.7891946,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -115440,7 +116414,6 @@
 				</Placemark>
 				<Folder>
 					<name>New York City</name>
-					<open>1</open>
 					<Placemark>
 						<name>Federal Reserve Bank of New York Gold Vault</name>
 						<open>1</open>
@@ -115626,6 +116599,23 @@
 					<styleUrl>#mine</styleUrl>
 					<Point>
 						<coordinates>-74.09863790243702,41.84231071340803,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Lockport Cave and Underground Boat Ride</name>
+					<LookAt>
+						<longitude>-78.69257699689068</longitude>
+						<latitude>43.17185799466402</latitude>
+						<altitude>0</altitude>
+						<heading>2.127326720915598e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000318568746</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#subterranea</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-78.69257699689068,43.17185799466402,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -116845,16 +117835,16 @@
 					<name>Black Hills Caverns</name>
 					<open>1</open>
 					<LookAt>
-						<longitude>-103.3573854972414</longitude>
-						<latitude>44.05807530048861</latitude>
+						<longitude>-103.356335</longitude>
+						<latitude>44.060792</latitude>
 						<altitude>0</altitude>
-						<heading>0.007574543015668456</heading>
-						<tilt>3.744796774983038e-13</tilt>
-						<range>737.2839516789203</range>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
 					</LookAt>
 					<styleUrl>#showcave</styleUrl>
 					<Point>
-						<coordinates>-103.3573854972414,44.05807530048861,0</coordinates>
+						<coordinates>-103.356335,44.060792,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -118969,6 +119959,23 @@
 			</Folder>
 			<Folder>
 				<name>wy</name>
+				<Placemark>
+					<name>Aladdin Coal Tipple</name>
+					<LookAt>
+						<longitude>-104.1624019466495</longitude>
+						<latitude>44.63881341705501</latitude>
+						<altitude>0</altitude>
+						<heading>0</heading>
+						<tilt>0</tilt>
+						<range>1000</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#mine</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-104.162402,44.638813,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Ayres Natural Bridge</name>
 					<open>1</open>
@@ -121774,7 +122781,7 @@
 				</Point>
 			</Placemark>
 		</Folder>
-		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1094"></atom:link>
 	</Folder>
 </Document>
 </kml>
