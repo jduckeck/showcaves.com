@@ -4,3 +4,5 @@ UPDATE `sights`
 SET `Latitude`='52.427065',
     `Longitude`='-2.265344'
 WHERE `filename` = '/english/gb/subterranea/Drakelow.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Pont Sarrazin', '/english/fr/karst/PontSarrazin.html', 'PontSarrazin', 'Europe', 'fr', 'France', 'karst', 'Jura', 47.4565436, 6.9153651);
