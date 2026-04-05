@@ -6,3 +6,5 @@ SET `Latitude`='52.427065',
 WHERE `filename` = '/english/gb/subterranea/Drakelow.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Pont Sarrazin', '/english/fr/karst/PontSarrazin.html', 'PontSarrazin', 'Europe', 'fr', 'France', 'karst', 'Jura', 47.4565436, 6.9153651);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'The Pedway', '/english/usa/subterranea/Pedway.html', 'Pedway', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'il', 41.883848, -87.627879);
