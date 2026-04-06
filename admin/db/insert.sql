@@ -12,3 +12,9 @@ UPDATE `sights`
 SET `Latitude`='-34.186228',
     `Longitude`='22.156859'
 WHERE `filename` = '/english/za/showcaves/StBlaize.html';
+UPDATE `sights`
+SET `Latitude`='35.748731',
+    `Longitude`='53.352808'
+WHERE `filename` = '/english/ir/showcaves/Darband.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Darband Rashi Cave', '/english/ir/caves/DarbandRashi.html', 'DarbandRashi', 'MiddleEast', 'ir', 'Iran', 'caves', 'Gilan', 36.8349749, 49.6545982);
