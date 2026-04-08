@@ -24,3 +24,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gruta dos Milagres', '/english/br/showcaves/Milagres.html', 'Milagres', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Bahia', -13.258274, -43.417679);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gruta da Ressurreição', '/english/br/showcaves/Ressurreicao.html', 'Ressurreicao', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Bahia', -13.258455, -43.420386);
+UPDATE `sights`
+SET `Latitude`='-13.8395',
+    `Longitude`='-41.3154'
+WHERE `filename` = '/english/br/showcaves/Mangabeira.html';
