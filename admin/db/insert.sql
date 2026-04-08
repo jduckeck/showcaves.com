@@ -18,3 +18,9 @@ SET `Latitude`='35.748731',
 WHERE `filename` = '/english/ir/showcaves/Darband.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Darband Rashi Cave', '/english/ir/caves/DarbandRashi.html', 'DarbandRashi', 'MiddleEast', 'ir', 'Iran', 'caves', 'Gilan', 36.8349749, 49.6545982);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta de Belém', '/english/br/showcaves/Belem.html', 'Belem', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Bahia', -13.2565464, -43.4171493);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta dos Milagres', '/english/br/showcaves/Milagres.html', 'Milagres', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Bahia', -13.258274, -43.417679);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gruta da Ressurreição', '/english/br/showcaves/Ressurreicao.html', 'Ressurreicao', 'SouthAmerica', 'br', 'Brazil', 'showcaves', 'Bahia', -13.258455, -43.420386);
