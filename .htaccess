@@ -108,10 +108,17 @@ Redirect 301 /english/usa/showcaves/GreatOnyx.htmlDuis /english/usa/showcaves/Gr
 Redirect 301 /english/usa/showcaves/X.html /english/usa/showcaves/CarterX.html
 Redirect 301 /english/vn/caves/VanTrinh.html /english/vn/showcaves/VanTrinh.html
 Redirect 301 /english/vn/region/HaTay.html /english/vn/region/HaNoi.html
+Redirect 301 /english/de/subterranea/Kristallgaenge.html /english/de/mines/Kristallgaenge.html
 Redirect 301 /german/de/subterranea/Kristallgaenge.html /german/de/mines/Kristallgaenge.html
 Redirect 301 /german/explain/Mines/Lead.html /german/explain/Resources/Lead.html
 Redirect 301 /english/se/caves/Kalkstens.html /english/se/caves/Kvarnbackslabyrinten.html
 Redirect 301 /english/de/mines/HellaGlueck.html /english/de/subterranea/Neubulach.html
+Redirect 301 /german/de/mines/HellaGlueck.html /german/de/subterranea/Neubulach.html
+Redirect 301 /english/gr/karst/KatavothresExplain.html /english/explain/Karst/Katavothres.html
+Redirect 301 /english/de/mines/Oelsnitz.html /english/de/mines/KohleWelt.html
+Redirect 301 /german/de/mines/Oelsnitz.html /german/de/mines/KohleWelt.html
+Redirect 301 /english/other/caves/Leviathan.html /english/ke/caves/Leviathan.html
+Redirect 301 /english/explain/Countries.html /english/Countries.html
 
 # remove double slashes
 RewriteCond %{THE_REQUEST} \s[^?]*//

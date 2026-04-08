@@ -28,3 +28,5 @@ UPDATE `sights`
 SET `Latitude`='-13.8395',
     `Longitude`='-41.3154'
 WHERE `filename` = '/english/br/showcaves/Mangabeira.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Wat Tham Phra', '/english/th/caves/Phra.html', 'Phra', 'Asia', 'th', 'Thailand', 'caves', '$Region$', 19.9176267, 99.7888595);
