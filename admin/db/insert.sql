@@ -32,3 +32,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Wat Tham Phra', '/english/th/caves/Phra.html', 'Phra', 'Asia', 'th', 'Thailand', 'caves', '$Region$', 19.9176267, 99.7888595);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
 VALUES ('yes', 'Macaque Cave', '/english/cn/caves/Macaque.html', 'Macaque', 'Asia', 'cn', 'China', 'caves', 'Hainan', 18.949, 109.0485, 1);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Danzhou Stone Flower Water Cave', '/english/cn/showcaves/DanzhouShihuaShui.html', 'DanzhouShihuaShui', 'Asia', 'cn', 'China', 'showcaves', 'Hainan', 19.4443837, 109.2977886);
