@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Danzhou Stone Flower Water Cave', '/english/cn/showcaves/DanzhouShihuaShui.html', 'DanzhouShihuaShui', 'Asia', 'cn', 'China', 'showcaves', 'Hainan', 19.4443837, 109.2977886);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Haikou Immortal Cave', '/english/cn/caves/HaikouImmortal.html', 'HaikouImmortal', 'Asia', 'cn', 'China', 'caves', 'Hainan', 19.9436267, 110.1939842);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Schaustollen Grube Marie', '/english/de/mines/GrubeMarie.html', 'GrubeMarie', 'Europe', 'de', 'Germany', 'mines', 'Bergland', 50.363614, 9.885369);
