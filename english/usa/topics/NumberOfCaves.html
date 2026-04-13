@@ -18,6 +18,8 @@
     <link href="../../../css/lightbox.min.css" rel="stylesheet">
     <script src="../../../js/lightbox.min.js" type="text/javascript"></script>
     <!-- end responsive -->
+    <script src="../../../js/sortTable.js" type="text/javascript"></script>
+    <script src="../../../js/sumTable.js" type="text/javascript"></script>
 
 
     <meta name="description" content="United States of America by Topic: Number of Known Caves by State">
@@ -46,231 +48,350 @@
         <p>
             <b>Cave registries</b> or <b>cadastres</b> are maintained on grotto level in the U.S.A., not by State!
             Unfortunately the current numbers are not collected officially and so there are no reliable numbers.
-            This is a rather old count of caves listed in the cave archives of the NSS.
-            It does not give reliable numbers, but at least it is possible to see where most of the caves are located.
+            This is a rather old count of caves listed in the cave archives of the NSS from 2008.
+            It does not give reliable numbers, but at least it is possible to get a general idea where most of the caves are located.
             The table is sortable, click on the heading.
         </p>
 
         <br>
 
-        <table id="myTable2" class="table-stripe center statistics">
+        <table id="myTable" class="table-stripe center statistics">
             <thead>
             <tr>
-                <th onclick="sortTable('myTable2', 0)" class="">State</th>
-                <th onclick="sortTable('myTable2', 1)" class="">2008</th>
+                <th onclick="sortTable('myTable', 0)" class="">State</th>
+                <th onclick="sortTable('myTable', 1)" class="sum-col">2008</th>
+                <th onclick="sortTable('myTable', 2)" class="sum-col">2019</th>
+                <th onclick="sortTable('myTable', 3)" class="sum-col">2020–2024</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td class="left">Alaska</td>
-                <td>510</td>
-            </tr>
-            <tr>
                 <td class="left">Alabama</td>
                 <td>4306</td>
+                <td>4422</td>
+                <td>4500</td>
             </tr>
             <tr>
-                <td class="left">Arkansas</td>
-                <td>437</td>
+                <td class="left">Alaska</td>
+                <td>510</td>
+                <td>510</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <td class="left">Arizona</td>
                 <td>575</td>
+                <td>18</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td class="left">Arkansas</td>
+                <td>437</td>
+                <td>575</td>
+                <td>2000</td>
             </tr>
             <tr>
                 <td class="left">California</td>
                 <td>1807</td>
+                <td>1807</td>
+                <td>3000</td>
             </tr>
             <tr>
                 <td class="left">Colorado</td>
                 <td>583</td>
+                <td>583</td>
+                <td>800</td>
             </tr>
             <tr>
                 <td class="left">Connecticut</td>
                 <td>190</td>
+                <td>190</td>
+                <td>200</td>
             </tr>
             <tr>
                 <td class="left">Delaware</td>
                 <td>3</td>
+                <td>2</td>
+                <td>10</td>
             </tr>
             <tr>
                 <td class="left">Florida</td>
                 <td>251</td>
+                <td>816</td>
+                <td>1500</td>
             </tr>
             <tr>
                 <td class="left">Georgia</td>
                 <td>581</td>
+                <td>829</td>
+                <td>800</td>
             </tr>
             <tr>
                 <td class="left">Hawai’i</td>
                 <td>1776</td>
+                <td>1776</td>
+                <td>0</td>
             </tr>
             <tr>
                 <td class="left">Idaho</td>
                 <td>229</td>
+                <td>229</td>
+                <td>500</td>
             </tr>
             <tr>
                 <td class="left">Illinois</td>
                 <td>308</td>
+                <td>832</td>
+                <td>400</td>
             </tr>
             <tr>
                 <td class="left">Indiana</td>
                 <td>3423</td>
+                <td>3652</td>
+                <td>3000</td>
             </tr>
             <tr>
                 <td class="left">Iowa</td>
                 <td>498</td>
+                <td>498</td>
+                <td>500</td>
             </tr>
             <tr>
                 <td class="left">Kansas</td>
                 <td>412</td>
+                <td>412</td>
+                <td>500</td>
             </tr>
             <tr>
                 <td class="left">Kentucky</td>
                 <td>1102</td>
+                <td>5445</td>
+                <td>3500</td>
             </tr>
             <tr>
                 <td class="left">Louisiana</td>
                 <td>7</td>
+                <td>10</td>
+                <td>20</td>
             </tr>
             <tr>
                 <td class="left">Maine</td>
                 <td>228</td>
+                <td>228</td>
+                <td>300</td>
             </tr>
             <tr>
                 <td class="left">Maryland</td>
                 <td>179</td>
+                <td>228</td>
+                <td>200</td>
             </tr>
             <tr>
                 <td class="left">Massachusetts</td>
                 <td>199</td>
+                <td>199</td>
+                <td>200</td>
             </tr>
             <tr>
                 <td class="left">Michigan</td>
                 <td>49</td>
+                <td>49</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td class="left">Minnesota</td>
                 <td>216</td>
+                <td>216</td>
+                <td>300</td>
             </tr>
             <tr>
                 <td class="left">Mississippi</td>
                 <td>50</td>
+                <td>32</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td class="left">Missouri</td>
                 <td>2270</td>
+                <td>7302</td>
+                <td>7500</td>
             </tr>
             <tr>
                 <td class="left">Montana</td>
                 <td>349</td>
+                <td>450</td>
+                <td>400</td>
             </tr>
             <tr>
                 <td class="left">Nebraska</td>
                 <td>5</td>
+                <td>5</td>
+                <td>50</td>
             </tr>
             <tr>
                 <td class="left">Nevada</td>
                 <td>185</td>
+                <td>185</td>
+                <td>300</td>
             </tr>
             <tr>
                 <td class="left">New Hampshire</td>
                 <td>188</td>
+                <td>188</td>
+                <td>200</td>
             </tr>
             <tr>
                 <td class="left">New Jersey</td>
                 <td>87</td>
+                <td>100</td>
+                <td>100</td>
             </tr>
             <tr>
                 <td class="left">New Mexico</td>
                 <td>2156</td>
+                <td>2156</td>
+                <td>3000</td>
             </tr>
             <tr>
                 <td class="left">New York</td>
                 <td>767</td>
+                <td>767</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <td class="left">North Carolina</td>
                 <td>109</td>
+                <td>1300</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <td class="left">North Dakota</td>
                 <td>4</td>
+                <td>4</td>
+                <td>20</td>
             </tr>
             <tr>
                 <td class="left">Ohio</td>
                 <td>216</td>
+                <td>216</td>
+                <td>300</td>
             </tr>
             <tr>
                 <td class="left">Oklahoma</td>
                 <td>508</td>
+                <td>3500</td>
+                <td>600</td>
             </tr>
             <tr>
                 <td class="left">Oregon</td>
                 <td>303</td>
+                <td>303</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <td class="left">Pennsylvania</td>
                 <td>1954</td>
+                <td>1500</td>
+                <td>2000</td>
             </tr>
             <tr>
                 <td class="left">Rhode Island</td>
                 <td>4</td>
+                <td>1</td>
+                <td>10</td>
             </tr>
             <tr>
                 <td class="left">South Carolina</td>
                 <td>173</td>
+                <td>500</td>
+                <td>300</td>
             </tr>
             <tr>
                 <td class="left">South Dakota</td>
                 <td>138</td>
+                <td>325</td>
+                <td>150</td>
             </tr>
             <tr>
                 <td class="left">Tennessee</td>
                 <td>9285</td>
+                <td>10502</td>
+                <td>10000</td>
             </tr>
             <tr>
                 <td class="left">Texas</td>
                 <td>5872</td>
+                <td>5742</td>
+                <td>15000</td>
             </tr>
             <tr>
                 <td class="left">Utah</td>
                 <td>357</td>
-            </tr>
-            <tr>
-                <td class="left">Virginia</td>
-                <td>4339</td>
+                <td>357</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <td class="left">Vermont</td>
                 <td>227</td>
+                <td>227</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td class="left">Virginia</td>
+                <td>4339</td>
+                <td>3977</td>
+                <td>4300</td>
             </tr>
             <tr>
                 <td class="left">Washington</td>
                 <td>473</td>
-            </tr>
-            <tr>
-                <td class="left">Wisconsin</td>
-                <td>367</td>
+                <td>473</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <td class="left">West Virginia</td>
                 <td>4740</td>
+                <td>3732</td>
+                <td>4500</td>
+            </tr>
+            <tr>
+                <td class="left">Wisconsin</td>
+                <td>367</td>
+                <td>367</td>
+                <td>400</td>
             </tr>
             <tr>
                 <td class="left">Wyoming</td>
                 <td>349</td>
+                <td>386</td>
+                <td>400</td>
             </tr>
             </tbody>
+            <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td class="sum-out"></td>
+                <td class="sum-out"></td>
+                <td class="sum-out"></td>
+            </tr>
+            </tfoot>
         </table>
 
         <br>
 
         <p>
-            These are the numbers of the NSS Cave files from 2008.
+            The first column are the numbers of the NSS Cave files from 2008.
             Unfortunately the local registries do not update their data regularly, so some numbers are extremely inaccurate.
             <b class="smallCaps">Bob Gulden</b> made a similar list in 2010 and 2019, which gives similar numbers, but astonishingly sometimes gives more caves and sometimes less.
+            We added his 2019 data.
             After his death and the loss of his website (check the Wayback Machine if you are interested) the list was not moved to the new site, probably because it is actually futile.
+        </p>
+
+        <p class="indentedText">
+            The NSS publishes rather general numbers, but does not maintain a list, so we have a collection from the early 2020s where the numbers were actually not published in the same year, they also seem to be rounded, and there are quite different definitions of caves.
+            In other words, the surveys of some states include lava tubes while others don't, some include artificial underground spaces and so forth.
+            The number for Texas contains many ‘cave features’, making it difficult to compare.
+            And to make confusion complete: some states added long known caves to their list, while others removed caves from the lists to protect them.
+            So there are states which have massively increased the number of caves, while others have fewer caves than 15 years before, which is obviously nonsense.
         </p>
 
 
@@ -293,6 +414,7 @@
             <li data-role="list-divider">See also</li>
             <li><a target="_blank" href="https://duckduckgo.com/?q=Number+of+Known+Caves+by+State"><img alt="Search" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Search.png">Search DuckDuckGo for "Number of Known Caves by State"</a></li>
             <li><a target="_blank" href="https://en.wikipedia.org/wiki/List_of_caves_in_the_United_States"><img alt="Wikipedia" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Wikipedia.png">List of caves in the United States - Wikipedia (visited: 04-APR-2025)</a></li>
+            <li><a target="_blank" href="https://web.archive.org/web/20200302174523/http://www.caverbob.com/ncs.htm"><img alt="World" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/World.png">Caves by State 2019 <b class="smallCaps">Bob Gulden</b> archived (visited: 13-APR-2026)</a></li>
         </ul>
 
     </div>
