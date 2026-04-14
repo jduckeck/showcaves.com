@@ -22,6 +22,11 @@ Datestamp to uppercase:
 
 Check empty links
 /World.png"> (visited:
+/World.png"> (besucht:
+
+check links
+\((visited|besucht): \d\d-...-\d\d\d\d\)
+($1: 14-APR-2026)
 
                     \[200\d\]
 
