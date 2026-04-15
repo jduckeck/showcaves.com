@@ -38,3 +38,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Haikou Immortal Cave', '/english/cn/caves/HaikouImmortal.html', 'HaikouImmortal', 'Asia', 'cn', 'China', 'caves', 'Hainan', 19.9436267, 110.1939842);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Schaustollen Grube Marie', '/english/de/mines/GrubeMarie.html', 'GrubeMarie', 'Europe', 'de', 'Germany', 'mines', 'Bergland', 50.363614, 9.885369);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Besucherbergwerk Bauersberg', '/english/de/mines/Bauersberg.html', 'Bauersberg', 'Europe', 'de', 'Germany', 'mines', 'Bergland', 50.4240183, 10.0219006);
