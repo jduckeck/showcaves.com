@@ -29,7 +29,7 @@ SET `Latitude`='-13.8395',
     `Longitude`='-41.3154'
 WHERE `filename` = '/english/br/showcaves/Mangabeira.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
-VALUES ('yes', 'Wat Tham Phra', '/english/th/caves/Phra.html', 'Phra', 'Asia', 'th', 'Thailand', 'caves', '$Region$', 19.9176267, 99.7888595);
+VALUES ('yes', 'Wat Tham Phra', '/english/th/caves/Phra.html', 'Phra', 'Asia', 'th', 'Thailand', 'caves', 'ChiangRai', 19.9176267, 99.7888595);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
 VALUES ('yes', 'Macaque Cave', '/english/cn/caves/Macaque.html', 'Macaque', 'Asia', 'cn', 'China', 'caves', 'Hainan', 18.949, 109.0485, 1);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)

@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 01, 2026 at 02:28 PM
--- Server version: 10.11.14-MariaDB-0ubuntu0.24.04.1-log
--- PHP Version: 7.4.33-nmm8
+-- Erstellungszeit: 15. Apr 2026 um 14:46
+-- Server-Version: 10.11.14-MariaDB-0ubuntu0.24.04.1-log
+-- PHP-Version: 7.4.33-nmm8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `d0437d24`
+-- Datenbank: `d0437d24`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sights`
+-- Tabellenstruktur für Tabelle `sights`
 --
 
 CREATE TABLE `sights` (
@@ -45,7 +45,7 @@ CREATE TABLE `sights` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
 
 --
--- Dumping data for table `sights`
+-- Daten für Tabelle `sights`
 --
 
 INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapter`, `sortby`, `continent`, `country`, `countrycode`, `region`, `category`, `Latitude`, `Longitude`) VALUES
@@ -6739,7 +6739,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (6924, 'yes', 0, 'Grottenbahn am Pöstlingberg', '/english/at/subterranea/Grottenbahn.html', NULL, 'Grottenbah', 'Europe', 'Austria', 'at', 'Ober', 'subterranea', 48.324192700000000, 14.256423300000000),
 (6926, 'yes', 0, 'Wind Cave at House Rock', '/english/usa/caves/WindHouseRock.html', NULL, 'Wind', 'NorthAmerica', 'United States of America', 'us', 'pa', 'caves', 39.874610900000000, -76.371131300000000),
 (6927, 'yes', 0, 'Steinerne Rinne bei Hechlingen', '/english/de/karst/Hechlingen.html', NULL, 'Hechlingen', 'Europe', 'Germany', 'de', 'FraenkischeAlb', 'karst', 48.989043200000000, 10.735109400000000),
-(6928, 'yes', 0, 'Pirunpesä', '/english/fi/karst/PirunpesaYylivalli.html', NULL, 'Pirunpesa', 'Europe', 'Finland', 'fi', '$Region$', 'karst', 62.399065200000000, 22.895419300000000),
+(6928, 'yes', 0, 'Pirunpesä', '/english/fi/karst/PirunpesaYylivalli.html', NULL, 'Pirunpesa', 'Europe', 'Finland', 'fi', 'WesternFinland', 'karst', 62.399065200000000, 22.895419300000000),
 (6929, 'yes', 0, 'Pirunpesä', '/english/fi/caves/PirunpesaSarkola.html', NULL, 'PirunpesaS', 'Europe', 'Finland', 'fi', 'WesternFinland', 'caves', 61.428500000000000, 23.210700000000000),
 (6930, 'yes', 0, 'Pirunpesä', '/english/fi/gorges/PirunpesaHollola.html', NULL, 'PirunpesaH', 'Europe', 'Finland', 'fi', 'SouthernFinland', 'gorges', 61.009074800000000, 25.536062100000000),
 (6931, 'yes', 0, 'Paistjärven Pirunkirkko', '/english/fi/caves/PaistjarvenPirunkirkko.html', NULL, 'Paistjarve', 'Europe', 'Finland', 'fi', 'SouthernFinland', 'caves', 61.307487400000000, 26.399450200000000),
@@ -6775,7 +6775,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (6964, 'yes', 0, 'Divine Cave Experience', '/english/gr/subterranea/DivineCaveExperience.html', NULL, 'DivineCave', 'Europe', 'Greece', 'gr', 'Cyclades', 'subterranea', 36.439553000000000, 25.424343000000000),
 (6966, 'yes', 0, 'Pivot Rock Park', '/english/usa/karst/Pivot.html', NULL, 'Pivot', 'NorthAmerica', 'United States of America', 'us', 'ar', 'karst', 36.431792000000000, -93.748661000000000),
 (6967, 'yes', 0, 'Underground Atlanta', '/english/usa/subterranea/Atlanta.html', NULL, 'Atlanta', 'NorthAmerica', 'United States of America', 'us', 'ga', 'subterranea', 33.752363000000000, -84.389741000000000),
-(6968, 'yes', 0, 'Alum Cove Natural Bridge Recreation Area', '/english/usa/karst/AlumCove.html', NULL, 'AlumCove', 'NorthAmerica', 'United States of America', 'us', '$Region$', 'karst', 35.860357200000000, -93.233232900000000),
+(6968, 'yes', 0, 'Alum Cove Natural Bridge Recreation Area', '/english/usa/karst/AlumCove.html', NULL, 'AlumCove', 'NorthAmerica', 'United States of America', 'us', 'ar', 'karst', 35.860357200000000, -93.233232900000000),
 (6969, 'yes', 0, 'Wadi Rahabah Cave', '/english/other/caves/WadiRahabah.html', 'other', 'WadiRahaba', 'MiddleEast', 'United Arab Emirates', 'ae', 'ae', 'caves', 25.925931000000000, 56.091340500000000),
 (6970, 'yes', 0, 'Cave of Miracles', '/english/other/subterranea/Miracles.html', 'other', 'Miracles', 'MiddleEast', 'United Arab Emirates', 'ae', 'ae', 'subterranea', 25.239010000000000, 55.475698000000000),
 (6971, 'yes', 0, 'Wadi Naqab Cave', '/english/other/caves/WadiNaqab.html', 'other', 'WadiNaqab', 'MiddleEast', 'United Arab Emirates', 'ae', 'ae', 'caves', 25.717796000000000, 56.122731000000000),
@@ -7122,11 +7122,11 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (7333, 'yes', 0, 'Catacomba di Porta d’Ossuna', '/english/it/subterranea/PortaDOssuna.html', NULL, 'PortaDOssu', 'Europe', 'Italy', 'it', 'Sardinia', 'subterranea', 38.116077300000000, 13.350923200000000);
 
 --
--- Indexes for dumped tables
+-- Indizes der exportierten Tabellen
 --
 
 --
--- Indexes for table `sights`
+-- Indizes für die Tabelle `sights`
 --
 ALTER TABLE `sights`
   ADD PRIMARY KEY (`sightId`),
@@ -7137,11 +7137,11 @@ ALTER TABLE `sights`
   ADD KEY `sortby` (`sortby`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT für exportierte Tabellen
 --
 
 --
--- AUTO_INCREMENT for table `sights`
+-- AUTO_INCREMENT für Tabelle `sights`
 --
 ALTER TABLE `sights`
     MODIFY `sightId` int (11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7334;
