@@ -300,3 +300,10 @@ SVG Map
             <figcaption>$4</figcaption>
         </figure>
 
+-----------------------
+
+Dateien
+^.*/(showcaves|caves|gorges|springs|karst|mines|subterranea)/(?!index\.html$).*
+
+(.*)
+INSERT IGNORE INTO static (path) VALUES('\1');
