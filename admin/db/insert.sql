@@ -8,3 +8,7 @@ UPDATE `sights`
 SET `Latitude`='38.6344998',
     `Longitude`='34.9036425'
 WHERE `filename` = '/english/tr/subterranea/EsbelliEvi.html';
+UPDATE `sights`
+SET `Latitude`='50.4095006',
+    `Longitude`='11.0721997'
+WHERE `filename` = '/english/de/caves/Zinsel.html';
