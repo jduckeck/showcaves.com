@@ -44,6 +44,25 @@
 
 UPDATE sights SET chapter=NULL,region=NULL,continent='$continent$' WHERE countrycode = '$CountryTwoLetter$';
 UPDATE sights SET filename = REPLACE(filename, '/other/', '/$CountryTwoLetter$/') WHERE countrycode = '$CountryTwoLetter$';
+
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/showcaves/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/caves/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/karst/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/springs/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/gorges/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/mines/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/subterranea/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/region/ByRegion.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/region/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/Maps/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/topics/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/geoparks/index.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/About.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/Geology.html');
+INSERT INTO static (path) VALUES('/english/$CountryTwoLetter$/Language.html');
+INSERT INTO static (path) VALUES('/english/explain/Books/$CountryTwoLetter$.html');
+
         -->
 
         <img alt="$CountryTwoLetter$ national flag" class="flag" src="../../graphics/flags/$CountryTwoLetter$.png">
