@@ -16,3 +16,11 @@ UPDATE `sights`
 SET `Latitude`='47.8023756',
     `Longitude`='12.2856882'
 WHERE `filename` = '/english/de/subterranea/Frasdorf.html';
+UPDATE `sights`
+SET `Latitude`='38.6418881',
+    `Longitude`='34.8312202'
+WHERE `filename` = '/english/tr/subterranea/CappadociaCaveSuites.html';
+UPDATE `sights`
+SET `Latitude`='38.6286916',
+    `Longitude`='34.9027230'
+WHERE `filename` = '/english/tr/subterranea/Alfina.html';
