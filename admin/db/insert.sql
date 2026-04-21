@@ -24,3 +24,7 @@ UPDATE `sights`
 SET `Latitude`='38.6286916',
     `Longitude`='34.9027230'
 WHERE `filename` = '/english/tr/subterranea/Alfina.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'İnönü Mağaraları', '/english/tr/subterranea/InonuGudul.html', 'InonuGudul', 'Europe', 'tr', 'Turkey', 'subterranea', 'CentralAnatolia', 40.219691, 32.244832);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'İnönü Mağarası', '/english/tr/caves/InonuAlacabuk.html', 'InonuAlacabuk', 'Europe', 'tr', 'Turkey', 'caves', 'BlackSea', 41.252357, 31.693414);
