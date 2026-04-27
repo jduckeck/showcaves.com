@@ -48,6 +48,8 @@ remove referers from links
 \?utm_source\=[^"]*\"
 "
 
+    <meta http-equiv="refresh" content="0; URL=https://www.showcaves.com/">
+
 --- fix kml file
 
 1. delete header
