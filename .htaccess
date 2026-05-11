@@ -90,6 +90,7 @@ Redirect 301 /english/fr/subterranea/Lamouroux.html /errors/Deleted.html
 Redirect 301 /english/fr/subterranea/PolRoger.html /errors/301.html
 Redirect 301 /english/gb/region/Lanarkshire.html /english/gb/region/DumfriesGalloway.html
 Redirect 301 /english/gb/region/WestGlamorgan.html /english/gb/region/Swansea.html
+Redirect 301 /english/gb/showcaves/Dan-Yr-Ogof.html /english/gb/showcaves/DanYrOgof.html
 Redirect 301 /english/ge/showcaves/Kumistavi.html /english/ge/showcaves/Prometheus.html
 Redirect 301 /english/gr/caves/AgiaParaskeviLesbos.html /english/gr/subterranea/AgiaParaskeviLesbos.html
 Redirect 301 /english/gr/caves/Megali.html /english/gr/caves/GalaziaZakynthos.html
@@ -112,6 +113,8 @@ Redirect 301 /english/kr/region/Chungbuk.html /english/kr/region/Chungcheongbuk.
 Redirect 301 /english/kr/showcaves/Chondong.html /english/kr/showcaves/Cheondong.html
 Redirect 301 /english/kr/showcaves/Gossidong.html /english/kr/showcaves/Gossi.html
 Redirect 301 /english/my/caves/Simon.html /english/my/caves/Lagang.html
+Redirect 301 /english/no/region/AustAgder.html /english/no/region/Agder.html
+Redirect 301 /english/no/region/VestAgder.html /english/no/region/Agder.html
 Redirect 301 /english/np/showcaves/Suddah.html /english/np/showcaves/Siddah.html
 Redirect 301 /english/other/caves/AliBarbour.html /english/ke/caves/AliBarbour.html
 Redirect 301 /english/other/caves/Amboni.html /english/tz/caves/Amboni.html
@@ -174,7 +177,6 @@ Redirect 301 /german/de/subterranea/Kristallgaenge.html /german/de/mines/Kristal
 Redirect 301 /german/explain/Mines/Fluorite.html /german/explain/Resources/Fluorite.html
 Redirect 301 /german/explain/Mines/Lead.html /german/explain/Resources/Lead.html
 Redirect 301 /german/gr/karst/KatavothresExplain.html /german/explain/Karst/Katavothres.html
-Redirect 301 /english/gb/showcaves/Dan-Yr-Ogof.html /english/gb/showcaves/DanYrOgof.html
 
 # remove double slashes
 RewriteCond %{THE_REQUEST} \s[^?]*//
