@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Erstellungszeit: 11. Mai 2026 um 17:14
+-- Erstellungszeit: 11. Mai 2026 um 18:03
 -- Server-Version: 10.11.14-MariaDB-0ubuntu0.24.04.1-log
 -- PHP-Version: 7.4.33-nmm8
 
@@ -1563,7 +1563,7 @@ INSERT INTO `sights` (`sightId`, `visible`, `closed`, `name`, `filename`, `chapt
 (1568, 'yes', 0, 'Ingleborough Cave', '/english/gb/showcaves/Ingleborough.html', NULL, 'Ingleborou', 'Europe', 'Great Britain', 'gb', 'Yorkshire', 'showcaves', 54.134899000000000, -2.377655000000000),
 (1569, 'yes', 0, 'Cathedral Cave', '/english/gb/showcaves/Cathedral.html', NULL, 'Cathedral', 'Europe', 'Great Britain', 'gb', NULL, 'showcaves', 51.831436000000000, -3.687024000000000),
 (1570, 'yes', 0, 'Creswell Crags', '/english/gb/showcaves/CreswellCrags.html', NULL, 'CreswellCr', 'Europe', 'Great Britain', 'gb', NULL, 'showcaves', 53.263491000000000, -1.193529000000000),
-(1571, 'yes', 0, 'Dan-yr-Ogof - National Showcaves Centre for Wales', '/english/gb/showcaves/Dan-Yr-Ogof.html', NULL, 'Dan-Yr-Ogo', 'Europe', 'Great Britain', 'gb', NULL, 'showcaves', 51.831054000000000, -3.686444000000000),
+(1571, 'yes', 0, 'Dan-yr-Ogof - National Showcaves Centre for Wales', '/english/gb/showcaves/DanYrOgof.html', NULL, 'DanYrOgof', 'Europe', 'Great Britain', 'gb', 'Powys', 'showcaves', 51.831054000000000, -3.686444000000000),
 (1572, 'yes', 0, 'Gilmerton Cove', '/english/gb/subterranea/Gilmerton.html', NULL, 'Gilmerton', 'Europe', 'Great Britain', 'gb', NULL, 'subterranea', 55.905601000000000, -3.133061000000000),
 (1573, 'yes', 0, 'La Valette Underground Military Museum', '/english/gb/subterranea/LaValette.html', NULL, 'LaValette', 'Europe', 'Great Britain', 'gb', 'Guernsey', 'subterranea', 49.448214000000000, -2.531270000000000),
 (1574, 'yes', 0, 'Hack Green Secret Nuclear Bunker', '/english/gb/subterranea/HackGreen.html', NULL, 'HackGreen', 'Europe', 'Great Britain', 'gb', 'Cheshire', 'subterranea', 53.027236000000000, -2.530503000000000),
