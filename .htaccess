@@ -56,9 +56,14 @@ Redirect 301 /english/cl/Language.html /errors/Deleted.html
 Redirect 301 /english/cn/karst/Jiuxiang.html /english/cn/showcaves/Jiuxiang.html
 Redirect 301 /english/cn/region/Top10.html /english/cn/topics/Top10.html
 Redirect 301 /english/cn/showcaves/Huanglong.html /english/cn/showcaves/HuanglongHunan.html
-Redirect 301 /english/cn/showcaves/LaoMei.html /english/cn/showcaves/Luomei.html
+Redirect 301 /english/cn/showcaves/LaoMei.html /english/cn/showcaves/LianhuaLuomei.html
+Redirect 301 /english/cn/showcaves/Lianhua.html /english/cn/showcaves/LianhuaJiujiang.html
+Redirect 301 /english/cn/showcaves/LipuSilver.html /english/cn/showcaves/YinziyanLipu.html
+Redirect 301 /english/cn/showcaves/Lotus.html /english/cn/showcaves/LianhuaXingping.html
+Redirect 301 /english/cn/showcaves/Luomei.html /english/cn/showcaves/LianhuaLuomei.html
 Redirect 301 /english/cn/showcaves/ShuiLian.html /english/cn/showcaves/ShuiLianYunnan.html
 Redirect 301 /english/cn/showcaves/Taoyuan.html /english/cn/gorges/Taoyuan.html
+Redirect 301 /english/cn/showcaves/Yinzi.html /english/cn/showcaves/YinziyanLipu.html
 Redirect 301 /english/cn/subterranea/GreatWall.html /english/cn/subterranea/DixiaChangchecheng.html
 Redirect 301 /english/cu/region/Map.html /english/cu/region/Maps/index.html
 Redirect 301 /english/cz/subterranea/Prosek.html /errors/Deleted.html
