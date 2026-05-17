@@ -6,3 +6,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Codugnon Cave', '/english/ph/caves/Codugnon.html', 'Codugnon', 'Asia', 'ph', 'The Philippines', 'caves', 'Mimaropa', 11.0840850, 119.3525766);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cathedral Cave', '/english/ph/caves/Cathedral.html', 'Cathedral', 'Asia', 'ph', 'The Philippines', 'caves', 'Mimaropa', 11.0759024, 119.3845123);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lamanok Caves', '/english/ph/caves/Lamanok.html', 'Lamanok', 'Asia', 'ph', 'The Philippines', 'caves', 'Bohol', 9.8037985, 124.5967028);
