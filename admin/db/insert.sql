@@ -8,3 +8,11 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Cathedral Cave', '/english/ph/caves/Cathedral.html', 'Cathedral', 'Asia', 'ph', 'The Philippines', 'caves', 'Mimaropa', 11.0759024, 119.3845123);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Lamanok Caves', '/english/ph/caves/Lamanok.html', 'Lamanok', 'Asia', 'ph', 'The Philippines', 'caves', 'Bohol', 9.8037985, 124.5967028);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Princess Manan-aw Cave', '/english/ph/caves/PrincessMananAw.html', 'PrincessMananAw', 'Asia', 'ph', 'The Philippines', 'caves', 'Bohol', 9.862376, 124.398140);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Combento Cave Pool', '/english/ph/karst/Combento.html', 'Combento', 'Asia', 'ph', 'The Philippines', 'karst', 'Bohol', 9.7302879, 124.5468369);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Batungay Cave', '/english/ph/caves/Batungay.html', 'Batungay', 'Asia', 'ph', 'The Philippines', 'caves', 'Bohol', 10.0380520, 124.3107380);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cabagnow Cave Pool', '/english/ph/karst/Cabagnow.html', 'Cabagnow', 'Asia', 'ph', 'The Philippines', 'karst', 'Bohol', 9.7332989, 124.5703408);
