@@ -16,3 +16,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Batungay Cave', '/english/ph/caves/Batungay.html', 'Batungay', 'Asia', 'ph', 'The Philippines', 'caves', 'Bohol', 10.0380520, 124.3107380);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Cabagnow Cave Pool', '/english/ph/karst/Cabagnow.html', 'Cabagnow', 'Asia', 'ph', 'The Philippines', 'karst', 'Bohol', 9.7332989, 124.5703408);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Emenska Pestera', '/english/bg/caves/Emenska.html', 'Emenska', 'Europe', 'bg', 'Bulgaria', 'caves', 'VelikoTarnovo', 43.1386135, 25.3607149);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Musinski Karst Spring', '/english/bg/caves/Musinski.html', 'Musinski', 'Europe', 'bg', 'Bulgaria', 'caves', 'VelikoTarnovo', 43.1507270, 25.4274903);
+INSERT INTO static (path)
+VALUES ('/english/bg/region/VelikoTarnovo.html');
