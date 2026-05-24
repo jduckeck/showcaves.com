@@ -5,3 +5,4 @@ Disallow: /foreign/
 Disallow: /php/
 Disallow: /js/
 Disallow: /graphics/lightbox/
+Disallow: /*.kmz$
