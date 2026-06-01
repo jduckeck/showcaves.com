@@ -6,3 +6,5 @@ UPDATE `sights`
 SET `Latitude`='44.8907447',
     `Longitude`='0.9347111'
 WHERE `filename` = '/english/fr/showcaves/Proumeyssac.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bergbaumuseum Bleicherode', '/english/de/mines/Bleicherode.html', 'Bleicherode', 'Europe', 'de', 'Germany', 'mines', 'ThueringerBecken', 51.452697, 10.597011);
