@@ -8,3 +8,5 @@ SET `Latitude`='44.8907447',
 WHERE `filename` = '/english/fr/showcaves/Proumeyssac.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bergbaumuseum Bleicherode', '/english/de/mines/Bleicherode.html', 'Bleicherode', 'Europe', 'de', 'Germany', 'mines', 'ThueringerBecken', 51.452697, 10.597011);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bergisches Museum für Bergbau, Handwerk und Gewerbe', '/english/de/mines/Bergisches.html', 'Bergisches', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 50.965036, 7.164416);
