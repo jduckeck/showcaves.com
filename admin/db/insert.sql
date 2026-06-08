@@ -30,3 +30,9 @@ INSERT INTO static (path)
 VALUES ('/english/gb/geoparks/index.html');
 INSERT INTO static (path)
 VALUES ('/english/gb/topics/index.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mucur Yeraltı Şehri', '/english/tr/subterranea/Mucur.html', 'Mucur', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 39.062155, 34.375797);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kepez Yeraltı Şehri', '/english/tr/subterranea/Kepez.html', 'Kepez', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 38.976734, 34.343423);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Dulkadirli Yeraltı Şehri', '/english/tr/subterranea/Dulkadirli.html', 'Dulkadirli', 'Europe', 'tr', 'Turkey', 'subterranea', 'Cappadocia', 39.508043, 34.158720);
