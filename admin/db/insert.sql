@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Besucherstollen Oberes Schloß', '/english/de/mines/Siegen.html', 'Siegen', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 50.8755067, 8.0302445);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Salinenmuseum Unteres Bohrhaus Rottweil', '/english/de/mines/UnteresBohrhaus.html', 'UnteresBohrhaus', 'Europe', 'de', 'Germany', 'mines', 'Gaue', 48.1481785, 8.6484287);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bergbaumuseum Deuben', '/english/de/mines/Deuben.html', 'Deuben', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 51.114370, 12.074870);
