@@ -21,6 +21,11 @@ ErrorDocument 403 /errors/403.html
 ErrorDocument 404 /errors/404.html
 ErrorDocument 500 /errors/500.html
 
+# rename of chaper "misc" to "other"
+RewriteRule ^english/misc/(.*)$ /english/other/$1 [L,R=301]
+# rename of category "misc" to "subterranea"
+RewriteRule ^english/(.*)/misc(/.*)$ /english/$1/subterranea$2 [R=301,L]
+
 # Permanent URL redirect- by netgrade
 Redirect 301 /english/ar/caves/LasManos.html /english/ar/showcaves/LasManos.html
 Redirect 301 /english/at/caves/Grasel.html /english/at/subterranea/Grasel.html
@@ -71,6 +76,7 @@ Redirect 301 /english/cn/subterranea/GreatWall.html /english/cn/subterranea/Dixi
 Redirect 301 /english/cu/region/Map.html /english/cu/region/Maps/index.html
 Redirect 301 /english/cz/subterranea/Prosek.html /errors/Deleted.html
 Redirect 301 /english/de/caves/HohlerFels.html /english/de/showcaves/HohlerFels.html
+Redirect 301 /english/de/caves/Linkenbold.html /english/de/showcaves/Linkenbold.html
 Redirect 301 /english/de/mines/HellaGlueck.html /english/de/mines/Neubulach.html
 Redirect 301 /english/de/mines/Kupferberg.html /english/de/subterranea/Kupferberg.html
 Redirect 301 /english/de/mines/Oelsnitz.html /english/de/mines/KohleWelt.html
@@ -127,8 +133,14 @@ Redirect 301 /english/no/region/VestAgder.html /english/no/region/Agder.html
 Redirect 301 /english/np/showcaves/Suddah.html /english/np/showcaves/Siddah.html
 Redirect 301 /english/other/caves/AlfredoJahn.html /english/ve/caves/AlfredoJahn.html
 Redirect 301 /english/other/caves/AliBarbour.html /english/ke/caves/AliBarbour.html
+Redirect 301 /english/other/caves/Alikadam.html /english/mm/caves/Alikadam.html
+Redirect 301 /english/other/caves/Alutila.html /english/mm/caves/Alutila.html
 Redirect 301 /english/other/caves/Amboni.html /english/tz/caves/Amboni.html
+Redirect 301 /english/other/caves/Arjeri.html /english/am/caves/Arjeri.html
 Redirect 301 /english/other/caves/Autana.html /english/ve/caves/Autana.html
+Redirect 301 /english/other/caves/Cetinjska.html /english/me/caves/Cetinjska.html
+Redirect 301 /english/other/caves/CrvenaStijena.html /english/me/caves/CrvenaStijena.html
+Redirect 301 /english/other/caves/Djalovica.html /english/me/caves/Djalovica.html
 Redirect 301 /english/other/caves/Djara.html /english/eg/caves/Djara.html
 Redirect 301 /english/other/caves/Fantasma.html /english/ve/caves/Fantasma.html
 Redirect 301 /english/other/caves/Huagapo.html /english/pe/caves/Huagapo.html
@@ -136,12 +148,17 @@ Redirect 301 /english/other/caves/Jomblang.html /english/id/caves/Jomblang.html
 Redirect 301 /english/other/caves/Kantara.html /english/eg/caves/Kantara.html
 Redirect 301 /english/other/caves/Kitum.html /english/ke/caves/Kitum.html
 Redirect 301 /english/other/caves/Kiwengwa.html /english/tz/caves/Kiwengwa.html
+Redirect 301 /english/other/caves/Knadel.html /english/ma/caves/Knadel.html
+Redirect 301 /english/other/caves/Kundum.html /english/mm/caves/Kundum.html
 Redirect 301 /english/other/caves/LasManos.html /english/ar/caves/LasManos.html
 Redirect 301 /english/other/caves/Leidarendi.html /english/is/caves/Leidarendi.html
 Redirect 301 /english/other/caves/Leviathan.html /english/ke/caves/Leviathan.html
+Redirect 301 /english/other/caves/Lipci.html /english/me/caves/Lipci.html
+Redirect 301 /english/other/caves/Magili.html /english/am/caves/Magili.html
 Redirect 301 /english/other/caves/Mangapwani.html /english/tz/caves/Mangapwani.html
 Redirect 301 /english/other/caves/Mangapwani.html /english/tz/subterranea/Mangapwani.html
 Redirect 301 /english/other/caves/Mizamiza.html /english/tz/caves/Mizamiza.html
+Redirect 301 /english/other/caves/Mozrovi.html /english/am/caves/Mozrovi.html
 Redirect 301 /english/other/caves/Mumba.html /english/tz/caves/Mumba.html
 Redirect 301 /english/other/caves/Obodska.html /english/me/caves/Obodska.html
 Redirect 301 /english/other/caves/Pindul.html /english/id/caves/Pindul.html
@@ -154,21 +171,52 @@ Redirect 301 /english/other/caves/Tanding.html /english/id/caves/Tanding.html
 Redirect 301 /english/other/caves/Taulabe.html /english/hn/showcaves/Taulabe.html
 Redirect 301 /english/other/caves/UnderWorld.html /english/is/caves/UnderWorld.html
 Redirect 301 /english/other/caves/Venado.html /english/cr/caves/Venado.html
+Redirect 301 /english/other/caves/Voronya.html /english/ge/caves/Voronya.html
 Redirect 301 /english/other/gorges/Kavac.html /english/ve/gorges/Kavac.html
+Redirect 301 /english/other/karst/IminIfri.html /english/ma/karst/IminIfri.html
+Redirect 301 /english/other/karst/PontDeDieu.html /english/ma/karst/PontDeDieu.html
 Redirect 301 /english/other/karst/Trebisnjica.html /english/ba/karst/Trebisnjica.html
+Redirect 301 /english/other/mines/Avan.html /english/am/mines/Avan.html
 Redirect 301 /english/other/mines/Daugbjerg.html /english/dk/mines/Daugbjerg.html
 Redirect 301 /english/other/region/tz.html /english/tz/index.html
+Redirect 301 /english/other/showcaves/Bijambare.html /english/ba/showcaves/Bijambare.html
 Redirect 301 /english/other/showcaves/Brujas.html /english/ar/showcaves/Brujas.html
+Redirect 301 /english/other/showcaves/Friouato.html /english/ma/showcaves/Friouato.html
 Redirect 301 /english/other/showcaves/Guacharo.html /english/ve/showcaves/Guacharo.html
+Redirect 301 /english/other/showcaves/Hercules.html /english/ma/showcaves/Hercules.html
 Redirect 301 /english/other/showcaves/Jeita.html /english/lb/showcaves/Jeita.html
+Redirect 301 /english/other/showcaves/Khayon.html /english/mm/showcaves/Khayon.html
+Redirect 301 /english/other/showcaves/Kumistavi.html /english/ge/showcaves/Kumistavi.html
+Redirect 301 /english/other/showcaves/Lipska.html /english/me/showcaves/Lipska.html
 Redirect 301 /english/other/showcaves/MauMau.html /english/ke/caves/MauMau.html
+Redirect 301 /english/other/showcaves/Noravank.html /english/am/showcaves/Noravank.html
+Redirect 301 /english/other/showcaves/Orlovaca.html /english/ba/showcaves/Orlovaca.html
+Redirect 301 /english/other/showcaves/Pindaya.html /english/mm/showcaves/Pindaya.html
 Redirect 301 /english/other/showcaves/Pinturas.html /english/other/caves/Cobanerita.html
 Redirect 301 /english/other/showcaves/QuebradaDelToro.html /english/ve/showcaves/QuebradaDelToro.html
+Redirect 301 /english/other/showcaves/Sataplia.html /english/ge/showcaves/Sataplia.html
+Redirect 301 /english/other/showcaves/Tetri.html /english/ge/showcaves/Tetri.html
+Redirect 301 /english/other/showcaves/Tito.html /english/ba/showcaves/Tito.html
+Redirect 301 /english/other/showcaves/Tsutskhvati.html /english/ge/showcaves/Tsutskhvati.html
+Redirect 301 /english/other/showcaves/Vaganska.html /english/ba/showcaves/Vaganska.html
 Redirect 301 /english/other/showcaves/Vidgelmir.html /english/is/showcaves/Vidgelmir.html
+Redirect 301 /english/other/showcaves/Vjetrenica.html /english/ba/showcaves/Vjetrenica.html
+Redirect 301 /english/other/springs/Buna.html /english/ba/springs/Buna.html
 Redirect 301 /english/other/springs/Duman.html /english/ba/springs/Duman.html
+Redirect 301 /english/other/subterranea/Bhalil.html /english/ma/subterranea/Bhalil.html
+Redirect 301 /english/other/subterranea/DavidGareja.html /english/ge/subterranea/DavidGareja.html
+Redirect 301 /english/other/subterranea/Geghard.html /english/am/subterranea/Geghard.html
+Redirect 301 /english/other/subterranea/Independence.html /english/mm/subterranea/Independence.html
+Redirect 301 /english/other/subterranea/Khndzoresk.html /english/am/subterranea/Khndzoresk.html
 Redirect 301 /english/other/subterranea/Mangapwani.html /english/tz/subterranea/Mangapwani.html
+Redirect 301 /english/other/subterranea/Ostrog.html /english/me/subterranea/Ostrog.html
+Redirect 301 /english/other/subterranea/Portuguese.html /english/ma/subterranea/Portuguese.html
 Redirect 301 /english/other/subterranea/Powintaung.html /english/mm/subterranea/Powintaung.html
+Redirect 301 /english/other/subterranea/PrisonKara.html /english/ma/subterranea/PrisonKara.html
+Redirect 301 /english/other/subterranea/Tito.html /english/ba/subterranea/Tito.html
 Redirect 301 /english/other/subterranea/Topolandia.html /english/cr/subterranea/Topolandia.html
+Redirect 301 /english/other/subterranea/VanisKvabebi.html /english/ge/subterranea/VanisKvabebi.html
+Redirect 301 /english/other/subterranea/Vardzia.html /english/ge/subterranea/Vardzia.html
 Redirect 301 /english/pl/caves/WielkaSniezna.html /errors/301.html
 Redirect 301 /english/pl/mines/KrolowaLuiza.html /english/pl/mines/LouiseAdit.html
 Redirect 301 /english/pt/showcaves/Carvao.html /english/pt/showcaves/CarvaoTerceira.html
@@ -213,5 +261,3 @@ RewriteRule ^german/german/(.*)$ /german/$1 [L,R=301]
 RewriteRule ^english/german/(.*)$ /german/$1 [L,R=301]
 RewriteRule ^german/english/(.*)$ /english/$1 [L,R=301]
 RewriteRule ^english/explain/explain/(.*)$ /english/explain/$1 [L,R=301]
-#RewriteRule ^(.*)/misc(/.*)?$ /$1/subterranea$2 [R=301,L]
-RewriteRule ^(.*/)misc(/.*)$ /$1subterranea$2 [R=301,L]
