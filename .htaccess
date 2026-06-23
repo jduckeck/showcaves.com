@@ -24,7 +24,7 @@ ErrorDocument 500 /errors/500.html
 # rename of chaper "misc" to "other"
 RewriteRule ^english/misc/(.*)$ /english/other/$1 [L,R=301]
 # rename of category "misc" to "subterranea"
-RewriteRule ^english/(.*)/misc(/.*)$ /english/$1/subterranea$2 [R=301,L]
+RewriteRule ^english/(.+)/misc(/.*)$ /english/$1/subterranea$2 [R=301,L]
 
 # Permanent URL redirect- by netgrade
 Redirect 301 /english/ar/caves/LasManos.html /english/ar/showcaves/LasManos.html
@@ -243,6 +243,7 @@ Redirect 301 /english/usa/showcaves/X.html /english/usa/showcaves/CarterX.html
 Redirect 301 /english/vn/caves/VanTrinh.html /english/vn/showcaves/VanTrinh.html
 Redirect 301 /english/vn/region/HaTay.html /english/vn/region/HaNoi.html
 Redirect 301 /german/de/caves/HohlerFels.html /german/de/showcaves/HohlerFels.html
+Redirect 301 /german/de/caves/Linkenbold.html /german/de/showcaves/Linkenbold.html
 Redirect 301 /german/de/mines/HellaGlueck.html /german/de/mines/Neubulach.html
 Redirect 301 /german/de/mines/Oelsnitz.html /german/de/mines/KohleWelt.html
 Redirect 301 /german/de/subterranea/Kristallgaenge.html /german/de/mines/Kristallgaenge.html
