@@ -50,7 +50,7 @@ Please try again maybe 15 minutes later.
 <div data-role="header" data-position="fixed">
     <div data-role="navbar">
         <ul>
-            <li><a data-ajax="false" href="/german/index.html"><img alt="Deutsch - German" src="/graphics/language/de.png" class="language"></a></li>
+            <li><a data-ajax="false" href="../german/index.html"><img alt="Deutsch - German" src="/graphics/language/de.png" class="language"></a></li>
         </ul>
     </div>
 </div>
