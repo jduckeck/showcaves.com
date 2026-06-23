@@ -24,7 +24,7 @@ ErrorDocument 500 /errors/500.html
 # rename of chaper "misc" to "other"
 RewriteRule ^english/misc/(.*)$ /english/other/$1 [L,R=301]
 # rename of category "misc" to "subterranea"
-RewriteRule ^english/(.+)/misc(/.*)$ /english/$1/subterranea$2 [R=301,L]
+RewriteRule ^english/(.+)/misc/(.*)$ /english/$1/subterranea/$2 [L,R=301]
 
 # Permanent URL redirect- by netgrade
 Redirect 301 /english/ar/caves/LasManos.html /english/ar/showcaves/LasManos.html
