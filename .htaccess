@@ -206,7 +206,7 @@ Redirect 301 /english/other/showcaves/Noravank.html /english/am/showcaves/Norava
 Redirect 301 /english/other/showcaves/Orlovaca.html /english/ba/showcaves/Orlovaca.html
 Redirect 301 /english/other/showcaves/Petnicka.html /english/rs/showcaves/Petnicka.html
 Redirect 301 /english/other/showcaves/Pindaya.html /english/mm/showcaves/Pindaya.html
-Redirect 301 /english/other/showcaves/Pinturas.html /english/other/caves/Cobanerita.html
+Redirect 301 /english/other/showcaves/Pinturas.html /english/gt/caves/Cobanerita.html
 Redirect 301 /english/other/showcaves/Potpecka.html /english/rs/showcaves/Potpecka.html
 Redirect 301 /english/other/showcaves/QuebradaDelToro.html /english/ve/showcaves/QuebradaDelToro.html
 Redirect 301 /english/other/showcaves/Radac.html /english/rs/showcaves/Radac.html
@@ -249,6 +249,7 @@ Redirect 301 /english/sk/caves/MatvychNetopierov.html /english/sk/showcaves/Matv
 Redirect 301 /english/sk/subterranea/BanskaStiavnica.html /english/sk/mines/BanskaStiavnica.html
 Redirect 301 /english/th/karst/ThamLuang.html /english/th/showcaves/LuangPhaWiang.html
 Redirect 301 /english/th/showcaves/Phayanak.html /english/th/caves/PlaPongNgam.html
+Redirect 301 /english/th/showcaves/PlaPongNgam.html /english/th/caves/PlaPongNgam.html
 Redirect 301 /english/th/showcaves/PumPla.html /english/th/showcaves/PlaPongNgam.html
 Redirect 301 /english/tr/region/Zonguldak.html /english/tr/region/BlackSea.html
 Redirect 301 /english/tr/showcaves/AkarsuKoyu.html /english/tr/caves/AkarsuKoyu.html
