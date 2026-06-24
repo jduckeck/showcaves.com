@@ -22,3 +22,5 @@ UPDATE `sights`
 SET `Latitude`='9.6230503',
     `Longitude`='122.4427814'
 WHERE `filename` = '/english/ph/caves/Ubong.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Besucherbergwerk Schieferstollen Wilhelmslust', '/english/de/mines/Wilhelmslust.html', 'Wilhelmslust', 'Europe', 'de', 'Germany', 'mines', 'Siegerland', 50.8221840, 7.9502717);
