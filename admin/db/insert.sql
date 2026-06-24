@@ -32,3 +32,5 @@ SET `Latitude`='-24.674319',
 WHERE `filename` = '/english/za/gorges/BurkesLuck.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Remarkable Cave', '/english/au/caves/Remarkable.html', 'Remarkable', 'Australia', 'au', 'Australia', 'caves', 'tas', -43.1878822, 147.8442976);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Erlebnismuseum Westfälische Salzwelten', '/english/de/mines/WestfaelischeSalzwelten.html', 'WestfaelischeSalzwelten', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 51.5848774, 8.1654464);
