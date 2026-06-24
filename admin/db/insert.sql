@@ -24,3 +24,5 @@ SET `Latitude`='9.6230503',
 WHERE `filename` = '/english/ph/caves/Ubong.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Besucherbergwerk Schieferstollen Wilhelmslust', '/english/de/mines/Wilhelmslust.html', 'Wilhelmslust', 'Europe', 'de', 'Germany', 'mines', 'Siegerland', 50.8221840, 7.9502717);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Monte Forato', '/english/it/karst/Forato.html', 'Forato', 'Europe', 'it', 'Italy', 'karst', 'Toscana', 44.015406, 10.335394);
