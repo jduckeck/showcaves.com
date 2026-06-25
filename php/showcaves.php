@@ -81,7 +81,7 @@ function printByCountryAll($pdo)
             $country = $row['country'];
             $name = $row['name'];
             if($row['closed']) {
-                $name = "<span class='closed'>" . $name . "</span>";
+                $name = "<span class=\"closed\">" . $name . "</span>";
             }
             $filename = $row['filename'];
             $Category = getCategory($row['category']);
@@ -132,7 +132,7 @@ function printByCountry($pdo, $category)
             $country = $row['country'];
             $name = $row['name'];
             if($row['closed']) {
-                $name = "<span class='closed'>" . $name . "</span>";
+                $name = "<span class=\"closed\">" . $name . "</span>";
             }
             $filename = $row['filename'];
 
@@ -194,7 +194,7 @@ function printAllByCategory($pdo, $category, $isGerman)
         while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
             $name = $row['name'];
             if($row['closed']) {
-                $name = "<span class='closed'>" . $name . "</span>";
+                $name = "<span class=\"closed\">" . $name . "</span>";
             }
             $country = $row['country'];
             $filename = $row['filename'];
@@ -230,7 +230,7 @@ function printAll($pdo, $isGerman)
         while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
             $name = $row['name'];
             if($row['closed']) {
-                $name = "<span class='closed'>" . $name . "</span>";
+                $name = "<span class=\"closed\">" . $name . "</span>";
             }
             $country = $row['country'];
             $filename = $row['filename'];
