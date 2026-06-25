@@ -36,3 +36,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Erlebnismuseum Westfälische Salzwelten', '/english/de/mines/WestfaelischeSalzwelten.html', 'WestfaelischeSalzwelten', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 51.5848774, 8.1654464);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Tasmans Arch', '/english/au/caves/TasmansArch.html', 'TasmansArch', 'Australia', 'au', 'Australia', 'caves', 'tas', -43.0421258, 147.9509389);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Fjaðrárgljúfur', '/english/is/gorges/Fjadrargljufur.html', 'Fjadrargljufur', 'Europe', 'is', 'Iceland', 'gorges', 'Sudurland', 63.7725995, -18.1737214);
