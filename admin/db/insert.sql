@@ -40,3 +40,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Fjaðrárgljúfur', '/english/is/gorges/Fjadrargljufur.html', 'Fjadrargljufur', 'Europe', 'is', 'Iceland', 'gorges', 'Sudurland', 63.7725995, -18.1737214);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grube Malapertus', '/english/de/mines/Malapertus.html', 'Malapertus', 'Europe', 'de', 'Germany', 'mines', 'Taunus', 50.579629, 8.500513);
+INSERT INTO static (path)
+VALUES ('/english/de/topics/Mogelpackungen.html');
+INSERT INTO static (path)
+VALUES ('/german/de/topics/Mogelpackungen.html');
