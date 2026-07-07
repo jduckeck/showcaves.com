@@ -10,3 +10,5 @@ UPDATE `sights`
 SET `Latitude`='50.6370419',
     `Longitude`='13.2168811'
 WHERE `filename` = '/english/de/mines/TieferMolchner.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Oklahoma City Underground', '/english/usa/subterranea/Oklahoma.html', 'Oklahoma', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ok', 35.467077, -97.515468);
