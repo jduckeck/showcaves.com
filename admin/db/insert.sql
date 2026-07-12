@@ -12,3 +12,7 @@ SET `Latitude`='50.6370419',
 WHERE `filename` = '/english/de/mines/TieferMolchner.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Oklahoma City Underground', '/english/usa/subterranea/Oklahoma.html', 'Oklahoma', 'NorthAmerica', 'usa', 'United States of America', 'subterranea', 'ok', 35.467077, -97.515468);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Sultan Epe', '/english/other/subterranea/SultanEpe.html', 'SultanEpe', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 44.4713760, 51.0122503);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shakpak Ata', '/english/other/subterranea/ShakpakAta.html', 'ShakpakAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 44.4334126, 51.1389113);
