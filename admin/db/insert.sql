@@ -16,3 +16,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Sultan Epe', '/english/other/subterranea/SultanEpe.html', 'SultanEpe', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 44.4713760, 51.0122503);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Shakpak Ata', '/english/other/subterranea/ShakpakAta.html', 'ShakpakAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 44.4334126, 51.1389113);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Beket Ata', '/english/other/subterranea/BeketAta.html', 'BeketAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 43.5971341, 54.0701597);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Shopan Ata', '/english/other/subterranea/ShopanAta.html', 'ShopanAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 43.5482040, 53.3878591);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Karaman Ata', '/english/other/subterranea/KaramanAta.html', 'KaramanAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 43.8998324, 51.8727165);
