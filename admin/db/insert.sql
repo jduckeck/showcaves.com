@@ -22,3 +22,17 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Shopan Ata', '/english/other/subterranea/ShopanAta.html', 'ShopanAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 43.5482040, 53.3878591);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
 VALUES ('yes', 'Karaman Ata', '/english/other/subterranea/KaramanAta.html', 'KaramanAta', 'Asia', 'kz', 'Kazakhstan', 'subterranea', 'kz', 'other', 43.8998324, 51.8727165);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Grotte d’Easo', '/english/other/showcaves/Easo.html', 'Easo', 'Oceania', 'nc', 'New Caledonia', 'showcaves', 'nc', 'other', -20.7795100, 167.1291497);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Grottes de Koumac', '/english/other/caves/Koumac.html', 'Koumac', 'Oceania', 'nc', 'New Caledonia', 'caves', 'nc', 'other', -20.5353568, 164.3398168);
+UPDATE `sights`
+SET `Latitude`='-20.6820934',
+    `Longitude`='164.9741782'
+WHERE `filename` = '/english/other/caves/Linderalique.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, chapter, Latitude, Longitude)
+VALUES ('yes', 'Grotte de la Troisième', '/english/other/caves/Troisieme.html', 'Troisieme', 'Oceania', 'nc', 'New Caledonia', 'caves', 'nc', 'other', -22.6105223, 167.4387491);
+UPDATE `sights`
+SET `Latitude`='-22.5856400',
+    `Longitude`='167.4737960'
+WHERE `filename` = '/english/other/caves/ReineHortense.html';
