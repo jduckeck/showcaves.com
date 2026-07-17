@@ -36,3 +36,5 @@ UPDATE `sights`
 SET `Latitude`='-22.5856400',
     `Longitude`='167.4737960'
 WHERE `filename` = '/english/other/caves/ReineHortense.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gljúfrabúi', '/english/is/gorges/Gljufrabui.html', 'Gljufrabui', 'Europe', 'is', 'Iceland', 'gorges', 'Sudurland', 63.6207562, -19.9863395);
