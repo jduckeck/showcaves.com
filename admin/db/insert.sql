@@ -38,3 +38,11 @@ SET `Latitude`='-22.5856400',
 WHERE `filename` = '/english/other/caves/ReineHortense.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Gljúfrabúi', '/english/is/gorges/Gljufrabui.html', 'Gljufrabui', 'Europe', 'is', 'Iceland', 'gorges', 'Sudurland', 63.6207562, -19.9863395);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte Sainte-Barbe', '/english/fr/caves/SainteBarbe.html', 'SainteBarbe', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 49.2138210, 6.6356889);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte des Russes', '/english/fr/subterranea/Russes.html', 'Russes', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.1783177, 6.6093385);
+UPDATE `sights`
+SET `Latitude`='49.2425247',
+    `Longitude`='6.6322542'
+WHERE `filename` = '/english/fr/subterranea/Dalem.html';
