@@ -316,12 +316,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gr/caves/AgiosAntoniosSamos.html</loc>
+      <loc>https://www.showcaves.com/english/gr/caves/AgiosAntonios.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gr/caves/AgiosAntonios.html</loc>
+      <loc>https://www.showcaves.com/english/gr/caves/AgiosAntoniosSamos.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -331,13 +331,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gr/caves/AgiosGeorgiosMandelas.html</loc>
-    <lastmod>2026-01-23</lastmod>
+      <loc>https://www.showcaves.com/english/gr/showcaves/AgiosGeorgios.html</loc>
+      <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gr/showcaves/AgiosGeorgios.html</loc>
-    <lastmod>2026-04-16</lastmod>
+      <loc>https://www.showcaves.com/english/gr/caves/AgiosGeorgiosMandelas.html</loc>
+      <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -351,13 +351,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gr/caves/AgiosIoannisDamialis.html</loc>
+      <loc>https://www.showcaves.com/english/gr/caves/AgiosIoannisHerakleia.html</loc>
     <lastmod>2025-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/gr/caves/AgiosIoannisErimitis.html</loc>
-      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -366,11 +361,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gr/caves/AgiosIoannisHerakleia.html</loc>
+      <loc>https://www.showcaves.com/english/gr/caves/AgiosIoannisDamialis.html</loc>
       <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+      <loc>https://www.showcaves.com/english/gr/caves/AgiosIoannisErimitis.html</loc>
+      <lastmod>2026-02-23</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
     <loc>https://www.showcaves.com/english/gr/caves/AgiosMamas.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -907,7 +907,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Altenkirchen.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -1167,7 +1167,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/AndreasGegentrumStolln.html</loc>
-    <lastmod>2026-01-22</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -1571,13 +1571,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/nl/subterranea/Arnhem.html</loc>
-    <lastmod>2026-01-17</lastmod>
+      <loc>https://www.showcaves.com/english/other/showcaves/Arnhem.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/other/showcaves/Arnhem.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/nl/subterranea/Arnhem.html</loc>
+      <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2012,17 +2012,17 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/caves/Azokh.html</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/br/springs/Azul.html</loc>
-    <lastmod>2026-02-13</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.showcaves.com/english/mx/karst/Azul.html</loc>
       <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/br/springs/Azul.html</loc>
+      <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2536,13 +2536,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ca/subterranea/Bat.html</loc>
-    <lastmod>2026-01-22</lastmod>
+      <loc>https://www.showcaves.com/english/car/caves/Bat.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/car/caves/Bat.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/ca/subterranea/Bat.html</loc>
+      <lastmod>2026-01-22</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2617,7 +2617,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Bauersberg.html</loc>
-    <lastmod>2026-05-13</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2782,7 +2782,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/other/subterranea/BeketAta.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2851,13 +2851,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ca/mines/Bellevue.html</loc>
-      <lastmod>2026-01-16</lastmod>
+      <loc>https://www.showcaves.com/english/fr/showcaves/Bellevue.html</loc>
+      <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/showcaves/Bellevue.html</loc>
-      <lastmod>2026-02-04</lastmod>
+      <loc>https://www.showcaves.com/english/ca/mines/Bellevue.html</loc>
+      <lastmod>2026-01-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -2991,12 +2991,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/mines/BerchtesgadenHeilstollen.html</loc>
+      <loc>https://www.showcaves.com/english/de/mines/Berchtesgaden.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/mines/Berchtesgaden.html</loc>
+      <loc>https://www.showcaves.com/english/de/mines/BerchtesgadenHeilstollen.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -3636,13 +3636,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/jm/springs/BlueHole.html</loc>
-      <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/bz/karst/BlueHole.html</loc>
+      <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/bz/karst/BlueHole.html</loc>
-    <lastmod>2026-01-26</lastmod>
+      <loc>https://www.showcaves.com/english/jm/springs/BlueHole.html</loc>
+      <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -4551,17 +4551,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/BunkermuseumHamburg.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/BunkermuseumEmden.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/BunkermuseumRennsteig.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/BunkermuseumHamburg.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/BunkermuseumEmden.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/BunkermuseumRennsteig.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -4970,11 +4970,6 @@
     <lastmod>2026-03-07</lastmod>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
-      <loc>https://www.showcaves.com/english/gt/karst/Candelaria.html</loc>
-      <lastmod>2025-07-29</lastmod>
-      <changefreq>monthly</changefreq>
-  </url>
     <url>
     <loc>https://www.showcaves.com/english/cl/mines/Candelaria.html</loc>
     <lastmod>2026-04-16</lastmod>
@@ -4986,6 +4981,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+      <loc>https://www.showcaves.com/english/gt/karst/Candelaria.html</loc>
+      <lastmod>2025-07-29</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
     <loc>https://www.showcaves.com/english/it/subterranea/Cane.html</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -5266,12 +5266,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/bs/caves/CartwrightDuho.html</loc>
+      <loc>https://www.showcaves.com/english/bs/caves/Cartwrights.html</loc>
     <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/bs/caves/Cartwrights.html</loc>
+      <loc>https://www.showcaves.com/english/bs/caves/CartwrightDuho.html</loc>
     <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -5441,23 +5441,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/br/showcaves/Catedral.html</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://www.showcaves.com/english/mx/showcaves/Catedral.html</loc>
     <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/mines/CatharinaNeufang.html</loc>
+      <loc>https://www.showcaves.com/english/br/showcaves/Catedral.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ph/caves/Cathedral.html</loc>
-      <lastmod>2026-05-14</lastmod>
+      <loc>https://www.showcaves.com/english/de/mines/CatharinaNeufang.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5466,8 +5461,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/nz/caves/Cathedral.html</loc>
-    <lastmod>2026-01-19</lastmod>
+      <loc>https://www.showcaves.com/english/gb/showcaves/Cathedral.html</loc>
+      <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5476,8 +5471,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/gorges/CathedralGorge.html</loc>
-      <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/bm/showcaves/Cathedral.html</loc>
+      <lastmod>2025-12-31</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/usa/gorges/CathedralGorge.html</loc>
+        <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5486,18 +5486,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+      <loc>https://www.showcaves.com/english/nz/caves/Cathedral.html</loc>
+      <lastmod>2026-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/ph/caves/Cathedral.html</loc>
+      <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
       <loc>https://www.showcaves.com/english/au/showcaves/Cathedral.html</loc>
       <lastmod>2026-01-25</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/gb/showcaves/Cathedral.html</loc>
-      <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/bm/showcaves/Cathedral.html</loc>
-      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -5671,11 +5671,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/springs/CaveSpringHollow.html</loc>
-      <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
       <loc>https://www.showcaves.com/english/usa/showcaves/CaveSpring.html</loc>
       <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -5686,13 +5681,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/caves/CaveSpringCurrent.html</loc>
-    <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/usa/springs/CaveSpring.html</loc>
+      <lastmod>2026-02-16</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/usa/springs/CaveSpringHollow.html</loc>
+        <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/springs/CaveSpring.html</loc>
-      <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/usa/caves/CaveSpringCurrent.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6031,12 +6031,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/subterranea/Chauvet.html</loc>
+      <loc>https://www.showcaves.com/english/fr/caves/Chauvet.html</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/caves/Chauvet.html</loc>
+      <loc>https://www.showcaves.com/english/fr/subterranea/Chauvet.html</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -6046,13 +6046,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/gorges/Cheddar.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/gb/showcaves/Cheddar.html</loc>
+      <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/showcaves/Cheddar.html</loc>
-    <lastmod>2026-02-14</lastmod>
+      <loc>https://www.showcaves.com/english/gb/gorges/Cheddar.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6101,13 +6101,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/caves/Cherokee.html</loc>
-      <lastmod>2026-01-28</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Cherokee.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/Cherokee.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/usa/caves/Cherokee.html</loc>
+      <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6356,13 +6356,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/subterranea/Churchill.html</loc>
-    <lastmod>2026-01-26</lastmod>
+      <loc>https://www.showcaves.com/english/mt/subterranea/Churchill.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/mt/subterranea/Churchill.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/gb/subterranea/Churchill.html</loc>
+      <lastmod>2026-01-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6427,7 +6427,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/dk/subterranea/Cisternerne.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6436,13 +6436,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/CisternoneRomano.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/Cisternone.html</loc>
+      <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/Cisternone.html</loc>
-    <lastmod>2026-02-21</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/CisternoneRomano.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6662,7 +6662,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/au/mines/Collie.html</loc>
-    <lastmod>2026-01-21</lastmod>
+      <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -6846,13 +6846,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/mt/karst/Coral.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Coral.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/showcaves/Coral.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/mt/karst/Coral.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7006,13 +7006,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gb/caves/Cove.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/ie/caves/Cove.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ie/caves/Cove.html</loc>
-      <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/gb/caves/Cove.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7031,13 +7031,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ie/showcaves/Crag.html</loc>
-      <lastmod>2026-02-13</lastmod>
+      <loc>https://www.showcaves.com/english/gb/subterranea/Crag.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gb/subterranea/Crag.html</loc>
-      <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/ie/showcaves/Crag.html</loc>
+      <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7206,8 +7206,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ir/caves/Crystal.html</loc>
-      <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/bm/showcaves/Crystal.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7216,18 +7216,18 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/au/subterranea/Crystal.html</loc>
-    <lastmod>2026-01-25</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Crystal.html</loc>
+      <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/showcaves/Crystal.html</loc>
-    <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/au/subterranea/Crystal.html</loc>
+      <lastmod>2026-01-25</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
-        <loc>https://www.showcaves.com/english/bm/showcaves/Crystal.html</loc>
-        <lastmod>2025-12-31</lastmod>
+        <loc>https://www.showcaves.com/english/ir/caves/Crystal.html</loc>
+        <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7502,7 +7502,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/fr/subterranea/Dalem.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7771,12 +7771,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/sk/showcaves/DemanovskaSlobody.html</loc>
+      <loc>https://www.showcaves.com/english/sk/showcaves/DemanovskaLadova.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/sk/showcaves/DemanovskaLadova.html</loc>
+      <loc>https://www.showcaves.com/english/sk/showcaves/DemanovskaSlobody.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -7821,13 +7821,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/DeutschesBunkermuseum.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/de/subterranea/DeutschesBergbauMuseum.html</loc>
+      <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/DeutschesBergbauMuseum.html</loc>
-    <lastmod>2026-03-26</lastmod>
+      <loc>https://www.showcaves.com/english/de/subterranea/DeutschesBunkermuseum.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7906,13 +7906,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gb/karst/DevilsPunchbowl.html</loc>
-      <lastmod>2026-02-14</lastmod>
+      <loc>https://www.showcaves.com/english/usa/karst/DevilsPunchbowl.html</loc>
+      <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/karst/DevilsPunchbowl.html</loc>
-      <lastmod>2026-01-20</lastmod>
+      <loc>https://www.showcaves.com/english/gb/karst/DevilsPunchbowl.html</loc>
+      <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -7942,7 +7942,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/mx/caves/DiabloMazatlan.html</loc>
-    <lastmod>2025-11-17</lastmod>
+      <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8541,12 +8541,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/mines/Dueppenweiler.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/Dueppenweiler.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/subterranea/Dueppenweiler.html</loc>
+      <loc>https://www.showcaves.com/english/de/mines/Dueppenweiler.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -8727,7 +8727,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/other/showcaves/Easo.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -8891,13 +8891,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/mines/Eisensteinstollen.html</loc>
-    <lastmod>2026-02-21</lastmod>
+      <loc>https://www.showcaves.com/english/at/showcaves/Eisenstein.html</loc>
+      <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/at/showcaves/Eisenstein.html</loc>
-    <lastmod>2026-04-17</lastmod>
+      <loc>https://www.showcaves.com/english/de/mines/Eisensteinstollen.html</loc>
+      <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9156,13 +9156,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ro/subterranea/EmilRacovita.html</loc>
-    <lastmod>2026-02-13</lastmod>
+      <loc>https://www.showcaves.com/english/other/caves/EmilRacovita.html</loc>
+      <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/other/caves/EmilRacovita.html</loc>
-    <lastmod>2026-01-28</lastmod>
+      <loc>https://www.showcaves.com/english/ro/subterranea/EmilRacovita.html</loc>
+      <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9177,12 +9177,12 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/usa/mines/Empire.html</loc>
-      <lastmod>2026-06-07</lastmod>
+      <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.showcaves.com/english/usa/caves/Empire.html</loc>
-      <lastmod>2026-01-28</lastmod>
+      <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9311,13 +9311,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/th/karst/Erawan.html</loc>
-      <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/th/subterranea/Erawan.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/th/subterranea/Erawan.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/th/karst/Erawan.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9561,13 +9561,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/my/showcaves/Fairy.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/au/showcaves/Fairy.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/showcaves/Fairy.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/my/showcaves/Fairy.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9781,13 +9781,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gb/mines/Fern.html</loc>
-      <lastmod>2026-02-14</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Fern.html</loc>
+      <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/Fern.html</loc>
-      <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/gb/mines/Fern.html</loc>
+      <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9832,7 +9832,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/FGGesellschaft.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -9917,7 +9917,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Finstertal.html</loc>
-    <lastmod>2026-06-05</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10291,13 +10291,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/car/showcaves/Fountain.html</loc>
-      <lastmod>2026-04-14</lastmod>
+      <loc>https://www.showcaves.com/english/usa/caves/Fountain.html</loc>
+      <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/caves/Fountain.html</loc>
-      <lastmod>2026-01-28</lastmod>
+      <loc>https://www.showcaves.com/english/car/showcaves/Fountain.html</loc>
+      <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -10381,12 +10381,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/FrantoioIpogeoSternatia.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/FrantoioIpogeoGranafei.html</loc>
       <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/FrantoioIpogeoGranafei.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/FrantoioIpogeoSternatia.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -10437,7 +10437,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/de/mines/Freital.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-09</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -11032,7 +11032,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Gersdorf.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11076,13 +11076,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/showcaves/Giants.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/au/showcaves/Giants.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/showcaves/Giants.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/gb/showcaves/Giants.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11091,17 +11091,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/es/subterranea/Gigante.html</loc>
-    <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/hn/caves/Gigante.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/hn/caves/Gigante.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/it/showcaves/Gigante.html</loc>
+      <lastmod>2026-02-12</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
-        <loc>https://www.showcaves.com/english/it/showcaves/Gigante.html</loc>
+        <loc>https://www.showcaves.com/english/es/subterranea/Gigante.html</loc>
         <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -11257,7 +11257,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/is/gorges/Gljufrabui.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-17</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -11301,13 +11301,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ke/karst/Gods.html</loc>
-    <lastmod>2025-08-16</lastmod>
+      <loc>https://www.showcaves.com/english/gb/karst/Gods.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/karst/Gods.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/ke/karst/Gods.html</loc>
+      <lastmod>2025-08-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11471,13 +11471,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ru/springs/GoluboyeOzeroSamara.html</loc>
-    <lastmod>2026-01-21</lastmod>
+      <loc>https://www.showcaves.com/english/ru/springs/GoluboyeOzeroKabardino.html</loc>
+      <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ru/springs/GoluboyeOzeroKabardino.html</loc>
-    <lastmod>2026-04-13</lastmod>
+      <loc>https://www.showcaves.com/english/ru/springs/GoluboyeOzeroSamara.html</loc>
+      <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11521,13 +11521,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/my/caves/GoodLuck.html</loc>
-    <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/gb/mines/Goodluck.html</loc>
+      <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/mines/Goodluck.html</loc>
-    <lastmod>2026-01-21</lastmod>
+      <loc>https://www.showcaves.com/english/my/caves/GoodLuck.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -11951,13 +11951,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/caves/Grotto.html</loc>
-      <lastmod>2026-01-25</lastmod>
+      <loc>https://www.showcaves.com/english/other/caves/Grotto.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/other/caves/Grotto.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/au/caves/Grotto.html</loc>
+      <lastmod>2026-01-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -12381,12 +12381,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/jp/gorges/HakusanShrineIchinoo.html</loc>
+      <loc>https://www.showcaves.com/english/jp/caves/HakusanShrineNotsumachi.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/jp/caves/HakusanShrineNotsumachi.html</loc>
+      <loc>https://www.showcaves.com/english/jp/gorges/HakusanShrineIchinoo.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -12441,13 +12441,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/bs/caves/Hamilton.html</loc>
-    <lastmod>2026-01-21</lastmod>
+      <loc>https://www.showcaves.com/english/usa/karst/Hamilton.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/karst/Hamilton.html</loc>
-    <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/bs/caves/Hamilton.html</loc>
+      <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13501,13 +13501,13 @@
       <changefreq>monthly</changefreq>
   </url>
     <url>
-    <loc>https://www.showcaves.com/english/cn/karst/HuanglongPools.html</loc>
-    <lastmod>2026-02-21</lastmod>
+        <loc>https://www.showcaves.com/english/cn/showcaves/HuanglongSichuan.html</loc>
+        <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/cn/showcaves/HuanglongSichuan.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/cn/karst/HuanglongPools.html</loc>
+      <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -13966,13 +13966,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/car/subterranea/Indian.html</loc>
-      <lastmod>2026-04-16</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Indian.html</loc>
+      <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/Indian.html</loc>
-      <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/car/subterranea/Indian.html</loc>
+      <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14026,13 +14026,13 @@
       <changefreq>monthly</changefreq>
   </url>
     <url>
-        <loc>https://www.showcaves.com/english/kr/subterranea/Infiltration4.html</loc>
-        <lastmod>2025-12-31</lastmod>
+        <loc>https://www.showcaves.com/english/kr/subterranea/Infiltration3.html</loc>
+        <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/kr/subterranea/Infiltration3.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/kr/subterranea/Infiltration4.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14556,13 +14556,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/cz/mines/Johannes.html</loc>
-      <lastmod>2026-02-04</lastmod>
+      <loc>https://www.showcaves.com/english/se/caves/Johannes.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/se/caves/Johannes.html</loc>
-      <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/cz/mines/Johannes.html</loc>
+      <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -14617,7 +14617,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Josefsglueck.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -15137,7 +15137,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/other/subterranea/KaramanAta.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-14</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -16312,7 +16312,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/other/caves/Koumac.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -16481,13 +16481,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/hr/karst/Krka.html</loc>
-      <lastmod>2026-04-14</lastmod>
+      <loc>https://www.showcaves.com/english/hr/springs/Krka.html</loc>
+      <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/hr/springs/Krka.html</loc>
-      <lastmod>2025-08-17</lastmod>
+      <loc>https://www.showcaves.com/english/hr/karst/Krka.html</loc>
+      <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -16517,7 +16517,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Kropfmuehl.html</loc>
-    <lastmod>2026-02-13</lastmod>
+      <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -16801,12 +16801,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/LabirintoCaffarella.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/LabirintoCasilino.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/LabirintoCasilino.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/LabirintoCaffarella.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -16856,12 +16856,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/subterranea/LaCave.html</loc>
+      <loc>https://www.showcaves.com/english/fr/showcaves/Lacave.html</loc>
     <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/showcaves/Lacave.html</loc>
+      <loc>https://www.showcaves.com/english/fr/subterranea/LaCave.html</loc>
     <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -17223,11 +17223,6 @@
   <url>
     <loc>https://www.showcaves.com/english/at/mines/Larzenbach.html</loc>
     <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/es/mines/LaSalina.html</loc>
-    <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -17812,7 +17807,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/caves/Linderalique.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -18137,7 +18132,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/showcaves/Longhorn.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -18646,13 +18641,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/showcaves/MadeleineArdeche.html</loc>
-    <lastmod>2026-02-04</lastmod>
+      <loc>https://www.showcaves.com/english/fr/showcaves/MadeleineAbri.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/showcaves/MadeleineAbri.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/fr/showcaves/MadeleineArdeche.html</loc>
+      <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -18661,22 +18656,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/showcaves/Madonna.html</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://www.showcaves.com/english/it/caves/Madonna.html</loc>
     <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/MadonnaBombile.html</loc>
-      <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/it/showcaves/Madonna.html</loc>
+      <lastmod>2025-12-31</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
-        <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDellaGrotta.html</loc>
+        <loc>https://www.showcaves.com/english/it/subterranea/MadonnaBombile.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -18686,13 +18676,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDellaCroce.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDellaGrotta.html</loc>
+      <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDellaCorona.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDelleVirtu.html</loc>
+      <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -18701,8 +18691,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDelleVirtu.html</loc>
-    <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDellaCorona.html</loc>
+      <lastmod>2025-12-31</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/it/subterranea/MadonnaDellaCroce.html</loc>
+        <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -19041,12 +19036,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/tz/subterranea/Mangapwani.html</loc>
+      <loc>https://www.showcaves.com/english/tz/caves/Mangapwani.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/tz/caves/Mangapwani.html</loc>
+      <loc>https://www.showcaves.com/english/tz/subterranea/Mangapwani.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -19131,13 +19126,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/eg/subterranea/MarAntonios.html</loc>
-      <lastmod>2026-02-11</lastmod>
+      <loc>https://www.showcaves.com/english/lb/subterranea/MarAntoniosKozhaya.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/lb/subterranea/MarAntoniosKozhaya.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/eg/subterranea/MarAntonios.html</loc>
+      <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -19151,6 +19146,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+      <loc>https://www.showcaves.com/english/do/showcaves/Maravillas.html</loc>
+      <lastmod>2026-01-21</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
     <loc>https://www.showcaves.com/english/es/showcaves/Maravillas.html</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -19158,11 +19158,6 @@
   <url>
       <loc>https://www.showcaves.com/english/es/showcaves/MaravillasIbdes.html</loc>
       <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/do/showcaves/Maravillas.html</loc>
-      <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -19307,7 +19302,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/MarkusSemmler.html</loc>
-    <lastmod>2026-02-18</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -19772,7 +19767,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Mellestollen.html</loc>
-    <lastmod>2026-02-20</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -20021,13 +20016,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/hu/subterranea/Millennium.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/other/caves/Millennium.html</loc>
+      <lastmod>2026-01-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/other/caves/Millennium.html</loc>
-      <lastmod>2026-01-28</lastmod>
+      <loc>https://www.showcaves.com/english/hu/subterranea/Millennium.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -20246,13 +20241,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/showcaves/Mitchell.html</loc>
-    <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/nz/mines/Mitchell.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/nz/mines/Mitchell.html</loc>
-    <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Mitchell.html</loc>
+      <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -20461,11 +20456,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/es/mines/MonDeSal.html</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://www.showcaves.com/english/it/caves/Monello.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -20606,12 +20596,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ca/subterranea/Montreal.html</loc>
+      <loc>https://www.showcaves.com/english/au/mines/Montreal.html</loc>
     <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/au/mines/Montreal.html</loc>
+      <loc>https://www.showcaves.com/english/ca/subterranea/Montreal.html</loc>
     <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -20742,7 +20732,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Morgenstern.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -20826,13 +20816,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/showcaves/Moulis.html</loc>
-    <lastmod>2026-02-04</lastmod>
+      <loc>https://www.showcaves.com/english/fr/caves/Moulis.html</loc>
+      <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/caves/Moulis.html</loc>
-    <lastmod>2026-01-21</lastmod>
+      <loc>https://www.showcaves.com/english/fr/showcaves/Moulis.html</loc>
+      <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -21381,13 +21371,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/mines/NationalCoalMiningMuseum.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/usa/karst/NationalCorvetteMuseum.html</loc>
+      <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/karst/NationalCorvetteMuseum.html</loc>
-    <lastmod>2026-04-14</lastmod>
+      <loc>https://www.showcaves.com/english/gb/mines/NationalCoalMiningMuseum.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -21411,8 +21401,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/NaturalBridgeTX.html</loc>
-      <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/usa/karst/NaturalBridgeAL.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -21421,13 +21411,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/NaturalBridgeNY.html</loc>
-      <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/NaturalBridgeVA.html</loc>
-      <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/NaturalBridgeTX.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -21436,8 +21421,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/karst/NaturalBridgeAL.html</loc>
-      <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/NaturalBridgeVA.html</loc>
+      <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/usa/showcaves/NaturalBridgeNY.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -22021,17 +22011,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+      <loc>https://www.showcaves.com/english/gb/subterranea/Nottingham.html</loc>
+      <lastmod>2025-12-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
       <loc>https://www.showcaves.com/english/gb/subterranea/NottinghamLife.html</loc>
       <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.showcaves.com/english/gb/subterranea/NottinghamCastle.html</loc>
-      <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/gb/subterranea/Nottingham.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -22377,7 +22367,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/usa/subterranea/Oklahoma.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-09</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -22787,7 +22777,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Osterwald.html</loc>
-    <lastmod>2026-03-07</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -24621,13 +24611,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/subterranea/Pontoise.html</loc>
-      <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/fr/caves/Pontoise.html</loc>
+      <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/caves/Pontoise.html</loc>
-      <lastmod>2026-04-15</lastmod>
+      <loc>https://www.showcaves.com/english/fr/subterranea/Pontoise.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -24722,7 +24712,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/si/showcaves/Postojna.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -25136,12 +25126,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/QanatGesuiticoAlto.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/QanatGesuiticoBasso.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/QanatGesuiticoBasso.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/QanatGesuiticoAlto.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -25386,12 +25376,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ir/caves/Rainbow.html</loc>
+      <loc>https://www.showcaves.com/english/usa/springs/Rainbow.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/springs/Rainbow.html</loc>
+      <loc>https://www.showcaves.com/english/ir/caves/Rainbow.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -25551,13 +25541,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/gorges/RattlesnakeCanyon.html</loc>
-      <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/usa/subterranea/RattlesnakeSaloon.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/subterranea/RattlesnakeSaloon.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/usa/gorges/RattlesnakeCanyon.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -25726,13 +25716,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ch/gorges/Reichenbachfall.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <loc>https://www.showcaves.com/english/de/mines/ReichenbachStolln.html</loc>
+      <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/mines/ReichenbachStolln.html</loc>
-    <lastmod>2026-04-14</lastmod>
+      <loc>https://www.showcaves.com/english/ch/gorges/Reichenbachfall.html</loc>
+      <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -25767,7 +25757,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/caves/ReineHortense.html</loc>
-    <lastmod>2025-08-26</lastmod>
+      <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -26261,13 +26251,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/springs/Roches.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/fr/subterranea/Roches.html</loc>
+      <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/subterranea/Roches.html</loc>
-    <lastmod>2026-02-08</lastmod>
+      <loc>https://www.showcaves.com/english/fr/springs/Roches.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -26327,7 +26317,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Roehrigschacht.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -26531,12 +26521,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/showcaves/RoundSpring.html</loc>
+      <loc>https://www.showcaves.com/english/usa/springs/RoundSpring.html</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/springs/RoundSpring.html</loc>
+      <loc>https://www.showcaves.com/english/usa/showcaves/RoundSpring.html</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -26672,7 +26662,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/fr/subterranea/Russes.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-20</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -26851,13 +26841,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/showcaves/SaintChristopheEchelles.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/fr/subterranea/SaintChristophe.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/fr/subterranea/SaintChristophe.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/fr/showcaves/SaintChristopheEchelles.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -26872,7 +26862,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/fr/caves/SainteBarbe.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27286,13 +27276,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/other/subterranea/SanFrancesco.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/SanFrancesco.html</loc>
+      <lastmod>2026-01-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/subterranea/SanFrancesco.html</loc>
-      <lastmod>2026-01-20</lastmod>
+      <loc>https://www.showcaves.com/english/other/subterranea/SanFrancesco.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27316,13 +27306,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SanGiovanni.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/it/showcaves/SanGiovanni.html</loc>
+      <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/showcaves/SanGiovanni.html</loc>
-      <lastmod>2026-04-17</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/SanGiovanni.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27331,13 +27321,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/es/subterranea/SanIgnacio.html</loc>
-      <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/ar/subterranea/SanIgnacioLoyola.html</loc>
+      <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ar/subterranea/SanIgnacioLoyola.html</loc>
-    <lastmod>2026-02-22</lastmod>
+      <loc>https://www.showcaves.com/english/es/subterranea/SanIgnacio.html</loc>
+      <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27401,38 +27391,38 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/caves/SanMicheleCampagna.html</loc>
-      <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleMinervinoMurge.html</loc>
+      <lastmod>2025-12-31</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
-        <loc>https://www.showcaves.com/english/it/caves/SanMicheleMonticchio.html</loc>
+        <loc>https://www.showcaves.com/english/it/caves/SanMicheleArcangeloTancia.html</loc>
         <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/it/caves/SanMicheleArcangeloTancia.html</loc>
-    <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/it/caves/SanMicheleMinervinoMurge.html</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/it/caves/SanMicheleGualana.html</loc>
-    <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/it/caves/SanMicheleLamaDeiPeligni.html</loc>
-    <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.showcaves.com/english/it/caves/SanMicheleArcangelo.html</loc>
       <lastmod>2026-02-23</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleCampagna.html</loc>
+      <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleRaviscanina.html</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleGualana.html</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleGravina.html</loc>
+      <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27446,11 +27436,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/caves/SanMicheleFasanella.html</loc>
-    <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
       <loc>https://www.showcaves.com/english/it/caves/SanMichele.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -27461,17 +27446,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/it/caves/SanMicheleGravina.html</loc>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleMonticchio.html</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleFasanella.html</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SanMicheleLamaDeiPeligni.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.showcaves.com/english/it/caves/SanMicheleFaicchio.html</loc>
-    <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/it/caves/SanMicheleRaviscanina.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -27501,23 +27491,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/es/subterranea/SanPedro.html</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://www.showcaves.com/english/other/showcaves/SanPedro.html</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SanPietroBarisanoResidence.html</loc>
-    <lastmod>2026-02-20</lastmod>
+      <loc>https://www.showcaves.com/english/es/subterranea/SanPedro.html</loc>
+      <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/it/subterranea/SanPietroBarisano.html</loc>
     <lastmod>2025-12-31</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/it/subterranea/SanPietroBarisanoResidence.html</loc>
+        <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27531,13 +27521,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SanSebastiano.html</loc>
-    <lastmod>2026-04-27</lastmod>
+      <loc>https://www.showcaves.com/english/mx/showcaves/SanSebastian.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/mx/showcaves/SanSebastian.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/SanSebastiano.html</loc>
+      <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27551,13 +27541,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SantaBarbara.html</loc>
-    <lastmod>2026-02-12</lastmod>
+      <loc>https://www.showcaves.com/english/it/showcaves/SantaBarbara.html</loc>
+      <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/showcaves/SantaBarbara.html</loc>
-    <lastmod>2026-04-12</lastmod>
+      <loc>https://www.showcaves.com/english/it/subterranea/SantaBarbara.html</loc>
+      <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27606,22 +27596,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SantaLuciaMalve.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/SantaLucia.html</loc>
+      <lastmod>2026-02-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/subterranea/SantaLuciaMalve.html</loc>
+      <lastmod>2025-12-31</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SantaMariaNova.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SantaLucia.html</loc>
-    <lastmod>2026-02-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/it/subterranea/SantaMariaIdris.html</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/it/caves/SantaMariaNova.html</loc>
+      <loc>https://www.showcaves.com/english/it/subterranea/SantaMariaIdris.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -27646,32 +27636,27 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/caves/SantAngeloPalombaro.html</loc>
+      <loc>https://www.showcaves.com/english/it/caves/SantAngeloLeRipe.html</loc>
+      <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/it/caves/SantAngeloBominaco.html</loc>
+      <lastmod>2025-08-16</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/it/caves/SantAngeloBalsorano.html</loc>
     <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
       <loc>https://www.showcaves.com/english/it/caves/SantAngeloMuxaro.html</loc>
       <lastmod>2025-10-13</lastmod>
-      <changefreq>monthly</changefreq>
-  </url>
-    <url>
-        <loc>https://www.showcaves.com/english/it/caves/SantAngeloVetulis.html</loc>
-    <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/it/caves/SantAngeloLeRipe.html</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/it/caves/SantAngeloBominaco.html</loc>
-      <lastmod>2025-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-      <loc>https://www.showcaves.com/english/it/caves/SantAngeloBalsorano.html</loc>
+      <loc>https://www.showcaves.com/english/it/caves/SantAngeloVetulis.html</loc>
       <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -27681,6 +27666,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+      <loc>https://www.showcaves.com/english/it/caves/SantAngeloPalombaro.html</loc>
+      <lastmod>2026-02-12</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
     <loc>https://www.showcaves.com/english/it/caves/SantaNinfa.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -27696,23 +27686,23 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/br/caves/SantaRita.html</loc>
-      <lastmod>2025-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
       <loc>https://www.showcaves.com/english/br/mines/SantaRita.html</loc>
       <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/other/caves/SantaRosa.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/br/caves/SantaRita.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/karst/SantaRosa.html</loc>
     <lastmod>2025-10-13</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/other/caves/SantaRosa.html</loc>
+        <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -27791,13 +27781,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/cu/showcaves/SantoTomas.html</loc>
-      <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/other/caves/SantoTomas.html</loc>
+      <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/other/caves/SantoTomas.html</loc>
-    <lastmod>2025-10-13</lastmod>
+      <loc>https://www.showcaves.com/english/cu/showcaves/SantoTomas.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -28072,7 +28062,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Schauinsland.html</loc>
-    <lastmod>2026-03-10</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -28357,7 +28347,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/SegenGottesErbstolln.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -28602,7 +28592,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/other/subterranea/ShakpakAta.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -28772,7 +28762,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/other/subterranea/ShopanAta.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-14</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -28902,7 +28892,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Siegen.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -28916,13 +28906,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ph/caves/Sierra.html</loc>
-      <lastmod>2025-08-17</lastmod>
+      <loc>https://www.showcaves.com/english/usa/mines/Sierra.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/mines/Sierra.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/ph/caves/Sierra.html</loc>
+      <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -29172,7 +29162,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/si/showcaves/Skocjanske.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -29272,7 +29262,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/gb/showcaves/Smoo.html</loc>
-    <lastmod>2026-02-14</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -29351,13 +29341,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ph/showcaves/Sohoton.html</loc>
-      <lastmod>2026-05-20</lastmod>
+      <loc>https://www.showcaves.com/english/ph/karst/SohotonNaturalBridge.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ph/karst/SohotonNaturalBridge.html</loc>
-      <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/ph/showcaves/Sohoton.html</loc>
+      <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -29451,13 +29441,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/subterranea/Sonora.html</loc>
-      <lastmod>2026-01-18</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Sonora.html</loc>
+      <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/Sonora.html</loc>
-      <lastmod>2026-02-16</lastmod>
+      <loc>https://www.showcaves.com/english/usa/subterranea/Sonora.html</loc>
+      <lastmod>2026-01-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -29817,7 +29807,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/StAnnaFundgrube.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -30251,13 +30241,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/gorges/Subway.html</loc>
-      <lastmod>2026-04-12</lastmod>
+      <loc>https://www.showcaves.com/english/usa/caves/Subway.html</loc>
+      <lastmod>2026-03-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/caves/Subway.html</loc>
-      <lastmod>2026-03-01</lastmod>
+      <loc>https://www.showcaves.com/english/usa/gorges/Subway.html</loc>
+      <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -30317,7 +30307,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/other/subterranea/SultanEpe.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -30796,12 +30786,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/nz/caves/Taniwha.html</loc>
+      <loc>https://www.showcaves.com/english/nz/subterranea/Taniwha.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/nz/subterranea/Taniwha.html</loc>
+      <loc>https://www.showcaves.com/english/nz/caves/Taniwha.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -31226,13 +31216,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/showcaves/Teufels.html</loc>
-    <lastmod>2026-02-20</lastmod>
+      <loc>https://www.showcaves.com/english/ch/gorges/Teufels.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/ch/gorges/Teufels.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/de/showcaves/Teufels.html</loc>
+      <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -31532,7 +31522,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/TieferMolchner.html</loc>
-    <lastmod>2026-02-20</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -31746,8 +31736,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/ba/subterranea/Tito.html</loc>
-      <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/me/caves/Tito.html</loc>
+      <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -31756,8 +31746,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/me/caves/Tito.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <loc>https://www.showcaves.com/english/ba/subterranea/Tito.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -32062,7 +32052,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/ba/karst/Trebisnjica.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -32147,7 +32137,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/english/other/caves/Troisieme.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -32336,13 +32326,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/showcaves/Tunnel.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/se/caves/Tunnel.html</loc>
+      <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/se/caves/Tunnel.html</loc>
-      <lastmod>2026-02-13</lastmod>
+      <loc>https://www.showcaves.com/english/fr/showcaves/Tunnel.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -32641,27 +32631,22 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundMotel.html</loc>
-      <lastmod>2026-02-04</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://www.showcaves.com/english/usa/mines/Underground.html</loc>
     <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundHospital.html</loc>
+      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundChurch.html</loc>
       <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundPotteries.html</loc>
+      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundHospital.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundChurch.html</loc>
+      <loc>https://www.showcaves.com/english/usa/subterranea/UndergroundHouse.html</loc>
     <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -32671,8 +32656,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/subterranea/UndergroundHouse.html</loc>
+      <loc>https://www.showcaves.com/english/au/subterranea/UndergroundPotteries.html</loc>
       <lastmod>2025-12-31</lastmod>
+      <changefreq>monthly</changefreq>
+  </url>
+    <url>
+        <loc>https://www.showcaves.com/english/au/subterranea/UndergroundMotel.html</loc>
+        <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -32727,7 +32717,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/english/de/mines/UnverhofftSegenGottes.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-09</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -32876,13 +32866,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/co/caves/Vaca.html</loc>
-    <lastmod>2026-02-21</lastmod>
+      <loc>https://www.showcaves.com/english/cu/showcaves/Vaca.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/cu/showcaves/Vaca.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/co/caves/Vaca.html</loc>
+      <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -33327,7 +33317,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Vestenburger.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -33371,8 +33361,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/es/mines/Victoria.html</loc>
-    <lastmod>2026-04-14</lastmod>
+      <loc>https://www.showcaves.com/english/gb/subterranea/Victoria.html</loc>
+      <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -33381,8 +33371,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/gb/subterranea/Victoria.html</loc>
-      <lastmod>2026-04-13</lastmod>
+      <loc>https://www.showcaves.com/english/es/mines/Victoria.html</loc>
+      <lastmod>2026-04-14</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -33721,13 +33711,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/mk/showcaves/Vrelo.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <loc>https://www.showcaves.com/english/hr/showcaves/Vrelo.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/hr/showcaves/Vrelo.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/mk/showcaves/Vrelo.html</loc>
+      <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34026,13 +34016,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/caves/Weathercote.html</loc>
-    <lastmod>2026-04-16</lastmod>
+      <loc>https://www.showcaves.com/english/gb/caves/WeathercoteLangdale.html</loc>
+      <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/gb/caves/WeathercoteLangdale.html</loc>
-    <lastmod>2026-02-14</lastmod>
+      <loc>https://www.showcaves.com/english/gb/caves/Weathercote.html</loc>
+      <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34071,12 +34061,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/mines/Weilburg.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/Weilburg.html</loc>
       <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/subterranea/Weilburg.html</loc>
+      <loc>https://www.showcaves.com/english/de/mines/Weilburg.html</loc>
       <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -34106,13 +34096,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/fr/subterranea/Wellington.html</loc>
-      <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/au/showcaves/Wellington.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/showcaves/Wellington.html</loc>
-      <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/fr/subterranea/Wellington.html</loc>
+      <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34186,8 +34176,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumPirmasens.html</loc>
-      <lastmod>2026-02-20</lastmod>
+      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumSinz.html</loc>
+      <lastmod>2026-02-23</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -34196,8 +34186,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumBadBergzabern.html</loc>
-    <lastmod>2025-12-31</lastmod>
+      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumPirmasens.html</loc>
+      <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34206,17 +34196,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumWiltingen.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumMettlach.html</loc>
       <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumMettlach.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumBadBergzabern.html</loc>
+      <lastmod>2025-12-31</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumSinz.html</loc>
+      <loc>https://www.showcaves.com/english/de/subterranea/WestwallmuseumWiltingen.html</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>monthly</changefreq>
   </url>
@@ -34251,13 +34241,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/au/subterranea/WhiteCliffs.html</loc>
-      <lastmod>2026-02-04</lastmod>
+      <loc>https://www.showcaves.com/english/usa/caves/WhiteCliff.html</loc>
+      <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/caves/WhiteCliff.html</loc>
-      <lastmod>2026-02-15</lastmod>
+      <loc>https://www.showcaves.com/english/au/subterranea/WhiteCliffs.html</loc>
+      <lastmod>2026-02-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34337,7 +34327,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/Wilhelmslust.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34366,13 +34356,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/caves/WindHouseRock.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Wind.html</loc>
+      <lastmod>2026-01-22</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/usa/showcaves/Wind.html</loc>
-      <lastmod>2026-01-22</lastmod>
+      <loc>https://www.showcaves.com/english/usa/caves/WindHouseRock.html</loc>
+      <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34491,13 +34481,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-      <loc>https://www.showcaves.com/english/lu/gorges/WolfsschluchtEchternach.html</loc>
-      <lastmod>2026-04-25</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.showcaves.com/english/de/gorges/WolfsschluchtHohnstein.html</loc>
-    <lastmod>2026-04-25</lastmod>
+      <loc>https://www.showcaves.com/english/de/gorges/WolfsschluchtZwingenberg.html</loc>
+      <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34506,8 +34491,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/de/gorges/WolfsschluchtZwingenberg.html</loc>
-    <lastmod>2026-05-11</lastmod>
+      <loc>https://www.showcaves.com/english/lu/gorges/WolfsschluchtEchternach.html</loc>
+      <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+      <loc>https://www.showcaves.com/english/de/gorges/WolfsschluchtHohnstein.html</loc>
+      <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -34541,13 +34531,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/showcaves/WonderlandAR.html</loc>
-    <lastmod>2026-02-20</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/Wonderland.html</loc>
+      <lastmod>2026-01-21</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://www.showcaves.com/english/usa/showcaves/Wonderland.html</loc>
-    <lastmod>2026-01-21</lastmod>
+      <loc>https://www.showcaves.com/english/usa/showcaves/WonderlandAR.html</loc>
+      <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -36507,7 +36497,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/FGGesellschaft.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -36562,7 +36552,7 @@
   </url>
     <url>
         <loc>https://www.showcaves.com/german/de/mines/Freital.html</loc>
-        <lastmod>1970-01-01</lastmod>
+        <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -36667,7 +36657,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/Gersdorf.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -37762,7 +37752,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/MarkusSemmler.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -38302,7 +38292,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/ReichenbachStolln.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -38882,7 +38872,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/TieferMolchner.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -38982,7 +38972,7 @@
   </url>
   <url>
       <loc>https://www.showcaves.com/german/de/mines/UnverhofftSegenGottes.html</loc>
-      <lastmod>1970-01-01</lastmod>
+      <lastmod>2026-07-09</lastmod>
       <changefreq>monthly</changefreq>
   </url>
     <url>
@@ -39022,7 +39012,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/Vestenburger.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -39937,7 +39927,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/at/topics/closed.html</loc>
-    <lastmod>2026-06-07</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -40012,7 +40002,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/au/region/ByRegion.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -40032,7 +40022,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/au/region/index.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -41237,7 +41227,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/car/region/BritishWestIndies.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -41257,7 +41247,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/car/region/index.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42077,7 +42067,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/Countries.html</loc>
-    <lastmod>2025-10-17</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42707,7 +42697,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/mines/index.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42747,7 +42737,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/region/ByRegion.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42762,7 +42752,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/region/Erzgebirge.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42922,7 +42912,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/region/Vogtland.html</loc>
-    <lastmod>2025-12-21</lastmod>
+      <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42952,7 +42942,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/topics/closed.html</loc>
-      <lastmod>2026-06-12</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42967,7 +42957,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/topics/Mogelpackungen.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -42987,7 +42977,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/de/topics/Wismut.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -43047,7 +43037,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/dk/region/ByRegion.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -43057,7 +43047,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/dk/region/index.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -44257,7 +44247,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Books/pg.html</loc>
-    <lastmod>2026-01-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -44602,12 +44592,12 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Hierarchy/Africa.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Hierarchy/Asia.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -44637,7 +44627,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Hierarchy/Oceania.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -44847,32 +44837,32 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/All.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/AllByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Caves.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/CavesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Gorges.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/GorgesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -44882,62 +44872,62 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Karst.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/KarstByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Mines.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/MinesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Search.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Showcaves.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/ShowcavesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Springs.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/SpringsByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Statistics.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/Subterranea.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Index/SubterraneaByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -45842,7 +45832,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Maps/index.html</loc>
-    <lastmod>2025-08-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -46032,7 +46022,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Misc/LostCaves.html</loc>
-    <lastmod>2025-08-17</lastmod>
+      <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -46437,7 +46427,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Resources/Tungsten.html</loc>
-    <lastmod>2026-02-04</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -46462,7 +46452,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Speleology/Blister.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -47257,7 +47247,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Topic/CaveTrekking.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -47337,7 +47327,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/explain/Topic/SWHL.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -47492,7 +47482,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/fr/caves/index.html</loc>
-    <lastmod>2025-08-07</lastmod>
+      <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -47677,7 +47667,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/fr/region/ByRegion.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -47757,7 +47747,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/fr/region/Lorraine.html</loc>
-    <lastmod>2025-08-16</lastmod>
+      <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -47857,7 +47847,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/fr/subterranea/index.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -49962,7 +49952,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/is/gorges/index.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -49997,7 +49987,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/is/region/ByRegion.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -50022,7 +50012,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/is/region/Sudurland.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -50317,7 +50307,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/it/topics/DomusDeJanas.html</loc>
-    <lastmod>2026-02-13</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -50432,7 +50422,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/Jochen.html</loc>
-    <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -52432,7 +52422,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/nl/region/ByRegion.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53047,7 +53037,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/caves/index.html</loc>
-    <lastmod>2025-10-18</lastmod>
+      <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53082,7 +53072,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/Africa.html</loc>
-    <lastmod>2025-12-30</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53092,7 +53082,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/Asia.html</loc>
-    <lastmod>2025-08-17</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53147,7 +53137,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/ByContinent.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53202,7 +53192,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/Europe.html</loc>
-    <lastmod>2026-01-08</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53217,7 +53207,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/grouped.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53232,12 +53222,12 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/index.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/iq.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53332,7 +53322,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/MiddleAmerica.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53342,7 +53332,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/MiddleEast.html</loc>
-    <lastmod>2026-02-07</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53412,7 +53402,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/nc.html</loc>
-    <lastmod>2025-08-26</lastmod>
+      <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53442,7 +53432,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/Oceania.html</loc>
-    <lastmod>2025-08-26</lastmod>
+      <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53512,7 +53502,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/region/SouthAmerica.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53607,7 +53597,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/showcaves/index.html</loc>
-    <lastmod>2026-02-07</lastmod>
+      <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -53617,7 +53607,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/other/subterranea/index.html</loc>
-    <lastmod>2026-01-08</lastmod>
+      <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -55982,7 +55972,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/region/ByRegion.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56067,7 +56057,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/region/index.html</loc>
-    <lastmod>2025-07-29</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56177,7 +56167,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/region/ok.html</loc>
-    <lastmod>2026-02-06</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56242,7 +56232,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/region/wv.html</loc>
-    <lastmod>2026-02-23</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56262,7 +56252,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/english/usa/subterranea/index.html</loc>
-    <lastmod>2026-04-05</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56827,7 +56817,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/Countries.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56942,7 +56932,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/mines/index.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56982,7 +56972,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/region/ByRegion.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56997,7 +56987,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/region/Erzgebirge.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57157,7 +57147,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/region/Vogtland.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57187,7 +57177,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/topics/closed.html</loc>
-      <lastmod>2026-06-12</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57202,7 +57192,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/topics/Mogelpackungen.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57222,7 +57212,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/de/topics/Wismut.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57732,7 +57722,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Hierarchy/Asia.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57952,32 +57942,32 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/All.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/AllByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Caves.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/CavesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Gorges.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/GorgesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -57987,62 +57977,62 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Karst.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/KarstByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Mines.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/MinesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Search.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Showcaves.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/ShowcavesByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Springs.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/SpringsByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Statistics.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/Subterranea.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Index/SubterraneaByCountry.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -58872,7 +58862,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Maps/Asia.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -58882,7 +58872,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Maps/index.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -59477,7 +59467,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Resources/Tungsten.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -59502,7 +59492,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Speleology/Blister.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -60292,7 +60282,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Topic/CaveTrekking.html</loc>
-    <lastmod>2026-04-15</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -60367,7 +60357,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/explain/Topic/SWHL.html</loc>
-      <lastmod>2026-06-26</lastmod>
+      <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -60402,7 +60392,7 @@
   </url>
   <url>
     <loc>https://www.showcaves.com/german/Jochen.html</loc>
-    <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

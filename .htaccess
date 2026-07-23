@@ -276,6 +276,8 @@ Redirect 301 /german/explain/Mines/Fluorite.html /german/explain/Resources/Fluor
 Redirect 301 /german/explain/Mines/Lead.html /german/explain/Resources/Lead.html
 Redirect 301 /german/gr/karst/KatavothresExplain.html /german/explain/Karst/Katavothres.html
 Redirect 301 /english/fr/subterranea/AuxVieuxLogis.html /errors/Deleted.html
+Redirect 301 /english/es/mines/LaSalina.html /english/es/mines/Cardona.html
+Redirect 301 /english/es/mines/MonDeSal.html /english/es/mines/Cardona.html
 
 #Redirect 301 /english/gt/caves/Uaxactun.html /errors/Deleted.html
 
