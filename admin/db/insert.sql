@@ -12,3 +12,12 @@ UPDATE `sights`
 SET `Latitude`='6.643436',
     `Longitude`='100.204590'
 WHERE `filename` = '/english/my/showcaves/Kelam2.html';
+UPDATE `sights`
+SET `Latitude`='50.979949',
+    `Longitude`='14.103174'
+WHERE `filename` = '/english/de/gorges/WolfsschluchtHohnstein.html';
+UPDATE `sights`
+SET `Latitude`='19.7206467',
+    `Longitude`='-79.8205946'
+WHERE `filename` = '/english/car/caves/Skull.html';
+
