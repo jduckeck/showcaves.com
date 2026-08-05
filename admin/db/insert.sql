@@ -20,4 +20,6 @@ UPDATE `sights`
 SET `Latitude`='19.7206467',
     `Longitude`='-79.8205946'
 WHERE `filename` = '/english/car/caves/Skull.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Lapiaz de los Lanchares', '/english/es/karst/LosLanchares.html', 'LosLanchares', 'Europe', 'es', 'Spain', 'karst', 'Andalucia', 37.462275, -4.352565);
 
