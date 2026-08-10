@@ -26,4 +26,14 @@ UPDATE `sights`
 SET `Latitude`='49.730993',
     `Longitude`='-114.885436'
 WHERE `filename` = '/english/ca/mines/Sparwood.html';
+UPDATE `sights`
+SET `Latitude`='42.532902',
+    `Longitude`='-111.726161'
+WHERE `filename` = '/english/usa/caves/NiterIce.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'The Lost Close', '/english/gb/subterranea/LostClose.html', 'LostClose', 'Europe', 'gb', 'Great Britain', 'subterranea', 'Edinburgh', 55.9493369, -3.1897606);
+UPDATE `sights`
+SET `Latitude`='43.166509',
+    `Longitude`='-114.340784'
+WHERE `filename` = '/english/usa/showcaves/Shoshone.html';
 
