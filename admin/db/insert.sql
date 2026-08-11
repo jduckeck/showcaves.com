@@ -36,4 +36,6 @@ UPDATE `sights`
 SET `Latitude`='43.166509',
     `Longitude`='-114.340784'
 WHERE `filename` = '/english/usa/showcaves/Shoshone.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotta di Sant'Angelo in Criptis', '/english/it/showcaves/SantAngeloSanteramo.html', 'SantAngeloSanteramo', 'Europe', 'it', 'Italy', 'showcaves', 'Puglia', 40.8248662, 16.7037077);
 
