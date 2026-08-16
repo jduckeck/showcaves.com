@@ -38,4 +38,6 @@ SET `Latitude`='43.166509',
 WHERE `filename` = '/english/usa/showcaves/Shoshone.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotta di Sant’Angelo in Criptis', '/english/it/showcaves/SantAngeloSanteramo.html', 'SantAngeloSanteramo', 'Europe', 'it', 'Italy', 'showcaves', 'Puglia', 40.8248662, 16.7037077);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Cave Historique des Hospices de Strasbourg', '/english/fr/subterranea/HospicesStrasbourg.html', 'HospicesStrasbourg', 'Europe', 'fr', 'France', 'subterranea', 'Alsace', 48.5768047, 7.7484171);
 
