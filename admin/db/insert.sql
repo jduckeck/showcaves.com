@@ -8,3 +8,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte Sainte-Reine', '/english/fr/caves/SainteReine.html', 'SainteReine', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.6451680, 5.9422403);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Erlebnisbergwerk Nuttlar', '/english/de/mines/Nuttlar.html', 'Nuttlar', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.3670460, 8.4310454);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Krähenbergstollen', '/english/de/mines/Kraehenberg.html', 'Kraehenberg', 'Europe', 'de', 'Germany', 'mines', 'Sauerland', 51.285816, 8.021079);
