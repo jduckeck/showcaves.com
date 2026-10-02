@@ -8,3 +8,17 @@ INSERT INTO static (path)
 VALUES ('/german/explain/Topic/AI.html');
 INSERT INTO static (path)
 VALUES ('/english/explain/Topic/AI.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte de Danne', '/english/fr/caves/Danne.html', 'Danne', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.7491167, 7.2896649);
+UPDATE `sights`
+SET `Latitude`='46.6133485',
+    `Longitude`='8.0464614'
+WHERE `filename` = '/english/ch/gorges/Gletscher.html';
+UPDATE `sights`
+SET `Latitude`='46.6783882',
+    `Longitude`='8.1554308'
+WHERE `filename` = '/english/ch/gorges/Rosenlaui.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte des Francs-Tireurs', '/english/fr/caves/FrancsTireurs.html', 'FrancsTireurs', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.6923384, 7.2599828);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte de l’Ermite', '/english/fr/caves/Ermite.html', 'Ermite', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.166638, 6.720653);
