@@ -22,3 +22,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte des Francs-Tireurs', '/english/fr/caves/FrancsTireurs.html', 'FrancsTireurs', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.6923384, 7.2599828);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte de l’Ermite', '/english/fr/caves/Ermite.html', 'Ermite', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.166638, 6.720653);
+UPDATE `sights`
+SET `Latitude`='49.2224932',
+    `Longitude`='7.0279479'
+WHERE `filename` = '/english/de/subterranea/Halberg.html';
