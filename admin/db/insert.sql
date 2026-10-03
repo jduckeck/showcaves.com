@@ -26,3 +26,7 @@ UPDATE `sights`
 SET `Latitude`='49.2224932',
     `Longitude`='7.0279479'
 WHERE `filename` = '/english/de/subterranea/Halberg.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte des Poilus', '/english/fr/caves/Poilus.html', 'Poilus', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.4837085, 6.9487234);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte Saint-Léon', '/english/fr/caves/SaintLeon.html', 'SaintLeon', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.6422586, 7.1468412);
