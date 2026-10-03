@@ -30,3 +30,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte des Poilus', '/english/fr/caves/Poilus.html', 'Poilus', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.4837085, 6.9487234);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte Saint-Léon', '/english/fr/caves/SaintLeon.html', 'SaintLeon', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.6422586, 7.1468412);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Grotte Notre-Dame d’Algrange', '/english/fr/subterranea/NotreDameAlgrange.html', 'NotreDameAlgrange', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3596708, 6.0419203);
