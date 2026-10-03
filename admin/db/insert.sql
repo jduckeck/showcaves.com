@@ -32,3 +32,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte Saint-Léon', '/english/fr/caves/SaintLeon.html', 'SaintLeon', 'Europe', 'fr', 'France', 'caves', 'Lorraine', 48.6422586, 7.1468412);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Grotte Notre-Dame d’Algrange', '/english/fr/subterranea/NotreDameAlgrange.html', 'NotreDameAlgrange', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3596708, 6.0419203);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bunker WH 316', '/english/de/subterranea/WH316.html', 'WH316', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.2188036, 7.0323648);
