@@ -34,3 +34,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Grotte Notre-Dame d’Algrange', '/english/fr/subterranea/NotreDameAlgrange.html', 'NotreDameAlgrange', 'Europe', 'fr', 'France', 'subterranea', 'Lorraine', 49.3596708, 6.0419203);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bunker WH 316', '/english/de/subterranea/WH316.html', 'WH316', 'Europe', 'de', 'Germany', 'subterranea', 'Saarland', 49.2188036, 7.0323648);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Abraumförderbrücke F60', '/english/de/mines/F60.html', 'F60', 'Europe', 'de', 'Germany', 'mines', 'Norddeutschland', 51.587301, 13.778575);
+UPDATE `sights`
+SET `Latitude`='12.799365',
+    `Longitude`='77.491360'
+WHERE `filename` = '/english/in/subterranea/Guhantara.html';
