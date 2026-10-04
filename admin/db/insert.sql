@@ -44,3 +44,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Trainingsbergwerk Recklinghausen', '/english/de/mines/Recklinghausen.html', 'Recklinghausen', 'Europe', 'de', 'Germany', 'mines', 'Ruhrgebiet', 51.5618381, 7.1818468);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Oberer Rother Adler', '/english/de/mines/ObererRotherAdler.html', 'ObererRotherAdler', 'Europe', 'de', 'Germany', 'mines', 'Erzgebirge', 50.472194, 12.813306);
+UPDATE `sights`
+SET `Latitude`='59.3711457',
+    `Longitude`='8.0330993'
+WHERE `filename` = '/english/no/mines/AmdalsVerk.html';
