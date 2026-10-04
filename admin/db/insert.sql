@@ -40,3 +40,5 @@ UPDATE `sights`
 SET `Latitude`='12.799365',
     `Longitude`='77.491360'
 WHERE `filename` = '/english/in/subterranea/Guhantara.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Trainingsbergwerk Recklinghausen', '/english/de/mines/Recklinghausen.html', 'Recklinghausen', 'Europe', 'de', 'Germany', 'mines', 'Ruhrgebiet', 51.5618381, 7.1818468);
