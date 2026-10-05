@@ -50,3 +50,7 @@ SET `Latitude`='59.3711457',
 WHERE `filename` = '/english/no/mines/AmdalsVerk.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Happy Jack Peak and Chalk Mine', '/english/usa/mines/HappyJack.html', 'HappyJack', 'NorthAmerica', 'us', 'United States of America', 'mines', 'ne', 41.441560, -98.707255);
+UPDATE `sights`
+SET `Latitude`='42.714598',
+    `Longitude`='-119.865582'
+WHERE `filename` = '/english/usa/mines/DustDevil.html';
