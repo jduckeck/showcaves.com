@@ -62,3 +62,5 @@ UPDATE `sights`
 SET `Latitude`='47.7266789',
     `Longitude`='16.6444421'
 WHERE `filename` = '/english/hu/subterranea/Fertorakos.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kronleuchtersaal', '/english/de/subterranea/Kronleuchtersaal.html', 'Kronleuchtersaal', 'Europe', 'de', 'Germany', 'subterranea', 'Koeln', 50.9506660, 6.9634420);
