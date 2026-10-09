@@ -50,6 +50,11 @@ remove referers from links
 
     <meta http-equiv="refresh" content="0; URL=https://www.showcaves.com/">
 
+-- filter orphan files
+
+^.*(00|/pd/|/images/|/historic/|/graphics/|/maps/|/entrance/|/\.|/foreign/|/admin/|/php/|/js/|/css/|/panorama/|/ai/|/leer/|/Index/|/errors/|index\.html).*$
+
+
 --- fix kml file
 
 1. delete header
