@@ -8,3 +8,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Deliktaş Mağarası', '/english/tr/caves/Deliktas.html', 'Deliktas', 'Europe', 'tr', 'Turkey', 'caves', 'Marmara', 40.105535, 28.862127);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'İncesu Mağarası', '/english/tr/showcaves/Incesu.html', 'Incesu', 'Europe', 'tr', 'Turkey', 'showcaves', 'CentralAnatolia', 37.0872031, 33.6633834);
+INSERT INTO static (path)
+VALUES ('/english/tr/topics/Hallucinations.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Maraspoli Mağarası', '/english/tr/showcaves/Maraspoli.html', 'Maraspoli', 'Europe', 'tr', 'Turkey', 'showcaves', 'CentralAnatolia', 36.641656, 32.892056);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kayaönü Mağarası', '/english/tr/caves/Kayaonu.html', 'Kayaonu', 'Europe', 'tr', 'Turkey', 'caves', 'CentralAnatolia', 36.6269306, 32.9835052);
