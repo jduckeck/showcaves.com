@@ -24,3 +24,7 @@ INSERT INTO static (path)
 VALUES ('/english/explain/Humor/Esoteric.html');
 INSERT INTO static (path)
 VALUES ('/german/explain/Humor/Esoteric.html');
+UPDATE `sights`
+SET `Latitude`='39.9436265',
+    `Longitude`='29.5905632'
+WHERE `filename` = '/english/tr/showcaves/Oylat.html';
