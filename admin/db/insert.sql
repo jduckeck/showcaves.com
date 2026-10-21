@@ -20,3 +20,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Gaziantep Sulu Mağara', '/english/tr/subterranea/SuluGaziantep.html', 'SuluGaziantep', 'Europe', 'tr', 'Turkey', 'subterranea', 'SoutheastAnatolia', 37.0552606, 37.3934832);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kaleoğlu Mağarası', '/english/tr/subterranea/Kaleoglu.html', 'Kaleoglu', 'Europe', 'tr', 'Turkey', 'subterranea', 'SoutheastAnatolia', 37.064032, 37.385120);
+INSERT INTO static (path)
+VALUES ('/english/explain/Humor/Esoteric.html');
+INSERT INTO static (path)
+VALUES ('/german/explain/Humor/Esoteric.html');

@@ -37,8 +37,10 @@
 
         <!--
         <a data-ajax="false" href="../../../english/explain/Biology/$FileName$.html"><img alt="Biology" class="symbol" src="../../../graphics/symbol/Biology.png">$CaveName$ (<i>$LatinName$</i>)</a>
-        -->
         <li><a data-ajax="false" href="../../../english/explain/Biology/$FileName$.html"><img alt="Biology" class="ui-li-icon ui-corner-none symbol" src="../../../graphics/symbol/Biology.png">$CaveName$ (<i>$LatinName$</i>)</a></li>
+        INSERT INTO static (path)
+        VALUES('/english/explain/Biology/$FileName$.html');
+        -->
 
         <h1 class="center">$CaveName$</h1>
         <h2 class="center"><i>$LatinName$</i></h2>
