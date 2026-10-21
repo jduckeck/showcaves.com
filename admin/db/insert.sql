@@ -14,3 +14,5 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Maraspoli Mağarası', '/english/tr/showcaves/Maraspoli.html', 'Maraspoli', 'Europe', 'tr', 'Turkey', 'showcaves', 'CentralAnatolia', 36.641656, 32.892056);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kayaönü Mağarası', '/english/tr/caves/Kayaonu.html', 'Kayaonu', 'Europe', 'tr', 'Turkey', 'caves', 'CentralAnatolia', 36.6269306, 32.9835052);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kırıkkale Keskin Sulu Mağara', '/english/tr/showcaves/SuluKeskin.html', 'SuluKeskin', 'Europe', 'tr', 'Turkey', 'showcaves', 'CentralAnatolia', 39.677102, 33.604905);
