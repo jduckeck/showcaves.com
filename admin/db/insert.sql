@@ -16,3 +16,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Kayaönü Mağarası', '/english/tr/caves/Kayaonu.html', 'Kayaonu', 'Europe', 'tr', 'Turkey', 'caves', 'CentralAnatolia', 36.6269306, 32.9835052);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Kırıkkale Keskin Sulu Mağara', '/english/tr/showcaves/SuluKeskin.html', 'SuluKeskin', 'Europe', 'tr', 'Turkey', 'showcaves', 'CentralAnatolia', 39.677102, 33.604905);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Gaziantep Sulu Mağara', '/english/tr/subterranea/SuluGaziantep.html', 'SuluGaziantep', 'Europe', 'tr', 'Turkey', 'subterranea', 'SoutheastAnatolia', 37.0552606, 37.3934832);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kaleoğlu Mağarası', '/english/tr/subterranea/Kaleoglu.html', 'Kaleoglu', 'Europe', 'tr', 'Turkey', 'subterranea', 'SoutheastAnatolia', 37.064032, 37.385120);
