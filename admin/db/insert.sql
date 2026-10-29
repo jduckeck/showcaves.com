@@ -6,3 +6,11 @@ SET `Latitude`='29.3680313',
 WHERE `filename` = '/english/cn/showcaves/HuanglongHunan.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude, closed)
 VALUES ('yes', 'Koonalda Cave', '/english/au/caves/Koonalda.html', 'Koonalda', 'Australia', 'au', 'Australia', 'caves', 'Nullarbor', -31.4043460, 129.8382583, 1);
+UPDATE `sights`
+SET `Latitude`='7.2199135',
+    `Longitude`='124.2419304'
+WHERE `filename` = '/english/ph/caves/Kutawato.html';
+UPDATE `sights`
+SET `Latitude`='29.32652',
+    `Longitude`='110.114871'
+WHERE `filename` = '/english/cn/showcaves/Jiutian.html';
