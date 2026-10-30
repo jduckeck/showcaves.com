@@ -14,3 +14,19 @@ UPDATE `sights`
 SET `Latitude`='29.32652',
     `Longitude`='110.114871'
 WHERE `filename` = '/english/cn/showcaves/Jiutian.html';
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/Serido.html');
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/QuartaColonia.html');
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Mina Brejuí', '/english/br/mines/Brejui.html', 'Brejui', 'SouthAmerica', 'br', 'Brazil', 'mines', 'RioGrandeNorte', -6.3226587, -36.5475444);
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/Araripe.html');
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/Caminhos.html');
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/CostoesLagunas.html');
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/Cacapava.html');
+INSERT INTO static (path)
+VALUES ('/english/br/geoparks/Uberaba.html');
