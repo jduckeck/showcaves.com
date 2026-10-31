@@ -30,3 +30,5 @@ INSERT INTO static (path)
 VALUES ('/english/br/geoparks/Cacapava.html');
 INSERT INTO static (path)
 VALUES ('/english/br/geoparks/Uberaba.html');
+INSERT INTO static (path)
+VALUES ('/english/cn/geoparks/Enshi.html');
