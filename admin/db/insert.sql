@@ -34,3 +34,9 @@ INSERT INTO static (path)
 VALUES ('/english/cn/geoparks/Enshi.html');
 INSERT INTO static (path)
 VALUES ('/english/cn/topics/Longest.html');
+UPDATE `sights`
+SET `Latitude`='30.3353891',
+    `Longitude`='108.9819851'
+WHERE `filename` = '/english/cn/showcaves/Tenglong.html';
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Ngabunat Cave', '/english/ke/caves/Ngabunat.html', 'Ngabunat', 'Africa', 'ke', 'Kenya', 'caves', 'Nandi', 0.116660, 35.306482);
