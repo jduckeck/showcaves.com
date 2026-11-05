@@ -42,3 +42,9 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Ngabunat Cave', '/english/ke/caves/Ngabunat.html', 'Ngabunat', 'Africa', 'ke', 'Kenya', 'caves', 'Nandi', 0.116660, 35.306482);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Bunski Kanal', '/english/ba/karst/BunskiKanal.html', 'Bunski', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'Federation', 43.2389744, 17.8333916);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vodopad Kravica', '/english/ba/karst/Kravica.html', 'Kravica', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'Federation', 43.1561473, 17.6078868);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Vodopad Koćuša', '/english/ba/karst/Kocusa.html', 'Kocusa', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'Federation', 43.2493423, 17.4522203);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Hangar Za Avione Mostar', '/english/ba/subterranea/Mostar.html', 'Mostar', 'Europe', 'ba', 'Bosnia and Herzegovina', 'subterranea', 'Federation', 43.2935412, 17.8472364);
