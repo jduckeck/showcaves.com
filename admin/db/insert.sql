@@ -40,3 +40,5 @@ SET `Latitude`='30.3353891',
 WHERE `filename` = '/english/cn/showcaves/Tenglong.html';
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Ngabunat Cave', '/english/ke/caves/Ngabunat.html', 'Ngabunat', 'Africa', 'ke', 'Kenya', 'caves', 'Nandi', 0.116660, 35.306482);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Bunski Kanal', '/english/ba/karst/BunskiKanal.html', 'Bunski', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'Federation', 43.2389744, 17.8333916);
