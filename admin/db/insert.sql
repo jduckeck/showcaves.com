@@ -48,3 +48,7 @@ INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, cou
 VALUES ('yes', 'Vodopad Koćuša', '/english/ba/karst/Kocusa.html', 'Kocusa', 'Europe', 'ba', 'Bosnia and Herzegovina', 'karst', 'Federation', 43.2493423, 17.4522203);
 INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
 VALUES ('yes', 'Hangar Za Avione Mostar', '/english/ba/subterranea/Mostar.html', 'Mostar', 'Europe', 'ba', 'Bosnia and Herzegovina', 'subterranea', 'Federation', 43.2935412, 17.8472364);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Aerodrom Željava', '/english/hr/subterranea/Zeljava.html', 'Zeljava', 'Europe', 'hr', 'Croatia', 'subterranea', 'Lika', 44.8364604, 15.7550362);
+INSERT INTO sights (visible, name, filename, sortby, continent, countrycode, country, category, region, Latitude, Longitude)
+VALUES ('yes', 'Kesselgrotte', '/english/de/caves/Kesselgrotte.html', 'Kesselgrotte', 'Europe', 'de', 'Germany', 'caves', 'KeuperLias', 48.8766916, 9.6001938);
