@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo start sedcall
 #find . -name '*.html' -type f -exec sed -i 's/, offizielle Website/, offizielle Website/g' {} +
 #find . -name '*.html' -type f -exec sed -i 's/(besucht: /(besucht: /g' {} +
 shopt -s globstar dotglob
